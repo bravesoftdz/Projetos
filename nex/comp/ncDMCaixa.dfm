@@ -435,6 +435,7 @@ object dmCaixa: TdmCaixa
     Top = 224
   end
   object tCaixa: TnxTable
+    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     OnCalcFields = tCaixaCalcFields
@@ -2626,7 +2627,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo11: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 3.779529999999994000
+          Top = 3.779530000000000000
           Width = 151.181200000000000000
           Height = 18.897650000000000000
           StretchMode = smActualHeight
@@ -3458,6 +3459,7 @@ object dmCaixa: TdmCaixa
     Top = 16
   end
   object tRepProd: TnxTable
+    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     TableName = 'Produto'
@@ -3578,6 +3580,7 @@ object dmCaixa: TdmCaixa
     Top = 80
   end
   object qRepTran: TnxQuery
+    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     OnCalcFields = qRepTranCalcFields
@@ -4431,7 +4434,7 @@ object dmCaixa: TdmCaixa
     PreviewOptions.Zoom = 1.000000000000000000
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
-    ReportOptions.CreateDate = 39015.443900231490000000
+    ReportOptions.CreateDate = 39015.443900231500000000
     ReportOptions.LastChange = 42530.615283078700000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
@@ -5404,7 +5407,7 @@ object dmCaixa: TdmCaixa
           Top = 2.779530000000000000
           Width = 272.126160000000000000
           Height = 18.897650000000000000
-          DataField = 'Meio'
+          DataField = 'NomeEsp'
           DataSet = frdbPagEsp
           DataSetName = 'dbMeioPag'
           Font.Charset = DEFAULT_CHARSET
@@ -5413,7 +5416,7 @@ object dmCaixa: TdmCaixa
           Font.Name = 'Arial'
           Font.Style = []
           Memo.UTF8W = (
-            '[dbMeioPag."Meio"]')
+            '[dbMeioPag."NomeEsp"]')
           ParentFont = False
           VAlign = vaCenter
         end
@@ -6009,6 +6012,7 @@ object dmCaixa: TdmCaixa
           Top = 26.456710000000000000
           Width = 162.519790000000000000
           Height = 22.677180000000000000
+          StretchMode = smActualHeight
           DataField = 'Descricao'
           DataSet = frdbTran
           DataSetName = 'frdbTran'
@@ -6735,6 +6739,7 @@ object dmCaixa: TdmCaixa
     end
   end
   object mtPagEsp: TkbmMemTable
+    Active = True
     DesignActivation = True
     AttachedAutoRefresh = True
     AttachMaxCount = 1
@@ -6771,6 +6776,10 @@ object dmCaixa: TdmCaixa
       item
         Name = 'Troco'
         DataType = ftCurrency
+      end
+      item
+        Name = 'Obs'
+        DataType = ftWideMemo
       end>
     IndexFieldNames = 'Especie'
     IndexName = 'mtPagEspIndex1'
