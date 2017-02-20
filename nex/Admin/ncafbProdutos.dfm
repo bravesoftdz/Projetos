@@ -452,6 +452,21 @@ inherited fbProdutos: TfbProdutos
                   DataBinding.FieldName = 'NCMDescr'
                   Width = 530
                 end
+                object TVprodCest: TcxGridDBColumn
+                  Caption = 'CEST'
+                  DataBinding.FieldName = 'cest'
+                  HeaderAlignmentHorz = taCenter
+                end
+                object TVprodPesoLiq: TcxGridDBColumn
+                  Caption = 'Peso L'#237'q.'
+                  DataBinding.FieldName = 'PesoLiq'
+                  HeaderAlignmentHorz = taCenter
+                end
+                object TVprodpesoBruto: TcxGridDBColumn
+                  Caption = 'Peso Bruto'
+                  DataBinding.FieldName = 'PesoBruto'
+                  HeaderAlignmentHorz = taCenter
+                end
                 object TVPrecoAuto: TcxGridDBColumn
                   DataBinding.FieldName = 'PrecoAuto'
                   Visible = False

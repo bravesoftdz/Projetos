@@ -194,7 +194,7 @@ implementation
 uses ncaDM, ncaFrmDoc, ncGuidUtils, ncaFrmPri, ncClassesBase, ncaDMComp,
   ncaDMorc, ufmImagens, ncaFrmRecursoPRO, ncaDMSyncDoc, ncVersionInfo,
   ncDMdanfe_NFCE, ncDMdanfe_SAT, uNexTransResourceStrings_PT, ncDMdanfe_nfe,
-  ncafbProdEst;
+  ncafbProdEst, ncaStrings;
   
 {$R *.dfm}
 
@@ -303,7 +303,7 @@ begin
     tDoc.Insert;
     TransfDados(tbDoc, tDoc);
     tDocCustom.Value := True;
-    tDocNome.Value := tDocNome.Value + ' (Personalizado)';
+    tDocNome.Value := tDocNome.Value + ' ('+rsPersonalizado+')';
     tDocUID.Value := TGuidEx.ToString(G);
     tDoc.Post;
     tbDoc.Locate('UID', TGuidEx.ToString(G), []);

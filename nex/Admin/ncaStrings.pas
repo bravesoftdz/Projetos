@@ -3,6 +3,7 @@ unit ncaStrings;
 interface
 
 resourcestring
+  rsPersonalizado = 'Personalizado';
   rsMes            = 'Mês';
   rsMigrarFree     = 'Migrar para o FREE';
   rsConfirmaMigrarFree = 'Deseja realmente migrar para o plano FREE?';

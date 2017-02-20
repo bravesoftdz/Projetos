@@ -229,6 +229,9 @@ type
     TVprodIncluidoEm: TcxGridDBColumn;
     TVprodAlteradoEm: TcxGridDBColumn;
     TVprodAlteradoPor: TcxGridDBColumn;
+    TVprodPesoLiq: TcxGridDBColumn;
+    TVprodpesoBruto: TcxGridDBColumn;
+    TVprodCest: TcxGridDBColumn;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);

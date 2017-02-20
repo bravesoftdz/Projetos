@@ -1249,8 +1249,8 @@ object FrmDocMgr: TFrmDocMgr
                 OptionsData.Editing = False
                 OptionsData.Inserting = False
                 OptionsSelection.CellSelect = False
-                OptionsSelection.HideFocusRectOnExit = False
                 OptionsSelection.MultiSelect = True
+                OptionsSelection.HideFocusRectOnExit = False
                 OptionsSelection.UnselectFocusedRecordOnExit = False
                 OptionsView.NoDataToDisplayInfoText = '.'
                 OptionsView.ScrollBars = ssVertical
@@ -1467,6 +1467,9 @@ object FrmDocMgr: TFrmDocMgr
     object tsParam: TcxTabSheet
       Caption = 'tsParam'
       ImageIndex = 1
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object panParam: TLMDSimplePanel
         Left = 0
         Top = 30
@@ -1515,6 +1518,8 @@ object FrmDocMgr: TFrmDocMgr
           Style.TextColor = clHighlight
           Style.TransparentBorder = False
           Style.IsFontAssigned = True
+          ExplicitWidth = 121
+          ExplicitHeight = 21
         end
         object lbParam1: TcxLabel
           Left = 0
@@ -1544,6 +1549,9 @@ object FrmDocMgr: TFrmDocMgr
     object tsPreview: TcxTabSheet
       Caption = 'tsPreview'
       ImageIndex = 2
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object panPreview: TLMDSimplePanel
         Left = 0
         Top = 30
@@ -1614,6 +1622,8 @@ object FrmDocMgr: TFrmDocMgr
           Style.TextColor = clHighlight
           Style.TransparentBorder = False
           Style.IsFontAssigned = True
+          ExplicitWidth = 121
+          ExplicitHeight = 21
         end
       end
     end
