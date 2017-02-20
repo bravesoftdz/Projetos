@@ -1765,7 +1765,6 @@ object FrmProduto: TFrmProduto
                 StyleHot.TextColor = clBlue
                 Properties.Alignment.Vert = taVCenter
                 OnClick = lbConfigComissaoClick
-                ExplicitLeft = 191
                 AnchorY = 16
               end
               object cxLabel8: TcxLabel
@@ -1775,7 +1774,6 @@ object FrmProduto: TFrmProduto
                 Caption = 'de comiss'#227'o.'
                 ParentFont = False
                 Properties.Alignment.Vert = taVCenter
-                ExplicitLeft = 238
                 AnchorY = 16
               end
             end
@@ -3750,7 +3748,7 @@ object FrmProduto: TFrmProduto
     StyleFocused.LookAndFeel.Kind = lfFlat
     StyleFocused.TextColor = clHotLight
     StyleHot.LookAndFeel.Kind = lfFlat
-    Left = 464
+    Left = 472
     Top = 216
     PixelsPerInch = 96
   end
