@@ -1,0 +1,84 @@
+unit Unit1;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxStyles, cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit,
+  cxNavigator, DB, cxDBData, dxmdaset, cxGridLevel, cxGridCustomTableView,
+  cxGridTableView, cxGridDBTableView, cxClasses, cxGridCustomView, cxGrid;
+
+type
+   TcxMyGridTablePainter = class(TcxGridTablePainter)
+   protected
+     procedure DrawBackground; override;
+   end;
+
+   TcxMyGridDBTableView = class(TcxGridDBTableView)
+   protected
+     function GetPainterClass: TcxCustomGridPainterClass; override;
+   end;
+
+  TcxGridDBTableView = class(TcxMyGridDBTableView);
+
+  TForm1 = class(TForm)
+    cxGrid1: TcxGrid;
+    cxGrid1DBTableView1: TcxGridDBTableView;
+    cxGrid1DBTableView1RecId: TcxGridDBColumn;
+    cxGrid1DBTableView1ID: TcxGridDBColumn;
+    cxGrid1DBTableView1Name: TcxGridDBColumn;
+    cxGrid1Level1: TcxGridLevel;
+    DataSource1: TDataSource;
+    dxMemData1: TdxMemData;
+    dxMemData1ID: TIntegerField;
+    dxMemData1Name: TStringField;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+{ TcxMyGridDBTableView }
+
+function TcxMyGridDBTableView.GetPainterClass: TcxCustomGridPainterClass;
+begin
+  Result := TcxMyGridTablePainter;
+end;
+
+{ TcxMyGridTablePainter }
+
+procedure TcxMyGridTablePainter.DrawBackground;
+var
+  AView: TcxGridDBTableView;
+  I, AWidth, AHeight: Integer;
+begin
+  AView := ViewInfo.GridView as TcxGridDBTableView;
+  AWidth := 0;
+  AHeight := 0;
+  inherited;
+
+  for I := 0 to AView.VisibleColumnCount - 1 do
+  begin
+   // AWidth := AWidth + AView.VisibleColumns[I].Width;
+    AWidth := AWidth + AView.ViewInfo.HeaderViewInfo.Items[I].Width;    
+    Canvas.MoveTo(AWidth - 1, 0);
+    Canvas.LineTo(AWidth - 1, TcxGrid(AView.Owner).Height);
+  end;
+
+{  while AHeight < TcxGrid(AView.Owner).Height do
+  begin
+    AHeight := AHeight + 18;
+    Canvas.MoveTo(0, AHeight - 1 );
+    Canvas.LineTo(AWidth - 1, AHeight - 1);
+  end;}
+end;
+
+end.

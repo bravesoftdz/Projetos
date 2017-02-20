@@ -1,0 +1,1118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmMaq.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmMaq.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7424768519</prop>
+        <prop prop-type="OrigDateTime">41740.4846296296</prop>
+        <prop prop-type="XlatDateTime">41740.4846296296</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">220</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmMaq.Left" resname="O:FrmMaq.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Top" resname="O:FrmMaq.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.BorderStyle" resname="O:FrmMaq.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Caption" resname="O:FrmMaq.Caption">
+        <source>'Propriedades da Máquina'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.ClientHeight" resname="O:FrmMaq.ClientHeight">
+        <source>336</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.ClientWidth" resname="O:FrmMaq.ClientWidth">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Color" resname="O:FrmMaq.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Font.Charset" resname="O:FrmMaq.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Font.Color" resname="O:FrmMaq.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Font.Height" resname="O:FrmMaq.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Font.Name" resname="O:FrmMaq.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Font.Style" resname="O:FrmMaq.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.OldCreateOrder" resname="O:FrmMaq.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.Position" resname="O:FrmMaq.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.OnCreate" resname="O:FrmMaq.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.PixelsPerInch" resname="O:FrmMaq.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.TextHeight" resname="O:FrmMaq.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmMaq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.Left" resname="O:FrmMaq.O:panPri.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.Top" resname="O:FrmMaq.O:panPri.Top">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.Width" resname="O:FrmMaq.O:panPri.Width">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.Height" resname="O:FrmMaq.O:panPri.Height">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.Align" resname="O:FrmMaq.O:panPri.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.BevelOuter" resname="O:FrmMaq.O:panPri.BevelOuter">
+        <source>bvNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.TabOrder" resname="O:FrmMaq.O:panPri.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TPanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.Left" resname="O:FrmMaq.O:panPri.O:cbEmManut.Left">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.Top" resname="O:FrmMaq.O:panPri.O:cbEmManut.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.Caption" resname="O:FrmMaq.O:panPri.O:cbEmManut.Caption">
+        <source>'Em Manutenção / Indisponível para uso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.Style.BorderStyle" resname="O:FrmMaq.O:panPri.O:cbEmManut.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbEmManut.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbEmManut.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbEmManut.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbEmManut.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.TabOrder" resname="O:FrmMaq.O:panPri.O:cbEmManut.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbEmManut.Width" resname="O:FrmMaq.O:panPri.O:cbEmManut.Width">
+        <source>214</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.Left" resname="O:FrmMaq.O:panPri.O:cxLabel2.Left">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.Top" resname="O:FrmMaq.O:panPri.O:cxLabel2.Top">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.Caption" resname="O:FrmMaq.O:panPri.O:cxLabel2.Caption">
+        <source>'Nome Alternativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel2.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel2.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel2.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel2.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel2.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.Left" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.Top" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.Top">
+        <source>111</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.Caption" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.Caption">
+        <source>'Tarifa Especial '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbTarifaEsp.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbTarifaEsp.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.Left" resname="O:FrmMaq.O:panPri.O:edNome.Left">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.Top" resname="O:FrmMaq.O:panPri.O:edNome.Top">
+        <source>47</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.Style.BorderStyle" resname="O:FrmMaq.O:panPri.O:edNome.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edNome.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edNome.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edNome.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edNome.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.TabOrder" resname="O:FrmMaq.O:panPri.O:edNome.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edNome.Width" resname="O:FrmMaq.O:panPri.O:edNome.Width">
+        <source>262</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Left" resname="O:FrmMaq.O:panPri.O:edTarifa.Left">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Top" resname="O:FrmMaq.O:panPri.O:edTarifa.Top">
+        <source>110</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.EditValue" resname="O:FrmMaq.O:panPri.O:edTarifa.EditValue">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Properties.ImmediatePost" resname="O:FrmMaq.O:panPri.O:edTarifa.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Properties.ImmediateUpdateText" resname="O:FrmMaq.O:panPri.O:edTarifa.Properties.ImmediateUpdateText">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Properties.Items[0].Description" resname="O:FrmMaq.O:panPri.O:edTarifa.Properties.Items[0].Description">
+        <source>'Sem tarifa especial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">C:TcxImageComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Properties.Items[0].ImageIndex" resname="O:FrmMaq.O:panPri.O:edTarifa.Properties.Items[0].ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">C:TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Properties.Items[0].Value" resname="O:FrmMaq.O:panPri.O:edTarifa.Properties.Items[0].Value">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">C:TcxImageComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Style.BorderStyle" resname="O:FrmMaq.O:panPri.O:edTarifa.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edTarifa.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edTarifa.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edTarifa.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edTarifa.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.TabOrder" resname="O:FrmMaq.O:panPri.O:edTarifa.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edTarifa.Width" resname="O:FrmMaq.O:panPri.O:edTarifa.Width">
+        <source>262</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxImageComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.Left" resname="O:FrmMaq.O:panPri.O:edObs.Left">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.Top" resname="O:FrmMaq.O:panPri.O:edObs.Top">
+        <source>181</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.Style.BorderStyle" resname="O:FrmMaq.O:panPri.O:edObs.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edObs.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edObs.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edObs.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edObs.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.TabOrder" resname="O:FrmMaq.O:panPri.O:edObs.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.Height" resname="O:FrmMaq.O:panPri.O:edObs.Height">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edObs.Width" resname="O:FrmMaq.O:panPri.O:edObs.Width">
+        <source>262</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.Left" resname="O:FrmMaq.O:panPri.O:cxLabel6.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.Top" resname="O:FrmMaq.O:panPri.O:cxLabel6.Top">
+        <source>182</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.Caption" resname="O:FrmMaq.O:panPri.O:cxLabel6.Caption">
+        <source>'Observações'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel6.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel6.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel6.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel6.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel6.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Left" resname="O:FrmMaq.O:panPri.O:cxLabel7.Left">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Top" resname="O:FrmMaq.O:panPri.O:cxLabel7.Top">
+        <source>74</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.AutoSize" resname="O:FrmMaq.O:panPri.O:cxLabel7.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Caption" resname="O:FrmMaq.O:panPri.O:cxLabel7.Caption">
+        <source>'Essa identificação adicional ajuda a diferenciar as máquinas quando o número apenas não é suficiente.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel7.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Style.TextColor" resname="O:FrmMaq.O:panPri.O:cxLabel7.Style.TextColor">
+        <source>4144959</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel7.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel7.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cxLabel7.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Properties.WordWrap" resname="O:FrmMaq.O:panPri.O:cxLabel7.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Height" resname="O:FrmMaq.O:panPri.O:cxLabel7.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cxLabel7.Width" resname="O:FrmMaq.O:panPri.O:cxLabel7.Width">
+        <source>262</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Left" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Top" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Top">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.AutoSize" resname="O:FrmMaq.O:panPri.O:lbURLLogin.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Caption" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Caption">
+        <source>'Página WEB para Fundo de Tela'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbURLLogin.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbURLLogin.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:lbURLLogin.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Properties.WordWrap" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Height" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:lbURLLogin.Width" resname="O:FrmMaq.O:panPri.O:lbURLLogin.Width">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Left" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Top" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Top">
+        <source>149</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Caption" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Caption">
+        <source>'Tocar aviso sonoro no caixa, ao terminar o tempo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Style.BorderStyle" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.TabOrder" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.TabOrder">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Width" resname="O:FrmMaq.O:panPri.O:cbAvisaFimTempo.Width">
+        <source>270</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.Left" resname="O:FrmMaq.O:panPri.O:edURLLogin.Left">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.Top" resname="O:FrmMaq.O:panPri.O:edURLLogin.Top">
+        <source>252</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.Style.BorderStyle" resname="O:FrmMaq.O:panPri.O:edURLLogin.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.Style.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edURLLogin.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edURLLogin.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edURLLogin.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:panPri.O:edURLLogin.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.TabOrder" resname="O:FrmMaq.O:panPri.O:edURLLogin.TabOrder">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:panPri.O:edURLLogin.Width" resname="O:FrmMaq.O:panPri.O:edURLLogin.Width">
+        <source>262</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Font.Charset" resname="O:FrmMaq.O:BarMgr.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Font.Color" resname="O:FrmMaq.O:BarMgr.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Font.Height" resname="O:FrmMaq.O:BarMgr.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Font.Name" resname="O:FrmMaq.O:BarMgr.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Font.Style" resname="O:FrmMaq.O:BarMgr.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.CanCustomize" resname="O:FrmMaq.O:BarMgr.CanCustomize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Categories.Strings[0]" resname="O:FrmMaq.O:BarMgr.Categories.Strings[0]">
+        <source>'Default'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Categories.ItemsVisibles[0]" resname="O:FrmMaq.O:BarMgr.Categories.ItemsVisibles[0]">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Categories.Visibles[0]" resname="O:FrmMaq.O:BarMgr.Categories.Visibles[0]">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.ImageOptions.Images" resname="O:FrmMaq.O:BarMgr.ImageOptions.Images">
+        <source>dmImagens.im16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.ImageOptions.LargeImages" resname="O:FrmMaq.O:BarMgr.ImageOptions.LargeImages">
+        <source>dmImagens.im24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.ImageOptions.MakeDisabledImagesFaded" resname="O:FrmMaq.O:BarMgr.ImageOptions.MakeDisabledImagesFaded">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.LookAndFeel.Kind" resname="O:FrmMaq.O:BarMgr.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.LookAndFeel.NativeStyle" resname="O:FrmMaq.O:BarMgr.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.PopupMenuLinks" resname="O:FrmMaq.O:BarMgr.PopupMenuLinks">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.SunkenBorder" resname="O:FrmMaq.O:BarMgr.SunkenBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.UseSystemFont" resname="O:FrmMaq.O:BarMgr.UseSystemFont">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Left" resname="O:FrmMaq.O:BarMgr.Left">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.Top" resname="O:FrmMaq.O:BarMgr.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.DockControlHeights[0]" resname="O:FrmMaq.O:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.DockControlHeights[1]" resname="O:FrmMaq.O:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.DockControlHeights[2]" resname="O:FrmMaq.O:BarMgr.DockControlHeights[2]">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.DockControlHeights[3]" resname="O:FrmMaq.O:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowClose" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowClose">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowCustomizing" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowCustomizing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowQuickCustomizing" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowQuickCustomizing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowReset" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.AllowReset">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.Caption" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.Caption">
+        <source>'Controles'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.CaptionButtons" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.CaptionButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockedDockingStyle" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockedDockingStyle">
+        <source>dsTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockedLeft" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockedLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockedTop" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockedTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockingStyle" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.DockingStyle">
+        <source>dsTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatLeft" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatLeft">
+        <source>67</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatTop" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatTop">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatClientWidth" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatClientWidth">
+        <source>69</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatClientHeight" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.FloatClientHeight">
+        <source>44</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.IsMainMenu" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.IsMainMenu">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[0].Visible" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[0].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[0].ItemName" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[0].ItemName">
+        <source>'cmGravar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[1].Visible" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[1].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[1].ItemName" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.ItemLinks[1].ItemName">
+        <source>'cmCancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.MultiLine" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.MultiLine">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.NotDocking" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.NotDocking">
+        <source>[dsNone, dsLeft, dsTop, dsRight, dsBottom]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.OldName" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.OldName">
+        <source>'Controles'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.OneOnRow" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.OneOnRow">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.Row" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.Row">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.SizeGrip" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.SizeGrip">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.UseOwnFont" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.UseOwnFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.Visible" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:BarMgrBar1.WholeRow" resname="O:FrmMaq.O:BarMgr.O:BarMgrBar1.WholeRow">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.Caption" resname="O:FrmMaq.O:BarMgr.O:cmGravar.Caption">
+        <source>'&amp;Salvar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.Category" resname="O:FrmMaq.O:BarMgr.O:cmGravar.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.Hint" resname="O:FrmMaq.O:BarMgr.O:cmGravar.Hint">
+        <source>'Salvar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.Visible" resname="O:FrmMaq.O:BarMgr.O:cmGravar.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.LargeImageIndex" resname="O:FrmMaq.O:BarMgr.O:cmGravar.LargeImageIndex">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.OnClick" resname="O:FrmMaq.O:BarMgr.O:cmGravar.OnClick">
+        <source>cmGravarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.AutoGrayScale" resname="O:FrmMaq.O:BarMgr.O:cmGravar.AutoGrayScale">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmGravar.GlyphLayout" resname="O:FrmMaq.O:BarMgr.O:cmGravar.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.Caption" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.Caption">
+        <source>'&amp;Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.Category" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.Hint" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.Hint">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.Visible" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.LargeImageIndex" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.LargeImageIndex">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.OnClick" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.OnClick">
+        <source>cmCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.AutoGrayScale" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.AutoGrayScale">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmCancelar.GlyphLayout" resname="O:FrmMaq.O:BarMgr.O:cmCancelar.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.Caption" resname="O:FrmMaq.O:BarMgr.O:beMaq.Caption">
+        <source>'5'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.Category" resname="O:FrmMaq.O:BarMgr.O:beMaq.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.Hint" resname="O:FrmMaq.O:BarMgr.O:beMaq.Hint">
+        <source>'5'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.Style" resname="O:FrmMaq.O:BarMgr.O:beMaq.Style">
+        <source>cxStyle1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.Visible" resname="O:FrmMaq.O:BarMgr.O:beMaq.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.ShowCaption" resname="O:FrmMaq.O:BarMgr.O:beMaq.ShowCaption">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.PropertiesClassName" resname="O:FrmMaq.O:BarMgr.O:beMaq.PropertiesClassName">
+        <source>'TcxLabelProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:beMaq.StyleEdit" resname="O:FrmMaq.O:BarMgr.O:beMaq.StyleEdit">
+        <source>cxStyle1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmMaq.Caption" resname="O:FrmMaq.O:BarMgr.O:cmMaq.Caption">
+        <source>'Máquina'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TdxBarStatic</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmMaq.Category" resname="O:FrmMaq.O:BarMgr.O:cmMaq.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TdxBarStatic</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmMaq.Hint" resname="O:FrmMaq.O:BarMgr.O:cmMaq.Hint">
+        <source>'Máquina'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TdxBarStatic</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:BarMgr.O:cmMaq.Visible" resname="O:FrmMaq.O:BarMgr.O:cmMaq.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TdxBarStatic</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.Left" resname="O:FrmMaq.O:cxStyleRepository1.Left">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.Top" resname="O:FrmMaq.O:cxStyleRepository1.Top">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.PixelsPerInch" resname="O:FrmMaq.O:cxStyleRepository1.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.AssignedValues" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.AssignedValues">
+        <source>[svFont, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Charset" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Color" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Height" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Name" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Style" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.TextColor" resname="O:FrmMaq.O:cxStyleRepository1.O:cxStyle1.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424866667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

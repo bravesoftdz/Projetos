@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmEditContatoValidar.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmEditContatoValidar.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7423148148</prop>
+        <prop prop-type="OrigDateTime">41627.0844907407</prop>
+        <prop prop-type="XlatDateTime">41627.0844907407</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">136</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmEditContatoValidar.ClientWidth" resname="I:FrmEditContatoValidar.ClientWidth">
+        <source>588</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmEditContatoValidar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.OnDestroy" resname="I:FrmEditContatoValidar.OnDestroy">
+        <source>FormDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmEditContatoValidar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.ExplicitWidth" resname="I:FrmEditContatoValidar.ExplicitWidth">
+        <source>624</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmEditContatoValidar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.PixelsPerInch" resname="I:FrmEditContatoValidar.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmEditContatoValidar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.TextHeight" resname="I:FrmEditContatoValidar.TextHeight">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmEditContatoValidar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.Width" resname="I:FrmEditContatoValidar.I:panPri.Width">
+        <source>588</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.Height" resname="I:FrmEditContatoValidar.I:panPri.Height">
+        <source>37</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.Bevel.StandardStyle" resname="I:FrmEditContatoValidar.I:panPri.Bevel.StandardStyle">
+        <source>lsLowered</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.Color" resname="I:FrmEditContatoValidar.I:panPri.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.ParentColor" resname="I:FrmEditContatoValidar.I:panPri.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.ExplicitWidth" resname="I:FrmEditContatoValidar.I:panPri.ExplicitWidth">
+        <source>547</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.ExplicitHeight" resname="I:FrmEditContatoValidar.I:panPri.ExplicitHeight">
+        <source>37</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.Left" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.Top" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.Top">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.Style.Font.Height" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitLeft" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitLeft">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitTop" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitTop">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitWidth" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitWidth">
+        <source>210</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitHeight" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.ExplicitHeight">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbNome.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:lbNome.AnchorY">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:Img.Left" resname="I:FrmEditContatoValidar.I:panPri.I:Img.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:Img.Top" resname="I:FrmEditContatoValidar.I:panPri.I:Img.Top">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:Img.Height" resname="I:FrmEditContatoValidar.I:panPri.I:Img.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:Img.ExplicitTop" resname="I:FrmEditContatoValidar.I:panPri.I:Img.ExplicitTop">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbRemove.Left" resname="I:FrmEditContatoValidar.I:panPri.I:lbRemove.Left">
+        <source>250</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbRemove.Top" resname="I:FrmEditContatoValidar.I:panPri.I:lbRemove.Top">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbRemove.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:lbRemove.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:lbRemove.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:lbRemove.AnchorY">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.Left" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.Left">
+        <source>477</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213194</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.Top" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.Height" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbDebito.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbDebito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbDebito.AnchorX" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbDebito.AnchorX">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbDebito.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbDebito.AnchorY">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbValorDebito.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbValorDebito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbValorDebito.AnchorX" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbValorDebito.AnchorX">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbValorDebito.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:panDeb.I:lbValorDebito.AnchorY">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.Left" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.Left">
+        <source>391</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.Top" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.Height" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbPontos.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbPontos.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbPontos.AnchorX" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbPontos.AnchorX">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbPontos.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbPontos.AnchorY">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbQuantPontos.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbQuantPontos.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbQuantPontos.AnchorX" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbQuantPontos.AnchorX">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbQuantPontos.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:panFid.I:lbQuantPontos.AnchorY">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.Left" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.Left">
+        <source>277</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.Top" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.Height" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbCredito.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbCredito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbCredito.AnchorX" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbCredito.AnchorX">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbCredito.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbCredito.AnchorY">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbValorCredito.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbValorCredito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbValorCredito.AnchorX" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbValorCredito.AnchorX">
+        <source>77</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbValorCredito.AnchorY" resname="I:FrmEditContatoValidar.I:panPri.I:panCred.I:lbValorCredito.AnchorY">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.AlignWithMargins" resname="I:FrmEditContatoValidar.O:lbMsg.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Left" resname="I:FrmEditContatoValidar.O:lbMsg.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Top" resname="I:FrmEditContatoValidar.O:lbMsg.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Margins.Left" resname="I:FrmEditContatoValidar.O:lbMsg.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Margins.Top" resname="I:FrmEditContatoValidar.O:lbMsg.Margins.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Margins.Right" resname="I:FrmEditContatoValidar.O:lbMsg.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Margins.Bottom" resname="I:FrmEditContatoValidar.O:lbMsg.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Align" resname="I:FrmEditContatoValidar.O:lbMsg.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Caption" resname="I:FrmEditContatoValidar.O:lbMsg.Caption">
+        <source>'Mensagem'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.ParentFont" resname="I:FrmEditContatoValidar.O:lbMsg.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Charset" resname="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Color" resname="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Height" resname="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Name" resname="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Style" resname="I:FrmEditContatoValidar.O:lbMsg.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.TextColor" resname="I:FrmEditContatoValidar.O:lbMsg.Style.TextColor">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.TextStyle" resname="I:FrmEditContatoValidar.O:lbMsg.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Style.IsFontAssigned" resname="I:FrmEditContatoValidar.O:lbMsg.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Properties.WordWrap" resname="I:FrmEditContatoValidar.O:lbMsg.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:lbMsg.Width" resname="I:FrmEditContatoValidar.O:lbMsg.Width">
+        <source>588</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Left" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Top" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Top">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Width" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Width">
+        <source>588</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Height" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Left" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Top" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Right" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Bottom" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Align" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.Bevel.Mode" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.TabOrder" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.ExplicitLeft" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.ExplicitLeft">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.ExplicitTop" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.ExplicitTop">
+        <source>116</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.ExplicitWidth" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.ExplicitWidth">
+        <source>535</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLMDSimplePanel [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Left" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Top" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Width" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Height" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Cursor" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Align" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Caption" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Caption">
+        <source>'Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Default" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742321331</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Charset" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Color" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Height" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Name" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Style" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.ModalResult" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.ParentFont" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.TabOrder" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.LookAndFeel.Kind" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.LookAndFeel.NativeStyle" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnSalvar.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.AlignWithMargins" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Left" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Left">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Top" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Width" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Width">
+        <source>74</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Height" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Cursor" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Left" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Top" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Right" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Bottom" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Align" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Cancel" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Caption" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Charset" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Color" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Height" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Name" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Style" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.Font.Style">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.ModalResult" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.ParentFont" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.TabOrder" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.LookAndFeel.Kind" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.LookAndFeel.NativeStyle" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.SpeedButtonOptions.CanBeFocused" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.SpeedButtonOptions.CanBeFocused">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.SpeedButtonOptions.AllowAllUp" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.SpeedButtonOptions.AllowAllUp">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.SpeedButtonOptions.Flat" resname="I:FrmEditContatoValidar.O:LMDSimplePanel2.O:btnCancelar.SpeedButtonOptions.Flat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:imgs.FormatVersion" resname="I:FrmEditContatoValidar.I:imgs.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmEditContatoValidar.I:cxImageList1.FormatVersion" resname="I:FrmEditContatoValidar.I:cxImageList1.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423213426</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

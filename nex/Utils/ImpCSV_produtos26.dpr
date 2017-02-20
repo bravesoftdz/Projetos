@@ -1,0 +1,16 @@
+program ImpCSV_produtos26;
+
+uses
+  kwicDescriptor in '..\..\kwic\kwicDescriptor.pas',
+  kwicEngine in '..\..\kwic\kwicEngine.pas',
+  Forms,
+  uImpCSV_Produtos26 in 'uImpCSV_Produtos26.pas' {Form16},
+  uProxCampo in 'uProxCampo.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm16, Form16);
+  Application.Run;
+end.

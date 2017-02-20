@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfirmarReg.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfirmarReg.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422685185</prop>
+        <prop prop-type="OrigDateTime">41344.4666898148</prop>
+        <prop prop-type="XlatDateTime">41344.4666898148</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">57</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmConfirmarReg.Left" resname="O:FrmConfirmarReg.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Top" resname="O:FrmConfirmarReg.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.BorderStyle" resname="O:FrmConfirmarReg.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Caption" resname="O:FrmConfirmarReg.Caption">
+        <source>'Confirmação de Registro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.ClientHeight" resname="O:FrmConfirmarReg.ClientHeight">
+        <source>124</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.ClientWidth" resname="O:FrmConfirmarReg.ClientWidth">
+        <source>303</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Color" resname="O:FrmConfirmarReg.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Font.Charset" resname="O:FrmConfirmarReg.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Font.Color" resname="O:FrmConfirmarReg.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Font.Height" resname="O:FrmConfirmarReg.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Font.Name" resname="O:FrmConfirmarReg.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Font.Style" resname="O:FrmConfirmarReg.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.OldCreateOrder" resname="O:FrmConfirmarReg.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.Position" resname="O:FrmConfirmarReg.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.OnClose" resname="O:FrmConfirmarReg.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.PixelsPerInch" resname="O:FrmConfirmarReg.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.TextHeight" resname="O:FrmConfirmarReg.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmConfirmarReg</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:Image1.Left" resname="O:FrmConfirmarReg.O:Image1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:Image1.Top" resname="O:FrmConfirmarReg.O:Image1.Top">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:Image1.Width" resname="O:FrmConfirmarReg.O:Image1.Width">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:Image1.Height" resname="O:FrmConfirmarReg.O:Image1.Height">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:Image1.AutoSize" resname="O:FrmConfirmarReg.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:Image1.Picture.Data" resname="O:FrmConfirmarReg.O:Image1.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D49484452000000300000003008060000005702F987000000097048597300000EC400000EC401952B0E1B00000F7F4944415478DAD55A097454559AFE6A4D65AB54160221099590B0040402022D02024D80B0045C6814A6BB1D7B68DBE62087119A330CB633DDE841666457E020A02DED51B49966492B2020282020210949083109A9CABE57A59657CBAB576FFEFB2A554965017BDAB1ED5BE79EFBEEBDEFDDF77DFF76FFFB1219FEC18BECEF0DE0074960F76E539ADBDDFA0C5DCEF07AC531A2285801F1B24CE6F988E7C79CDDB449E6FD4112387CD83199E3AC9B3C1EFBC29818A5223A3A0491916A783C80D9EC4443438768B73B6E4744C4FDFBEAD5499FFC60081C3EEC4DE4B8F62D82605F9190A050C4C76B20972B2093C9A9CAA82AA050C8694C8EF6760E77EFD68B3C8FE35151D1AB9F7F7E70FDDF8DC033CF9C56CC9C39F5571CD7F66A5C9C3C7AF06035944A3944512181F59360D7BE968DCBA4B6BCBC16151575AD5A6DF4CA356B469CF8DE091C3C2826DB6C0DEFA854EE1FEBF50A5968A8429234E0072A97FADD89B0AA5028A4E76918160B879B374B05AF173B94CAB08D2FBD34CAF3BD1078F75DE1A9F6F6BA03717142CCA04184048A5E607D247A1251D2BD62A75941AAE4E4B871A3486C69317D1E1131E0E975EB46B7FEBF113872440CB158CC3B04C1F2425292471616E603E7936E17E060E03DB510FC4AD6654A292A2AC7BD7BC6B2A8A8D89CB56B27947FE704F6EE15925CAEFAA3A1A1FCA389899E5E007B13E84B13BD09742742048848695344446CCE860D93BFFECE081C3AE49DDAD1D1F4515C1C3738264680CF64FCE09424419934C6AE9993FAECBC0B3C8B406C9E0D33A0A218BC3EEB7BC9116432118D8D4DC8CBBBDD1116A67D6AC386A9E7FF6602EFBF7F73B5C592BF4D10E46A954A0C8097C99401D3618059DF47868DA93A81AB0224E57255A0EFBBDFAF35553718BE88D5D16143616111A7D385FD7CCD9A39FFC338FE1F0888B28307CDBFB3DB8D9BF4FA0A795656365C2E2704C12B498BA740EEF50AD2B587762A411002731E8F6F8EF505C123CDB371FF9CC7D3F95CB739C1DF4AEB8892561D0EA768B1A43DB97EFD9CE37F15816DDB9C9AD0D09677BC5EF7D35AAD41A6D3599193B3E4DB58DB775ADE7E7B3FEAEA063A359A88651B37CE3DF5AD08ECDB678F72BB3BFEA45259B36262CC24212B22232C58BC240724A6EF0FBD2284B0EC4552D2425CBF7EC3191111B574E3C6ECBFDC97C08103B6011C67CE55ABCD93753A338D28250251912622B000E0830994E69F872E763012866404FA4ECE22D5941193A5F186EA5218CA6E48F3FEB1EE25FFCA9F31287964AF71A8D5D8BBEF10468E781A56AB095F7F9D670F0DD52E7EF9E54517FA25B0678FF94BA5B2635A64642539985A7230DE6D4254780B163F4104DC3E024ECE8AFCABB99DA01E4642F27098DB1A606AAD472AF559F9EADC079892B51CA50517919139D307F6EA298C7F3427F0BEAAB23C7AAE9E088C90D6082A2A15F6EE3F8CE1C357104A11269309F9F979660A02735E7BEDA737FB24B077AFCDA0D184EA291546585825E53564357C07B4A1D5A481C5A401DE47C061935A535BA3D42624A5F7B280FC6BA731FE91ECC0FD0DB515529B31769A34C6FAE6F646E86206F5BD46081178EB20D2337E21855751F4521268406B6B6BF1E6CD4F8EE9470316C3E38F87EB5B5B455CB9E24478783505CD724469AA48038B031AF09786BA2ADFCB135383C6AB2A8AA1090D0F8C3B1D7698DA9B61282FC2F81FCD0EDC9331E647FDAE01959A7CE06DA48F5945CF5A59068B9898103437371B376F7E22A54F02BB76990D8B1747EA5352E4B0D9BCF8F453273D508721B16791B384CCC0157C0E69A837FA5E3E58DF05BEB294C08705C6CCA656E8A2E382EE6FACAB86D3C941A309935A56A64C9F176CD81A15F6EFF9231CCA1C78783765BE63E126011E3A74C1B865CBB2FE08B411812822A0088C15DE76E1EA152B1E9BD886D1233B008F3CB0AD34D4D776124892DAD29242E95A171DDB654A795F21637426810D0DBAEE1242F01AF06DDAB891E7C1C9F37664650DC5CC193EED949636E20F7FB868DCBA75797F045A0C39393A7D6AAA3248D276BB17B97F3143E63161D18C16F20F4A27BC4CBA26695EA78BA613970955F72A839E1B3F612249D881AAAA7B64460EA40E4D93EEED5ED873D21AD1D12CE8A189DCEA835C1E61515158FEF4283AD18504EE65040E1F3E6F7CE38D9FF64D60F7EE464376768C7ED83015FA2AC5C5365CBAD48669992D1897610ED2C6DF5448E2A220C3C9CF15282857E2274FA563D4A8F85EB7DDB9534704CE19B76DFBE7BE09ECD8D16058B8901150F7FB2EA74BC0A9534DE01DED5832B501E1111499BCB22E225D690D01A3419E069422CB4C24AD49F7899DF7C97CF71497A971EC9C0AE31F4E44CEC2B47E33D63B776AC907CE18B76F5FD91F811A2230800884E041A5B8C4824B171BF0C8E8263C3CB28DE26DE75272116E9702578BB4C82F0B45BB4545FEE8424A820B931EE2303CD5ED2342A1D14A7327AEC442151E83F9D929D06AEFFFDE3B776AE82478C6B863C72FFB2360240203FB24E04F81D9170676CD2AC709387FA1062E6B33721EA98336CA892FF206E152410C264F8EC3F8CC58B003BED329A0EC9B767C79B9165C472B96CEB2A1D916875AF32088A995B865BB84BCE63C58789374420B974722332E13D969D9989D3A1B4AB9CF274B4A18815CE3CE9DABFA235045040611014D2F0294284AFB18258B52657D46829D6D2B2ACDB871D3088173238222D0B29F0C4168A8127D95CA4A130A0AEA51207C894F1507104FF78D19381431E15170D3C20E8F0B1CEF408DB905771B8CF0D855D838FD653C3BEAE7E4C4D594EE9C32EEDAF5E2FD08300D8406BD9449DD5FFD04FC2498B97674F0387EBC0CD3A6C563CA9478DCAF383D4EACFA6215EA1D25783C632A49570D07EF442D578D66AE09ED2E13AC6E07ED999472932379C8BF8C0D6D98A89D8EFF9EBC0B470E7C56F3FAEBAB86F44960E7CE72C3820583894058608C49BD3BF8EE2458696E762037B70CCB96A552DE12F540F08B4E2EC298C46892FA30D2A00C06FB1D226320C9F37051B2E824E04E8F47AA8ECED645670B9BCD89D88E54BC346073FB2FFFE9A9D83E096CDF5E6658B4289108844B7D06D2ED0ED6809F002BF5F51C3EFBEC1B3CFBEC304A7BC3F1A0F2DCB9E7A0D35A31367E241C8213C596CB24619E88887012788EA4E507EFA2CA755E731EB76F9EF36248EB08BE24AC5083B55228E849A09408244B049879F8C1FBB5E06F99EDB7B43870F66C1956AE1C4E8E1AF640F0B9D5B9D85DF89F583E761E5C028F7CD3E790E2292DC65375D1E27E893BE9DA47802793B2627ADC6C94DAF260B4B6C3524B19B2CDF6225EC59B7DF840096D64C9FA91232325F00CB0BFFA093062EDED6E7CF24909497E3892931F2C7926E1897F1A8FE7C6CF449882C2ABF902917048F19E1D2199F33AA9BA3A09B83BC1373A4CD89FF921E6252C81D9DD865F17CFC7B1A23208B58E66429382D7E10822B06DDB6DF201BD7EC4082D85BE60027E1276BB8093278BB074690AD9BCAE0FB05DD7BE0F57C0E5FA2FF1CACD35583A7A0E9A9D465473A590C91592027802CE34E0A617B83BC9304DD4DBDBB06FC2879835301B6EAF0B218A307CD2FC36FEE5F3DFA0AD8AA2A4ADE567D8813FF6205060983F3F45CF9C91529700F0EEA674E2441166CC18884993BAA28D3F1AF9436BF7CAC67F7B7923AC9ABB181E9B86EB6DE7586C91A4EFED24E061077CAA6E7256663E75F676EC7BF828B21216C025BAE87E05CDD9B1BE64310E5042283650A66BA9FC103BB1BC07815B6442A9E403BA00013F7806EEF4E9720C19A2C6FCF9FAC0981FA85FFA3D2BFB16B4F8F85C3C3A3A09BCD78312CB57B8D7D20E03258269F13148A554DB2D78E9B4EA21322479CE847D138F623681E7451E0ADAC45C821DEB8A16E2BD92CB6401B4F134D0E1C75AF10D767946F470E21B86B973D3F5E9E9D11201BF1F30A0D7AFD752BCB792DD6704C6FA02DC93081D6D31EDE34C2C9A309ECCA70E7F2EBD80E712D6E1E5719BF042C10BB8E5CCC59088580229A089819FF4117E3C783E04FAB1EF476EAF13EBF2E7E348C915D85C3C0407994F431AE0A8B46297531B44E08D37AE19E6CD1BA64F4B8B9108F8C366458509D7AE55E1F9E733A50F4FFE30DA17819E2434F4BEC78E8DC3DCCC31283515836F1B848F1F3B0A87C8411BA2C5FAE21771B6ED03F6DD0EFB277F2C81F7CABCD27B7806BE201BEF977C059B5B90CC4DECA0B4BB85CE0ECE723BF638237A11601A484B8B0D10686B73E1D8B1DB58B1E22144478706E542DF8644286DEA4F9E9A45E9B10E65A65238AC513833FD349CF453D2A13B222412175BCF20212211993113292724C92B1504DE85F5853EF0F64EF002739A7AB27FBB9608DCBD87B7F8B41E04AE12816174A08983CBE52370E4C82D4ACC923172E400C9741E64323DE742282F7C2DEF5F51ADB9064E34A1C26AC4E4C89978979C9497BB253309516B888C0272A51C4A85926CBF0B3CD709DEC3C0B32379C5044AC0081C57721CFBF1440F27FEC230674E867EE8D038C94C72732B2520B366A5FD5576DFBDB22F1BB73ACEE095925F60E0C028B4381AE120D39813BF106F8E7D0F6E22A1522925E06A55089D919C585F30BF0BBCF439925ECCCCD64491AF9934206B200DD4FE0A0770A007818B86ACAC0C0AA3F1282C6CC3C58B5594E34C0C449CFB01ED8F082B5A9D07592747203E4D85067B3D8545199D6F782C4F5986CDA30E12681E6AA51A02497643F1221C29BE42091EFB764A921744DFF9811D8C2A27425283E78E05BC4B8F8330F730A10B4460943E29290E6FBD7503F3E68DA3434698A48D0781EC3EEEDFC4BA9BD19996F7F05F656BA0D05196496153A49F462DC30B193FC3EAD4D7E15138F1FBBB2BF04ED16538DC1EB277C22D769A0D23607C0870B12CB9896AF57F5022F1FB5EA9C4B66DE7290A8DD65FB9D284B8B8380C1B3638C869BB83F2F7FD1B19333187C34E71DA4AB5436A6D36D65A280933233D7DA0B8A7FD77DE0AED6D05D45E762083408B68354AA4C568A54DADB0B18D123A0F446F2768C12770D48EA6C5296591DB98F4F35187293805572F02DBB79F35E874B17A8E53536EFF50003C2B1E8F48005D04C846806CD4DA3B5B2BB556DA33384A6BBCA69010758D4C2618BD5EC1483990512EF71869C2989E3EA069D2C2E18F8FD9397AA52A593E0EECD027FAFE46264812F2F503E766D65A2955691A4AD7EC80CD1188B26A8409D3B11DD58174A53B81AD5BCF1A783E9C9C3859FAAEEF036B972ACFF302458A660255436F303290A22818285C1B79DE6EE438654D62A2C1B276ED6FEEFF57F8DF8236191C45AC220B5ADAA6C9897D2AED94B84BE30B939601B4936A7C83623B5DD7E423447C027B60ECBE5C1081575FFDEC844CA61924087C854F820249503478BDBCD1ED76D66CD9B28CC377F1216527F9712D7E0D41F90A34BA7828291D17556487540545E7570E02CE5BA9DFDA01B9733B74D88AD77C66D32F81EFBDFC1B4261C793249205F02A2740AE1848E1896DF52D10F8DB347E061AD2D69BE8E86F897FF8FF56F95F9472CFA9B73F0F740000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Left" resname="O:FrmConfirmarReg.O:cxLabel1.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Top" resname="O:FrmConfirmarReg.O:cxLabel1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Caption" resname="O:FrmConfirmarReg.O:cxLabel1.Caption">
+        <source>'Verifique seu e-mail.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.ParentFont" resname="O:FrmConfirmarReg.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Charset" resname="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Color" resname="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Height" resname="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Name" resname="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Style" resname="O:FrmConfirmarReg.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmConfirmarReg.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.Left" resname="O:FrmConfirmarReg.O:cxButton1.Left">
+        <source>114</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.Top" resname="O:FrmConfirmarReg.O:cxButton1.Top">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.Width" resname="O:FrmConfirmarReg.O:cxButton1.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.Height" resname="O:FrmConfirmarReg.O:cxButton1.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.Caption" resname="O:FrmConfirmarReg.O:cxButton1.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.Default" resname="O:FrmConfirmarReg.O:cxButton1.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.TabOrder" resname="O:FrmConfirmarReg.O:cxButton1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.OnClick" resname="O:FrmConfirmarReg.O:cxButton1.OnClick">
+        <source>cxButton1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.LookAndFeel.Kind" resname="O:FrmConfirmarReg.O:cxButton1.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxButton1.LookAndFeel.NativeStyle" resname="O:FrmConfirmarReg.O:cxButton1.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Left" resname="O:FrmConfirmarReg.O:cxLabel2.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Top" resname="O:FrmConfirmarReg.O:cxLabel2.Top">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.AutoSize" resname="O:FrmConfirmarReg.O:cxLabel2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Caption" resname="O:FrmConfirmarReg.O:cxLabel2.Caption">
+        <source>'Enviamos uma mensagem de confirmação de registro para o seu e-mail.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.ParentFont" resname="O:FrmConfirmarReg.O:cxLabel2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Charset" resname="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Color" resname="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Height" resname="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Name" resname="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Style" resname="O:FrmConfirmarReg.O:cxLabel2.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Style.IsFontAssigned" resname="O:FrmConfirmarReg.O:cxLabel2.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Properties.WordWrap" resname="O:FrmConfirmarReg.O:cxLabel2.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Height" resname="O:FrmConfirmarReg.O:cxLabel2.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfirmarReg.O:cxLabel2.Width" resname="O:FrmConfirmarReg.O:cxLabel2.Width">
+        <source>243</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422878704</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

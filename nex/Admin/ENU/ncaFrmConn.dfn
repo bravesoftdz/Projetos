@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConn.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConn.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422685185</prop>
+        <prop prop-type="OrigDateTime">41344.4669444444</prop>
+        <prop prop-type="XlatDateTime">41344.4669444444</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">22</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmConn.Left" resname="O:FrmConn.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Top" resname="O:FrmConn.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.BorderStyle" resname="O:FrmConn.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Caption" resname="O:FrmConn.Caption">
+        <source>'Parâmetros de Conexão '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.ClientHeight" resname="O:FrmConn.ClientHeight">
+        <source>356</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.ClientWidth" resname="O:FrmConn.ClientWidth">
+        <source>469</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Color" resname="O:FrmConn.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Font.Charset" resname="O:FrmConn.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Font.Color" resname="O:FrmConn.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Font.Height" resname="O:FrmConn.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Font.Name" resname="O:FrmConn.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Font.Style" resname="O:FrmConn.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.OldCreateOrder" resname="O:FrmConn.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.Position" resname="O:FrmConn.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.OnClose" resname="O:FrmConn.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.PixelsPerInch" resname="O:FrmConn.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.TextHeight" resname="O:FrmConn.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmConn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.O:cxEditStyleController1.Style.BorderStyle" resname="O:FrmConn.O:cxEditStyleController1.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.O:cxEditStyleController1.StyleFocused.Color" resname="O:FrmConn.O:cxEditStyleController1.StyleFocused.Color">
+        <source>11796479</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.O:cxEditStyleController1.Left" resname="O:FrmConn.O:cxEditStyleController1.Left">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.O:cxEditStyleController1.Top" resname="O:FrmConn.O:cxEditStyleController1.Top">
+        <source>136</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConn.O:cxEditStyleController1.PixelsPerInch" resname="O:FrmConn.O:cxEditStyleController1.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422881019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

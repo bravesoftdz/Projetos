@@ -1,0 +1,1028 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncafgExtratoFid.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncafgExtratoFid.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420138889</prop>
+        <prop prop-type="OrigDateTime">41974.4356018519</prop>
+        <prop prop-type="XlatDateTime">41974.4356018519</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">202</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:fbExtratoFid.Left" resname="I:fbExtratoFid.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.Top" resname="I:fbExtratoFid.Top">
+        <source>157</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.Caption" resname="I:fbExtratoFid.Caption">
+        <source>'Extrato de movimentação de pontos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.ClientHeight" resname="I:fbExtratoFid.ClientHeight">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.ClientWidth" resname="I:fbExtratoFid.ClientWidth">
+        <source>741</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.OldCreateOrder" resname="I:fbExtratoFid.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.ExplicitWidth" resname="I:fbExtratoFid.ExplicitWidth">
+        <source>757</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.ExplicitHeight" resname="I:fbExtratoFid.ExplicitHeight">
+        <source>435</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.PixelsPerInch" resname="I:fbExtratoFid.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.TextHeight" resname="I:fbExtratoFid.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TfbExtratoFid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.Width" resname="I:fbExtratoFid.I:panPri.Width">
+        <source>741</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.Height" resname="I:fbExtratoFid.I:panPri.Height">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.ExplicitWidth" resname="I:fbExtratoFid.I:panPri.ExplicitWidth">
+        <source>741</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.ExplicitHeight" resname="I:fbExtratoFid.I:panPri.ExplicitHeight">
+        <source>397</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.Width" resname="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.Width">
+        <source>741</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.Height" resname="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.Height">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.ExplicitWidth" resname="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.ExplicitWidth">
+        <source>741</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.ExplicitHeight" resname="I:fbExtratoFid.I:panPri.I:dxBarDockControl1.ExplicitHeight">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.Left" resname="I:fbExtratoFid.I:panPri.O:Grid.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.Top" resname="I:fbExtratoFid.I:panPri.O:Grid.Top">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.Width">
+        <source>741</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.Height" resname="I:fbExtratoFid.I:panPri.O:Grid.Height">
+        <source>361</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.Align" resname="I:fbExtratoFid.I:panPri.O:Grid.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.TabOrder" resname="I:fbExtratoFid.I:panPri.O:Grid.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.LookAndFeel.Kind" resname="I:fbExtratoFid.I:panPri.O:Grid.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.LookAndFeel.NativeStyle" resname="I:fbExtratoFid.I:panPri.O:Grid.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OnDblClick" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OnDblClick">
+        <source>cmEditarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.CustomButtons" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.CustomButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.First.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.First.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Insert.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Insert.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Append.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Append.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Delete.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Delete.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Edit.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Edit.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Post.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Post.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Cancel.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Cancel.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.SaveBookmark.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.SaveBookmark.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.GotoBookmark.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.GotoBookmark.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Filter.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Buttons.Filter.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Navigator.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OnCustomDrawCell" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OnCustomDrawCell">
+        <source>TVCustomDrawCell</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.DataModeController.GridMode" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.DataModeController.GridMode">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.DataSource" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.DataSource">
+        <source>dsTab</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Filter.MaxValueListCount" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Filter.MaxValueListCount">
+        <source>1000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Filter.Options" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Filter.Options">
+        <source>[fcoCaseInsensitive]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Filter.Active" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Filter.Active">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.KeyFieldNames" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.KeyFieldNames">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[0].Format" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[0].Format">
+        <source>'0.0'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[0].Kind" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[0].Kind">
+        <source>skSum</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[0].Position" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[0].Position">
+        <source>spFooter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[1].Format" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[1].Format">
+        <source>'0.0'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[1].Kind" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems[1].Kind">
+        <source>skSum</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.FooterSummaryItems[0].Format" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.FooterSummaryItems[0].Format">
+        <source>'0.0'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.FooterSummaryItems[0].Kind" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.FooterSummaryItems[0].Kind">
+        <source>skSum</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].Links" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].Links">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems.Separator" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems.Separator">
+        <source>', '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems[0].Kind" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems[0].Kind">
+        <source>skCount</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop><prop prop-type="Close">end&gt;end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Filtering.ColumnPopup.MaxDropDownItemCount" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Filtering.ColumnPopup.MaxDropDownItemCount">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsBehavior.IncSearch" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsBehavior.IncSearch">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsCustomize.ColumnsQuickCustomization" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsCustomize.ColumnsQuickCustomization">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsSelection.CellSelect" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsSelection.CellSelect">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsSelection.HideFocusRectOnExit" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsSelection.HideFocusRectOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsView.GroupFooters" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsView.GroupFooters">
+        <source>gfVisibleWhenExpanded</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsView.Indicator" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.OptionsView.Indicator">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Preview.AutoHeight" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.Preview.AutoHeight">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Caption">
+        <source>'Data'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.DataBinding.FieldName">
+        <source>'DataHora'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.PropertiesClassName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.PropertiesClassName">
+        <source>'TcxDateEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Properties.Alignment.Horz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Properties.Alignment.Horz">
+        <source>taLeftJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Properties.DateButtons" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Properties.DateButtons">
+        <source>[btnClear, btnToday]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Properties.DateOnError" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Properties.DateOnError">
+        <source>deToday</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVDataMov.Width">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.Caption">
+        <source>'Operação'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.DataBinding.FieldName">
+        <source>'FidOpe'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.RepositoryItem" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.RepositoryItem">
+        <source>Dados.erFidOpe</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoOpe.Width">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Caption">
+        <source>'Pontos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.DataBinding.FieldName">
+        <source>'FidPontosFat'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.PropertiesClassName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.PropertiesClassName">
+        <source>'TcxMaskEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Properties.Alignment.Horz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Properties.Alignment.Horz">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.OnCustomDrawCell" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.OnCustomDrawCell">
+        <source>TVPontosCustomDrawCell</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.OnGetDisplayText" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.OnGetDisplayText">
+        <source>TVPontosGetDisplayText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Styles.Content" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Styles.Content">
+        <source>FrmPri.cxStyle30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPontos.Width">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Caption">
+        <source>'Transação'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.DataBinding.FieldName">
+        <source>'Tran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.PropertiesClassName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.PropertiesClassName">
+        <source>'TcxSpinEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Properties.Alignment.Horz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Properties.ImmediatePost" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTran.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.DataBinding.FieldName">
+        <source>'Cancelado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.RepositoryItem" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.RepositoryItem">
+        <source>Dados.erSimNao</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCanc.Width">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.Caption">
+        <source>'Tipo Transação'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.DataBinding.FieldName">
+        <source>'TipoTran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.RepositoryItem" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.RepositoryItem">
+        <source>Dados.erTipoTran</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.MinWidth" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.MinWidth">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoTran.Width">
+        <source>109</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.DataBinding.FieldName">
+        <source>'Caixa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.PropertiesClassName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.PropertiesClassName">
+        <source>'TcxSpinEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.Properties.Alignment.Horz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.Properties.ImmediatePost" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVCaixa.Width">
+        <source>51</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.Caption">
+        <source>'Tipo de Item'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.DataBinding.FieldName">
+        <source>'TipoItem'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.RepositoryItem" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.RepositoryItem">
+        <source>Dados.erTipoItem</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVTipoItem.Width">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.Caption">
+        <source>'Valor Pago'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.DataBinding.FieldName">
+        <source>'Pago'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.PropertiesClassName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.PropertiesClassName">
+        <source>'TcxCurrencyEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.Properties.Alignment.Horz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.Properties.Alignment.Horz">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.HeaderAlignmentHorz" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.Width" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVPago.Width">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVNomeFunc.Caption" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVNomeFunc.Caption">
+        <source>'Funcionário'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVNomeFunc.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVNomeFunc.DataBinding.FieldName">
+        <source>'NomeFunc'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVNomeFunc.OnGetDisplayText" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVNomeFunc.OnGetDisplayText">
+        <source>TVNomeFuncGetDisplayText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVFunc.DataBinding.FieldName" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVFunc.DataBinding.FieldName">
+        <source>'Func'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVFunc.Visible" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVFunc.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVFunc.VisibleForCustomization" resname="I:fbExtratoFid.I:panPri.O:Grid.O:TV.O:TVFunc.VisibleForCustomization">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:panPri.O:Grid.O:GL.GridView" resname="I:fbExtratoFid.I:panPri.O:Grid.O:GL.GridView">
+        <source>TV</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.ImageOptions.LargeImages" resname="I:fbExtratoFid.I:BarMgr.ImageOptions.LargeImages">
+        <source>dmImagens.im24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.DockControlHeights[0]" resname="I:fbExtratoFid.I:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.DockControlHeights[1]" resname="I:fbExtratoFid.I:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.DockControlHeights[2]" resname="I:fbExtratoFid.I:BarMgr.DockControlHeights[2]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.DockControlHeights[3]" resname="I:fbExtratoFid.I:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:BarMgrBar1.ItemLinks[0].Visible" resname="I:fbExtratoFid.I:BarMgr.I:BarMgrBar1.ItemLinks[0].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:BarMgrBar1.ItemLinks[0].ItemName" resname="I:fbExtratoFid.I:BarMgr.I:BarMgrBar1.ItemLinks[0].ItemName">
+        <source>'cmEditar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmNovo.ImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmNovo.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmEditar.Caption" resname="I:fbExtratoFid.I:BarMgr.I:cmEditar.Caption">
+        <source>'&amp;Editar Transação'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmEditar.Hint" resname="I:fbExtratoFid.I:BarMgr.I:cmEditar.Hint">
+        <source>'Editar Transação'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmEditar.LargeImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmEditar.LargeImageIndex">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmEditar.OnClick" resname="I:fbExtratoFid.I:BarMgr.I:cmEditar.OnClick">
+        <source>cmEditarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmEditar.ShowCaption" resname="I:fbExtratoFid.I:BarMgr.I:cmEditar.ShowCaption">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmEditar.ImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmEditar.ImageIndex">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmApagar.ImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmApagar.ImageIndex">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmExportar.LargeImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmExportar.LargeImageIndex">
+        <source>47</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmImprimir.LargeImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmImprimir.LargeImageIndex">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmLayout.GlyphLayout" resname="I:fbExtratoFid.I:BarMgr.I:cmLayout.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmLayout.ImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmLayout.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmPeriodo.LargeImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmPeriodo.LargeImageIndex">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmPeriodo.GlyphLayout" resname="I:fbExtratoFid.I:BarMgr.I:cmPeriodo.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:BarMgr.I:cmPeriodo.ImageIndex" resname="I:fbExtratoFid.I:BarMgr.I:cmPeriodo.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:CP.Left" resname="I:fbExtratoFid.I:CP.Left">
+        <source>296</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TdxComponentPrinter</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.I:CP.Top" resname="I:fbExtratoFid.I:CP.Top">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TdxComponentPrinter</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.Database" resname="I:fbExtratoFid.O:Tab.Database">
+        <source>Dados.db</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.FilterOptions" resname="I:fbExtratoFid.O:Tab.FilterOptions">
+        <source>[foCaseInsensitive]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.FlipOrder" resname="I:fbExtratoFid.O:Tab.FlipOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.OnCalcFields" resname="I:fbExtratoFid.O:Tab.OnCalcFields">
+        <source>TabCalcFields</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.TableName" resname="I:fbExtratoFid.O:Tab.TableName">
+        <source>'ITran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.IndexName" resname="I:fbExtratoFid.O:Tab.IndexName">
+        <source>'IFidMovClienteDH'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.Left" resname="I:fbExtratoFid.O:Tab.Left">
+        <source>145</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.Top" resname="I:fbExtratoFid.O:Tab.Top">
+        <source>182</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabID.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabID.FieldName">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TAutoIncField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabDataHora.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabDataHora.FieldName">
+        <source>'DataHora'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TDateTimeField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabPago.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabPago.FieldName">
+        <source>'Pago'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabCancelado.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabCancelado.FieldName">
+        <source>'Cancelado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidPontos.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabFidPontos.FieldName">
+        <source>'FidPontos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TFloatField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidMov.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabFidMov.FieldName">
+        <source>'FidMov'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidPontosFat.FieldKind" resname="I:fbExtratoFid.O:Tab.O:TabFidPontosFat.FieldKind">
+        <source>fkCalculated</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TFloatField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidPontosFat.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabFidPontosFat.FieldName">
+        <source>'FidPontosFat'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TFloatField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidPontosFat.Calculated" resname="I:fbExtratoFid.O:Tab.O:TabFidPontosFat.Calculated">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TFloatField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.FieldKind" resname="I:fbExtratoFid.O:Tab.O:TabFunc.FieldKind">
+        <source>fkLookup</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabFunc.FieldName">
+        <source>'Func'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.LookupDataSet" resname="I:fbExtratoFid.O:Tab.O:TabFunc.LookupDataSet">
+        <source>Dados.tbTran</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.LookupKeyFields" resname="I:fbExtratoFid.O:Tab.O:TabFunc.LookupKeyFields">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.LookupResultField" resname="I:fbExtratoFid.O:Tab.O:TabFunc.LookupResultField">
+        <source>'Func'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.KeyFields" resname="I:fbExtratoFid.O:Tab.O:TabFunc.KeyFields">
+        <source>'Tran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFunc.Lookup" resname="I:fbExtratoFid.O:Tab.O:TabFunc.Lookup">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.FieldKind" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.FieldKind">
+        <source>fkLookup</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.FieldName">
+        <source>'NomeFunc'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.LookupDataSet" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.LookupDataSet">
+        <source>Dados.mtUsuario</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.LookupKeyFields" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.LookupKeyFields">
+        <source>'Username'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.LookupResultField" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.LookupResultField">
+        <source>'Nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.KeyFields" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.KeyFields">
+        <source>'Func'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.Size" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.Size">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabNomeFunc.Lookup" resname="I:fbExtratoFid.O:Tab.O:TabNomeFunc.Lookup">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabTran.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabTran.FieldName">
+        <source>'Tran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420212963</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabCaixa.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabCaixa.FieldName">
+        <source>'Caixa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabCaixaPag.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabCaixaPag.FieldName">
+        <source>'CaixaPag'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabCliente.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabCliente.FieldName">
+        <source>'Cliente'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabTipoTran.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabTipoTran.FieldName">
+        <source>'TipoTran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TByteField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabTipoItem.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabTipoItem.FieldName">
+        <source>'TipoItem'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TByteField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabSubTipo.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabSubTipo.FieldName">
+        <source>'SubTipo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TByteField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabItemID.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabItemID.FieldName">
+        <source>'ItemID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabSubItemID.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabSubItemID.FieldName">
+        <source>'SubItemID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabItemPos.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabItemPos.FieldName">
+        <source>'ItemPos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TByteField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabTotal.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabTotal.FieldName">
+        <source>'Total'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabDesconto.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabDesconto.FieldName">
+        <source>'Desconto'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabTotLiq.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabTotLiq.FieldName">
+        <source>'TotLiq'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabDebito.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabDebito.FieldName">
+        <source>'Debito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabPagPend.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabPagPend.FieldName">
+        <source>'PagPend'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidFator.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabFidFator.FieldName">
+        <source>'FidFator'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TShortintField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabSessao.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabSessao.FieldName">
+        <source>'Sessao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TLongWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:Tab.O:TabFidOpe.FieldName" resname="I:fbExtratoFid.O:Tab.O:TabFidOpe.FieldName">
+        <source>'FidOpe'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TByteField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:dsTab.DataSet" resname="I:fbExtratoFid.O:dsTab.DataSet">
+        <source>Tab</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:dsTab.Left" resname="I:fbExtratoFid.O:dsTab.Left">
+        <source>185</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbExtratoFid.O:dsTab.Top" resname="I:fbExtratoFid.O:dsTab.Top">
+        <source>182</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420213079</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,26 @@
+program TesteCrosstalk;
+
+uses
+  Vcl.Forms,
+  utesteCrosstalk in 'utesteCrosstalk.pas' {Form18},
+  NET.HelloWorld in 'NET.HelloWorld.pas',
+  NET.mscorlib in 'NET.mscorlib.pas',
+  Atozed.CrossTalk.BaseObject in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.BaseObject.pas',
+  Atozed.CrossTalk.Boxes in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Boxes.pas',
+  Atozed.CrossTalk.CallRight in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.CallRight.pas',
+  Atozed.CrossTalk.Consts in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Consts.pas',
+  Atozed.CrossTalk.Debug in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Debug.pas',
+  Atozed.CrossTalk.Exception in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Exception.pas',
+  Atozed.CrossTalk.Linker in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Linker.pas',
+  Atozed.CrossTalk.Middle in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Middle.pas',
+  Atozed.CrossTalk.Right in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Right.pas',
+  Atozed.CrossTalk.Streams in 'C:\Comp\CrossTalk\Source\Atozed.CrossTalk.Streams.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm18, Form18);
+  Application.Run;
+end.

@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmBasicTextEdit.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmBasicTextEdit.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420138889</prop>
+        <prop prop-type="OrigDateTime">41522.1124305556</prop>
+        <prop prop-type="XlatDateTime">41522.1124305556</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">84</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmBasicTextEdit.Left" resname="O:FrmBasicTextEdit.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Top" resname="O:FrmBasicTextEdit.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.ActiveControl" resname="O:FrmBasicTextEdit.ActiveControl">
+        <source>Edit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.BorderStyle" resname="O:FrmBasicTextEdit.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.BorderWidth" resname="O:FrmBasicTextEdit.BorderWidth">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Caption" resname="O:FrmBasicTextEdit.Caption">
+        <source>'Título'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.ClientHeight" resname="O:FrmBasicTextEdit.ClientHeight">
+        <source>141</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.ClientWidth" resname="O:FrmBasicTextEdit.ClientWidth">
+        <source>410</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Color" resname="O:FrmBasicTextEdit.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Font.Charset" resname="O:FrmBasicTextEdit.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Font.Color" resname="O:FrmBasicTextEdit.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Font.Height" resname="O:FrmBasicTextEdit.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Font.Name" resname="O:FrmBasicTextEdit.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Font.Style" resname="O:FrmBasicTextEdit.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.OldCreateOrder" resname="O:FrmBasicTextEdit.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.Position" resname="O:FrmBasicTextEdit.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.OnClose" resname="O:FrmBasicTextEdit.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.PixelsPerInch" resname="O:FrmBasicTextEdit.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.TextHeight" resname="O:FrmBasicTextEdit.TextHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmBasicTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.Left" resname="O:FrmBasicTextEdit.O:lbPrompt.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.Top" resname="O:FrmBasicTextEdit.O:lbPrompt.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.Align" resname="O:FrmBasicTextEdit.O:lbPrompt.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.Caption" resname="O:FrmBasicTextEdit.O:lbPrompt.Caption">
+        <source>'Prompt:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.ExplicitLeft" resname="O:FrmBasicTextEdit.O:lbPrompt.ExplicitLeft">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.ExplicitTop" resname="O:FrmBasicTextEdit.O:lbPrompt.ExplicitTop">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:lbPrompt.ExplicitWidth" resname="O:FrmBasicTextEdit.O:lbPrompt.ExplicitWidth">
+        <source>53</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Left" resname="O:FrmBasicTextEdit.O:Edit.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Top" resname="O:FrmBasicTextEdit.O:Edit.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Align" resname="O:FrmBasicTextEdit.O:Edit.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.ParentFont" resname="O:FrmBasicTextEdit.O:Edit.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.BorderStyle" resname="O:FrmBasicTextEdit.O:Edit.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.Font.Charset" resname="O:FrmBasicTextEdit.O:Edit.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.Font.Color" resname="O:FrmBasicTextEdit.O:Edit.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.Font.Height" resname="O:FrmBasicTextEdit.O:Edit.Style.Font.Height">
+        <source>-17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.Font.Name" resname="O:FrmBasicTextEdit.O:Edit.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.Font.Style" resname="O:FrmBasicTextEdit.O:Edit.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.TextStyle" resname="O:FrmBasicTextEdit.O:Edit.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Style.IsFontAssigned" resname="O:FrmBasicTextEdit.O:Edit.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.TabOrder" resname="O:FrmBasicTextEdit.O:Edit.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Text" resname="O:FrmBasicTextEdit.O:Edit.Text">
+        <source>'Edit'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:Edit.Width" resname="O:FrmBasicTextEdit.O:Edit.Width">
+        <source>410</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.AlignWithMargins" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Left" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Top" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Width" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Width">
+        <source>410</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Height" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Height">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Left" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Top" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Top">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Right" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Bottom" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Align" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.TabOrder" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Left" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Top" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Width" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Height" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Height">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Align" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Caption" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Default" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ModalResult" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.TabOrder" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.LookAndFeel.Kind" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.SpeedButtonOptions.Flat" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.SpeedButtonOptions.Flat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ExplicitLeft" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ExplicitLeft">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ExplicitTop" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ExplicitTop">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ExplicitHeight" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton1.ExplicitHeight">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.AlignWithMargins" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Left" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Left">
+        <source>95</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Top" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Width" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Width">
+        <source>86</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Height" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Height">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Left" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333218</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Top" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Right" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Bottom" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Align" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Cancel" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Caption" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.Caption">
+        <source>'&amp;Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.ModalResult" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.TabOrder" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.LookAndFeel.Kind" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.SpeedButtonOptions.Flat" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.SpeedButtonOptions.Flat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.ExplicitLeft" resname="O:FrmBasicTextEdit.O:LMDSimplePanel1.O:cxButton2.ExplicitLeft">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420333333</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

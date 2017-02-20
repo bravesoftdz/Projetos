@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaAlertaRecuperarVenda.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaAlertaRecuperarVenda.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7416666667</prop>
+        <prop prop-type="OrigDateTime">41868.7696064815</prop>
+        <prop prop-type="XlatDateTime">41868.7696064815</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">30</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:panAlertaRecuperarVenda." resname="I:panAlertaRecuperarVenda.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TpanAlertaRecuperarVenda</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri." resname="I:panAlertaRecuperarVenda.I:panPri.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Align" resname="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Caption" resname="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Caption">
+        <source>'O sistema recuperou uma venda que estava em andamento ao ser fechado.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Style.IsFontAssigned" resname="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Properties.WordWrap" resname="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.Properties.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.ExplicitWidth" resname="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.ExplicitWidth">
+        <source>439</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.AnchorY" resname="I:panAlertaRecuperarVenda.I:panPri.I:lbMensagem.AnchorY">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.I:LMDSimplePanel1.ExplicitWidth" resname="I:panAlertaRecuperarVenda.I:panPri.I:LMDSimplePanel1.ExplicitWidth">
+        <source>637</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.AlignWithMargins" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Left" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Left">
+        <source>476</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Top" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Top">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Width" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Width">
+        <source>117</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Height" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Cursor" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Left" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Left">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Top" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Top">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Right" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Right">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Bottom" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Margins.Bottom">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Align" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Caption" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Caption">
+        <source>'Fechar este aviso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Charset" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Color" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Height" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Name" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Style" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.ParentFont" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.TabOrder" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.OnClick" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.OnClick">
+        <source>btnFecharClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.LookAndFeel.Kind" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.LookAndFeel.Kind">
+        <source>lfOffice11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.SpeedButtonOptions.CanBeFocused" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.SpeedButtonOptions.CanBeFocused">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.SpeedButtonOptions.AllowAllUp" resname="I:panAlertaRecuperarVenda.I:panPri.O:btnFechar.SpeedButtonOptions.AllowAllUp">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416851505</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

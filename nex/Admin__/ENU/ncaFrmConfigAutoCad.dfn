@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfigAutoCad.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfigAutoCad.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422453704</prop>
+        <prop prop-type="OrigDateTime">41344.4617824074</prop>
+        <prop prop-type="XlatDateTime">41344.4617824074</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">26</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmConfigAutoCad.Caption" resname="I:FrmConfigAutoCad.Caption">
+        <source>'Cadastro colaborativo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.ClientHeight" resname="I:FrmConfigAutoCad.ClientHeight">
+        <source>268</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.ClientWidth" resname="I:FrmConfigAutoCad.ClientWidth">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.ExplicitWidth" resname="I:FrmConfigAutoCad.ExplicitWidth">
+        <source>428</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.ExplicitHeight" resname="I:FrmConfigAutoCad.ExplicitHeight">
+        <source>293</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.PixelsPerInch" resname="I:FrmConfigAutoCad.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.TextHeight" resname="I:FrmConfigAutoCad.TextHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfigAutoCad</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.Width" resname="I:FrmConfigAutoCad.I:panPri.Width">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.Height" resname="I:FrmConfigAutoCad.I:panPri.Height">
+        <source>175</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.ExplicitWidth" resname="I:FrmConfigAutoCad.I:panPri.ExplicitWidth">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.ExplicitHeight" resname="I:FrmConfigAutoCad.I:panPri.ExplicitHeight">
+        <source>175</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.Width" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.Width">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.ExplicitWidth" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.ExplicitWidth">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:img.Picture.Data" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:img.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D49484452000000300000003008060000005702F987000000097048597300000EC400000EC401952B0E1B00000BA64944415478DAED99095454F51EC77FF7CEDCD9070646060605052196645133713DA2783417A47C4F7BF6C85090CCA2D29E0B6A69984F73C93C9669A999665AFA540E5496A682482E15B1A928B2EFDBC030DBBD3377DEFFDE9901465942F154E7F83FE7CECCB9F7CEFFFFFDFCFFBFED7F2F66369BE1EFDCB0C7008F011E033C06780CF09701587FE032D768A21DB838AE7B67C168DDDF0260CDDE4B439A35FAF96A2D1981BA1A22E071B994D1049491AE160B894B7247E1371221716A557418F9970258B7FFB2B2B24EBD9D4770E68C0FF5C0837C14E0EE22050CC70043D75B340628286980CC9C0A28286BBCEBDE4F92B0317E7CEA5F0220714FFAB0EA86D6E488A7BDFA4F1DE50D388703B41903BA63C7E8C031333A000ACB1AE1506A0E60186C72711227AE8A1ED96776DB6B8077F665F89756B75C8A8B0A95070E5680110937A12E687498916C5B6F6D00E89B8B9B813450F0F137D7A1B9D5B0C9552E4E4C8C0E3327EE4973E1707009F2990AE4330F6462BD02404ECA2FAA5065454F0BF21F16E80E248D2100400048380B00F700000BC041205CF4DB602061EB179781A2A80F357AD334219FEBCBE77141A5D6EBF80427B5BF42BAF6ED98D1371F1940C207E7567AB9CBFEFBD2AC50563C896C865901BBD9375BD463D6FF30ABC0B14270D0C9E2F246F831F30E4485FB81A7AB037B1F4519E17276059C4E2BD0F577913CFF6EECD8E43E0758BD379D40A653BA36769C9B4C26060302A0689BF9B49B8E5DE7CCC1C258C4332BC280D856C7769D83AE73D152555437C3F62357344A2722E4BDC511857D0AF0D6AE0B1350583CFFDABC30D09B307605289B78334057BDB4435856C326DE76CD0645A06F1EF2953397EFC0E9EF33764B45DC573F5DFF22DD93AE3F0CF0CAD61F568F0AF6D81031C60F01000B60B23A708F83583F3068372DB0C23007E31F8CA3F3D1A16ED1C2BA4FCE1595FE92EC7F29657F8F8EFD8701E2369F39342B3CE0DF410103ACE663715EBA17410CBBEF87E527BB02B86505F8180DFFD9F6BD29E3D87A87B0E9B1BAAFB6C4773B42B7006B3FCBF0696AD125A0D0375B2615B8474D0E024F8F7E6DD187EE25405750B87505780882260DF0FEA7E7698D5A952197493E7372101E41FE60EC3540C28E9F96EBF4D4FAF01183044303078048220483D5746CA1F361C5DB1A1B6E3BF80181526249793D5CBC560477CB1B7EF1F194CF5D3B7F54A74EDD290032970F154EA28498A86120140990700C990D0A7748B4D1663AE8BEBEAA033B3A33D76A4A02F4CDE798E1EAEF2570E26C5EB587AB74F27BF113727B0448D8716EB944C4DBBC64EE4830E11CD0D9220E2BDC9AB4001E68F69950CA382ACE864D46B6A513E6D364ED9F99180EBAC64330029440840822FF76151C4ECD2E1DE022787A43FCC49A2E0156ED49F7A96FD2E62C8F192BE0A199D71A31366432E19219808676B3E9AD7EC6BE95224B48B535839E02A672C5D1491E9F0B0497C3AE868E32818644A01C1C845C003182F82EED265CCD293DE02034C76E4998D6165EED00966C3BBB737488C76BE347FA402B12AF654CC764C9B6F7960ABD6D329E199CF9181C3A9A01E7336F414555333B193887407DD3603252209789E0A9104F181E3208460EF3029CC703128D2D41CEC1A529D8B0E702A9A9C9F36DD59BCB92772F33DF0710BD3EA572F5A2094AAE4804AD14B0008CF9D00F29DE623E667013002C5D75084AAB75E020578058D60F1C9C15E0ACF4042E8F0FA44E032D0DB5505F5104B525B7E05F9121F0ECCC1180710970401370EAC71CF8FAF0E709CE2E6E1F9DDEB392B60378EBA30B0349CA54BC227602349318A859F301B65CA01F527CC746931434D6A9A059D50AEA660D549756C1B9F45B20731F0CDE21A3812F10B3F7192903DCB8720E02DDCDB0286E0AC8A504DCB8590E3B3E3EF4657D71564CD6C5E3941DC0CA4FD2C6A2CD497AEC9C30502100C68474568047B96B36D334084C2464FD9C0B07BEFE054227CD06BE586ABD6886AC9F4EC1B2852360F8502FA8AEAC83A42DFB2FDCCA3C39B5F4E655831DC0F2DD69610417CF8C9F3B0A9A28B402543B408F05491F34373E0DBF5EC987FD270B2070F494B6F3AADA0A906A7221F1AD28A8ACA8858DDB0E9CBD96BA3B921048F475A5F9E6368065BBCEF76BD552756B164F8226D202A0B126AE874D583C6B9665A29A6D3298FA474A58E23E23418CA20D6D30C0F3717B216CE6FCB6FF1A917367FFF025241F7C058A4B6B2133E3F29971A1DE2B663EFB5CB6AAA6C46CE7C4F39352F35E9D372A50E2ECC8FA8186F103A6E67F08337242CEE726B2EC9375288517AB81CD5C831D3016AA6333A05DDB732FEE8291335E6C3BC7E8BB9A7210AE272F853C940F305D5DEAB0E080BC9BC54D29217EAEE976008BB79C591330D83569E6A42050D999517B02EB4DF665C42BC5182B6CDFC1F340924688898980068A03DE320E5CBA940FDB779F01BDA1BDD4C1395C183E755E07001AAE7F7BD87E45090E397B4AD0C10DAF4F5E6407B0ECC333CE354DFABC25F3C6B839BB38B1914883FA664A094B16EE188D30E8AEC99079B859C56FDC7A1A8A1A782889E130D0490F2B903D1304178E1E4B83EF336B60D09030FB0CD74D63F416E76482B6B1725F7ECA1BB17600B149C7314AAF899438F73F1E37E769AE5022B69891C95207B56FDEA1DBB8EA88C4BB087130A090F9EE965350584F80BB6F087BADB2200BFC95002BDE8C64E760DBCE14C82E266140C0F01E278559FED2FC6BA0AEAFFA912F9244E69C88D5DF570BCD7D7D3BA7B6A626DA77E8C43D73A606F3BC0729DA3630461B4037E21967741220685426BCBDF934DCAEE3809BF7931DC499A1F27636040F2260F59B33D8331B3F60202850FA06770D8106AD28F80DD40D5567850ECE91BF1F9BCF3EF9EBB41A1D372B9E5B5556183E74F2825D4FFA7B3D313CB03F78F677068958C0968D5DF9021F39A50479A64E4FC2F28DC95050838162907F675AA0BA300746F88A60DDB2E9ECB935EF27C3EF2526507805DC8760B93F1BD48D353F09A54E33B2BF7EA9EDB16597FB81A1E173B845B9991257AFE0488F8051518A814F3E85EA16258661DCCEEEF71DE00421BE0AA05021F6C5F12B50A1E6433F0FDF6ECC01892ACA83C0013C7866D210B6023D9EFA2B9435F140EEE163775F6DF10D686DAA392F903A4DCFF926C6EE996BB73B32EFD089786B6335D1547D9740A99D40A718F1B6E0D736519B366D765BB020E6A566B54190B0E98759551AA19BB3D2AB479366A6B6B6E4260479F08B5F9F17B44328122956EE488BA9D18A9432E540F67A43F91DD0A8EA2E08C48ED3734E2CD4DEDBC51FDA134B9D95B88922719A36E246527F9FAC1B37F29F18E8E9F9C282C413B373CB291F4757CF1EFBEC08515F761B42074B4EC989EAF884975F58B2785DF2CBF506B1C2642441D7D278812F924ECFFD5FACB6B3BFF7C9E375558B0E33D174E4EEAFAE2CFDFCE4AF63519FED290A8547B7C1C17682197BBEA7B5BAB938AECC38B2E8A3A3DF66CB82FDDCA2DFDC98125B54A1CAE709C50B734FC66BBB1ABB4FDF0F7C72EC1AF3108E2BE413306DBCEF14A180181D326BE70AB9E7131D00001ACB0BE8354B26CB6AEBD5A4566FA4D72D99403DE8988FEC0D4D5DA366B4CC41302360DA072B1C149E785BA242C335D7149BF726CD0E9F14E67DF161C77964004D2D3AB99383706944CC67B1D56A8E82D979D99A5EDD00AB168EF96E4678C0D1EA7AF555541A94F879B93CD01B9D47FA8E0C413C7FF8F46F713B8F5C9BC8134AC01696CCB4118C7AB529EE9F233216FEE3A96BCE8E22A6B6D71A8DA6967A95F6766169E3CF63860D54FDE900E9D70B05C17EEE8B63124FBC9173A7DE934308DAAE31E39A283D10B8994462EF06FB29AB942ED2664FA5AC39C45F9925E07377FCE9004C4BDABA8FF74CC4B8A82F526FADFAF6E2AD60C050CAC239D6E2CDF268C54C9B5820F4838D521E6E0EB54A4199F2AB4F93FAEEE1EE83B659B35FE0A8D424DFC545AE90394A2757A88491344F1154D540B96AF4463E74487738F3DCCCA8ABD535975F14928571A4A6D6507637C7D85DFF8F0C00951C8C3009411012B158C2D71B0C4234F302835ECBA74D26815C2E9788C48E42A31917A2F2C3A4D7B53669D44D8D1C9EC48056448F73057A13A931D0462D93035ACCCCC6A093F67F38A3C8EC43BBB8740000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.Caption" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.Caption">
+        <source>'Usar cadastro colaborativo de produtos.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.ExplicitWidth" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.ExplicitWidth">
+        <source>341</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.ExplicitHeight" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.ExplicitHeight">
+        <source>43</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.Width" resname="I:FrmConfigAutoCad.I:panPri.I:panTopo.I:CB.Width">
+        <source>341</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:lbDescr.Caption" resname="I:FrmConfigAutoCad.I:panPri.I:lbDescr.Caption">
+        <source>'Usando esta opção, sua loja participa de um cadastro colaborativo, comum a todos nossos clientes. A grande vantagem é que fica muito mais rápido e fácil cadastrar seus produtos.'#13#10' '#13#10'Os ÚNICOS dados intercambiados são descrição, categoria, unidade e foto. '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:lbDescr.ExplicitWidth" resname="I:FrmConfigAutoCad.I:panPri.I:lbDescr.ExplicitWidth">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:lbDescr.ExplicitHeight" resname="I:FrmConfigAutoCad.I:panPri.I:lbDescr.ExplicitHeight">
+        <source>116</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:panPri.I:lbDescr.Width" resname="I:FrmConfigAutoCad.I:panPri.I:lbDescr.Width">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:LMDSimplePanel1.Top" resname="I:FrmConfigAutoCad.I:LMDSimplePanel1.Top">
+        <source>226</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:LMDSimplePanel1.Width" resname="I:FrmConfigAutoCad.I:LMDSimplePanel1.Width">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:LMDSimplePanel1.ExplicitTop" resname="I:FrmConfigAutoCad.I:LMDSimplePanel1.ExplicitTop">
+        <source>226</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigAutoCad.I:LMDSimplePanel1.ExplicitWidth" resname="I:FrmConfigAutoCad.I:LMDSimplePanel1.ExplicitWidth">
+        <source>402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422545486</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

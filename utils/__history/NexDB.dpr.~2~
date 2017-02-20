@@ -1,0 +1,14 @@
+program NexDB;
+
+uses
+  Vcl.Forms,
+  ncaFrmSuporteDB in 'ncaFrmSuporteDB.pas' {FrmSuporteDB};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmSuporteDB, FrmSuporteDB);
+  Application.Run;
+end.

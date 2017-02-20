@@ -1,0 +1,54 @@
+unit ncaPanVendaProdBase;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel;
+
+type
+  TFrmPanVendaProdBase = class;
+  
+  TOnAddProd = procedure (Sender: TFrmPanVendaProdBase; aProdID: Cardinal; aValor: Currency; aQuant: Extended; aValorUnit: Currency; aDesc: String) of Object;
+  
+  TFrmPanVendaProdBase = class(TForm)
+    panVendaProd: TLMDSimplePanel;
+  private
+    FOnAddProd : TOnAddProd;
+    { Private declarations }
+    
+  protected
+    procedure AddProd(aProdID: Cardinal; aValor: Currency; aQuant: Extended; aValorUnit: Currency; aDescr: String); virtual;
+  public
+    procedure AfterConstruction; override;
+  
+    { Public declarations }
+  published  
+    property OnAddProd: TOnAddProd 
+      read FOnAddProd write FOnAddProd;
+  end;
+
+var
+  FrmPanVendaProdBase: TFrmPanVendaProdBase;
+
+implementation
+
+{$R *.dfm}
+
+{ TFrmPanVendaProdBase }
+
+procedure TFrmPanVendaProdBase.AddProd(aProdID: Cardinal; aValor: Currency;
+  aQuant: Extended; aValorUnit: Currency; aDescr: String);
+begin
+  if Assigned(FOnAddProd) then FOnAddProd(Self, aProdID, aValor, aQuant, aValorUnit, aDescr);
+    
+end;
+
+procedure TFrmPanVendaProdBase.AfterConstruction;
+begin
+  inherited;
+  FOnAddProd := nil;
+end;
+
+end.

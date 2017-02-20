@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaWebBanner.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaWebBanner.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428703704</prop>
+        <prop prop-type="OrigDateTime">42070.8543518518</prop>
+        <prop prop-type="XlatDateTime">42070.8543518518</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">41</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmWebBanner.Left" resname="O:FrmWebBanner.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Top" resname="O:FrmWebBanner.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Caption" resname="O:FrmWebBanner.Caption">
+        <source>'FrmWebBanner'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.ClientHeight" resname="O:FrmWebBanner.ClientHeight">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.ClientWidth" resname="O:FrmWebBanner.ClientWidth">
+        <source>635</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Color" resname="O:FrmWebBanner.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Font.Charset" resname="O:FrmWebBanner.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Font.Color" resname="O:FrmWebBanner.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Font.Height" resname="O:FrmWebBanner.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Font.Name" resname="O:FrmWebBanner.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.Font.Style" resname="O:FrmWebBanner.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.OldCreateOrder" resname="O:FrmWebBanner.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.OnCreate" resname="O:FrmWebBanner.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.OnDestroy" resname="O:FrmWebBanner.OnDestroy">
+        <source>FormDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.PixelsPerInch" resname="O:FrmWebBanner.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.TextHeight" resname="O:FrmWebBanner.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmWebBanner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Left" resname="O:FrmWebBanner.O:panBanner.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Top" resname="O:FrmWebBanner.O:panBanner.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Width" resname="O:FrmWebBanner.O:panBanner.Width">
+        <source>635</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Height" resname="O:FrmWebBanner.O:panBanner.Height">
+        <source>145</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Hint" resname="O:FrmWebBanner.O:panBanner.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Align" resname="O:FrmWebBanner.O:panBanner.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.Bevel.Mode" resname="O:FrmWebBanner.O:panBanner.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.TabOrder" resname="O:FrmWebBanner.O:panBanner.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.Left" resname="O:FrmWebBanner.O:panBanner.O:WB.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.Top" resname="O:FrmWebBanner.O:panBanner.O:WB.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.Width" resname="O:FrmWebBanner.O:panBanner.O:WB.Width">
+        <source>278</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.Height" resname="O:FrmWebBanner.O:panBanner.O:WB.Height">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.TabOrder" resname="O:FrmWebBanner.O:panBanner.O:WB.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.Silent" resname="O:FrmWebBanner.O:panBanner.O:WB.Silent">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.DisableCtrlShortcuts" resname="O:FrmWebBanner.O:panBanner.O:WB.DisableCtrlShortcuts">
+        <source>'N'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.UserInterfaceOptions" resname="O:FrmWebBanner.O:panBanner.O:WB.UserInterfaceOptions">
+        <source>[DontUse3DBorders, DontUseScrollBars, EnablesFormsAutoComplete, EnableThemes]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.About" resname="O:FrmWebBanner.O:panBanner.O:WB.About">
+        <source>' EmbeddedWB http://bsalsa.com/'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.PrintOptions.HTMLHeader.Strings[0]" resname="O:FrmWebBanner.O:panBanner.O:WB.PrintOptions.HTMLHeader.Strings[0]">
+        <source>'&lt;HTML&gt;&lt;/HTML&gt;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.PrintOptions.Orientation" resname="O:FrmWebBanner.O:panBanner.O:WB.PrintOptions.Orientation">
+        <source>poPortrait</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:panBanner.O:WB.ControlData" resname="O:FrmWebBanner.O:panBanner.O:WB.ControlData">
+        <source>4C000000BB1C0000570400000000000000000000000000000000000000000000000000004C000000000000000000000001000000E0D057007335CF11AE6908002B2E126208000000000000004C0000000114020000000000C000000000000046800000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:TimerErro.Enabled" resname="O:FrmWebBanner.O:TimerErro.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:TimerErro.Interval" resname="O:FrmWebBanner.O:TimerErro.Interval">
+        <source>30000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:TimerErro.OnTimer" resname="O:FrmWebBanner.O:TimerErro.OnTimer">
+        <source>TimerErroTimer</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:TimerErro.Left" resname="O:FrmWebBanner.O:TimerErro.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmWebBanner.O:TimerErro.Top" resname="O:FrmWebBanner.O:TimerErro.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428886227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

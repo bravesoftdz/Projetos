@@ -1,0 +1,132 @@
+unit ncEnvioCaixa;
+
+interface
+
+uses
+   sysutils, classes, IdHTTP, IdBaseComponent, IdComponent, IdTCPConnection,
+   IdTCPClient, IdMultipartFormData;
+
+   function httpPost(
+    aParams: TStrings;
+    aArq, aHost, aUrl : String): String;
+
+   function httpEnvioCaixa1(
+    subject,
+    Conta_da_loja,
+    username_funcionario,
+    nome_funcionario,
+    path_PDF_arquivo: string;
+    numero_do_caixa : integer;
+    timestamp_de_abertura,
+    timestamp_de_fechamento: TDateTime;
+    var emails_destinarios: TStringList;
+    var resultado:string ):boolean;
+
+implementation
+
+uses
+   uLogs;
+
+function httpPost(aParams: TStrings; aArq, aHost, AUrl : String): String;
+var
+    h: TIdHTTP;
+    ms : TIdMultiPartFormDataStream;
+    i : integer;
+    s : string;
+begin
+    result := '';
+    h := TIdHTTP.create(nil);
+    ms := TIdMultiPartFormDataStream.Create;
+    try
+        try
+          for i := 0 to aParams.Count-1 do 
+            ms.AddFormField(aParams.Names[i], aParams.ValueFromIndex[i]);
+            ms.AddFile('pdf', aArq, 'application/pdf');
+            H.Host := aHost;
+            ms.Seek(0,0);
+            result := h.Post(aUrl, ms);
+            glog.Log(nil, [lcTrace], 'httpPost: '+result);
+        except
+            on e:exception do begin
+                glog.Log(nil, [lcExcept], 'httpPost - Exception: '+e.Message);
+                result := e.Message;
+            end;
+        end;
+
+    finally
+        h.free;
+        ms.Free;
+    end;
+
+end;
+
+   
+   function httpEnvioCaixa1(
+    subject,
+    Conta_da_loja,
+    username_funcionario,
+    nome_funcionario,
+    path_PDF_arquivo: string;
+    numero_do_caixa : integer;
+    timestamp_de_abertura,
+    timestamp_de_fechamento: TDateTime;
+    var emails_destinarios: TStringList;
+    var resultado:string ):boolean;
+
+var
+    IdHTTP1: TIdHTTP;
+    IdMultiPartFormDataStream : TIdMultiPartFormDataStream;
+    i : integer;
+    s : string;
+begin
+    result := false;
+    IdHTTP1 := TIdHTTP.create(nil);
+    IdMultiPartFormDataStream := TIdMultiPartFormDataStream.Create;
+    try
+        try
+            IdMultiPartFormDataStream.AddFormField('subject', subject);
+            IdMultiPartFormDataStream.AddFormField('Conta_da_loja', Conta_da_loja);
+            IdMultiPartFormDataStream.AddFormField('username_funcionario', username_funcionario);
+            IdMultiPartFormDataStream.AddFormField('nome_funcionario', nome_funcionario);
+
+            IdMultiPartFormDataStream.AddFormField('numero_do_caixa', inttostr(numero_do_caixa));
+
+            IdMultiPartFormDataStream.AddFormField('timestamp_de_abertura', formatDateTime('YYYY-MM-DD HH:NN:SS', timestamp_de_abertura));
+            IdMultiPartFormDataStream.AddFormField('timestamp_de_fechamento', formatDateTime('YYYY-MM-DD HH:NN:SS', timestamp_de_fechamento));
+
+            s := '';
+            for i:=0 to emails_destinarios.count-1 do
+              s := s + emails_destinarios[i] + ', ';
+            if emails_destinarios.count>0 then
+              setlength(s, length(s)-2);
+
+            IdMultiPartFormDataStream.AddFormField('destinatarios',s);
+
+            IdMultiPartFormDataStream.AddFile(
+               'pdf',
+               path_PDF_arquivo,
+               'application/pdf'
+            );
+
+            IdHTTP1.Host := 'kite.api.nextar.com.br';
+
+            IdMultiPartFormDataStream.Seek(0,0);
+            resultado := IdHTTP1.Post('http://kite.api.nextar.com.br/emailcaixa', IdMultiPartFormDataStream);
+            glog.Log(nil, [lcTrace], 'httpEnvioCaixa1: '+resultado);
+            result := sametext(resultado, 'ok');
+        except
+            on e:exception do begin
+                glog.Log(nil, [lcExcept], 'httpEnvioCaixa1: '+e.Message);
+                resultado := e.Message;
+            end;
+        end;
+
+    finally
+        IdHTTP1.free;
+        IdMultiPartFormDataStream.free;
+    end;
+
+end;
+
+end.
+

@@ -1,0 +1,1743 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmFuncPesq.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmFuncPesq.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7423148148</prop>
+        <prop prop-type="OrigDateTime">42195.5850925926</prop>
+        <prop prop-type="XlatDateTime">42195.5850925926</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">344</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmFuncPesq.Left" resname="O:FrmFuncPesq.Left">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Top" resname="O:FrmFuncPesq.Top">
+        <source>420</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Caption" resname="O:FrmFuncPesq.Caption">
+        <source>'Selecione um funcionário'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.ClientHeight" resname="O:FrmFuncPesq.ClientHeight">
+        <source>356</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.ClientWidth" resname="O:FrmFuncPesq.ClientWidth">
+        <source>521</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Color" resname="O:FrmFuncPesq.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Font.Charset" resname="O:FrmFuncPesq.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Font.Color" resname="O:FrmFuncPesq.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Font.Height" resname="O:FrmFuncPesq.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Font.Name" resname="O:FrmFuncPesq.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Font.Style" resname="O:FrmFuncPesq.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.KeyPreview" resname="O:FrmFuncPesq.KeyPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297454</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.OldCreateOrder" resname="O:FrmFuncPesq.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.Position" resname="O:FrmFuncPesq.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.OnClose" resname="O:FrmFuncPesq.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.OnCreate" resname="O:FrmFuncPesq.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.OnKeyPress" resname="O:FrmFuncPesq.OnKeyPress">
+        <source>FormKeyPress</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.OnShow" resname="O:FrmFuncPesq.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.PixelsPerInch" resname="O:FrmFuncPesq.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.TextHeight" resname="O:FrmFuncPesq.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFrmFuncPesq</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Label1.Left" resname="O:FrmFuncPesq.O:Label1.Left">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Label1.Top" resname="O:FrmFuncPesq.O:Label1.Top">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Label1.Width" resname="O:FrmFuncPesq.O:Label1.Width">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Label1.Height" resname="O:FrmFuncPesq.O:Label1.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Label1.Caption" resname="O:FrmFuncPesq.O:Label1.Caption">
+        <source>'Label1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.AlignWithMargins" resname="O:FrmFuncPesq.O:panBusca.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Left" resname="O:FrmFuncPesq.O:panBusca.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Top" resname="O:FrmFuncPesq.O:panBusca.Top">
+        <source>54</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Width" resname="O:FrmFuncPesq.O:panBusca.Width">
+        <source>507</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Height" resname="O:FrmFuncPesq.O:panBusca.Height">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Hint" resname="O:FrmFuncPesq.O:panBusca.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Margins.Left" resname="O:FrmFuncPesq.O:panBusca.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Margins.Top" resname="O:FrmFuncPesq.O:panBusca.Margins.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Margins.Right" resname="O:FrmFuncPesq.O:panBusca.Margins.Right">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Margins.Bottom" resname="O:FrmFuncPesq.O:panBusca.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Align" resname="O:FrmFuncPesq.O:panBusca.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.Bevel.Mode" resname="O:FrmFuncPesq.O:panBusca.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.TabOrder" resname="O:FrmFuncPesq.O:panBusca.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.AlignWithMargins" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Left" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Top" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Top">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Cursor" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.ParentFont" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Properties.OnChange" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Properties.OnChange">
+        <source>edBuscaPropertiesChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Properties.OnEditValueChanged" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Properties.OnEditValueChanged">
+        <source>edBuscaPropertiesEditValueChanged</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.BorderStyle" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Color" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Charset" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Color" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Height" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Name" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Style" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.HotTrack" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.HotTrack">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.StyleController" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.TextStyle" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.TransparentBorder" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.TransparentBorder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.IsFontAssigned" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleDisabled.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.BorderColor" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.BorderColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.BorderStyle" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleFocused.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleHot.BorderStyle" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleHot.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.TabOrder" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.OnEnter" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.OnEnter">
+        <source>edBuscaEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.OnKeyDown" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.OnKeyDown">
+        <source>edBuscaKeyDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:edBusca.Width" resname="O:FrmFuncPesq.O:panBusca.O:edBusca.Width">
+        <source>304</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.AlignWithMargins" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Left">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Width" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Width">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Height" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Hint" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Margins.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Margins.Left">
+        <source>60</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Margins.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Margins.Top">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Margins.Bottom" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Margins.Bottom">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.Bevel.Mode" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.ParentColor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.ParentColor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.TabOrder" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Cursor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Margins.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Margins.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Margins.Bottom" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Align" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Caption" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Caption">
+        <source>'Localizar por:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.ParentFont" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Charset" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Color" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Height" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Name" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Style" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.TextColor">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.TransparentBorder" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.TransparentBorder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.IsFontAssigned" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Properties.Alignment.Vert" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.OnClick" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.OnClick">
+        <source>lbDigiteProdutoClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.AnchorY" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbDigiteProduto.AnchorY">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Tag" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Tag">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.AlignWithMargins" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Left">
+        <source>118</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Cursor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Left">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Right" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Right">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Bottom" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Align" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Caption" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Caption">
+        <source>'&amp;Username'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.ParentFont" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Charset" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Color" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Height" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Name" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Style" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.TextColor">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.TextStyle" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.TransparentBorder" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.TransparentBorder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.IsFontAssigned" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.StyleHot.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.StyleHot.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Properties.Alignment.Vert" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.OnClick" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.OnClick">
+        <source>lbNomeClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.AnchorY" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbUsername.AnchorY">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.AlignWithMargins" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Left" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Left">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Cursor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Margins.Top" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Margins.Right" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Margins.Right">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Margins.Bottom" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Align" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Caption" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Caption">
+        <source>'&amp;Nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.ParentFont" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Charset" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Color" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Height" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Name" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Style" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.TextStyle" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.TransparentBorder" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.TransparentBorder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.IsFontAssigned" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.StyleHot.TextColor" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.StyleHot.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Properties.Alignment.Vert" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.OnClick" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.OnClick">
+        <source>lbNomeClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.AnchorY" resname="O:FrmFuncPesq.O:panBusca.O:panDigite.O:lbNome.AnchorY">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.Left" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.Left">
+        <source>310</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.Top" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.Top">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.Width" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.Height" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.Caption" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.Default" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.ModalResult" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.TabOrder" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnOk.OnClick" resname="O:FrmFuncPesq.O:panBusca.O:btnOk.OnClick">
+        <source>btnOkClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.Left" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.Left">
+        <source>391</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.Top" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.Top">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.Width" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.Width">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.Height" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.Cancel" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.Caption" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.Caption">
+        <source>'&amp;Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.OptionsImage.ImageIndex" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.OptionsImage.ImageIndex">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.CanBeFocused" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.CanBeFocused">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.AllowAllUp" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.AllowAllUp">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.Flat" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.Flat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.Transparent" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.SpeedButtonOptions.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.TabOrder" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panBusca.O:btnCancel.OnClick" resname="O:FrmFuncPesq.O:panBusca.O:btnCancel.OnClick">
+        <source>btnCancelClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.AlignWithMargins" resname="O:FrmFuncPesq.O:Grid.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Left" resname="O:FrmFuncPesq.O:Grid.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Top" resname="O:FrmFuncPesq.O:Grid.Top">
+        <source>117</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Width" resname="O:FrmFuncPesq.O:Grid.Width">
+        <source>507</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Height" resname="O:FrmFuncPesq.O:Grid.Height">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Margins.Left" resname="O:FrmFuncPesq.O:Grid.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Margins.Top" resname="O:FrmFuncPesq.O:Grid.Margins.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Margins.Right" resname="O:FrmFuncPesq.O:Grid.Margins.Right">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Margins.Bottom" resname="O:FrmFuncPesq.O:Grid.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Align" resname="O:FrmFuncPesq.O:Grid.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Font.Charset" resname="O:FrmFuncPesq.O:Grid.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Font.Color" resname="O:FrmFuncPesq.O:Grid.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Font.Height" resname="O:FrmFuncPesq.O:Grid.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Font.Name" resname="O:FrmFuncPesq.O:Grid.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.Font.Style" resname="O:FrmFuncPesq.O:Grid.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.ParentFont" resname="O:FrmFuncPesq.O:Grid.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.TabOrder" resname="O:FrmFuncPesq.O:Grid.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.OnEnter" resname="O:FrmFuncPesq.O:Grid.OnEnter">
+        <source>GridEnter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.OnExit" resname="O:FrmFuncPesq.O:Grid.OnExit">
+        <source>GridExit</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.LookAndFeel.Kind" resname="O:FrmFuncPesq.O:Grid.LookAndFeel.Kind">
+        <source>lfUltraFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.LookAndFeel.NativeStyle" resname="O:FrmFuncPesq.O:Grid.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.RootLevelOptions.DetailFrameColor" resname="O:FrmFuncPesq.O:Grid.RootLevelOptions.DetailFrameColor">
+        <source>clSilver</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OnDblClick" resname="O:FrmFuncPesq.O:Grid.O:TV.OnDblClick">
+        <source>TVDblClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OnKeyUp" resname="O:FrmFuncPesq.O:Grid.O:TV.OnKeyUp">
+        <source>TVKeyUp</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.CustomButtons" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.CustomButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Insert.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Insert.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Delete.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Delete.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Edit.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Edit.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Post.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Post.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Cancel.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Cancel.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.SaveBookmark.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.SaveBookmark.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.GotoBookmark.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.GotoBookmark.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Filter.Visible" resname="O:FrmFuncPesq.O:Grid.O:TV.Navigator.Buttons.Filter.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OnFocusedRecordChanged" resname="O:FrmFuncPesq.O:Grid.O:TV.OnFocusedRecordChanged">
+        <source>TVFocusedRecordChanged</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.DataModeController.GridMode" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.DataModeController.GridMode">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.DataSource" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.DataSource">
+        <source>dsCli</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.MaxValueListCount" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.MaxValueListCount">
+        <source>1000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.Options" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.Options">
+        <source>[fcoCaseInsensitive]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.Active" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.Active">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.AutoDataSetFilter" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.AutoDataSetFilter">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.SupportedLike" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Filter.SupportedLike">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.KeyFieldNames" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.KeyFieldNames">
+        <source>'Codigo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Options" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Options">
+        <source>[dcoCaseInsensitive, dcoAssignGroupingValues, dcoAssignMasterDetailKeys, dcoSaveExpanding]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.FooterSummaryItems" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.FooterSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].Links" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].Links">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems.Separator" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems.Separator">
+        <source>', '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems[0].Kind" resname="O:FrmFuncPesq.O:Grid.O:TV.DataController.Summary.SummaryGroups[0].SummaryItems[0].Kind">
+        <source>skCount</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">C:TcxGridDBTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop><prop prop-type="Close">end&gt;end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Filtering.ColumnPopup.MaxDropDownItemCount" resname="O:FrmFuncPesq.O:Grid.O:TV.Filtering.ColumnPopup.MaxDropDownItemCount">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsBehavior.ImmediateEditor" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsBehavior.ImmediateEditor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsCustomize.ColumnFiltering" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsCustomize.ColumnFiltering">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsCustomize.ColumnGrouping" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsCustomize.ColumnGrouping">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsCustomize.ColumnsQuickCustomization" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsCustomize.ColumnsQuickCustomization">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Appending" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Appending">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.CancelOnExit" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.CancelOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Deleting" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Deleting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.DeletingConfirmation" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.DeletingConfirmation">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Editing" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Editing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Inserting" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsData.Inserting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsSelection.CellSelect" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsSelection.CellSelect">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsSelection.HideFocusRectOnExit" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsSelection.HideFocusRectOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsSelection.UnselectFocusedRecordOnExit" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsSelection.UnselectFocusedRecordOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.ColumnAutoWidth" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.ColumnAutoWidth">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.DataRowHeight" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.DataRowHeight">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.GridLineColor" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.GridLineColor">
+        <source>15724527</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.GroupByBox" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.GroupByBox">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.GroupFooters" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.GroupFooters">
+        <source>gfVisibleWhenExpanded</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.IndicatorWidth" resname="O:FrmFuncPesq.O:Grid.O:TV.OptionsView.IndicatorWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Preview.AutoHeight" resname="O:FrmFuncPesq.O:Grid.O:TV.Preview.AutoHeight">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.Styles.Header" resname="O:FrmFuncPesq.O:Grid.O:TV.Styles.Header">
+        <source>cxStyle3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.OnCustomDrawColumnHeader" resname="O:FrmFuncPesq.O:Grid.O:TV.OnCustomDrawColumnHeader">
+        <source>TVCustomDrawColumnHeader</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.O:TVUsername.DataBinding.FieldName" resname="O:FrmFuncPesq.O:Grid.O:TV.O:TVUsername.DataBinding.FieldName">
+        <source>'Username'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.O:TVUsername.Width" resname="O:FrmFuncPesq.O:Grid.O:TV.O:TVUsername.Width">
+        <source>107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.O:TVNome.DataBinding.FieldName" resname="O:FrmFuncPesq.O:Grid.O:TV.O:TVNome.DataBinding.FieldName">
+        <source>'Nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:TV.O:TVNome.Width" resname="O:FrmFuncPesq.O:Grid.O:TV.O:TVNome.Width">
+        <source>398</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Grid.O:GL.GridView" resname="O:FrmFuncPesq.O:Grid.O:GL.GridView">
+        <source>TV</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Left" resname="O:FrmFuncPesq.O:lbSize.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Top" resname="O:FrmFuncPesq.O:lbSize.Top">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Caption" resname="O:FrmFuncPesq.O:lbSize.Caption">
+        <source>'Size'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.ParentFont" resname="O:FrmFuncPesq.O:lbSize.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Style.Font.Charset" resname="O:FrmFuncPesq.O:lbSize.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Style.Font.Color" resname="O:FrmFuncPesq.O:lbSize.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Style.Font.Height" resname="O:FrmFuncPesq.O:lbSize.Style.Font.Height">
+        <source>-21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Style.Font.Name" resname="O:FrmFuncPesq.O:lbSize.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Style.Font.Style" resname="O:FrmFuncPesq.O:lbSize.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:lbSize.Style.IsFontAssigned" resname="O:FrmFuncPesq.O:lbSize.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.AlignWithMargins" resname="O:FrmFuncPesq.O:panMsgTopo.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Left" resname="O:FrmFuncPesq.O:panMsgTopo.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Top" resname="O:FrmFuncPesq.O:panMsgTopo.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Width" resname="O:FrmFuncPesq.O:panMsgTopo.Width">
+        <source>507</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Height" resname="O:FrmFuncPesq.O:panMsgTopo.Height">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Hint" resname="O:FrmFuncPesq.O:panMsgTopo.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Margins.Left" resname="O:FrmFuncPesq.O:panMsgTopo.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Margins.Top" resname="O:FrmFuncPesq.O:panMsgTopo.Margins.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Margins.Right" resname="O:FrmFuncPesq.O:panMsgTopo.Margins.Right">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Margins.Bottom" resname="O:FrmFuncPesq.O:panMsgTopo.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Align" resname="O:FrmFuncPesq.O:panMsgTopo.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Bevel.Mode" resname="O:FrmFuncPesq.O:panMsgTopo.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">271</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.TabOrder" resname="O:FrmFuncPesq.O:panMsgTopo.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">272</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.Visible" resname="O:FrmFuncPesq.O:panMsgTopo.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">273</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Left" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">274</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Top" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">275</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Align" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">276</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Caption" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Caption">
+        <source>'É necessário informar o vendedor:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">277</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.ParentFont" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">278</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Charset" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">279</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Color" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Color">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">280</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Height" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">281</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Name" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">282</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Style" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">283</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.TextStyle" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.TextStyle">
+        <source>[fsBold, fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">284</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.IsFontAssigned" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">285</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Properties.Alignment.Vert" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">286</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.AnchorY" resname="O:FrmFuncPesq.O:panMsgTopo.O:lbMsgTopo.AnchorY">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">287</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.Database" resname="O:FrmFuncPesq.O:Tab.Database">
+        <source>Dados.db</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">288</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.Timeout" resname="O:FrmFuncPesq.O:Tab.Timeout">
+        <source>10000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">289</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.FilterOptions" resname="O:FrmFuncPesq.O:Tab.FilterOptions">
+        <source>[foCaseInsensitive]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">290</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.OnCalcFields" resname="O:FrmFuncPesq.O:Tab.OnCalcFields">
+        <source>TabCalcFields</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">291</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.TableName" resname="O:FrmFuncPesq.O:Tab.TableName">
+        <source>'Usuario'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">292</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.IndexName" resname="O:FrmFuncPesq.O:Tab.IndexName">
+        <source>'IUsername'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">293</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.Left" resname="O:FrmFuncPesq.O:Tab.Left">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">294</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.Top" resname="O:FrmFuncPesq.O:Tab.Top">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">295</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabUsername.FieldName" resname="O:FrmFuncPesq.O:Tab.O:TabUsername.FieldName">
+        <source>'Username'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">296</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabNome.FieldName" resname="O:FrmFuncPesq.O:Tab.O:TabNome.FieldName">
+        <source>'Nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">297</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabNome.Size" resname="O:FrmFuncPesq.O:Tab.O:TabNome.Size">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">298</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.FieldKind" resname="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.FieldKind">
+        <source>fkCalculated</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">299</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.FieldName" resname="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.FieldName">
+        <source>'UsernameNome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">300</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.Size" resname="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.Size">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">301</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.Calculated" resname="O:FrmFuncPesq.O:Tab.O:TabUsernameNome.Calculated">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423297917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">302</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:dsCli.DataSet" resname="O:FrmFuncPesq.O:dsCli.DataSet">
+        <source>Tab</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">303</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:dsCli.Left" resname="O:FrmFuncPesq.O:dsCli.Left">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">304</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:dsCli.Top" resname="O:FrmFuncPesq.O:dsCli.Top">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">305</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.Left" resname="O:FrmFuncPesq.O:cxStyleRepository1.Left">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">306</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.Top" resname="O:FrmFuncPesq.O:cxStyleRepository1.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">307</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.PixelsPerInch" resname="O:FrmFuncPesq.O:cxStyleRepository1.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">308</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.AssignedValues" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.AssignedValues">
+        <source>[svColor, svFont]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">309</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Color" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Color">
+        <source>8454143</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">310</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Charset" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">311</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Color" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">312</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Height" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Height">
+        <source>-19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">313</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Name" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">314</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Style" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">315</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.AssignedValues" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.AssignedValues">
+        <source>[svFont, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">316</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Charset" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">317</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Color" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">318</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Height" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">319</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Name" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">320</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Style" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">321</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.TextColor" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle2.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">322</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.AssignedValues" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.AssignedValues">
+        <source>[svColor, svFont, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">323</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Color" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">324</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Charset" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">325</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Color" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">326</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Height" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">327</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Name" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">328</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Style" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">329</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.TextColor" resname="O:FrmFuncPesq.O:cxStyleRepository1.O:cxStyle3.TextColor">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">330</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:PopupMenu2.Left" resname="O:FrmFuncPesq.O:PopupMenu2.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">331</prop><prop prop-type="Type">TPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:PopupMenu2.Top" resname="O:FrmFuncPesq.O:PopupMenu2.Top">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">332</prop><prop prop-type="Type">TPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:PopupMenu2.O:aaaa1.Caption" resname="O:FrmFuncPesq.O:PopupMenu2.O:aaaa1.Caption">
+        <source>'aaaa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">333</prop><prop prop-type="Type">TMenuItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:PopupMenu2.O:bbbb1.Caption" resname="O:FrmFuncPesq.O:PopupMenu2.O:bbbb1.Caption">
+        <source>'bbbb'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">334</prop><prop prop-type="Type">TMenuItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxImageList1.Height" resname="O:FrmFuncPesq.O:cxImageList1.Height">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">335</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxImageList1.Width" resname="O:FrmFuncPesq.O:cxImageList1.Width">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">336</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxImageList1.FormatVersion" resname="O:FrmFuncPesq.O:cxImageList1.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">337</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxImageList1.DesignInfo" resname="O:FrmFuncPesq.O:cxImageList1.DesignInfo">
+        <source>12583296</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">338</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:cxImageList1.ImageInfo[0].Image.Data" resname="O:FrmFuncPesq.O:cxImageList1.ImageInfo[0].Image.Data">
+        <source>36400000424D364000000000000036000000280000004000000040000000010020000000000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004030106050302070705020A110B06180F0A0516040301060503020705030207060402080101000200000000000000000000000000000000000000000000000001010002060402080503020705030207040301060F0A0516110B06180705020A0503020704030106000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000D080412473019656F4A269E8C5E31C8AB723BF3B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783DFFB3783DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAB723BF38C5E31C86F4A269E473019650D0804120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030201144996735DAB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783DFFB1753BFFB1753BFFB3783DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF996735DA30201144000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007C532BB1B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB1753AFFC79C73FFC79C73FFB1753AFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF7C532BB1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069462495B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAF7235FFF3E9DFFFF3E9DFFFAF7235FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF694624950000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B080410B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFBE8A56FFECE9E6FFECE9E6FFBE8A56FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0B080410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000050361C72B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFCFA881FFD5D8DBFFD5D8DBFFCFA881FFB2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF50361C7200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006E49269CB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB17438FFE9D5C2FFAAACAEFFAAACAEFFE9D5C2FFB17438FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF6E49269C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000724C27A2B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB07235FFF9F4EFFF6C6E70FF6C6E70FFF9F4EFFFB07235FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF724C27A200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006E4A269DB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB77C42FFF2F1F0FF707172FF707172FFF2F1F0FFB77C42FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF6E4A269D000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069462495B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2763BFFD0A982FFDBDDDFFF737373FF737373FFDBDDDFFFD0A982FFB2763BFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF6946249500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005D3F2085B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB07336FFF0DFD0FFA5A6A8FF767676FF767676FFA5A6A8FFF0DFD0FFB07336FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF5D3F208500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004D341B6EB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAF7032FFF8F4F0FF7B7B7CFF787878FF787878FF7B7B7CFFF8F4F0FFAF7032FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF4D341B6E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003524124CB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFB4773CFFF5F6F7FF717171FF787878FF787878FF717171FFF5F6F7FFB4773CFFB2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF3524124C0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110B0618B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB07438FFDDBE9FFFD4D6D8FF747474FF787878FF787878FF747474FFD4D6D8FFDDBE9FFFB07438FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF110B0618000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAF7033FFF6EBE0FFA8A9AAFF777777FF787878FF787878FF777777FFA8A9AAFFF6EBE0FFAF7033FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007E552CB4B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFAE6F30FFF7F8F8FF858686FF787878FF787878FF787878FF787878FF858686FFF7F8F8FFAE6F30FFB2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF7E552CB40000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030201144B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB17539FFC49568FFFFFFFFFF7D7D7DFF767676FF787878FF787878FF767676FF7D7D7DFFFFFFFFFFC49568FFB17539FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF302011440000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000A36D38E8B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAF7134FFE0C7B0FFFFFFFFFFC7C7C7FF717171FF787878FF787878FF717171FFC7C7C7FFFFFFFFFFE0C7B0FFAF7134FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFA36D38E80000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001D140A2AB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3773DFFAB6C2DFFFDFAF9FFFFFFFFFFFCFCFCFF6C6C6CFF787878FF787878FF6C6C6CFFFCFCFCFFFFFFFFFFFDFAF9FFAB6C2DFFB3773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF1D140A2A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000049311968B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB1753AFFC19061FFFFFFFFFFFFFFFFFFFFFFFFFF7F7F7FFF767676FF767676FF7F7F7FFFFFFFFFFFFFFFFFFFFFFFFFFFC19061FFB1753AFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF4931196800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000049311968B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAF7134FFE0C7B0FFFFFFFFFFFFFFFFFFFFFFFFFF949494FF757575FF757575FF949494FFFFFFFFFFFFFFFFFFFFFFFFFFE0C7B0FFAF7134FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF4931196800000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001D140A2AAC733CF5B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFAC6C2EFFFEFFFFFFFFFFFFFFFFFFFFFFF8F8F8FF737373FF777777FF777777FF737373FFF8F8F8FFFFFFFFFFFFFFFFFFFEFFFFFFAC6C2EFFB2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAC733CF51D140A2A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000563A1E7BB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB17439FFC69C72FFFFFFFFFFFFFFFFFFFFFFFFFFA1A1A1FF727272FF787878FF787878FF727272FFA1A1A1FFFFFFFFFFFFFFFFFFFFFFFFFFC69C72FFB17439FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF563A1E7B000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000573A1E7CB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAD6E30FFEBDBCDFFFFFFFFFFFFFFFFFFFFFFFFFF8F8F8FFF727272FF6B6B6BFF6B6B6BFF727272FF8F8F8FFFFFFFFFFFFFFFFFFFFFFFFFFFEBDBCDFFAD6E30FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF573A1E7C000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003524124C8D5F31C9B3783EFFB3783EFFB3783EFFB2763BFFB67C45FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFEFEFEFEFEFEFEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB67C45FFB2763BFFB3783EFFB3783EFFB3783EFF8D5F31C93524124C00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000705020AA16B37E6B2763CFFAC6B2CFFE6D4C1FFFFFFFFFFFFFFFFFFFFFFFFFFC0C0C0C0545555570000000000000000000000000000000054555557C0C0C0C0FFFFFFFFFFFFFFFFFFFFFFFFE6D4C1FFAC6B2CFFB2763CFFA16B37E60705020A00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000092663BCAD6B899FFFFFFFFFFCCCDCDCD656464650000000000000000000000000000000000000000000000000000000000000000000000000000000065646465CCCDCDCDFFFFFFFFD6B899FF92663BCA0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001F1C1A220000000000000000000000000000000000000000000000001C130A2832211149322111491C130A280000000000000000000000000000000000000000000000001F1C1A2200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003F2B17598A5C2DC8B2763BFFB2773DFFB2773DFFB2773DFFB2773DFFB2763BFF8A5C2DC83F2B1759000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003B271455AF743AFBB2773DFFB3773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3773DFFB2773DFFAF743AFB3B27145500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000875B2EC2B3773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3773DFF875B2EC20000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001000001A8713AF0B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFA8713AF0010000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000AC733CF5B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAC733CF500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000936333D2B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF936333D200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004D341B6EB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF4D341B6E00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000005B3D1F81B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF5B3D1F810000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000AE753CF8B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAE753CF8000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001A110925B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF1A1109250000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000004B321A6BB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF4B321A6B00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069472496B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF6947249600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000078502AABB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF78502AAB000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000775029A9B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF775029A90000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000006443238FB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF6443238F000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000432D1760B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF432D17600000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C080411B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0C080411000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009F6A37E2B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF9F6A37E2000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000048301966B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF48301966000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000AD743CF7B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAD743CF7000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002B1D0F3DB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF2B1D0F3D000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000069462495B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF694624950000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000084582EBCB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF84582EBC000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000775029A9B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF775029A900000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003F2A165AB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF3F2A165A000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000067452493B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF674524930000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003725134E6E49269C916132CFA66F39ECA66F39EC916132CF6E49269C3725134E0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">339</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">0</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Timer1.Enabled" resname="O:FrmFuncPesq.O:Timer1.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">340</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Timer1.Interval" resname="O:FrmFuncPesq.O:Timer1.Interval">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">341</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Timer1.OnTimer" resname="O:FrmFuncPesq.O:Timer1.OnTimer">
+        <source>Timer1Timer</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">342</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Timer1.Left" resname="O:FrmFuncPesq.O:Timer1.Left">
+        <source>224</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">343</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmFuncPesq.O:Timer1.Top" resname="O:FrmFuncPesq.O:Timer1.Top">
+        <source>184</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423298032</prop><prop prop-type="Status">0</prop><prop prop-type="Order">344</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

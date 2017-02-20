@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmContato.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmContato.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422685185</prop>
+        <prop prop-type="OrigDateTime">41718.6395833333</prop>
+        <prop prop-type="XlatDateTime">41718.6395833333</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">164</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmContato.Left" resname="O:FrmContato.Left">
+        <source>199</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Top" resname="O:FrmContato.Top">
+        <source>142</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.BorderStyle" resname="O:FrmContato.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Caption" resname="O:FrmContato.Caption">
+        <source>'Suporte Técnico'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.ClientHeight" resname="O:FrmContato.ClientHeight">
+        <source>418</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.ClientWidth" resname="O:FrmContato.ClientWidth">
+        <source>584</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Color" resname="O:FrmContato.Color">
+        <source>16316664</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Font.Charset" resname="O:FrmContato.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Font.Color" resname="O:FrmContato.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Font.Height" resname="O:FrmContato.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Font.Name" resname="O:FrmContato.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Font.Style" resname="O:FrmContato.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.OldCreateOrder" resname="O:FrmContato.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.Position" resname="O:FrmContato.Position">
+        <source>poDesktopCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.OnClose" resname="O:FrmContato.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.OnCreate" resname="O:FrmContato.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.PixelsPerInch" resname="O:FrmContato.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.TextHeight" resname="O:FrmContato.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.Left" resname="O:FrmContato.O:Image3.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.Top" resname="O:FrmContato.O:Image3.Top">
+        <source>109</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.Width" resname="O:FrmContato.O:Image3.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.Height" resname="O:FrmContato.O:Image3.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.AutoSize" resname="O:FrmContato.O:Image3.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.Picture.Data" resname="O:FrmContato.O:Image3.Picture.Data">
+        <source>0A54504E474F626A65637489504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000002B744558744372656174696F6E2054696D6500446F203134204E6F7620323030322031363A34333A3036202B30313030DB0550ED0000000774494D45000000000000000973942E000000097048597300000B1100000B11017F645F910000000467414D410000B18F0BFC6105000008434944415478DA9D576B5454D715FEEE303308CCE00C581DDE6A40414541141631C6409B6A7D265DCDA3C91F63ED2B8F1F6D7F742DD3D84A92957499DA96601B236AAA0463D21631AE4882A1A801242220282882300C20C330E3C03CEF3CEE749FB9C3E25166487AD6DAEBCCBD73CEFEBEB3CF7E5D0EDF60BC0948D43FC7E63001BB2AFB9F28B079954A092784733E6FB84C2AC02360D8E3165AE2C26FD71B876F7E5CDD8A11DAE621F1CDA59B9B6B41D98B88B34AF0911CD81815012E3C1C089372B0BA22A1B324A2AE6F15BE1339824797F7E05C7B2E38D7F880C251FBF2891AE13FB4DD32178990043E7811512E2F1AA2A290A950901924041E0648496452121920A7F974F306589C11D8F7838B28B9B4117D43B2919E8E9A9FDCD0E20AA9190F4522248193BFC4018F04FBC308C4426A7CBE804024A15201898940F43CE02FB59B9195A4C5B6CCDBF8DDA7BBC099DB2ACF7CD9FB3A2DBD49C27F6B027F3D02494413B43E091293D41A146CDF8B79AA58C0EB05DC0EB86C6368B8FA25EEDC6BC1CA0C42F0CAF0FA8567F0EED365B8AB57E11F7579F6DA4B9FFF66CC814A52371CCC0A4109BCBB373647C619AFA9A41CF7CC0BAF01910C9CFC4A20025EB738D39D7C7AF67D787CFD488EA33D971FC79AC4FB18F7C5A17D200E7A6D73D9B5B6EE12DEE96C0D668559091497BC97DADB5279250D17344F66AF85E67B3F15C17DB4DC47B3DB45CF4EFF3B877914A567FE86756B80AFFBD3D132FE7DA42E8E8720B8A1EBD761605077E75E4FCF2B5D5D5D0DA4DA36D312FF43C06C36EFF9B0FCCC7B03372B644B5D55D8FBE46E60692EADA44BE768B9870EE27210382F129170F8F07431162E30E3B26133640B364111190EABD58AA4A424A8D56A343636EA8E1E3DBAC76834361284752A8969040E1E3C28292C2CEC2F2D3D9190A87620DF5D8682AD3F03162EA39512910033BFCB29126124C82B9BAED5A0ABEF2AAAC67E81AC95CB60B359294264D8B2650BB45A2D0818151515A7CE9F3FFF0EC1DC997A1DD3089C3D7B56431B87CACBCBB925CBB3F054542D56672F06162C252089485C1044121E3ABD878890A905C7388E9DFB04F5FCF358B6341E63636358B16205D6AF5F8FEEEE6E545757D336E1E6E1C387DF22255F908CCE4AE0D8B1636AA9546AA8AAAA0A8B4B4EC5F3310D589BF310A05E2C9E1E8138F430676457E01149905F18CD6EBC5C29202D250E168B05F9F9F9FE6BB875EB16DADBDB919191D1595C5CFC0129394DA20BE6039243870ED5B6B4B46C942BD4D89DD0894772E28198252230C80A3EAF180102B30289972C21B8C0DB5D78AA4C40FA128D9FC0EAD5ABD1D1D189AAAACF5058F85D8C8C8C7C46166689A99CA43F18016EE7CE9D7972B9BCC4CBC9729E4B33E347B991A20F4C642036FB090822388B0EE60F32179E2DE5A18A5948BC785A26402E57FBAF232F2FD351545474DA6432D59186F32423A1C23062FEFCF9396BD7E51ECD4DF0A5BFBD8DC0346B4540FF08F881E011C54F8045831BFF6C72E1788B14B1D1E1703A5C70B9E4A0B2C5D7D75FF9A4B7B7779036B3A4C47282231401F62E4AA15066C62F8A79A2EDB7EA97C2973C12058E403966026FC00A3E119CF901734A90485CF8FDBFADBE86610516C4C4714343033D4D4D97EB6D369B9E16D492B03034060DC3192428C323F9FA1B2B8AD62E5BFA34941AD40CA861946860B6B911E61C458E6A146B9228AC790F4C260F6E1B385C1B9E2F5CD547733A6DCF8DC6C69A368FC7DD437A98E9DB484CE209E6C8845386EC0FCF26E4EC2B88FDA2DCB65DA9C9DA06199579BD7E18F78787D1DDA7C3B8691C4E891ABCDB4B2EC10B76D34047F79DD61B43437D0E9FCFD7413ABE22E982589A85D94E3AD78828FB75E21E8D2AF3CF2DEA1FCAE217C5C232368E1183016D9D77911F3D8895B15EA42B0CC26B15BD1F9F6A30B1FBED2661E0B74806489CF8B6C568DA9AA403853B32F56FEFCBB9BEAEEB01A56B4F2459C28982140FD293E9EE2D126C39F7D883CF9B476AE1BCFD35CC4D2CD96849C62076462194871AD9279328C6FF0E95622B3C52EE854D02F63F761FD1D61EF2370BAC820C1DD658EC3A9E02E7424A58A06830187CB05BAFC0D65984EEC357E9A51DFF5743F2F0BF3260BB7F118F6E8AC79A55C0DD3ECCBB5089DDDB62919A1C0907EF4653971D957594039650AA8E5B44F8BC982529F7E3FE9013166D11BADE2A256D0F8259627602AB4E28C1D9AE63C7F634A4A6D019DC6223324A4EDCDA4EBE6C16FB335534C54902F569F49BA76B76B944024C9CF43C34E0C348EB1BE83D7C84B4EA6723313B819CE30790B6783F0A0A44A52CF130A55EEFE46FF69EE72767B77BBAB0356C1E1CE4A13DF90A8CF52C091930573F40DD9D1459321D7EFC9CC6DF75FA02EBFDADD814C513F36CA0539F2D94270CF7BEC2AD57F7919666884D49080279A71E86425687ADDB4405139DA83FF77B274D1C8CC8CC67B6C7382AA0F34FAFC27A8755C27E84CC84D9A52FE1A1E41264674FE6FF09124CD94C12530167FBCD662ACBD0559D84EEA323012B388313C8297D13E969FB909E3E690136FC0548084D62EA3CF5379567983AAAD1F50E8B888B1053721002197FDC8088E80BC8CA5652532782CEBC829924A6BE9F303B8B8271FA98B053E130365D84AE5C0BAFFD122154432C4841A320029A1D9BA15AFF2B44C76F80461306750CA0A44F23F65DE6EF0BBDD3C15814D8EC0C8C8466A79D92915D07537D33F4550FE03653DCFA3F50586262C5890F4580BD53315B20223E1FCA8CE588484940B8260E61CA4560AD92541E2EFA06D5640F6F87DB3A0A61CC00C7A001B6BE07B0F638C0EB293EFDBD5F2FC446B43F707217BE61398E20A1AF11684812023323A68458AAC3026B9932966058CA652DB73900AC0FC43D7BB6044EED9B0D28D460FFCB036418283BB934003E752F0B1756E7DD8113F2014F9F386DD05AF05F45695B5DD4173AAB0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image3.Transparent" resname="O:FrmContato.O:Image3.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image4.Left" resname="O:FrmContato.O:Image4.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image4.Top" resname="O:FrmContato.O:Image4.Top">
+        <source>18</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image4.Width" resname="O:FrmContato.O:Image4.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image4.Height" resname="O:FrmContato.O:Image4.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image4.AutoSize" resname="O:FrmContato.O:Image4.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image4.Picture.Data" resname="O:FrmContato.O:Image4.Picture.Data">
+        <source>0A54504E474F626A65637489504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000002B744558744372656174696F6E2054696D65004D6F2032342046656220323030332031343A30343A3138202B303130302A9A2C800000000774494D45000000000000000973942E000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC6105000003FD4944415478DAED974D4C134114C7DFB60545E4A2073D68B2E041121389170FE8C1036A34B48520D6C683374FC4188D1F9118CFA69268D203A8A0ADA52AF261A92D31462F8610202626B620171B1BE2498D08FDD86E77D7373B9D76BB50DAAAB11737799DD999D979BFF9CFD72B07157EB8FF0015065138B7DBFFC96854401415CE640248A7018AA5922462AA80A2A8DF812C93BC8C7959CD4B522E1545F4A288904A91363852CE48BE5BBC75EB6C27027CE7BC5EFF27BBBDB59E544A12A88DC843F2E491656A2C4FEAD9BBBE0DAB2BD4C66000F8F66D095C2EF767A7F3DC752C7EC50D0E8E47EC76331F0A85201E8F433299044148A125F103231C3A746C55C77A486DCAEA6E7C3E0A71410401254BA13ADB4DBBA0BBC105E17008028157D1DEDE0B03D8CCAD029C3A65E6D71A4529F94265B6D00E58160488891482AFD903DE7DD33037F7015EBC200017DD08F04005E8EC34F3F3F3214824720A1C38D092EDF877408ECC6E852504F8994A41524CC3EE9ABD103CF81E01C2303E3E11BD7BF7D2230418C80268E75ADF61A910DAFCFEB7B5F01D079316B02005D058DB04C1C314C0EF9F88F6F569003A3ACCFCC2426E0DA490BAB9B9A528C47A208DAFAB2019C72D93403702BED73541C09C53E0DE3D1D00D95E6CF4A55831051A5E1A408961260E2A44E36604B0E514C89B82B636335FAAE3DF5183E5ABAA20A3401015B89C0FA05F037F0342FF4E0E320670FFBE06C062A100ACE19F42ACAFC01C4E4120A780C7E38B58AD169E1C225A054A85989CF4C1F2F20F5CB8E47816F1E84D639AC654C4834952DF376DAA83F6F6F3190542AA02FDFD5728C0C387CF710AAC3C3BCDCA05989E0EAA00CC294D2904B3EAEA5AB05ABB320AE800FAFBC77017B4F1EC18D53A2F772A8AAD050630361688BA5C5729405FDF333C884EE42D42ADE362105353740AC8E89902393524745AA3CA9F5B8414C0EDCE00F4F60E214027AFBD48F48ED783989D0DC2CACA0F55762D009B0AA37103582C5D9A45A803703A9F466CB6936BEE82729428653A18C0E86820EAF16400EEDC798AD7F1C9820A145B0F3333F9BB808C5C10A4ACEC5A2353F0F163084646FC08708D02DCBEEDC5EBD8CE6BEFF9725478F78E4E817617C4E3A2BAEAF56D9902C3C3E3D1C78FBB2980C3E1899C39739A67510BC7158660F56B1D3CA51851201C9E87A1A1E7089051A0A7C71B397EBC95FFF265113B575639650E49AA7F97656E952A24BED5464CB49CC3E84AC6D488EAC4C0E79B883E79D24D031287C3FB26165BDE89F271540545ED9C7EAC641D630DCA4B3A97D472D229094469F0C91CCA99005551212589A4746FA7D37276008944ECABCF773388C58F88D36D6887D1EAD14CC5E2E8BFF490CB3F022428C59F6AB42D681BD10CFF0880C892041296670A2AF7C7A4428EB3CF7F805F9E371D4D26530B150000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image1.Left" resname="O:FrmContato.O:Image1.Left">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image1.Top" resname="O:FrmContato.O:Image1.Top">
+        <source>62</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image1.Width" resname="O:FrmContato.O:Image1.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image1.Height" resname="O:FrmContato.O:Image1.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image1.AutoSize" resname="O:FrmContato.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:Image1.Picture.Data" resname="O:FrmContato.O:Image1.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000002B744558744372656174696F6E2054696D65004D692032362046656220323030332031303A32363A3430202B30313030586F47FA0000000774494D45D60705170E012368A91F86000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC61050000073F4944415478DABD577B4C5C65163F775E80DDB2C020100B920E548AF246454955DCB535E93FFEA1B6AB311BEB3F66D3D544AB495363B549B56A59D6C45789D50AD3B5542832B653DAB2EDD642718A2D14959696679D32830A0CCC8301EE6BCFB98FE1CEC8D0A649FD9293EFDE3BDFF7FD7EE7F19D7386816B8C1D3B9A4DA5A5C5F74E4FB3E51CC715308C2E93E72115808F13040096658382303BCEB273C38140E0A2D73BE6B0DB3F3FE370D8FDB81D5780B8D8F94CB41FAE5EF5E5B95CC68D3E1FF784C924242F5DAA0793C900B1B17A3018F4A0D3E1E978FCDC1CC0CC0C0748107CBE004C4C7871F6FD86646D6E77FF676FBCF1B76E3C6E5621736D026EB73FD5E532ED0C0685A79393419F9A1A83C0B810578A8A2E6801099C849E69783CF23BAD9B9DA5737E83911137E7F57ABE3A7A74EF5BCDCDBB0770D95CA445C2085CB9127C787858B72F2D4D4C4D4F8F414DE503396E1E4C3B13219A83411954FD266A2006069CD0D7D7EFEAE939BDE98B2F5E6FC64F3EAD359879CDD9D57D7DDC372B579A621312749289092812946602A09940C9055A8B6885D6E9F50093937E3877EE6C00E362537D7DE501849B504948045CAE19CBA54B70363FDF949890207352B5D69A9A0E645959087821D07011719F6C8E40C00FA74F9FF6343656FDA3ABEBBF2DE435728784D6D9C9DA972E15D72E5F6E0C33B9AA0581D337D298C0AF0DAC25CEA135797C6630265CE070B4B6EDDCF9F75711968233C8381CFE228E339C2B2D8DD1C5C4C800AA6FD500ABAB6B0D3DAB3ED6FA5AFB5E51F180B257542CC023791EC8B253530C7CF75DBB5853F3E6D69F7EFAD68A5B9D8CCD36FA565656FC96952BE342DA6AB59F9E06F8F9E7B1B000D30660E4F764BC3AF3E6174204CC6606638187E1E111A8AFAFB6353555BD8F043A9080FB7861E1AD7FC9CCD487FCAA1EE6F7CFBB23123032D8A2995F25101707280CE69769686AAA1BA8AEFEE70E247088696C74F69597A767A7A44018019F6FDE1D767BEBEFCC1DEDF9C1071F90B48F2470CB2D0049493AB4A600870E35B15555CF6CC76DB5CC8103CE2BF7DF9F7E7B5ADABCB693933219F550B77B2CA4250D55C3859ECDE6E410B820F0921B5896477006962CD181D3C9C1E1C376A8AC7CAA0AB7EC62EAEA06BBCBCA320B525274A18CA60D38AD8FA3F93FFC99B41742FE271273730264679BC0EBE5E0975F78B0D9BE663FFCF0D98F11E213A6A6E6C786D2D2ECC7E3E363A346F79123AD61D92DBA1B4458B56A95065C90CC6F348A9093130BBDBDD3582B021884D6FEBD7B37DB704B35F3D147AD2FE7E5E5FE2B2BCB1CF279E4E1A3A3E12E58CC324949892170D9FF02AC586194F6F5F4046168A81FBEFCB2EA9BB6B6BAB3F8C9CA6CDD5A9B5350B0EAC7B2B2E54635C92C74BF238122DD41DA93E6043CEF7B0132320C101FAFC77A10C0AA0970F0E04176CF9E97AC3EDFF82984384C9930A6B6F682352BEBB627972DFB7328F8A2115898C4BCDF55B3338C08E9E9068C7E06036F069310C0F7DF9F8196967D074F9CD8D38FC7D7A39C2702CC8B2F56961417AF39515E9E1F4F45886EC36204C249884AE0F192C6546328EB99CD7AE937A77316EB0083E6EF8653A79ABB1A1BDF3D2F081C697F146554AD8671DBB6353C6FB1DC59555696CB688B8F56A8B2A90589488A92A9442CDB8214687171A2A431D593A9298A784E22D5D1E1C07AD37AD666ABBCC071B3E71570B2C29C4A80E6A4D75EFBCF2B164BDE2B4545B986254B8C61EEA041B9427E1795064526A05EBFD95911139880D74DB6CAE0603F74759D673B3B8FD8DBDBF77BD04A3FE086FFA15CA64214D990A07E90BA6EDDCB4F9794ACD95456764F5A727252C81DB1B180C12427296A54D4C42397675E212BE2351BC7481F44F0617E68A8BBEDE4C99AA1C9C9512ABDA47907F53D28336A6714D992D1D1B76ED8B0EDB9356B9EDA9E9FBF422AC134B05C4BCBDDEE192C2803680146CA761470C12005D9248C8F8FB11ECFAF177B7B1DBD3D3DC7FD7EBFC7A798BA5B99C795B66CE1964CB5C4FAF55BEFBAEFBE473B57AF2ED707254309A83D013218C917F02AEDFDF6EAD50B2E9DCE28A04F79BF7F929B981861C7C646E89DB4FB55D174106544E98066B4ADD8620468C4BCF7DEF123C5C5C515898989A8252B151383C108C78EB5C3071FBC503B30D0398CEB06145FF20A0069EC51666ACB032077C4515BF36804982D5BBE7A222565D9FE871E2A67A8E5A6AEC66C3661256B875DBB36EDBE7CB9E318AE3BA300890A0956117E31D0EB2120B97DF3E67A6B4E4ECE63797979D898042125C504274F7683D5FA4E6D7B7BC37E5CD386E2BD1EA01B21A02F2CFCEB8A8A8A67F615141417E5E6E6E25D1730BA9DD0D050DB525FBFFD335CD3A2F8F7A610A0119399995FB476EDC6B73332B21E2E2C2C601212E2D102D6B14F3FDDB89DE7D9065CE3BA5E73DF0801FA1D9B29B8E3914736ACB7584AD66564582C5EAF0F63E1E3F72F5E3CB51B7FBB84C2DD2C02EA1AEC97E136BC76F9D9D925E516CBDD77EAF5A669BBFDDFD5202717FFCD24A00E4A527F42C17FC6703B8A1964F3539299FA230868896062965C43D78D6EC10DBBE0FF65EE3D5FD1FEDFFD0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Left" resname="O:FrmContato.O:cxLabel1.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Top" resname="O:FrmContato.O:cxLabel1.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Caption" resname="O:FrmContato.O:cxLabel1.Caption">
+        <source>'E-mail (para todos usuários):'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.ParentFont" resname="O:FrmContato.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Style.Font.Charset" resname="O:FrmContato.O:cxLabel1.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Style.Font.Color" resname="O:FrmContato.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Style.Font.Height" resname="O:FrmContato.O:cxLabel1.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Style.Font.Name" resname="O:FrmContato.O:cxLabel1.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Style.Font.Style" resname="O:FrmContato.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Left" resname="O:FrmContato.O:cxLabel7.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Top" resname="O:FrmContato.O:cxLabel7.Top">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Caption" resname="O:FrmContato.O:cxLabel7.Caption">
+        <source>'suporte@nextar.com.br'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.ParentFont" resname="O:FrmContato.O:cxLabel7.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Style.Font.Charset" resname="O:FrmContato.O:cxLabel7.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Style.Font.Color" resname="O:FrmContato.O:cxLabel7.Style.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Style.Font.Height" resname="O:FrmContato.O:cxLabel7.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Style.Font.Name" resname="O:FrmContato.O:cxLabel7.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Style.Font.Style" resname="O:FrmContato.O:cxLabel7.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel7.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel7.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Left" resname="O:FrmContato.O:cxLabel11.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Top" resname="O:FrmContato.O:cxLabel11.Top">
+        <source>107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Caption" resname="O:FrmContato.O:cxLabel11.Caption">
+        <source>'Telefone'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.ParentFont" resname="O:FrmContato.O:cxLabel11.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Style.Font.Charset" resname="O:FrmContato.O:cxLabel11.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Style.Font.Color" resname="O:FrmContato.O:cxLabel11.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Style.Font.Height" resname="O:FrmContato.O:cxLabel11.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Style.Font.Name" resname="O:FrmContato.O:cxLabel11.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Style.Font.Style" resname="O:FrmContato.O:cxLabel11.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel11.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel11.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Left" resname="O:FrmContato.O:cxLabel15.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Top" resname="O:FrmContato.O:cxLabel15.Top">
+        <source>141</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Caption" resname="O:FrmContato.O:cxLabel15.Caption">
+        <source>'(48) 3209-8620'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.ParentFont" resname="O:FrmContato.O:cxLabel15.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Style.Font.Charset" resname="O:FrmContato.O:cxLabel15.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Style.Font.Color" resname="O:FrmContato.O:cxLabel15.Style.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Style.Font.Height" resname="O:FrmContato.O:cxLabel15.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Style.Font.Name" resname="O:FrmContato.O:cxLabel15.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Style.Font.Style" resname="O:FrmContato.O:cxLabel15.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel15.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel15.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Left" resname="O:FrmContato.O:cxButton1.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Top" resname="O:FrmContato.O:cxButton1.Top">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Width" resname="O:FrmContato.O:cxButton1.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Height" resname="O:FrmContato.O:cxButton1.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Cancel" resname="O:FrmContato.O:cxButton1.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Caption" resname="O:FrmContato.O:cxButton1.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.Default" resname="O:FrmContato.O:cxButton1.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.LookAndFeel.Kind" resname="O:FrmContato.O:cxButton1.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.LookAndFeel.NativeStyle" resname="O:FrmContato.O:cxButton1.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.TabOrder" resname="O:FrmContato.O:cxButton1.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxButton1.OnClick" resname="O:FrmContato.O:cxButton1.OnClick">
+        <source>cxButton1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Left" resname="O:FrmContato.O:cxLabel3.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Top" resname="O:FrmContato.O:cxLabel3.Top">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Caption" resname="O:FrmContato.O:cxLabel3.Caption">
+        <source>'Ainda não é um assinante Premium ?'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.ParentFont" resname="O:FrmContato.O:cxLabel3.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.Font.Charset" resname="O:FrmContato.O:cxLabel3.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.Font.Color" resname="O:FrmContato.O:cxLabel3.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.Font.Height" resname="O:FrmContato.O:cxLabel3.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.Font.Name" resname="O:FrmContato.O:cxLabel3.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.Font.Style" resname="O:FrmContato.O:cxLabel3.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.TextColor" resname="O:FrmContato.O:cxLabel3.Style.TextColor">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel3.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel3.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.Left" resname="O:FrmContato.O:cxLabel4.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.Top" resname="O:FrmContato.O:cxLabel4.Top">
+        <source>268</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.Cursor" resname="O:FrmContato.O:cxLabel4.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.Caption" resname="O:FrmContato.O:cxLabel4.Caption">
+        <source>'- Não há "plano fidelidade". Pague pelo tempo que desejar;'#13#10#13#10'- Assine agora em http://assinar.nextar.com.br'#13#10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.Style.HotTrack" resname="O:FrmContato.O:cxLabel4.Style.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.StyleHot.BorderStyle" resname="O:FrmContato.O:cxLabel4.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.StyleHot.TextColor" resname="O:FrmContato.O:cxLabel4.StyleHot.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.StyleHot.TextStyle" resname="O:FrmContato.O:cxLabel4.StyleHot.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel4.OnClick" resname="O:FrmContato.O:cxLabel4.OnClick">
+        <source>cxLabel4Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Left" resname="O:FrmContato.O:lbSite.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Top" resname="O:FrmContato.O:lbSite.Top">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Cursor" resname="O:FrmContato.O:lbSite.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Caption" resname="O:FrmContato.O:lbSite.Caption">
+        <source>'Disponível em nosso site:    www.nexcafe.com.br'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.ParentFont" resname="O:FrmContato.O:lbSite.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.Font.Charset" resname="O:FrmContato.O:lbSite.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.Font.Color" resname="O:FrmContato.O:lbSite.Style.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.Font.Height" resname="O:FrmContato.O:lbSite.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.Font.Name" resname="O:FrmContato.O:lbSite.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.Font.Style" resname="O:FrmContato.O:lbSite.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.HotTrack" resname="O:FrmContato.O:lbSite.Style.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.TextColor" resname="O:FrmContato.O:lbSite.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.Style.IsFontAssigned" resname="O:FrmContato.O:lbSite.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.StyleHot.BorderStyle" resname="O:FrmContato.O:lbSite.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.StyleHot.TextStyle" resname="O:FrmContato.O:lbSite.StyleHot.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:lbSite.OnClick" resname="O:FrmContato.O:lbSite.OnClick">
+        <source>lbSiteClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Left" resname="O:FrmContato.O:cxLabel6.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Top" resname="O:FrmContato.O:cxLabel6.Top">
+        <source>60</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Caption" resname="O:FrmContato.O:cxLabel6.Caption">
+        <source>'Atendimento Online'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.ParentFont" resname="O:FrmContato.O:cxLabel6.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Style.Font.Charset" resname="O:FrmContato.O:cxLabel6.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Style.Font.Color" resname="O:FrmContato.O:cxLabel6.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Style.Font.Height" resname="O:FrmContato.O:cxLabel6.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Style.Font.Name" resname="O:FrmContato.O:cxLabel6.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Style.Font.Style" resname="O:FrmContato.O:cxLabel6.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel6.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel6.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Left" resname="O:FrmContato.O:cxLabel2.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Top" resname="O:FrmContato.O:cxLabel2.Top">
+        <source>189</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Caption" resname="O:FrmContato.O:cxLabel2.Caption">
+        <source>'(48) 9607-7121'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.ParentFont" resname="O:FrmContato.O:cxLabel2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Style.Font.Charset" resname="O:FrmContato.O:cxLabel2.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Style.Font.Color" resname="O:FrmContato.O:cxLabel2.Style.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Style.Font.Height" resname="O:FrmContato.O:cxLabel2.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Style.Font.Name" resname="O:FrmContato.O:cxLabel2.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Style.Font.Style" resname="O:FrmContato.O:cxLabel2.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel2.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel2.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Left" resname="O:FrmContato.O:cxLabel5.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Top" resname="O:FrmContato.O:cxLabel5.Top">
+        <source>125</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Caption" resname="O:FrmContato.O:cxLabel5.Caption">
+        <source>'De segunda à sexta, das 9 às 18hs:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.ParentFont" resname="O:FrmContato.O:cxLabel5.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Style.Font.Charset" resname="O:FrmContato.O:cxLabel5.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Style.Font.Color" resname="O:FrmContato.O:cxLabel5.Style.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Style.Font.Height" resname="O:FrmContato.O:cxLabel5.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Style.Font.Name" resname="O:FrmContato.O:cxLabel5.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Style.Font.Style" resname="O:FrmContato.O:cxLabel5.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel5.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel5.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Left" resname="O:FrmContato.O:cxLabel8.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Top" resname="O:FrmContato.O:cxLabel8.Top">
+        <source>173</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Caption" resname="O:FrmContato.O:cxLabel8.Caption">
+        <source>'Para assinantes Premium, atendimento noturno e aos feriados (das 9hs às 23hs)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.ParentFont" resname="O:FrmContato.O:cxLabel8.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Style.Font.Charset" resname="O:FrmContato.O:cxLabel8.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Style.Font.Color" resname="O:FrmContato.O:cxLabel8.Style.Font.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Style.Font.Height" resname="O:FrmContato.O:cxLabel8.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Style.Font.Name" resname="O:FrmContato.O:cxLabel8.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Style.Font.Style" resname="O:FrmContato.O:cxLabel8.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742288669</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmContato.O:cxLabel8.Style.IsFontAssigned" resname="O:FrmContato.O:cxLabel8.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422886806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,37 @@
+unit uFaixaInteger;
+
+interface
+
+type
+  TFaixaInteger = record
+    fiDe, fiAte : Integer;
+  end;
+
+  TArrayFaixaInteger = Array of TFaixaInteger;
+
+function ArrayFaixaIntegerToString(A: TArrayFaixaInteger): String;
+
+procedure ArrayFaixaIntegerFromString(var A: TArrayFaixaInteger; S: String);
+
+implementation
+
+uses sysutils;
+
+function ArrayFaixaIntegerToString(A: TArrayFaixaInteger): String;
+var i: integer;
+begin
+  Result := '';
+  for I := 0 to High(A) do with A[i] do begin
+    if I>0 then Result := Result+',';
+    Result := Result + IntToStr(fiDe);
+    if fiAte<>fiDe then
+      Result := Result + '-' + IntToStr(fiAte);
+  end;
+    
+
+end;
+
+procedure ArrayFaixaIntegerFromString(var A: TArrayFaixaInteger; S: String);
+
+
+end.

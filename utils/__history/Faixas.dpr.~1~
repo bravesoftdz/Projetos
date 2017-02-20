@@ -1,0 +1,16 @@
+program Faixas;
+
+uses
+  Forms,
+  uFrmPanFaixas in 'uFrmPanFaixas.pas' {Form11},
+  uFrmPanFaixa in 'uFrmPanFaixa.pas' {Form12};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm11, Form11);
+  Application.CreateForm(TForm12, Form12);
+  Application.Run;
+end.

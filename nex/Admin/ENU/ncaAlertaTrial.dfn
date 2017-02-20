@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaAlertaTrial.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaAlertaTrial.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7416666667</prop>
+        <prop prop-type="OrigDateTime">42241.652337963</prop>
+        <prop prop-type="XlatDateTime">42241.652337963</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">118</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:panAlertaTrial.Width" resname="I:panAlertaTrial.Width">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TpanAlertaTrial</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.Font.Charset" resname="I:panAlertaTrial.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TpanAlertaTrial</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.Font.Name" resname="I:panAlertaTrial.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TpanAlertaTrial</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.ParentFont" resname="I:panAlertaTrial.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TpanAlertaTrial</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.ExplicitWidth" resname="I:panAlertaTrial.ExplicitWidth">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TpanAlertaTrial</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.Width" resname="I:panAlertaTrial.I:panPri.Width">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.Height" resname="I:panAlertaTrial.I:panPri.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.Color" resname="I:panAlertaTrial.I:panPri.Color">
+        <source>15663069</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.Font.Charset" resname="I:panAlertaTrial.I:panPri.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.Font.Height" resname="I:panAlertaTrial.I:panPri.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.Font.Name" resname="I:panAlertaTrial.I:panPri.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.ParentFont" resname="I:panAlertaTrial.I:panPri.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.ExplicitWidth" resname="I:panAlertaTrial.I:panPri.ExplicitWidth">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.ExplicitHeight" resname="I:panAlertaTrial.I:panPri.ExplicitHeight">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:Img.Height" resname="I:panAlertaTrial.I:panPri.I:Img.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:Img.Picture.Data" resname="I:panAlertaTrial.I:panPri.I:Img.Picture.Data">
+        <source>0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000018000000180806000000E0773DF80000000467414D410000B18F0BFC6105000000097048597300000AEC00000AEC01D0CFAB250000002A744558744372656174696F6E2054696D65004D692035204D727A20323030332030313A31363A3336202B303130302D49F2060000000774494D4507D605170D3B0039F7C9AF000004C549444154484BAD9679708C671CC77FABB189207219A4211D420E478A8474529D347F50519419D32AD5D071B48E565B6588915622244123C404E3BEA6BA55199D316AA89A926924C58C89CAE6DA649B44F77A7737F7DA6FBFBB8BA99216F59BF9CCB3F3BECFF3F93DEF73AE3C65A8FEC6F38BCB39F2DE8FD93E151772FD8D0797CBEEA83079918FD59EB7FF336EEC9471258786399AEE5C4053E35968CFCF45F65CD9C357E1A4ABBBD2B30672A5CB996C2931551D86B9FA104C15BB60D51FC0CF3BC25A460E9245ACD2973CFB705DDE2EF37F3F33158AEE188CDA7C18CB37C358B1098D3757206F819C679504D2CD5DF969A3FAB8F817EDF46E506A8FB0F705506AF260A9CE62823496A9283936DC991C27EB58F525F282BBD1D344E90ED9525BF4117BBF17A62B89B8B2C71B970AD468BD160D53E5C73057CE0727BC4CAD9689ACEEE769F584517558A27E3B1CD2A6D41E8072733EBE9829F0F20D45409F28AC5DD81B772BC7C252331BB7CE8EC40749B29D4D228997BBF19344E94E3973E7661A8C555BD17C3D110923FDD03F6C20A2A387E3D584D180AE1F4C555360AB7F03A736A80D2101328BCD82C97F4FF8AD7D32B9AC70ACD35C9D0743F957E8287B1D93130330687014625E1E8DA9C971407D5FCE4B2294BA57A0BF168955D3E51B361D45BCDD92CEA23D57D41773E5B6B9728B5B6EB8BD126D156F2163891FC22362302A360159AB23E06C180C8B2E16D6BAA1683547E0E26EDFF6518364191521A4F3AFB89C2B2BB517A6C35C954DF92AB2144AF502941EF74278E4182648C2AFA783D0DC38028A3E02D6FA30D8FFEC0B5B4310B6CE954B54BC467CDDB27FC6D56D12F24B7E4F45D1E553BC8E2C270B60D0A6007581888D8DC798F88980D107CA1F919486521E8C16630F385AD4B85EA8724E1A2DEBA91A481E5DB697B2647F5DC9A7305666DDEBFD120E530A37D8DB70D6C72063F5102C5D140F34F953DE9FF240349BBAA1D5DA05EDCD024050F089687DBBCA64EA7A79ACF7A2789BC4171F8CBCABE876519C463EA37C2177EEBBDC5853B817C603667F38145F8A07100E93C9877215DA5B058E0E4F829A1B82D9E3A480CA68E239A7C049D16C942263F9D7306973284F25CB98601E7B3F03E69A6458CB86A2F4801AB7343E5C417E94777F20773A08E5AE042E3419A28406480AD5BD894A8E7E2929D74F253B2DDCB1C6F20D947378CA17F3F71CF67E1A57CA0414ED11F40888C48081E3A03DE787F6262FC29EB73F2C776133081625C949CAE388B77C972AA536FD71CAF2285DCF042B98E043F67E966778EA9250BC5F85E07E71881A3611377E0A4247B30A1DEC3D9C0FCBEF73225D6C94CF237DE487CC007D53E3290AB73201D77EF9E72C39FEDA993C73DE84599708E84371B5B0078ACF0503AD2AB471521DAEA1E924C1A13562A6DCB3A2762F967DBAE2D5B0E9F7C2AACBE6064A65B90CD6DA397C360DF68624B41862E1B08753CE73A88DF3F018E97D2AAE0A26C58886F234778231436440C62C3971323DD0743A33D87E3A33D05E98D98BF424DD89AFBD70A3B7FDFB4CB54D93EE65D164A82C9A746129966F59720E4D47D78AE108D9BE58AA268C90132A95E453FE0E719D4FEEBB3582BC4F5C9F9543367782EB5DF663C8229B482659436610D73DF1E084751D527D886B170E2643FE05D7FBC7E1BAA35D849120F2C87D7DFFEFC8F3E05E88FC05F1223759BFAD445B0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:Img.Visible" resname="I:panAlertaTrial.I:panPri.I:Img.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Left" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Left">
+        <source>369</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Align" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Caption" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Caption">
+        <source>'7 dias!'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.Font.Charset" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.Font.Name" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.TextStyle" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.IsFontAssigned" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.Properties.WordWrap" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.Properties.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.ExplicitLeft" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.ExplicitLeft">
+        <source>369</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.ExplicitWidth" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.ExplicitWidth">
+        <source>44</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.ExplicitHeight" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.ExplicitHeight">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:lbMensagem.AnchorY" resname="I:panAlertaTrial.I:panPri.I:lbMensagem.AnchorY">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.Top" resname="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.Top">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.Width" resname="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.Width">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.ExplicitTop" resname="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.ExplicitTop">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.ExplicitWidth" resname="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.ExplicitWidth">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.I:Image3.Width" resname="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.I:Image3.Width">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.I:Image3.ExplicitWidth" resname="I:panAlertaTrial.I:panPri.I:LMDSimplePanel1.I:Image3.ExplicitWidth">
+        <source>849</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.AlignWithMargins" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Left" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Left">
+        <source>423</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Top" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Cursor" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Left" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Top" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Right" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Bottom" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Align" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Caption" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Caption">
+        <source>'Saiba mais'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.ParentFont" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Style.HotTrack" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Style.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Style.TextColor" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.StyleHot.BorderStyle" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.StyleHot.TextStyle" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.StyleHot.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Properties.Alignment.Vert" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.OnClick" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.OnClick">
+        <source>lbSaibaMiasClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbSaibaMias.AnchorY" resname="I:panAlertaTrial.I:panPri.O:lbSaibaMias.AnchorY">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Left" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Left">
+        <source>814</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Top" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Width" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Width">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Height" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Cursor" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Align" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Align">
+        <source>alRight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.OnClick" resname="I:panAlertaTrial.I:panPri.O:imgFechar.OnClick">
+        <source>imgFecharClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.MouseOverDrawMode" resname="I:panAlertaTrial.I:panPri.O:imgFechar.MouseOverDrawMode">
+        <source>idmNormal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.MouseOffDrawMode" resname="I:panAlertaTrial.I:panPri.O:imgFechar.MouseOffDrawMode">
+        <source>idmGrayScale</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.MouseDownDrawMode" resname="I:panAlertaTrial.I:panPri.O:imgFechar.MouseDownDrawMode">
+        <source>idmGrayScale</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.ImageList" resname="I:panAlertaTrial.I:panPri.O:imgFechar.ImageList">
+        <source>dmImagens.im16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.ImageIndex" resname="I:panAlertaTrial.I:panPri.O:imgFechar.ImageIndex">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:imgFechar.Colorize" resname="I:panAlertaTrial.I:panPri.O:imgFechar.Colorize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Left" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Left">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Top" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Align" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Caption" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Caption">
+        <source>'Amanhã'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.ParentColor" resname="I:panAlertaTrial.I:panPri.O:lbInicio.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.ParentFont" resname="I:panAlertaTrial.I:panPri.O:lbInicio.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Charset" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Color" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Height" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Name" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Style" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853241</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.TextColor" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.TextColor">
+        <source>3026478</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.TextStyle" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.TransparentBorder" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Style.IsFontAssigned" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.StyleDisabled.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbInicio.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.StyleDisabled.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbInicio.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.StyleFocused.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbInicio.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.StyleFocused.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbInicio.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.StyleHot.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbInicio.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.StyleHot.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbInicio.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Properties.Alignment.Vert" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.Transparent" resname="I:panAlertaTrial.I:panPri.O:lbInicio.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbInicio.AnchorY" resname="I:panAlertaTrial.I:panPri.O:lbInicio.AnchorY">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Left" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Left">
+        <source>90</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Top" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Align" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Caption" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Caption">
+        <source>'Aproveite os benefícios do plano %s por mais '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.ParentColor" resname="I:panAlertaTrial.I:panPri.O:lbMeio.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.ParentFont" resname="I:panAlertaTrial.I:panPri.O:lbMeio.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Charset" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Color" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Height" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Name" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Style" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.TextColor" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.TextColor">
+        <source>3026478</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.TextStyle" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.TransparentBorder" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Style.IsFontAssigned" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.StyleDisabled.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbMeio.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.StyleDisabled.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbMeio.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.StyleFocused.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbMeio.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.StyleFocused.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbMeio.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.StyleHot.LookAndFeel.Kind" resname="I:panAlertaTrial.I:panPri.O:lbMeio.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.StyleHot.LookAndFeel.NativeStyle" resname="I:panAlertaTrial.I:panPri.O:lbMeio.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Properties.Alignment.Vert" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.Transparent" resname="I:panAlertaTrial.I:panPri.O:lbMeio.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853356</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaTrial.I:panPri.O:lbMeio.AnchorY" resname="I:panAlertaTrial.I:panPri.O:lbMeio.AnchorY">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416853472</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

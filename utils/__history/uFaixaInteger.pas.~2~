@@ -1,0 +1,11 @@
+unit uFaixaInteger;
+
+interface
+
+TFaixaIntegerItem = record
+  fiDe, fiAte : Integer;
+end;
+
+implementation
+
+end.

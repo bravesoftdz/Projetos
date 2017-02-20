@@ -1,0 +1,91 @@
+object Form16: TForm16
+  Left = 0
+  Top = 0
+  Caption = 'Importar OptiCyber'
+  ClientHeight = 244
+  ClientWidth = 348
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 17
+    Top = 96
+    Width = 119
+    Height = 19
+    Caption = 'Importar fotos'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object PB: TProgressBar
+    Left = 0
+    Top = 0
+    Width = 348
+    Height = 16
+    Align = alTop
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 17
+    Top = 160
+    Width = 177
+    Height = 25
+    Caption = 'Importar'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object nxSession1: TnxSession
+    ActiveDesigntime = True
+    UserName = 'admin'
+    Password = 'delphi9856'
+    ServerEngine = nxRSE
+    Left = 24
+    Top = 24
+  end
+  object nxDB: TnxDatabase
+    ActiveDesigntime = True
+    Session = nxSession1
+    AliasName = 'NexCafe'
+    Left = 64
+    Top = 24
+  end
+  object tCli: TnxTable
+    Database = nxDB
+    TableName = 'Cliente'
+    IndexName = 'IID'
+    Left = 24
+    Top = 64
+    object tCliID: TAutoIncField
+      FieldName = 'ID'
+    end
+    object tCliFoto: TGraphicField
+      FieldName = 'Foto'
+      BlobType = ftGraphic
+    end
+  end
+  object nxTCP: TnxWinsockTransport
+    DisplayCategory = 'Transports'
+    ActiveDesigntime = True
+    ServerNameRuntime = '127.0.0.1'
+    ServerNameDesigntime = '127.0.0.1'
+    Port = 16200
+    Left = 104
+    Top = 24
+  end
+  object nxRSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
+    Transport = nxTCP
+    Left = 80
+    Top = 64
+  end
+end

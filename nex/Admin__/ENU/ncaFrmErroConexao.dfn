@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmErroConexao.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmErroConexao.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7423148148</prop>
+        <prop prop-type="OrigDateTime">41344.5004398148</prop>
+        <prop prop-type="XlatDateTime">41344.5004398148</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">58</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmErroConexao.Left" resname="O:FrmErroConexao.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Top" resname="O:FrmErroConexao.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.BorderStyle" resname="O:FrmErroConexao.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Caption" resname="O:FrmErroConexao.Caption">
+        <source>'Falha na conexão'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.ClientHeight" resname="O:FrmErroConexao.ClientHeight">
+        <source>201</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.ClientWidth" resname="O:FrmErroConexao.ClientWidth">
+        <source>417</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Color" resname="O:FrmErroConexao.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Font.Charset" resname="O:FrmErroConexao.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Font.Color" resname="O:FrmErroConexao.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Font.Height" resname="O:FrmErroConexao.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Font.Name" resname="O:FrmErroConexao.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Font.Style" resname="O:FrmErroConexao.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.OldCreateOrder" resname="O:FrmErroConexao.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.Position" resname="O:FrmErroConexao.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.OnClose" resname="O:FrmErroConexao.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.PixelsPerInch" resname="O:FrmErroConexao.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.TextHeight" resname="O:FrmErroConexao.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmErroConexao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:Image1.Left" resname="O:FrmErroConexao.O:Image1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:Image1.Top" resname="O:FrmErroConexao.O:Image1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:Image1.Width" resname="O:FrmErroConexao.O:Image1.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:Image1.Height" resname="O:FrmErroConexao.O:Image1.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:Image1.AutoSize" resname="O:FrmErroConexao.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:Image1.Picture.Data" resname="O:FrmErroConexao.O:Image1.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000002A744558744372656174696F6E2054696D65004D692035204D727A20323030332030313A31363A3336202B303130302D49F2060000000774494D4507D605170E023563863E6F000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC6105000007764944415478DABD970D5055651AC7FFEF39F7DCCB05BC7011C1B05951D8F563CDC83E366BBFC6B6D29A7469B37266FB729C769B2CA5304D993EC626284B8476D38804445D5116E4C3A82CB409060631AF41685A1A21E1CA37F7FB9C7BCEE939E75C115C16C59C7D679E79CFBDE7B9EFF37B9EF7799EF7BD0C3F6FB021CFEACF5DE0B2465D3E2C3DAD784991B1445561F705D070BC1DE92F6DC3217AED192BC89801EA3351C2D97F9D9C70FB0B102CA1F8CFC9721C3B58E8CCFB148F97D6A19A54FAC702312680E339B8BFCB1F529CB4B89CC9E20014D90FDE6CC2D996BDA8A9F857EDD26CBC406A8E6024AE2EC0D91DB07EDD8AE66977AF9B1A3621096AC0497E4A50D50084100B1A8B52D49C7267FAAECFF101A9B792C85715A0311BAF70F6A92F27CEDB08D9D709858C03A20EC1F12A3C3DA751BD6373EBF2F7B0A2DF83CFE965DF5503389D8BF8B67E34CFBC2F3B8C1342A1CA5EDD304011D02144982C028E55E7A3A8ECD4D64D7B91492FBFD115AE06C091CDD863FDC51D0F4CBCEE31280117184739269D03141754533845C34F0B8950150F0EE66F71ADCDC7CA133FA2927E4A4AA327E42501BE2DC41DDD4EEC9F76CF56A69221A9BF096ADB169C3AA3405280A4E9A4147B1744EB34F026096D47EB5155E2A85A9D8F57E9CD5724DE2B0638950553BB822F27DFF2C475B66B6E214FDD701D4EC59D6B22D1D66D4398D58A89D13CEADE69817CED62C89C85AA42416DC16E65637120ED530776D0326748942B0238FA3E56C8C2844D53E7652020F582F334E1C33D057832731262A3CDB0582C94EA6158F7D7363CFAF004F472D3C173127A3A7EC487F98D4DCFE522559451474B39C70C70BC00315DDD389678575A94106AA7C4F341F0D421BFA00AAF6C9B8468BB4507607C181E9CD785B495227AE5D900E785C5CAA17E77BD9A57E2CADE7E009B69B9EF48026302F8F25DBC6F89BB71595CD232C8623769FA2188CDA82A2DC3F27F4CC104BB192121215058289E7DA80D4B97F0E893E349CF4765294312BDD897D5D4B9661B5674F4E1135AB267A4841C11E09B42DC4CDED7CD5CB8919765ADCC5CD06ADEC43AD1DD94875B97CFC0C4F1261D4052C661FBFA4348981D0F9F1C0646A08C97A84D2B6839D08EA29DFD451B4AF1062DD042E2BF240021B24FB2509B383B796E54FC1F20D3DE1B89EC037886F162166626CF8435D44A5B60A6C40C477DE97EF44BBFA15F7A0940A432A5E6A48945466546BB985E8C5547BE43312DD2717114FE0BA026078F31353C6FD682B798E4EB82D1D683009C82F15C2552D3397CD6380956AB05B7CD71E1ADF5CDE877CD20C31E127110C24400679ABCD8FB9EB726B5106B6991C3B8E89C1806509B81082F456EC6FC95712191D752BF1F081AF7EA7BAB6DC338E1241C871C58F6DACD080FB3226D790BEEB95BC2802F3208E0D7BD8706C205601D17C0BE0D0135A704AF971FC2565C744E0C03A8D9880DA1B1D353137E9B0249EF7443BCD7C34BC20760B796606EF21F21C911A82F2B83C81220ABA2619C37662D029A2E6FA61AEC0476A6E1F4EA5D4871FB7010C6913D1CC0F10EA677F6C331E7E1B72D8CFA86A2B82E845FF79EBCD36626212ABC01A51FF1F8FE6C145256B6C0D93359F79EE37D867182E07885664A1B8E824110358540410172733FC3265AEC0482E7C420C0C1375015336BC1FCB8598BF4B25355CF90F06BDE7B8C593360F2233282BA2CEF87DB134B670019E4DC64D0671837290440EA26324E008CACD0ED091F3C8581D74BF1DCE973A8A0853BB584D4011A33B1704012F6DEB4248712AF97D294BC3F0FA01985611C04C19BA92CDB1CF09EEB86D90A444D31C3136523C31A9CD1033832CC13004CC3F7F86BBA2FEDC8C2BEF472ACA78F47B5BD65B574C7EB3C81E61B16AD48B4C5CCA2D3AE87003CC30182DE73E431EB6E4645C5593CF3CF044A421B72D6B462C19FBBE00DE1E8BDA41BE704181118A1C7EC7A114AE6BFB1AEE1A47E4EB4B33D6BB06A627CFC9B372C7C137E4F876E7810E022EF9920C276EE006E5D1A03A764872DDC8698680B2A7756C3CF73FABEEBDE0B46B1B311083AE89690BD0A75191548A38F0D6CF72A1CBEEDA17573C2A37F0939D03704C03D0C404B326DCFEDDE063C9F118A929AC988B0D9B0E84FBD78F5E546884AD073C130CC4639E6DE5D0AFFD379584D8F7B58512ABEBFF3EF5B2633DE44974CA76E5807D0B21E86E7BAF79AD03E0BAC0F6101078AF7C7923133EEFF4B1B02146F8593E93E005DC061D4B1E9110CA46CD70FA95C96F70CCA6E4FFEDBC26B7EF53B487EEA7C8A9B8AD028418EEA5F65EE0B009C5787E04D2E840BD427CC3E8894C71A306796F57DD7C23FDA68DA0FBCBD1E1F177C8146FAB895AD5D8CDFCF9E82CA39F39F18179B783D8CF3E2420F602CB815BC4B8F0833B90D108166B8C9205586F69D4919D530FD91C15774265615A0F5B552547B44D4D0D7FBB49D0A7D602EEE4D9A8AA726452089F68E57CF8790D65454239B074F103578BD51E95A2AE9B752EA03869EA6A3EB6B57C600647A56B4FAD7C427C2D9D281E3E547D049CFDF92EAC7242D2CD88C224966902491C4915870F96324D7D521F3D0672DAC3FC0B82B6A9714F7F95CD52341124162BD741A8D68EC7274024108ED941371BE130E1963FEAF78856310FAFF65F07F8E9F00BF0F42DB7F77B1410000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Left" resname="O:FrmErroConexao.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Top" resname="O:FrmErroConexao.O:LMDSimplePanel1.Top">
+        <source>155</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Width" resname="O:FrmErroConexao.O:LMDSimplePanel1.Width">
+        <source>417</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Height" resname="O:FrmErroConexao.O:LMDSimplePanel1.Height">
+        <source>46</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Align" resname="O:FrmErroConexao.O:LMDSimplePanel1.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Bevel.BorderSides" resname="O:FrmErroConexao.O:LMDSimplePanel1.Bevel.BorderSides">
+        <source>[fsTop]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmErroConexao.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmEdge</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.Color" resname="O:FrmErroConexao.O:LMDSimplePanel1.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.TabOrder" resname="O:FrmErroConexao.O:LMDSimplePanel1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Left" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Left">
+        <source>331</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Top" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Top">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Width" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Height" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Cancel" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Caption" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Default" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.TabOrder" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.OnClick" resname="O:FrmErroConexao.O:LMDSimplePanel1.O:LMDButton1.OnClick">
+        <source>LMDButton1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLMDButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel1.Left" resname="O:FrmErroConexao.O:cxLabel1.Left">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel1.Top" resname="O:FrmErroConexao.O:cxLabel1.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel1.Caption" resname="O:FrmErroConexao.O:cxLabel1.Caption">
+        <source>'Não foi possível conectar ao servidor NexCafé'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel1.Style.TextStyle" resname="O:FrmErroConexao.O:cxLabel1.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel2.Left" resname="O:FrmErroConexao.O:cxLabel2.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel2.Top" resname="O:FrmErroConexao.O:cxLabel2.Top">
+        <source>55</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel2.Caption" resname="O:FrmErroConexao.O:cxLabel2.Caption">
+        <source>'Tente os caminhos abaixo:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel2.Style.TextStyle" resname="O:FrmErroConexao.O:cxLabel2.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel3.Left" resname="O:FrmErroConexao.O:cxLabel3.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel3.Top" resname="O:FrmErroConexao.O:cxLabel3.Top">
+        <source>77</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel3.Caption" resname="O:FrmErroConexao.O:cxLabel3.Caption">
+        <source>'1. Certifique-se que o NexServ esteja em execução;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel4.Left" resname="O:FrmErroConexao.O:cxLabel4.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel4.Top" resname="O:FrmErroConexao.O:cxLabel4.Top">
+        <source>95</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel4.Caption" resname="O:FrmErroConexao.O:cxLabel4.Caption">
+        <source>'2. Na tela de login selecione corretamente o local onde o NexServ está instalado;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel5.Left" resname="O:FrmErroConexao.O:cxLabel5.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel5.Top" resname="O:FrmErroConexao.O:cxLabel5.Top">
+        <source>114</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmErroConexao.O:cxLabel5.Caption" resname="O:FrmErroConexao.O:cxLabel5.Caption">
+        <source>'3. Certifique-se que sua rede local esteja funcionando corretamente.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423257523</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

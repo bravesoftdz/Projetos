@@ -1,0 +1,74 @@
+unit ncaFrmConfigComissao;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ncaFrmBaseOpcaoImgTxt, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, Menus, cxMaskEdit, cxDropDownEdit,
+  cxTextEdit, cxCurrencyEdit, StdCtrls, cxButtons, cxLabel, dxGDIPlusClasses,
+  ExtCtrls, LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel;
+
+type
+  TFrmConfigComissao = class(TFrmBaseOpcaoImgTxt)
+    LMDSimplePanel6: TLMDSimplePanel;
+    edComissaoPerc: TcxCurrencyEdit;
+    lbComissao: TcxLabel;
+    lbComissaoSobre: TcxLabel;
+    edComissaoLucro: TcxComboBox;
+  private
+    { Private declarations }
+  public
+    procedure Ler; override;
+    procedure Salvar; override;
+    function Alterou: Boolean; override;
+
+    procedure Renumera; virtual;
+
+    function NumItens: Integer; override; 
+    { Public declarations }
+  end;
+
+var
+  FrmConfigComissao: TFrmConfigComissao;
+
+implementation
+
+uses ncaFrmPri, ncClassesBase;
+
+{$R *.dfm}
+
+{ TFrmConfigComissao }
+
+function TFrmConfigComissao.Alterou: Boolean;
+begin
+  Result := (gConfig.ComissaoPerc <> edComissaoPerc.Value) or
+            (gConfig.ComissaoLucro <> (edComissaoLucro.ItemIndex=1));
+end;
+
+procedure TFrmConfigComissao.Ler;
+begin
+  inherited;
+  edComissaoPerc.Value := gConfig.ComissaoPerc;
+  edComissaoLucro.ItemIndex := Byte(gConfig.ComissaoLucro);
+end;
+
+function TFrmConfigComissao.NumItens: Integer;
+begin
+  Result := 1;
+end;
+
+procedure TFrmConfigComissao.Renumera;
+begin
+  lbComissao.Caption := IntToStr(InicioNumItem) + '. ' + lbComissao.Caption;
+end;
+
+procedure TFrmConfigComissao.Salvar;
+begin
+  inherited;
+  gConfig.ComissaoPerc := edComissaoPerc.Value;
+  gConfig.ComissaoLucro := (edComissaoLucro.ItemIndex=1);
+end;
+
+end.

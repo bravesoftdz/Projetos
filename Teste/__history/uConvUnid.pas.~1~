@@ -1,0 +1,34 @@
+unit uConvUnid;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, cxTextEdit, cxMaskEdit,
+  cxSpinEdit, cxLabel, LMDControl, LMDCustomControl, LMDCustomPanel,
+  LMDCustomBevelPanel, LMDSimplePanel;
+
+type
+  TForm5 = class(TForm)
+    LMDSimplePanel3: TLMDSimplePanel;
+    cxLabel3: TcxLabel;
+    edDE: TcxSpinEdit;
+    LMDSimplePanel1: TLMDSimplePanel;
+    cxLabel1: TcxLabel;
+    cxSpinEdit1: TcxSpinEdit;
+    cxLabel2: TcxLabel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form5: TForm5;
+
+implementation
+
+{$R *.dfm}
+
+end.

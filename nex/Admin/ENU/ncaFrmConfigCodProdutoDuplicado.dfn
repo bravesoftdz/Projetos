@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfigCodProdutoDuplicado.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfigCodProdutoDuplicado.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422453704</prop>
+        <prop prop-type="OrigDateTime">41344.4646759259</prop>
+        <prop prop-type="XlatDateTime">41344.4646759259</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">24</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.Caption" resname="I:FrmConfigCodProdutoDuplicado.Caption">
+        <source>'Permitir códigos duplicados?'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.ClientHeight" resname="I:FrmConfigCodProdutoDuplicado.ClientHeight">
+        <source>341</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.ClientWidth" resname="I:FrmConfigCodProdutoDuplicado.ClientWidth">
+        <source>521</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.ExplicitWidth" resname="I:FrmConfigCodProdutoDuplicado.ExplicitWidth">
+        <source>527</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.ExplicitHeight" resname="I:FrmConfigCodProdutoDuplicado.ExplicitHeight">
+        <source>366</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.PixelsPerInch" resname="I:FrmConfigCodProdutoDuplicado.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.TextHeight" resname="I:FrmConfigCodProdutoDuplicado.TextHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfigCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.Width" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.Width">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.Height" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.Height">
+        <source>255</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.ExplicitWidth" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.ExplicitWidth">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.ExplicitHeight" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.ExplicitHeight">
+        <source>255</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.Width" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.Width">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:img.Picture.Data" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:img.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D4948445200000030000000301006000000079225C4000000097048597300000B1300000B1301009A9C1800000B204944415478DAED9B79705D551DC7BF2F6912D23625699B6E146AD30D4BB195B6DA82BBFFB8CCE880A020488B383A3A2E15591471461D610A152B6A5D002920B830B8306845A4964D2D0EA5FB9296D0CD9676C0D216DBD0A479CFEFEF7BCE79F7E6BD3CF252EE4B82C9F90E9CBE779777CEF99CDF72CEBD496560EA2F3D5552FD007AB6F403E8E19207E0AF52150E4B37E09874993F5A57F046B9F749EA7367DF9FD8F19750292D45AD742DCE938EF53C80FBA54518265D89D9127092F4FA2FCD12F09804EC906E46AB7415BE2C759F4FC80370AFB41F1F924670D0AB3110367352546F2CA1FD69B4A1E3191FFD1B28932210774B2F60A5748AEF7F6BB7B53E0FC02FA50C3E2A59B7526A70C6D7BDA7B4E1B8EAF6031FAF81F640E2002A24E02712F06D693051988E745B2FBA0C60141D9345827FD34A5E887DAEC3500AD88C6D68623D0E63780C780EBB782E38B746A25EE78FA680A7B00AAB59BF11933081F5065ED9C87A06A6E10CD66BF8CD46D60D380D63594FA026B2FE331EA280737036E6B2DE2481E78CD579E592FDAEC9EE6F02EFB551E795F1A8F5A34A31005822454082ABEDAE1853C00565F031291FC020DE7600EB43388A57580F6657ACE1433D805D789E68402C43780CFCF7011C645DCB2BAB598F269831B1013F2D0B6A37F6B09E84F1840762DC8E9DAC47F2AEB5AC274A91EF9E21051F1EFD7E00B05FB2FB9BC0BB6DD779E1B80D7315EB1F49C02724E064E9C44B57634C1E807BA40C2E947A02C01B3460DBF02C6500465011804725E0CD921BD8EDFA3D5334C07BD98E7DACC7F37E06B489BF60E70DA0EC78B59FE93F94808B7129E6A99DB502DE7E4E03A58A31BD08C00ECD7873480DACB752DB602E6B14214400FE2601332537B0E66AEA319C8A00ECA1F6C25C58032138A0E61A2BD87A6BEF40CA00FC403200F3956CDBF0BB64BB7B624C1E805F48195C249512C0266C118053141382CF9E2481701A0568B48F1913B200960BC02C6A666C60CD52EA63007633F2EC113807B49140CDA22A85C0FA3148D9DD2D1270A7043CCC55D023483EC62C906A3DB04385013893C9E0E3522900B8015D2F391FED5C449306720A3599F51609C235062E085BB07E8432006FA1667560296180765216FC275376DD66DE6DAB00B881A961EB0CC0F725E0C712F0A4947C8C71BEBFCE03385818C05D528626694A02C07F88C0000CE6B51180759401184759079EF53EFF74C906CC64D99329021066E81CBC95081CA8AD1ED4A8D800D870ECD2FDA6C8A26C7E366A665609C01022B0F62C962257F184947C8CB9421A9ACD920A0270A698C125D28900D8AB860D632E51139B2921B805006B25B0F9267325DB3493734DFA546A6C0CC05FA88705C0E4406DF12E624C6C809A1455DCFDA6C8E56D10D030334FF613E47B12F05329CA5E928E315F918A00B054CA64D3B2AE03D8A5991766CC3EC9D609750A6E01C01AC966D07875A0515E1A5C039C81A9DE456D88598875D4003C240490879EE367F616811A2B4B0933D00664BBEE375516B54E51C7CDCC2A4D0837416E960CC0CF2803F0A800241D63AE948A007087946152667A35004794660D66872A6300764AD07C192E533563754086C6003C43ADF633BBC1FB68731167FA85D85AEFA282893748C0322EC50CC0DB1826E7C606D692D75363006C409AFCFDA60AF83A011DE85D834D8721ACBF2B41C36F0056508F9520C65C251501E0E7528639F13CE5C585011C522C1F2C450042D0AA972253351CC37C470CC02A21B0AC67A23A60B9C6660DD89BF89FB3907502D420171500FC117F2202E01D783B1138501B3DA80060801F109B91D3793F03B05A6B6B6867EB244D883A2DB81649C0AD129463AD28418CB95A2A02C0ED528659B1C900409B701966C36D31D33A2819E91A997200F09C0F462365B4B665E14CB55E5ED401B08E3C4DADF2336892F7D19B346036643660ABE5A22CF96CD0003B000F52CB58BF0BEFA415B8815DEF418D8B01D8A84D110BA6D36551B6F1B15EED0F00DC0AFB2609B84D7259D6F212C4986BA42200B88664B828B94C0B131BF634DC82231D9BF107A8977C83CA105F9884FFD21DEE99843A9DFD9CCE5E97EEF0FB42D7657CBB5EFDBC994470A680AF52D01FE4D3E1E17E0FEB46C9F5FB76403996655949C798AF4A450070A698C1272507A02D0662888C0B4C2E4DD0267599EFC842D6EFC3FBF10144598DC500B380CF529F83AD08BF4599EB99AC7CDFE6FB74B8F4F74ED65F62B67C056C4FEA1E2E08DD0C9B2A4B700BB425CCAA2DADBB80B2BDAAB09EA8F1EDFA30756E0CC42C9C258BFA1711ACD5047200CC1E73019805588E6500928E315F938A00E0825106974BE072FCB896E40144D8AC7A9132006E690D7C91FA026C05798E5CC3D952945F2FA46E845B19DAC22464470BE90016C917BB8158A0058BF9E2E57205FFA0FECEDA229259E40DB81EDF613D9FD3E372B88D026BD7EFA8FB7D87177B8BB2329B3660809F2280351E80B9D0111EC04229B85EB7DB6A696ED231E65AA908002E1FCEE05312FC2E5E0460966403F34FACF41690F233E856CDD8D395C757F86CE0719F577F9E780C907BE2E6D2CF86984F5DEE4DFF629FFE3EC12B1F8FB9B2B9C46903F26BEA5E6F691F84A5BD2EEBB258B39BF525BC7A7ECC155E80F36813C07DF82D1E40949DE402B8CD035846599695748CF9BA540400B724CFE0D312D042B5C62C218D8E7D7A26E6BB0BF9ECB86F4F677D78F0FFD175C87AF5C2BF171D47F67CB43BAFE35208C04770BE5C5A8D9C6CF231E63AA908006EF368BF5F098FC83EA068F5000A75347760F28372FE75990EEFD77E7B371748A6DD31E4FCBFF312001C678F5A106D96CD66DA693EDF22D152241F638A06E0F2D6853EEFBE8686688AB29FD77B716F7B40CFD5ECC9DA0392C598F94A3A16FBB431E918F30DA90800D3A4910C2CA6EB685EA60BFD3EF7F0EC79C9BC1ED2F9EB29B9A5ABE7E79690B53D2FB9F589AD57DE8DF7E0BD707B4DB6D04B3AC6140DC0ED82A6FC7E7C85DF34ABF63120BC983220DB9DAE96EBA5DDD9DDD610634290EF2CC620E7733ACF85751C63426C4A69C73EDAB3A964D66EBD0A0F5052D9B73F928D31450308C53D8048F917B3CAF1B254A66099CE7B3F2202D1D98C7469D94EFFC0A7BEE4312685B0928FDA659FCD9E435D1EEB41D231C6ED86BE886F4A93D0E9F3805297BE1663EE9396680BE5412EC59CA5BF9C3DBFDB01FCBFC718B76E3AE0B7DBFFA0DDD515B8C5F76FBF5C6E8B9E90F41080CE624C25218CD78EE2502E7C2AD9E84A9AB4F9E5729EFDDADFCDB34DC5564584161C65DDC2F5FC0EB90BABDB12EA65B84F8BDF9E6EF6167ECC6FE144BFD3636F47E7C6986A2EFD17E8E14E1D07BE9A01B28681ACD20FBC85C7727EE7B6FD5E1B8034873BED0118F4C39A97CDCC779ED1003DC9157D575F4D8CAF5D9CDC8C4FFB957E9B7F4D259D77658FBF9E3E4B1B1821ABAACEA9AB7C5D1E9A9BD0AF861E879918DE586BCED64F6B1FE078C9FBDF4B0084F47690AFABB9B0BF89B98265DEE5256A5F9B70CEC4D5A8D5369B9500E08807F04AC9FBDF4B0084810F795035DDC11DD8A71DF7EA12CDC366D9DD595CF18ED25369F79D2BFFF5004AFF926EAF05B006BFF7008694E865F1C38A2C33706E3F80C8E7071003F12B9CCFFA52DFBAE4FF3221E59767176987E76EFFED515F0717D47C42F7EE523B7A07800AFF29584000911B84932EB94138CCF86001A5FF438D7E002A7D1E40BE0BDA40B7704CFB90152776E34E8B1BDC697473557AD665A5CFBAA0FC20DC889504B09D8B99DA92B42FCD24D7A2C014CC21803E1F84F3013471F6B71240394696A47D6D5CFF1A80099CFD15FD00F21762BF511634CF2FDE5389654321FB711BEAF6A7589605DDE58FF6D98558FF56448F95F0046AA6DE46AAF4DF86810F9F03A0A4FE50366C8A85016EF1F531ACC267F4B9BB46A5D70008C58108031E32A0B2ECD9C994D0E300A2D50FFCF1D8197D04405F2FFF037768820A32BF8F340000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.Caption" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.Caption">
+        <source>'Permitir cadastramento de mais de um produto como o mesmo código.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.ExplicitWidth" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.ExplicitWidth">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.ExplicitHeight" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.ExplicitHeight">
+        <source>43</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.Width" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:panTopo.I:CB.Width">
+        <source>440</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.Caption" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.Caption">
+        <source>'Ativando esta opção, você poderá passar a cadastrar mais de um produto com o mesmo código.'#13#10#13#10'Assim, por exemplo, será possível ter varias sapatos com mesmo código, mas de cores, tamanhos e/ou preços diferentes:'#13#10'- 7898920725096 Sapato Negro T36'#13#10'- 7898920725096 Sapato Negro T38'#13#10'- 7898920725096 Sapato MarromT36'#13#10#13#10'Caso esta opção continuar desativada, o programa continuará a exibir um alerta diante a tentativa de cadastro de um segundo produto com mesmo código e impedirá a gravação do registro.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.ExplicitWidth" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.ExplicitWidth">
+        <source>443</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.ExplicitHeight" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.ExplicitHeight">
+        <source>196</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.Width" resname="I:FrmConfigCodProdutoDuplicado.I:panPri.I:lbDescr.Width">
+        <source>443</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:LMDSimplePanel1.Top" resname="I:FrmConfigCodProdutoDuplicado.I:LMDSimplePanel1.Top">
+        <source>299</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:LMDSimplePanel1.Width" resname="I:FrmConfigCodProdutoDuplicado.I:LMDSimplePanel1.Width">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigCodProdutoDuplicado.I:LMDSimplePanel1.ExplicitTop" resname="I:FrmConfigCodProdutoDuplicado.I:LMDSimplePanel1.ExplicitTop">
+        <source>299</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422602431</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,49 @@
+unit ncaBaseWebApi;
+
+interface
+
+uses SysUtils, Windows, ExtActns, Automation, EmbeddedWB, SHFolder, Classes, Forms, ncBaseWebApi;
+
+type
+
+  TncAdminBaseWebApi = class ( TncBaseWebApi )
+    function ServerIP: OleVariant; override;
+    function UsernameFunc: OleVariant; override;
+    function Admin: OleVariant; override;
+    function CloseApp: OleVariant; override;
+    function PopupUrl(aURL: OleVariant): OleVariant; override;
+  end;
+
+
+implementation
+
+uses ncaDM;
+
+{ TncAdminBaseWebApi }
+
+function TncAdminBaseWebApi.Admin: OleVariant;
+begin
+  Result := Dados.CM.UA.Admin;
+end;
+
+function TncAdminBaseWebApi.CloseApp: OleVariant;
+begin
+
+end;
+
+function TncAdminBaseWebApi.PopupUrl(aURL: OleVariant): OleVariant;
+begin
+
+end;
+
+function TncAdminBaseWebApi.ServerIP: OleVariant;
+begin
+
+end;
+
+function TncAdminBaseWebApi.UsernameFunc: OleVariant;
+begin
+
+end;
+
+end.

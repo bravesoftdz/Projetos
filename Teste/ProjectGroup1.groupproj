@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{10986D4F-7B31-49BF-B69E-190880F2E99C}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TesteLang.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ENU\TesteLang_ENU.bdsproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ESS\TesteLang_ESS.bdsproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TesteLang">
+        <MSBuild Projects="TesteLang.dproj"/>
+    </Target>
+    <Target Name="TesteLang:Clean">
+        <MSBuild Projects="TesteLang.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TesteLang:Make">
+        <MSBuild Projects="TesteLang.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="TesteLang_ENU">
+        <MSBuild Projects="ENU\TesteLang_ENU.bdsproj"/>
+    </Target>
+    <Target Name="TesteLang_ENU:Clean">
+        <MSBuild Projects="ENU\TesteLang_ENU.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TesteLang_ENU:Make">
+        <MSBuild Projects="ENU\TesteLang_ENU.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="TesteLang_ESS">
+        <MSBuild Projects="ESS\TesteLang_ESS.bdsproj"/>
+    </Target>
+    <Target Name="TesteLang_ESS:Clean">
+        <MSBuild Projects="ESS\TesteLang_ESS.bdsproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TesteLang_ESS:Make">
+        <MSBuild Projects="ESS\TesteLang_ESS.bdsproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TesteLang;TesteLang_ENU;TesteLang_ESS"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TesteLang:Clean;TesteLang_ENU:Clean;TesteLang_ESS:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TesteLang:Make;TesteLang_ENU:Make;TesteLang_ESS:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

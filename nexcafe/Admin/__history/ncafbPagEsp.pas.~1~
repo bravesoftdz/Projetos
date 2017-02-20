@@ -1,0 +1,32 @@
+unit ncafbPagEsp;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ufmFormBase, dxPSGlbl, dxPSUtl, dxPSEngn, dxPrnPg, dxBkgnd, dxWrap,
+  dxPrnDev, dxPSCompsProvider, dxPSFillPatterns, dxPSEdgePatterns,
+  dxPSPDFExportCore, dxPSPDFExport, cxDrawTextUtils, dxPSPrVwStd, dxPSPrVwAdv,
+  dxPSPrVwRibbon, dxPScxPageControlProducer, dxPScxEditorProducers,
+  dxPScxExtEditorProducers, dxBar, dxPSCore, cxGridCustomPopupMenu,
+  cxGridPopupMenu, cxClasses, LMDControl, LMDCustomControl, LMDCustomPanel,
+  LMDCustomBevelPanel, LMDSimplePanel;
+
+type
+  TFrmBase1 = class(TFrmBase)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmBase1: TFrmBase1;
+
+implementation
+
+uses ufmImagens;
+
+{$R *.dfm}
+
+end.

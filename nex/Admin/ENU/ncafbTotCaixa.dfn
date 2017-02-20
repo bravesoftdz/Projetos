@@ -1,0 +1,1273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncafbTotCaixa.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncafbTotCaixa.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7419675926</prop>
+        <prop prop-type="OrigDateTime">41561.7425462963</prop>
+        <prop prop-type="XlatDateTime">41561.7425462963</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">251</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:fbTotCaixa.Caption" resname="I:fbTotCaixa.Caption">
+        <source>'fbTotCaixa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.ClientHeight" resname="I:fbTotCaixa.ClientHeight">
+        <source>630</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.ClientWidth" resname="I:fbTotCaixa.ClientWidth">
+        <source>850</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.ExplicitWidth" resname="I:fbTotCaixa.ExplicitWidth">
+        <source>866</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.ExplicitHeight" resname="I:fbTotCaixa.ExplicitHeight">
+        <source>666</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.PixelsPerInch" resname="I:fbTotCaixa.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.TextHeight" resname="I:fbTotCaixa.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfbTotCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.Width" resname="I:fbTotCaixa.I:panPri.Width">
+        <source>850</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.Height" resname="I:fbTotCaixa.I:panPri.Height">
+        <source>630</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.ExplicitWidth" resname="I:fbTotCaixa.I:panPri.ExplicitWidth">
+        <source>850</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.ExplicitHeight" resname="I:fbTotCaixa.I:panPri.ExplicitHeight">
+        <source>630</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.Width" resname="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.Width">
+        <source>850</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.Height" resname="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.Height">
+        <source>44</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.ExplicitWidth" resname="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.ExplicitWidth">
+        <source>850</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.ExplicitHeight" resname="I:fbTotCaixa.I:panPri.I:dxBarDockControl1.ExplicitHeight">
+        <source>44</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.AlignWithMargins" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Left">
+        <source>213</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Top">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Width">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Height" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Height">
+        <source>581</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Top">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Right" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Bottom" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Align" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Bevel.Mode" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.TabOrder" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Width">
+        <source>209</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Height" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Height">
+        <source>296</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Top">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Right" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Bottom" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Align" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.TabOrder" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.LookAndFeel.Kind" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.LookAndFeel.NativeStyle" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.RootLevelOptions.TabsForEmptyDetails" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.RootLevelOptions.TabsForEmptyDetails">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.Navigator.Buttons.CustomButtons" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.Navigator.Buttons.CustomButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.DefaultGroupSummaryItems" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.DefaultGroupSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.FooterSummaryItems[0].Format" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.FooterSummaryItems[0].Format">
+        <source>'0.00'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">C:TcxGridTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.FooterSummaryItems[0].Kind" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.FooterSummaryItems[0].Kind">
+        <source>skSum</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">C:TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.FooterSummaryItems[0].Column" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.FooterSummaryItems[0].Column">
+        <source>tvCedulaTotal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">C:TcxGridTableView</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.SummaryGroups" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.DataController.Summary.SummaryGroups">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsCustomize.ColumnFiltering" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsCustomize.ColumnFiltering">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsCustomize.ColumnGrouping" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsCustomize.ColumnGrouping">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsSelection.HideFocusRectOnExit" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsSelection.HideFocusRectOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.ColumnAutoWidth" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.ColumnAutoWidth">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.ExpandButtonsForEmptyDetails" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.ExpandButtonsForEmptyDetails">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.Footer" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.Footer">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.GroupByBox" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.OptionsView.GroupByBox">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxGridTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Caption" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Caption">
+        <source>'Cédula / Moeda'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.PropertiesClassName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.PropertiesClassName">
+        <source>'TcxTextEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Options.Editing" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Options.Editing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Options.Focusing" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Options.Focusing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaDescr.Width">
+        <source>87</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Caption" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Caption">
+        <source>'Quant'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.PropertiesClassName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.PropertiesClassName">
+        <source>'TcxSpinEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Properties.Alignment.Horz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Properties.UseLeftAlignmentOnEditing" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Properties.UseLeftAlignmentOnEditing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.OnGetDisplayText" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.OnGetDisplayText">
+        <source>tvCedulaQuantGetDisplayText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.HeaderAlignmentHorz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaQuant.Width">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Caption" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Caption">
+        <source>'Total'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769792</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.DataBinding.ValueType" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.DataBinding.ValueType">
+        <source>'Currency'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.PropertiesClassName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.PropertiesClassName">
+        <source>'TcxCurrencyEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Properties.Alignment.Horz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Properties.Alignment.Horz">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.OnGetDisplayText" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.OnGetDisplayText">
+        <source>tvCedulaTotalGetDisplayText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.FooterAlignmentHorz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.FooterAlignmentHorz">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.HeaderAlignmentHorz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.HeaderAlignmentHorz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Options.Editing" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Options.Editing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Options.Focusing" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Options.Focusing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaTotal.Width">
+        <source>88</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaValor.DataBinding.ValueType" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaValor.DataBinding.ValueType">
+        <source>'Currency'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaValor.Visible" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaValor.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaValor.VisibleForCustomization" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:tvCedula.O:tvCedulaValor.VisibleForCustomization">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxGridColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:glCedula.GridView" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:glCedula.GridView">
+        <source>tvCedula</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:glCedula.Options.TabsForEmptyDetails" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:gridCedula.O:glCedula.Options.TabsForEmptyDetails">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Align" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Caption" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Caption">
+        <source>'Contador de Cédulas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Style.BorderStyle" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel1.O:cxLabel1.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.AlignWithMargins" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Top">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Width">
+        <source>206</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Height" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Height">
+        <source>581</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Top">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Right" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Bottom" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Align" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Bevel.Mode" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.TabOrder" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Width">
+        <source>206</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Height" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Height">
+        <source>295</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Cursor" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Top">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Right" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Bottom" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Align" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.TabOrder" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.LookAndFeel.Kind" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.LookAndFeel.NativeStyle" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.RootLevelOptions.TabsForEmptyDetails" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.RootLevelOptions.TabsForEmptyDetails">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxGrid</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Navigator.Buttons.CustomButtons" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Navigator.Buttons.CustomButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OnCanFocusRecord" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OnCanFocusRecord">
+        <source>TVCanFocusRecord</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OnCustomDrawCell" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OnCustomDrawCell">
+        <source>TVCustomDrawCell</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.DataSource" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.DataSource">
+        <source>DS</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.DetailKeyFieldNames" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.DetailKeyFieldNames">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.KeyFieldNames" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.KeyFieldNames">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Options" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Options">
+        <source>[dcoCaseInsensitive, dcoAssignGroupingValues, dcoAssignMasterDetailKeys, dcoSaveExpanding]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Summary.DefaultGroupSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Summary.FooterSummaryItems" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Summary.FooterSummaryItems">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Summary.SummaryGroups" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.Summary.SummaryGroups">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.OnDetailHasChildren" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.DataController.OnDetailHasChildren">
+        <source>TVDataControllerDetailHasChildren</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnFiltering" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnFiltering">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnGrouping" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnGrouping">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnHidingOnGrouping" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnHidingOnGrouping">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnMoving" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnMoving">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnSorting" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsCustomize.ColumnSorting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.CancelOnExit" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.CancelOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.Deleting" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.Deleting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.DeletingConfirmation" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.DeletingConfirmation">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.Editing" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.Editing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.Inserting" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsData.Inserting">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsSelection.CellSelect" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsSelection.CellSelect">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsSelection.HideFocusRectOnExit" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsSelection.HideFocusRectOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsSelection.UnselectFocusedRecordOnExit" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsSelection.UnselectFocusedRecordOnExit">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.CellAutoHeight" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.CellAutoHeight">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.ColumnAutoWidth" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.ColumnAutoWidth">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.ExpandButtonsForEmptyDetails" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.ExpandButtonsForEmptyDetails">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.GridLineColor" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.GridLineColor">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.GridLines" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.GridLines">
+        <source>glNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419769907</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.GroupByBox" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.OptionsView.GroupByBox">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Styles.Background" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Styles.Background">
+        <source>cxStyle1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Styles.Content" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Styles.Content">
+        <source>cxStyle1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Styles.Selection" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.Styles.Selection">
+        <source>cxStyle3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxGridDBTableView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.DataBinding.FieldName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.DataBinding.FieldName">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.Visible" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.SortIndex" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.SortIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.SortOrder" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.SortOrder">
+        <source>soAscending</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.VisibleForCustomization" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVID.VisibleForCustomization">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.Caption" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.Caption">
+        <source>'Item'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.DataBinding.FieldName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.DataBinding.FieldName">
+        <source>'Descr'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.PropertiesClassName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.PropertiesClassName">
+        <source>'TcxTextEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVDescr.Width">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.DataBinding.FieldName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.DataBinding.FieldName">
+        <source>'Valor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.PropertiesClassName" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.PropertiesClassName">
+        <source>'TcxCurrencyEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.Properties.Alignment.Horz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.Properties.Alignment.Horz">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.OnGetDisplayText" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.OnGetDisplayText">
+        <source>TVValorGetDisplayText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.HeaderAlignmentHorz" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.HeaderAlignmentHorz">
+        <source>taRightJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.Width" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:TV.O:TVValor.Width">
+        <source>91</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxGridDBColumn</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:GL.GridView" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:GL.GridView">
+        <source>TV</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:GL.Options.TabsForEmptyDetails" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:Grid.O:GL.Options.TabsForEmptyDetails">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxGridLevel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Left" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Top" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Align" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Caption" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Caption">
+        <source>'Resumo Financeiro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Style.BorderStyle" resname="I:fbTotCaixa.I:panPri.O:LMDSimplePanel2.O:cxLabel2.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.Left" resname="I:fbTotCaixa.I:BarMgr.Left">
+        <source>576</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.Top" resname="I:fbTotCaixa.I:BarMgr.Top">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.DockControlHeights[0]" resname="I:fbTotCaixa.I:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.DockControlHeights[1]" resname="I:fbTotCaixa.I:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.DockControlHeights[2]" resname="I:fbTotCaixa.I:BarMgr.DockControlHeights[2]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.DockControlHeights[3]" resname="I:fbTotCaixa.I:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:BarMgrBar1.ItemLinks[0].Visible" resname="I:fbTotCaixa.I:BarMgr.I:BarMgrBar1.ItemLinks[0].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:BarMgrBar1.ItemLinks[0].ItemName" resname="I:fbTotCaixa.I:BarMgr.I:BarMgrBar1.ItemLinks[0].ItemName">
+        <source>'dxBarLargeButton1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:cmNovo.ImageIndex" resname="I:fbTotCaixa.I:BarMgr.I:cmNovo.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:cmEditar.ImageIndex" resname="I:fbTotCaixa.I:BarMgr.I:cmEditar.ImageIndex">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:cmApagar.ImageIndex" resname="I:fbTotCaixa.I:BarMgr.I:cmApagar.ImageIndex">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:cmLayout.ImageIndex" resname="I:fbTotCaixa.I:BarMgr.I:cmLayout.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.I:cmPeriodo.ImageIndex" resname="I:fbTotCaixa.I:BarMgr.I:cmPeriodo.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Caption" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Caption">
+        <source>'Totalizar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Category" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Hint" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Hint">
+        <source>'Totalizar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Visible" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.LargeImageIndex" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.LargeImageIndex">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.AutoGrayScale" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.AutoGrayScale">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.GlyphLayout" resname="I:fbTotCaixa.I:BarMgr.O:dxBarLargeButton1.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:MenuGrid.Left" resname="I:fbTotCaixa.I:MenuGrid.Left">
+        <source>536</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxGridPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:MenuGrid.Top" resname="I:fbTotCaixa.I:MenuGrid.Top">
+        <source>201</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxGridPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:CP.Left" resname="I:fbTotCaixa.I:CP.Left">
+        <source>640</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TdxComponentPrinter</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:CP.Top" resname="I:fbTotCaixa.I:CP.Top">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TdxComponentPrinter</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:dlgExp.Left" resname="I:fbTotCaixa.I:dlgExp.Left">
+        <source>608</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:dlgExp.Top" resname="I:fbTotCaixa.I:dlgExp.Top">
+        <source>201</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:pmLay.Left" resname="I:fbTotCaixa.I:pmLay.Left">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TdxBarPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:pmLay.Top" resname="I:fbTotCaixa.I:pmLay.Top">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TdxBarPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:pmPeriodo.Left" resname="I:fbTotCaixa.I:pmPeriodo.Left">
+        <source>704</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TdxBarPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.I:pmPeriodo.Top" resname="I:fbTotCaixa.I:pmPeriodo.Top">
+        <source>204</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TdxBarPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.Left" resname="I:fbTotCaixa.O:cxStyleRepository1.Left">
+        <source>416</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.Top" resname="I:fbTotCaixa.O:cxStyleRepository1.Top">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.PixelsPerInch" resname="I:fbTotCaixa.O:cxStyleRepository1.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle1.AssignedValues" resname="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle1.AssignedValues">
+        <source>[svColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle1.Color" resname="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle1.Color">
+        <source>16250871</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle2.AssignedValues" resname="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle2.AssignedValues">
+        <source>[svColor, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle2.Color" resname="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle2.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle2.TextColor" resname="I:fbTotCaixa.O:cxStyleRepository1.O:cxStyle2.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.DesignActivation" resname="I:fbTotCaixa.O:MT.DesignActivation">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.AttachedAutoRefresh" resname="I:fbTotCaixa.O:MT.AttachedAutoRefresh">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.AttachMaxCount" resname="I:fbTotCaixa.O:MT.AttachMaxCount">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.FieldDefs" resname="I:fbTotCaixa.O:MT.FieldDefs">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.IndexDefs" resname="I:fbTotCaixa.O:MT.IndexDefs">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.SortOptions" resname="I:fbTotCaixa.O:MT.SortOptions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.PersistentBackup" resname="I:fbTotCaixa.O:MT.PersistentBackup">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.ProgressFlags" resname="I:fbTotCaixa.O:MT.ProgressFlags">
+        <source>[mtpcLoad, mtpcSave, mtpcCopy]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.LoadedCompletely" resname="I:fbTotCaixa.O:MT.LoadedCompletely">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.SavedCompletely" resname="I:fbTotCaixa.O:MT.SavedCompletely">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.FilterOptions" resname="I:fbTotCaixa.O:MT.FilterOptions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.Version" resname="I:fbTotCaixa.O:MT.Version">
+        <source>'5.02b'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770023</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.LanguageID" resname="I:fbTotCaixa.O:MT.LanguageID">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.SortID" resname="I:fbTotCaixa.O:MT.SortID">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.SubLanguageID" resname="I:fbTotCaixa.O:MT.SubLanguageID">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.LocaleID" resname="I:fbTotCaixa.O:MT.LocaleID">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.Left" resname="I:fbTotCaixa.O:MT.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.Top" resname="I:fbTotCaixa.O:MT.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.O:MTID.FieldName" resname="I:fbTotCaixa.O:MT.O:MTID.FieldName">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.O:MTDescr.FieldName" resname="I:fbTotCaixa.O:MT.O:MTDescr.FieldName">
+        <source>'Descr'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.O:MTDescr.Size" resname="I:fbTotCaixa.O:MT.O:MTDescr.Size">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:MT.O:MTValor.FieldName" resname="I:fbTotCaixa.O:MT.O:MTValor.FieldName">
+        <source>'Valor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:DS.DataSet" resname="I:fbTotCaixa.O:DS.DataSet">
+        <source>MT</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:DS.Left" resname="I:fbTotCaixa.O:DS.Left">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:DS.Top" resname="I:fbTotCaixa.O:DS.Top">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TDataSource</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository2.PixelsPerInch" resname="I:fbTotCaixa.O:cxStyleRepository2.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository2.O:cxStyle3.AssignedValues" resname="I:fbTotCaixa.O:cxStyleRepository2.O:cxStyle3.AssignedValues">
+        <source>[svColor, svTextColor]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository2.O:cxStyle3.Color" resname="I:fbTotCaixa.O:cxStyleRepository2.O:cxStyle3.Color">
+        <source>14286847</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:cxStyleRepository2.O:cxStyle3.TextColor" resname="I:fbTotCaixa.O:cxStyleRepository2.O:cxStyle3.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.DesignActivation" resname="I:fbTotCaixa.O:mtCedulas.DesignActivation">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.AttachedAutoRefresh" resname="I:fbTotCaixa.O:mtCedulas.AttachedAutoRefresh">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.AttachMaxCount" resname="I:fbTotCaixa.O:mtCedulas.AttachMaxCount">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.FieldDefs" resname="I:fbTotCaixa.O:mtCedulas.FieldDefs">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.IndexDefs" resname="I:fbTotCaixa.O:mtCedulas.IndexDefs">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.SortOptions" resname="I:fbTotCaixa.O:mtCedulas.SortOptions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.PersistentBackup" resname="I:fbTotCaixa.O:mtCedulas.PersistentBackup">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.ProgressFlags" resname="I:fbTotCaixa.O:mtCedulas.ProgressFlags">
+        <source>[mtpcLoad, mtpcSave, mtpcCopy]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.LoadedCompletely" resname="I:fbTotCaixa.O:mtCedulas.LoadedCompletely">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.SavedCompletely" resname="I:fbTotCaixa.O:mtCedulas.SavedCompletely">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.FilterOptions" resname="I:fbTotCaixa.O:mtCedulas.FilterOptions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.Version" resname="I:fbTotCaixa.O:mtCedulas.Version">
+        <source>'5.02b'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.LanguageID" resname="I:fbTotCaixa.O:mtCedulas.LanguageID">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.SortID" resname="I:fbTotCaixa.O:mtCedulas.SortID">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.SubLanguageID" resname="I:fbTotCaixa.O:mtCedulas.SubLanguageID">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.LocaleID" resname="I:fbTotCaixa.O:mtCedulas.LocaleID">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.Left" resname="I:fbTotCaixa.O:mtCedulas.Left">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbTotCaixa.O:mtCedulas.Top" resname="I:fbTotCaixa.O:mtCedulas.Top">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7419770139</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TkbmMemTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

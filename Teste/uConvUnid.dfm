@@ -1,0 +1,132 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Form5'
+  ClientHeight = 211
+  ClientWidth = 457
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 21
+  object LMDSimplePanel3: TLMDSimplePanel
+    Left = 103
+    Top = 40
+    Width = 114
+    Height = 35
+    Hint = ''
+    Bevel.Mode = bmStandard
+    TabOrder = 0
+    object cxLabel3: TcxLabel
+      AlignWithMargins = True
+      Left = 70
+      Top = 6
+      Margins.Top = 5
+      Margins.Right = 5
+      Margins.Bottom = 4
+      Align = alRight
+      Caption = ' POL '
+      ParentColor = False
+      Style.Color = clBtnFace
+      Style.TextColor = clBlack
+      Style.TextStyle = [fsBold]
+      Style.TransparentBorder = False
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 18
+    end
+    object cxLabel4: TcxLabel
+      AlignWithMargins = True
+      Left = 4
+      Top = 4
+      Align = alClient
+      Caption = '1'
+      Style.TextColor = clBlack
+      Style.TextStyle = [fsBold]
+      Properties.Alignment.Horz = taCenter
+      Properties.Alignment.Vert = taVCenter
+      AnchorX = 34
+      AnchorY = 18
+    end
+  end
+  object LMDSimplePanel1: TLMDSimplePanel
+    Left = 239
+    Top = 40
+    Width = 114
+    Height = 35
+    Hint = ''
+    Bevel.Mode = bmStandard
+    Color = clWhite
+    TabOrder = 1
+    object cxLabel1: TcxLabel
+      AlignWithMargins = True
+      Left = 53
+      Top = 6
+      Margins.Top = 5
+      Margins.Right = 5
+      Margins.Bottom = 4
+      Align = alRight
+      Caption = ' CAIXA '
+      ParentColor = False
+      Style.Color = clWhite
+      Style.TextColor = clBlack
+      Style.TextStyle = [fsBold]
+      Style.TransparentBorder = False
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 18
+    end
+    object cxCurrencyEdit1: TcxCurrencyEdit
+      Left = 1
+      Top = 1
+      Align = alClient
+      Style.BorderStyle = ebsNone
+      Style.TransparentBorder = False
+      StyleFocused.BorderStyle = ebsNone
+      TabOrder = 1
+      Width = 49
+    end
+  end
+  object cxLabel2: TcxLabel
+    Left = 220
+    Top = 44
+    Caption = '='
+  end
+  object cxButton1: TcxButton
+    Left = 185
+    Top = 81
+    Width = 89
+    Height = 25
+    Caption = 'Inverter'
+    LookAndFeel.Kind = lfOffice11
+    SpeedButtonOptions.CanBeFocused = False
+    SpeedButtonOptions.AllowAllUp = True
+    SpeedButtonOptions.Flat = True
+    TabOrder = 3
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object cxLabel5: TcxLabel
+    AlignWithMargins = True
+    Left = 10
+    Top = 10
+    Margins.Left = 10
+    Margins.Top = 10
+    Margins.Right = 10
+    Margins.Bottom = 10
+    Align = alTop
+    Caption = 'Como converter de POL para CM ?'
+    Properties.Alignment.Horz = taCenter
+    Properties.Alignment.Vert = taVCenter
+    ExplicitWidth = 8
+    AnchorX = 229
+    AnchorY = 23
+  end
+end

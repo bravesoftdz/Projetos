@@ -1,0 +1,1973 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmNovaEtiqueta.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmNovaEtiqueta.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7425</prop>
+        <prop prop-type="OrigDateTime">41864.7311805556</prop>
+        <prop prop-type="XlatDateTime">41864.7311805556</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">391</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmNovaEtiqueta.Left" resname="O:FrmNovaEtiqueta.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Top" resname="O:FrmNovaEtiqueta.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.ActiveControl" resname="O:FrmNovaEtiqueta.ActiveControl">
+        <source>edNome</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.BorderStyle" resname="O:FrmNovaEtiqueta.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Caption" resname="O:FrmNovaEtiqueta.Caption">
+        <source>'Novo modelo de Etiqueta'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.ClientHeight" resname="O:FrmNovaEtiqueta.ClientHeight">
+        <source>293</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.ClientWidth" resname="O:FrmNovaEtiqueta.ClientWidth">
+        <source>515</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Color" resname="O:FrmNovaEtiqueta.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Font.Charset" resname="O:FrmNovaEtiqueta.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Font.Color" resname="O:FrmNovaEtiqueta.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Font.Height" resname="O:FrmNovaEtiqueta.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Font.Name" resname="O:FrmNovaEtiqueta.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Font.Style" resname="O:FrmNovaEtiqueta.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.OldCreateOrder" resname="O:FrmNovaEtiqueta.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.Position" resname="O:FrmNovaEtiqueta.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.OnClose" resname="O:FrmNovaEtiqueta.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.OnCreate" resname="O:FrmNovaEtiqueta.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.OnShow" resname="O:FrmNovaEtiqueta.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.PixelsPerInch" resname="O:FrmNovaEtiqueta.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.TextHeight" resname="O:FrmNovaEtiqueta.TextHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFrmNovaEtiqueta</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Top">
+        <source>245</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Width" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Width">
+        <source>485</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Height" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Right" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Align" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.TabOrder" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Left">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Width" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Height" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Right" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Align" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Caption" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Caption">
+        <source>'&amp;Voltar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.TabOrder" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Visible" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.OnClick" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.OnClick">
+        <source>btnVoltarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.CanBeFocused" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.CanBeFocused">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.AllowAllUp" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.AllowAllUp">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.Flat" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.Flat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.Transparent" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnVoltar.SpeedButtonOptions.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Left">
+        <source>399</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066088</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Width" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Width">
+        <source>86</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Height" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Right" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Align" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Align">
+        <source>alRight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Cancel" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Caption" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.ModalResult" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.TabOrder" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.OnClick" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.SpeedButtonOptions.CanBeFocused" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.SpeedButtonOptions.CanBeFocused">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.SpeedButtonOptions.AllowAllUp" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.SpeedButtonOptions.AllowAllUp">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.SpeedButtonOptions.Transparent" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnCancelar.SpeedButtonOptions.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Left" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Top" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Width" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Width">
+        <source>97</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Height" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Align" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Caption" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Caption">
+        <source>'&amp;Avançar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Default" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.TabOrder" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.OnClick" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.OnClick">
+        <source>btnAvancarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:LMDSimplePanel1.O:btnAvancar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Left" resname="O:FrmNovaEtiqueta.O:Paginas.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Top" resname="O:FrmNovaEtiqueta.O:Paginas.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Width" resname="O:FrmNovaEtiqueta.O:Paginas.Width">
+        <source>515</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Height" resname="O:FrmNovaEtiqueta.O:Paginas.Height">
+        <source>245</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Align" resname="O:FrmNovaEtiqueta.O:Paginas.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Properties.ActivePage" resname="O:FrmNovaEtiqueta.O:Paginas.Properties.ActivePage">
+        <source>tsNome</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.Properties.CustomButtons.Buttons" resname="O:FrmNovaEtiqueta.O:Paginas.Properties.CustomButtons.Buttons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.OnChange" resname="O:FrmNovaEtiqueta.O:Paginas.OnChange">
+        <source>PaginasChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.ClientRectBottom" resname="O:FrmNovaEtiqueta.O:Paginas.ClientRectBottom">
+        <source>245</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.ClientRectRight" resname="O:FrmNovaEtiqueta.O:Paginas.ClientRectRight">
+        <source>515</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.ClientRectTop" resname="O:FrmNovaEtiqueta.O:Paginas.ClientRectTop">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.Caption">
+        <source>'tsNome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.ImageIndex" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Width">
+        <source>485</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Height" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Right" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Bevel.Mode" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Caption">
+        <source>'Nome da Etiqueta'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Properties.Alignment.Vert" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.AnchorY" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:lbNome.AnchorY">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Left">
+        <source>115</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Right" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Style.TextStyle" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066204</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panNome.O:edNome.Width">
+        <source>370</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Width">
+        <source>485</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Height" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Height">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Margins.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Margins.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Margins.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Margins.Right" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Bevel.Mode" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:lbObs.Caption">
+        <source>'Observações'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Left">
+        <source>85</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Right" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Lines.Strings[0]" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Lines.Strings[0]">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Style.BorderStyle" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Height" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Height">
+        <source>61</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsNome.O:panObs.O:edObs.Width">
+        <source>400</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.Caption">
+        <source>'tsFolha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.ImageIndex" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.ImageIndex">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Right" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Caption">
+        <source>' Dimensões da Folha  (cm) '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Height" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Height">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.Width">
+        <source>485</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Left">
+        <source>324</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Caption">
+        <source>'Largura'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Enabled" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbLargura.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Left">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Top">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Caption">
+        <source>'Altura'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Enabled" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:lbAltura.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel3.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel3.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel3.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel3.Top">
+        <source>102</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel3.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel3.Caption">
+        <source>'Superior'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel4.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel4.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel4.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel4.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel4.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel4.Caption">
+        <source>'Inferior'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel5.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel5.Left">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel5.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel5.Top">
+        <source>102</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel5.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel5.Caption">
+        <source>'Esquerda'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel6.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel6.Left">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel6.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel6.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel6.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel6.Caption">
+        <source>'Direita'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Left">
+        <source>378</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.EditValue">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Enabled" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Properties.DecimalPlaces" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Properties.DecimalPlaces">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Properties.DisplayFormat">
+        <source>',0.###'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066319</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.TabOrder">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edLargura.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Left">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Top">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.EditValue">
+        <source>29.7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Enabled" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Properties.DecimalPlaces" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Properties.DecimalPlaces">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Properties.DisplayFormat">
+        <source>',0.###'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edAltura.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Left">
+        <source>71</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Top">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Properties.AssignedValues.EditFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Properties.AssignedValues.EditFormat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Properties.DecimalPlaces" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Properties.DecimalPlaces">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.TabOrder">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMTopo.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Left">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.TabOrder">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMRodape.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Left">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Top">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.TabOrder">
+        <source>11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMEsquerda.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Left">
+        <source>228</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.TabOrder">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">271</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edMDireita.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">272</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">273</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Top">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">274</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Caption">
+        <source>'Margens:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066435</prop><prop prop-type="Status">0</prop><prop prop-type="Order">275</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Style.TextStyle" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:cxLabel7.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">276</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Left">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">277</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Top">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">278</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">279</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.DropDownListStyle" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.DropDownListStyle">
+        <source>lsFixedList</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">280</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.ImmediatePost" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">281</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.ImmediateUpdateText" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.ImmediateUpdateText">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">282</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[0]" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[0]">
+        <source>'A4'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">283</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[1]" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[1]">
+        <source>'Carta'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">284</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[2]" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[2]">
+        <source>'Ofício'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">285</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[3]" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.Items.Strings[3]">
+        <source>'Outro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">286</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.OnChange" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Properties.OnChange">
+        <source>edFolhaPropertiesChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">287</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">288</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">289</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">290</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">291</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">292</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">293</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Text" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Text">
+        <source>'A4'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">294</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsFolha.O:cbFolha.O:edFolha.Width">
+        <source>133</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">295</prop><prop prop-type="Type">TcxComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.Caption">
+        <source>'tsEtiqueta'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">296</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.ImageIndex" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.ImageIndex">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">297</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.AlignWithMargins" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">298</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">299</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">300</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">301</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">302</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Right" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">303</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Bottom" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">304</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Align" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">305</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Caption">
+        <source>' Dimensões da Etiqueta (cm) '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">306</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">307</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">308</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">309</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">310</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">311</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Height" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Height">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">312</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.Width">
+        <source>485</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">313</prop><prop prop-type="Type">TcxGroupBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel8.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel8.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">314</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel8.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel8.Top">
+        <source>63</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">315</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel8.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel8.Caption">
+        <source>'Largura'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">316</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel9.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel9.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">317</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel9.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel9.Top">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">318</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel9.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel9.Caption">
+        <source>'Altura'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">319</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Left">
+        <source>71</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">320</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Top">
+        <source>63</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">321</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">322</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">323</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">324</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">325</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">326</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">327</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">328</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">329</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edLarguraEtq.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">330</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Left">
+        <source>71</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">331</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">332</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">333</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">334</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">335</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">336</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">337</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">338</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">339</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">340</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edAlturaEtq.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">341</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel11.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel11.Left">
+        <source>220</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">342</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel11.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel11.Top">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">343</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel11.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel11.Caption">
+        <source>'Etiquetas por Linha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">344</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Left">
+        <source>342</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">345</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">346</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">347</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Properties.ImmediatePost" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">348</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Properties.MaxValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Properties.MaxValue">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066551</prop><prop prop-type="Status">0</prop><prop prop-type="Order">349</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Properties.MinValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Properties.MinValue">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">350</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">351</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">352</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">353</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">354</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">355</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">356</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Value" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Value">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">357</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edQtdPorLinha.Width">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">358</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Left">
+        <source>221</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">359</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">360</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">361</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">362</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">363</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">364</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">365</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">366</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">367</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">368</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">369</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapH.Width">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">370</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel12.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel12.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">371</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel12.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel12.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">372</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel12.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel12.Caption">
+        <source>'Espaço horizontal entre etiquetas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">373</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Left">
+        <source>220</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">374</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Top">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">375</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.EditValue" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">376</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.ParentFont" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">377</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Properties.AssignedValues.EditFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Properties.AssignedValues.EditFormat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">378</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Properties.DecimalPlaces" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Properties.DecimalPlaces">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">379</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Properties.DisplayFormat" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Properties.DisplayFormat">
+        <source>',0.##'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">380</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Style.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">381</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Style.StyleController" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">382</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.StyleDisabled.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">383</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.StyleFocused.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">384</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.StyleHot.LookAndFeel.Kind" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">385</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.TabOrder" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">386</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Width" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:edGapV.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">387</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel14.Left" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel14.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">388</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel14.Top" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel14.Top">
+        <source>102</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">389</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel14.Caption" resname="O:FrmNovaEtiqueta.O:Paginas.O:tsEtiqueta.O:cbEtiqueta.O:cxLabel14.Caption">
+        <source>'Espaço vertical entre etiquetas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425066667</prop><prop prop-type="Status">0</prop><prop prop-type="Order">390</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

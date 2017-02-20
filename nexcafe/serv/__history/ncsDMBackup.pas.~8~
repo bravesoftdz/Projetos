@@ -1,0 +1,92 @@
+unit ncsDMBackup;
+
+interface
+
+uses
+  SysUtils, Classes, nxdbBackupController, nxdb, nxllComponent;
+
+type
+  TdmBackup = class(TDataModule)
+    nxDBD: TnxDatabase;
+    nxDBO: TnxDatabase;
+    nxSession: TnxSession;
+    nxBackup: TnxBackupController;
+    procedure DataModuleCreate(Sender: TObject);
+    procedure DataModuleDestroy(Sender: TObject);
+  private
+    FTables: TStrings;
+    { Private declarations }
+
+    procedure IncluirTabela(aSender    : TnxBackupController;
+                            const aTableName : string;
+                              var aUseTable  : Boolean);
+    
+  public
+    procedure FazBackup(aTables, aDestino: String);
+
+    class procedure Copiar(aTables, aDestino: String);
+    { Public declarations }
+  end;
+
+var
+  dmBackup: TdmBackup;
+
+implementation
+
+{$R *.dfm}
+
+class procedure TdmBackup.Copiar(aTables: String);
+begin
+  with TdmBackup.Create(nil) do 
+  try
+    FazBackup(aTables);
+  finally
+    Free;
+  end;
+end;
+
+procedure TdmBackup.DataModuleCreate(Sender: TObject);
+begin
+  FTables := TStringList.Create;
+  nxDBD.AliasPath := ExtractFilePath(ParamStr(0))+'sync\temp';
+  ForceDirectories(nxDBD.AliasPath);
+end;
+
+procedure TdmBackup.DataModuleDestroy(Sender: TObject);
+begin
+  FTables.Free;
+end;
+
+procedure TdmBackup.FazBackup(aTables: String);
+begin
+  FTables.Text := aTables;
+  
+  nxSession.ServerEngine := dmServidorBD.ServerEngine;
+  nxSession.Active := True;
+  nxSession.PasswordAdd(sEncpass);
+    
+  if not DirectoryExists(nxDBD.AliasPath) then
+    MkDir(nxDBD.AliasPath);
+  nxDBO.Active := True;
+  nxDBD.Active := True;
+  try
+    nxBackup.OnIncludeTable := IncluirTabela;
+    nxBackup.Backup;
+  finally
+    nxDBD.Active := False;
+    nxDBO.Active := False;
+    nxSession.CloseInactiveTables;
+    nxSession.CloseInactiveFolders;
+    nxSession.Active := False;
+    nxSession.ServerEngine := nil;
+    nxBackup.Close;
+  end;
+end;
+
+procedure TdmBackup.IncluirTabela(aSender: TnxBackupController;
+  const aTableName: string; var aUseTable: Boolean);
+begin
+  aUseTables := (FTables.IndexOf(aTableName)>=0);
+end;
+
+end.

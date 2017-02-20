@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{0da10969-dbdd-4848-9d96-b47fe71d839b}</ProjectGuid>
+    <MainSource>NexServ_Loja.dpr</MainSource>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+    <DCC_DependencyCheckOutputName>C:\Meus Programas\Nex\NexServ_Loja.exe</DCC_DependencyCheckOutputName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+    <DCC_ExeOutput>C:\Meus Programas\NexCafe</DCC_ExeOutput>
+    <DCC_DcuOutput>C:\ProjetoDCU\D2006</DCC_DcuOutput>
+    <DCC_ObjOutput>C:\ProjetoDCU\D2006</DCC_ObjOutput>
+    <DCC_HppOutput>C:\ProjetoDCU\D2006</DCC_HppOutput>
+    <DCC_Define>RELEASE</DCC_Define>
+    <DCC_AssertionsAtRuntime>False</DCC_AssertionsAtRuntime>
+    <DCC_DebugInformation>False</DCC_DebugInformation>
+    <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <Version>7.0</Version>
+    <DCC_MapFile>3</DCC_MapFile>
+    <DCC_ExeOutput>C:\Meus Programas\Nex</DCC_ExeOutput>
+    <DCC_DcuOutput>c:\projetodcu\d2007</DCC_DcuOutput>
+    <DCC_ObjOutput>c:\projetodcu\d2007</DCC_ObjOutput>
+    <DCC_HppOutput>c:\projetodcu\d2007</DCC_HppOutput>
+    <DCC_Define>DEBUG</DCC_Define>
+  </PropertyGroup>
+  <ProjectExtensions>
+    <Borland.Personality>Delphi.Personality</Borland.Personality>
+    <Borland.ProjectType />
+    <BorlandProject>
+<BorlandProject><Delphi.Personality><Parameters><Parameters Name="UseLauncher">False</Parameters><Parameters Name="LoadAllSymbols">True</Parameters><Parameters Name="LoadUnspecifiedSymbols">False</Parameters><Parameters Name="RunParams">NOELEV</Parameters></Parameters><VersionInfo><VersionInfo Name="IncludeVerInfo">True</VersionInfo><VersionInfo Name="AutoIncBuild">False</VersionInfo><VersionInfo Name="MajorVer">5</VersionInfo><VersionInfo Name="MinorVer">0</VersionInfo><VersionInfo Name="Release">0</VersionInfo><VersionInfo Name="Build">220</VersionInfo><VersionInfo Name="Debug">False</VersionInfo><VersionInfo Name="PreRelease">False</VersionInfo><VersionInfo Name="Special">False</VersionInfo><VersionInfo Name="Private">False</VersionInfo><VersionInfo Name="DLL">False</VersionInfo><VersionInfo Name="Locale">1046</VersionInfo><VersionInfo Name="CodePage">1252</VersionInfo></VersionInfo><VersionInfoKeys><VersionInfoKeys Name="CompanyName">Nextar</VersionInfoKeys><VersionInfoKeys Name="FileDescription">Servidor NEX!</VersionInfoKeys><VersionInfoKeys Name="FileVersion">5.0.0.220</VersionInfoKeys><VersionInfoKeys Name="InternalName">NexServ</VersionInfoKeys><VersionInfoKeys Name="LegalCopyright"></VersionInfoKeys><VersionInfoKeys Name="LegalTrademarks"></VersionInfoKeys><VersionInfoKeys Name="OriginalFilename">NexServ.exe</VersionInfoKeys><VersionInfoKeys Name="ProductName">NEX!</VersionInfoKeys><VersionInfoKeys Name="ProductVersion">5.0</VersionInfoKeys><VersionInfoKeys Name="Comments"></VersionInfoKeys></VersionInfoKeys><Excluded_Packages>
+      
+      
+      
+      
+      
+      
+      <Excluded_Packages Name="C:\Documents and Settings\All Users\Documentos\RAD Studio\5.0\Bpl\RFS_package.bpl">(untitled)</Excluded_Packages>
+      <Excluded_Packages Name="C:\Comp\devex\Library\Delphi11\dcldxNavBarD11.bpl">File C:\Comp\devex\Library\Delphi11\dcldxNavBarD11.bpl not found</Excluded_Packages>
+    </Excluded_Packages><Source><Source Name="MainSource">NexServ_Loja.dpr</Source></Source></Delphi.Personality><ModelSupport>False</ModelSupport></BorlandProject></BorlandProject>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildBinPath)\Borland.Delphi.Targets" />
+  <PropertyGroup>
+  </PropertyGroup>
+  <ItemGroup>
+    <DelphiCompile Include="NexServ_Loja.dpr">
+      <MainSource>MainSource</MainSource>
+    </DelphiCompile>
+    <DCCReference Include="..\..\..\CSComm\CacheProp.pas" />
+    <DCCReference Include="..\..\..\CSComm\ClasseCS.pas" />
+    <DCCReference Include="..\..\..\CSComm\CSCBase.pas" />
+    <DCCReference Include="..\..\..\gs\uFrmCodLoja.pas">
+      <Form>FrmCodLoja</Form>
+    </DCCReference>
+    <DCCReference Include="..\..\..\GS\uLicEXECryptor.pas" />
+    <DCCReference Include="..\..\..\GS\uRSAss.pas" />
+    <DCCReference Include="..\..\..\nextarprodserver\uNxCompression.pas" />
+    <DCCReference Include="..\..\..\Utils\uFaixaInteger.pas" />
+    <DCCReference Include="..\..\..\Utils\uLogs.pas" />
+    <DCCReference Include="..\..\..\Utils\uNexusDBUtils.pas" />
+    <DCCReference Include="..\..\..\Utils\uObjPool.pas" />
+    <DCCReference Include="..\..\..\Utils\uWakeOnLan.pas" />
+    <DCCReference Include="..\..\comp\Loja\ncDMCaixa.pas">
+      <Form>dmCaixa</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncAppUrlLog.pas" />
+    <DCCReference Include="..\..\Comp\ncAuxPassaporte.pas" />
+    <DCCReference Include="..\..\Comp\ncClassesBase.pas" />
+    <DCCReference Include="..\..\Comp\ncCommPlus.pas" />
+    <DCCReference Include="..\..\Comp\ncCommPlusI.pas" />
+    <DCCReference Include="..\..\Comp\ncCommPlusIn.pas" />
+    <DCCReference Include="..\..\Comp\ncCommPlusInd.pas" />
+    <DCCReference Include="..\..\Comp\ncCommPlusIndy.pas" />
+    <DCCReference Include="..\..\Comp\ncCredTempo.pas" />
+    <DCCReference Include="..\..\comp\ncDebCredSaver.pas" />
+    <DCCReference Include="..\..\Comp\ncDebito.pas" />
+    <DCCReference Include="..\..\Comp\ncDebTempo.pas" />
+    <DCCReference Include="..\..\Comp\ncDebug.pas" />
+    <DCCReference Include="..\..\Comp\ncDMcommPlus.pas">
+      <Form>dmCommPlus</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncDMDBProc.pas">
+      <Form>dmDBProc</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncDMEmail.pas">
+      <Form>dmEmail</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncDMProcEmail.pas">
+      <Form>dmProcEmail</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncDMServ.pas">
+      <Form>khjkh</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncEnvioCaixa.pas" />
+    <DCCReference Include="..\..\Comp\ncErros.pas" />
+    <DCCReference Include="..\..\Comp\ncEspecie.pas" />
+    <DCCReference Include="..\..\Comp\ncFirewall.pas" />
+    <DCCReference Include="..\..\Comp\ncFrmProgress.pas">
+      <Form>FrmProg</Form>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncFrmSuporteRem.pas">
+      <Form>FrmSuporte</Form>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncImpressao.pas" />
+    <DCCReference Include="..\..\Comp\ncIPAddr.pas" />
+    <DCCReference Include="..\..\Comp\ncJob.pas" />
+    <DCCReference Include="..\..\comp\ncKiteApi.pas" />
+    <DCCReference Include="..\..\comp\ncKiteApi_SyncNexWeb.pas" />
+    <DCCReference Include="..\..\Comp\ncLancExtra.pas" />
+    <DCCReference Include="..\..\Comp\ncListaEspera.pas" />
+    <DCCReference Include="..\..\Comp\ncMovEst.pas" />
+    <DCCReference Include="..\..\Comp\ncMsgCli.pas" />
+    <DCCReference Include="..\..\Comp\ncMsgCom.pas" />
+    <DCCReference Include="..\..\Comp\ncNetMsg.pas" />
+    <DCCReference Include="..\..\Comp\ncnxServerPlugin.pas" />
+    <DCCReference Include="..\..\Comp\ncPassaportes.pas" />
+    <DCCReference Include="..\..\Comp\ncPrintDoc.pas" />
+    <DCCReference Include="..\..\Comp\ncPrinterInfo8.pas" />
+    <DCCReference Include="..\..\Comp\ncPrintMon.pas" />
+    <DCCReference Include="..\..\Comp\ncServAtualizaLic.pas">
+      <Form>dmAtualizaLic</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncServBase.pas" />
+    <DCCReference Include="..\..\Comp\ncServBD.pas">
+      <Form>dmServidorBD</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncSessao.pas" />
+    <DCCReference Include="..\..\Comp\ncShellStart.pas" />
+    <DCCReference Include="..\..\Comp\ncsRecalcPass.pas">
+      <Form>dmRecalcPass</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\..\Comp\ncSyncLic.pas" />
+    <DCCReference Include="..\..\Comp\ncTableDefs.pas" />
+    <DCCReference Include="..\..\Comp\ncTarifador.pas" />
+    <DCCReference Include="..\..\Comp\ncTipoImp.pas" />
+    <DCCReference Include="..\..\Comp\ncTran.pas" />
+    <DCCReference Include="..\..\Comp\ncVersionInfo.pas" />
+    <DCCReference Include="..\..\Comp\ncVersoes.pas" />
+    <DCCReference Include="..\..\PrintReview\ncPRConsts.pas" />
+    <DCCReference Include="..\..\Utils\ElevationUtils.pas" />
+    <DCCReference Include="..\..\Utils\ncExeUnico.pas" />
+    <DCCReference Include="..\ncsCallbackEvents.pas" />
+    <DCCReference Include="..\ncsDMArqInt.pas">
+      <DesignClass>TDataModule</DesignClass>
+      <Form>dmArqInt</Form>
+    </DCCReference>
+    <DCCReference Include="..\ncsDMBackup.pas">
+      <Form>dmBackup</Form>
+      <DesignClass>TDataModule</DesignClass>
+    </DCCReference>
+    <DCCReference Include="..\ncsDMCrypt.pas">
+      <DesignClass>TDataModule</DesignClass>
+      <Form>dmCrypt</Form>
+    </DCCReference>
+    <DCCReference Include="..\ncsFrmLogin.pas">
+      <Form>FrmLogin</Form>
+    </DCCReference>
+    <DCCReference Include="..\ncsPrintPDF.pas" />
+    <DCCReference Include="C:\Comp\NexusDB3\nxptBasePooledTransport.pas" />
+    <DCCReference Include="C:\Comp\NexusDB3\nxtwWinsockTransport.pas" />
+    <DCCReference Include="C:\comp\WindowList\WindowList.pas" />
+    <DCCReference Include="C:\Program Files\EXECryptor\SDK\Delphi\EXECryptor.pas" />
+    <DCCReference Include="ncsFrmBackup.pas">
+      <Form>FrmCopia</Form>
+    </DCCReference>
+    <DCCReference Include="ncsFrmPri.pas">
+      <Form>frmPri</Form>
+    </DCCReference>
+    <None Include="nex.inc" />
+  </ItemGroup>
+</Project>

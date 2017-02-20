@@ -1,0 +1,24 @@
+unit ncaDMImgsEspecie;
+
+interface
+
+uses
+  SysUtils, Classes, ImgList, Controls, cxGraphics;
+
+type
+  TDataModule8 = class(TDataModule)
+    imgs48: TcxImageList;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  DataModule8: TDataModule8;
+
+implementation
+
+{$R *.dfm}
+
+end.

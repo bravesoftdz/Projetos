@@ -1,0 +1,23 @@
+unit htmlCodec;
+
+interface
+
+function htmlDecodeStr(S: String): String;
+
+implementation
+
+type
+  Thtmlcode = record
+    fHtml : String;
+    fString : String;
+  end;
+
+const
+  htmlCodes : array[0..4] of ThtmlCode = (
+    (fHtml : '&amp;'; fString : '&'),
+    (fHtml : '&lt;';  fString : '<'),
+    (fHtml : '&gt;';  fString : '>'),
+    (fHtml : '&quot;'; fString : '"'));
+
+
+end.

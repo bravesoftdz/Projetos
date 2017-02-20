@@ -1,0 +1,36 @@
+unit ncaAlertaClonarProduto;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ncaPanBaseAlertaTopo, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, cxLabel, LMDPNGImage, ExtCtrls,
+  LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel;
+
+type
+  TpanAlertaTopo1 = class(TpanAlertaTopo)
+    cxLabel1: TcxLabel;
+    cxLabelClonarSaibaMais: TcxLabel;
+    procedure cxLabelClonarSaibaMaisClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  panAlertaTopo1: TpanAlertaTopo1;
+
+implementation
+
+{$R *.dfm}
+
+procedure TpanAlertaTopo1.cxLabelClonarSaibaMaisClick(Sender: TObject);
+begin
+  inherited;
+  Freel
+end;
+
+end.

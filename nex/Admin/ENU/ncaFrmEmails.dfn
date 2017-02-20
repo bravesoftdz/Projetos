@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmEmails.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmEmails.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7423148148</prop>
+        <prop prop-type="OrigDateTime">41348.5262731481</prop>
+        <prop prop-type="XlatDateTime">41348.5262731481</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">77</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmEmails.Left" resname="O:FrmEmails.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Top" resname="O:FrmEmails.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Caption" resname="O:FrmEmails.Caption">
+        <source>'Lista de e-mails dos clientes'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.ClientHeight" resname="O:FrmEmails.ClientHeight">
+        <source>344</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.ClientWidth" resname="O:FrmEmails.ClientWidth">
+        <source>447</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Color" resname="O:FrmEmails.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Font.Charset" resname="O:FrmEmails.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Font.Color" resname="O:FrmEmails.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Font.Height" resname="O:FrmEmails.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Font.Name" resname="O:FrmEmails.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Font.Style" resname="O:FrmEmails.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.OldCreateOrder" resname="O:FrmEmails.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.Position" resname="O:FrmEmails.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.OnClose" resname="O:FrmEmails.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.PixelsPerInch" resname="O:FrmEmails.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.TextHeight" resname="O:FrmEmails.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmEmails</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.AlignWithMargins" resname="O:FrmEmails.O:Memo1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.Left" resname="O:FrmEmails.O:Memo1.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.Top" resname="O:FrmEmails.O:Memo1.Top">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.Width" resname="O:FrmEmails.O:Memo1.Width">
+        <source>441</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.Height" resname="O:FrmEmails.O:Memo1.Height">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.Align" resname="O:FrmEmails.O:Memo1.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.Lines.Strings[0]" resname="O:FrmEmails.O:Memo1.Lines.Strings[0]">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.ScrollBars" resname="O:FrmEmails.O:Memo1.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.TabOrder" resname="O:FrmEmails.O:Memo1.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.ExplicitTop" resname="O:FrmEmails.O:Memo1.ExplicitTop">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:Memo1.ExplicitHeight" resname="O:FrmEmails.O:Memo1.ExplicitHeight">
+        <source>312</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Font.Charset" resname="O:FrmEmails.O:dxBarManager1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Font.Color" resname="O:FrmEmails.O:dxBarManager1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Font.Height" resname="O:FrmEmails.O:dxBarManager1.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Font.Name" resname="O:FrmEmails.O:dxBarManager1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Font.Style" resname="O:FrmEmails.O:dxBarManager1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Categories.Strings[0]" resname="O:FrmEmails.O:dxBarManager1.Categories.Strings[0]">
+        <source>'Default'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Categories.ItemsVisibles[0]" resname="O:FrmEmails.O:dxBarManager1.Categories.ItemsVisibles[0]">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Categories.Visibles[0]" resname="O:FrmEmails.O:dxBarManager1.Categories.Visibles[0]">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.ImageOptions.LargeImages" resname="O:FrmEmails.O:dxBarManager1.ImageOptions.LargeImages">
+        <source>dmImagens.im32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.LookAndFeel.Kind" resname="O:FrmEmails.O:dxBarManager1.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.LookAndFeel.NativeStyle" resname="O:FrmEmails.O:dxBarManager1.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.PopupMenuLinks" resname="O:FrmEmails.O:dxBarManager1.PopupMenuLinks">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.UseSystemFont" resname="O:FrmEmails.O:dxBarManager1.UseSystemFont">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Left" resname="O:FrmEmails.O:dxBarManager1.Left">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.Top" resname="O:FrmEmails.O:dxBarManager1.Top">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.DockControlHeights[0]" resname="O:FrmEmails.O:dxBarManager1.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.DockControlHeights[1]" resname="O:FrmEmails.O:dxBarManager1.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.DockControlHeights[2]" resname="O:FrmEmails.O:dxBarManager1.DockControlHeights[2]">
+        <source>38</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.DockControlHeights[3]" resname="O:FrmEmails.O:dxBarManager1.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowClose" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowClose">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowCustomizing" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowCustomizing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowQuickCustomizing" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowQuickCustomizing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowReset" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.AllowReset">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.BorderStyle" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.BorderStyle">
+        <source>bbsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.Caption" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.Caption">
+        <source>'Custom 1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.CaptionButtons" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.CaptionButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockedDockingStyle" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockedDockingStyle">
+        <source>dsTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockedLeft" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockedLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockedTop" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockedTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockingStyle" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.DockingStyle">
+        <source>dsTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatLeft" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatLeft">
+        <source>473</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatTop" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatTop">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatClientWidth" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatClientWidth">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatClientHeight" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.FloatClientHeight">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.ItemLinks[0].Visible" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.ItemLinks[0].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.ItemLinks[0].ItemName" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.ItemLinks[0].ItemName">
+        <source>'dxBarLargeButton1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.NotDocking" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.NotDocking">
+        <source>[dsNone, dsLeft, dsTop, dsRight, dsBottom]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248843</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.OneOnRow" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.OneOnRow">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.Row" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.Row">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.UseOwnFont" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.UseOwnFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.Visible" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.WholeRow" resname="O:FrmEmails.O:dxBarManager1.O:dxBarManager1Bar1.WholeRow">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Caption" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Category" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Hint" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Hint">
+        <source>'Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Visible" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.LargeImageIndex" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.LargeImageIndex">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.OnClick" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.OnClick">
+        <source>dxBarLargeButton1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.AutoGrayScale" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.AutoGrayScale">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.GlyphLayout" resname="O:FrmEmails.O:dxBarManager1.O:dxBarLargeButton1.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423248958</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

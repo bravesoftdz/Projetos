@@ -1,0 +1,13 @@
+unit htmlCodec;
+
+interface
+
+type
+  Thtmlcode = class
+    fHtml : String;
+    fString : String;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,26 @@
+unit ncaPanVendaProdBase;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel;
+
+type
+  TForm1 = class(TForm)
+    panVendaProd: TLMDSimplePanel;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,193 @@
+unit ncafbFornecedores;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ufmFormBase, dxSkinsCore, dxSkinBlack, dxSkinBlue, dxSkinCaramel,
+  dxSkinCoffee, dxSkinDarkRoom, dxSkinDarkSide, dxSkinFoggy, dxSkinGlassOceans,
+  dxSkiniMaginary, dxSkinLilian, dxSkinLiquidSky, dxSkinLondonLiquidSky,
+  dxSkinMcSkin, dxSkinMoneyTwins, dxSkinOffice2007Black, dxSkinOffice2007Blue,
+  dxSkinOffice2007Green, dxSkinOffice2007Pink, dxSkinOffice2007Silver,
+  dxSkinOffice2010Black, dxSkinOffice2010Blue, dxSkinOffice2010Silver,
+  dxSkinPumpkin, dxSkinSeven, dxSkinSharp, dxSkinSilver, dxSkinSpringTime,
+  dxSkinStardust, dxSkinSummer2008, dxSkinsDefaultPainters, dxSkinValentine,
+  dxSkinXmas2008Blue, dxSkinsdxBarPainter, dxPSGlbl, dxPSUtl, dxPSEngn, dxPrnPg,
+  dxBkgnd, dxWrap, dxPrnDev, dxPSCompsProvider, dxPSFillPatterns,
+  dxPSEdgePatterns, dxPSPDFExportCore, dxPSPDFExport, cxDrawTextUtils,
+  dxSkinscxPCPainter, dxPSPrVwStd, dxPSPrVwAdv, dxPSPrVwRibbon,
+  dxPScxPageControlProducer, dxPScxEditorProducers, dxPScxExtEditorProducers,
+  dxSkinsdxRibbonPainter, dxBar, dxPSCore, cxGridCustomPopupMenu,
+  cxGridPopupMenu, cxClasses, ExtCtrls, uParentedPanel, cxGraphics, cxControls,
+  cxLookAndFeels, cxLookAndFeelPainters, cxContainer, cxEdit, Menus, cxStyles,
+  cxCustomData, cxFilter, cxData, cxDataStorage, DB, cxDBData,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridLevel,
+  cxGridCustomView, cxGrid, StdCtrls, cxButtons, cxCheckBox, cxTextEdit,
+  cxMaskEdit, cxLabel, cxRadioGroup, LMDControl, LMDCustomControl,
+  LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel, nxdb;
+
+type
+  TfbFornecedores = class(TFrmBase)
+    cmNovoFornecedor: TdxBarLargeButton;
+    cmEditarFornecedor: TdxBarLargeButton;
+    cmApagarFornecedor: TdxBarLargeButton;
+    Tab: TnxTable;
+    dsTab: TDataSource;
+    TabID: TAutoIncField;
+    TabNome: TStringField;
+    TabEndereco: TStringField;
+    TabBairro: TStringField;
+    TabCidade: TStringField;
+    TabUF: TStringField;
+    TabCEP: TStringField;
+    TabSexo: TStringField;
+    TabObs: TnxMemoField;
+    TabCpf: TStringField;
+    TabRg: TStringField;
+    TabTelefone: TStringField;
+    TabEmail: TnxMemoField;
+    TabMinutos: TFloatField;
+    TabPassaportes: TFloatField;
+    TabMinutosUsados: TFloatField;
+    TabMinutosIniciais: TFloatField;
+    TabIsento: TBooleanField;
+    TabUsername: TStringField;
+    TabPai: TStringField;
+    TabMae: TStringField;
+    TabSenha: TStringField;
+    TabUltVisita: TDateTimeField;
+    TabDebito: TCurrencyField;
+    TabEscola: TStringField;
+    TabEscolaHI: TDateTimeField;
+    TabEscolaHF: TDateTimeField;
+    TabNickName: TStringField;
+    TabDataNasc: TDateTimeField;
+    TabCelular: TStringField;
+    TabTemDebito: TBooleanField;
+    TabLimiteDebito: TCurrencyField;
+    TabFoto: TGraphicField;
+    TabIncluidoEm: TDateTimeField;
+    TabAlteradoEm: TDateTimeField;
+    TabIncluidoPor: TStringField;
+    TabAlteradoPor: TStringField;
+    TabTitEleitor: TStringField;
+    TabFidPontos: TFloatField;
+    TabFidTotal: TFloatField;
+    TabFidResg: TFloatField;
+    TabAniversario: TStringField;
+    TabCotaImpEspecial: TBooleanField;
+    TabCotaImpDia: TIntegerField;
+    TabCotaImpMes: TIntegerField;
+    TabSemFidelidade: TBooleanField;
+    TabTemCredito: TBooleanField;
+    TabNaoGuardarCredito: TBooleanField;
+    TabPermiteLoginSemCred: TBooleanField;
+    TabCHorario: TIntegerField;
+    TabOpCHorario: TWordField;
+    TabHP1: TIntegerField;
+    TabHP2: TIntegerField;
+    TabHP3: TIntegerField;
+    TabHP4: TIntegerField;
+    TabHP5: TIntegerField;
+    TabHP6: TIntegerField;
+    TabHP7: TIntegerField;
+    TabInativo: TBooleanField;
+    TabTipoAcessoPref: TIntegerField;
+    TabFornecedor: TBooleanField;
+    TabValorCred: TCurrencyField;
+    panMostrar: TPanel;
+    panBusca: TLMDSimplePanel;
+    rgCod: TcxRadioButton;
+    rgNome: TcxRadioButton;
+    lbBusca: TcxLabel;
+    edBusca: TcxMaskEdit;
+    cbMostrarFin: TcxCheckBox;
+    btnAchar: TcxButton;
+    Grid: TcxGrid;
+    TVprod: TcxGridDBTableView;
+    GL: TcxGridLevel;
+    TVprodID: TcxGridDBColumn;
+    TVprodNome: TcxGridDBColumn;
+    TVprodEndereco: TcxGridDBColumn;
+    TVprodBairro: TcxGridDBColumn;
+    TVprodCidade: TcxGridDBColumn;
+    TVprodUF: TcxGridDBColumn;
+    TVprodCEP: TcxGridDBColumn;
+    TVprodObs: TcxGridDBColumn;
+    TVprodCpf: TcxGridDBColumn;
+    TVprodRg: TcxGridDBColumn;
+    TVprodTelefone: TcxGridDBColumn;
+    TVprodEmail: TcxGridDBColumn;
+    TVprodIsento: TcxGridDBColumn;
+    TVprodCelular: TcxGridDBColumn;
+    TVprodIncluidoEm: TcxGridDBColumn;
+    TVprodAlteradoEm: TcxGridDBColumn;
+    TVprodIncluidoPor: TcxGridDBColumn;
+    TVprodAlteradoPor: TcxGridDBColumn;
+    procedure cmNovoFornecedorClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    class function Descricao: String; override;
+    procedure RefreshBotoes;
+    procedure FiltraDados; override;
+    { Public declarations }
+  end;
+
+
+var
+  fbFornecedores: TfbFornecedores;
+
+implementation
+
+uses ncaFrmPri;
+
+{$R *.dfm}
+
+
+{ TfbFornecedores }
+
+procedure TfbFornecedores.cmNovoFornecedorClick(Sender: TObject);
+begin
+  inherited;
+  //btnAchar.Down := False;
+  //btnAchar.Enabled := False;
+  edBusca.Text := '';
+  TFrmProduto.Create(Self).Incluir(Tab);
+  RefreshBotoes;
+end;
+
+class function TfbFornecedores.Descricao: String;
+begin
+  Result := 'Fornecedores';
+end;
+
+procedure TfbFornecedores.FiltraDados;
+begin
+  inherited;
+
+  if not Tab.Active then
+    Tab.Open;
+
+  if rgNome.Checked then
+    Tab.IndexName := 'IFornecedorNome' else
+    Tab.IndexName := 'IFornecedorID';
+    
+
+  if Trim(edBusca.Text)='' then
+    Tab.CancelRange else
+    Tab.SetRange([edBusca.Text], [edBusca.Text+'zzzzzzzzzzzzzzzzzzzzz']);
+
+  RefreshBotoes;
+end;
+
+procedure TfbFornecedores.RefreshBotoes;
+var TemDados: Boolean;
+begin
+  TemDados := not Tab.IsEmpty;
+  cmEditar.Enabled := TemDados;
+  //cmNovo.Enabled := Permitido(daProCadastrar);
+  //cmApagar.Enabled := Permitido(daProApagar) and TemDados;
+end;
+
+end.

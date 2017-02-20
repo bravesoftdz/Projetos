@@ -1,0 +1,53 @@
+object Form19: TForm19
+  Left = 0
+  Top = 0
+  ActiveControl = Edit1
+  Caption = 'Gerador de Senha para Token NexCaf'#233
+  ClientHeight = 207
+  ClientWidth = 462
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 136
+    Width = 44
+    Height = 22
+    Caption = 'Pass'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Courier New'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Edit1: TEdit
+    Left = 24
+    Top = 32
+    Width = 265
+    Height = 26
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Courier New'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 24
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Gerar >>'
+    Default = True
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end

@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfigPosVenda.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfigPosVenda.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422685185</prop>
+        <prop prop-type="OrigDateTime">41858.950787037</prop>
+        <prop prop-type="XlatDateTime">41858.950787037</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">82</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmConfigPosVenda.Caption" resname="I:FrmConfigPosVenda.Caption">
+        <source>'Tela de Sucesso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.ClientHeight" resname="I:FrmConfigPosVenda.ClientHeight">
+        <source>233</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.ClientWidth" resname="I:FrmConfigPosVenda.ClientWidth">
+        <source>427</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.Font.Charset" resname="I:FrmConfigPosVenda.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.Font.Name" resname="I:FrmConfigPosVenda.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.ExplicitWidth" resname="I:FrmConfigPosVenda.ExplicitWidth">
+        <source>433</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.ExplicitHeight" resname="I:FrmConfigPosVenda.ExplicitHeight">
+        <source>261</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.PixelsPerInch" resname="I:FrmConfigPosVenda.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.TextHeight" resname="I:FrmConfigPosVenda.TextHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmConfigPosVenda</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.Width" resname="I:FrmConfigPosVenda.I:panPri.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.Height" resname="I:FrmConfigPosVenda.I:panPri.Height">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.ExplicitWidth" resname="I:FrmConfigPosVenda.I:panPri.ExplicitWidth">
+        <source>481</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.ExplicitHeight" resname="I:FrmConfigPosVenda.I:panPri.ExplicitHeight">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.Width" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.ExplicitTop" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.ExplicitTop">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.ExplicitWidth" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.ExplicitWidth">
+        <source>481</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:img.Picture.Data" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:img.Picture.Data">
+        <source>0A54504E474F626A65637489504E470D0A1A0A0000000D49484452000000300000003008060000005702F987000000097048597300000EC400000EC401952B0E1B000006174944415478DAED590B6C5355183EA71B83B5B5DB70EBC8DC60F311C30C6C43CDDCC28C4A79C4C41037A51A63CC32D0A8C498E8283103A3B029C460A231313EC144E33AD0884482993AB5339268066111A3D9606CCCC1C6B6B6A3ED3ADAE3F7F781A5DC7B7BFB6292F027A7E7BFF79E7BFA7FFFF79DC7BD970B21D8D56CFC1A0009337FB13313FD1AA87FD8747BFDA6A9FF2D00049B85EA2E14134A2DCA629405D477F83F505C287D283D283FA07402D4D0AC0258B76F4709B2BB11F73F8AC3624AB50875A6C29F81DB05F75DD4FB01C677C50020F03C54AFA034E1CFB571042DE9A3EA45F592B5C17220ED0020970654EFA014269A3119A320F6A23C0336C6520E20342877205BCF53D22EDE9C60D623FDA87303701F041B4752060092C942C77BD0CE1CF967690240FE045C02F163D20028F3A83E4379381E5A536034EDAE819CBA930280ECBF86CA2295AD343210F647E1DE012606130280ECDF8F6B5FC1CD982500E4FF04D7041033710140F07A54C7518A532A8CC4CC0229ED8C0B00A4F33A126051CA562A19989799253C17BCE178A2DB3AE09603C4B02A00089EB6017FE326FD950090AF35F02DCBCDE2507F0F3BD8F7BB5CDB3701E0055500209FAD2CB8D2A6DD0AB406D6B2DCCC16E8F3981F71EC3EDAC908888439516E0008A72200049F81E33FE1DE146BC025CB805197C311BC40F017CFE1877FD0F3ADE83C7144EABE460CE6DDB1002C43F51BFB6F279916CBCF36B0AD758FB0427DEE65D77C7E3F7BAFE710EB1A38167DE900187820168066DA32C8652E150C14687304344FC1CB4EA3A79DE7D8E6EF3FE15EDF4CF40A5D04163C4A00F6E2B83E5D008CBA5CC8669D28D4E5CAAE03085EB4DAACEC9CDB29D54705001C5302D08BEA3625FA6F995F14A0B97F72243ED96843B2D1E5CAB619768EB36D3F7FCEC63DB20F7066C8C8AA04C08EE3EBE4B2B838BF846FAE6D103EE1676DDD1DAC6F6244150346C8A6A5CE4CC1CBB27A1AC16FB7B5F371B753A9BF17C1C02E490098FFA99D2F7C1CDD0182179B6AEA7936161D3A777EC6C35A6D1DBC6FE21F45001434821700212BCB21C7584036C87CAC846C038097250184769E927B8EF2FC12D65C53CFB473E65E72DE39ED66ADDD567662F28C24DF0521D91815644303F655C866D2735E8D125B21A116250979719C1989BAD890CFDAEE7D9CCFCD982339880142B40144FFE4994B65A30BCE364609D984FD41C7A8D86EB3F209F794DA89600B186855023084E3A2C89B32B8863DB96C35BF67D112D95968CAEB212678FFC448E01A2D4E34DB14C8C886FC41C718C73D02998F67267B0A00DE570240DBD7BA68DE349CB30D55ABD97DA54B65B9754CBB684C3017C606C9A6409723DB16C163B66967F66955B289341324F49D1280B770BC512A031C4D3754ADE20021BB0E0084F0FA2ED094299BC901FBD9C080B54FBBD43C0F44FA343E1782811125000FE1D82AD799866B3840883013F12E64A71CA31CC1936CD43ED044FAC7117C793425D100AE278651B2E5382439ADAF5CC5569455C4C53D328F79DE1A905A82F606E4D3AC08800CEBC197A8D62A6D25C0045B5FB59299CA2A55650FD3AC68A3E0BDEE781F29C33E837B3B18E85103600DAA6F62ED854220F88AD20AC53F3F693FCBDB6C1D82066CAC3E15FCC3C87E8D142D520F341A54BFA2DC198B53925353658009C9EBA7ECA38145CAE975272A9BB0AD0580FDAA008458A8E3C197AF5C2E5BE1F3343B35559AD8CA1BAB2E5BA48253A52B99B712E477C1A5E9D3AF1A4088898F71ED895800C263024C705359504EC353E31CC10B6CCC927DAD4223BE1ADAEF95A34609401EAE1D867BB39AE7810C8D86375698C4526329C9868FB91CA9782FF41C827F5B495BB15E2D2E4145EF28F3D408157262FAAC79A9D03CD947904D53CCFF54024086F1703792F1353D27A4E291522503FBE03E0600DEA4018498A84645B3803115A98D611FA23C8DE067D43456FD81034C2C42563E45FBDA3431E081DB82C077A90A285E0064F4410FED6939B7A0E85308E0179C7A369E0F1B09018800B23004A29129EC9B54D851147A85DF2137CFA705400490F922F895B20189AC861F00A390753F5CFABC7A90E488A06D49804F1E40141803FAA2EDEEAD08AE0C3E3D0863B7C13DF0690FFF17FC3FE09F845412CA765A01CC965D0330DB76D503F81715DAA3FBD60FD78E0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.Caption" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.Caption">
+        <source>'Mostrar tela de sucesso após realizar uma venda'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.OnClick" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.OnClick">
+        <source>CBClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.ExplicitHeight" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.ExplicitHeight">
+        <source>43</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.Width" resname="I:FrmConfigPosVenda.I:panPri.I:panTopo.I:CB.Width">
+        <source>346</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Top" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Caption" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Caption">
+        <source>'.....'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Visible" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.ExplicitTop" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.ExplicitTop">
+        <source>106</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.ExplicitWidth" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.ExplicitWidth">
+        <source>423</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.ExplicitHeight" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Width" resname="I:FrmConfigPosVenda.I:panPri.I:lbDescr.Width">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.AlignWithMargins" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Left" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Top" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Top">
+        <source>103</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Width" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Width">
+        <source>329</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Height" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Cursor" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Left" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Top" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Right" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Bottom" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Align" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Caption" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Caption">
+        <source>'Nenhuma ação ao pressionar ENTER'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.TabOrder" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.LookAndFeel.Kind" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.Transparent" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.ExplicitTop" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.ExplicitTop">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNada.ExplicitWidth" resname="I:FrmConfigPosVenda.I:panPri.O:rgNada.ExplicitWidth">
+        <source>403</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.AlignWithMargins" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Left" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Top" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Top">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Width" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Width">
+        <source>329</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Height" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Cursor" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Left" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Top" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Right" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Bottom" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Align" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Caption" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Caption">
+        <source>'Fechar a tela ao pressionar ENTER'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.TabOrder" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.LookAndFeel.Kind" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.Transparent" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.ExplicitTop" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.ExplicitTop">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgOk.ExplicitWidth" resname="I:FrmConfigPosVenda.I:panPri.O:rgOk.ExplicitWidth">
+        <source>403</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.AlignWithMargins" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Left" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Top" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Top">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Width" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Width">
+        <source>329</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Height" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Cursor" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Left" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Left">
+        <source>78</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Top" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Right" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Bottom" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Align" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Caption" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Caption">
+        <source>'Iniciar nova venda ao pressionar ENTER'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.TabOrder" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.LookAndFeel.Kind" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Transparent" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422837384</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.ExplicitLeft" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.ExplicitLeft">
+        <source>184</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.74228375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.ExplicitTop" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.ExplicitTop">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.74228375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.ExplicitWidth" resname="I:FrmConfigPosVenda.I:panPri.O:rgNovaVenda.ExplicitWidth">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.74228375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:LMDSimplePanel1.Top" resname="I:FrmConfigPosVenda.I:LMDSimplePanel1.Top">
+        <source>191</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.74228375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPosVenda.I:LMDSimplePanel1.Width" resname="I:FrmConfigPosVenda.I:LMDSimplePanel1.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.74228375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

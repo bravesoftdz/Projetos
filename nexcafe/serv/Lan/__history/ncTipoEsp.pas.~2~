@@ -1,0 +1,26 @@
+unit ncTipoEsp;
+
+interface
+
+uses
+  SysUtils,
+  DB,
+  MD5,
+  Dialogs,
+  Classes,
+  Windows,
+  ClasseCS,
+  ncClassesBase;
+
+const
+  tipoesp_dinheiro     = 0;
+  tipoesp_cheque       = 1;
+  tipoesp_cartao       = 2;
+  tipoesp_outros       = 3;
+  
+
+    
+
+implementation
+
+end.

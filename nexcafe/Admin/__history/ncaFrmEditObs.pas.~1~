@@ -1,0 +1,47 @@
+unit ncaFrmEditObs;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxLookAndFeels, cxLookAndFeelPainters, Menus, cxControls,
+  cxContainer, cxEdit, cxTextEdit, cxMemo, StdCtrls, cxButtons, LMDControl,
+  LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel;
+
+type
+  TForm1 = class(TForm)
+    LMDSimplePanel2: TLMDSimplePanel;
+    btnSalvar: TcxButton;
+    btnCancelar: TcxButton;
+    edObs: TcxMemo;
+  private
+    { Private declarations }
+  public
+    function Editar(aObs: String): String;
+    { Public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+uses ncaFrmPri;
+
+{$R *.dfm}
+
+{ TForm1 }
+
+function TForm1.Editar(aObs: String): String;
+begin
+  edObs.Lines.Text := aObs;
+  ShowModal;
+  if ModalResult=mrOk then begin
+    if Trim(aObs)='' then 
+      Result := '' else
+      Result := aObs;
+  end else
+    Result := aObs;
+end;
+
+end.

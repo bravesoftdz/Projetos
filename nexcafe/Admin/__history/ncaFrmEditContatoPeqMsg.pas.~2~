@@ -1,0 +1,31 @@
+unit ncaFrmEditContatoPeqMsg;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ncaFrmEditContatoPeq, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, Menus, StdCtrls, cxButtons,
+  ImgList, ncMyImage, cxLabel, LMDControl, LMDCustomControl, LMDCustomPanel,
+  LMDCustomBevelPanel, LMDSimplePanel;
+
+type
+  TFrmEditContatoPeqMsg = class(TFrmEditContatoPeq)
+    lbMsg: TcxLabel;
+    LMDSimplePanel2: TLMDSimplePanel;
+    btnSalvar: TcxButton;
+    btnCancelar: TcxButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmEditContatoPeqMsg: TFrmEditContatoPeqMsg;
+
+implementation
+
+{$R *.dfm}
+
+end.

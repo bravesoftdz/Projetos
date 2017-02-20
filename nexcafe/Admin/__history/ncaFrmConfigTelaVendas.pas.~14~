@@ -1,0 +1,83 @@
+unit ncaFrmConfigTelaVendas;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ncaFrmBaseOpcaoImgTxt, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, Menus, cxTextEdit, cxMaskEdit,
+  cxSpinEdit, StdCtrls, cxRadioGroup, cxButtons, cxLabel, PngImage, ExtCtrls,
+  LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel, cxCheckBox;
+
+type
+  TFrmConfigTelaVendas = class(TFrmBaseOpcaoImgTxt)
+    rbComecarPorProduto: TcxRadioButton;
+    rbComecarPorQtd: TcxRadioButton;
+    cbNaoPassarQtd: TcxCheckBox;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure Ler; override;
+    procedure Salvar; override;
+    function Alterou: Boolean; override;
+
+    procedure Renumera; override;
+
+    function NumItens: Integer; override;
+  end;
+
+var
+  FrmConfigTelaVendas: TFrmConfigTelaVendas;
+
+implementation
+
+uses ncaFrmPri, ncaDM;
+
+{$R *.dfm}
+
+{ TFrmConfigTelaVendas }
+
+function TFrmConfigTelaVendas.Alterou: Boolean;
+begin
+  Result := True;
+  if StrToIntDef(slConfig.Values['ComecarPor'], 0) <> Byte(rbComecarPorQtd.Checked) then Exit;
+  if (slConfig.Values['NaoPassarQtd']='1') <> cbNaoPassarQtd.Checked then Exit;
+  Result := False;
+end;
+
+procedure TFrmConfigTelaVendas.Ler;
+begin
+  inherited;
+  if slConfig.Values['ComecarPor']='1' then
+    rbComecarPorQtd.Checked := True else
+    rbComecarPorProduto.Checked := True;
+  cbNaoPassarQtd.Checked := (slConfig.Values['NaoPassarQtd']='1');
+end;
+
+function TFrmConfigTelaVendas.NumItens: Integer;
+begin
+  Result := 2;
+end;
+
+procedure TFrmConfigTelaVendas.Renumera;
+begin
+  inherited;
+  RenumRB(rbComecarPorProduto, 0);
+  RenumRB(rbComecarPorQuant, 1);
+  RenumLB(lbQuantPadrao, 2);
+end;
+
+procedure TFrmConfigTelaVendas.Salvar;
+begin
+  inherited;
+  if rbComecarPorProduto.Checked then
+    slConfig.Values['ComecarPor'] := '0' else
+    slConfig.Values['ComecarPor'] := '1';
+
+  slConfig.Values['QtdPadrao'] := IntToStr(edQtdPadrao.Value);
+  SaveConfig;
+end;
+
+end.

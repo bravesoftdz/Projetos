@@ -1,0 +1,401 @@
+unit uMyBrowser;
+
+interface
+
+uses
+  Winapi.Windows, Winsock, ExtActns, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.OleCtrls, SHDocVw, Winapi.Mshtmhst, ActiveX, Automation, mshtml;
+
+type
+
+  TMyBrowser = class;
+  TMyWebApi  = class;
+  
+
+  TmyDownloadUrl = class ( TThread )
+  protected
+    FRes: Integer;
+    FWB: TMyBrowser;
+    FURL, 
+    FFileName: String; 
+    FOpen: Boolean; 
+    FOpenParams: String;
+    FDownAction : TDownLoadUrl;
+
+    procedure Progress(Sender: TDownLoadURL; Progress,
+      ProgressMax: Cardinal; StatusCode: TURLDownloadStatus; StatusText: String;
+      var Cancel: Boolean);
+        
+    procedure AfterDownload;
+  protected 
+    procedure Execute; override;
+  public
+    constructor Create(aWB: TMyBrowser;
+                       aURL, aFileName: String; 
+                       aOpen: Boolean; aOpenParams: String);
+  end;
+  
+  TDownFileStream = class ( TFileStream )
+  public
+    function Write(const Buffer; Count: Longint): Longint; override;
+  end;
+  
+  TMyWebApi = class ( TObjectWrapper )
+  protected
+    WB: TMyBrowser;
+    Form: TForm; 
+
+  public
+    constructor Create(aForm: TForm; aWB: TMyBrowser);   
+  published
+    function Win32Platform: OleVariant;
+    function Win32MajorVersion: OleVariant;
+    function Win32MinorVersion: OleVariant;
+    function Win32BuildNumber: OleVariant;
+    
+    function ScreenWidth: OleVariant;
+    function ScreenHeight: OleVariant;
+    function ExeName: OleVariant;
+    function GetParamStr(const aIndex: OleVariant): OleVariant;
+    function AppPath: OleVariant;
+    function CopyFile(const aFrom, aTo, aFailIfExists: OleVariant): OleVariant;
+    function FileExists(const aFileName: OleVariant): OleVariant;
+    function TextFromFile(const aFileName: OleVariant): OleVariant;
+    function ForceDirectories(const aFileName: OleVariant): OleVariant;
+    function LogInfo(const aString: OleVariant): OleVariant; virtual; abstract;
+    
+    function DeleteFile(const aFileName: OleVariant): OleVariant;
+    function DownloadURL(const aURL, aFName, aOpen, aParams: OleVariant): OleVariant;
+    function ShellStart(const aCmd, aParams, aDir: OleVariant): OleVariant; virtual; abstract;
+
+    function ServerIP: OleVariant; virtual;
+    function CloseApp: OleVariant; virtual;
+    function CloseWindow: OleVariant; virtual;
+  end;
+  
+  TGetWebApiEvent = procedure (Sender : TMyBrowser; var aWebApi: TMyWebApi) of object;
+
+  TMyBrowser = class ( TWebBrowser, IDocHostUIHandler ) 
+  private
+    FOnGetWebApi: TGetWebApiEvent;
+    
+    function GetExternal(out ppDispatch: IDispatch): HRESULT; stdcall;
+  public
+    function BodyHtml(pDisp: IDispatch): String;  
+  published
+    property OnGetWebApi: TGetWebApiEvent
+      read FOnGetWebApi write FonGetWebApi;
+  end;
+
+  procedure Register;
+
+implementation
+
+type
+   ThreadRenameExec = class ( TThread )
+   protected
+     OldName, NewName, Params: String;
+     Open: Boolean;
+     procedure Execute; override;
+   public
+     constructor Create(aOldName, aNewName: String; aOpen: Boolean; aParams: String);  
+   end;
+
+function TMyWebApi.AppPath: OleVariant;
+begin
+  Result := ExtractFilePath(ParamStr(0));
+end;
+
+function TMyWebApi.CloseApp: OleVariant;
+begin
+  Result := 0;
+end;
+
+function TMyWebApi.CloseWindow: OleVariant;
+begin
+  Result := 0;
+end;
+
+function TMyWebApi.CopyFile(const aFrom, aTo, aFailIfExists: OleVariant): OleVariant;
+var
+  sFrom, sTo : String;
+  bFail : Boolean;
+begin
+  sFrom := aFrom;
+  sTo := aTo;
+  bFail := (aFailIfExists=1);
+  Result := Winapi.Windows.CopyFile(pChar(sFrom), pChar(sTo), bFail);
+end;
+
+constructor TMyWebApi.Create(aForm: TForm; aWB: TMyBrowser);
+begin
+  inherited Connect(aForm);
+  Form := aForm;
+  WB := aWB;
+end;
+
+function TMyWebApi.DeleteFile(const aFileName: OleVariant): OleVariant;
+var s: String;
+begin
+  s := aFileName;
+  Result := WinApi.Windows.DeleteFile(PChar(s));
+end;
+
+function TMyWebApi.DownloadURL(const aURL, aFName, aOpen, aParams: OleVariant): OleVariant;
+var s1, s2: String;  
+begin
+  Result := 1;
+  s1 := aURL;
+  s2 := aFName;
+  CoInitialize(nil);
+  TMyDownloadUrl.Create(WB, aUrl, aFName, (aOpen=1), aParams);
+end;
+
+function TMyWebApi.ExeName: OleVariant;
+begin
+  Result := ExtractFileName(ParamStr(0));
+end;
+
+function TMyWebApi.FileExists(const aFileName: OleVariant): OleVariant;
+begin
+  Result := System.SysUtils.FileExists(aFileName);
+end;
+
+function TMyWebApi.ForceDirectories(const aFileName: OleVariant): OleVariant;
+begin
+  System.SysUtils.ForceDirectories(aFileName);
+end;
+
+function TMyWebApi.GetParamStr(const aIndex: OleVariant): OleVariant;
+begin
+  Result := ParamStr(aIndex);
+end;
+
+function TMyWebApi.ScreenHeight: OleVariant;
+begin
+  Result := Screen.Height;
+end;
+
+function TMyWebApi.ScreenWidth: OleVariant;
+begin
+  Result := Screen.Width;
+end;
+
+function TMyWebApi.ServerIP: OleVariant;
+begin
+  Result := '127.0.0.1'; // do not localize
+end;
+
+function TMyWebApi.TextFromFile(const aFileName: OleVariant): OleVariant;
+var 
+  sl : TStrings;
+  s  : String;
+begin
+  s := aFileName;
+  if System.SysUtils.FileExists(s) then begin
+    sl := TStringList.Create;
+    try
+      sl.LoadFromFile(s);
+      Result := sl.Text;
+    finally
+      sl.Free;
+    end;
+  end else
+    Result := '';
+end;
+
+function TMyWebApi.Win32BuildNumber: OleVariant;
+begin
+  Result := System.SysUtils.Win32BuildNumber;
+end;
+
+function TMyWebApi.Win32MajorVersion: OleVariant;
+begin
+  Result := System.SysUtils.Win32MajorVersion;
+end;
+
+function TMyWebApi.Win32MinorVersion: OleVariant;
+begin
+  Result := System.SysUtils.Win32MinorVersion;
+end;
+
+function TMyWebApi.Win32Platform: OleVariant;
+begin
+  Result := System.SysUtils.Win32Platform;
+end;
+
+{ ThreadRenameExec }
+
+function WinExecAndWait32(FileName: string; Visibility: Integer; aWait: Boolean): Longword;
+var { by Pat Ritchey }
+  zAppName: array[0..512] of Char;
+  zCurDir: array[0..255] of Char;
+  WorkDir: string;
+  StartupInfo: TStartupInfo;
+  ProcessInfo: TProcessInformation;
+begin
+  StrPCopy(zAppName, FileName);
+  GetDir(0, WorkDir);
+  StrPCopy(zCurDir, WorkDir);
+  FillChar(StartupInfo, SizeOf(StartupInfo), #0);
+  StartupInfo.cb          := SizeOf(StartupInfo);
+  StartupInfo.dwFlags     := STARTF_USESHOWWINDOW;
+  StartupInfo.wShowWindow := Visibility;
+  if not CreateProcess(nil,
+    zAppName, // pointer to command line string
+    nil, // pointer to process security attributes
+    nil, // pointer to thread security attributes
+    False, // handle inheritance flag
+    CREATE_NEW_CONSOLE or // creation flags
+    NORMAL_PRIORITY_CLASS,
+    nil, //pointer to new environment block
+    nil, // pointer to current directory name
+    StartupInfo, // pointer to STARTUPINFO
+    ProcessInfo) // pointer to PROCESS_INF
+    then Result := WAIT_FAILED
+  else
+  begin
+    if aWait then begin
+      WaitForSingleObject(ProcessInfo.hProcess, INFINITE);
+      GetExitCodeProcess(ProcessInfo.hProcess, Result);
+    end;
+    CloseHandle(ProcessInfo.hProcess);
+    CloseHandle(ProcessInfo.hThread);
+  end;
+end; 
+
+constructor ThreadRenameExec.Create(aOldName, aNewName: String; aOpen: Boolean;
+  aParams: String);
+begin
+  inherited Create(True);
+  FreeOnTerminate := True;
+  OldName := aOldName;
+  NewName := aNewName;
+  Open := aOpen;
+  Params := aParams;
+  Resume;
+end;
+
+procedure ThreadRenameExec.Execute;
+var C: Integer;
+begin
+  inherited;
+  try
+    C := GetTickCount;
+    while ((GetTickCount-C)<20000) and (not Application.Terminated) do 
+      if RenameFile(OldName, NewName) then begin
+        if Open then WinExecAndWait32(NewName+' '+Params, SW_SHOWNORMAL, False);
+        Break;
+      end;
+  except
+  end;
+end;
+
+{ TDownFileStream }
+
+function TDownFileStream.Write(const Buffer; Count: Integer): Longint;
+begin
+  if Application.Terminated then
+    raise Exception.Create('application.terminated'); // do not localize
+  inherited Write(Buffer, Count);
+end;
+
+{ TncDownloadUrl }
+
+procedure TMyDownloadUrl.AfterDownload;
+begin
+  ThreadRenameExec.Create(FDownAction.FileName, FFileName, FOpen, FOpenParams);
+end;
+
+constructor TMyDownloadUrl.Create(aWB: TMyBrowser; aURL, aFileName: String; aOpen: Boolean; aOpenParams: String);
+begin
+  inherited Create(True);
+  FreeOnTerminate := True;
+  FWB := aWB;
+  FURL := aURL;
+  FOpen := aOpen;
+  FOpenParams := aOpenParams;
+  FRes := 0;
+  FFilename := aFileName;
+  
+  Resume;
+end;
+
+procedure TMyDownloadUrl.Execute;
+var D: TMyDownloadUrl;
+ s: String;
+ w: wsadata;
+begin
+  CoInitialize(nil);
+  try
+    WSAStartup(MakeWord(1, 1), w);
+    try
+      FDownAction := TDownloadUrl.Create(nil);
+      try
+        FDownAction.URL := FURL;
+        FDownAction.FileName := ExtractFilePath(FFileName)+IntToStr(GetTickCount)+'_'+ExtractFileName(FFileName);
+        FDownAction.OnDownloadProgress := progress;
+        FDownAction.ExecuteTarget(nil);
+      finally
+        FDownAction.Free;
+      end;
+    finally
+      WSACleanup;
+    end;
+  except
+  end;
+end;
+
+procedure ProcessMessages;
+var Msg : TMsg;
+begin
+  while PeekMessage(Msg, 0, 0, 0, PM_REMOVE) do  begin
+    TranslateMessage(Msg);
+    DispatchMessage(Msg);
+  end;
+end;
+
+procedure TMyDownloadUrl.Progress(Sender: TDownloadUrl; Progress,
+  ProgressMax: Cardinal; StatusCode: TURLDownloadStatus; StatusText: String;
+  var Cancel: Boolean);
+begin
+  if ProgressMax > 0 then
+  if Progress >= ProgressMax then 
+    AfterDownload;
+  ProcessMessages;  
+end;
+
+{ TMyBrowser }
+
+function TMyBrowser.BodyHtml(pDisp: IDispatch): String;
+var
+  currentBrowser: IWebBrowser;
+begin
+  currentBrowser := pDisp as IWebBrowser;
+  if currentBrowser = defaultinterface then 
+    Result := (currentBrowser.Document as IHTMLDocument2).body.innerHTML  else
+    Result := '';
+end;
+
+function TMyBrowser.GetExternal(out ppDispatch: IDispatch): HRESULT;
+var W: TMyWebApi;
+begin
+  W := nil;
+  if Assigned(Self.FOnGetWebApi) then
+    FOnGetWebApi(Self, W);
+    
+  if Assigned(W) then begin
+    ppDispatch := TAutoObjectDispatch.Create(W) as IDispatch;
+    Result := S_OK;
+  end else
+    Result := S_FALSE;
+
+    
+end;
+
+procedure Register;
+begin
+  RegisterComponents('NexCafe', [TMyBrowser]);
+end;
+
+end.

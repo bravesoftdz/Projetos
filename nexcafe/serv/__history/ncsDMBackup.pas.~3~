@@ -1,0 +1,58 @@
+unit ncsDMBackup;
+
+interface
+
+uses
+  SysUtils, Classes, nxdbBackupController, nxdb, nxllComponent;
+
+type
+  TdmBackup = class(TDataModule)
+    nxDBD: TnxDatabase;
+    nxDBO: TnxDatabase;
+    nxSession: TnxSession;
+    nxBackup: TnxBackupController;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    procedure FazBackup;
+    { Public declarations }
+  end;
+
+var
+  dmBackup: TdmBackup;
+
+implementation
+
+{$R *.dfm}
+
+procedure TdmBackup.DataModuleCreate(Sender: TObject);
+begin
+  nxDBD.AliasPath := ExtractFilePath(ParamStr(0))+'sync\temp';
+  ForceDirectories(nxDBD.AliasPath);
+end;
+
+procedure TdmBackup.FazBackup;
+begin
+  nxSession.ServerEngine := dmServidorBD.ServerEngine;
+  nxSession.Active := True;
+  nxSession.PasswordAdd(sEncpass);
+    
+  if not DirectoryExists(nxDBD.AliasPath) then
+    MkDir(nxDBD.AliasPath);
+  nxDBO.Active := True;
+  nxDBD.Active := True;
+  try
+    nxBackup.Backup;
+  finally
+    nxDBD.Active := False;
+    nxDBO.Active := False;
+    nxSession.CloseInactiveTables;
+    nxSession.CloseInactiveFolders;
+    nxSession.Active := False;
+    nxSession.ServerEngine := nil;
+    nxBackup.Close;
+  end;
+end;
+
+end.

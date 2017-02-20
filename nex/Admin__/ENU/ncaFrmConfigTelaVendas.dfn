@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfigTelaVendas.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfigTelaVendas.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422685185</prop>
+        <prop prop-type="OrigDateTime">42160.6977083333</prop>
+        <prop prop-type="XlatDateTime">42160.6977083333</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">91</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmConfigTelaVendas.Caption" resname="I:FrmConfigTelaVendas.Caption">
+        <source>'Opções'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.ClientHeight" resname="I:FrmConfigTelaVendas.ClientHeight">
+        <source>285</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.ClientWidth" resname="I:FrmConfigTelaVendas.ClientWidth">
+        <source>439</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.Font.Charset" resname="I:FrmConfigTelaVendas.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.Font.Name" resname="I:FrmConfigTelaVendas.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.ExplicitWidth" resname="I:FrmConfigTelaVendas.ExplicitWidth">
+        <source>445</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.ExplicitHeight" resname="I:FrmConfigTelaVendas.ExplicitHeight">
+        <source>313</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.PixelsPerInch" resname="I:FrmConfigTelaVendas.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.TextHeight" resname="I:FrmConfigTelaVendas.TextHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmConfigTelaVendas</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.Width" resname="I:FrmConfigTelaVendas.I:panPri.Width">
+        <source>419</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.Height" resname="I:FrmConfigTelaVendas.I:panPri.Height">
+        <source>191</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.ExplicitWidth" resname="I:FrmConfigTelaVendas.I:panPri.ExplicitWidth">
+        <source>419</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.ExplicitHeight" resname="I:FrmConfigTelaVendas.I:panPri.ExplicitHeight">
+        <source>191</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.Width">
+        <source>419</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.Height" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.Height">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.ExplicitWidth" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.ExplicitWidth">
+        <source>419</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.ExplicitHeight" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.ExplicitHeight">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.I:img.Picture.Data" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.I:img.Picture.Data">
+        <source>0A54504E474F626A65637489504E470D0A1A0A0000000D49484452000000300000003008060000005702F987000000097048597300000EC400000EC401952B0E1B0000035B4944415478DAED985F4853511CC7BFF77AF747CD29E14BF910680F4226A25962FFCCB056895A8108414110F4501051DADC86B0B5D63FFBF312043D04F6205664A2A1684A26099926F9600F2568483E8829D36D6E7777DDB3E56A95ED8FBB77DED817C63D3BEC77F7FD9C737EF7FCCEA5DC6E37A42C2A06100388017801766B5A67F94B72B40D0529CB2B73A9EA7700494D050F40C5006200910228D13C9139A07444DB54D800C7EB1E32E38E5467B44D850D70D6789FF9604D932E408DF136C3D8A73D00269329DADE9615C771D06AB59EB6D96CFE09A0D3E918FE2A5D008D46C3D034FD57800B0D23E87A3F019AFFB91C0E94672CE0406116727272A401B0E9DC0BA4C673BEEFD3361A47D74FC0507D5A1A00B58DA3E8E91F46B29C838DF1964A2E87150F4E6523333373F503FCAA2DE75B90A8A03163A3A02DB0A0AAAA4A5A00EDEDED30F4B09EB68A9B43A3F610525252A403303B3B8B3D863EA81480934F0B1717D9EA83F78733DB1371E248B130009EC07B8FD0FE45B8519FB17218B95B261CC0F0F0304E364C2249EE1DFD053E2A8E8ACC4C385D6E5CD927875AAD160E80A8E0E273289838581C14AAF3C54BE688019064D677B9208B73239E9BC753AD5A94648E18C0D4D4144A6FBE43A20C6039F259D912224BE756990A454545E20090A751B1A11749FC9E102991CDB1AFBE521C00A2969616187BE390205B79328B3E034476BB1D45FA0E4F3213F3BA1D2C2A2A2A563C13A20110353737C3D427F325739BB1024AA5523A002499CBEB07A06428D8580A0EA72B2443728AC5F5F2B501978E6000447B6B1E83A5E3C31A51528E3817173170E768F400482E1CAC6BC302270F1D20C8E41514404CFDD7000A8661ECA4C368348674535DD347B40E4E7ADAA57969B85C19F894164E4C2000150F30172A0031F2ECCD98EFCCFC759E46E5CEF47F1A22314DAFC7B06E8D37869CB10F17A60705117180DC9A4E24D18B7E7DDF5C09E8ADCD5DB6B8CBA9798964DAE6D767E114E8D6E4072C08230EB0ED52079494FF0B3D6266E85A4948D00E3783FEAB6A0492204BA87BF013643F6A3AAB93C2FEAD19019750C7DBCFBE1A8AEC05C5791BA3B384960C750E8D7BDA25B91B824EE2A5985D9BD370E3585650FF2508809812E431BA2A0088F47ABD9B65D9687B0C5A7F00F0B330CA5FC47D5718BE4678806C3F00A92A06106D7D07AA1FF2BF41645BB80000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Left" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Left">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Top" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Top">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Width">
+        <source>206</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Height" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Cursor" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Caption" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Caption">
+        <source>'Começar pelo Produto'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Checked" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Charset" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Color" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Height" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Name" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Style" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.ParentFont" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.TabOrder" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.TabStop" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.TabStop">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.OnClick" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.OnClick">
+        <source>rbComecarPorQtdClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorProduto.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Left" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Left">
+        <source>59</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Top" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Width">
+        <source>206</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Height" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873148</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Cursor" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Caption" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Caption">
+        <source>'Começar pela Quantidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Charset" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Color" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Height" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Name" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Style" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.ParentFont" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.TabOrder" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.OnClick" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.OnClick">
+        <source>rbComecarPorQtdClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:rbComecarPorQtd.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Left" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Left">
+        <source>76</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Top" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Cursor" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Caption" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Caption">
+        <source>'Não passar pela quantidade automaticamente.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Style.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.StyleDisabled.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.StyleFocused.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.StyleHot.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.TabOrder" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbNaoPassarQtd.Width">
+        <source>317</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Left" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Left">
+        <source>55</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Top" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Top">
+        <source>90</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Cursor" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Caption" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Caption">
+        <source>'Desativar busca automática de produtos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Style.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.StyleDisabled.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.StyleFocused.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.StyleHot.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.TabOrder" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbDesligaBuscaAuto.Width">
+        <source>335</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Left" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Left">
+        <source>55</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Top" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Top">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Cursor" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Caption" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Caption">
+        <source>'Mostrar código do produto na lista de itens'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Style.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.StyleDisabled.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.StyleFocused.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.StyleHot.LookAndFeel.Kind" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.TabOrder" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:panTopo.O:cbMostrarCod.Width">
+        <source>335</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Top" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Top">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Caption" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Caption">
+        <source>'.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Visible" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.ExplicitTop" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.ExplicitTop">
+        <source>137</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.ExplicitWidth" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.ExplicitWidth">
+        <source>361</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.ExplicitHeight" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.ExplicitHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Width" resname="I:FrmConfigTelaVendas.I:panPri.I:lbDescr.Width">
+        <source>361</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:LMDSimplePanel1.Top" resname="I:FrmConfigTelaVendas.I:LMDSimplePanel1.Top">
+        <source>243</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:LMDSimplePanel1.Width" resname="I:FrmConfigTelaVendas.I:LMDSimplePanel1.Width">
+        <source>419</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:LMDSimplePanel1.ExplicitTop" resname="I:FrmConfigTelaVendas.I:LMDSimplePanel1.ExplicitTop">
+        <source>186</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigTelaVendas.I:LMDSimplePanel1.ExplicitWidth" resname="I:FrmConfigTelaVendas.I:LMDSimplePanel1.ExplicitWidth">
+        <source>419</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422873264</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmXmls.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmXmls.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428703704</prop>
+        <prop prop-type="OrigDateTime">42241.7257175926</prop>
+        <prop prop-type="XlatDateTime">42241.7257175926</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">229</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmXMLs.Left" resname="O:FrmXMLs.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Top" resname="O:FrmXMLs.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Caption" resname="O:FrmXMLs.Caption">
+        <source>'XML'#39's da NF'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.ClientHeight" resname="O:FrmXMLs.ClientHeight">
+        <source>493</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.ClientWidth" resname="O:FrmXMLs.ClientWidth">
+        <source>771</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Color" resname="O:FrmXMLs.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Font.Charset" resname="O:FrmXMLs.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Font.Color" resname="O:FrmXMLs.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Font.Height" resname="O:FrmXMLs.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Font.Name" resname="O:FrmXMLs.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Font.Style" resname="O:FrmXMLs.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747569</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.OldCreateOrder" resname="O:FrmXMLs.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.Position" resname="O:FrmXMLs.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.WindowState" resname="O:FrmXMLs.WindowState">
+        <source>wsMaximized</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.OnClose" resname="O:FrmXMLs.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.OnCreate" resname="O:FrmXMLs.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.PixelsPerInch" resname="O:FrmXMLs.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.TextHeight" resname="O:FrmXMLs.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmXMLs</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Left" resname="O:FrmXMLs.O:Paginas.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Top" resname="O:FrmXMLs.O:Paginas.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Width" resname="O:FrmXMLs.O:Paginas.Width">
+        <source>771</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Height" resname="O:FrmXMLs.O:Paginas.Height">
+        <source>454</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Align" resname="O:FrmXMLs.O:Paginas.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Font.Charset" resname="O:FrmXMLs.O:Paginas.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Font.Color" resname="O:FrmXMLs.O:Paginas.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Font.Height" resname="O:FrmXMLs.O:Paginas.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Font.Name" resname="O:FrmXMLs.O:Paginas.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Font.Style" resname="O:FrmXMLs.O:Paginas.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.ParentFont" resname="O:FrmXMLs.O:Paginas.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.TabOrder" resname="O:FrmXMLs.O:Paginas.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Properties.ActivePage" resname="O:FrmXMLs.O:Paginas.Properties.ActivePage">
+        <source>tsEnvio</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.Properties.CustomButtons.Buttons" resname="O:FrmXMLs.O:Paginas.Properties.CustomButtons.Buttons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.ExplicitWidth">
+        <source>702</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.ClientRectBottom" resname="O:FrmXMLs.O:Paginas.ClientRectBottom">
+        <source>450</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.ClientRectLeft" resname="O:FrmXMLs.O:Paginas.ClientRectLeft">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.ClientRectRight" resname="O:FrmXMLs.O:Paginas.ClientRectRight">
+        <source>767</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.ClientRectTop" resname="O:FrmXMLs.O:Paginas.ClientRectTop">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.Caption" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.Caption">
+        <source>'XML de Envio'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.ImageIndex" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.ExplicitTop" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.ExplicitTop">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Left" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Top" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Align" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Lines.Strings[0]" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Lines.Strings[0]">
+        <source>'meEnvio'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.ParentFont" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Properties.ReadOnly" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Properties.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Properties.ScrollBars" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Properties.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.BorderStyle" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Charset" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Color" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Height" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Name" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Style" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.IsFontAssigned" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.TabOrder" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Height" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Height">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Width" resname="O:FrmXMLs.O:Paginas.O:tsEnvio.O:meEnvio.Width">
+        <source>763</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.Caption" resname="O:FrmXMLs.O:Paginas.O:tsRet.Caption">
+        <source>'XML de Retorno'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.ImageIndex" resname="O:FrmXMLs.O:Paginas.O:tsRet.ImageIndex">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.ExplicitTop" resname="O:FrmXMLs.O:Paginas.O:tsRet.ExplicitTop">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsRet.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsRet.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Left" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Top" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Align" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Lines.Strings[0]" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Lines.Strings[0]">
+        <source>'meEnvio'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.ParentFont" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Properties.ReadOnly" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Properties.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Properties.ScrollBars" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Properties.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.BorderStyle" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Charset" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Color" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Height" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Name" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Style" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.IsFontAssigned" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.TabOrder" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Height" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Height">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Width" resname="O:FrmXMLs.O:Paginas.O:tsRet.O:meRet.Width">
+        <source>763</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.Caption" resname="O:FrmXMLs.O:Paginas.O:tsAprov.Caption">
+        <source>'XML Aprovado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.ImageIndex" resname="O:FrmXMLs.O:Paginas.O:tsAprov.ImageIndex">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747685</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.ExplicitTop" resname="O:FrmXMLs.O:Paginas.O:tsAprov.ExplicitTop">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsAprov.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsAprov.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Left" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Top" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Align" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Lines.Strings[0]" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Lines.Strings[0]">
+        <source>'meEnvio'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.ParentFont" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Properties.ReadOnly" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Properties.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Properties.ScrollBars" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Properties.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.BorderStyle" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Charset" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Color" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Height" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Name" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Style" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.IsFontAssigned" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.TabOrder" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Height" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Height">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Width" resname="O:FrmXMLs.O:Paginas.O:tsAprov.O:meAprov.Width">
+        <source>763</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.Caption" resname="O:FrmXMLs.O:Paginas.O:tsCanc.Caption">
+        <source>'XML de retorno de Cancelamento'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.ImageIndex" resname="O:FrmXMLs.O:Paginas.O:tsCanc.ImageIndex">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.ExplicitTop" resname="O:FrmXMLs.O:Paginas.O:tsCanc.ExplicitTop">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsCanc.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsCanc.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Left" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Top" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Align" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Lines.Strings[0]" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Lines.Strings[0]">
+        <source>'meEnvio'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.ParentFont" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Properties.ReadOnly" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Properties.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Properties.ScrollBars" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Properties.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.BorderStyle" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Charset" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Color" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Height" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Name" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Style" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.IsFontAssigned" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.TabOrder" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Height" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Height">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Width" resname="O:FrmXMLs.O:Paginas.O:tsCanc.O:meCanc.Width">
+        <source>763</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.Caption" resname="O:FrmXMLs.O:Paginas.O:tsInut.Caption">
+        <source>'XML de retorno de Inutilização'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.ImageIndex" resname="O:FrmXMLs.O:Paginas.O:tsInut.ImageIndex">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.ExplicitTop" resname="O:FrmXMLs.O:Paginas.O:tsInut.ExplicitTop">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsInut.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsInut.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Left" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Top" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Align" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Lines.Strings[0]" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Lines.Strings[0]">
+        <source>'meEnvio'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.ParentFont" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Properties.ReadOnly" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Properties.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Properties.ScrollBars" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Properties.ScrollBars">
+        <source>ssVertical</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.BorderStyle" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Charset" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Color" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Height" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Name" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Style" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.IsFontAssigned" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.TabOrder" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.ExplicitWidth" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.ExplicitWidth">
+        <source>694</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.ExplicitHeight" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.ExplicitHeight">
+        <source>426</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Height" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Height">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Width" resname="O:FrmXMLs.O:Paginas.O:tsInut.O:meInut.Width">
+        <source>763</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxMemo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.AlignWithMargins" resname="O:FrmXMLs.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Left" resname="O:FrmXMLs.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Top" resname="O:FrmXMLs.O:LMDSimplePanel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Width" resname="O:FrmXMLs.O:LMDSimplePanel1.Width">
+        <source>771</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Height" resname="O:FrmXMLs.O:LMDSimplePanel1.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Hint" resname="O:FrmXMLs.O:LMDSimplePanel1.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747801</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Margins.Left" resname="O:FrmXMLs.O:LMDSimplePanel1.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Margins.Top" resname="O:FrmXMLs.O:LMDSimplePanel1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Margins.Right" resname="O:FrmXMLs.O:LMDSimplePanel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Margins.Bottom" resname="O:FrmXMLs.O:LMDSimplePanel1.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Align" resname="O:FrmXMLs.O:LMDSimplePanel1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmXMLs.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Font.Charset" resname="O:FrmXMLs.O:LMDSimplePanel1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Font.Color" resname="O:FrmXMLs.O:LMDSimplePanel1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Font.Height" resname="O:FrmXMLs.O:LMDSimplePanel1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Font.Name" resname="O:FrmXMLs.O:LMDSimplePanel1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.Font.Style" resname="O:FrmXMLs.O:LMDSimplePanel1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.ParentFont" resname="O:FrmXMLs.O:LMDSimplePanel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.TabOrder" resname="O:FrmXMLs.O:LMDSimplePanel1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.ExplicitWidth" resname="O:FrmXMLs.O:LMDSimplePanel1.ExplicitWidth">
+        <source>702</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.AlignWithMargins" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Left" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Left">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Top" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Width" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Width">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Height" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Left" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Top" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Right" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Bottom" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Align" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Caption" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Caption">
+        <source>'Salvar XML'#39's'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.LookAndFeel.Kind" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.LookAndFeel.NativeStyle" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.OptionsImage.ImageIndex" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.OptionsImage.ImageIndex">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.OptionsImage.Images" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.OptionsImage.Images">
+        <source>dmImagens.im24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.PaintStyle" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.PaintStyle">
+        <source>bpsGlyph</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.CanBeFocused" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.CanBeFocused">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.AllowAllUp" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.AllowAllUp">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.Flat" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.Flat">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.Transparent" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.SpeedButtonOptions.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.TabOrder" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Charset" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Color" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Height" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Name" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Style" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.ParentFont" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.OnClick" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.OnClick">
+        <source>btnSalvarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.ExplicitLeft" resname="O:FrmXMLs.O:LMDSimplePanel1.O:btnSalvar.ExplicitLeft">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Left" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Top" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Width" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Width">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Height" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Left" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Top" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Right" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Bottom" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Align" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Cancel" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Caption" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Caption">
+        <source>'&amp;Fechar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Default" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.LookAndFeel.Kind" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.LookAndFeel.NativeStyle" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.ModalResult" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.TabOrder" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Charset" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Color" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Height" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Name" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Style" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.ParentFont" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.ExplicitLeft" resname="O:FrmXMLs.O:LMDSimplePanel1.O:cxButton1.ExplicitLeft">
+        <source>-8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428747917</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

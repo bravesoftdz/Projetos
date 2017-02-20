@@ -1,0 +1,38 @@
+unit ncaFrmProdSemFid;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxContainer, cxEdit, Menus, StdCtrls, cxButtons, cxLabel, nxdb;
+
+type
+  TFrmProdSemFid = class(TForm)
+    cxLabel1: TcxLabel;
+    cxButton1: TcxButton;
+    cxButton2: TcxButton;
+    lbProduto: TcxLabel;
+  private
+    { Private declarations }  
+    FTab: TnxTable;
+  public
+    { Public declarations }
+    procedure Mostrar(aTab: TnxTable);
+  end;
+
+var
+  Form1: TFrmProdSemFid;
+
+implementation
+
+{$R *.dfm}
+
+{ TFrmProdSemFid }
+
+procedure TFrmProdSemFid.Mostrar(aTab: TnxTable);
+begin
+
+end;
+
+end.

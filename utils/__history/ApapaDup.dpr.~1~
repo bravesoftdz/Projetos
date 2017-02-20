@@ -1,0 +1,14 @@
+program ApapaDup;
+
+uses
+  Forms,
+  Unit45 in 'C:\Users\Joao\Documents\RAD Studio\Projects\Unit45.pas' {Form45};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm45, Form45);
+  Application.Run;
+end.

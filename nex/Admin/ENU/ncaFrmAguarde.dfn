@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmAguarde.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmAguarde.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420138889</prop>
+        <prop prop-type="OrigDateTime">41343.5940509259</prop>
+        <prop prop-type="XlatDateTime">41343.5940509259</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">46</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmAguarde.Left" resname="O:FrmAguarde.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420230903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Top" resname="O:FrmAguarde.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420230903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.BorderStyle" resname="O:FrmAguarde.BorderStyle">
+        <source>bsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420230903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Caption" resname="O:FrmAguarde.Caption">
+        <source>'FrmAguarde'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420230903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.ClientHeight" resname="O:FrmAguarde.ClientHeight">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420230903</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.ClientWidth" resname="O:FrmAguarde.ClientWidth">
+        <source>376</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Color" resname="O:FrmAguarde.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Font.Charset" resname="O:FrmAguarde.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Font.Color" resname="O:FrmAguarde.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Font.Height" resname="O:FrmAguarde.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Font.Name" resname="O:FrmAguarde.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Font.Style" resname="O:FrmAguarde.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.OldCreateOrder" resname="O:FrmAguarde.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.Position" resname="O:FrmAguarde.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.OnClose" resname="O:FrmAguarde.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.PixelsPerInch" resname="O:FrmAguarde.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.TextHeight" resname="O:FrmAguarde.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmAguarde</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Left" resname="O:FrmAguarde.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Top" resname="O:FrmAguarde.O:LMDSimplePanel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Width" resname="O:FrmAguarde.O:LMDSimplePanel1.Width">
+        <source>376</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Height" resname="O:FrmAguarde.O:LMDSimplePanel1.Height">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Align" resname="O:FrmAguarde.O:LMDSimplePanel1.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmAguarde.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmStandard</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Bevel.StandardStyle" resname="O:FrmAguarde.O:LMDSimplePanel1.Bevel.StandardStyle">
+        <source>lsSingle</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.Color" resname="O:FrmAguarde.O:LMDSimplePanel1.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.TabOrder" resname="O:FrmAguarde.O:LMDSimplePanel1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Left" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Left">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Top" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Top">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Caption" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Caption">
+        <source>'Abrindo site do parceiro. Aguarde ....'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.ParentFont" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Charset" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Color" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Height" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Name" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Style" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmAguarde.O:LMDSimplePanel1.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Left" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Left">
+        <source>263</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Top" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Top">
+        <source>18</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Width" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Height" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Cursor" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Cancel" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Caption" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.ModalResult" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.TabOrder" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.LookAndFeel.Kind" resname="O:FrmAguarde.O:LMDSimplePanel1.O:btnCancelar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420231019</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

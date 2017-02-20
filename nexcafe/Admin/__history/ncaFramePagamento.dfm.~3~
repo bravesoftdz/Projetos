@@ -1,0 +1,65 @@
+object FramePagamento: TFramePagamento
+  Left = 0
+  Top = 0
+  Width = 384
+  Height = 386
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  ParentFont = False
+  TabOrder = 0
+  object LMDSimplePanel1: TLMDSimplePanel
+    Left = 3
+    Top = 3
+    Width = 378
+    Height = 366
+    Bevel.Mode = bmCustom
+    TabOrder = 0
+    object Paginas: TcxPageControl
+      Left = 0
+      Top = 0
+      Width = 378
+      Height = 366
+      Align = alClient
+      TabOrder = 0
+      Properties.ActivePage = tsValores
+      Properties.CustomButtons.Buttons = <>
+      ExplicitLeft = 80
+      ExplicitTop = 56
+      ExplicitWidth = 289
+      ExplicitHeight = 193
+      ClientRectBottom = 366
+      ClientRectRight = 378
+      ClientRectTop = 30
+      object tsValores: TcxTabSheet
+        Caption = 'tsValores'
+        ImageIndex = 0
+        object panValores: TLMDSimplePanel
+          Left = 0
+          Top = 0
+          Width = 378
+          Height = 336
+          Align = alClient
+          Bevel.Mode = bmCustom
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -16
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+          ExplicitLeft = 35
+          ExplicitTop = 3
+          ExplicitWidth = 310
+          ExplicitHeight = 380
+        end
+      end
+      object tsPendente: TcxTabSheet
+        Caption = 'tsPendente'
+        ImageIndex = 1
+      end
+    end
+  end
+end

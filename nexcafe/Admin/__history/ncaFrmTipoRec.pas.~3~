@@ -1,0 +1,35 @@
+unit ncaFrmTipoRec;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxLookAndFeels, cxLookAndFeelPainters, Menus, StdCtrls,
+  cxButtons, cxRadioGroup;
+
+type
+  TFrmTipoRec = class(TForm)
+    rbVendas: TcxRadioButton;
+    rbSessao: TcxRadioButton;
+    btnOk: TcxButton;
+    btnCancelar: TcxButton;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmTipoRec: TFrmTipoRec;
+
+implementation
+
+{$R *.dfm}
+
+procedure TFrmTipoRec.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+end;
+
+end.

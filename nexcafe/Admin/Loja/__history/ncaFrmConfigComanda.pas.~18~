@@ -1,0 +1,124 @@
+unit ncaFrmConfigComanda;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, ncaFrmBaseOpcaoImgTxt, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, Menus, cxTextEdit, cxMaskEdit,
+  cxSpinEdit, cxCheckBox, StdCtrls, cxButtons, cxLabel, LMDPNGImage, ExtCtrls,
+  LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel;
+
+type
+  TFrmConfigComanda = class(TFrmBaseOpcaoImgTxt)
+    LMDSimplePanel2: TLMDSimplePanel;
+    cxLabel1: TcxLabel;
+    cxLabel2: TcxLabel;
+    LMDSimplePanel3: TLMDSimplePanel;
+    edComandaF: TcxSpinEdit;
+    lbComandaF: TcxLabel;
+    edComandaI: TcxSpinEdit;
+    lbComandaI: TcxLabel;
+    lbComandaNumeracao: TcxLabel;
+    cbUsarComandas: TcxCheckBox;
+    procedure cbUsarComandasClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+    procedure Atualizar; 
+    procedure Ler; override;
+    procedure Salvar; override;
+    function Alterou: Boolean; override;
+
+    procedure Renumera; override;
+
+    function NumItens: Integer; override;
+  end;
+
+var
+  FrmConfigComanda: TFrmConfigComanda;
+
+implementation
+
+{$R *.dfm}
+
+uses ncClassesBase, ncaDM;
+
+{ TFrmConfigComanda }
+
+resourcestring
+  SNumeracaoComandaInvalida = 'O número final das comandas deve ser maior que o número inicial';
+  SNumeracaoComandaIgualMaq = 'Comandas e mesas devem ter numeração diferente';
+  
+function TFrmConfigComanda.Alterou: Boolean;
+begin
+  Result := (cbNaoUsarComandas.Checked<>gConfig.ComandaOff) or
+            (edComandaI.Value<>gConfig.ComandaI) or
+            (edComandaF.Value<>gConfig.ComandaF);
+end;
+
+procedure TFrmConfigComanda.Atualizar;
+begin
+  lbComandaI.Enabled := not cbNaoUsarComandas.Checked;
+  lbComandaF.Enabled := lbComandaI.Enabled;
+  lbComandaNumeracao.Enabled := lbComandaF.Enabled;
+  edComandaI.Enabled := lbComandaI.Enabled;
+  edComandaF.Enabled := lbComandaI.Enabled;
+  if lbComandaI.Enabled and (cbNaoUsarComandas.Focused) then
+    edComandaI.SetFocus;
+end;
+
+procedure TFrmConfigComanda.cbUsarComandasClick(Sender: TObject);
+begin
+  inherited;
+  Atualizar;
+end;
+
+procedure TFrmConfigComanda.Ler;
+begin
+  inherited;
+  cbUsarComandas.Checked := not gConfig.ComandaOff;
+  if (gConfig.ComandaI>0) and (gConfig.ComandaF>0) then begin
+    edComandaI.Value := gConfig.ComandaI;
+    edComandaF.Value := gConfig.ComandaF;
+  end;
+  Atualizar;
+end;
+
+function TFrmConfigComanda.NumItens: Integer;
+begin
+  Result := 3;
+end;
+
+procedure TFrmConfigComanda.Renumera;
+begin
+  inherited;
+  cbNaoUsarComandas.Caption := IntToStr(InicioNumItem)+'. '+cbNaoUsarComandas.Caption;
+  lbComandaI.Caption := IntToStr(InicioNumItem+1)+'. '+cbNaoUsarComandas.Caption;
+  lbComandaF.Caption := IntToStr(InicioNumItem+2)+'. '+cbNaoUsarComandas.Caption;
+end;
+
+procedure TFrmConfigComanda.Salvar;
+var I: Integer;
+begin
+  inherited;
+  if not cbNaoUsarComandas.Checked then begin
+
+    if edComandaI.Value>=edComandaF.Value then 
+      raise Exception.Create(SNumeracaoComandaInvalida);
+
+    with Dados.CM do
+    for I := 0 to Maquinas.Count-1 do
+      if (Maquinas[I].Numero>=edComandaI.Value) and (Maquinas[I].Numero<=edComandaF.Value) then
+        raise Exception.Create(SNumeracaoComandaIgualMaq);
+  end;
+
+  gConfig.AtualizaCache;
+  gConfig.ComandaOff := cbNaoUsarComandas.Checked;
+  gConfig.ComandaI := edComandaI.Value;
+  gConfig.ComandaF := edComandaF.Value;
+end;
+
+end.

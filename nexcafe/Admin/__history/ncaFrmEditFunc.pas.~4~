@@ -1,0 +1,185 @@
+unit ncaFrmEditFunc;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxContainer, cxEdit, cxLabel, PngImage, ExtCtrls, LMDControl,
+  LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel, Menus,
+  StdCtrls, cxButtons, ImgList, ncMyImage, ncaFrmCliPesq2;
+
+type
+  TFrmEditFunc = class(TForm)
+    panPri: TLMDSimplePanel;
+    lbNome: TcxLabel;
+    imgs: TcxImageList;
+    Img: TMyImage;
+    cxImageList1: TcxImageList;
+    lbF6: TcxLabel;
+    procedure FormCreate(Sender: TObject);
+    procedure lbNomeClick(Sender: TObject);
+    procedure ImgClick(Sender: TObject);
+  private
+    FUsername: String;
+    FNome: String;
+    procedure SetUsername(const Value: String);
+    procedure SetNome(const Value: String);
+    procedure Update;
+  public
+    procedure Pesquisa;
+
+    { Private declarations }
+    property Username: String read FUsername write SetUsername;
+
+    property Nome: String
+      read FNome write SetNome;
+  end;
+
+var
+  FrmEditFunc: TFrmEditFunc;
+
+implementation
+
+uses ncaDM, ncaFrmCadCli, ncaFrmCadFornecedor, ncaFrmPesqFor, ncClassesBase;
+
+{$R *.dfm}
+
+{ TFrmEditContato }
+
+procedure TFrmEditFunc.FormCreate(Sender: TObject);
+begin
+  FUsername := ''; 
+  FNome := '';
+end;
+
+procedure TFrmEditFunc.ImgClick(Sender: TObject);
+begin
+  Pesquisa;
+end;
+
+procedure TFrmEditFunc.lbNomeClick(Sender: TObject);
+begin
+  Pesquisa;
+  lbNome.Invalidate;
+  lbNome.Update;
+end;
+
+procedure TFrmEditFunc.Pesquisa;
+var 
+  cliPesq: TFrmCliPesq2;
+  forPesq: TFrmPesqFor;
+begin
+  if not FFornecedor then begin
+    cliPesq := gCliPesq2List.GetFrm;
+    try
+      if cliPesq.Pesquisar(FID, FNome, FFidPontos, FCredito, FDebito) then Update;
+    finally
+      gCliPesq2List.ReleaseFrm(cliPesq);
+    end;
+  end else begin
+    forPesq := gPesqForList.GetFrm;
+    try
+      if forPesq.Pesquisar(FID, FNome, FFidPontos) then Update;
+    finally
+      gPesqForList.ReleaseFrm(forPesq);
+    end;
+  end;
+end;
+
+procedure TFrmEditFunc.SetFidPontos(const Value: Double);
+begin
+  FFidPontos := Value;
+end;
+
+procedure TFrmEditFunc.SetFornecedor(const Value: Boolean);
+begin
+  Img.ImageIndex := Integer(Value);
+  FFornecedor := Value;
+  Update;
+end;
+
+procedure TFrmEditFunc.SetID(const Value: Integer);
+begin
+  FID := Value;
+  with Dados do
+  if Value=0 then begin
+    FFidPontos := 0;
+    FNome := '';
+    FCredito := 0;
+    FDebito := 0;
+  end else 
+  if tbCli.Locate('ID', FID, []) then begin
+    FNome := tbCliNome.Value;
+    FFidPontos := tbCliFidPontos.Value;
+    FCredito := tbCliValorCred.Value;
+    FDebito := tbCliDebito.Value;
+  end;
+  Update;
+end;
+
+procedure TFrmEditFunc.SetNome(const Value: String);
+begin
+  FNome := Value;
+  Update;
+end;
+
+procedure TFrmEditFunc.Update;
+begin
+  if FID>0 then begin
+    lbNome.Caption := FNome;
+    lbNome.Style.TextColor := clBlack;
+    lbNome.Style.TextStyle := [];
+    lbNome.StyleHot.TextStyle := [fsUnderline];
+    lbNome.Style.Font.Size := 16;
+    Img.MouseOffDrawMode := idmNormal;
+    lbRemove.Visible := True;
+  end else begin
+    lbNome.Style.TextColor := clSilver;
+    lbNome.Style.TextStyle := [];
+    lbNome.StyleHot.TextStyle := [fsUnderline];
+    lbNome.Style.Font.Size := 12;
+    Img.MouseOffDrawMode := idmFaded;
+    if FFornecedor then
+      lbNome.Caption := rsF5Fornecedor else
+      lbNome.Caption := rsF5Cliente;
+    lbRemove.Visible := False;  
+  end;
+  UpdateInfos;
+end;
+
+function LabelWidth(L: TcxLabel): Integer;
+begin
+  Result := cxTextWidth(L.Style.Font, L.Caption);
+  if L.AlignWithMargins then
+    Result := Result + L.Margins.Left + L.Margins.Right;
+end;
+
+function BiggerInt(A, B: Integer): Integer;
+begin
+  if A>B then
+    Result := A else
+    Result := B;
+end;
+
+function BiggerWidth(A, B: TcxLabel): Integer;
+begin
+  Result := BiggerInt(LabelWidth(A), LabelWidth(B));
+end;
+
+procedure TFrmEditFunc.UpdateInfos;
+begin
+  lbValorDebito.Caption := CurrencyToStr(FDebito);
+  panDeb.Visible := FDebito>0.001;
+//  panDeb.Width := BiggerWidth(lbDebito, lbValorDebito);
+
+  lbValorCredito.Caption := CurrencyToStr(FCredito);
+  panCred.Visible := FCredito>0.001;
+//  panCred.Width := BiggerWidth(lbCredito, lbValorCredito);
+
+  lbQuantPontos.Caption := PontosFidToStr(FFidPontos);
+  panFid.Visible := FFidPontos>=0.1;
+//  panFid.Width := BiggerWidth(lbQuantPontos, lbPontos);
+end;
+
+end.

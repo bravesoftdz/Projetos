@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncafbCaixa.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncafbCaixa.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7418518519</prop>
+        <prop prop-type="OrigDateTime">42073.4927546296</prop>
+        <prop prop-type="XlatDateTime">42073.4927546296</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">65</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:fbCaixa.Left" resname="I:fbCaixa.Left">
+        <source>170</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.Top" resname="I:fbCaixa.Top">
+        <source>150</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.Caption" resname="I:fbCaixa.Caption">
+        <source>'Caixa'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.ClientHeight" resname="I:fbCaixa.ClientHeight">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.ClientWidth" resname="I:fbCaixa.ClientWidth">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.OldCreateOrder" resname="I:fbCaixa.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.OnDestroy" resname="I:fbCaixa.OnDestroy">
+        <source>FrmBasePaiDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.ExplicitWidth" resname="I:fbCaixa.ExplicitWidth">
+        <source>756</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.ExplicitHeight" resname="I:fbCaixa.ExplicitHeight">
+        <source>539</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.PixelsPerInch" resname="I:fbCaixa.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.TextHeight" resname="I:fbCaixa.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TfbCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.Width" resname="I:fbCaixa.I:panPri.Width">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.Height" resname="I:fbCaixa.I:panPri.Height">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.HelpType" resname="I:fbCaixa.I:panPri.HelpType">
+        <source>htKeyword</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.ExplicitWidth" resname="I:fbCaixa.I:panPri.ExplicitWidth">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.ExplicitHeight" resname="I:fbCaixa.I:panPri.ExplicitHeight">
+        <source>501</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.I:dxBarDockControl1.Width" resname="I:fbCaixa.I:panPri.I:dxBarDockControl1.Width">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.I:dxBarDockControl1.Visible" resname="I:fbCaixa.I:panPri.I:dxBarDockControl1.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.I:dxBarDockControl1.ExplicitWidth" resname="I:fbCaixa.I:panPri.I:dxBarDockControl1.ExplicitWidth">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Left" resname="I:fbCaixa.I:panPri.O:Paginas.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Top" resname="I:fbCaixa.I:panPri.O:Paginas.Top">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Width" resname="I:fbCaixa.I:panPri.O:Paginas.Width">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Height" resname="I:fbCaixa.I:panPri.O:Paginas.Height">
+        <source>473</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Cursor" resname="I:fbCaixa.I:panPri.O:Paginas.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Margins.Left" resname="I:fbCaixa.I:panPri.O:Paginas.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Margins.Top" resname="I:fbCaixa.I:panPri.O:Paginas.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Margins.Right" resname="I:fbCaixa.I:panPri.O:Paginas.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Margins.Bottom" resname="I:fbCaixa.I:panPri.O:Paginas.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Align" resname="I:fbCaixa.I:panPri.O:Paginas.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.TabOrder" resname="I:fbCaixa.I:panPri.O:Paginas.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Properties.CustomButtons.Buttons" resname="I:fbCaixa.I:panPri.O:Paginas.Properties.CustomButtons.Buttons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Properties.HotTrack" resname="I:fbCaixa.I:panPri.O:Paginas.Properties.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Properties.MultiLine" resname="I:fbCaixa.I:panPri.O:Paginas.Properties.MultiLine">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Properties.NavigatorPosition" resname="I:fbCaixa.I:panPri.O:Paginas.Properties.NavigatorPosition">
+        <source>npLeftTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.Properties.Style" resname="I:fbCaixa.I:panPri.O:Paginas.Properties.Style">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.LookAndFeel.Kind" resname="I:fbCaixa.I:panPri.O:Paginas.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.LookAndFeel.NativeStyle" resname="I:fbCaixa.I:panPri.O:Paginas.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.ClientRectBottom" resname="I:fbCaixa.I:panPri.O:Paginas.ClientRectBottom">
+        <source>473</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.ClientRectRight" resname="I:fbCaixa.I:panPri.O:Paginas.ClientRectRight">
+        <source>740</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:panPri.O:Paginas.ClientRectTop" resname="I:fbCaixa.I:panPri.O:Paginas.ClientRectTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.LookAndFeel.Kind" resname="I:fbCaixa.I:BarMgr.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.Left" resname="I:fbCaixa.I:BarMgr.Left">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.Top" resname="I:fbCaixa.I:BarMgr.Top">
+        <source>264</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.DockControlHeights[0]" resname="I:fbCaixa.I:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.DockControlHeights[1]" resname="I:fbCaixa.I:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.DockControlHeights[2]" resname="I:fbCaixa.I:BarMgr.DockControlHeights[2]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.DockControlHeights[3]" resname="I:fbCaixa.I:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.I:BarMgrBar1.OldName" resname="I:fbCaixa.I:BarMgr.I:BarMgrBar1.OldName">
+        <source>'BarraTabSheet1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.I:cmNovo.ImageIndex" resname="I:fbCaixa.I:BarMgr.I:cmNovo.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.I:cmEditar.ImageIndex" resname="I:fbCaixa.I:BarMgr.I:cmEditar.ImageIndex">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.I:cmApagar.ImageIndex" resname="I:fbCaixa.I:BarMgr.I:cmApagar.ImageIndex">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.I:cmLayout.ImageIndex" resname="I:fbCaixa.I:BarMgr.I:cmLayout.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:BarMgr.I:cmPeriodo.ImageIndex" resname="I:fbCaixa.I:BarMgr.I:cmPeriodo.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:MenuGrid.Left" resname="I:fbCaixa.I:MenuGrid.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxGridPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:MenuGrid.Top" resname="I:fbCaixa.I:MenuGrid.Top">
+        <source>305</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxGridPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:dlgExp.Left" resname="I:fbCaixa.I:dlgExp.Left">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.I:dlgExp.Top" resname="I:fbCaixa.I:dlgExp.Top">
+        <source>249</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:FM.BarMgr" resname="I:fbCaixa.O:FM.BarMgr">
+        <source>FrmPri.BarMgr</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:FM.PageControl" resname="I:fbCaixa.O:FM.PageControl">
+        <source>Paginas</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:FM.OnChange" resname="I:fbCaixa.O:FM.OnChange">
+        <source>FMChange</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:FM.Left" resname="I:fbCaixa.O:FM.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:FM.Top" resname="I:fbCaixa.O:FM.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:Timer1.Interval" resname="I:fbCaixa.O:Timer1.Interval">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:Timer1.Left" resname="I:fbCaixa.O:Timer1.Left">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbCaixa.O:Timer1.Top" resname="I:fbCaixa.O:Timer1.Top">
+        <source>170</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7418627893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

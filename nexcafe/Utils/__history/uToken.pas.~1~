@@ -1,0 +1,35 @@
+unit uToken;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls;
+
+type
+  TForm19 = class(TForm)
+    Edit1: TEdit;
+    Button1: TButton;
+    Label1: TLabel;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form19: TForm19;
+
+implementation
+
+uses ncToken;
+
+{$R *.dfm}
+
+procedure TForm19.Button1Click(Sender: TObject);
+begin
+  Label1.Caption := Format2Dig(GetTokenPass(edit1.text));
+end;
+
+end.

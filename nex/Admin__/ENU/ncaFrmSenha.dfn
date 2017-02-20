@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmSenha.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmSenha.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428472222</prop>
+        <prop prop-type="OrigDateTime">42213.0071064815</prop>
+        <prop prop-type="XlatDateTime">42213.0071064815</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">121</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmAlteraSenha.Left" resname="O:FrmAlteraSenha.Left">
+        <source>347</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Top" resname="O:FrmAlteraSenha.Top">
+        <source>245</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.BorderStyle" resname="O:FrmAlteraSenha.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Caption" resname="O:FrmAlteraSenha.Caption">
+        <source>'Contas de Usuário'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.ClientHeight" resname="O:FrmAlteraSenha.ClientHeight">
+        <source>259</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.ClientWidth" resname="O:FrmAlteraSenha.ClientWidth">
+        <source>343</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Color" resname="O:FrmAlteraSenha.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Font.Charset" resname="O:FrmAlteraSenha.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Font.Color" resname="O:FrmAlteraSenha.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Font.Height" resname="O:FrmAlteraSenha.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Font.Name" resname="O:FrmAlteraSenha.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Font.Style" resname="O:FrmAlteraSenha.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.KeyPreview" resname="O:FrmAlteraSenha.KeyPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.OldCreateOrder" resname="O:FrmAlteraSenha.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.Position" resname="O:FrmAlteraSenha.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.OnClose" resname="O:FrmAlteraSenha.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.OnCreate" resname="O:FrmAlteraSenha.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.OnDestroy" resname="O:FrmAlteraSenha.OnDestroy">
+        <source>FormDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.OnKeyUp" resname="O:FrmAlteraSenha.OnKeyUp">
+        <source>FormKeyUp</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.OnShow" resname="O:FrmAlteraSenha.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742852338</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.PixelsPerInch" resname="O:FrmAlteraSenha.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.TextHeight" resname="O:FrmAlteraSenha.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TFrmAlteraSenha</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:Image1.Left" resname="O:FrmAlteraSenha.O:Image1.Left">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:Image1.Top" resname="O:FrmAlteraSenha.O:Image1.Top">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:Image1.Width" resname="O:FrmAlteraSenha.O:Image1.Width">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:Image1.Height" resname="O:FrmAlteraSenha.O:Image1.Height">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:Image1.AutoSize" resname="O:FrmAlteraSenha.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:Image1.Picture.Data" resname="O:FrmAlteraSenha.O:Image1.Picture.Data">
+        <source>0B546478504E47496D61676589504E470D0A1A0A0000000D49484452000000300000003008060000005702F987000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EC300000EC301C76FA86400000293494441546843ED983F4B5C4114C52D14AC6217F0036C913AF900F68920E9FC00BB58A5902069EC622A91A44891D85B1A08B821D888A0D8041B0B5B4DC0553121450A21F0724698E7CC9DB3BBB377DE1B7789C58F9D77E7DE73CE34FBFE8C154531D2D0E228418B7571DE6E3E396FB7562FBEB4F641075C8333B00B5E63FF119BEB052D560DC27D04C500BC613A0C5AAC0A047921820DCA1CD375A1C52A80F9A908A3658FE95B6831151222952BE663A0C51460F64798C77208D6C196537339627E41210598BC15A6319C76D15A117D8605D9E75DA4420CFBF183E958B0BF20FA51F67BBC8B14207E20CDFA213518E8FB2BE636DC7DAF39056112C325D391A06F49CCA17CBBEF356BC11DF4A53489609B6949A0FD5CCEE26EFECCEE07031A20F84D9A44F09D6949D0B728E60C9B763F18D0400CA2903A0CF4FD9273E0A7DD0F06341083580E999E05FBB3A2BFC4F604431A98C100EC74D19C177D1EB62F18D4C00C147C06CBE0BD53EB8AF50EC26860067563BD83301A2078210D6A66DF7A076134E0BFFA0331A99357D63B08A30107681093DA70BDBD202930A39AF01E00BD105A20FA4E98D449C3F5F682688060CEF0C14B8D77312810CC191E966186A0100B04EF3CBC8116FB01C1A1086FA0C55E403067F8DF2C830B2D76038239C33F651924B4C880A036FCB199C7CD6E062F3E5FC97E09F63FA1EFB1F4EE052D4A20AEF95C62B8667A86CE56730A4C83076C3F165A7441086D78C309D3AC125AB420404A7843CFEF3E55408B0698A78637DCCD01605C457843D497871482024CAB0A7F83D4AF1AEF028629E11FBA5AB92817F8FF5D23A1A2B13AB9291738000D168BD5C94DB9B83F80239A9372F1DF1DC0CCE077BCD36E4EE07966D2EAE4A65C680E300C948B3E07B879241E46687194A0C5D1A118FB07D535E126D7F9127D0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.Left" resname="O:FrmAlteraSenha.O:lbSenhaAtual.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.Top" resname="O:FrmAlteraSenha.O:lbSenhaAtual.Top">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.Caption" resname="O:FrmAlteraSenha.O:lbSenhaAtual.Caption">
+        <source>'1. Digite sua senha atual'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.ParentFont" resname="O:FrmAlteraSenha.O:lbSenhaAtual.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbSenhaAtual.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbSenhaAtual.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbSenhaAtual.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbSenhaAtual.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbSenhaAtual.Transparent" resname="O:FrmAlteraSenha.O:lbSenhaAtual.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Left" resname="O:FrmAlteraSenha.O:edAtual.Left">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Top" resname="O:FrmAlteraSenha.O:edAtual.Top">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.ParentFont" resname="O:FrmAlteraSenha.O:edAtual.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Properties.EchoMode" resname="O:FrmAlteraSenha.O:edAtual.Properties.EchoMode">
+        <source>eemPassword</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Properties.MaxLength" resname="O:FrmAlteraSenha.O:edAtual.Properties.MaxLength">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Style.BorderStyle" resname="O:FrmAlteraSenha.O:edAtual.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edAtual.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edAtual.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edAtual.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edAtual.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.TabOrder" resname="O:FrmAlteraSenha.O:edAtual.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edAtual.Width" resname="O:FrmAlteraSenha.O:edAtual.Width">
+        <source>257</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Left" resname="O:FrmAlteraSenha.O:edNova.Left">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Top" resname="O:FrmAlteraSenha.O:edNova.Top">
+        <source>77</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.ParentFont" resname="O:FrmAlteraSenha.O:edNova.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Properties.EchoMode" resname="O:FrmAlteraSenha.O:edNova.Properties.EchoMode">
+        <source>eemPassword</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Properties.MaxLength" resname="O:FrmAlteraSenha.O:edNova.Properties.MaxLength">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Style.BorderStyle" resname="O:FrmAlteraSenha.O:edNova.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edNova.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edNova.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edNova.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edNova.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.TabOrder" resname="O:FrmAlteraSenha.O:edNova.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edNova.Width" resname="O:FrmAlteraSenha.O:edNova.Width">
+        <source>257</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.Left" resname="O:FrmAlteraSenha.O:lbNovaSenha.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.Top" resname="O:FrmAlteraSenha.O:lbNovaSenha.Top">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.Caption" resname="O:FrmAlteraSenha.O:lbNovaSenha.Caption">
+        <source>'2. Digite uma nova senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.ParentFont" resname="O:FrmAlteraSenha.O:lbNovaSenha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbNovaSenha.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbNovaSenha.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbNovaSenha.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbNovaSenha.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbNovaSenha.Transparent" resname="O:FrmAlteraSenha.O:lbNovaSenha.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Left" resname="O:FrmAlteraSenha.O:edConfirma.Left">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Top" resname="O:FrmAlteraSenha.O:edConfirma.Top">
+        <source>125</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.ParentFont" resname="O:FrmAlteraSenha.O:edConfirma.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Properties.EchoMode" resname="O:FrmAlteraSenha.O:edConfirma.Properties.EchoMode">
+        <source>eemPassword</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Properties.MaxLength" resname="O:FrmAlteraSenha.O:edConfirma.Properties.MaxLength">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Style.BorderStyle" resname="O:FrmAlteraSenha.O:edConfirma.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edConfirma.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edConfirma.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edConfirma.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:edConfirma.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.TabOrder" resname="O:FrmAlteraSenha.O:edConfirma.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:edConfirma.Width" resname="O:FrmAlteraSenha.O:edConfirma.Width">
+        <source>257</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.Left" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.Top" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.Top">
+        <source>105</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.Caption" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.Caption">
+        <source>'3. Digite a nova senha novamente'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.ParentFont" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:lbConfirmarSenha.Transparent" resname="O:FrmAlteraSenha.O:lbConfirmarSenha.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Left" resname="O:FrmAlteraSenha.O:cxLabel4.Left">
+        <source>68</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Top" resname="O:FrmAlteraSenha.O:cxLabel4.Top">
+        <source>157</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.AutoSize" resname="O:FrmAlteraSenha.O:cxLabel4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523495</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Caption" resname="O:FrmAlteraSenha.O:cxLabel4.Caption">
+        <source>'Se você usar letras maiúsculas na sua senha, terá que usá-las novamente toda vez que fizer logon.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.ParentFont" resname="O:FrmAlteraSenha.O:cxLabel4.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Style.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:cxLabel4.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:cxLabel4.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:cxLabel4.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:cxLabel4.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Properties.WordWrap" resname="O:FrmAlteraSenha.O:cxLabel4.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Transparent" resname="O:FrmAlteraSenha.O:cxLabel4.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Height" resname="O:FrmAlteraSenha.O:cxLabel4.Height">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:cxLabel4.Width" resname="O:FrmAlteraSenha.O:cxLabel4.Width">
+        <source>257</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.Left" resname="O:FrmAlteraSenha.O:btnAlterar.Left">
+        <source>144</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.Top" resname="O:FrmAlteraSenha.O:btnAlterar.Top">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.Width" resname="O:FrmAlteraSenha.O:btnAlterar.Width">
+        <source>93</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.Height" resname="O:FrmAlteraSenha.O:btnAlterar.Height">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.Caption" resname="O:FrmAlteraSenha.O:btnAlterar.Caption">
+        <source>'&amp;Alterar Senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:btnAlterar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.TabOrder" resname="O:FrmAlteraSenha.O:btnAlterar.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnAlterar.OnClick" resname="O:FrmAlteraSenha.O:btnAlterar.OnClick">
+        <source>btnAlterarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.Left" resname="O:FrmAlteraSenha.O:btnCancelar.Left">
+        <source>252</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.Top" resname="O:FrmAlteraSenha.O:btnCancelar.Top">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.Width" resname="O:FrmAlteraSenha.O:btnCancelar.Width">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.Height" resname="O:FrmAlteraSenha.O:btnCancelar.Height">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.Cancel" resname="O:FrmAlteraSenha.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.Caption" resname="O:FrmAlteraSenha.O:btnCancelar.Caption">
+        <source>'&amp;Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.LookAndFeel.NativeStyle" resname="O:FrmAlteraSenha.O:btnCancelar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.TabOrder" resname="O:FrmAlteraSenha.O:btnCancelar.TabOrder">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmAlteraSenha.O:btnCancelar.OnClick" resname="O:FrmAlteraSenha.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428523611</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,209 @@
+object Form1: TForm1
+  Left = 73
+  Top = 116
+  Caption = 'v'
+  ClientHeight = 606
+  ClientWidth = 862
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 24
+    Top = 128
+    Width = 193
+    Height = 225
+    AutoSize = False
+    Caption = 
+      'Click "Create Tables"; this creates an in-memory table that load' +
+      's the contents of this unit into the first record. The lower gri' +
+      'd displays the tokens (words) that get stored in the index. Add ' +
+      'records and enter text in the text field, or click "Load Memo" t' +
+      'o load textfiles into the memo field. Enter a value into the edi' +
+      't above the "Set Range" button and click it to get only records ' +
+      'that contain a particular token (word).'
+    WordWrap = True
+  end
+  object DBGrid1: TDBGrid
+    Left = 248
+    Top = 16
+    Width = 601
+    Height = 201
+    DataSource = DataSource1
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'MS Sans Serif'
+    TitleFont.Style = []
+  end
+  object bnCreate: TButton
+    Left = 24
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Create Tables'
+    TabOrder = 1
+    OnClick = bnCreateClick
+  end
+  object DBMemo1: TDBMemo
+    Left = 248
+    Top = 224
+    Width = 601
+    Height = 121
+    DataField = 'Memo'
+    DataSource = DataSource1
+    ScrollBars = ssVertical
+    TabOrder = 2
+  end
+  object DBGrid2: TDBGrid
+    Left = 248
+    Top = 352
+    Width = 601
+    Height = 249
+    DataSource = DataSource2
+    Options = [dgEditing, dgTitles, dgIndicator, dgColumnResize, dgColLines, dgRowLines, dgTabs, dgConfirmDelete, dgCancelOnExit, dgMultiSelect]
+    TabOrder = 3
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'MS Sans Serif'
+    TitleFont.Style = []
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 8
+    Top = 576
+    Width = 240
+    Height = 25
+    DataSource = DataSource2
+    TabOrder = 4
+  end
+  object DBNavigator2: TDBNavigator
+    Left = 8
+    Top = 16
+    Width = 240
+    Height = 25
+    DataSource = DataSource1
+    TabOrder = 5
+  end
+  object Button1: TButton
+    Left = 40
+    Top = 504
+    Width = 75
+    Height = 25
+    Caption = 'Find key'
+    TabOrder = 6
+    OnClick = Button1Click
+  end
+  object bnLoadMemo: TButton
+    Left = 125
+    Top = 80
+    Width = 75
+    Height = 25
+    Caption = 'Load memo'
+    TabOrder = 7
+    OnClick = bnLoadMemoClick
+  end
+  object Edit2: TEdit
+    Left = 40
+    Top = 472
+    Width = 121
+    Height = 21
+    TabOrder = 8
+  end
+  object Button3: TButton
+    Left = 40
+    Top = 408
+    Width = 75
+    Height = 25
+    Caption = 'Set Range'
+    TabOrder = 9
+    OnClick = Button3Click
+  end
+  object Edit3: TEdit
+    Left = 40
+    Top = 376
+    Width = 121
+    Height = 21
+    TabOrder = 10
+  end
+  object btnClearRange: TButton
+    Left = 152
+    Top = 408
+    Width = 75
+    Height = 25
+    Caption = 'Clear Range'
+    TabOrder = 11
+    OnClick = btnClearRangeClick
+  end
+  object nxServerEngine1: TnxServerEngine
+    SqlEngine = nxSqlEngine1
+    Options = []
+    TableExtension = 'nx1'
+    Left = 120
+    Top = 40
+  end
+  object nxSqlEngine1: TnxSqlEngine
+    ActiveDesigntime = True
+    StmtLogging = False
+    StmtLogTableName = 'QueryLog'
+    UseFieldCache = False
+    Left = 192
+    Top = 40
+  end
+  object nxSession1: TnxSession
+    ServerEngine = nxServerEngine1
+    Left = 120
+    Top = 160
+  end
+  object nxDatabase1: TnxDatabase
+    Session = nxSession1
+    AliasPath = '.'
+    Left = 136
+    Top = 288
+  end
+  object nxTable1: TnxTable
+    Database = nxDatabase1
+    AfterPost = nxTable1AfterPost
+    TableName = '<Table>'
+    Left = 104
+    Top = 392
+  end
+  object DataSource1: TDataSource
+    DataSet = nxTable1
+    Left = 104
+    Top = 440
+  end
+  object nxQuery1: TnxQuery
+    Database = nxDatabase1
+    SQL.Strings = (
+      'UPDATE master SET ID=100 WHERE ID = 1')
+    Left = 192
+    Top = 288
+  end
+  object nxTable2: TnxTable
+    Database = nxDatabase1
+    AfterPost = nxTable2AfterPost
+    TableName = '<Table>'
+    Left = 184
+    Top = 392
+  end
+  object DataSource2: TDataSource
+    DataSet = nxTable2
+    Left = 184
+    Top = 440
+  end
+  object OpenDialog1: TOpenDialog
+    DefaultExt = 'xml'
+    Filter = 'Text files (*.txt)|*.TXT|All files (*.*)|*.*'
+    InitialDir = 'c:\modes'
+    Options = [ofHideReadOnly, ofPathMustExist, ofFileMustExist, ofEnableSizing]
+    Left = 144
+    Top = 128
+  end
+end

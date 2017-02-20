@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaProgressoDepend.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaProgressoDepend.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428703704</prop>
+        <prop prop-type="OrigDateTime">42236.7429398148</prop>
+        <prop prop-type="XlatDateTime">42236.7429398148</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">49</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:panProgressoDepend." resname="I:panProgressoDepend.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TpanProgressoDepend</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.Color" resname="I:panProgressoDepend.I:panPri.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:Img.Picture.Data" resname="I:panProgressoDepend.I:panPri.I:Img.Picture.Data">
+        <source>0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000018000000180806000000E0773DF8000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EC300000EC301C76FA8640000016D49444154484BD592CD2E835110869BD210C4DA4F5C8736EE80DBE20A44C2068BC68AD858B90CA9E206EC5485B5CF33CD999339A773FA15A9C4E2C9CCBCE79C7967BEB65155552D7B5707EFBB97FB9FC44AA242BDECDDB7B862CE9F184873877FB4C1CC0DA4B9C3F70C7830676BA34FBD01FA0A7A53EBE49083632ECC5B2DE85319A02DC12DFAA26AF1509046700EC926419FF889C817E026E8658330DD29795C5375791CCE930DC85BE4D7462F1ABC994B27C4D126E44503620B2EEC1979D160682E493C822679C9609578969F919737908B1987F091694AD7D184F8DBE406CF660A3BD19896D7267F228FFFC4DC60078672F9873CC296ED9918084CD081813C0813C5E9AC96D7E47DE266DE2F29142E7678F06A1ED7193C906F78BDC604850723136952431FC626575C5161B236C4CFA551A1EE11D7BDB78A2B5A68B04DA34168680DEEA92736175C3187466D311183400F6A9B0BAEE811367921DEC19A77C72329CC84BFC2F69CB141D5F802B7FAF1C75A5AB1C20000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:Img.ExplicitLeft" resname="I:panProgressoDepend.I:panPri.I:Img.ExplicitLeft">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:Img.ExplicitHeight" resname="I:panProgressoDepend.I:panPri.I:Img.ExplicitHeight">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Left" resname="I:panProgressoDepend.I:panPri.O:Img2.Left">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Top" resname="I:panProgressoDepend.I:panPri.O:Img2.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Width" resname="I:panProgressoDepend.I:panPri.O:Img2.Width">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Height" resname="I:panProgressoDepend.I:panPri.O:Img2.Height">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Align" resname="I:panProgressoDepend.I:panPri.O:Img2.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Center" resname="I:panProgressoDepend.I:panPri.O:Img2.Center">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Picture.Data" resname="I:panProgressoDepend.I:panPri.O:Img2.Picture.Data">
+        <source>0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000018000000180806000000E0773DF80000000467414D410000B18F0BFC6105000000097048597300000B1000000B1001AD23BD750000002B744558744372656174696F6E2054696D65004672203135204E6F7620323030322031323A31383A3138202B303130307C88041A0000000774494D4507D605170D3822C7BADB880000056B49444154484B8D557D4CD475183FD6319521FE536DD9D6A6D2724DD07C61D6606573B6B5A55686F487EB9FD2350A6631974393320531AB25256F22AF62F9721290A070C7CB252FC7BD70BC792070A828F22270778208DCD3E7F383B32BB57AB6CFEE77F77BBE9FCFF3F27D9E533DCE9292DAE69D3D63DD9A9F6F3AA1D1349A4B4A5A6F14165B6EE4E4559B8FFEF85BD6FEFDC73F58B56ADD537055033ECAA1FF63FAEAF22774DAA1285DE5F5BE8E6BA3726F7A5A3C36058C01B7A7DC526FEB959CFCF2BEAFE252760704043C89A314FA77ABB9EC7CFA42E9CD8AD6EB2E7180C805DC233144A6DC6EB98BE73B403F700BE80574CD3D92109FA10F09796D2528E6018FCEE60FBDEB994BE5BD573A2726E5260EDE06484652924F4284824300C97BDC221D48A9E9BE4875EFB8C41F4AB3052D5BF12AA8FC81BF8BD8EDA2BE58DAA3B73A26A50B87AFE1304506016632097832E06F8CBC1B3E2DA8571DA2A8C28F451D63B22BE640DDDCB97357839299FC6555BA815D3A9B431A9C22CDE3229D387C1D247DC03030015000AF95F25C036C88DC30225201A7DF7B440A80F48B36D9BC716B12289F07667A72FE7C5BC005DDADA1323856E2742D226A446457D15B8A0C00EC030D9C4AD9F8CE84D4485E6C1739D32E92D72C92D52AB22F2165C8CFCFFF7D50B3F11038D7F491A6C121E7BB67222943FE7AB09A106E0788484A1B1ABA230383E8007AC19255A14905A8E7A93691CC469134A348AA59E4FB82560959BDF628A897016A95E6B45993DD3413C12F703ED7311355298446D14497CB250D06C3745E5E5E5D666666756D4DCDC420C4C6214EC25410A734CC82CF40F8BB119740FE16B04075A6A0ADEB98098E7048C7E7710B52B58A1476CE446E301ADDA1A1A1B9704E03BE0C0B0BFBBAA6A6169D9A92229BC83183970039106864F4EE2EF846020B55F985B6BBC920F676FAB91EF545C99C0EA7949494D8E0781C08075E0002CBCBCB2F0CF4F74B23CAF4137CBDCFA6A31ABBE2BE73C22F0E58A43A59D0F2B000A2AA44995C10D069B557E178107811E0CD509B4CC6D2FEFE01B1A0C98F1288D9F32D0512814055CEA9BA9E64D4D2DB2919C846E368F546B33B2A2A2A19CE6C9AAFDD6EDF586F30A0CF6ED1E2BEB2C119B3BD50CA8C126DFF38BAFB81406A7271A1D21C2F01E53BB2BA89D1758D8D8BD16C76D7D5D6B6592C16B3D1649A1E763894D9E045284229CFE29AF236E5B5203008BCB961830EE433254A4CC8DC99A6ED574819C50934F9241C3568721976820B43471B753AC5313AAA3C73E97572167095AB71A52F418837AF1038566C91C0254B7240FE29B050B5357CC77369B9FAD10CD42E17EAA771330A119516E40DE06B0711878D11D338749C660E21078E43C9E1AC44C3AB30D93BBFD83BE2AB56F3C66D0216002ADFF86F520EE5E8FB4483C1612424AFC38E68032BD702171F7712F81421AE0FAE118A70AD70BD5880FC2A8BAC58BEFC34380F00C1E4A6804F50D0B267130F675A8ABAEE4B05C223B9159BAD0B876F808419700FB1349C628A71E9712132002C00318F8C494478B8D5C7C7271D9C9E55F160ABFABEBE6E53E8E123D93DFABEFB624598ED60F26C55AE68AE6A0A300B6E5566C15251BC7D7C4C3EDCBEC33E67CE9C2C70C5004BC949626FF35BF9D2DA3762638F98B52DDDCACE273CFF0B1E01F69C65424594CF0A9345DEDBB2C50AF26C70EC0142C845C27F1AD3993F7FBEFF2B5BDED996FA4352C688BEE58A12A967E1798C595C365B2476EFBEE1E0E0E05F51164EFAE7C01AE0E13F1C2FE30BAA2FF5F70FD8B666F5CB496F6F8E28FB2C26B6333EFEC8C8C1F8C491C8C8E8CEF5EB3768172F5E9CAD56AB596F363402E01AE1D9C7927B1BEBC726F1266C043E01383809B3E0339719DF0501F47DA8E6FF658C8487789717028B80C059F099BFF11D7D1E13B54AF527AD804B65E31BDDD60000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.Visible" resname="I:panProgressoDepend.I:panPri.O:Img2.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.ExplicitLeft" resname="I:panProgressoDepend.I:panPri.O:Img2.ExplicitLeft">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:Img2.ExplicitTop" resname="I:panProgressoDepend.I:panPri.O:Img2.ExplicitTop">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TImage [1]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.AlignWithMargins" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884375</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Left" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Left">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Top" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Align" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Caption" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Caption">
+        <source>'Baixando arquivos ...'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.Font.Charset" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.Font.Name" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.Font.Style" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.IsFontAssigned" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.Properties.WordWrap" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.Properties.WordWrap">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitLeft" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitLeft">
+        <source>38</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitTop" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitTop">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitWidth" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitWidth">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitHeight" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.ExplicitHeight">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.I:lbMensagem.AnchorY" resname="I:panProgressoDepend.I:panPri.I:lbMensagem.AnchorY">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.AlignWithMargins" resname="I:panProgressoDepend.I:panPri.O:PB.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Left" resname="I:panProgressoDepend.I:panPri.O:PB.Left">
+        <source>210</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Top" resname="I:panProgressoDepend.I:panPri.O:PB.Top">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Margins.Left" resname="I:panProgressoDepend.I:panPri.O:PB.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Margins.Top" resname="I:panProgressoDepend.I:panPri.O:PB.Margins.Top">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Margins.Right" resname="I:panProgressoDepend.I:panPri.O:PB.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Margins.Bottom" resname="I:panProgressoDepend.I:panPri.O:PB.Margins.Bottom">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Align" resname="I:panProgressoDepend.I:panPri.O:PB.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.ParentFont" resname="I:panProgressoDepend.I:panPri.O:PB.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.BorderStyle" resname="I:panProgressoDepend.I:panPri.O:PB.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Charset" resname="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Color" resname="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Height" resname="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Name" resname="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Style" resname="I:panProgressoDepend.I:panPri.O:PB.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Style.IsFontAssigned" resname="I:panProgressoDepend.I:panPri.O:PB.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.TabOrder" resname="I:panProgressoDepend.I:panPri.O:PB.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.ExplicitLeft" resname="I:panProgressoDepend.I:panPri.O:PB.ExplicitLeft">
+        <source>175</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.ExplicitWidth" resname="I:panProgressoDepend.I:panPri.O:PB.ExplicitWidth">
+        <source>457</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panProgressoDepend.I:panPri.O:PB.Width" resname="I:panProgressoDepend.I:panPri.O:PB.Width">
+        <source>422</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428884491</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxProgressBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

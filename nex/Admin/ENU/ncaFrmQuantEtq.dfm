@@ -1,0 +1,152 @@
+object FrmQuantEtq: TFrmQuantEtq
+  Left = 0
+  Top = 0
+  ActiveControl = edQtd
+  BorderStyle = bsDialog
+  Caption = 'Quantidade'
+  ClientHeight = 211
+  ClientWidth = 407
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  KeyPreview = True
+  OldCreateOrder = False
+  Position = poScreenCenter
+  OnClose = FormClose
+  OnKeyDown = FormKeyDown
+  PixelsPerInch = 96
+  TextHeight = 21
+  object lbProduto: TcxLabel
+    AlignWithMargins = True
+    Left = 15
+    Top = 10
+    Margins.Left = 15
+    Margins.Top = 10
+    Margins.Right = 15
+    Margins.Bottom = 0
+    Align = alTop
+    Caption = 'lbProduto'
+    Style.TextColor = clBlack
+    Style.TextStyle = [fsBold]
+    Properties.Alignment.Vert = taVCenter
+    Properties.WordWrap = True
+    Width = 377
+    AnchorY = 23
+  end
+  object LMDSimplePanel1: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 15
+    Top = 50
+    Width = 377
+    Height = 36
+    Margins.Left = 15
+    Margins.Top = 15
+    Margins.Right = 15
+    Margins.Bottom = 0
+    Align = alTop
+    Bevel.Mode = bmCustom
+    TabOrder = 1
+    object lbQuant: TcxLabel
+      Left = 0
+      Top = 0
+      Align = alLeft
+      Caption = 'Gerar'
+      ParentFont = False
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Segoe UI'
+      Style.Font.Style = []
+      Style.IsFontAssigned = True
+      Properties.Alignment.Vert = taVCenter
+      ExplicitHeight = 377
+      AnchorY = 18
+    end
+    object edQtd: TcxSpinEdit
+      AlignWithMargins = True
+      Left = 47
+      Top = 3
+      Margins.Left = 10
+      Align = alLeft
+      ParentFont = False
+      Properties.ClearKey = 46
+      Properties.ImmediatePost = True
+      Properties.MaxValue = 9999
+      Properties.MinValue = 1
+      Style.BorderStyle = ebsFlat
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -16
+      Style.Font.Name = 'Segoe UI'
+      Style.Font.Style = []
+      Style.StyleController = FrmPri.escFlat
+      Style.TextStyle = [fsBold]
+      Style.IsFontAssigned = True
+      TabOrder = 1
+      Value = 1
+      OnEnter = edQtdEnter
+      ExplicitLeft = 115
+      ExplicitTop = 27
+      ExplicitHeight = 29
+      Width = 84
+    end
+    object cxLabel1: TcxLabel
+      Left = 134
+      Top = 0
+      Align = alLeft
+      Caption = 'etiquetas'
+      ParentFont = False
+      Style.Font.Charset = ANSI_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Segoe UI'
+      Style.Font.Style = []
+      Style.IsFontAssigned = True
+      Properties.Alignment.Vert = taVCenter
+      ExplicitHeight = 71
+      AnchorY = 18
+    end
+  end
+  object btnCancelar: TcxButton
+    Left = 105
+    Top = 160
+    Width = 89
+    Height = 31
+    Cursor = crHandPoint
+    Cancel = True
+    Caption = '&Cancelar'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = [fsUnderline]
+    ModalResult = 2
+    ParentFont = False
+    TabOrder = 2
+    LookAndFeel.Kind = lfFlat
+    SpeedButtonOptions.CanBeFocused = False
+    SpeedButtonOptions.AllowAllUp = True
+    SpeedButtonOptions.Flat = True
+    SpeedButtonOptions.Transparent = True
+  end
+  object btnOk: TcxButton
+    Left = 16
+    Top = 161
+    Width = 73
+    Height = 29
+    Caption = '&Ok'
+    Default = True
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnOkClick
+    LookAndFeel.Kind = lfFlat
+  end
+end

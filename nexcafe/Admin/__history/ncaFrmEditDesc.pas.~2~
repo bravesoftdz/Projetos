@@ -1,0 +1,64 @@
+unit ncaFrmEditDesc;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxLookAndFeels, cxLookAndFeelPainters, Menus, cxControls,
+  cxContainer, cxEdit, cxTextEdit, cxMemo, StdCtrls, cxButtons, LMDControl,
+  LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel,
+  cxCurrencyEdit, cxLabel;
+
+type
+  TFrmEditDesc = class(TForm)
+    LMDSimplePanel2: TLMDSimplePanel;
+    btnSalvar: TcxButton;
+    btnCancelar: TcxButton;
+    cxLabel1: TcxLabel;
+    cxCurrencyEdit1: TcxCurrencyEdit;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+  private
+    { Private declarations }
+  public
+    function Editar(aValor: Currency): Currency;
+    { Public declarations }
+  end;
+
+var
+  FrmEditDesc: TFrmEditDesc;
+
+implementation
+
+uses ncaFrmPri;
+
+{$R *.dfm}
+
+{ TForm1 }
+
+function TFrmEditDesc.Editar(aObs: String): String;
+begin
+  edObs.Lines.Text := aObs;
+  ShowModal;
+  if ModalResult=mrOk then begin
+    if Trim(edObs.Lines.Text)='' then 
+      Result := '' else
+      Result := edObs.Lines.Text;
+  end else
+    Result := aObs;
+end;
+
+procedure TFrmEditDesc.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+end;
+
+procedure TFrmEditDesc.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  case Key  of
+    Key_F2    : if btnSalvar.Enabled then btnSalvar.Click;
+  end;
+end;
+
+end.

@@ -1,0 +1,42 @@
+unit ncaFrmLimiteDebPadrao;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxLookAndFeels, cxLookAndFeelPainters, Menus, cxControls,
+  cxContainer, cxEdit, cxLabel, LMDPNGImage, ExtCtrls, StdCtrls, cxButtons,
+  LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
+  LMDSimplePanel, cxTextEdit, cxCurrencyEdit;
+
+type
+  TFrmLimiteDeb = class(TForm)
+    LMDSimplePanel1: TLMDSimplePanel;
+    btnOk: TcxButton;
+    cxButton2: TcxButton;
+    Image1: TImage;
+    cxLabel1: TcxLabel;
+    edLimite: TcxCurrencyEdit;
+    cxLabel2: TcxLabel;
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  FrmLimiteDeb: TFrmLimiteDeb;
+
+implementation
+
+uses ncClassesBase, ncaDM;
+
+{$R *.dfm}
+
+procedure TFrmLimiteDeb.FormCreate(Sender: TObject);
+begin
+  edLimite.Value := gConfig.LimitePadraoDebito;
+end;
+
+end.

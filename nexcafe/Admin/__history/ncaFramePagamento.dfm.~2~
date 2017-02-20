@@ -1,0 +1,32 @@
+object Frame1: TFrame1
+  Left = 0
+  Top = 0
+  Width = 384
+  Height = 386
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  ParentFont = False
+  TabOrder = 0
+  object panValores: TLMDSimplePanel
+    Left = 0
+    Top = 0
+    Width = 384
+    Height = 386
+    Align = alClient
+    Bevel.Mode = bmCustom
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    ExplicitLeft = 35
+    ExplicitTop = 3
+    ExplicitWidth = 310
+    ExplicitHeight = 380
+  end
+end

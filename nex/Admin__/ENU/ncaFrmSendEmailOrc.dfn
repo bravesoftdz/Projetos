@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmSendEmailOrc.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmSendEmailOrc.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428472222</prop>
+        <prop prop-type="OrigDateTime">41973.7957638889</prop>
+        <prop prop-type="XlatDateTime">41973.7957638889</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">52</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmSendEmail.Left" resname="O:FrmSendEmail.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Top" resname="O:FrmSendEmail.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.BorderStyle" resname="O:FrmSendEmail.BorderStyle">
+        <source>bsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Caption" resname="O:FrmSendEmail.Caption">
+        <source>'Enviando e-mail ...'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.ClientHeight" resname="O:FrmSendEmail.ClientHeight">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.ClientWidth" resname="O:FrmSendEmail.ClientWidth">
+        <source>334</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Color" resname="O:FrmSendEmail.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Font.Charset" resname="O:FrmSendEmail.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Font.Color" resname="O:FrmSendEmail.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521296</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Font.Height" resname="O:FrmSendEmail.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Font.Name" resname="O:FrmSendEmail.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Font.Style" resname="O:FrmSendEmail.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.FormStyle" resname="O:FrmSendEmail.FormStyle">
+        <source>fsStayOnTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.OldCreateOrder" resname="O:FrmSendEmail.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.Position" resname="O:FrmSendEmail.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.OnClose" resname="O:FrmSendEmail.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.OnShow" resname="O:FrmSendEmail.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.PixelsPerInch" resname="O:FrmSendEmail.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.TextHeight" resname="O:FrmSendEmail.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmSendEmail</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Left" resname="O:FrmSendEmail.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Top" resname="O:FrmSendEmail.O:LMDSimplePanel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Width" resname="O:FrmSendEmail.O:LMDSimplePanel1.Width">
+        <source>334</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Height" resname="O:FrmSendEmail.O:LMDSimplePanel1.Height">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Hint" resname="O:FrmSendEmail.O:LMDSimplePanel1.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Align" resname="O:FrmSendEmail.O:LMDSimplePanel1.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.BorderColor" resname="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.BorderColor">
+        <source>clBtnText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.BorderInnerWidth" resname="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.BorderInnerWidth">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.StandardStyle" resname="O:FrmSendEmail.O:LMDSimplePanel1.Bevel.StandardStyle">
+        <source>lsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.TabOrder" resname="O:FrmSendEmail.O:LMDSimplePanel1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Left" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Top" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Width" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Width">
+        <source>64</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Height" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Height">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.AutoSize" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Center" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Center">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Picture.Data" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:Image1.Picture.Data">
+        <source>0B546478504E47496D61676589504E470D0A1A0A0000000D49484452000000400000001C0806000000D125B952000000017352474200AECE1CE90000000467414D410000B18F0BFC61050000016469545874584D4C3A636F6D2E61646F62652E786D7000000000003C783A786D706D65746120786D6C6E733A783D2261646F62653A6E733A6D6574612F2220783A786D70746B3D22584D5020436F726520342E342E30223E0A2020203C7264663A52444620786D6C6E733A7264663D22687474703A2F2F7777772E77332E6F72672F313939392F30322F32322D7264662D73796E7461782D6E7323223E0A2020202020203C7264663A4465736372697074696F6E207264663A61626F75743D22220A202020202020202020202020786D6C6E733A786D703D22687474703A2F2F6E732E61646F62652E636F6D2F7861702F312E302F223E0A2020202020202020203C786D703A43726561746F72546F6F6C3E41646F626520496D61676552656164793C2F786D703A43726561746F72546F6F6C3E0A2020202020203C2F7264663A4465736372697074696F6E3E0A2020203C2F7264663A5244463E0A3C2F783A786D706D6574613E0A1BE57A0E00000466494441545847CDD95BA8545518C0F1495353CFC90B1A78AD8EA11094A8E1E525C21B681005450F5A42600A4A060AE54B4925885D0C2BC4327A10B134888AA8C81044C1D030D36E4A1752B3AB956637CDD3FF7FDCFBB8CE62EF71C6B3679C0F7E3067EF35336BBEBDF75ADF5AA7D4DADA5A1744574CC16AECC127D87F11F8BD1B311B4D999DAD0562103EC37F388A43385C677EA7FEC1EF989276EE523417AC6794801BE00BBF7C3DEEC3C23A5B8027F113ECCB8328F584B7E6BD985FA06919093893D889E9B83C6C534B44775C8797E145684FC0047C0B3BE6C1A26C8A3A9026E05FFC056FC9B91818B6AB05A2374CB8893F8D3FE189B604DC0D3B9576BC28AF469D481F816FF01A7EC3092CC3F0B06D9188FEB80B5FC22BBF1D3BE0C9B6045C8377F071C156451D4913B01B43F02CBE8757642D46A24BF89ECE2206E301FC82E3780BD7C371E06C02928676682226156864D49934011F257FF7C2527C0D0FBC89F1E81EBEEF42109760049E8657DD41EF45B4DD69C433F0C5D904D403D19E00744D8ED9D139707EF64ED88599688ADF5F29C2196D345E81071CDF1E419FA04D63242038E7E8FC1C8EE1473C8551619B4A1003703F3E85E3DA1B98860E8F16D1580948CE0FC34370903C890D9818B7CB43B460398EC022671DC6E5B4AD3C0184B7A983C95555EA30BD11651390B4E98B79491B1F89B7310399ED53C418F883FDE14EAF8FA125ABAD0807605F5494003BE028FD529516469F73DE0488E8815BF13ED2A2C969AC77465B2FCE64BC0E073B4B6D2BBE0171DB1051590208ABA7B4231EA8C6E6E8B32A4A80087FD8A348BFF70B2CC615419BCB7007B6C103729AEB177E5616E2A226602FCADD01AE1A6F81C5CADFB04671F164CDB0124E6FFD605DBF0F5695EFC2365F6111DA47FC2C44D58FC0F3C8BACDCBC97B0472134074C3EDF81096ABCEDDD6144BF039AC1C3DE6DDE1F4E6FCEE80661B0B9EEFE020E8EBFE59DF21A2AA04143D08662680F0D99F05ABC83FB0062392734DF09C65ACD39B8938004BD9A1499B3EF03131313FE061B43F3221A2F2041485C84D00E18AF41E388839925BC15D19B5E982A9706EF7F1B0806A8EDAB80C7799EDA3F0339C1607856D92768D9300C2959ACBE783F8158FA3EDAA6621C6C2E226EF31B2C4F6F3BC43FCBC27302C6AD318092006E205B832F4D6BD13175C06A708CB6197F9CE104E8F5B3136385F5C0288A1081741A9BCC5D0DEE46FB7C8DC197295E62D7B1B7A85EFE90CC2D9C4BB650B1C371C3F2625E78A4900712DDE43BC1456DE72D811FE6AB85871B07374BF191DB6D08A40386EB8FCB53E38850FE0AA77150A498065AB1FEC1FB1721B220E64D6FB26CA9D9A1E61DB2211CE625E283761DC903509E73644B2DE5429E24638EF66154AE5B6C42C70BC136E42A7D7FFE7439804375CDC0F748D61F23DD1E90438E27A05B33654CB6D8A3A288D43B7B04DAD115691AE6BCE6D8A6635AC0691B7A55E6E5BDC4AD15236DEB6AE871548B7C59776F831B54438EA3BE0790734C23F46AC26A76776B61608EF1497AED6EEAE08E37F59D58BFF1A732C985D2A959AFF0720F93729E317CFDE0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Left" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Left">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Top" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Caption" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Caption">
+        <source>'Enviando E-mail. Aguarde...'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.ParentFont" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Charset" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Color" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Height" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Name" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Style" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmSendEmail.O:LMDSimplePanel1.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:Timer1.Enabled" resname="O:FrmSendEmail.O:Timer1.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:Timer1.Interval" resname="O:FrmSendEmail.O:Timer1.Interval">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:Timer1.OnTimer" resname="O:FrmSendEmail.O:Timer1.OnTimer">
+        <source>Timer1Timer</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:Timer1.Left" resname="O:FrmSendEmail.O:Timer1.Left">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSendEmail.O:Timer1.Top" resname="O:FrmSendEmail.O:Timer1.Top">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428521412</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmImpPrePago.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmImpPrePago.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7424537037</prop>
+        <prop prop-type="OrigDateTime">41344.5126388889</prop>
+        <prop prop-type="XlatDateTime">41344.5126388889</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">359</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmImpPrePago.Left" resname="O:FrmImpPrePago.Left">
+        <source>218</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Top" resname="O:FrmImpPrePago.Top">
+        <source>216</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.BorderStyle" resname="O:FrmImpPrePago.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Caption" resname="O:FrmImpPrePago.Caption">
+        <source>'Imprimir Cartões de Tempo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.ClientHeight" resname="O:FrmImpPrePago.ClientHeight">
+        <source>243</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.ClientWidth" resname="O:FrmImpPrePago.ClientWidth">
+        <source>385</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Color" resname="O:FrmImpPrePago.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Font.Charset" resname="O:FrmImpPrePago.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Font.Color" resname="O:FrmImpPrePago.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Font.Height" resname="O:FrmImpPrePago.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Font.Name" resname="O:FrmImpPrePago.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Font.Style" resname="O:FrmImpPrePago.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.OldCreateOrder" resname="O:FrmImpPrePago.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.Position" resname="O:FrmImpPrePago.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.OnClose" resname="O:FrmImpPrePago.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.OnCreate" resname="O:FrmImpPrePago.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.PixelsPerInch" resname="O:FrmImpPrePago.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.TextHeight" resname="O:FrmImpPrePago.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmImpPrePago</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label1.Left" resname="O:FrmImpPrePago.O:Label1.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label1.Top" resname="O:FrmImpPrePago.O:Label1.Top">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label1.Width" resname="O:FrmImpPrePago.O:Label1.Width">
+        <source>95</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label1.Height" resname="O:FrmImpPrePago.O:Label1.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label1.Caption" resname="O:FrmImpPrePago.O:Label1.Caption">
+        <source>'Crédito Promocional'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label2.Left" resname="O:FrmImpPrePago.O:Label2.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label2.Top" resname="O:FrmImpPrePago.O:Label2.Top">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label2.Width" resname="O:FrmImpPrePago.O:Label2.Width">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label2.Height" resname="O:FrmImpPrePago.O:Label2.Height">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Label2.Caption" resname="O:FrmImpPrePago.O:Label2.Caption">
+        <source>'Quantidade'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Left" resname="O:FrmImpPrePago.O:edTipo.Left">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Top" resname="O:FrmImpPrePago.O:edTipo.Top">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.DropDownAutoSize" resname="O:FrmImpPrePago.O:edTipo.Properties.DropDownAutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.DropDownListStyle" resname="O:FrmImpPrePago.O:edTipo.Properties.DropDownListStyle">
+        <source>lsEditList</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.DropDownSizeable" resname="O:FrmImpPrePago.O:edTipo.Properties.DropDownSizeable">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.GridMode" resname="O:FrmImpPrePago.O:edTipo.Properties.GridMode">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.HideSelection" resname="O:FrmImpPrePago.O:edTipo.Properties.HideSelection">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ImmediatePost" resname="O:FrmImpPrePago.O:edTipo.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.IncrementalFiltering" resname="O:FrmImpPrePago.O:edTipo.Properties.IncrementalFiltering">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.KeyFieldNames" resname="O:FrmImpPrePago.O:edTipo.Properties.KeyFieldNames">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[0].FieldName" resname="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[0].FieldName">
+        <source>'Nome'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">C:TcxLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[1].HeaderAlignment" resname="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[1].HeaderAlignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">C:TcxLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[1].FieldName" resname="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[1].FieldName">
+        <source>'Minutos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">C:TcxLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[2].HeaderAlignment" resname="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[2].HeaderAlignment">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">C:TcxLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[2].FieldName" resname="O:FrmImpPrePago.O:edTipo.Properties.ListColumns[2].FieldName">
+        <source>'Valor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">C:TcxLookupComboBox</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListOptions.CaseInsensitive" resname="O:FrmImpPrePago.O:edTipo.Properties.ListOptions.CaseInsensitive">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.ListSource" resname="O:FrmImpPrePago.O:edTipo.Properties.ListSource">
+        <source>Dados.dsTipoPass</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Properties.Revertable" resname="O:FrmImpPrePago.O:edTipo.Properties.Revertable">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.EditValue" resname="O:FrmImpPrePago.O:edTipo.EditValue">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Style.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edTipo.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Style.PopupBorderStyle" resname="O:FrmImpPrePago.O:edTipo.Style.PopupBorderStyle">
+        <source>epbsDefault</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edTipo.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edTipo.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edTipo.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.TabOrder" resname="O:FrmImpPrePago.O:edTipo.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edTipo.Width" resname="O:FrmImpPrePago.O:edTipo.Width">
+        <source>249</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLookupComboBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Left" resname="O:FrmImpPrePago.O:edQuant.Left">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Top" resname="O:FrmImpPrePago.O:edQuant.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.ParentFont" resname="O:FrmImpPrePago.O:edQuant.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.Font.Charset" resname="O:FrmImpPrePago.O:edQuant.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.Font.Color" resname="O:FrmImpPrePago.O:edQuant.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.Font.Height" resname="O:FrmImpPrePago.O:edQuant.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.Font.Name" resname="O:FrmImpPrePago.O:edQuant.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.Font.Style" resname="O:FrmImpPrePago.O:edQuant.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edQuant.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Style.IsFontAssigned" resname="O:FrmImpPrePago.O:edQuant.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edQuant.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edQuant.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:edQuant.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.TabOrder" resname="O:FrmImpPrePago.O:edQuant.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Value" resname="O:FrmImpPrePago.O:edQuant.Value">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:edQuant.Width" resname="O:FrmImpPrePago.O:edQuant.Width">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.Left" resname="O:FrmImpPrePago.O:btnImprimir.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.Top" resname="O:FrmImpPrePago.O:btnImprimir.Top">
+        <source>143</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.Width" resname="O:FrmImpPrePago.O:btnImprimir.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.Height" resname="O:FrmImpPrePago.O:btnImprimir.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.Caption" resname="O:FrmImpPrePago.O:btnImprimir.Caption">
+        <source>'&amp;Imprimir'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.Default" resname="O:FrmImpPrePago.O:btnImprimir.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.TabOrder" resname="O:FrmImpPrePago.O:btnImprimir.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.OnClick" resname="O:FrmImpPrePago.O:btnImprimir.OnClick">
+        <source>btnImprimirClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnImprimir.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:btnImprimir.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.Left" resname="O:FrmImpPrePago.O:btnFechar.Left">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.Top" resname="O:FrmImpPrePago.O:btnFechar.Top">
+        <source>143</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.Width" resname="O:FrmImpPrePago.O:btnFechar.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.Height" resname="O:FrmImpPrePago.O:btnFechar.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.Caption" resname="O:FrmImpPrePago.O:btnFechar.Caption">
+        <source>'&amp;Fechar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.TabOrder" resname="O:FrmImpPrePago.O:btnFechar.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.OnClick" resname="O:FrmImpPrePago.O:btnFechar.OnClick">
+        <source>btnFecharClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnFechar.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:btnFechar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704861</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.Left" resname="O:FrmImpPrePago.O:btnEditar.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.Top" resname="O:FrmImpPrePago.O:btnEditar.Top">
+        <source>143</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.Width" resname="O:FrmImpPrePago.O:btnEditar.Width">
+        <source>161</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.Height" resname="O:FrmImpPrePago.O:btnEditar.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.Caption" resname="O:FrmImpPrePago.O:btnEditar.Caption">
+        <source>'Editar Formato de Impressão'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.TabOrder" resname="O:FrmImpPrePago.O:btnEditar.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.OnClick" resname="O:FrmImpPrePago.O:btnEditar.OnClick">
+        <source>btnEditarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnEditar.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:btnEditar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.Left" resname="O:FrmImpPrePago.O:rbInvalido.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.Top" resname="O:FrmImpPrePago.O:rbInvalido.Top">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.Width" resname="O:FrmImpPrePago.O:rbInvalido.Width">
+        <source>345</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.Height" resname="O:FrmImpPrePago.O:rbInvalido.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.Caption" resname="O:FrmImpPrePago.O:rbInvalido.Caption">
+        <source>'Gerar cartões que precisam ser vendidos antes de usar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.Checked" resname="O:FrmImpPrePago.O:rbInvalido.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.TabOrder" resname="O:FrmImpPrePago.O:rbInvalido.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.TabStop" resname="O:FrmImpPrePago.O:rbInvalido.TabStop">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbInvalido.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:rbInvalido.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.Left" resname="O:FrmImpPrePago.O:rbValido.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.Top" resname="O:FrmImpPrePago.O:rbValido.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.Width" resname="O:FrmImpPrePago.O:rbValido.Width">
+        <source>353</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.Height" resname="O:FrmImpPrePago.O:rbValido.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.Caption" resname="O:FrmImpPrePago.O:rbValido.Caption">
+        <source>'Gerar cartões prontos para usar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.TabOrder" resname="O:FrmImpPrePago.O:rbValido.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:rbValido.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:rbValido.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.Left" resname="O:FrmImpPrePago.O:btnGerar.Left">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.Top" resname="O:FrmImpPrePago.O:btnGerar.Top">
+        <source>184</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.Width" resname="O:FrmImpPrePago.O:btnGerar.Width">
+        <source>353</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.Height" resname="O:FrmImpPrePago.O:btnGerar.Height">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.Caption" resname="O:FrmImpPrePago.O:btnGerar.Caption">
+        <source>'&amp;Gerar códigos dos cartões em um arquivo externo'#13#10'(para impressão por gráficas ou outros métodos)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.Default" resname="O:FrmImpPrePago.O:btnGerar.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.TabOrder" resname="O:FrmImpPrePago.O:btnGerar.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.OnClick" resname="O:FrmImpPrePago.O:btnGerar.OnClick">
+        <source>btnGerarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:btnGerar.LookAndFeel.NativeStyle" resname="O:FrmImpPrePago.O:btnGerar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.Database" resname="O:FrmImpPrePago.O:tPass.Database">
+        <source>Dados.db</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.OnCalcFields" resname="O:FrmImpPrePago.O:tPass.OnCalcFields">
+        <source>tPassCalcFields</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.TableName" resname="O:FrmImpPrePago.O:tPass.TableName">
+        <source>'Passaporte'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.IndexName" resname="O:FrmImpPrePago.O:tPass.IndexName">
+        <source>'IID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.Left" resname="O:FrmImpPrePago.O:tPass.Left">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.Top" resname="O:FrmImpPrePago.O:tPass.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TnxTable</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassID.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassID.FieldName">
+        <source>'ID'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TAutoIncField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassID.Visible" resname="O:FrmImpPrePago.O:tPass.O:tPassID.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TAutoIncField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassTipoPass.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassTipoPass.FieldName">
+        <source>'TipoPass'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassCliente.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassCliente.FieldName">
+        <source>'Cliente'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassExpirou.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassExpirou.FieldName">
+        <source>'Expirou'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassSenha.DisplayLabel" resname="O:FrmImpPrePago.O:tPass.O:tPassSenha.DisplayLabel">
+        <source>'Password'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassSenha.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassSenha.FieldName">
+        <source>'Senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TStringField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassPrimeiroUso.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassPrimeiroUso.FieldName">
+        <source>'PrimeiroUso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TDateTimeField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassTipoAcesso.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassTipoAcesso.FieldName">
+        <source>'TipoAcesso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassTipoExp.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassTipoExp.FieldName">
+        <source>'TipoExp'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TWordField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassExpirarEm.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassExpirarEm.FieldName">
+        <source>'ExpirarEm'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TDateTimeField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassMaxSegundos.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassMaxSegundos.FieldName">
+        <source>'MaxSegundos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassSegundos.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassSegundos.FieldName">
+        <source>'Segundos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassAcessos.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassAcessos.FieldName">
+        <source>'Acessos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia1.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia1.FieldName">
+        <source>'Dia1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia2.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia2.FieldName">
+        <source>'Dia2'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia3.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia3.FieldName">
+        <source>'Dia3'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia4.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia4.FieldName">
+        <source>'Dia4'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia5.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia5.FieldName">
+        <source>'Dia5'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia6.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia6.FieldName">
+        <source>'Dia6'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDia7.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDia7.FieldName">
+        <source>'Dia7'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassDataCompra.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassDataCompra.FieldName">
+        <source>'DataCompra'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TDateTimeField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassMinutos.FieldKind" resname="O:FrmImpPrePago.O:tPass.O:tPassMinutos.FieldKind">
+        <source>fkCalculated</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassMinutos.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassMinutos.FieldName">
+        <source>'Minutos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassMinutos.Calculated" resname="O:FrmImpPrePago.O:tPass.O:tPassMinutos.Calculated">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassValido.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassValido.FieldName">
+        <source>'Valido'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TBooleanField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassValor.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassValor.FieldName">
+        <source>'Valor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassValor.DisplayFormat" resname="O:FrmImpPrePago.O:tPass.O:tPassValor.DisplayFormat">
+        <source>'#.00'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TCurrencyField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassTran.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassTran.FieldName">
+        <source>'Tran'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:tPass.O:tPassSessao.FieldName" resname="O:FrmImpPrePago.O:tPass.O:tPassSessao.FieldName">
+        <source>'Sessao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TIntegerField</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.UserName" resname="O:FrmImpPrePago.O:dbPassaporte.UserName">
+        <source>'dbPassaporte'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.CloseDataSource" resname="O:FrmImpPrePago.O:dbPassaporte.CloseDataSource">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[0]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[0]">
+        <source>'Numero=Numero'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[1]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[1]">
+        <source>'TipoPass=TipoPass'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[2]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[2]">
+        <source>'Cliente=Cliente'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424704977</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[3]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[3]">
+        <source>'Expirou=Expirou'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[4]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[4]">
+        <source>'Senha=Senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[5]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[5]">
+        <source>'PrimeiroUso=PrimeiroUso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[6]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[6]">
+        <source>'TipoAcesso=TipoAcesso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[7]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[7]">
+        <source>'TipoExp=TipoExp'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[8]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[8]">
+        <source>'ExpirarEm=ExpirarEm'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[9]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[9]">
+        <source>'MaxSegundos=MaxSegundos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[10]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[10]">
+        <source>'Segundos=Segundos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[11]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[11]">
+        <source>'Acessos=Acessos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[12]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[12]">
+        <source>'Dia1=Dia1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[13]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[13]">
+        <source>'Dia2=Dia2'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[14]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[14]">
+        <source>'Dia3=Dia3'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[15]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[15]">
+        <source>'Dia4=Dia4'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[16]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[16]">
+        <source>'Dia5=Dia5'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[17]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[17]">
+        <source>'Dia6=Dia6'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[18]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[18]">
+        <source>'Dia7=Dia7'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[19]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[19]">
+        <source>'Transacao=Transacao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[20]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[20]">
+        <source>'DataCompra=DataCompra'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[21]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[21]">
+        <source>'Minutos=Minutos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[22]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[22]">
+        <source>'Valido=Valido'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[23]" resname="O:FrmImpPrePago.O:dbPassaporte.FieldAliases.Strings[23]">
+        <source>'Valor=Valor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.DataSet" resname="O:FrmImpPrePago.O:dbPassaporte.DataSet">
+        <source>tPass</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.Left" resname="O:FrmImpPrePago.O:dbPassaporte.Left">
+        <source>288</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:dbPassaporte.Top" resname="O:FrmImpPrePago.O:dbPassaporte.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TfrxDBDataset</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRichObject1.Left" resname="O:FrmImpPrePago.O:frxRichObject1.Left">
+        <source>352</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TfrxRichObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRichObject1.Top" resname="O:FrmImpPrePago.O:frxRichObject1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TfrxRichObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxBarCodeObject1.Left" resname="O:FrmImpPrePago.O:frxBarCodeObject1.Left">
+        <source>320</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TfrxBarCodeObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxBarCodeObject1.Top" resname="O:FrmImpPrePago.O:frxBarCodeObject1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TfrxBarCodeObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxCheckBoxObject1.Left" resname="O:FrmImpPrePago.O:frxCheckBoxObject1.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TfrxCheckBoxObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxCheckBoxObject1.Top" resname="O:FrmImpPrePago.O:frxCheckBoxObject1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TfrxCheckBoxObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxCrossObject1.Left" resname="O:FrmImpPrePago.O:frxCrossObject1.Left">
+        <source>224</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TfrxCrossObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxCrossObject1.Top" resname="O:FrmImpPrePago.O:frxCrossObject1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TfrxCrossObject</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxDialogControls1.Left" resname="O:FrmImpPrePago.O:frxDialogControls1.Left">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TfrxDialogControls</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxDialogControls1.Top" resname="O:FrmImpPrePago.O:frxDialogControls1.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TfrxDialogControls</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultScriptLanguage" resname="O:FrmImpPrePago.O:Designer.DefaultScriptLanguage">
+        <source>'PascalScript'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultFont.Charset" resname="O:FrmImpPrePago.O:Designer.DefaultFont.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultFont.Color" resname="O:FrmImpPrePago.O:Designer.DefaultFont.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultFont.Height" resname="O:FrmImpPrePago.O:Designer.DefaultFont.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultFont.Name" resname="O:FrmImpPrePago.O:Designer.DefaultFont.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultFont.Style" resname="O:FrmImpPrePago.O:Designer.DefaultFont.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultLeftMargin" resname="O:FrmImpPrePago.O:Designer.DefaultLeftMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultRightMargin" resname="O:FrmImpPrePago.O:Designer.DefaultRightMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultTopMargin" resname="O:FrmImpPrePago.O:Designer.DefaultTopMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultBottomMargin" resname="O:FrmImpPrePago.O:Designer.DefaultBottomMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultPaperSize" resname="O:FrmImpPrePago.O:Designer.DefaultPaperSize">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.DefaultOrientation" resname="O:FrmImpPrePago.O:Designer.DefaultOrientation">
+        <source>poPortrait</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.Restrictions" resname="O:FrmImpPrePago.O:Designer.Restrictions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.RTLLanguage" resname="O:FrmImpPrePago.O:Designer.RTLLanguage">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.Left" resname="O:FrmImpPrePago.O:Designer.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:Designer.Top" resname="O:FrmImpPrePago.O:Designer.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TfrxDesigner</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Version" resname="O:FrmImpPrePago.O:RP.Version">
+        <source>'3.18'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.DotMatrixReport" resname="O:FrmImpPrePago.O:RP.DotMatrixReport">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.IniFile" resname="O:FrmImpPrePago.O:RP.IniFile">
+        <source>'\Software\Fast Reports'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.PreviewOptions.Buttons" resname="O:FrmImpPrePago.O:RP.PreviewOptions.Buttons">
+        <source>[pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.PreviewOptions.Zoom" resname="O:FrmImpPrePago.O:RP.PreviewOptions.Zoom">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.PrintOptions.Printer" resname="O:FrmImpPrePago.O:RP.PrintOptions.Printer">
+        <source>'Default'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.ReportOptions.CreateDate" resname="O:FrmImpPrePago.O:RP.ReportOptions.CreateDate">
+        <source>38205.6101603356</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.ReportOptions.LastChange" resname="O:FrmImpPrePago.O:RP.ReportOptions.LastChange">
+        <source>39210.7531558333</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.ScriptLanguage" resname="O:FrmImpPrePago.O:RP.ScriptLanguage">
+        <source>'PascalScript'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.ScriptText.Strings[0]" resname="O:FrmImpPrePago.O:RP.ScriptText.Strings[0]">
+        <source>'begin'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.ScriptText.Strings[1]" resname="O:FrmImpPrePago.O:RP.ScriptText.Strings[1]">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.ScriptText.Strings[2]" resname="O:FrmImpPrePago.O:RP.ScriptText.Strings[2]">
+        <source>'end.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Left" resname="O:FrmImpPrePago.O:RP.Left">
+        <source>224</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Top" resname="O:FrmImpPrePago.O:RP.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Datasets[0].DataSet" resname="O:FrmImpPrePago.O:RP.Datasets[0].DataSet">
+        <source>dbPassaporte</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">C:TfrxReport</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Datasets[0].DataSetName" resname="O:FrmImpPrePago.O:RP.Datasets[0].DataSetName">
+        <source>'dbPassaporte'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">C:TfrxReport</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Variables" resname="O:FrmImpPrePago.O:RP.Variables">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.Style" resname="O:FrmImpPrePago.O:RP.Style">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TfrxReport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.PaperWidth" resname="O:FrmImpPrePago.O:RP.O:Page1.PaperWidth">
+        <source>210</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.PaperHeight" resname="O:FrmImpPrePago.O:RP.O:Page1.PaperHeight">
+        <source>297</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.PaperSize" resname="O:FrmImpPrePago.O:RP.O:Page1.PaperSize">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.LeftMargin" resname="O:FrmImpPrePago.O:RP.O:Page1.LeftMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.RightMargin" resname="O:FrmImpPrePago.O:RP.O:Page1.RightMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.TopMargin" resname="O:FrmImpPrePago.O:RP.O:Page1.TopMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705093</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.BottomMargin" resname="O:FrmImpPrePago.O:RP.O:Page1.BottomMargin">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TfrxReportPage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Height">
+        <source>209.385826771654</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Top">
+        <source>18.89765</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Width">
+        <source>718.1107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Columns" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.Columns">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.ColumnWidth" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.ColumnWidth">
+        <source>359.055118110236</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.DataSet" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.DataSet">
+        <source>dbPassaporte</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.DataSetName" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.DataSetName">
+        <source>'dbPassaporte'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.RowCount" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.RowCount">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TfrxMasterData</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Shape1.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Shape1.Width">
+        <source>359.05535</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TfrxShapeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Shape1.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Shape1.Height">
+        <source>209.00787402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TfrxShapeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Shape1.Frame.Typ" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Shape1.Frame.Typ">
+        <source>[ftLeft, ftRight, ftTop, ftBottom]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TfrxShapeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Left">
+        <source>11.33859</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Top">
+        <source>9.98423</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Width">
+        <source>183.71645</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Height">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.StretchMode" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.StretchMode">
+        <source>smMaxHeight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Charset" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Color" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Color">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Name" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Style" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Memo.UTF8[0]" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.Memo.UTF8[0]">
+        <source>'CARTÃƒO DE ACESSO PRÃ‰-PAGO'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.ParentFont" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo4.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.ShiftMode" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.ShiftMode">
+        <source>smWhenOverlapped</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Left">
+        <source>71.81107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Top">
+        <source>143.62214</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Width">
+        <source>102.04731</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Height">
+        <source>18.89765</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DataField" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DataField">
+        <source>'Valor'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DataSet" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DataSet">
+        <source>dbPassaporte</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DataSetName" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DataSetName">
+        <source>'dbPassaporte'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DisplayFormat.DecimalSeparator" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DisplayFormat.DecimalSeparator">
+        <source>','</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DisplayFormat.FormatStr" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DisplayFormat.FormatStr">
+        <source>'%2.2m'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DisplayFormat.Kind" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.DisplayFormat.Kind">
+        <source>fkNumeric</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Charset" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Color" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">271</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">272</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Name" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">273</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Style" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">274</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Memo.UTF8[0]" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.Memo.UTF8[0]">
+        <source>'[dbPassaporte."Valor"]'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">275</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.ParentFont" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo6.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">276</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Left">
+        <source>15.11812</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">277</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Top">
+        <source>143.62214</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">278</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Width">
+        <source>37.7953</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">279</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Height">
+        <source>18.89765</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">280</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Charset" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">281</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Color" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">282</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">283</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Name" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">284</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Style" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">285</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Memo.UTF8[0]" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.Memo.UTF8[0]">
+        <source>'Valor:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">286</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.ParentFont" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo7.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">287</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Left">
+        <source>15.11812</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">288</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Top">
+        <source>170.07885</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">289</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Width">
+        <source>49.13389</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">290</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Height">
+        <source>18.89765</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">291</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Charset" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">292</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Color" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">293</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">294</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Name" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">295</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Style" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">296</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Memo.UTF8[0]" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.Memo.UTF8[0]">
+        <source>'Tempo:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">297</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.ParentFont" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo8.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">298</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Left">
+        <source>71.81107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">299</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Top">
+        <source>170.07885</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">300</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Width">
+        <source>102.04731</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">301</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Height">
+        <source>18.89765</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">302</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.DataSet" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.DataSet">
+        <source>dbPassaporte</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">303</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.DataSetName" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.DataSetName">
+        <source>'dbPassaporte'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">304</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Charset" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">305</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Color" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">306</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">307</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Name" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Name">
+        <source>'Arial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705208</prop><prop prop-type="Status">0</prop><prop prop-type="Order">308</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Style" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">309</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Memo.UTF8[0]" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.Memo.UTF8[0]">
+        <source>'[dbPassaporte."Minutos"] min.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">310</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.ParentFont" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Memo9.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">311</prop><prop prop-type="Type">TfrxMemoView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Left">
+        <source>15.11812</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">312</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Top">
+        <source>49.13389</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">313</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Width">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">314</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Height">
+        <source>86.92919</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">315</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.BarType" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.BarType">
+        <source>bcCode39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">316</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Expression" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Expression">
+        <source>'&lt;dbPassaporte."Senha"&gt;'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">317</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Rotation" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Rotation">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">318</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Text" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Text">
+        <source>'12345678'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">319</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Zoom" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:BarCode1.Zoom">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">320</prop><prop prop-type="Type">TfrxBarCodeView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Left" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Left">
+        <source>219.21274</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">321</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Top" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Top">
+        <source>11.33859</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">322</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Width" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Width">
+        <source>128.50402</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">323</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Height" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Height">
+        <source>185.19697</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">324</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Frame.Style" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Frame.Style">
+        <source>fsDot</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">325</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Frame.Typ" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.Frame.Typ">
+        <source>[ftLeft, ftRight, ftTop, ftBottom]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">326</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.GapX" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.GapX">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">327</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.GapY" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.GapY">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">328</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.RichEdit" resname="O:FrmImpPrePago.O:RP.O:Page1.O:MasterData1.O:Rich1.RichEdit">
+        <source>7B5C727466315C616E73695C616E7369637067313235325C64656666305C6465666C616E67313034367B5C666F6E7474626C7B5C66305C666E696C5C666368617273657430205461686F6D613B7D7B5C66315C666E696C205461686F6D613B7D7D0D0A5C766965776B696E64345C7563315C706172645C716A5C625C66305C6673313620496E737472755C2765375C27663565733A5C62305C7061720D0A5C7061720D0A456D205C69206E6F6D65206465207573755C27653172696F205C693020646967697465205C62205052455041474F5C6230202065206E612073656E686120646967697465205C62205B64625061737361706F7274652E2253656E6861225D205C6230206520636C69717565206E6F20626F745C2765336F2022454E54524152222E205C7061720D0A5C7061720D0A4361736F2065786973746120756D206C6569746F7220646520635C2766336469676F206465206261727261732062617374612066617A65722061206C65697475726120646F20635C2766336469676F20696D70726573736F2E5C66315C7061720D0A7D0D0A00</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">329</prop><prop prop-type="Type">TfrxRichView</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.UseFileCache" resname="O:FrmImpPrePago.O:frxPDFExport1.UseFileCache">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">330</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.ShowProgress" resname="O:FrmImpPrePago.O:frxPDFExport1.ShowProgress">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">331</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.PrintOptimized" resname="O:FrmImpPrePago.O:frxPDFExport1.PrintOptimized">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">332</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Outline" resname="O:FrmImpPrePago.O:frxPDFExport1.Outline">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">333</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Author" resname="O:FrmImpPrePago.O:frxPDFExport1.Author">
+        <source>'FastReport'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">334</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Subject" resname="O:FrmImpPrePago.O:frxPDFExport1.Subject">
+        <source>'FastReport PDF export'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">335</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Background" resname="O:FrmImpPrePago.O:frxPDFExport1.Background">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">336</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Creator" resname="O:FrmImpPrePago.O:frxPDFExport1.Creator">
+        <source>'FastReport (http://www.fast-report.com)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">337</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.HTMLTags" resname="O:FrmImpPrePago.O:frxPDFExport1.HTMLTags">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">338</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Left" resname="O:FrmImpPrePago.O:frxPDFExport1.Left">
+        <source>256</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">339</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxPDFExport1.Top" resname="O:FrmImpPrePago.O:frxPDFExport1.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">340</prop><prop prop-type="Type">TfrxPDFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.UseFileCache" resname="O:FrmImpPrePago.O:frxMailExport1.UseFileCache">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">341</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.ShowProgress" resname="O:FrmImpPrePago.O:frxMailExport1.ShowProgress">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">342</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.ShowExportDialog" resname="O:FrmImpPrePago.O:frxMailExport1.ShowExportDialog">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">343</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.SmtpPort" resname="O:FrmImpPrePago.O:frxMailExport1.SmtpPort">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">344</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.UseIniFile" resname="O:FrmImpPrePago.O:frxMailExport1.UseIniFile">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">345</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.Left" resname="O:FrmImpPrePago.O:frxMailExport1.Left">
+        <source>304</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">346</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxMailExport1.Top" resname="O:FrmImpPrePago.O:frxMailExport1.Top">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">347</prop><prop prop-type="Type">TfrxMailExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRTFExport1.UseFileCache" resname="O:FrmImpPrePago.O:frxRTFExport1.UseFileCache">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">348</prop><prop prop-type="Type">TfrxRTFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRTFExport1.ShowProgress" resname="O:FrmImpPrePago.O:frxRTFExport1.ShowProgress">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">349</prop><prop prop-type="Type">TfrxRTFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRTFExport1.Wysiwyg" resname="O:FrmImpPrePago.O:frxRTFExport1.Wysiwyg">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">350</prop><prop prop-type="Type">TfrxRTFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRTFExport1.Creator" resname="O:FrmImpPrePago.O:frxRTFExport1.Creator">
+        <source>'FastReport http://www.fast-report.com'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">351</prop><prop prop-type="Type">TfrxRTFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRTFExport1.Left" resname="O:FrmImpPrePago.O:frxRTFExport1.Left">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">352</prop><prop prop-type="Type">TfrxRTFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:frxRTFExport1.Top" resname="O:FrmImpPrePago.O:frxRTFExport1.Top">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">353</prop><prop prop-type="Type">TfrxRTFExport</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:SaveDlg.DefaultExt" resname="O:FrmImpPrePago.O:SaveDlg.DefaultExt">
+        <source>'TXT'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">354</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:SaveDlg.FileName" resname="O:FrmImpPrePago.O:SaveDlg.FileName">
+        <source>'cartoes.txt'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">355</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:SaveDlg.Filter" resname="O:FrmImpPrePago.O:SaveDlg.Filter">
+        <source>'Arquivo Texto|*.TXT'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">356</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:SaveDlg.Left" resname="O:FrmImpPrePago.O:SaveDlg.Left">
+        <source>152</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">357</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmImpPrePago.O:SaveDlg.Top" resname="O:FrmImpPrePago.O:SaveDlg.Top">
+        <source>104</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424705324</prop><prop prop-type="Status">0</prop><prop prop-type="Order">358</prop><prop prop-type="Type">TSaveDialog</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,38 @@
+unit uTestePagto;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxContainer, cxEdit, StdCtrls, cxTextEdit, cxCurrencyEdit;
+
+type
+  TForm6 = class(TForm)
+    edValor: TcxCurrencyEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+uses ncaFrmPagEspecie, ncEspecie;
+
+{$R *.dfm}
+
+procedure TForm6.Button1Click(Sender: TObject);
+var
+  P: TncPagEspecies;
+begin
+  P := TncPagEspecies.Create;
+  FrmPagEspecie.Editar()
+end;
+
+end.

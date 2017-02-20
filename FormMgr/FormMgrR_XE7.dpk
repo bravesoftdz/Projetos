@@ -1,0 +1,61 @@
+package FormMgrR_XE7;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$DEFINITIONINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Form Manager'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vcldb,
+  vclx,
+  vclimg,
+  lmdrtl,
+  lmdrtrtlx,
+  lmdrtcore,
+  dxPSCoreRS21,
+  dxPSPrVwRibbonRS21,
+  dxPsPrVwAdvRS21,
+  dxLayoutControlRS21,
+  dxServerModeRS21,
+  cxGridRS21,
+  cxExportRS21,
+  cxPivotGridRS21,
+  dxPSLnksRS21,
+  dxPScxPCProdRS21,
+  dxPScxCommonRS21,
+  dxPScxExtCommonRS21,
+  dxPSdxLCLnkRS21,
+  dxPScxGridLnkRS21,
+  dxPScxPivotGridLnkRS21;
+
+contains
+  ufmFormBase in 'ufmFormBase.pas' {FrmBase},
+  ufmImagens in 'ufmImagens.pas' {dmImagens: TDataModule},
+  ufmFrmBasePai in 'ufmFrmBasePai.pas' {FrmBasePai};
+
+end.

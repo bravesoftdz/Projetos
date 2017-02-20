@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmSenhaWiz.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmSenhaWiz.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428472222</prop>
+        <prop prop-type="OrigDateTime">41348.5508796296</prop>
+        <prop prop-type="XlatDateTime">41348.5508796296</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">216</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmSenhaWiz.Left" resname="O:FrmSenhaWiz.Left">
+        <source>347</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527546</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Top" resname="O:FrmSenhaWiz.Top">
+        <source>245</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527546</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.ActiveControl" resname="O:FrmSenhaWiz.ActiveControl">
+        <source>edNova</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527546</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.BorderStyle" resname="O:FrmSenhaWiz.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527546</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Caption" resname="O:FrmSenhaWiz.Caption">
+        <source>'Criar uma senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527546</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.ClientHeight" resname="O:FrmSenhaWiz.ClientHeight">
+        <source>282</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.ClientWidth" resname="O:FrmSenhaWiz.ClientWidth">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Color" resname="O:FrmSenhaWiz.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Font.Charset" resname="O:FrmSenhaWiz.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Font.Color" resname="O:FrmSenhaWiz.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Font.Height" resname="O:FrmSenhaWiz.Font.Height">
+        <source>-15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Font.Name" resname="O:FrmSenhaWiz.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Font.Style" resname="O:FrmSenhaWiz.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.KeyPreview" resname="O:FrmSenhaWiz.KeyPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.OldCreateOrder" resname="O:FrmSenhaWiz.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.Position" resname="O:FrmSenhaWiz.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.OnClose" resname="O:FrmSenhaWiz.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.OnKeyUp" resname="O:FrmSenhaWiz.OnKeyUp">
+        <source>FormKeyUp</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.OnShow" resname="O:FrmSenhaWiz.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.PixelsPerInch" resname="O:FrmSenhaWiz.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.TextHeight" resname="O:FrmSenhaWiz.TextHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TFrmSenhaWiz</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Left" resname="O:FrmSenhaWiz.O:edNova.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Top" resname="O:FrmSenhaWiz.O:edNova.Top">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Properties.EchoMode" resname="O:FrmSenhaWiz.O:edNova.Properties.EchoMode">
+        <source>eemPassword</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Properties.MaxLength" resname="O:FrmSenhaWiz.O:edNova.Properties.MaxLength">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Style.BorderStyle" resname="O:FrmSenhaWiz.O:edNova.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Style.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edNova.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Style.StyleController" resname="O:FrmSenhaWiz.O:edNova.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edNova.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edNova.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edNova.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.TabOrder" resname="O:FrmSenhaWiz.O:edNova.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edNova.Width" resname="O:FrmSenhaWiz.O:edNova.Width">
+        <source>251</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Left" resname="O:FrmSenhaWiz.O:lbNovaSenha.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Top" resname="O:FrmSenhaWiz.O:lbNovaSenha.Top">
+        <source>60</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Caption" resname="O:FrmSenhaWiz.O:lbNovaSenha.Caption">
+        <source>'Digite uma senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.ParentFont" resname="O:FrmSenhaWiz.O:lbNovaSenha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Charset" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Color" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Height" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Name" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Style" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Style.IsFontAssigned" resname="O:FrmSenhaWiz.O:lbNovaSenha.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbNovaSenha.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbNovaSenha.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbNovaSenha.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbNovaSenha.Transparent" resname="O:FrmSenhaWiz.O:lbNovaSenha.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Left" resname="O:FrmSenhaWiz.O:edConfirma.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Top" resname="O:FrmSenhaWiz.O:edConfirma.Top">
+        <source>142</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Properties.EchoMode" resname="O:FrmSenhaWiz.O:edConfirma.Properties.EchoMode">
+        <source>eemPassword</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527662</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Properties.MaxLength" resname="O:FrmSenhaWiz.O:edConfirma.Properties.MaxLength">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Style.BorderStyle" resname="O:FrmSenhaWiz.O:edConfirma.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Style.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edConfirma.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Style.StyleController" resname="O:FrmSenhaWiz.O:edConfirma.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edConfirma.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edConfirma.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:edConfirma.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.TabOrder" resname="O:FrmSenhaWiz.O:edConfirma.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:edConfirma.Width" resname="O:FrmSenhaWiz.O:edConfirma.Width">
+        <source>251</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxTextEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Left" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Top" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Top">
+        <source>119</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Caption" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Caption">
+        <source>'Repetir a senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.ParentFont" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Charset" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Color" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Height" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Name" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Style" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.IsFontAssigned" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:lbConfirmarSenha.Transparent" resname="O:FrmSenhaWiz.O:lbConfirmarSenha.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Left" resname="O:FrmSenhaWiz.O:cxLabel4.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Top" resname="O:FrmSenhaWiz.O:cxLabel4.Top">
+        <source>170</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.AutoSize" resname="O:FrmSenhaWiz.O:cxLabel4.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Caption" resname="O:FrmSenhaWiz.O:cxLabel4.Caption">
+        <source>'Se você usar letras maiúsculas na sua senha, terá que usá-las novamente toda vez que fizer logon.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.ParentFont" resname="O:FrmSenhaWiz.O:cxLabel4.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Charset" resname="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Color" resname="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Height" resname="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Name" resname="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Style" resname="O:FrmSenhaWiz.O:cxLabel4.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:cxLabel4.Style.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Style.IsFontAssigned" resname="O:FrmSenhaWiz.O:cxLabel4.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:cxLabel4.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:cxLabel4.StyleFocused.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:cxLabel4.StyleHot.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Properties.WordWrap" resname="O:FrmSenhaWiz.O:cxLabel4.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Transparent" resname="O:FrmSenhaWiz.O:cxLabel4.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Height" resname="O:FrmSenhaWiz.O:cxLabel4.Height">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:cxLabel4.Width" resname="O:FrmSenhaWiz.O:cxLabel4.Width">
+        <source>251</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Left" resname="O:FrmSenhaWiz.O:btnAlterar.Left">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Top" resname="O:FrmSenhaWiz.O:btnAlterar.Top">
+        <source>220</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Width" resname="O:FrmSenhaWiz.O:btnAlterar.Width">
+        <source>88</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527778</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Height" resname="O:FrmSenhaWiz.O:btnAlterar.Height">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Caption" resname="O:FrmSenhaWiz.O:btnAlterar.Caption">
+        <source>'&amp;Criar senha'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Font.Charset" resname="O:FrmSenhaWiz.O:btnAlterar.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Font.Color" resname="O:FrmSenhaWiz.O:btnAlterar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Font.Height" resname="O:FrmSenhaWiz.O:btnAlterar.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Font.Name" resname="O:FrmSenhaWiz.O:btnAlterar.Font.Name">
+        <source>'Calibri'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.Font.Style" resname="O:FrmSenhaWiz.O:btnAlterar.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.ParentFont" resname="O:FrmSenhaWiz.O:btnAlterar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.TabOrder" resname="O:FrmSenhaWiz.O:btnAlterar.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.OnClick" resname="O:FrmSenhaWiz.O:btnAlterar.OnClick">
+        <source>btnAlterarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.LookAndFeel.Kind" resname="O:FrmSenhaWiz.O:btnAlterar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnAlterar.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:btnAlterar.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Left" resname="O:FrmSenhaWiz.O:btnCancelar.Left">
+        <source>139</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Top" resname="O:FrmSenhaWiz.O:btnCancelar.Top">
+        <source>220</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Width" resname="O:FrmSenhaWiz.O:btnCancelar.Width">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Height" resname="O:FrmSenhaWiz.O:btnCancelar.Height">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Cancel" resname="O:FrmSenhaWiz.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Caption" resname="O:FrmSenhaWiz.O:btnCancelar.Caption">
+        <source>'Não quero criar uma senha agora'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Font.Charset" resname="O:FrmSenhaWiz.O:btnCancelar.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Font.Color" resname="O:FrmSenhaWiz.O:btnCancelar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Font.Height" resname="O:FrmSenhaWiz.O:btnCancelar.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Font.Name" resname="O:FrmSenhaWiz.O:btnCancelar.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.Font.Style" resname="O:FrmSenhaWiz.O:btnCancelar.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.ParentFont" resname="O:FrmSenhaWiz.O:btnCancelar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.TabOrder" resname="O:FrmSenhaWiz.O:btnCancelar.TabOrder">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.OnClick" resname="O:FrmSenhaWiz.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.LookAndFeel.Kind" resname="O:FrmSenhaWiz.O:btnCancelar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:btnCancelar.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:btnCancelar.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Top" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Width" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Width">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Height">
+        <source>44</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Align" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Bevel.BorderColor" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Bevel.BorderColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Bevel.Mode" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Bevel.Mode">
+        <source>bmStandard</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Bevel.StandardStyle" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Bevel.StandardStyle">
+        <source>lsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.Color">
+        <source>clNavy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.ColorCount" resname="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.ColorCount">
+        <source>107</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.EndColor" resname="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.EndColor">
+        <source>16725301</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.PaletteRealize" resname="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.PaletteRealize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.ColorList[0]" resname="O:FrmSenhaWiz.O:LMDPanelFill1.FillObject.Gradient.ColorList[0]">
+        <source>16777215</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Charset" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Color">
+        <source>8404992</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Name" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428527893</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Style" resname="O:FrmSenhaWiz.O:LMDPanelFill1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.ParentFont" resname="O:FrmSenhaWiz.O:LMDPanelFill1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.TabOrder" resname="O:FrmSenhaWiz.O:LMDPanelFill1.TabOrder">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TLMDPanelFill</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.AlignWithMargins" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Top" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Width" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Height">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Margins.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Margins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Align" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.AutoSize" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Center" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Center">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Picture.Data" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF40000002B744558744372656174696F6E2054696D6500446F2032302046656220323030332031333A32363A3335202B303130301EE473E40000000774494D4507D605170E011AE37A50F5000000097048597300000B1100000B11017F645F910000000467414D410000B18F0BFC61050000077F4944415478DAAD570B5054E715FEEE3ED8E5B12CCB2EEF15D811889888916889643090A9213E1A6BDA26D2D8A833ED74469D38635AA7D3366D6D26D531F1ED9844256A20861171345A4114A288BC5FEE222C6F960516447617792E77776FCF5DB6D6A49836C03F7CB3CCFDFFF39FEF9EF39DF3FF97C1F78CE12A044E0E62BB48A159E5B0B3326B4F77F5D50AEC7BF72334D1B48DC061968379DA84AD05EB844C42BA50BD4A090800A1184E7333BAEF9EEE58F7676CAC6B8096968DCE96C4B404C69BB049AA58770AF23811C60701769CDCB0444288E1F6726466EB4F6CDD8723B4B499C0CE2901729E22F149CE63450B3DCC4603F9E410A0F6031C7CC49D6047ACD0977E5313F72BECA5070504F39C11B0DE85C2CB375C6BF74F559B9A5A28F076D8ED2C82E7C9E1E3E70176741C62891083F7F2ADAAB5D843265F118C734660B2064745E19BB7776A3BE0A4371EB3336D9BDED395EC7F3F2632254999647D60855FB037BACA6F4D68DEC021278774326BC32C74F098C0442B62C48EB87AF378B8D8DA6782C85BDA17FF7A6581C532D9969D1DA3FAF9B280AD03460B02C23DD1535B6D51FF149F93D90942CBDC1028C6A792D8B4DFB655B54022E6B8B4BF18328B8B1F76D1545E5F5FDC362FA37D03AF372F4F3BB4A51D0DF1BFC1159A3B352711307C05AFC06875AF47D012796B5D1B2C7661F58BEB7555347575D90BA82ACD8DAF6D2FEA0E8E8EF3C650BF15E72E5AAE6D3D88129ACF2474CD9A40EB79AC0D8F5B7AC5C978C3A0EFC1AE630F322EDF78544F53178786129609DACCE7462794080AB1A2B34C8F5F7F8433053528A5F9CB84FE993A7F4C409F89FDCFAC7879271C1368D6F63B97BF6348370F71B9892FCAEFDECE89BC25B28963A17E1D103F8F21E30D34E51EEDBF588693474EE32475885EDAC23E2B02ED1704799A1F25A45291A3ABCD3CBC604DCFD971165F8E8CAC5C6FB953B7CB573400DF402F40F53210BA8A2C42D0557114BAB2A2BBF7B4F8DB9FD25DD1202ED4286642A0E3B2B4367251F4F3B03B60F70C994C5C53F9E989B3CB9DB1C28E1D4DD5EDCCFC283A17AC7628A9298B156A20F855C0EF15B0B641345DDA3DD9DE60FE3CFD3AF67F5DEEEA09933F44133C01A63DC7A34E13A78E83076D2E8BA54763607BCAD158D10C8D861E854AD052E784878885829AA28CC0285EA068AC06A44BD1AFFF1AF557D28DDD7DD8B3F900B26883E1FF372DAE08D465207FF1929095BC630845181B7884F65616414140C07C297ABBE5282BE96F51F92250E50FB91F11F097936F3F19104869094EA55D5468BAF631D75A56FD4D710B76EFCD42953B2DDCFF245078187F8F8AF47C5F2C7662628CC5F02327D4140C45942F1E747BA3ACC8D4BCF14354C8BC3070683B922282B1D45F41F344424E102922DC6949C1A8C5809A2F3E98686D19FBEC6C110EDED6C184A9038B7B2A818FB7E199D5CB99526F4F4E2195D24B85D1F1AB90A143EBC49DA2E1CA6DC7D038320E3D2D2DF19640F8D7779096B8109B7C6410F3D190FB10481F8C6A19104669112F415B59162A2F64759AACF860673A72C87684E09896000DC9F1F7F0C64BB1F83030041AD62980C9E0341CC846C9F9228C701CEED39A3BF84FDB0D7B7305566F78053B8294C288F855A918D05E031F156F25A525208522C2578B37CA33F6704D158DD78B5BB1FB641EEED1C38927A3C13CF12B1789101F158AC4511B94C67EFE16828704DE397FF9E879C2584C08F8F2F73894BC66D12F42172F0247A77577CD7578B083F00FA005FE9154ADAF01BE291834EA70EB937F8C76F53A8F1FBB8123EDBDAEE6C53E49801F021765DA98E0E77E6675E3D17755AD3D8C050F6DD0A56C7C490496B61178922AE5B074522B6FAD7595ACAF5200C69FD2A25E4342598CFB374F23EFECA59BBFCBC4564CB570DB7437229E88D0FD3F9FB3699BCBEDBDC88C89F77F3B58E34F2B4464252190803C65B0DB3818AA4A20118C4349AFE349B5CB45A472E539A5B85DD0A5FB43260ED216B984FEA7DE09BF6FD41F47ECC028B4C93F91886023C70C41287193207878B9A261BADF8CE107460407027D7D70EA74106414E2C2E54AD741964DE89E1181C23D38B7E039A48584FD5B411430CEE3DB247C7CD05866728E9A2D022F199C4D748F360F62F8DD53C8199BC44DB2CA270CFE6002F59F20B0DF82AE9495903829393575189FAF819484C7707CC21811FD4948A952E7A5F3830CCB82090D0567E8044EDF4456413D3A68558E5BDCB6994440706607B684CFC3D16717429A7F8324E000939C4CB54911A1928588A4A0ABA5903780C9AF456EC27CC414D6A1EA42B9ABAA0A3155D274DD06371302BC8D62F38FF1D68A85D832360161CF438C44A890F4F62FC10804AE8C70FFBC4AF70C131AFF780635C489FF90E1DB723BA192D0077755CD480398AA122A343C4B78EEC0166C484A406274B4EBD3017A3D38CA39B3EF2232B40697735EF10398FA90F95649CF94802B15042F4D20943BD7E1D8CA64AC55A9A86E1DE00A28C87432D6EFCA74A99DBF3B16BB1DFFD779301B028FF75079226CCB7A1CFE5932D6F31D514FDF4BFB2F21A3DE88064C098E179E635AE33920C00F0915A1266D3576854810D566425F7699AB75E7114ADD6F3F3DFB3922E0224198475882297DF042ABC0D4A5D5F134A3B924C00FFE9092B9C9D830CD19F2DDF12F0E43ED3F282A477C0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.ExplicitLeft" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.ExplicitLeft">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.ExplicitHeight" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:Image3.ExplicitHeight">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Left">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Top" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Align" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.AutoSize" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Caption" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Caption">
+        <source>'Crie sua senha de usuário ADMIN'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.ParentColor" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.ParentFont" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Charset" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Color">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Height">
+        <source>-19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Name" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Style" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.LookAndFeel.Kind" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.TextColor" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.TextColor">
+        <source>4802889</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.TextStyle" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.TransparentBorder" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleDisabled.LookAndFeel.Kind" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleDisabled.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleFocused.LookAndFeel.Kind" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleFocused.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleHot.LookAndFeel.Kind" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleHot.LookAndFeel.NativeStyle" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Properties.Alignment.Vert" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Properties.WordWrap" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Transparent" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Height">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Width" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.Width">
+        <source>290</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.AnchorY" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:cxLabel1.AnchorY">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528009</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Top" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Top">
+        <source>43</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Width" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Width">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Height">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Align" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.Color">
+        <source>10197915</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.TabOrder" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Top" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Top">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Width" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Width">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Height">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Align" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Bevel.Mode" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.Color">
+        <source>15000804</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.TabOrder" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel2.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Left" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Top" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Top">
+        <source>43</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Width" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Width">
+        <source>349</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Height" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Height">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Align" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Bevel.Mode" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Color" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.Color">
+        <source>11319229</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.TabOrder" resname="O:FrmSenhaWiz.O:LMDPanelFill1.O:LMDSimplePanel11.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:Timer1.Enabled" resname="O:FrmSenhaWiz.O:Timer1.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:Timer1.OnTimer" resname="O:FrmSenhaWiz.O:Timer1.OnTimer">
+        <source>Timer1Timer</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:Timer1.Left" resname="O:FrmSenhaWiz.O:Timer1.Left">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmSenhaWiz.O:Timer1.Top" resname="O:FrmSenhaWiz.O:Timer1.Top">
+        <source>120</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428528125</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

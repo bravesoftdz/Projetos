@@ -1,0 +1,51 @@
+package NextarCSCommXE7;
+
+{$R *.res}
+{$R '..\cscomm_xe7\CSCReg.dcr'}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Nextar - Client / Server Communication'}
+{$DESIGNONLY}
+{$IMPLICITBUILD OFF}
+
+requires
+  vcl,
+  vcldb;
+
+contains
+  CSCReg in '..\cscomm_xe7\CSCReg.pas',
+  CSCBase in '..\cscomm_xe7\CSCBase.pas',
+  CSCClient in '..\cscomm_xe7\CSCClient.pas',
+  CSCQueue in '..\cscomm_xe7\CSCQueue.pas',
+  CSCServer in '..\cscomm_xe7\CSCServer.pas',
+  CSCTimer in '..\cscomm_xe7\CSCTimer.pas',
+  CSCTimerList in '..\cscomm_xe7\CSCTimerList.pas',
+  CSCMsgProcessor in '..\cscomm_xe7\CSCMsgProcessor.pas',
+  CSCCustomBase in '..\cscomm_xe7\CSCCustomBase.pas',
+  ClasseCS in '..\cscomm_xe7\ClasseCS.pas',
+  CacheProp in '..\cscomm_xe7\CacheProp.pas';
+
+//  VocTimer in '..\Vocare\V10\Comum\VocTimer.pas';
+
+end.

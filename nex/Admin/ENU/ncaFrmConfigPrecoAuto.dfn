@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfigPrecoAuto.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfigPrecoAuto.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422685185</prop>
+        <prop prop-type="OrigDateTime">42166.2645601852</prop>
+        <prop prop-type="XlatDateTime">42166.2645601852</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">92</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmConfigPrecoAuto.Caption" resname="I:FrmConfigPrecoAuto.Caption">
+        <source>'Margem de lucro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.ClientHeight" resname="I:FrmConfigPrecoAuto.ClientHeight">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.ClientWidth" resname="I:FrmConfigPrecoAuto.ClientWidth">
+        <source>481</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.Font.Charset" resname="I:FrmConfigPrecoAuto.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.Font.Name" resname="I:FrmConfigPrecoAuto.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.ExplicitWidth" resname="I:FrmConfigPrecoAuto.ExplicitWidth">
+        <source>487</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.ExplicitHeight" resname="I:FrmConfigPrecoAuto.ExplicitHeight">
+        <source>328</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.PixelsPerInch" resname="I:FrmConfigPrecoAuto.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.TextHeight" resname="I:FrmConfigPrecoAuto.TextHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmConfigPrecoAuto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.Width" resname="I:FrmConfigPrecoAuto.I:panPri.Width">
+        <source>461</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.Height" resname="I:FrmConfigPrecoAuto.I:panPri.Height">
+        <source>216</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.ExplicitWidth" resname="I:FrmConfigPrecoAuto.I:panPri.ExplicitWidth">
+        <source>447</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.ExplicitHeight" resname="I:FrmConfigPrecoAuto.I:panPri.ExplicitHeight">
+        <source>216</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.Width" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.Width">
+        <source>461</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.ExplicitWidth" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.ExplicitWidth">
+        <source>447</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.Width" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.Width">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.Center" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.Center">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422839931</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.Picture.Data" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D49484452000000380000002008060000004703BBE8000000097048597300000EC400000EC401952B0E1B00000A1F4944415478DAE558797454F515FEDE9B37FB6466B22764210966211889414D112C940AD6224554142A2AE2298A0256102B87D64A554014B02C115B9580428D45E588A835453C22CAB1208B8220218124641926B36432DB5B7BDF0021842C13F8A787FECE993333BFF57EBFFBDD7BBFF7184551702537E6FF0620C330B812C17609B061E1ECC73D2E77AAFBEBCAC3C6F42CCE9C7F756EB0FA983770A2EA90BDF4A612B09CDEFDC5C7DF99070D49366666A77BF7ED6E80186A8A193CAC580A7845F7AECFF7DA4A47E4EAE213923C5F56FEA44B480A9B07155F1DAE3FD9EA3BB4EF606CE9886236C6666AF96CCB5E734151AC213B7740DBA1830ED1DB52632BB9B15812C21AEF57957B4C83AF4F8BCBC8B1F47F61EDD24B06D8F18FA7E19481FFB4E2C19FD6BC58A68B8B9719AD9E5564098A2886198D46CF68382802AF4EE5199D4E47FD5024896739AD0EEA058934C6B00AA3D5319179B21CA279064596D53D24DA4313D94314D4319ED1EB237B4092C20CC7E969ED99314060747AADBA871C0A7AEDF9852DF9ABDE1D02BDC1735900550F9E5EB762426DC5BA750AA7B5A95E8DBEC9F4612F7B4AE7A6DA247A5C48BB65FC9719F396DC0683C177B90067546F585BC65962A258CD40563D2086E927DD3EA723FBD90B40C88204564BD427C7080AFDA633C8C360598D7A62B42821B4F9109B57D098FFB70FFB5D3EC0F2B2C59CD566EBD119649BE43E4DC67230170E41D8E580E46C026B301358D5700D81E3C1702C44BF5FA51A6C0307830FB4215C5B0345AB852EC6AA523A7A905E3752868FDE1337F38FB75BD3324E5D32C0939BD79781D1A0278AAA06EBD3B23068DD56048E7C0F537A169ADEDF88864DB4546700238411F6F990F8EBBB60EA7F15D2A63C02DFF1A314BD21F87F3C08F78E8FE1F9CF4E7049A911AF46DB04B713F1D70E3B9CBB6AE3A04B0678FCCD55ABB5F6B81EAF560AFA61CE2F42DE0B6B417311F6B4E0E4A2A7D0B27B0779C64E1E66602D2945DABD0FC3429EEBDC02C78EA0F6ED55707DF201F404127D8877D593F6BCC2E6CCC5AF179912934FF719E0894DAF2F630D4663778B148A2525C4236BDE0B88FFE56D543538346E2E4743F91A8A49CA9E34CE19CD489BF13492C6DCDEADF1A73FDB8253EB564274BB89EA9AA8019EF1640BD26E1EBB33E3D9D5BF50EFBB4F00ABD7979571313D8420950EA1CD8BFE739E43EAF87B235DCD1F6EC4F1BF3C097DBF7408C1000C71C928AEF8FCFC122A152C7B2129C440008767DE03FFB1C3D0C5C645E22CDAA6DA2A138B2CFD731B0ADFDC9AD6370FBEFDDA22C668B6778E41B5462994FD949000535E01D2EF9F09FBD01108B94EA376D99FE1FEE60B70063DD4BAD7EFBE1948BE630A34464B242305EB8FE3E4DA9760243AA63E3093002550B784BAB2A5706E7B37C28A48DC6BBAF624EDE9175B3DD5AC4E5FA43242633006E83A4CA2D705FB8DA3BECA5FB06C2263B5374505B0E61F6F946974FA0ED4A2DB0A85A18D4B44A0B60A8C2C52CCB930FC071FD41AAFB6EFA78E85FBC02E703A33CDF5237FD94624DE3CB67DEFA34F3E80BAF20D602D1A14AE2847CA842991FEA62D1B7164DE34C464E703062D793F08ADC174213849841C0EAEC859F0CAB68451B76EAF7A6EEE6267E596795AAB5DCD8411BA9A06E4575DB3FED3DCA8001E5FB77AB9D6166B38D72FD1A1BAE414C48F9E80B861A3200643940D03B00EBE2152D3C28E66F86B0E8333DB208543105BBDB00F190ACE6A8F1CA0268590A311BCE31464AF17A6C26218FB65826E878AB803A1FA7A849AEAD0B67737DA7EDC07DEE968F7A4A2C82A030E248DBF6F56E6C37376AA7DE1C6BAD4137F7DEE95D6BDBBEEA65C119927B89C47EDA52316152C5FBFA15780B5EF6D58A580D59CA3A81CE661B8AA1045659BD0672912452C9D3BC7B37B278E3DF328D54E8600EADAE7F02D8EDD43BFAE1DDA71DD81493F5FCD7B3CBF63B5BAC844D1E745E2B87B46E7CC7DFEDFD178B08C3C78BE9F628FE134E4C1DF508D33121DF220389D48BC6D22B45412C45000EEEDDB1038510D634E0E048F1B6993A7B7AF97C241D4FDFD65980616C1BF7F2F4C838A91FCAB3B2363AAB79BDE2B2786A4A3E9E30AC8B4966F7142C369CEC51E8165C2714347FF3E7BFE92B5A2DBA593C9949FE64CDB11ACABCE67095F44EB86022EDB4D63EECA7B76E58EDE63F0EDD796684C166BE73191E8C7F0025134007D7A0606CC5F82D8EB47108030F6DD598AD68307A04F8847D6EC67913CE15E70672FA966E902383ED94CF30214BF40E68C79489EF81038931955CFCF8593CAC599C44102819298FA41878C4B0082A2D76D34E50DFC286650C92ECFB75FCDA282DF4FCD136ADE159CCD48FDEDF4F2CC47E73F41C2DFD33BC0B75E2BD3982D9DC974562C93FEA42423B95D28585D017BC979E6ECB9A508295367C39C958BD8A123DBFB1BB755A0FA4F7360484D46A8B10E390B572275DCE4C898E3D3F7716CC12330A46444F6EEA9C97C586553809E724C6AED553D27B4BA907CEBC4CD390B5E9ED8D59A6E28BAEA25AD2DCEDCFD493244925C4963EE44E6634F43633277304200ABD3B6FFF7FDB81FF5541E5A7FD8434ED210850B90F9D06CD84A4752B2A8C5A93756C2F1F95668CD5188FB8EB6AAB4241B12C64E2ECF9E397F3A384E881A60ED3FDF2A53E8367BD2A222A97BCBD5D72277D1AB24CD62BB9DE7AFA9C2915977D3231FFD09B6429F918DC16F55B68FEF9F3206828344BA5E87689B0A8E7734102D1F2ECF7E62E1833DCDEDCE839464E27A3C44561F4CA93EA54C988A0C8A29A5F366672FE1E8DCFBE1DDBF87F4662214CA8CD66BAE47EAA469F40865A292F01DEADF5C49B1D94649451F1D38BA294510D4845791F3D4A249BDCDEF5AC96C5EFF12D1C9DCF3032F13A1297FEA2432A6CE81B1A010B66B4A60C8BC0ADEEFBEA1B4DD8A9A179F02EFF2429F9C4037C2503DF5511C6643A21A1A3C7C08FA810560491549321FA16FEF9E9328EB7A9072F7F4B5598FFDE1514A44BD6ABB6EB4E8ABA445ADBDAD3DE3493A427435C348D49342129513E54C16A4166A6C2049769EBE6A8E524B0E4B9E57F44630D2198DDC9D3CBB081C695752471F0C58B0FC8EA88CEB01E06202688B7613959F8A48C6B224A9783992E2D52CC7D0A72F02BADBED690F893467D2B8C99BFA53CCB15A2D7F59002FD6A29762152E0ECA68C63A4F25CFF1CD8D489934ED9D9C27174DEEAB195DBE743AB666E93B1A8B25483A33F2E2491604177DDB199D9E55045EA0437D2491E254EFC8A2789A61D94446ABA5B4CDB7A97B90E2B7280AD150A0310D97A852501678171D66A6A77DBD22F13279DC13D903EA7B1BC1C9B04CFCD9B77101455678522876F58D1BCBB07509E3EFD99635EB99199772CF170154DB8935CF8F637939D95775C821B6B6186CD7DD6421C11D726FDFEAB30F1F1563484A3738775536B146ABCD5E5C62083637B5FAF77D0BEBB09126CE64655D955B9A8D03F263CDF9834DFEA3DFB7F04DF51A5BE9702B851CEFFED79616EB0D37C619D273F49E3D3B9BE929C91C7BDD0D96B0CB13F07EFB85DFFEB39176CE9EC0B9B67F544702DF6E2B1D818C071F7FEF5289D425C02BA95D4690FDEFB68E8EBAE0D5FD95D2BA0478A5B6FF020228080CEA0416410000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.ExplicitWidth" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.ExplicitWidth">
+        <source>56</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.ExplicitHeight" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:img.ExplicitHeight">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.Left" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.Left">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.AutoSize" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.Caption" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.Caption">
+        <source>'Calcular preço de venda automaticamente'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.ExplicitLeft" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.ExplicitLeft">
+        <source>66</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.ExplicitWidth" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.ExplicitWidth">
+        <source>378</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.Width" resname="I:FrmConfigPrecoAuto.I:panPri.I:panTopo.I:CB.Width">
+        <source>392</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Left" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Top" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Top">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Margins.Left" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Margins.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Caption" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Caption">
+        <source>'Utilize as opções acima para que o preço de venda dos seus produtos seja determinado automaticamente adicionando o percentual de markup ao preço de custo. Ex: Se o preço de custo for R$ 100 e o markup 50%, o preço de venda será R$150.'#13#10#13#10'Essas opções representam o padrão geral mas poderão ser ajustadas produto a produto.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitLeft" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitLeft">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitTop" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitTop">
+        <source>83</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitWidth" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitWidth">
+        <source>377</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitHeight" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.ExplicitHeight">
+        <source>123</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Width" resname="I:FrmConfigPrecoAuto.I:panPri.I:lbDescr.Width">
+        <source>391</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.AlignWithMargins" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Left" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Top" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Top">
+        <source>49</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Width" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Width">
+        <source>461</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Height" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Height">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Hint" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Left" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Top" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Right" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Bottom" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.AutoSize" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Align" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Bevel.Mode" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.ParentColor" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.ParentColor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.TabOrder" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.AlignWithMargins" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Left" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Top" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Left" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Left">
+        <source>70</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Top" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Right" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Bottom" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Align" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Caption" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Caption">
+        <source>'Markup padrão %'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Style.TextStyle" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:lbMargem.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.AlignWithMargins" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Left" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Left">
+        <source>186</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Top" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Left" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Top" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Right" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Bottom" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Align" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.ParentFont" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Properties.DecimalPlaces" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Properties.DecimalPlaces">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Properties.DisplayFormat" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Properties.DisplayFormat">
+        <source>'##0.00%'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.BorderColor" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.BorderColor">
+        <source>clWindowFrame</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.BorderStyle" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Charset" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Color" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Height" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Name" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Style" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.LookAndFeel.NativeStyle" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.StyleController" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.IsFontAssigned" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleDisabled.LookAndFeel.NativeStyle" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleFocused.Color" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleFocused.Color">
+        <source>11206655</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleFocused.LookAndFeel.NativeStyle" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleHot.LookAndFeel.NativeStyle" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.TabOrder" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.ExplicitHeight" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.ExplicitHeight">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Width" resname="I:FrmConfigPrecoAuto.I:panPri.O:panMargem.O:edMargem.Width">
+        <source>147</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxCurrencyEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.Top" resname="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.Top">
+        <source>258</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840046</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.Width" resname="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.Width">
+        <source>461</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.ExplicitTop" resname="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.ExplicitTop">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.ExplicitWidth" resname="I:FrmConfigPrecoAuto.I:LMDSimplePanel1.ExplicitWidth">
+        <source>447</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422840162</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

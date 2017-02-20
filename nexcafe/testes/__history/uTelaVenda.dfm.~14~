@@ -1,0 +1,709 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = bsNone
+  Caption = 'Form1'
+  ClientHeight = 461
+  ClientWidth = 816
+  Color = 12369084
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  WindowState = wsMaximized
+  PixelsPerInch = 96
+  TextHeight = 19
+  object LMDSimplePanel1: TLMDSimplePanel
+    Left = 0
+    Top = 25
+    Width = 816
+    Height = 52
+    Align = alTop
+    Bevel.Mode = bmCustom
+    TabOrder = 0
+    object Image1: TImage
+      Left = 0
+      Top = 0
+      Width = 65
+      Height = 52
+      Align = alLeft
+      Center = True
+      Picture.Data = {
+        0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D494844520000
+        0030000000260806000000828D1801000000097048597300000B1300000B1301
+        009A9C18000002D34944415478DAED596B4FD440149DCAAE011115118D4605FD
+        40E2DBC4C428C61F6F628C5FFCE22BC6105CD6251A4030220F0BBBF51C7AABB5
+        9947693B2D9B7892BB4376EF9CDE33BD77EEB4044AA959D8B41A4EAC06F8B807
+        BBD2742405F19902EEC0669A8EA42096740242D87ED39119D0821D7709E8C156
+        9B8ED400D6EA6597803751142D351DA90E4110CC48BC5601EF20E053D3C11A04
+        5CC370EBBF000D3179DA2A2EB040BEEEC37E81ABAFF165310E5CBC9AB9D50B00
+        E9310CE3B08BB0332222826DAB783358015F98F267F05339A87730EF471D02C6
+        30DC3704C5155C802D26AB09FF090C8F5DB4B065CC795B8780390C7316973DD8
+        0B706EA604DF547F53CD8435CCE9781500C2B6ACE62987EB1F4EA981913CFC98
+        F34F43F52180F9FC54C53560C307702EC81C063FA1F109E1B3EDB89E17014F0C
+        01A5F11E9C8B32673C134482F544649D024644C06152E82486BB1A1FE6FCC7BA
+        05700B9D57F1F669C36B707653A227353EBBF0F959AB0021E56A5EB5B8B061BD
+        04E77A46B811F0D536395F022E6078003305F55D04EC8B3F1BDD2565DE46D92F
+        BEC07FAF2E012CE487B0B3BAC514BE4ECA9F05FFC84299F48D30FB83CFB3108F
+        114CA576E6A70DD82BF0EDA67C47315CB7D01D74EFEC39C88B002948A60477A1
+        DBB0B18CCB328CABBF95ACA8CCB1D500EF5A1FFE91370192362754BC9B4CCADF
+        14D1CAB8B2316DC136E56E6CA4EFC661515A801C03182C0F6EE755BC7D8EE6B8
+        F6408470275A1121618E79D509904318039F96314FE059302D78445E837DA3E9
+        72BD720198785AC52FC0A6E40E94C540847C8575F3DE8D420264E5B94DBACE3B
+        45C0D5EFC9359D4F684505707F9FF7107C0216F8F33CA95454C039656F3C65B1
+        037B963DFB572980C7DF598F0298FF1DDDD1A12A01DCDB5B2EF21218782DE2A3
+        84BC0286FED5221F3CD82D5D6F0DEA069B20BB7FFAD9C3F87ADD59500D2179FB
+        6715304C3810E07A243CCAE852C00D15FFD3202A495637187BEF3742359ED606
+        2132F60000000049454E44AE426082}
+    end
+    object cxLabel3: TcxLabel
+      AlignWithMargins = True
+      Left = 68
+      Top = 3
+      Cursor = crHandPoint
+      Align = alLeft
+      Caption = 'Cliente'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -16
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 13487565
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextColor = clGray
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 26
+    end
+  end
+  object LMDSimplePanel2: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 0
+    Top = 388
+    Width = 816
+    Height = 72
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 1
+    Align = alBottom
+    Bevel.Mode = bmCustom
+    TabOrder = 1
+    OnDblClick = LMDSimplePanel2DblClick
+    object cxLabel1: TcxLabel
+      Left = 624
+      Top = 0
+      Align = alRight
+      Caption = 'R$ 0,00'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clRed
+      Style.Font.Height = -48
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.LookAndFeel.Kind = lfUltraFlat
+      Style.TextColor = clBlue
+      Style.TextStyle = [fsBold]
+      Style.IsFontAssigned = True
+      StyleDisabled.LookAndFeel.Kind = lfUltraFlat
+      StyleFocused.LookAndFeel.Kind = lfUltraFlat
+      StyleHot.LookAndFeel.Kind = lfUltraFlat
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 36
+    end
+    object cxLabel2: TcxLabel
+      AlignWithMargins = True
+      Left = 449
+      Top = 3
+      Margins.Right = 15
+      Align = alRight
+      Caption = 'Total ='
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clRed
+      Style.Font.Height = -48
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.LookAndFeel.Kind = lfUltraFlat
+      Style.TextColor = clBlue
+      Style.TextStyle = []
+      Style.IsFontAssigned = True
+      StyleDisabled.LookAndFeel.Kind = lfUltraFlat
+      StyleFocused.LookAndFeel.Kind = lfUltraFlat
+      StyleHot.LookAndFeel.Kind = lfUltraFlat
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 36
+    end
+    object lbDesconto: TcxLabel
+      AlignWithMargins = True
+      Left = 153
+      Top = 3
+      Cursor = crHandPoint
+      Margins.Right = 30
+      Align = alLeft
+      Caption = 'Desconto (F3)'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -16
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 11316396
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextColor = clBlue
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      ExplicitLeft = 65
+      AnchorY = 36
+    end
+    object cxLabel14: TcxLabel
+      AlignWithMargins = True
+      Left = 289
+      Top = 3
+      Cursor = crHandPoint
+      Margins.Right = 30
+      Align = alLeft
+      Caption = 'Observa'#231#245'es (F4)'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -16
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 11316396
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextColor = clBlue
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      ExplicitLeft = 223
+      AnchorY = 36
+    end
+    object lbPagamento: TcxLabel
+      AlignWithMargins = True
+      Left = 3
+      Top = 3
+      Cursor = crHandPoint
+      Margins.Right = 30
+      Align = alLeft
+      Caption = 'Pagamento (F2)'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -16
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 11316396
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextColor = clBlue
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 36
+    end
+  end
+  object LMDSimplePanel3: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 0
+    Top = 78
+    Width = 816
+    Height = 229
+    Margins.Left = 0
+    Margins.Top = 1
+    Margins.Right = 0
+    Margins.Bottom = 1
+    Align = alClient
+    Bevel.Mode = bmCustom
+    Color = clWhite
+    TabOrder = 2
+    ExplicitHeight = 224
+    object cxPageControl1: TcxPageControl
+      Left = 0
+      Top = 0
+      Width = 816
+      Height = 229
+      Align = alClient
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clGray
+      Font.Height = -16
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+      Properties.ActivePage = cxTabSheet1
+      Properties.CustomButtons.Buttons = <>
+      Properties.HideTabs = True
+      ExplicitHeight = 224
+      ClientRectBottom = 229
+      ClientRectRight = 816
+      ClientRectTop = 0
+      object cxTabSheet1: TcxTabSheet
+        Caption = 'Itens'
+        ImageIndex = 0
+        ExplicitTop = -2
+        ExplicitHeight = 224
+        object cxLabel6: TcxLabel
+          AlignWithMargins = True
+          Left = 3
+          Top = 83
+          Margins.Bottom = 100
+          Align = alClient
+          Caption = '(n'#227'o h'#225' itens)'
+          ParentFont = False
+          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Color = clGray
+          Style.Font.Height = -29
+          Style.Font.Name = 'Tahoma'
+          Style.Font.Style = []
+          Style.TextColor = 15066597
+          Style.TextStyle = []
+          Style.IsFontAssigned = True
+          Properties.Alignment.Horz = taCenter
+          Properties.Alignment.Vert = taVCenter
+          ExplicitHeight = 41
+          AnchorX = 408
+          AnchorY = 106
+        end
+        object cxLabel9: TcxLabel
+          Left = 0
+          Top = 0
+          Align = alTop
+          Caption = 'Itens'
+          Style.TextStyle = [fsUnderline]
+          Properties.Alignment.Horz = taCenter
+          Properties.Alignment.Vert = taVCenter
+          AnchorX = 408
+          AnchorY = 12
+        end
+        object LMDSimplePanel4: TLMDSimplePanel
+          AlignWithMargins = True
+          Left = 0
+          Top = 28
+          Width = 816
+          Height = 52
+          Margins.Left = 0
+          Margins.Top = 5
+          Margins.Right = 0
+          Margins.Bottom = 0
+          Align = alTop
+          Bevel.Mode = bmCustom
+          Color = 13041663
+          TabOrder = 2
+          object Image2: TImage
+            Left = 0
+            Top = 0
+            Width = 65
+            Height = 52
+            Align = alLeft
+            Center = True
+            Picture.Data = {
+              0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D494844520000
+              00380000002008060000004703BBE8000000097048597300000EC400000EC401
+              952B0E1B000003224944415478DAED995D28A45118C7FFAF5951464A4923A110
+              37EE564D6BC80D0AB3D352ACF6D6980BC99528170821B914D3CA475C0CA5767C
+              938F7CCCB65B9B94482817F275E1635929F3B5E73C8B5ECCEE522376F63CF5CE
+              799FE79CE79CE777CE3BE739EF8C040F16A7D309E9B983787240FEE14A323333
+              8DBC1C1A1ABAD66FD5DFB53FB4DD13FA1B5C71084001280005A000148002D0E3
+              0125497FB76241A57ACD4B8D46F34B5F58B8552FB7F3F35EC2956E61FAF594C9
+              ED5FE6E660F3F2A2FB570E07D4494937ED591078939848FAD7D95958150ABAF7
+              92D9E5FDCAC7FF3C3F0F872441B3B7F7ED1E9DD3F9D12D808F69F7377FF944C8
+              EDBF03BCF1178002F05F067421CFB58BBE4F4BC30F6FEF7BEDB41919704AD29F
+              FC9F2E4D28581FE6E161D2752C10FB552072BB3C70A5D50AD3F8F84D7BBE8B7E
+              1A1921FD434A0ABEFBF8D03DDF6DAFED6F593B870BC077E9E9B0B215FFCFF3A0
+              00148002F0C503BE5411800F051C1D1DC5CCCC0C8A8A8AE060F9A9ADAD0D7171
+              71C8C9C941777737767777515A5A0A93C984B5B535E8F57AD86C36B4B7B72385
+              E536B55A8D9A9A1AF8F9F9A1A4A4043D3D3DD8DCDC84C160C0F9F9393A3B3B11
+              1F1F0F9D4E47FD848585A1B0B090FA282B2B4375753596969630C2F262787838
+              F2F3F3DD0BB8B3B3838282020A920FCA078C8888405D5D1D059F9D9D8DF2F272
+              343434E0F8F898829B9C9C24708BC5828989099C9D9D212F2F0FC32CF9575454
+              905E5C5C8CEDED6D34363622363696FCB3B2B268F22A2B2BD1D2D282818101F4
+              F6F6222020005D5D5DF0F5F5456E6EAE7B01A7A6A6D0D7D787D4D454D8ED762C
+              2F2F636565856C5AAD164AA512CDCDCD585C5CA4D54E62EF7B7C455A5B5B6165
+              2797FAFA7A3A3F72FFAAAA2A8C8D8D6170701069EC847378784890ABABABE8E8
+              E8407F7F3F8C4623A6A7A7515B5B0BB3D98CA6A626242727133CAF575CBD33BA
+              0DF0E0E000A7A7A7888E8EA6DFFCD7D7D7111212027F7F7F0AF0F2F2122A950A
+              47474774454545E1E2E2025B5B5BB4325C363636A88C8989219F939313444646
+              D223CFFB0B0D0DA589E28F6E6060205D5CF6F7F711141444E372BFE0E0E0C77D
+              0725C973FF83F178C09F3F1215030FFF4AC30000000049454E44AE426082}
+          end
+          object cxTextEdit1: TcxTextEdit
+            Left = 138
+            Top = 0
+            Cursor = crHandPoint
+            Align = alClient
+            ParentColor = True
+            ParentFont = False
+            Properties.OnChange = cxTextEdit1PropertiesChange
+            Style.BorderStyle = ebsNone
+            Style.Font.Charset = DEFAULT_CHARSET
+            Style.Font.Color = clWindowText
+            Style.Font.Height = -29
+            Style.Font.Name = 'Tahoma'
+            Style.Font.Style = []
+            Style.IsFontAssigned = True
+            StyleFocused.BorderStyle = ebsNone
+            StyleHot.BorderStyle = ebsNone
+            StyleHot.Color = clYellow
+            TabOrder = 0
+            Width = 540
+          end
+          object cxLabel5: TcxLabel
+            Left = 712
+            Top = 0
+            Align = alRight
+            Caption = 'R$ 0,00'
+            ParentFont = False
+            Style.Font.Charset = DEFAULT_CHARSET
+            Style.Font.Color = clRed
+            Style.Font.Height = -29
+            Style.Font.Name = 'Tahoma'
+            Style.Font.Style = []
+            Style.LookAndFeel.Kind = lfUltraFlat
+            Style.TextColor = clGray
+            Style.TextStyle = []
+            Style.IsFontAssigned = True
+            StyleDisabled.LookAndFeel.Kind = lfUltraFlat
+            StyleFocused.LookAndFeel.Kind = lfUltraFlat
+            StyleHot.LookAndFeel.Kind = lfUltraFlat
+            Properties.Alignment.Vert = taVCenter
+            Visible = False
+            AnchorY = 26
+          end
+          object cxLabel7: TcxLabel
+            AlignWithMargins = True
+            Left = 100
+            Top = 3
+            Cursor = crHandPoint
+            Margins.Right = 20
+            Align = alLeft
+            Caption = 'X'
+            ParentFont = False
+            Style.Font.Charset = DEFAULT_CHARSET
+            Style.Font.Color = clWindowText
+            Style.Font.Height = -24
+            Style.Font.Name = 'Tahoma'
+            Style.Font.Style = []
+            Style.HotTrack = False
+            Style.TextColor = 12500670
+            Style.TextStyle = []
+            Style.IsFontAssigned = True
+            StyleHot.BorderStyle = ebsNone
+            StyleHot.TextStyle = [fsBold, fsUnderline]
+            Properties.Alignment.Vert = taVCenter
+            AnchorY = 26
+          end
+          object cxTextEdit2: TcxTextEdit
+            Left = 65
+            Top = 0
+            Cursor = crHandPoint
+            Align = alLeft
+            ParentColor = True
+            ParentFont = False
+            Style.BorderStyle = ebsNone
+            Style.Font.Charset = DEFAULT_CHARSET
+            Style.Font.Color = clWindowText
+            Style.Font.Height = -29
+            Style.Font.Name = 'Tahoma'
+            Style.Font.Style = []
+            Style.HotTrack = False
+            Style.TextStyle = []
+            Style.IsFontAssigned = True
+            StyleFocused.BorderStyle = ebsNone
+            StyleHot.BorderStyle = ebsNone
+            StyleHot.Color = clYellow
+            StyleHot.TextStyle = [fsBold]
+            TabOrder = 3
+            Text = '1'
+            Width = 32
+          end
+          object cxLabel8: TcxLabel
+            AlignWithMargins = True
+            Left = 681
+            Top = 3
+            Cursor = crHandPoint
+            Align = alRight
+            Caption = 'Total ='
+            ParentFont = False
+            Style.Font.Charset = DEFAULT_CHARSET
+            Style.Font.Color = clWindowText
+            Style.Font.Height = -11
+            Style.Font.Name = 'Tahoma'
+            Style.Font.Style = []
+            Style.HotTrack = True
+            Style.TextColor = clSilver
+            Style.IsFontAssigned = True
+            StyleHot.BorderStyle = ebsNone
+            StyleHot.TextStyle = [fsUnderline]
+            Properties.Alignment.Vert = taVCenter
+            Properties.WordWrap = True
+            Visible = False
+            Width = 28
+            AnchorY = 26
+          end
+          object lbDigite: TcxLabel
+            Left = 146
+            Top = 13
+            Caption = 'Digite o c'#243'digo ou descri'#231#227'o do produto e tecle <ENTER>'
+            Style.HotTrack = True
+            Style.TextColor = 13224393
+            StyleHot.BorderStyle = ebsNone
+            StyleHot.TextColor = clGray
+          end
+        end
+      end
+      object cxTabSheet2: TcxTabSheet
+        Caption = 'Pagamento'
+        ImageIndex = 1
+        TabVisible = False
+        ExplicitHeight = 224
+      end
+    end
+  end
+  object LMDSimplePanel5: TLMDSimplePanel
+    Left = 0
+    Top = 0
+    Width = 816
+    Height = 25
+    Align = alTop
+    Bevel.Mode = bmCustom
+    Color = clGray
+    TabOrder = 3
+    object Image4: TImage
+      Left = 696
+      Top = 0
+      Width = 24
+      Height = 25
+      Align = alRight
+      AutoSize = True
+      Center = True
+      Picture.Data = {
+        0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D494844520000
+        00180000001508060000005CE92E26000000097048597300000B1300000B1301
+        009A9C180000017C4944415478DACD95DF2B444114C7EFF8D18A58F22014F263
+        8B48220FC283F242E22FF5E0474A4A9292DAB66D0BD9B6EC03A2D05222747D0E
+        733DDCE6EE4CE3C5D4B7736BCE399F33E7CE0F15388C300C1B305DA80F7DA232
+        BA514ABDD9629543F24ECC2C6A8A4D3DA3432077DE005DF98A2179349ED02690
+        775FC0A0AEBEDAD80750F6058C63262C801300A7BE8031CCA405700CE0DC1730
+        8299B6008E0014FF2DA007B36001EC02B8F605A430ABA831C145CEC286F736D5
+        9029CC68C2748EE4F96AF12E003964CB865548F5DB005EFF0AA80B7EB6EA706C
+        AA80F2003EBC00246EC70CA16E5D7D6DCC452EBD1774858A80EE9D00246EC3C8
+        01EB35244D1AD10D5B00F468049038ADDB3080EA0D492A28AB63A4652D061FD9
+        4D257406A8F20B20794607A5923A860E08BAD4FEFD98F92A2B9277228BFF85C2
+        591E92C5C0FEC365E93BDA6F09A52DFE52D49E0066F8C838F6791DD5A0B5C0ED
+        FF7CAF604EF7DD36A4A75BBA3239DDCD0E31250148F20E07E787E85AD69760AB
+        43CCED1754E489BF8101FFE90000000049454E44AE426082}
+      ExplicitHeight = 21
+    end
+    object cxLabel4: TcxLabel
+      AlignWithMargins = True
+      Left = 7
+      Top = 3
+      Cursor = crHandPoint
+      Margins.Left = 7
+      Margins.Right = 7
+      Align = alLeft
+      Caption = 'Salvar (F2)'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 15132390
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      OnClick = cxLabel4Click
+      AnchorY = 13
+    end
+    object cxLabel10: TcxLabel
+      AlignWithMargins = True
+      Left = 723
+      Top = 3
+      Cursor = crHandPoint
+      Align = alRight
+      Caption = 'Jos'#233' Rodrigues'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 15461355
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 13
+    end
+    object cxLabel11: TcxLabel
+      AlignWithMargins = True
+      Left = 89
+      Top = 3
+      Cursor = crHandPoint
+      Margins.Left = 7
+      Align = alLeft
+      Caption = 'Cancelar'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 15132390
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      OnClick = cxLabel2Click
+      AnchorY = 13
+    end
+  end
+  object panObs: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 0
+    Top = 308
+    Width = 816
+    Height = 39
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 1
+    AutoSize = True
+    Align = alBottom
+    Bevel.Mode = bmCustom
+    TabOrder = 4
+    ExplicitTop = 318
+    object cxLabel12: TcxLabel
+      AlignWithMargins = True
+      Left = 92
+      Top = 10
+      Cursor = crHandPoint
+      Margins.Left = 92
+      Margins.Top = 10
+      Margins.Right = 0
+      Margins.Bottom = 10
+      Align = alTop
+      Caption = 'Cliente ficou de voltar mais tarde'
+      ParentFont = False
+      Style.BorderColor = clSilver
+      Style.BorderStyle = ebsNone
+      Style.Edges = [bRight]
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -16
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = clBlue
+      Style.TransparentBorder = False
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextColor = clBlue
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      ExplicitTop = 3
+      AnchorY = 20
+    end
+    object lbPromptObs: TcxLabel
+      Left = 3
+      Top = 9
+      Cursor = crHandPoint
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Caption = 'Observa'#231#245'es:'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clWindowText
+      Style.Font.Height = -13
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.HotTrack = True
+      Style.TextColor = 11316396
+      Style.IsFontAssigned = True
+      StyleHot.BorderStyle = ebsNone
+      StyleHot.TextColor = clBlue
+      StyleHot.TextStyle = [fsUnderline]
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 19
+    end
+  end
+  object LMDSimplePanel6: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 0
+    Top = 348
+    Width = 816
+    Height = 39
+    Margins.Left = 0
+    Margins.Top = 0
+    Margins.Right = 0
+    Margins.Bottom = 1
+    Align = alBottom
+    Bevel.Mode = bmCustom
+    Color = 14277119
+    TabOrder = 5
+    object cxLabel15: TcxLabel
+      Left = 705
+      Top = 0
+      Align = alRight
+      Caption = 'R$ 17,50'
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clRed
+      Style.Font.Height = -24
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.LookAndFeel.Kind = lfUltraFlat
+      Style.TextColor = clRed
+      Style.TextStyle = [fsBold]
+      Style.IsFontAssigned = True
+      StyleDisabled.LookAndFeel.Kind = lfUltraFlat
+      StyleFocused.LookAndFeel.Kind = lfUltraFlat
+      StyleHot.LookAndFeel.Kind = lfUltraFlat
+      StyleHot.TextColor = clRed
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 20
+    end
+    object cxLabel16: TcxLabel
+      AlignWithMargins = True
+      Left = 568
+      Top = 0
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 10
+      Margins.Bottom = 0
+      Align = alRight
+      Caption = 'Desconto ='
+      ParentFont = False
+      Style.Font.Charset = DEFAULT_CHARSET
+      Style.Font.Color = clRed
+      Style.Font.Height = -24
+      Style.Font.Name = 'Tahoma'
+      Style.Font.Style = []
+      Style.LookAndFeel.Kind = lfUltraFlat
+      Style.TextColor = clRed
+      Style.TextStyle = []
+      Style.IsFontAssigned = True
+      StyleDisabled.LookAndFeel.Kind = lfUltraFlat
+      StyleFocused.LookAndFeel.Kind = lfUltraFlat
+      StyleHot.LookAndFeel.Kind = lfUltraFlat
+      Properties.Alignment.Vert = taVCenter
+      AnchorY = 20
+    end
+  end
+end

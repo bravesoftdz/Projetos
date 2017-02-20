@@ -1,0 +1,64 @@
+unit uGetSerial;
+
+interface
+
+
+uses
+      ActiveX,
+      ComObj;
+      
+
+implementation
+
+    var
+      FSWbemLocator : OLEVariant;
+      FWMIService   : OLEVariant;
+
+    function  GetWMIstring(const WMIClass, WMIProperty:string): string;
+    const
+      wbemFlagForwardOnly = $00000020;
+    var
+      FWbemObjectSet: OLEVariant;
+      FWbemObject   : OLEVariant;
+      oEnum         : IEnumvariant;
+      iValue        : LongWord;
+    begin;
+      Result:='';
+      FWbemObjectSet:= FWMIService.ExecQuery(Format('Select %s from %s',[WMIProperty, WMIClass]),'WQL',wbemFlagForwardOnly);
+      oEnum         := IUnknown(FWbemObjectSet._NewEnum) as IEnumVariant;
+      if oEnum.Next(1, FWbemObject, iValue) = 0 then
+      if not VarIsNull(FWbemObject.Properties_.Item(WMIProperty).Value) then
+        Result:=FWbemObject.Properties_.Item(WMIProperty).Value;
+      FWbemObject:=Unassigned;
+    end;
+
+function GetSerial: String;
+var 
+  s: String;
+  P : Integer;
+
+procedure Add(ss: String);
+begin
+  if Result>'' then Result := Result + sLineBreak;
+  Result := Result + ss;
+end;  
+  
+begin
+  FSWbemLocator := CreateOleObject('WbemScripting.SWbemLocator');
+  FWMIService   := FSWbemLocator.ConnectServer('localhost', 'root\CIMV2', '', '');
+  s:= GetWMIstring('Win32_PhysicalMedia','SerialNumber');
+  Result := '';
+  while (s>'') do begin
+    P := Pos(';', s);
+    if P>0 then begin
+      Add(Copy(s, 1, P-1));
+      Delete(s, 1, P);
+    end else begin
+      Add(s);
+      s := '';
+    end;
+  end;
+  Add(GetWMIstring('Win32_BIOS','SerialNumber'));
+end;
+    
+end.

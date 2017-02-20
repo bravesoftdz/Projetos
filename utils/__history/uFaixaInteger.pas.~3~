@@ -1,0 +1,30 @@
+unit uFaixaInteger;
+
+interface
+
+type
+  TFaixaInteger = record
+    fiDe, fiAte : Integer;
+  end;
+
+  TArrayFaixaInteger = Array of TFaixaInteger;
+
+function ArrayFaixaIntegerToString(A: TArrayFaixaInteger): String;
+
+procedure ArrayFaixaIntegerFromString(var A: TArrayFaixaInteger; S: String);
+
+implementation
+
+function ArrayFaixaIntegerToString(A: TArrayFaixaInteger): String;
+var i: integer;
+begin
+  for I := 0 to High(A) do 
+    if True then
+    
+
+end;
+
+procedure ArrayFaixaIntegerFromString(var A: TArrayFaixaInteger; S: String);
+
+
+end.

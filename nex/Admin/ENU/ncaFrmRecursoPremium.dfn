@@ -1,0 +1,1623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmRecursoPremium.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmRecursoPremium.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428240741</prop>
+        <prop prop-type="OrigDateTime">42241.5409259259</prop>
+        <prop prop-type="XlatDateTime">42241.5409259259</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">321</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmRecursoPremium.Left" resname="O:FrmRecursoPremium.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Top" resname="O:FrmRecursoPremium.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.BorderStyle" resname="O:FrmRecursoPremium.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.BorderWidth" resname="O:FrmRecursoPremium.BorderWidth">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Caption" resname="O:FrmRecursoPremium.Caption">
+        <source>'Recurso PREMIUM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.ClientHeight" resname="O:FrmRecursoPremium.ClientHeight">
+        <source>300</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.ClientWidth" resname="O:FrmRecursoPremium.ClientWidth">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Color" resname="O:FrmRecursoPremium.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Font.Charset" resname="O:FrmRecursoPremium.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Font.Color" resname="O:FrmRecursoPremium.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Font.Height" resname="O:FrmRecursoPremium.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Font.Name" resname="O:FrmRecursoPremium.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Font.Style" resname="O:FrmRecursoPremium.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.KeyPreview" resname="O:FrmRecursoPremium.KeyPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.OldCreateOrder" resname="O:FrmRecursoPremium.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.Position" resname="O:FrmRecursoPremium.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.OnClose" resname="O:FrmRecursoPremium.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.OnCreate" resname="O:FrmRecursoPremium.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.OnKeyPress" resname="O:FrmRecursoPremium.OnKeyPress">
+        <source>FormKeyPress</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.PixelsPerInch" resname="O:FrmRecursoPremium.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.TextHeight" resname="O:FrmRecursoPremium.TextHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TFrmRecursoPremium</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.AlignWithMargins" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Left" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Top" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Width" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Height" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Height">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Hint" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Left" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Top" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Right" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Bottom" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Align" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.TabOrder" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.AlignWithMargins" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Left" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Top" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Width" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Width">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Height" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Align" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.AutoSize" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Center" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Center">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Picture.Data" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.Picture.Data">
+        <source>0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000020000000200806000000737A7AF4000000017352474200AECE1CE90000000467414D410000B18F0BFC6105000000097048597300000EBC00000EBC0195BC7249000005BB494441545847ED956B4C936714C70B43710E8C665EC051C028688B20D7B62F2D172B8238943929084EA922C57899C836E717D9B2648B75192E2A262E316A22E89A6C99138C9B22435A2A2AA0A54C376771AB084C50E7651942DFFFCE5B8A6BEDAB6CFBA05F7C931F7DCEFF1CCE739EBBE0C5F7DC3F00CF155EF15FA2026CBA41B8366FCCB0F08AC3C3AA8E7E5B859CEC0264AB56E1C8916A92D9FF5504AF380CCCB1EA639044CDC2FEAD42ECD30A912011A3BAEA38B958E6B1D861E113B9913C6534AC2A3B7B25767D9C0A74BC0C5C13C050E10BF5F255E47EEA52F0E67536840F1FF6E9F6EF3B806DDAED68B758B8B575F63B6055B9B9ABF179692470C31BF85580E37B5E813ABF88DCFC05582C16A356BB037BF71E425F5F1F975738E4730ED42D7F4B8DF97393A0CE49862C964157676789937F0861EDA93AAB2C5A841D5B8251FEA1100A890835357556CEF758AC80CBC14818ACCC9E85E58B4250B8424D321E0DCE39581730391496D372E08F71C8793D0415155F93FC4F3227187DBD1EFE7E224C9C3813A74F1B48E25FFF43955F227D0EB9BAA9B61F05981BEF47F2130A888D8EC7271BFDD0F0D5682CC99806A3B1E509CB30505652FC3EE62BE39093311DEF95BC03166C195FECF973E77471D1521CFD22147B3FF241BC5446327F01C25693C99A975B00FF09C128D9B889249EA3C5F697156936208991A0D3380D039784C8484DC06ACD3A72DB788A6055EF528193C60762695E014C175B5D96EAB160CE613316A8F3112116E170E541926C4E533B50A6292CC6BCC4E9E83A13649F52DB9568DC378721273D0085851BB878A7226CCCE1CA0ACA15868215F924B146FAE3B24F1E359C2829DFB91351E1919815110FEDD6CF48B2A9B89117AE2A8646E58F3F5B47DB3BEF6F19046D023C30052033458C22CD7A2EBE8CE255DAADDB11191E8BC899E128DFB98B74F71975311C30F5B4C116A6A7E19A3E059A2C3F14179762DD9AF5488E8FC1ED9610E012D7B127D8560F80E8BFF012F0932F6E37BD8AD404315617BD8D0DC51F607E5210ACF501589B1F8553B58D941A6E1BD5C518E2DEBD07BA9444097EAFF3C41DF358DA9081503049B8DE18075CF6A4CEBD0093076C1769094C23EC85F4B750319705B01A15485326634BD118DC25DF2F27C6439920039793AF2F37C10EDBAFE36EBB8A6DE3EDB7DD3D7322EE37D1F1B9EC8D011A2D3BD4B91D4F82B456CE37D23E137DE660C04CA9DA3D5073602A962D5D4169D9FF5000D812ADB61C9B3422E0AA0F4D31D56412E0218DDC46ED01EA70C034923AF4A03607D9766D04FA9B29960AFBAB995B162FB47DE3853DBB77535AFE5BD24DE0B0D96C4C43C35964A6C5806D1B3B389AB65134038EF6A589D4F671E84E0CD9AD0EAE08B059138CDABA66B02CFF45E5263810DEEAEDB5C646C5A2E6600C6E36CF40E75925BAF593D1DB22C7DD466F74344871A351812E43103AF553D0A59F845BC6B1E8D1FBA0D7300A3D2DE168D28D815C12899E9E1EDE6B9AC34D2084747B596727A5223A6C2A948A08482572301219929919B4A1A4C85086222E46411A83D44411647132B2E3912C97628E3C044A7918185922E2E3C2211649A14C4EC7F9734DBC45B81883D874E9F316E3D3CD62DCB9300E778C5EE8A80F46873E0CDD8600581BE834D405D2C803D15D3F0E3D0DBEB86110A3E3CC6C5C3F938EEE1F4651FC1474186268560270F3621A8EECF0C692AC37293DDC6E4A17631056A790CFA3BB3B0CE8F2047EA6B5BF4AC7CE422ECBE0FBCFED6EBBFDDB34FAA5BDD0CE69BED4A6E7F91A9D96F631F43F5CFC6BF4647BE1E48110A4CC9E4BE9DD4F828BE1A0A4B2A2124C9C146BF202A0CE0AA507478C75CB02A15E2C42E95A7F68964C45516E30162F9C83A58B2250BA6602F2DE8841CE8228642D90237B81042BB3829093A9406E6628A4B1721CAA384CA959B7E7DDC570A2CC6C36A3BAFA04AAAA4E12DCEF29A7DF1A07C788EF895AE23B47FBB8A3CDF907DB6D948B3AE77D2DDD042768C3D8EFEEE161878DE33D011CBCE2B384577C96BCF89EF32710FC0DAAA92D84DEB135850000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.ExplicitHeight" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:Image1.ExplicitHeight">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.AlignWithMargins" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Left" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Left">
+        <source>41</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Top" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Align" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Caption" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Caption">
+        <source>'Recurso exclusivo para assinantes PREMIUM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.ParentFont" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Charset" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Color" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Height" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Name" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Style" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Properties.Alignment.Vert" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.AnchorY" resname="O:FrmRecursoPremium.O:LMDSimplePanel1.O:cxLabel1.AnchorY">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Left" resname="O:FrmRecursoPremium.O:Paginas.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Top" resname="O:FrmRecursoPremium.O:Paginas.Top">
+        <source>98</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Width" resname="O:FrmRecursoPremium.O:Paginas.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461458</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Height" resname="O:FrmRecursoPremium.O:Paginas.Height">
+        <source>173</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Align" resname="O:FrmRecursoPremium.O:Paginas.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.TabOrder" resname="O:FrmRecursoPremium.O:Paginas.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Properties.ActivePage" resname="O:FrmRecursoPremium.O:Paginas.Properties.ActivePage">
+        <source>tsPro</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Properties.CustomButtons.Buttons" resname="O:FrmRecursoPremium.O:Paginas.Properties.CustomButtons.Buttons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.Properties.HideTabs" resname="O:FrmRecursoPremium.O:Paginas.Properties.HideTabs">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.LookAndFeel.NativeStyle" resname="O:FrmRecursoPremium.O:Paginas.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.ClientRectBottom" resname="O:FrmRecursoPremium.O:Paginas.ClientRectBottom">
+        <source>173</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.ClientRectRight" resname="O:FrmRecursoPremium.O:Paginas.ClientRectRight">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.ClientRectTop" resname="O:FrmRecursoPremium.O:Paginas.ClientRectTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.Caption">
+        <source>'tsFREE'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.ImageIndex" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Top">
+        <source>62</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Caption">
+        <source>'Saiba mais sobre os planos NEX'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbPlanos.OnClick">
+        <source>lbPlanosClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Top">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461574</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Caption">
+        <source>'Assinar o Plano PREMIUM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:lbAssinar.OnClick">
+        <source>lbAssinarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Caption">
+        <source>'Clique na opção desejada:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Properties.WordWrap" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Width" resname="O:FrmRecursoPremium.O:Paginas.O:tsFree.O:cxLabel2.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.Caption">
+        <source>'tsTrial'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.ImageIndex" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.ImageIndex">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Top">
+        <source>62</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742846169</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Caption">
+        <source>'Assinar o plano PREMIUM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbAssinarPremium.OnClick">
+        <source>lbAssinarPremiumClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Top">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Caption">
+        <source>'Testar gratuitamente o plano PREMIUM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbTestarPremium.OnClick">
+        <source>lbTestarPremiumClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Caption">
+        <source>'Clique na opção desejada:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461806</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Properties.WordWrap" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Width" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:lbCliqueOpcao.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Top">
+        <source>93</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Caption">
+        <source>'Saiba mais sobre os planos NEX'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsTrial.O:cxLabel6.OnClick">
+        <source>lbPlanosClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.Caption">
+        <source>'tsPro'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.ImageIndex" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.ImageIndex">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Top">
+        <source>62</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Caption">
+        <source>'Saiba mais sobre os planos NEX'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428461921</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel3.OnClick">
+        <source>lbPlanosClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Top">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Cursor" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Caption">
+        <source>'Migrar para o plano PREMIUM'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.TextColor" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.OnClick" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:lbMigrar.OnClick">
+        <source>lbMigrarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.AlignWithMargins" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Left" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Top" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Right" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Bottom" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Align" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Caption" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Caption">
+        <source>'Clique na opção desejada:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.ParentFont" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Charset" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Color" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Height" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462037</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Name" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Style" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.TextStyle" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">271</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Properties.WordWrap" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">272</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Width" resname="O:FrmRecursoPremium.O:Paginas.O:tsPro.O:cxLabel5.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">273</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Left" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">274</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Top" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Top">
+        <source>271</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">275</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Width" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">276</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Height" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Height">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">277</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Hint" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">278</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Align" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">279</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.Bevel.Mode" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">280</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.TabOrder" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">281</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Left" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">282</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Top" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">283</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Width" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">284</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Height" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Height">
+        <source>29</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">285</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Align" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">286</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Caption" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">287</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Default" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">288</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.LookAndFeel.Kind" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">289</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.ModalResult" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">290</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.TabOrder" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">291</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Charset" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">292</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Color" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">293</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Height" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">294</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Name" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">295</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Style" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">296</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.ParentFont" resname="O:FrmRecursoPremium.O:LMDSimplePanel2.O:btnOk.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">297</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.AlignWithMargins" resname="O:FrmRecursoPremium.O:lbDescr.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">298</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Left" resname="O:FrmRecursoPremium.O:lbDescr.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">299</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Top" resname="O:FrmRecursoPremium.O:lbDescr.Top">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">300</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Margins.Left" resname="O:FrmRecursoPremium.O:lbDescr.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">301</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Margins.Top" resname="O:FrmRecursoPremium.O:lbDescr.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">302</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Margins.Right" resname="O:FrmRecursoPremium.O:lbDescr.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">303</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Margins.Bottom" resname="O:FrmRecursoPremium.O:lbDescr.Margins.Bottom">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">304</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Align" resname="O:FrmRecursoPremium.O:lbDescr.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">305</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Caption" resname="O:FrmRecursoPremium.O:lbDescr.Caption">
+        <source>'O uso do NEX em REDE é um recurso exclusivo para assinantes do plano PREMIUM.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">306</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.ParentFont" resname="O:FrmRecursoPremium.O:lbDescr.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462153</prop><prop prop-type="Status">0</prop><prop prop-type="Order">307</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.Font.Charset" resname="O:FrmRecursoPremium.O:lbDescr.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">308</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.Font.Color" resname="O:FrmRecursoPremium.O:lbDescr.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">309</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.Font.Height" resname="O:FrmRecursoPremium.O:lbDescr.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">310</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.Font.Name" resname="O:FrmRecursoPremium.O:lbDescr.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">311</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.Font.Style" resname="O:FrmRecursoPremium.O:lbDescr.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">312</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.TextStyle" resname="O:FrmRecursoPremium.O:lbDescr.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">313</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Style.IsFontAssigned" resname="O:FrmRecursoPremium.O:lbDescr.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">314</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Properties.WordWrap" resname="O:FrmRecursoPremium.O:lbDescr.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">315</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:lbDescr.Width" resname="O:FrmRecursoPremium.O:lbDescr.Width">
+        <source>407</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">316</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Timer1.Enabled" resname="O:FrmRecursoPremium.O:Timer1.Enabled">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">317</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Timer1.Interval" resname="O:FrmRecursoPremium.O:Timer1.Interval">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">318</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Timer1.Left" resname="O:FrmRecursoPremium.O:Timer1.Left">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">319</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmRecursoPremium.O:Timer1.Top" resname="O:FrmRecursoPremium.O:Timer1.Top">
+        <source>202</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428462269</prop><prop prop-type="Status">0</prop><prop prop-type="Order">320</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

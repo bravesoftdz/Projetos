@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaAlertaClonarProduto.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaAlertaClonarProduto.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7416666667</prop>
+        <prop prop-type="OrigDateTime">41516.7763425926</prop>
+        <prop prop-type="XlatDateTime">41516.7763425926</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">53</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:panAlertaClonarProduto.Width" resname="I:panAlertaClonarProduto.Width">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TpanAlertaClonarProduto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.ExplicitWidth" resname="I:panAlertaClonarProduto.ExplicitWidth">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TpanAlertaClonarProduto</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.Width" resname="I:panAlertaClonarProduto.I:panPri.Width">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.Height" resname="I:panAlertaClonarProduto.I:panPri.Height">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.Color" resname="I:panAlertaClonarProduto.I:panPri.Color">
+        <source>16053492</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.ExplicitLeft" resname="I:panAlertaClonarProduto.I:panPri.ExplicitLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.ExplicitWidth" resname="I:panAlertaClonarProduto.I:panPri.ExplicitWidth">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.ExplicitHeight" resname="I:panAlertaClonarProduto.I:panPri.ExplicitHeight">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:Img.Height" resname="I:panAlertaClonarProduto.I:panPri.I:Img.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416843981</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:Img.Picture.Data" resname="I:panAlertaClonarProduto.I:panPri.I:Img.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D4948445200000018000000180806000000E0773DF80000002A744558744372656174696F6E2054696D65004D692035204D727A20323030332030313A31363A3336202B303130302D49F2060000000774494D45D60705170D3B00ED210ED4000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC6105000004DE4944415478DAA556694C1467187E66662F8E0516B425D4583468C11A532D88363D482C256D341A6B8D3F6A4A7AFCB0B6923512E3D560538456A545241A28AEB5A4DA966CA1661BAD66498A421559AFA2EB811511C408ECB2F7CEECCCF49D5DB45885423B9B27DF37DFF13EEF3DCB607C0F336C2E8FF7C2884FF30EACF4CABA22954697D075D3692E31A3E87227EED116FFBF092EECC14B42ECCCC6F4BC0A0EB2803BED07F1D3B7A69A42134A69BB9320FC6702B91CEC511EAD7397D5CE611819B2E8874AA7C5B9FA4F0205659DC6B31DA8A763774773D7A804CDBBF14152DAE2AAE4192B10E21D24C60FB02184027DF8A17C7BE3C755D842C76C04FFB8096E1E4242AF436BCF58B8EF4949F4806578C844208A3E705C081D2D0DF296B28B5B7F69C53774BC8B208E8BC05689B289CF7F688C4BC984D87D0057DA5B1012656465A7C117974B177D385C516D7FBF126B791E27E98A6BCC047FD622C3899473535F29D1C07502C59F55A3AC6112F47A3D3E5AD287A2F553E1E6A6A1F74A3BB6979EADACB162375DBB4E088D89C0B6074726BD5C94C745C723CAD580DC7C1B6E0D4C803E260689060D9A0EF6C0216641ADE3613559FB576DE70B7A1C384A57FBFF19F04708EC262C9293B21B9267BDCD888203F1A1462C5D750E97BA93111B138DD41416F5355D7006D3C1AA82F0F43950F1A9FDC75273386DDB09C11109F872685A803F662D2A9B265260217BA1E7AE60C79756988E4D419C3E162B5EEBC3BA35125C7C3C58D60F4D4C08A7EABA0463A96F9DAD037524E6CE702B1E22682EC7FA27662D2D4D4A9D0F5150ACF542AD09A2E3F77D585E340771B1B1D85B741E33B39E82100A826103612B6451C0D71BFA4F184DD84497CE107C8F109CD98594A04A7F79E6C2CFE384C0DDA1A4F052DEF348D2FD8CAC25D3499801A72C8D700553497B0F182E008E48D4D13CDA8F09F2C6AD72B1A50D26442A5C7C88A0E90BEC9FB260ED3B518664C8A1015A2117312484F1C310634749851FBD0389D8B5D30E8F5B4FC2BD60397FD8025625411D055419D161AC84D127E0371230F880A07517E62121FDE4F49CB5AC10E8A1157744B83292A62A7580FC7F1A225913E027842D63150245B846A639C0A9805B17814DAB5155DB84723A748D20508701632E454BCE9B5F65334C0892E48CB827ACBD1BACDA0BCED789EBA7AF213A96C5332F68E0D78A24DC1716AE22C1E0FE7685791B5C053B5070DB010BBDF631DF6D45FEB3CFBDB1EFE9D9CB1831D84BED4011EE1ED2DE0DB5D6874B478EE2D5C274AA8189B0569DC7E4F9BE704DB16A84313C533C941B85CB51BFD78A6DF47A81316F862D77D5A1D97C80DA3B691F2150B48F10A9B41E5C3DDE88D737646262D2047CBFFB3432E6528C58D25EF3F852AD2B86E7ADCD28A0A985B19418BA73DEDD9F1270DFA0EC755302BB22DA13014316302A0F12B8EB686B23F2681D325FEC072FC9E04838CBD2B1C710D46E86736571B87D9898EAD530E5E56FCC37A4A4513EF743A2E0B3E118382304DC2005D0456DC149E32024252E9AC0483D1237DA8035EFC16C390F0A390E3073A763F2E22CEC9C9191B840CDB1A497443F2585A5212869204292655914255199931FC3AE51069EB6281C9252BA8E01B80F37E1CCAF17718FF694543DAE18A878720A611E218D108591DBB88CC77FBDEEAF4B9102C25525FB09B7EF0BD21212083191A41BF54B27FFCBBA3044E20AD7C1B00363FA8731C6E781127F0101C508B2A1B711CC0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:Img.Visible" resname="I:panAlertaClonarProduto.I:panPri.I:Img.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Left" resname="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Left">
+        <source>163</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Caption" resname="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Caption">
+        <source>'Esta opção serve para facilitar o cadastro de produtos com dados semelhantes evitando que tenha que redigitar informações repetidas.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Style.IsFontAssigned" resname="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Width" resname="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.Width">
+        <source>816</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.AnchorY" resname="I:panAlertaClonarProduto.I:panPri.I:lbMensagem.AnchorY">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.Top" resname="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.Top">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.Width" resname="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.Width">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.ExplicitWidth" resname="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.ExplicitWidth">
+        <source>637</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.I:Image3.Width" resname="I:panAlertaClonarProduto.I:panPri.I:LMDSimplePanel1.I:Image3.Width">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.AlignWithMargins" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Left" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Left">
+        <source>984</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Top" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Cursor" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Margins.Left" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Margins.Top" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Margins.Bottom" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Align" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Align">
+        <source>alRight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Caption" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Caption">
+        <source>'Fechar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.ParentFont" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Charset" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Color" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Color">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Height" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Name" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Name">
+        <source>'MS Sans Serif'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Style" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.Font.Style">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.IsFontAssigned" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Properties.Alignment.Vert" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.OnClick" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.OnClick">
+        <source>lbFecharClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.ExplicitLeft" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.ExplicitLeft">
+        <source>987</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:lbFechar.AnchorY" resname="I:panAlertaClonarProduto.I:panPri.O:lbFechar.AnchorY">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Left" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Left">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Top" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Align" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Caption" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Caption">
+        <source>'Clonando produto: '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.ParentFont" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Charset" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Color" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Height" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Name" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Style" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.IsFontAssigned" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Properties.Alignment.Vert" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.AnchorY" resname="I:panAlertaClonarProduto.I:panPri.O:cxLabel1.AnchorY">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7416844097</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,1594 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0b0cdb43-0f8c-41e9-86ce-3d449ba62696}</ProjectGuid>
+        <MainSource>NexAdmin400.dpr</MainSource>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+        <DCC_DependencyCheckOutputName>C:\Meus Programas\Nex\NexAdmin_Loja.exe</DCC_DependencyCheckOutputName>
+        <Base>True</Base>
+        <Config Condition="'$(Config)'==''">Debug</Config>
+        <TargetedPlatforms>1</TargetedPlatforms>
+        <AppType>Application</AppType>
+        <FrameworkType>VCL</FrameworkType>
+        <ProjectVersion>18.0</ProjectVersion>
+        <Platform Condition="'$(Platform)'==''">Win32</Platform>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+        <Base_Win32>true</Base_Win32>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+        <Base_Win64>true</Base_Win64>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_1)'!=''">
+        <Cfg_1>true</Cfg_1>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+        <Cfg_1_Win32>true</Cfg_1_Win32>
+        <CfgParent>Cfg_1</CfgParent>
+        <Cfg_1>true</Cfg_1>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_2)'!=''">
+        <Cfg_2>true</Cfg_2>
+        <CfgParent>Base</CfgParent>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+        <Cfg_2_Win32>true</Cfg_2_Win32>
+        <CfgParent>Cfg_2</CfgParent>
+        <Cfg_2>true</Cfg_2>
+        <Base>true</Base>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base)'!=''">
+        <DCC_OutputDRCFile>true</DCC_OutputDRCFile>
+        <DCC_UseMSBuildExternally>true</DCC_UseMSBuildExternally>
+        <VerInfo_Debug>true</VerInfo_Debug>
+        <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+        <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+        <DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;Winapi;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Build>254</VerInfo_Build>
+        <VerInfo_Locale>1046</VerInfo_Locale>
+        <SanitizedProjectName>NexAdmin400</SanitizedProjectName>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.254;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_MajorVer>5</VerInfo_MajorVer>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win32)'!=''">
+        <DCC_UseMSBuildExternally>true</DCC_UseMSBuildExternally>
+        <DCC_UsePackage>rtl;vcl;dbrtl;vcldb;FormMgrR_XE7;cxDataRS21;cxEditorsRS21;dxThemeRS21;dxGDIPlusRS21;cxLibraryRS21;dxCoreRS21;NexDocEdit;vclx;cxPageControlRS21;dxDockingRS21;$(DCC_UsePackage)</DCC_UsePackage>
+        <Icon_MainIcon>NexAdmin_Loja_Icon4.ico</Icon_MainIcon>
+        <DCC_Namespace>System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+        <VerInfo_MajorVer>5</VerInfo_MajorVer>
+        <VerInfo_Build>254</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.254;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <PostBuildEvent><![CDATA[copy "c:\meus programas\nex\nexadmin_loja.exe" "c:\meus programas\nex\nexadmin.exe"
+$(PostBuildEvent)]]></PostBuildEvent>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Base_Win64)'!=''">
+        <DCC_UsePackage>rtl;vcl;dbrtl;vcldb;cxDataRS21;cxEditorsRS21;dxThemeRS21;dxGDIPlusRS21;cxLibraryRS21;dxCoreRS21;vclx;cxPageControlRS21;dxDockingRS21;$(DCC_UsePackage)</DCC_UsePackage>
+        <Icon_MainIcon>NexAdmin_Loja_Icon4.ico</Icon_MainIcon>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1)'!=''">
+        <Version>7.0</Version>
+        <DCC_DebugInformation>0</DCC_DebugInformation>
+        <DCC_LocalDebugSymbols>False</DCC_LocalDebugSymbols>
+        <DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+        <DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.257;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+        <VerInfo_Build>257</VerInfo_Build>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2)'!=''">
+        <DCC_UseMSBuildExternally>true</DCC_UseMSBuildExternally>
+        <Version>7.0</Version>
+        <DCC_Define>DEBUG;madExcept;$(DCC_Define)</DCC_Define>
+        <DCC_DcuOutput>C:\ProjetoDCU\D2007\nex</DCC_DcuOutput>
+        <DCC_ObjOutput>C:\ProjetoDCU\D2007\nex</DCC_ObjOutput>
+        <DCC_HppOutput>C:\ProjetoDCU\D2007\nex</DCC_HppOutput>
+        <DCC_ExeOutput>C:\Meus Programas\Nex</DCC_ExeOutput>
+        <DCC_MapFile>3</DCC_MapFile>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+        <PostBuildEvent><![CDATA[copy "c:\meus programas\nex4\nexadmin400.exe" "c:\meus programas\nex4\nexadmin.exe"
+$(PostBuildEvent)]]></PostBuildEvent>
+        <DCC_ExeOutput>C:\Meus Programas\Nex4</DCC_ExeOutput>
+        <DCC_DcuOutput>C:\ProjetoDCU\Nex4\</DCC_DcuOutput>
+        <DCC_Hints>false</DCC_Hints>
+        <DCC_UseMSBuildExternally>false</DCC_UseMSBuildExternally>
+        <DCC_RemoteDebug>true</DCC_RemoteDebug>
+        <VerInfo_Build>321</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.321;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.321;Comments=</VerInfo_Keys>
+        <VerInfo_Locale>1033</VerInfo_Locale>
+    </PropertyGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Delphi.Personality.12</Borland.Personality>
+        <Borland.ProjectType>VCLApplication</Borland.ProjectType>
+        <BorlandProject>
+            <Delphi.Personality>
+                <Parameters>
+                    <Parameters Name="UseLauncher">False</Parameters>
+                    <Parameters Name="LoadAllSymbols">True</Parameters>
+                    <Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+                </Parameters>
+                <VersionInfo>
+                    <VersionInfo Name="IncludeVerInfo">True</VersionInfo>
+                    <VersionInfo Name="AutoIncBuild">False</VersionInfo>
+                    <VersionInfo Name="MajorVer">5</VersionInfo>
+                    <VersionInfo Name="MinorVer">0</VersionInfo>
+                    <VersionInfo Name="Release">0</VersionInfo>
+                    <VersionInfo Name="Build">254</VersionInfo>
+                    <VersionInfo Name="Debug">False</VersionInfo>
+                    <VersionInfo Name="PreRelease">False</VersionInfo>
+                    <VersionInfo Name="Special">False</VersionInfo>
+                    <VersionInfo Name="Private">False</VersionInfo>
+                    <VersionInfo Name="DLL">False</VersionInfo>
+                    <VersionInfo Name="Locale">1046</VersionInfo>
+                    <VersionInfo Name="CodePage">1252</VersionInfo>
+                </VersionInfo>
+                <VersionInfoKeys>
+                    <VersionInfoKeys Name="CompanyName"/>
+                    <VersionInfoKeys Name="FileDescription"/>
+                    <VersionInfoKeys Name="FileVersion">5.0.0.254</VersionInfoKeys>
+                    <VersionInfoKeys Name="InternalName"/>
+                    <VersionInfoKeys Name="LegalCopyright"/>
+                    <VersionInfoKeys Name="LegalTrademarks"/>
+                    <VersionInfoKeys Name="OriginalFilename"/>
+                    <VersionInfoKeys Name="ProductName"/>
+                    <VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+                    <VersionInfoKeys Name="Comments"/>
+                </VersionInfoKeys>
+                <Source>
+                    <Source Name="MainSource">NexAdmin400.dpr</Source>
+                </Source>
+                <Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dcloffice2k230.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="$(BDSBIN)\dclofficexp230.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                </Excluded_Packages>
+                <Language>
+                    <Language Name="ProjectLang">$00000416</Language>
+                    <Language Name="ActiveLang">ENU</Language>
+                </Language>
+                <Resource_DLL_Projects>
+                    <Resource_DLL_Projects Name="Item0">English (United States)*$00000409*ENU*ENU</Resource_DLL_Projects>
+                </Resource_DLL_Projects>
+                <RDP_Source_Files>
+                    <RDP_Source_Files Name="Item0">ncaDM.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item1">ufmImagens.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item2">..\..\FormMgr\ufmFormBase.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item3">ncaFrmLogin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item4">ncafbTran.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item5">ncaFrmTipos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item6">ncafbCartoes.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item7">ncaFrmCadFornecedor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item8">ncafbProdutos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item9">ncafgExtratoFid.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item10">ncaFrmUsuario.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item11">ncaFrmSenhaWiz.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item12">ncafbCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item13">ncaFrmPass.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item14">ncafbCaixasA.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item15">ncaFrmCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item16">ncafbUsuarios.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item17">ncaFrmAjustaFid.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item18">ncaFrmContato.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item19">ncaFrmHistVer.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item20">..\Comp\ncFrmChat.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item21">ncafbClientes.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item22">ncaFrmOpcaoRelCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item23">..\Comp\ncDMServ.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item24">..\comp\ncDMCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item25">ncaDMComp.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item26">ncaFrmSite.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item27">ncafbTiposAcesso.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item28">ncaFrmCHorario.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item29">ncaFrmCorrigeDataCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item30">ncaFrmLancExtra.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item31">ncaFrmMaq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item32">ncafbAvisos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item33">..\Comp\udmLogmein.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item34">ncaFrmImpPrePago.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item35">ncaLocalizaCli.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item36">..\Comp\ncFrmCreditos.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item37">ncaFrmEmails.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item38">ncaFrmCorrigeCredito.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item39">ncafbMEPend.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item40">ncaFrmJust.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item41">ncaBiometria.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item42">ncaFrmErroConexao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item43">..\Comp\ncFrmDownSup.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item44">..\Comp\ncFrmSuporteRem.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item45">ncaFrmLiga.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item46">ncaFrmInfoMaq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item47">ncaFrmMsgChat.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item48">ncafbEst.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item49">ncafbTotCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item50">ncafbPass.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item51">ncafbDiaHora.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item52">ncaFrmHorario.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item53">ncaFrmAddMaq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item54">ncaFrmAbrirCx.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item55">ncaFrmFechar.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item56">ncaFrmDataAtivo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item57">ncaFrmTipoAcesso.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item58">ncafbPrevSessao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item59">ncaFrmGetWebTabs.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item60">ncafbCXLetra.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item61">ncafbPesqFor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item62">ncaFrmSenha.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item63">ncaFrmQtdMaq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item64">ncaFrmFornecedor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item65">ncaFrmWebTab.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item66">ncaFrmErroNav.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item67">ncaFrmAguarde.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item68">..\Comp\ncFirewall.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item69">ncaFrmCriarConta2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item70">ncaFrmPanTopo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item71">ncaFrmConn.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item72">ncaFrmConfirmarReg.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item73">ncaFrmObrigado.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item74">ncaFrmCorrigeEmail.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item75">..\Comp\ncFrmWebPopup.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item76">ncaFrmWebPopup.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item77">ncafbVendas2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item78">ncaFrmCorrigeData.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item79">ncaFrmSombra.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item80">ncaFrmConta.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item81">ncaFrmWebCam.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item82">ncaFrmConfigEmailCaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item83">ncafbFornecedores.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item84">ncaFrmCadCli.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item85">ncaFrmConfigConfirmaDeb.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item86">ncaFrmLimiteDebPadrao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item87">ncafbRevisarProduto.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item88">ncaFrmConfigQuickCad.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item89">ncaFrmSaibaMaisClonar.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item90">ncaFrmChecarCodProdutoDuplicado.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item91">ncaFrmConfigCodProdutoDuplicado.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item92">ncaFrmEscolhaProdDup.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item93">ncaFrmConfigChoiceME.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item94">..\Comp\ncFrmCriarConta.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item95">ncaFrmConfigCaixaFechamento.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item96">ncaFrmConfigCaixaAbertura.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item97">ncaFrmOpcoes.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item98">ncaFrmBaseOpcao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item99">ncaFrmBaseOpcaoImgTxt.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item100">ncaFrmBaseOpcaoImgTxtCheckBox.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item101">ncaFrmConfigVendaProdSemSaldo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item102">ncaFrmConfigDanfe_NFCe.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item103">ncafbVendasTab.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item104">ncafbMesas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item105">ncaFrmOrcamento.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item106">ncaPanVendaProdBase.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item107">ncaPanVendaProd2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item108">ncaPanItensVendaBase.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item109">ncaPanItensVendaGrid.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item110">ncaFrmProdPesq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item111">ncaFrmPesqFor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item112">ncaFrmConfigComanda.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item113">..\..\Utils\uFrmPanFaixas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item114">..\..\Utils\uFrmPanFaixa.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item115">ncafbPesqCli.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item116">ncaPanBaseAlertaTopo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item117">ncaAlertaClonarProduto.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item118">ncaAlertaAutocad.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item119">ncaFrmProduto_PrecoAuto.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item120">ncaFrmConfigPrecoAuto.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item121">ncaFrmProduto_Estoque.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item122">ncaFrmNCM.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item123">ncaFrmConfigRec_Serial.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item124">ncaFrmConfigLogin.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item125">ncaFrmEnviaSenha.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item126">ncaFrmSemEstoque.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item127">ncaFrmEditFunc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item128">ncaFrmPagEspecie.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item129">ncaFrmFuncPesq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item130">ncaFrmTotal.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item131">ncaFrmTipoRec.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item132">ncaDMImgEsp.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item133">ncaFrmConfigEspecies.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item134">ncaConfigEspecie.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item135">ncafbPagEsp.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item136">ncaFramePagamento.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item137">ncaFrmEditDesc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item138">ncaFrmEditObs.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item139">ncaFrmEditContato.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item140">ncaFrmPesqCFOP.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item141">ncaFrmEditContatoPeq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item142">ncaFrmEditContatoValidar.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item143">ncaFrmConfigAutoCad.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item144">ncaWebBanner.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item145">ncaFrmDebito.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item146">ncaFrmConfigFid.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item147">ncaFrmProdSemFid.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item148">ncaFrmConfigComissao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item149">ncaFrmConfigCodBarBal.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item150">ncaFrmConfigTelaVendas.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item151">ncaFrmConfig_CodBar_Precisao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item152">..\..\..\comp\fr5\Source\ExportPack\frxExportTXT.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item153">ncaFrmAposOrc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item154">ncaFrmConfigPosVenda.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item155">ncaFrmImprimeEtq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item156">ncaFrmNovaEtiqueta.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item157">ncaFrmQuantEtq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item158">ncaFrmRenameEtq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item159">ncaAlertaRecuperarVenda.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item160">ncaFrmPopupAss.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item161">ncaAlertaTrial.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item162">ncaFrmOnTrial.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item163">ncaFrmRecursoPremium.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item164">ncafbOrcamento.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item165">ncaFrmME2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item166">ncaFrmTotalOrcamento.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item167">ncaFrmTotal3.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item168">ncaFrmEditValidade.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item169">ncaFrmEditContatoOrc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item170">ncaDMorc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item171">ncaFrmAposVenda.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item172">ncaFrmSubject.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item173">ncaFrmFromEmail.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item174">ncaFrmConfigDocOrc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item175">ncaFrmSendEmailOrc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item176">ncaFrmPri.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item177">ncaFrmDoc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item178">ncaDocMgr.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item179">ncaGM_FrmParam.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item180">ncaDMSyncDoc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item181">ncaFrmImpDemDeb.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item182">ncaFrmDevolucao.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item183">ncaFrmCliPesq2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item184">..\comp\ncServAtualizaLic_Indy.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item185">ncaFrmConfig_ExigirVendedor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item186">ncaFrmQtdDev.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item187">ncafbMovEst.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item188">ncaPlusAPI.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item189">ncaFrmProduto.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item190">ncaFrmProdPesq2.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item191">ncaFrmBasicTextEdit.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item192">ncaFrmNCMEx.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item193">ncaFrmConfigNFE.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item194">ncaFrmMunBr.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item195">ncaFrmBaseCadastro.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item196">ncaFrmBaseCadastroMT.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item197">ncaFrmBRTrib.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item198">..\comp\ncDMdanfe_NFCE.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item199">ncafbNFe.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item200">ncaFrmBRTribPesq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item201">ncaFrmConfigRec.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item202">ncaFrmNCMPesq.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item203">ncaFrmCancOk.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item204">ncaAlertaNFCe.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item205">ncaEditEmail.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item206">ncaFrmObs.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item207">ncaFrmRej.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item208">ncaFrmRejCanc.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item209">ncaFrmNCMEdit.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item210">ncaFrmRecursoPRO.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item211">ncaFrmDadosNFCe.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item212">ncaFrmUpgradePremium.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item213">panModoHomo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item214">ncaFrmReativarNF.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item215">ncaFrmNFCeDepend.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item216">ncaProgressoDepend.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item217">ncaFrmNFCeImpedirDeslig.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item218">ncaFrmMigrarPremium.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item219">ncaFrmRemoverNF.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item220">ncaFrmXmls.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item221">ncaFrmNFCeModoHomo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item222">ncaFrmNFCeMigrarProd.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item223">ncaFrmAlertaPIN.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item224">ncaFrmNFCeCancelarHomo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item225">ncaFrmPeriodo.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item226">ncaDMDemonstrativoDeb.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item227">ncaFrmImpOrcamento.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item228">ncaFrmPanFor.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item229">ncaFrmListaFornecedores.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item230">ncaFrmLeXML.dfm</RDP_Source_Files>
+                    <RDP_Source_Files Name="Item231">..\..\..\Meus Programas\Nex\NexAdmin_Loja.drc</RDP_Source_Files>
+                </RDP_Source_Files>
+            </Delphi.Personality>
+            <Platforms>
+                <Platform value="Win32">True</Platform>
+                <Platform value="Win64">False</Platform>
+            </Platforms>
+            <Deployment Version="2">
+                <DeployFile LocalName="C:\Meus Programas\Nex4\NexAdmin400.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>NexAdmin400.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="C:\Comp\LMD2015\source\LMDCmps.inc" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployClass Name="ProjectiOSDeviceResourceRules"/>
+                <DeployClass Name="ProjectOSXResource">
+                    <Platform Name="OSX32">
+                        <RemoteDir>Contents\Resources</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidClassesDexFile">
+                    <Platform Name="Android">
+                        <RemoteDir>classes</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon144">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xxhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AdditionalDebugSymbols">
+                    <Platform Name="Win32">
+                        <RemoteDir>Contents\MacOS</RemoteDir>
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeMipsFile">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\mips</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch768">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Required="true" Name="ProjectOutput">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyFramework">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.framework</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch640">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidLibnativeX86File">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\x86</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSDeviceDebug">
+                    <Platform Name="iOSDevice64">
+                        <RemoteDir>..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <RemoteDir>..\$(PROJECTNAME).app.dSYM\Contents\Resources\DWARF</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1024">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch320">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSInfoPList"/>
+                <DeployClass Name="AndroidLibnativeArmeabiFile">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DebugSymbols">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPad_Launch1536">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage470">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-normal</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon96">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xhdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage640">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-large</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="iPhone_Launch640x1136">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSEntitlements"/>
+                <DeployClass Name="AndroidGDBServer">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon72">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-hdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectOSXInfoPList"/>
+                <DeployClass Name="ProjectOSXEntitlements"/>
+                <DeployClass Name="iPad_Launch2048">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashStyles">
+                    <Platform Name="Android">
+                        <RemoteDir>res\values</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage426">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-small</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidSplashImageDef">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectiOSResource">
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="ProjectAndroidManifest">
+                    <Platform Name="Android">
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_DefaultAppIcon">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="File">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="Android">
+                        <Operation>0</Operation>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>0</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="AndroidServiceOutput">
+                    <Platform Name="Android">
+                        <RemoteDir>library\lib\armeabi-v7a</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Required="true" Name="DependencyPackage">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.bpl</Extensions>
+                    </Platform>
+                    <Platform Name="iOSDevice64">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="iOSDevice32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                    <Platform Name="iOSSimulator">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon48">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-mdpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_SplashImage960">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-xlarge</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="Android_LauncherIcon36">
+                    <Platform Name="Android">
+                        <RemoteDir>res\drawable-ldpi</RemoteDir>
+                        <Operation>1</Operation>
+                    </Platform>
+                </DeployClass>
+                <DeployClass Name="DependencyModule">
+                    <Platform Name="Win32">
+                        <Operation>0</Operation>
+                        <Extensions>.dll;.bpl</Extensions>
+                    </Platform>
+                    <Platform Name="OSX32">
+                        <Operation>1</Operation>
+                        <Extensions>.dylib</Extensions>
+                    </Platform>
+                </DeployClass>
+                <ProjectRoot Platform="iOSDevice64" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win64" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="iOSDevice32" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="iOSDevice" Name="$(PROJECTNAME).app"/>
+                <ProjectRoot Platform="Win32" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="OSX32" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="Android" Name="$(PROJECTNAME)"/>
+                <ProjectRoot Platform="iOSSimulator" Name="$(PROJECTNAME).app"/>
+            </Deployment>
+        </BorlandProject>
+        <ProjectFileVersion>12</ProjectFileVersion>
+    </ProjectExtensions>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+    <ItemGroup>
+        <DelphiCompile Include="$(MainSource)">
+            <MainSource>MainSource</MainSource>
+        </DelphiCompile>
+        <DCCReference Include="ncaCurrFormat.pas"/>
+        <DCCReference Include="ncaDM.pas">
+            <Form>Dados</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ufmImagens.pas">
+            <Form>dmImagens</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\FormMgr\ufmFormBase.pas">
+            <Form>FrmBase</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmLogin.pas">
+            <Form>FrmLogin</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbTran.pas">
+            <Form>fbTran</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmTipos.pas">
+            <Form>FrmTipos</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCadFornecedor.pas">
+            <Form>FrmCadFornecedor</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbProdutos.pas">
+            <Form>fbProdutos</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncafgExtratoFid.pas">
+            <Form>fbExtratoFid</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmUsuario.pas">
+            <Form>FrmUsuario</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSenhaWiz.pas">
+            <Form>FrmSenhaWiz</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbCaixa.pas">
+            <Form>fbCaixa</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncafbCaixasA.pas">
+            <Form>fbCaixasA</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCaixa.pas">
+            <Form>FrmCaixa</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbUsuarios.pas">
+            <Form>fbUsuarios</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAjustaFid.pas">
+            <Form>FrmAjustaFid</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmContato.pas">
+            <Form>FrmContato</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmHistVer.pas">
+            <Form>FrmRTF</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncClassesBase.pas"/>
+        <DCCReference Include="..\Comp\ncIDRecursos.pas"/>
+        <DCCReference Include="ncaColorConv.pas"/>
+        <DCCReference Include="ncafbClientes.pas">
+            <Form>fbClientes</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmOpcaoRelCaixa.pas">
+            <Form>FrmOpcaoRelCaixa</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncCompCliente.pas"/>
+        <DCCReference Include="..\Comp\ncDMServ.pas">
+            <Form>DM</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncTran.pas"/>
+        <DCCReference Include="..\Comp\ncMovEst.pas"/>
+        <DCCReference Include="..\Comp\ncDebito.pas"/>
+        <DCCReference Include="..\comp\ncDMCaixa.pas">
+            <Form>dmCaixa</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaDMComp.pas">
+            <Form>dmComp</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSite.pas">
+            <Form>FrmSite</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncSalvaCredito.pas"/>
+        <DCCReference Include="ncaFrmCorrigeDataCaixa.pas">
+            <Form>FrmCorrigeDataCaixa</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncLancExtra.pas"/>
+        <DCCReference Include="ncaFrmLancExtra.pas">
+            <Form>FrmLancExtra</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbAvisos.pas">
+            <Form>fbAvisos</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaLocalizaCli.pas">
+            <Form>FrmLocalizaCli</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\Utils\umsg.pas"/>
+        <DCCReference Include="ncaFrmEmails.pas">
+            <Form>FrmEmails</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCorrigeCredito.pas">
+            <Form>FrmCorrigeCredito</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbMEPend.pas">
+            <Form>fbMEPend</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmJust.pas">
+            <Form>FrmJust</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncDebug.pas"/>
+        <DCCReference Include="..\Comp\ncMsgCom.pas"/>
+        <DCCReference Include="..\Comp\ncVersionInfo.pas"/>
+        <DCCReference Include="..\Comp\ncNXServRemoto.pas"/>
+        <DCCReference Include="..\Comp\ncNetMsg.pas"/>
+        <DCCReference Include="ncaFrmErroConexao.pas">
+            <Form>FrmErroConexao</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncErros.pas"/>
+        <DCCReference Include="..\Comp\ncFrmDownSup.pas">
+            <Form>FrmDownSup</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncFrmSuporteRem.pas">
+            <Form>FrmSuporte</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmLiga.pas">
+            <Form>FrmLiga</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmInfoMaq.pas">
+            <Form>FrmInfoMaq</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbEst.pas">
+            <Form>fbEst</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncafbTotCaixa.pas">
+            <Form>fbTotCaixa</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAbrirCx.pas">
+            <Form>FrmAbrirCaixa</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmFechar.pas">
+            <Form>FrmFecharCaixa</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmDataAtivo.pas">
+            <Form>FrmDataAtivo</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\gs\uRSAss.pas"/>
+        <DCCReference Include="ncaFrmGetWebTabs.pas">
+            <Form>FrmGetWebTabs</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbCXLetra.pas">
+            <Form>fbCXLetra</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncafbPesqFor.pas">
+            <Form>fbPesqFor</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSenha.pas">
+            <Form>FrmAlteraSenha</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmQtdMaq.pas">
+            <Form>FrmQtdMaq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmFornecedor.pas">
+            <Form>FrmFornecedor</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncaK.pas"/>
+        <DCCReference Include="ncaFrmWebTab.pas">
+            <Form>FrmWebTab</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmErroNav.pas">
+            <Form>FrmErroNav</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAguarde.pas">
+            <Form>FrmAguarde</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncFirewall.pas"/>
+        <DCCReference Include="ncaFrmCriarConta2.pas">
+            <Form>FrmCriarConta2</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmPanTopo.pas">
+            <Form>FrmPanTopo</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConn.pas">
+            <Form>FrmConn</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\GS\uLicEXECryptor.pas"/>
+        <DCCReference Include="ncaFrmConfirmarReg.pas">
+            <Form>FrmConfirmarReg</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmObrigado.pas">
+            <Form>FrmObrigado</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\GS\uNR_chaveseg.pas"/>
+        <DCCReference Include="ncaFrmCorrigeEmail.pas">
+            <Form>FrmCorrigeEmail</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncShellStart.pas"/>
+        <DCCReference Include="..\Comp\ncThreadedDownload.pas"/>
+        <DCCReference Include="..\Comp\ncBaseWebApi.pas"/>
+        <DCCReference Include="ncaBaseWebApi.pas"/>
+        <DCCReference Include="..\Comp\ncFrmWebPopup.pas">
+            <Form>FrmWebPopup</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmWebPopup.pas">
+            <Form>AdminFrmWebPopup</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncVersoes.pas"/>
+        <DCCReference Include="ncafbVendas2.pas">
+            <Form>fbVendas2</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCorrigeData.pas">
+            <Form>FrmCorrigeData</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSombra.pas">
+            <Form>FrmSombra2</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConta.pas">
+            <Form>FrmInfConta</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmWebCam2.pas">
+            <Form>FrmWebCam2</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigEmailCaixa.pas">
+            <Form>FrmConfigEmailCaixa</Form>
+        </DCCReference>
+        <DCCReference Include="ncaWebcam.pas"/>
+        <DCCReference Include="ncafbFornecedores.pas">
+            <Form>fbFornecedores</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCadCli.pas">
+            <Form>FrmCadCli</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigConfirmaDeb.pas">
+            <Form>FrmConfigConfirmaDeb</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmLimiteDebPadrao.pas">
+            <Form>FrmLimiteDeb</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbRevisarProduto.pas">
+            <Form>fbRevisarProduto</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigQuickCad.pas">
+            <Form>FrmConfigQuickCad</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSaibaMaisClonar.pas">
+            <Form>FrmSaibaMaisClonar</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmChecarCodProdutoDuplicado.pas">
+            <Form>FrmChecarCodProdutoDuplicado</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigCodProdutoDuplicado.pas">
+            <Form>FrmConfigCodProdutoDuplicado</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEscolhaProdDup.pas">
+            <Form>FrmEscolhaProdDup</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigChoiceME.pas">
+            <Form>FrmConfigChoiceME</Form>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncFrmCriarConta.pas">
+            <Form>FrmCriarConta</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigCaixaFechamento.pas">
+            <Form>FrmConfigCaixaFechamento</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigCaixaAbertura.pas">
+            <Form>FrmConfigCaixaAbertura</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmOpcoes.pas">
+            <Form>FrmOpcoes</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBaseOpcao.pas">
+            <Form>FrmBaseOpcao</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBaseOpcaoImgTxt.pas">
+            <Form>FrmBaseOpcaoImgTxt</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBaseOpcaoImgTxtCheckBox.pas">
+            <Form>FrmBaseOpcaoImgTxtCheckBox</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigVendaProdSemSaldo.pas">
+            <Form>FrmConfigVendaProdSemSaldo</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigDanfe_SAT.pas">
+            <Form>FrmConfigDanfe_SAT</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\Utils\Countries.pas"/>
+        <DCCReference Include="ncafbVendasTab.pas">
+            <Form>fbVendasTab</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmOrcamento.pas">
+            <Form>FrmOrcamento</Form>
+        </DCCReference>
+        <DCCReference Include="ncaPanVendaProdBase.pas">
+            <Form>FrmPanVendaProdBase</Form>
+        </DCCReference>
+        <DCCReference Include="ncaPanVendaProd2.pas">
+            <Form>FrmPanVendaProd2</Form>
+        </DCCReference>
+        <DCCReference Include="ncaPanItensVendaBase.pas">
+            <Form>panItensVendaBase</Form>
+        </DCCReference>
+        <DCCReference Include="ncaPanItensVendaGrid.pas">
+            <Form>panItensVendaGrid</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmProdPesq.pas">
+            <Form>FrmProdPesq</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\FormMgr\translator\uNexTransResourceStrings_PT.pas"/>
+        <DCCReference Include="ncaFrmPesqFor.pas">
+            <Form>FrmPesqFor</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\Utils\uFrmPanFaixas.pas">
+            <Form>FrmFaixas</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\Utils\uFrmPanFaixa.pas">
+            <Form>FrmPanFaixa</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbPesqCli.pas">
+            <Form>fbPesqCli</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\Comp\ncEspecie.pas"/>
+        <DCCReference Include="ncaPanBaseAlertaTopo.pas">
+            <Form>panAlertaTopo</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaAlertaClonarProduto.pas">
+            <Form>panAlertaClonarProduto</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaAlertaAutocad.pas">
+            <Form>panAlertaAutocad</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmProduto_PrecoAuto.pas">
+            <Form>FrmProd_PrecoAuto</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigPrecoAuto.pas">
+            <Form>FrmConfigPrecoAuto</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmProduto_Estoque.pas">
+            <Form>FrmProd_Estoque</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNCM.pas">
+            <Form>FrmNCM</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigRec_Serial.pas">
+            <Form>FrmConfigRec_Serial</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigLogin.pas">
+            <Form>FrmConfigLogin</Form>
+        </DCCReference>
+        <DCCReference Include="ncaConnMgr.pas"/>
+        <DCCReference Include="ncaFrmEnviaSenha.pas">
+            <Form>FrmEnviaSenha</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSemEstoque.pas">
+            <Form>FrmSemEstoque</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\FormMgr\uParentedPanel.pas"/>
+        <DCCReference Include="ncaFrmEditFunc.pas">
+            <Form>FrmEditFunc</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmPagEspecie.pas">
+            <Form>FrmPagEspecie</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmFuncPesq.pas">
+            <Form>FrmFuncPesq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmTotal.pas">
+            <Form>FrmTotal</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmTipoRec.pas">
+            <Form>FrmTipoRec</Form>
+        </DCCReference>
+        <DCCReference Include="ncaDMImgEsp.pas">
+            <Form>dmImgEsp</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigEspecies.pas">
+            <Form>FrmConfigEspecies</Form>
+        </DCCReference>
+        <DCCReference Include="ncaConfigEspecie.pas">
+            <Form>FrmConfigEspecie</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbPagEsp.pas">
+            <Form>fbPagEsp</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFramePagamento.pas">
+            <Form>FramePagamento</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditDesc.pas">
+            <Form>FrmEditDesc</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditObs.pas">
+            <Form>FrmEditObs</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditContato.pas">
+            <Form>FrmEditContato</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmPesqCFOP.pas">
+            <Form>FrmPesqCFOP</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditContatoPeq.pas">
+            <Form>FrmEditContatoPeq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditContatoValidar.pas">
+            <Form>FrmEditContatoValidar</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncDebCredValidator.pas"/>
+        <DCCReference Include="ncaFrmConfigAutoCad.pas">
+            <Form>FrmConfigAutoCad</Form>
+        </DCCReference>
+        <DCCReference Include="ncaWebBanner.pas">
+            <Form>FrmWebBanner</Form>
+        </DCCReference>
+        <DCCReference Include="ncaWebBotao.pas"/>
+        <DCCReference Include="ncaFrmDebito.pas">
+            <Form>FrmDebito</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigFid.pas">
+            <Form>FrmConfigFid</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmProdSemFid.pas">
+            <Form>FrmProdSemFid</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigComissao.pas">
+            <Form>FrmConfigComissao</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigCodBarBal.pas">
+            <Form>FrmConfigCodBarBal</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigTelaVendas.pas">
+            <Form>FrmConfigTelaVendas</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncSyncLic.pas"/>
+        <DCCReference Include="..\comp\ncListaID.pas"/>
+        <DCCReference Include="..\comp\Automation.pas"/>
+        <DCCReference Include="..\comp\ncCheckWin64.pas"/>
+        <DCCReference Include="..\comp\ncMyImage.pas"/>
+        <DCCReference Include="..\comp\ncHash.pas"/>
+        <DCCReference Include="..\comp\ncCommonProc.pas"/>
+        <DCCReference Include="..\comp\ncDeleteFiles.pas"/>
+        <DCCReference Include="..\comp\ncDirUtils.pas"/>
+        <DCCReference Include="ncaConfigRecibo.pas"/>
+        <DCCReference Include="ncaFrmConfig_CodBar_Precisao.pas">
+            <Form>FrmConfig_CodBar_Precisao</Form>
+        </DCCReference>
+        <DCCReference Include="C:\comp\fr5\Source\ExportPack\frxExportTXT.pas">
+            <Form>frxTXTExportDialog</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAposOrc.pas">
+            <Form>FrmAposOrc</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncGuidUtils.pas"/>
+        <DCCReference Include="ncaFrmConfigPosVenda.pas">
+            <Form>FrmConfigPosVenda</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmImprimeEtq.pas">
+            <Form>FrmImprimeEtq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNovaEtiqueta.pas">
+            <Form>FrmNovaEtiqueta</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmQuantEtq.pas">
+            <Form>FrmQuantEtq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmRenameEtq.pas">
+            <Form>FrmRenomear</Form>
+        </DCCReference>
+        <DCCReference Include="C:\comp\devex\ExpressBars\Sources\dxBar.pas"/>
+        <DCCReference Include="ncaAlertaRecuperarVenda.pas">
+            <Form>panAlertaRecuperarVenda</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmPopupAss.pas">
+            <Form>FrmPopupAss</Form>
+        </DCCReference>
+        <DCCReference Include="ncaAlertaTrial.pas">
+            <Form>panAlertaTrial</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmOnTrial.pas">
+            <Form>FrmOnTrial</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmRecursoPremium.pas">
+            <Form>FrmRecursoPremium</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbOrcamento.pas">
+            <Form>fbOrcamento</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmME2.pas">
+            <Form>FrmME2</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmTotalOrcamento.pas">
+            <Form>FrmTotalOrcamento</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmTotal3.pas">
+            <Form>FrmTotal3</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditValidade.pas">
+            <Form>FrmEditValidade</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEditContatoOrc.pas">
+            <Form>FrmEditContatoOrc</Form>
+        </DCCReference>
+        <DCCReference Include="ncaDMorc.pas">
+            <Form>dmOrc</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAposVenda.pas">
+            <Form>FrmAposVenda</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSubject.pas">
+            <Form>FrmSubject</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmFromEmail.pas">
+            <Form>FrmFromEmail</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigDocOrc.pas">
+            <Form>FrmConfigDocOrc</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSendEmailOrc.pas">
+            <Form>FrmSendEmail</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\kwic\kwicDescriptor.pas"/>
+        <DCCReference Include="..\..\kwic\kwicEngine.pas"/>
+        <DCCReference Include="..\comp\ncHttp.pas"/>
+        <DCCReference Include="C:\comp\varios\md5.pas"/>
+        <DCCReference Include="..\..\gs\uGetSerial.pas"/>
+        <DCCReference Include="ncaFrmPri.pas">
+            <Form>FrmPri</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncCaixas.pas"/>
+        <DCCReference Include="ncaFrmDoc.pas">
+            <Form>FrmDoc</Form>
+        </DCCReference>
+        <DCCReference Include="ncaDocMgr.pas">
+            <Form>FrmDocMgr</Form>
+        </DCCReference>
+        <DCCReference Include="ncaGM_FrmParam.pas">
+            <Form>FrmGMParam</Form>
+        </DCCReference>
+        <DCCReference Include="ncaTermID.pas"/>
+        <DCCReference Include="ncaDocEdit.pas"/>
+        <DCCReference Include="..\comp\ncDMSyncCest.pas">
+            <Form>dmCestUpdate</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="..\..\nxUrl\nexUrls.pas"/>
+        <DCCReference Include="..\..\kapi\ncKiteApi.pas"/>
+        <DCCReference Include="ncaFrmImpDemDeb.pas">
+            <Form>FrmImpDemDeb</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmDevolucao.pas">
+            <Form>FrmDev</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCliPesq2.pas">
+            <Form>FrmCliPesq2</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncServAtualizaLic_Indy.pas">
+            <Form>dmAtualizaLic</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfig_ExigirVendedor.pas">
+            <Form>FrmConfig_ExigirVendedor</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmQtdDev.pas">
+            <Form>FrmQtdDev</Form>
+        </DCCReference>
+        <DCCReference Include="ncafbMovEst.pas">
+            <Form>fbMovEst</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaPlusAPI.pas">
+            <Form>FrmPlus</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncIPAddr.pas"/>
+        <DCCReference Include="ncaFrmProduto.pas">
+            <Form>FrmProduto</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmProdPesq2.pas">
+            <Form>FrmProdPesq2</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBasicTextEdit.pas">
+            <Form>FrmBasicTextEdit</Form>
+        </DCCReference>
+        <DCCReference Include="..\Utils\uProxCampo.pas"/>
+        <DCCReference Include="ncaFrmNCMEx.pas">
+            <Form>FrmNCMEx</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigNFE.pas">
+            <Form>FrmConfigNFE</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmMunBr.pas">
+            <Form>FrmMunPesq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBaseCadastro.pas">
+            <Form>FrmBaseCadastro</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBaseCadastroMT.pas">
+            <Form>FrmBaseCadastroMT</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBRTrib.pas">
+            <Form>FrmBRTrib</Form>
+        </DCCReference>
+        <DCCReference Include="..\comp\ncDMdanfe_SAT.pas">
+            <Form>dmDanfe_SAT</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncafbNFe.pas">
+            <Form>fbNFe</Form>
+            <DesignClass>TFrmBasePai</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmBRTribPesq.pas">
+            <Form>FrmBRTribPesq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigRec.pas">
+            <Form>FrmConfigRec</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCESTPesq.pas">
+            <Form>FrmCESTPesq</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmCancOk.pas">
+            <Form>FrmCancOk</Form>
+        </DCCReference>
+        <DCCReference Include="ncaAlertaNFCe.pas">
+            <Form>panAlertaTopo2</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaEditEmail.pas">
+            <Form>FrmEditEmail</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmObs.pas">
+            <Form>FrmObs</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmRej.pas">
+            <Form>FrmRej</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmRejCanc.pas">
+            <Form>FrmRejCanc</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNCMEdit.pas">
+            <Form>FrmNCMEdit</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmRecursoPRO.pas">
+            <Form>FrmRecursoPro</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmDadosNFCe.pas">
+            <Form>FrmDadosNFCe</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmUpgradePremium.pas">
+            <Form>FrmUpgradePremium</Form>
+        </DCCReference>
+        <DCCReference Include="panModoHomo.pas">
+            <Form>panAlertaModoHomo</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmReativarNF.pas">
+            <Form>FrmReativarNF</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNFCeDepend.pas">
+            <Form>FrmNFCeDepend</Form>
+        </DCCReference>
+        <DCCReference Include="ncaProgressoDepend.pas">
+            <Form>panProgressoDepend</Form>
+            <DesignClass>TFrame</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNFCeImpedirDeslig.pas">
+            <Form>FrmNFCeImpedirDeslig</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmMigrarPremium.pas">
+            <Form>FrmMigrarPremium</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmRemoverNF.pas">
+            <Form>FrmRemoverNF</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmXmls.pas">
+            <Form>FrmXMLs</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNFCeModoHomo.pas">
+            <Form>FrmNFCeModoHomo</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNFCeMigrarProd.pas">
+            <Form>FrmNFCeMigrarProd</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAlertaPIN.pas">
+            <Form>FrmAlertaPIN</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNFCeCancelarHomo.pas">
+            <Form>FrmNFCeCancelarHomo</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmOpcoesRelNFVendas.pas">
+            <Form>FrmOpRelNFVendas</Form>
+        </DCCReference>
+        <DCCReference Include="ncaDMDemonstrativoDeb.pas">
+            <Form>dmDemonstrativoDeb</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfig_Orcamento.pas">
+            <Form>FrmConfig_Orcamento</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmPanFor.pas">
+            <Form>FrmPanFor</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmListaFornecedores.pas">
+            <Form>FrmListaFornecedores</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmLeXML.pas">
+            <Form>FrmLeXML</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmTrocoMax.pas">
+            <Form>FrmTrocoMax</Form>
+        </DCCReference>
+        <DCCReference Include="..\..\utils\htmlCodec.pas"/>
+        <DCCReference Include="..\comp\ncDMdanfe_NFCE.pas">
+            <Form>dmDanfe_NFCE</Form>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfigDanfe_NFCe.pas">
+            <Form>FrmConfigDanfe_NFCe</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmSuporteDB.pas">
+            <Form>FrmSuporteDB</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmDBPanel.pas">
+            <Form>FrmDBPanel</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaSenhaToken.pas"/>
+        <DCCReference Include="c:\program files (x86)\embarcadero\studio\17.0\SOURCE\VCL\Vcl.OleCtrls.pas"/>
+        <DCCReference Include="..\..\MyBrowser\uMyBrowser.pas"/>
+        <DCCReference Include="ncaFrmPeriodo.pas">
+            <Form>FrmPeriodo</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfig_Gaveta.pas">
+            <Form>FrmConfig_Gaveta</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmEstado.pas">
+            <Form>FrmEstado</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmImpOrcamento.pas">
+            <Form>FrmImprimeOrcamento</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmToken.pas">
+            <Form>FrmToken</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmInutilizarNFCe.pas">
+            <Form>FrmInutilizarNFCe</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmNCMPesq.pas">
+            <Form>FrmNCMPesq</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaDMSyncDoc.pas">
+            <Form>dmDocUpdate</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="ncaFrmReajustePreco.pas">
+            <Form>FrmReajustePreco</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <None Include="C:\Comp\LMD2015\source\LMDCmps.inc"/>
+        <None Include="C:\Comp\LMD2015\source\lmddlgcmps.inc"/>
+        <BuildConfiguration Include="Debug">
+            <Key>Cfg_2</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Base">
+            <Key>Base</Key>
+        </BuildConfiguration>
+        <BuildConfiguration Include="Release">
+            <Key>Cfg_1</Key>
+            <CfgParent>Base</CfgParent>
+        </BuildConfiguration>
+    </ItemGroup>
+    <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
+    <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
+    <Import Project="$(MSBuildProjectName).deployproj" Condition="Exists('$(MSBuildProjectName).deployproj')"/>
+    <PropertyGroup Condition="'$(Config)'=='Release' And '$(Platform)'=='Win32'">
+        <PreBuildEvent/>
+        <PreBuildEventIgnoreExitCode>False</PreBuildEventIgnoreExitCode>
+        <PreLinkEvent/>
+        <PreLinkEventIgnoreExitCode>False</PreLinkEventIgnoreExitCode>
+        <PostBuildEvent>copy &quot;c:\meus programas\nex\nexadmin_loja.exe&quot; &quot;c:\meus programas\nex\nexadmin.exe&quot;</PostBuildEvent>
+        <PostBuildEventIgnoreExitCode>False</PostBuildEventIgnoreExitCode>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(Config)'=='Debug' And '$(Platform)'=='Win32'">
+        <PreBuildEvent/>
+        <PreBuildEventIgnoreExitCode>False</PreBuildEventIgnoreExitCode>
+        <PreLinkEvent/>
+        <PreLinkEventIgnoreExitCode>False</PreLinkEventIgnoreExitCode>
+        <PostBuildEvent>copy &quot;c:\meus programas\nex4\nexadmin400.exe&quot; &quot;c:\meus programas\nex4\nexadmin.exe&quot;&amp;&amp;copy &quot;c:\meus programas\nex\nexadmin_loja.exe&quot; &quot;c:\meus programas\nex\nexadmin.exe&quot;</PostBuildEvent>
+        <PostBuildEventIgnoreExitCode>False</PostBuildEventIgnoreExitCode>
+    </PropertyGroup>
+</Project>

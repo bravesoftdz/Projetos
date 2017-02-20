@@ -1,0 +1,75 @@
+unit uFaixaInteger;
+
+interface
+
+type
+  TFaixaInteger = record
+    fiDe, fiAte : Integer;
+  end;
+
+  TArrayFaixaInteger = Array of TFaixaInteger;
+
+function ArrayFaixaIntegerToString(A: TArrayFaixaInteger): String;
+
+procedure ArrayFaixaIntegerFromString(var A: TArrayFaixaInteger; S: String);
+
+implementation
+
+uses sysutils;
+
+function ArrayFaixaIntegerToString(A: TArrayFaixaInteger): String;
+var i: integer;
+begin
+  Result := '';
+  for I := 0 to High(A) do with A[i] do begin
+    if I>0 then Result := Result+',';
+    Result := Result + IntToStr(fiDe);
+    if fiAte<>fiDe then
+      Result := Result + '-' + IntToStr(fiAte);
+  end;
+end;
+
+procedure ArrayFaixaIntegerFromString(var A: TArrayFaixaInteger; S: String);
+var 
+  Prox: String;
+  I, F: Integer;
+
+function Proximo: String;
+var P: Integer;
+begin
+  P := Pos(',', S);
+  if P>0 then begin
+    Result := Copy(S, 1, P-1);
+    Delete(S, 1, P);
+  end else begin
+    Result := S;
+    S := '';
+  end;
+  Result := Trim(Result);
+end;  
+
+function CalcIF(Str: String): Boolean;
+var P: Integer;
+begin
+  F := 0;
+  I := 0;
+  P := Pos('-', Str);
+  if P>0 then begin
+    I := StrToIntDef(Trim(Copy(Str, 1, P-1)), 0);
+    F := StrToIntDef(Trim(Copy(Str, P+1, 100)), 0);
+  end else begin
+    I := StrToIntDef(Trim(Str), 0);
+    F := I;
+  end;
+  Result := (I>0) and (F>=I);
+end;
+
+begin
+  S := Value;
+  repeat
+    Prox := Proximo;
+    if (prox>'') and CalcIF(Prox) then Add(I, F, True);
+  until S='';
+end;
+
+end.

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmWebTab.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmWebTab.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428703704</prop>
+        <prop prop-type="OrigDateTime">41718.5153240741</prop>
+        <prop prop-type="XlatDateTime">41718.5153240741</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">121</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmWebTab.Caption" resname="I:FrmWebTab.Caption">
+        <source>'FrmWebTab'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmWebTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.PixelsPerInch" resname="I:FrmWebTab.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmWebTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.TextHeight" resname="I:FrmWebTab.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmWebTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas." resname="I:FrmWebTab.I:Paginas.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.ExplicitWidth" resname="I:FrmWebTab.I:Paginas.I:tsWB.ExplicitWidth">
+        <source>867</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.ExplicitHeight" resname="I:FrmWebTab.I:Paginas.I:tsWB.ExplicitHeight">
+        <source>605</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TcxTabSheet</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.Top" resname="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.Top">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.Height" resname="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.Height">
+        <source>575</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.Silent" resname="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.Silent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.ExplicitTop" resname="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.ExplicitTop">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.ExplicitHeight" resname="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.ExplicitHeight">
+        <source>577</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.ControlData" resname="I:FrmWebTab.I:Paginas.I:tsWB.I:WB.ControlData">
+        <source>4C000000D0590000BC3E00000000000000000000000000000000000000000000000000004C000000000000000000000001000000E0D057007335CF11AE6908002B2E126208000000000000004C0000000114020000000000C000000000000046800000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TEmbeddedWB</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Left" resname="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Top" resname="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Width" resname="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Width">
+        <source>867</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Height" resname="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Align" resname="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.Align">
+        <source>dalTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.BarManager" resname="I:FrmWebTab.I:Paginas.I:tsWB.O:BDC.BarManager">
+        <source>BarMgr</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Font.Charset" resname="I:FrmWebTab.O:BarMgr.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Font.Color" resname="I:FrmWebTab.O:BarMgr.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Font.Height" resname="I:FrmWebTab.O:BarMgr.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Font.Name" resname="I:FrmWebTab.O:BarMgr.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Font.Style" resname="I:FrmWebTab.O:BarMgr.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Categories.Strings[0]" resname="I:FrmWebTab.O:BarMgr.Categories.Strings[0]">
+        <source>'Default'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Categories.ItemsVisibles[0]" resname="I:FrmWebTab.O:BarMgr.Categories.ItemsVisibles[0]">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Categories.Visibles[0]" resname="I:FrmWebTab.O:BarMgr.Categories.Visibles[0]">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.ImageOptions.Images" resname="I:FrmWebTab.O:BarMgr.ImageOptions.Images">
+        <source>dmImagens.im16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.ImageOptions.LargeImages" resname="I:FrmWebTab.O:BarMgr.ImageOptions.LargeImages">
+        <source>dmImagens.im24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.LookAndFeel.Kind" resname="I:FrmWebTab.O:BarMgr.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.LookAndFeel.NativeStyle" resname="I:FrmWebTab.O:BarMgr.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.PopupMenuLinks" resname="I:FrmWebTab.O:BarMgr.PopupMenuLinks">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.UseSystemFont" resname="I:FrmWebTab.O:BarMgr.UseSystemFont">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Left" resname="I:FrmWebTab.O:BarMgr.Left">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.Top" resname="I:FrmWebTab.O:BarMgr.Top">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.DockControlHeights[0]" resname="I:FrmWebTab.O:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.DockControlHeights[1]" resname="I:FrmWebTab.O:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.DockControlHeights[2]" resname="I:FrmWebTab.O:BarMgr.DockControlHeights[2]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.DockControlHeights[3]" resname="I:FrmWebTab.O:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowClose" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowClose">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowCustomizing" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowCustomizing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowQuickCustomizing" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowQuickCustomizing">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowReset" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.AllowReset">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.BorderStyle" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.BorderStyle">
+        <source>bbsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428742824</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.Caption" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.Caption">
+        <source>'Custom 1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.CaptionButtons" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.CaptionButtons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.DockControl" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.DockControl">
+        <source>BDC</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.DockedDockControl" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.DockedDockControl">
+        <source>BDC</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.DockedLeft" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.DockedLeft">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.DockedTop" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.DockedTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatLeft" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatLeft">
+        <source>797</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatTop" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatTop">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatClientWidth" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatClientWidth">
+        <source>51</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatClientHeight" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.FloatClientHeight">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[0].Visible" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[0].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">&lt;item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[0].ItemName" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[0].ItemName">
+        <source>'cmVoltar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[1].Visible" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[1].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[1].ItemName" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[1].ItemName">
+        <source>'cmAvancar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[2].BeginGroup" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[2].BeginGroup">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[2].Visible" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[2].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[2].ItemName" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[2].ItemName">
+        <source>'cmRefresh'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[3].BeginGroup" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[3].BeginGroup">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[3].Visible" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[3].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[3].ItemName" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[3].ItemName">
+        <source>'cmCancelarAdesao'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].BeginGroup" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].BeginGroup">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">item</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].UserDefine" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].UserDefine">
+        <source>[udWidth]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].UserWidth" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].UserWidth">
+        <source>373</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].Visible" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].ItemName" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.ItemLinks[4].ItemName">
+        <source>'cmURL'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">C:TdxBar</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.NotDocking" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.NotDocking">
+        <source>[dsNone, dsLeft, dsTop, dsRight, dsBottom]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.OneOnRow" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.OneOnRow">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.Row" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.Row">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.UseOwnFont" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.UseOwnFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.UseRestSpace" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.UseRestSpace">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.Visible" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.Visible">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:barToolbar.WholeRow" resname="I:FrmWebTab.O:BarMgr.O:barToolbar.WholeRow">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.Caption" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.Caption">
+        <source>'New Button'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.Category" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.Hint" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.Hint">
+        <source>'New Button'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.Visible" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.LargeImageIndex" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.LargeImageIndex">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.OnClick" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.OnClick">
+        <source>cmVoltarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmVoltar.ShowCaption" resname="I:FrmWebTab.O:BarMgr.O:cmVoltar.ShowCaption">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.Caption" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.Caption">
+        <source>'New Button'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.Category" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.Hint" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.Hint">
+        <source>'New Button'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.Visible" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.LargeImageIndex" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.LargeImageIndex">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.OnClick" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.OnClick">
+        <source>cmAvancarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmAvancar.ShowCaption" resname="I:FrmWebTab.O:BarMgr.O:cmAvancar.ShowCaption">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.Caption" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.Caption">
+        <source>'New Button'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.Category" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.Hint" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.Hint">
+        <source>'New Button'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.Visible" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.LargeImageIndex" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.LargeImageIndex">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.OnClick" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.OnClick">
+        <source>cmRefreshClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmRefresh.ShowCaption" resname="I:FrmWebTab.O:BarMgr.O:cmRefresh.ShowCaption">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Align" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Align">
+        <source>iaClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Caption" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Caption">
+        <source>'New Item'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Category" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Hint" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Hint">
+        <source>'New Item'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Visible" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Visible">
+        <source>ivAlways</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.PropertiesClassName" resname="I:FrmWebTab.O:BarMgr.O:cmURL.PropertiesClassName">
+        <source>'TcxHyperLinkEditProperties'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Properties.AutoSelect" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Properties.AutoSelect">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Properties.ReadOnly" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Properties.ReadOnly">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.Properties.SingleClick" resname="I:FrmWebTab.O:BarMgr.O:cmURL.Properties.SingleClick">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmURL.InternalEditValue" resname="I:FrmWebTab.O:BarMgr.O:cmURL.InternalEditValue">
+        <source>nil</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxBarEditItem</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Caption" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Caption">
+        <source>'Cancelar Adesão'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Category" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Category">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Hint" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Hint">
+        <source>'Cancelar Adesão'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Style" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Style">
+        <source>cxStyle1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Visible" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.Visible">
+        <source>ivNever</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.LargeImageIndex" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.LargeImageIndex">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.OnClick" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.OnClick">
+        <source>cmCancelarAdesaoClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.AutoGrayScale" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.AutoGrayScale">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.GlyphLayout" resname="I:FrmWebTab.O:BarMgr.O:cmCancelarAdesao.GlyphLayout">
+        <source>glLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.PixelsPerInch" resname="I:FrmWebTab.O:cxStyleRepository1.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxStyleRepository</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.AssignedValues" resname="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.AssignedValues">
+        <source>[svFont]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Charset" resname="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Color" resname="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Height" resname="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Name" resname="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742874294</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Style" resname="I:FrmWebTab.O:cxStyleRepository1.O:cxStyle1.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428743056</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxStyle</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncafbVendasTab.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncafbVendasTab.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420138889</prop>
+        <prop prop-type="OrigDateTime">41601.1284027778</prop>
+        <prop prop-type="XlatDateTime">41601.1284027778</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">65</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:fbVendasTab.Caption" resname="I:fbVendasTab.Caption">
+        <source>'Vendas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.ClientHeight" resname="I:fbVendasTab.ClientHeight">
+        <source>408</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.ClientWidth" resname="I:fbVendasTab.ClientWidth">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.OldCreateOrder" resname="I:fbVendasTab.OldCreateOrder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.OnDestroy" resname="I:fbVendasTab.OnDestroy">
+        <source>FrmBasePaiDestroy</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.ExplicitWidth" resname="I:fbVendasTab.ExplicitWidth">
+        <source>688</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.ExplicitHeight" resname="I:fbVendasTab.ExplicitHeight">
+        <source>444</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.PixelsPerInch" resname="I:fbVendasTab.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.TextHeight" resname="I:fbVendasTab.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TfbVendasTab</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.Width" resname="I:fbVendasTab.I:panPri.Width">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.Height" resname="I:fbVendasTab.I:panPri.Height">
+        <source>408</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.ExplicitWidth" resname="I:fbVendasTab.I:panPri.ExplicitWidth">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.ExplicitHeight" resname="I:fbVendasTab.I:panPri.ExplicitHeight">
+        <source>408</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.I:dxBarDockControl1.Width" resname="I:fbVendasTab.I:panPri.I:dxBarDockControl1.Width">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.I:dxBarDockControl1.Height" resname="I:fbVendasTab.I:panPri.I:dxBarDockControl1.Height">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.I:dxBarDockControl1.UseOwnSunkenBorder" resname="I:fbVendasTab.I:panPri.I:dxBarDockControl1.UseOwnSunkenBorder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.I:dxBarDockControl1.Visible" resname="I:fbVendasTab.I:panPri.I:dxBarDockControl1.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.I:dxBarDockControl1.ExplicitWidth" resname="I:fbVendasTab.I:panPri.I:dxBarDockControl1.ExplicitWidth">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.I:dxBarDockControl1.ExplicitHeight" resname="I:fbVendasTab.I:panPri.I:dxBarDockControl1.ExplicitHeight">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TdxBarDockControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Left" resname="I:fbVendasTab.I:panPri.O:Paginas.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Top" resname="I:fbVendasTab.I:panPri.O:Paginas.Top">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Width" resname="I:fbVendasTab.I:panPri.O:Paginas.Width">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Height" resname="I:fbVendasTab.I:panPri.O:Paginas.Height">
+        <source>386</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Cursor" resname="I:fbVendasTab.I:panPri.O:Paginas.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Margins.Top" resname="I:fbVendasTab.I:panPri.O:Paginas.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Margins.Bottom" resname="I:fbVendasTab.I:panPri.O:Paginas.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Align" resname="I:fbVendasTab.I:panPri.O:Paginas.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Font.Charset" resname="I:fbVendasTab.I:panPri.O:Paginas.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Font.Color" resname="I:fbVendasTab.I:panPri.O:Paginas.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Font.Height" resname="I:fbVendasTab.I:panPri.O:Paginas.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Font.Name" resname="I:fbVendasTab.I:panPri.O:Paginas.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Font.Style" resname="I:fbVendasTab.I:panPri.O:Paginas.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.ParentFont" resname="I:fbVendasTab.I:panPri.O:Paginas.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.TabOrder" resname="I:fbVendasTab.I:panPri.O:Paginas.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Properties.CustomButtons.Buttons" resname="I:fbVendasTab.I:panPri.O:Paginas.Properties.CustomButtons.Buttons">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Properties.HotTrack" resname="I:fbVendasTab.I:panPri.O:Paginas.Properties.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Properties.Options" resname="I:fbVendasTab.I:panPri.O:Paginas.Properties.Options">
+        <source>[pcoAlwaysShowGoDialogButton, pcoGradient, pcoGradientClientArea, pcoRedrawOnResize, pcoUsePageColorForTab]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Properties.Style" resname="I:fbVendasTab.I:panPri.O:Paginas.Properties.Style">
+        <source>6</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.Properties.TabSlants.Positions" resname="I:fbVendasTab.I:panPri.O:Paginas.Properties.TabSlants.Positions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.LookAndFeel.Kind" resname="I:fbVendasTab.I:panPri.O:Paginas.LookAndFeel.Kind">
+        <source>lfStandard</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.LookAndFeel.NativeStyle" resname="I:fbVendasTab.I:panPri.O:Paginas.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.TabSlants.Positions" resname="I:fbVendasTab.I:panPri.O:Paginas.TabSlants.Positions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.OnDrawTabEx" resname="I:fbVendasTab.I:panPri.O:Paginas.OnDrawTabEx">
+        <source>PaginasDrawTabEx</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210069</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.ClientRectBottom" resname="I:fbVendasTab.I:panPri.O:Paginas.ClientRectBottom">
+        <source>386</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.ClientRectRight" resname="I:fbVendasTab.I:panPri.O:Paginas.ClientRectRight">
+        <source>672</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:panPri.O:Paginas.ClientRectTop" resname="I:fbVendasTab.I:panPri.O:Paginas.ClientRectTop">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxPageControl</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.Top" resname="I:fbVendasTab.I:BarMgr.Top">
+        <source>168</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.DockControlHeights[0]" resname="I:fbVendasTab.I:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.DockControlHeights[1]" resname="I:fbVendasTab.I:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.DockControlHeights[2]" resname="I:fbVendasTab.I:BarMgr.DockControlHeights[2]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.DockControlHeights[3]" resname="I:fbVendasTab.I:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:BarMgrBar1.BorderStyle" resname="I:fbVendasTab.I:BarMgr.I:BarMgrBar1.BorderStyle">
+        <source>bbsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:BarMgrBar1.OldName" resname="I:fbVendasTab.I:BarMgr.I:BarMgrBar1.OldName">
+        <source>'BarraTabSheet1'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TdxBar</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:cmNovo.ImageIndex" resname="I:fbVendasTab.I:BarMgr.I:cmNovo.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:cmEditar.ImageIndex" resname="I:fbVendasTab.I:BarMgr.I:cmEditar.ImageIndex">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:cmApagar.ImageIndex" resname="I:fbVendasTab.I:BarMgr.I:cmApagar.ImageIndex">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:cmLayout.ImageIndex" resname="I:fbVendasTab.I:BarMgr.I:cmLayout.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:BarMgr.I:cmPeriodo.ImageIndex" resname="I:fbVendasTab.I:BarMgr.I:cmPeriodo.ImageIndex">
+        <source>-1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:MenuGrid.Top" resname="I:fbVendasTab.I:MenuGrid.Top">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxGridPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:pmLay.Left" resname="I:fbVendasTab.I:pmLay.Left">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TdxBarPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.I:pmLay.Top" resname="I:fbVendasTab.I:pmLay.Top">
+        <source>218</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TdxBarPopupMenu</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.O:FM.BarMgr" resname="I:fbVendasTab.O:FM.BarMgr">
+        <source>FrmPri.BarMgr</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.O:FM.PageControl" resname="I:fbVendasTab.O:FM.PageControl">
+        <source>Paginas</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.O:FM.Left" resname="I:fbVendasTab.O:FM.Left">
+        <source>232</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:fbVendasTab.O:FM.Top" resname="I:fbVendasTab.O:FM.Top">
+        <source>114</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420210185</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TFormManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,16 @@
+program TestePanFor;
+
+uses
+  Forms,
+  ncaFrmPanFor in '..\nex\Admin\ncaFrmPanFor.pas' {FrmListaFornecedores},
+  uFrmPanFor in 'uFrmPanFor.pas' {FrmPanFor};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TFrmListaFornecedores, FrmListaFornecedores);
+  Application.CreateForm(TFrmPanFor, FrmPanFor);
+  Application.Run;
+end.

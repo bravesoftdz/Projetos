@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaPanBaseAlertaTopo.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaPanBaseAlertaTopo.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7428703704</prop>
+        <prop prop-type="OrigDateTime">41974.1196296296</prop>
+        <prop prop-type="XlatDateTime">41974.1196296296</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">69</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:panAlertaTopo.Left" resname="O:panAlertaTopo.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TpanAlertaTopo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.Top" resname="O:panAlertaTopo.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TpanAlertaTopo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.Width" resname="O:panAlertaTopo.Width">
+        <source>637</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TpanAlertaTopo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.Height" resname="O:panAlertaTopo.Height">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TpanAlertaTopo</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.TabOrder" resname="O:panAlertaTopo.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TpanAlertaTopo</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Left" resname="O:panAlertaTopo.O:panPri.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Top" resname="O:panAlertaTopo.O:panPri.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Width" resname="O:panAlertaTopo.O:panPri.Width">
+        <source>637</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Height" resname="O:panAlertaTopo.O:panPri.Height">
+        <source>34</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Hint" resname="O:panAlertaTopo.O:panPri.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Margins.Top" resname="O:panAlertaTopo.O:panPri.Margins.Top">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Align" resname="O:panAlertaTopo.O:panPri.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Bevel.BorderSides" resname="O:panAlertaTopo.O:panPri.Bevel.BorderSides">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Bevel.Mode" resname="O:panAlertaTopo.O:panPri.Bevel.Mode">
+        <source>bmEdge</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.Color" resname="O:panAlertaTopo.O:panPri.Color">
+        <source>12582911</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.TabOrder" resname="O:panAlertaTopo.O:panPri.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Left" resname="O:panAlertaTopo.O:panPri.O:Img.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Top" resname="O:panAlertaTopo.O:panPri.O:Img.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Width" resname="O:panAlertaTopo.O:panPri.O:Img.Width">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Height" resname="O:panAlertaTopo.O:panPri.O:Img.Height">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Align" resname="O:panAlertaTopo.O:panPri.O:Img.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Center" resname="O:panAlertaTopo.O:panPri.O:Img.Center">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.Picture.Data" resname="O:panAlertaTopo.O:panPri.O:Img.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D4948445200000018000000180806000000E0773DF80000002A744558744372656174696F6E2054696D65004D692035204D727A20323030332030313A31363A3336202B303130302D49F2060000000774494D45D60705170D3B00ED210ED4000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC6105000004DE4944415478DAA556694C1467187E66662F8E0516B425D4583468C11A532D88363D482C256D341A6B8D3F6A4A7AFCB0B6923512E3D560538456A545241A28AEB5A4DA966CA1661BAD66498A421559AFA2EB811511C408ECB2F7CEECCCF49D5DB45885423B9B27DF37DFF13EEF3DCB607C0F336C2E8FF7C2884FF30EACF4CABA22954697D075D3692E31A3E87227EED116FFBF092EECC14B42ECCCC6F4BC0A0EB2803BED07F1D3B7A69A42134A69BB9320FC6702B91CEC511EAD7397D5CE611819B2E8874AA7C5B9FA4F0205659DC6B31DA8A763774773D7A804CDBBF14152DAE2AAE4192B10E21D24C60FB02184027DF8A17C7BE3C755D842C76C04FFB8096E1E4242AF436BCF58B8EF4949F4806578C844208A3E705C081D2D0DF296B28B5B7F69C53774BC8B208E8BC05689B289CF7F688C4BC984D87D0057DA5B1012656465A7C117974B177D385C516D7FBF126B791E27E98A6BCC047FD622C3899473535F29D1C07502C59F55A3AC6112F47A3D3E5AD287A2F553E1E6A6A1F74A3BB6979EADACB162375DBB4E088D89C0B6074726BD5C94C745C723CAD580DC7C1B6E0D4C803E260689060D9A0EF6C0216641ADE3613559FB576DE70B7A1C384A57FBFF19F04708EC262C9293B21B9267BDCD888203F1A1462C5D750E97BA93111B138DD41416F5355D7006D3C1AA82F0F43950F1A9FDC75273386DDB09C11109F872685A803F662D2A9B265260217BA1E7AE60C79756988E4D419C3E162B5EEBC3BA35125C7C3C58D60F4D4C08A7EABA0463A96F9DAD037524E6CE702B1E22682EC7FA27662D2D4D4A9D0F5150ACF542AD09A2E3F77D585E340771B1B1D85B741E33B39E82100A826103612B6451C0D71BFA4F184DD84497CE107C8F109CD98594A04A7F79E6C2CFE384C0DDA1A4F052DEF348D2FD8CAC25D3499801A72C8D700553497B0F182E008E48D4D13CDA8F09F2C6AD72B1A50D26442A5C7C88A0E90BEC9FB260ED3B518664C8A1015A2117312484F1C310634749851FBD0389D8B5D30E8F5B4FC2BD60397FD8025625411D055419D161AC84D127E0371230F880A07517E62121FDE4F49CB5AC10E8A1157744B83292A62A7580FC7F1A225913E027842D63150245B846A639C0A9805B17814DAB5155DB84723A748D20508701632E454BCE9B5F65334C0892E48CB827ACBD1BACDA0BCED789EBA7AF213A96C5332F68E0D78A24DC1716AE22C1E0FE7685791B5C053B5070DB010BBDF631DF6D45FEB3CFBDB1EFE9D9CB1831D84BED4011EE1ED2DE0DB5D6874B478EE2D5C274AA8189B0569DC7E4F9BE704DB16A84313C533C941B85CB51BFD78A6DF47A81316F862D77D5A1D97C80DA3B691F2150B48F10A9B41E5C3DDE88D737646262D2047CBFFB3432E6528C58D25EF3F852AD2B86E7ADCD28A0A985B19418BA73DEDD9F1270DFA0EC755302BB22DA13014316302A0F12B8EB686B23F2681D325FEC072FC9E04838CBD2B1C710D46E86736571B87D9898EAD530E5E56FCC37A4A4513EF743A2E0B3E118382304DC2005D0456DC149E32024252E9AC0483D1237DA8035EFC16C390F0A390E3073A763F2E22CEC9C9191B840CDB1A497443F2585A5212869204292655914255199931FC3AE51069EB6281C9252BA8E01B80F37E1CCAF17718FF694543DAE18A878720A611E218D108591DBB88CC77FBDEEAF4B9102C25525FB09B7EF0BD21212083191A41BF54B27FFCBBA3044E20AD7C1B00363FA8731C6E781127F0101C508B2A1B711CC0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:Img.ExplicitHeight" resname="O:panAlertaTopo.O:panPri.O:Img.ExplicitHeight">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Left" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Left">
+        <source>35</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Top" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Align" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Caption" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Caption">
+        <source>'Mensagem Topo'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.ParentColor" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.ParentColor">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.ParentFont" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Charset" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Color" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Height" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Name" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Style" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.LookAndFeel.Kind" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.LookAndFeel.NativeStyle" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.TextColor" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.TextColor">
+        <source>3026478</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.TextStyle" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.TransparentBorder" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.IsFontAssigned" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleDisabled.LookAndFeel.Kind" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleDisabled.LookAndFeel.NativeStyle" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleFocused.LookAndFeel.Kind" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleFocused.LookAndFeel.NativeStyle" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleHot.LookAndFeel.Kind" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleHot.LookAndFeel.NativeStyle" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Properties.Alignment.Vert" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Properties.WordWrap" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Transparent" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.Width" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.Width">
+        <source>602</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:lbMensagem.AnchorY" resname="O:panAlertaTopo.O:panPri.O:lbMensagem.AnchorY">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Left" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Top" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Top">
+        <source>31</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802199</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Width" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Width">
+        <source>637</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Height" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Height">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Hint" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Align" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Bevel.Mode" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.TabOrder" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Left" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Top" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Width" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Width">
+        <source>637</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Height" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Height">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Align" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Picture.Data" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D49484452000000030000000308060000005628B5BF000000097048597300000EC400000EC401952B0E1B000000174944415478DA636460607061800246205643E6F0C138000D83007C5CB104A70000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Stretch" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.Stretch">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.ExplicitLeft" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.ExplicitLeft">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.ExplicitTop" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.ExplicitTop">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.ExplicitWidth" resname="O:panAlertaTopo.O:panPri.O:LMDSimplePanel1.O:Image3.ExplicitWidth">
+        <source>834</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7428802315</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

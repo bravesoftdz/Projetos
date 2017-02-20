@@ -1,0 +1,1373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmEditContato.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmEditContato.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7423148148</prop>
+        <prop prop-type="OrigDateTime">42284.7651157407</prop>
+        <prop prop-type="XlatDateTime">42284.7651157407</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">271</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmEditContato.Left" resname="O:FrmEditContato.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Top" resname="O:FrmEditContato.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.BorderStyle" resname="O:FrmEditContato.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.BorderWidth" resname="O:FrmEditContato.BorderWidth">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Caption" resname="O:FrmEditContato.Caption">
+        <source>'Cliente'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.ClientHeight" resname="O:FrmEditContato.ClientHeight">
+        <source>304</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.ClientWidth" resname="O:FrmEditContato.ClientWidth">
+        <source>773</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Color" resname="O:FrmEditContato.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Font.Charset" resname="O:FrmEditContato.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Font.Color" resname="O:FrmEditContato.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Font.Height" resname="O:FrmEditContato.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Font.Name" resname="O:FrmEditContato.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.Font.Style" resname="O:FrmEditContato.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.OldCreateOrder" resname="O:FrmEditContato.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.OnClose" resname="O:FrmEditContato.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.OnCreate" resname="O:FrmEditContato.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195718</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.PixelsPerInch" resname="O:FrmEditContato.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.TextHeight" resname="O:FrmEditContato.TextHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmEditContato</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.AlignWithMargins" resname="O:FrmEditContato.O:panPri.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Left" resname="O:FrmEditContato.O:panPri.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Top" resname="O:FrmEditContato.O:panPri.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Width" resname="O:FrmEditContato.O:panPri.Width">
+        <source>773</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Height" resname="O:FrmEditContato.O:panPri.Height">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Hint" resname="O:FrmEditContato.O:panPri.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Margins.Left" resname="O:FrmEditContato.O:panPri.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Margins.Top" resname="O:FrmEditContato.O:panPri.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Margins.Right" resname="O:FrmEditContato.O:panPri.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Margins.Bottom" resname="O:FrmEditContato.O:panPri.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Align" resname="O:FrmEditContato.O:panPri.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Bevel.Mode" resname="O:FrmEditContato.O:panPri.Bevel.Mode">
+        <source>bmStandard</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.Bevel.StandardStyle" resname="O:FrmEditContato.O:panPri.Bevel.StandardStyle">
+        <source>lsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.TabOrder" resname="O:FrmEditContato.O:panPri.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Left" resname="O:FrmEditContato.O:panPri.O:lbNome.Left">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Top" resname="O:FrmEditContato.O:panPri.O:lbNome.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Cursor" resname="O:FrmEditContato.O:panPri.O:lbNome.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Align" resname="O:FrmEditContato.O:panPri.O:lbNome.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Caption" resname="O:FrmEditContato.O:panPri.O:lbNome.Caption">
+        <source>'Selecione um cliente (F5)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.ParentFont" resname="O:FrmEditContato.O:panPri.O:lbNome.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Height">
+        <source>-19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.HotTrack" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.TextColor">
+        <source>5131854</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.TextStyle" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:lbNome.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.StyleFocused.TextColor" resname="O:FrmEditContato.O:panPri.O:lbNome.StyleFocused.TextColor">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.StyleHot.BorderStyle" resname="O:FrmEditContato.O:panPri.O:lbNome.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.StyleHot.TextColor" resname="O:FrmEditContato.O:panPri.O:lbNome.StyleHot.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.StyleHot.TextStyle" resname="O:FrmEditContato.O:panPri.O:lbNome.StyleHot.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:lbNome.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.OnClick" resname="O:FrmEditContato.O:panPri.O:lbNome.OnClick">
+        <source>lbNomeClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbNome.AnchorY" resname="O:FrmEditContato.O:panPri.O:lbNome.AnchorY">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Left" resname="O:FrmEditContato.O:panPri.O:Img.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Top" resname="O:FrmEditContato.O:panPri.O:Img.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Width" resname="O:FrmEditContato.O:panPri.O:Img.Width">
+        <source>65</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Height" resname="O:FrmEditContato.O:panPri.O:Img.Height">
+        <source>52</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Cursor" resname="O:FrmEditContato.O:panPri.O:Img.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Align" resname="O:FrmEditContato.O:panPri.O:Img.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.OnClick" resname="O:FrmEditContato.O:panPri.O:Img.OnClick">
+        <source>ImgClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.MouseOverDrawMode" resname="O:FrmEditContato.O:panPri.O:Img.MouseOverDrawMode">
+        <source>idmNormal</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.MouseOffDrawMode" resname="O:FrmEditContato.O:panPri.O:Img.MouseOffDrawMode">
+        <source>idmFaded</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.MouseDownDrawMode" resname="O:FrmEditContato.O:panPri.O:Img.MouseDownDrawMode">
+        <source>idmGrayScale</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.ImageList" resname="O:FrmEditContato.O:panPri.O:Img.ImageList">
+        <source>imgs</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.ImageIndex" resname="O:FrmEditContato.O:panPri.O:Img.ImageIndex">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:Img.Colorize" resname="O:FrmEditContato.O:panPri.O:Img.Colorize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TMyImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Left" resname="O:FrmEditContato.O:panPri.O:lbRemove.Left">
+        <source>279</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Top" resname="O:FrmEditContato.O:panPri.O:lbRemove.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Cursor" resname="O:FrmEditContato.O:panPri.O:lbRemove.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Margins.Left" resname="O:FrmEditContato.O:panPri.O:lbRemove.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Margins.Top" resname="O:FrmEditContato.O:panPri.O:lbRemove.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Margins.Right" resname="O:FrmEditContato.O:panPri.O:lbRemove.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Align" resname="O:FrmEditContato.O:panPri.O:lbRemove.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Caption" resname="O:FrmEditContato.O:panPri.O:lbRemove.Caption">
+        <source>'x'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.ParentFont" resname="O:FrmEditContato.O:panPri.O:lbRemove.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Height">
+        <source>-21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.HotTrack" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.TextColor">
+        <source>clSilver</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.TextStyle" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:lbRemove.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.StyleFocused.TextColor" resname="O:FrmEditContato.O:panPri.O:lbRemove.StyleFocused.TextColor">
+        <source>clGray</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.StyleHot.BorderStyle" resname="O:FrmEditContato.O:panPri.O:lbRemove.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.StyleHot.TextColor" resname="O:FrmEditContato.O:panPri.O:lbRemove.StyleHot.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.StyleHot.TextStyle" resname="O:FrmEditContato.O:panPri.O:lbRemove.StyleHot.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:lbRemove.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.OnClick" resname="O:FrmEditContato.O:panPri.O:lbRemove.OnClick">
+        <source>lbRemoveClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195833</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:lbRemove.AnchorY" resname="O:FrmEditContato.O:panPri.O:lbRemove.AnchorY">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panDeb.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Left" resname="O:FrmEditContato.O:panPri.O:panDeb.Left">
+        <source>531</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Top" resname="O:FrmEditContato.O:panPri.O:panDeb.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Width" resname="O:FrmEditContato.O:panPri.O:panDeb.Width">
+        <source>165</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Height" resname="O:FrmEditContato.O:panPri.O:panDeb.Height">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Hint" resname="O:FrmEditContato.O:panPri.O:panDeb.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panDeb.Margins.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panDeb.Margins.Bottom">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Align" resname="O:FrmEditContato.O:panPri.O:panDeb.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Bevel.Mode" resname="O:FrmEditContato.O:panPri.O:panDeb.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Color" resname="O:FrmEditContato.O:panPri.O:panDeb.Color">
+        <source>3361996</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.TabOrder" resname="O:FrmEditContato.O:panPri.O:panDeb.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.Visible" resname="O:FrmEditContato.O:panPri.O:panDeb.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Left" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Top" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Left" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Right" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Align" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Caption" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Caption">
+        <source>'Débito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.ParentFont" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Properties.Alignment.Horz" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.AnchorX" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.AnchorX">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.AnchorY" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbDebito.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Left" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Left">
+        <source>45</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Top" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Left" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Right" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Align" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Caption" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Caption">
+        <source>'R$ XXXXXXXXXX'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.ParentFont" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.TextStyle" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Properties.Alignment.Horz" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.AnchorX" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.AnchorX">
+        <source>103</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.AnchorY" resname="O:FrmEditContato.O:panPri.O:panDeb.O:lbValorDebito.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panFid.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Left" resname="O:FrmEditContato.O:panPri.O:panFid.Left">
+        <source>412</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Top" resname="O:FrmEditContato.O:panPri.O:panFid.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Width" resname="O:FrmEditContato.O:panPri.O:panFid.Width">
+        <source>113</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Height" resname="O:FrmEditContato.O:panPri.O:panFid.Height">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Hint" resname="O:FrmEditContato.O:panPri.O:panFid.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panFid.Margins.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panFid.Margins.Bottom">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Align" resname="O:FrmEditContato.O:panPri.O:panFid.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Bevel.Mode" resname="O:FrmEditContato.O:panPri.O:panFid.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Color" resname="O:FrmEditContato.O:panPri.O:panFid.Color">
+        <source>11696189</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.TabOrder" resname="O:FrmEditContato.O:panPri.O:panFid.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.Visible" resname="O:FrmEditContato.O:panPri.O:panFid.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Left" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Top" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Left" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423195949</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Right" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Align" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Caption" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Caption">
+        <source>'Pontos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.ParentFont" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.TransparentBorder" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Properties.Alignment.Horz" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.AnchorX" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.AnchorX">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.AnchorY" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbPontos.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Left" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Left">
+        <source>47</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Top" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Left" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Right" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Align" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Caption" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Caption">
+        <source>'1020000'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.ParentFont" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.TextStyle" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">199</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.TransparentBorder" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">200</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">201</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Properties.Alignment.Horz" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">202</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">203</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.AnchorX" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.AnchorX">
+        <source>77</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">204</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.AnchorY" resname="O:FrmEditContato.O:panPri.O:panFid.O:lbQuantPontos.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">205</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panCred.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">206</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Left" resname="O:FrmEditContato.O:panPri.O:panCred.Left">
+        <source>298</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">207</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Top" resname="O:FrmEditContato.O:panPri.O:panCred.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">208</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Width" resname="O:FrmEditContato.O:panPri.O:panCred.Width">
+        <source>108</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">209</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Height" resname="O:FrmEditContato.O:panPri.O:panCred.Height">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">210</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Hint" resname="O:FrmEditContato.O:panPri.O:panCred.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">211</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panCred.Margins.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">212</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panCred.Margins.Bottom">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">213</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Align" resname="O:FrmEditContato.O:panPri.O:panCred.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">214</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Bevel.Mode" resname="O:FrmEditContato.O:panPri.O:panCred.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">215</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Color" resname="O:FrmEditContato.O:panPri.O:panCred.Color">
+        <source>8957013</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">216</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.TabOrder" resname="O:FrmEditContato.O:panPri.O:panCred.TabOrder">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">217</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.Visible" resname="O:FrmEditContato.O:panPri.O:panCred.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">218</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">219</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Left" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">220</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Top" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">221</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Left" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Left">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">222</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">223</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Right" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">224</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">225</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Align" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">226</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Caption" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Caption">
+        <source>'Crédito'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">227</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.ParentFont" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">228</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">229</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">230</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">231</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">232</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">233</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">234</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.TransparentBorder" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.TransparentBorder">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">235</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">236</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Properties.Alignment.Horz" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">237</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">238</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.AnchorX" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.AnchorX">
+        <source>28</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">239</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.AnchorY" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbCredito.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196065</prop><prop prop-type="Status">0</prop><prop prop-type="Order">240</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.AlignWithMargins" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">241</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Left" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Left">
+        <source>50</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">242</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Top" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">243</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Left" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">244</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Top" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">245</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Right" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Right">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">246</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Bottom" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">247</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Align" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">248</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Caption" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Caption">
+        <source>'R$ 1,50'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">249</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.ParentFont" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">250</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Charset" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">251</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Color" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">252</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Height" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">253</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Name" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">254</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Style" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">255</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.TextColor" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.TextColor">
+        <source>clWhite</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">256</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.IsFontAssigned" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">257</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Properties.Alignment.Horz" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">258</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Properties.Alignment.Vert" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">259</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.AnchorX" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.AnchorX">
+        <source>77</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">260</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.AnchorY" resname="O:FrmEditContato.O:panPri.O:panCred.O:lbValorCredito.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">261</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:imgs.Height" resname="O:FrmEditContato.O:imgs.Height">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">262</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:imgs.Width" resname="O:FrmEditContato.O:imgs.Width">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">263</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:imgs.FormatVersion" resname="O:FrmEditContato.O:imgs.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">264</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:imgs.DesignInfo" resname="O:FrmEditContato.O:imgs.DesignInfo">
+        <source>4194456</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">265</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:imgs.ImageInfo[0].Image.Data" resname="O:FrmEditContato.O:imgs.ImageInfo[0].Image.Data">
+        <source>36240000424D3624000000000000360000002800000030000000300000000100200000000000002400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000404040848484898707070ED787878FF787878FF787878FF787878FF787878FF777777FD515151AD00000000000000004C4C4CA2767676FB787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF777777FD515151AD00000000000000004C4C4CA2767676FB787878FF787878FF787878FF787878FF787878FF707070EE4848489A04040408000000000000000000000000000000004343438F787878FF787878FF787878FF787878FF787878FF787878FF787878FF7E7E7EFF787878FF0000000000000000787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF7E7E7EFF787878FF0000000000000000787878FF787878FF787878FF787878FF858585FF858585FF828282FF787878FF787878FF47474796000000000000000000000000000000006B6B6BE4787878FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFFBFBFBFFFBFBFBFFF787878FF0000000000000000787878FFBFBFBFFFBFBFBFFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFFBFBFBFFFBFBFBFFF787878FF0000000000000000787878FFBFBFBFFFBFBFBFFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF787878FF6E6E6EEA00000000000000000000000002020205787878FF7A7A7AFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF787878FF707070EF00000000000000006A6A6AE1787878FF7C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF787878FF707070EF00000000000000006A6A6AE1787878FF7C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF7D7D7DFF787878FF00000000000000000000000003030307787878FF7C7C7CFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF0000000000000000000000000000000000000000000000007C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF0000000000000000000000000000000000000000000000007C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF0000000000000000000000000000000000000000000000007C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF0000000000000000000000000000000000000000000000007C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF787878FF787878FF787878FF787878FF787878FF787878FF7C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFF787878FF787878FF787878FF787878FF787878FF787878FF787878FF7C7C7CFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFBFBFBFFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FFE6E6E6FF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000000000000787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE5D2BFFFD5B494FFC99F77FFC29567FFC19062FFC09060FFC29366FFC89E75FFD2B08EFFE2CDB8FFFDFBFBFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFD7B99CFFAE6E30FFAE7032FFB07236FFB07438FFB17539FFB1753AFFB1753AFFB17539FFB17438FFB07337FFAF7033FFAC6C2DFFCEA986FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFDFC7AFFFAC6B2CFFB2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFAD6E30FFD2B18FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFC4986BFFB17439FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2763BFFB8814CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFC69B6FFFB17439FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2763BFFB98451FFFFFFFFFFFFFFFFFFD7D7D7FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFC3C3C3FFDCDCDCFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFD2AE8CFFB07337FFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFAF7135FFAF7134FFB2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB17438FFC79C72FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFEBDBCDFFAD6E2FFFB3783EFFB3783EFFB3783EFFB2773DFFAD6F30FFDFC8B0FFE7D5C4FFAF7336FFB2773CFFB3783EFFB3783EFFB3783EFFAE7032FFE0CAB4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFB8834FFFB1753AFFB3783EFFB3783EFFAC6C2EFFE3CEBAFFFFFFFFFFFFFFFFFFF1E7DCFFAC6C2DFFB2773DFFB3783EFFB2763BFFB2783EFFFFFFFFFFFFFFFFFFFFFFFFFFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFF7F1EBFFAC6E30FFB2763BFFAF7033FFCBA57EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDBC1A7FFAD6D2FFFB2773CFFAB6B2BFFF1E6DDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4EBE4FFB17438FFBF8E5EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCBA37CFFAC6C2DFFEFE1D7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAF7F4FFCEA985FFB8824DFFB77F48FFC89E74FFF1E8DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1E6DDFFAC6D30FFB07336FFB2763BFFB2763BFFB07438FFAA6A29FFE0CAB4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB07338FFB2763BFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFAB6A2AFFF6EFE8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0C8B1FFAE7033FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB07337FFCEA883FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCEA984FFB07337FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB1753AFFBC8857FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFCFAA85FFB07337FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB1753AFFBC8958FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE2CCB6FFAE6F32FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB07336FFCFAB87FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFB7B7B7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB2783DFFB1753BFFB3783EFFB3783EFFB3783EFFB3783EFFB2773DFFAC6B2CFFF8F3EEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5EEE6FFB07336FFAF7135FFB1753AFFB1753BFFB07337FFAB6B2BFFE7D5C3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000003030307787878FF7C7C7CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEFFFFFFD4B493FFBC8A58FFBB8752FFCEA882FFF7F2EDFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7E7E7EFF787878FF00000000000000000000000002020205787878FF7B7B7BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF7D7D7DFF787878FF000000000000000000000000000000006D6D6DE7787878FFE7E7E7FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE9E9E9FF787878FF6F6F6FEB0000000000000000000000000000000046464694787878FF787878FF7D7D7DFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7E7E7EFF7D7D7DFF787878FF787878FF494949990000000000000000000000000000000004040408484848976F6F6FEB787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF787878FF6F6F6FEC4949499904040408000000000000000000000000000000000000000000000000000000000505050A0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0606060D0505050A0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">266</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:imgs.ImageInfo[1].Image.Data" resname="O:FrmEditContato.O:imgs.ImageInfo[1].Image.Data">
+        <source>36240000424D36240000000000003600000028000000300000003000000001002000000000000024000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000040201057B522BAFB3783EFFB3783EFF8A5D30C5140E071D00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000C08041183582DBBB3783EFFB3783EFF83582DBB0C08041100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000003020104B3783EFFB3783EFFB07338FFB07337FFB2773DFFB3783EFF191109240000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000D080412B3783EFFB2773DFFB07337FFB07337FFB2773DFFB3783EFF0D0804120000000000000000000000000000000000000000000000000000000000000000000000000000000000000000714C27A2B3773DFFAE7032FFCFA985FFD4B596FFAF7135FFB2773DFF966433D700000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000083582CBCB2773DFFAF7033FFD2B08EFFD2B08EFFAF7033FFB2773DFF83582CBC0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000A56C34EFB07438FFCBA57FFFFFFFFFFFFFFFFFFFDCC1A6FFAF7235FFB2763BFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B17539FFB07337FFD3B291FFFFFFFFFFFFFFFFFFD3B291FFB07337FFB1753AFF000000000000000000000000000000000000000000000000000000000000000097622EDCCAA27CFFFFFFFFFFB67F48FFB07236FFCBA57FFFFFFFFFFFFFFFFFFFDCC1A6FFAF7235FFAB6A2BFFFFFFFFFF6B523A8C00000000B17539FFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783DFFAF7135FFCEA985FFFFFFFFFFAE7133FFB07236FFD3B291FFFFFFFFFFFFFFFFFFD3B291FFB07236FFAE7133FFFFFFFFFFCFAB87FFAF7033FFB2773DFF00000000000000000000000000000000B2763BFFB9834DFFFFFFFFFFCEA782FFAF7236FFAE7032FFCEA984FFD4B596FFAF7135FFB17439FFBE8B5AFFFFFFFFFFB27941FC00000000B1753AFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB1753BFFBD8957FFFFFFFFFFC59A6FFFB07337FFAF7033FFD2AE8EFFD2AE8EFFAF7033FFB07337FFC59A6FFFFFFFFFFFBD8957FFB1753BFFB3783EFF00000000000000000000000000000000B3783EFFAD6E2FFFF0E6DCFFFFFFFFFFB1753AFFB07236FFB07337FFB07236FFB07438FFAB6C2DFFF7F1EBFFF1E7DDFFAC6D2EFF00000000B2763BFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFAD6D2EFFF3ECE4FFFBF8F5FFAD6F32FFB07337FFB07336FFB07336FFB07337FFAD6F32FFFBF8F5FFF3ECE4FFAD6D2EFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB2763BFFB57D46FFFFFFFFFFFFFFFFFFCAA279FFB07438FFAE6F32FFC39569FFF8F3EEFFFFFFFFFFB57D46FFB1753AFF00000000B2773CFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2763BFFB8824DFFFFFFFFFFFBF8F5FFC79C70FFAF7135FFAF7135FFC79C70FFFBF8F5FFFFFFFFFFB8824DFFB2763BFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB3783EFFB17539FFB47C43FFEFE4D8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0E4D9FFB47C43FFB17539FFB2773DFF00000000B2773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB17438FFB8804AFFF5EEE8FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5EEE8FFB8804AFFB17438FFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB3783EFFB3783EFFB2763CFFAD6E30FFB87F4AFFC9A179FFC9A179FFB87F4AFFAD6E30FFB2763CFFB3783EFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2763BFFAD6D2EFFBB8855FFCDA882FFCDA882FFBB8855FFAD6D2EFFB2763BFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB2763BFFB17438FFB17438FFB2763BFFB3783EFFB3783EFFB3783EFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB1763BFFB07338FFB07338FFB1763BFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000B3783EFFB2763CFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFB3783EFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000B2763CFFB57D46FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC6C2DFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000008E5F30CCB07336FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC6C2DFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0000000000000000000000000000000021170D2FAF7133FFDCC2A9FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC6C2DFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0000000000000000000000000000000000000000916132CFB47C42FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC6C2DFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000000000002A1D113AAD6E30FFE7D6C3FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC6C2DFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0000000000000000000000000000000000000000000000009D6833E2BD8B5BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFAC6C2DFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0000000000000000000000000000000000000000000000003827174DB17439FFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFAC6C2DFFB3783EFFB3783EFF00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF00000000000000000000000000000000000000000000000000000000946434D4B3773DFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF9A6835DC00000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000B3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000002B1D0F3DB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFFB3783EFF2B1D0F3D0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">267</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end&gt;</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:cxImageList1.FormatVersion" resname="O:FrmEditContato.O:cxImageList1.FormatVersion">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">268</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:cxImageList1.DesignInfo" resname="O:FrmEditContato.O:cxImageList1.DesignInfo">
+        <source>4194528</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">269</prop><prop prop-type="Type">TcxImageList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmEditContato.O:cxImageList1.ImageInfo[0].Image.Data" resname="O:FrmEditContato.O:cxImageList1.ImageInfo[0].Image.Data">
+        <source>36040000424D360400000000000036000000280000001000000010000000010020000000000000040000000000000000000000000000000000000000000000000000000000000000000000000000000000120000002E0000005C0000005C0000002E000000120000000000000000000000000000000000000000000000000000000000000000000000100000004F000000780000007F0000007F0000007F0000007F000000780000004F0000001000000000000000000000000000000000000000000000001B0000006F0000007F0000007F0000007F0000007F0000007F0000007F0000007F0000007F0000006F0000001B0000000000000000000000000000000F000000700000007F00000076000000720000007F0000007F0000007F0000007F00000073000000750000007F000000700000000F00000000000000000000004F0000007F000000750000001900000010000000680000007F0000007F0000006A0000001100000016000000730000007F0000004F0000000000000010000000790000007F00000072000000100000000000000010000000680000006A00000012000000000000000E000000700000007F00000079000000100000002C0000007F0000007F0000007F000000690000001100000000000000090000000A000000000000000F000000670000007F0000007F0000007F0000002C000000420000007F0000007F0000007F0000007F0000006B0000000B00000000000000000000000A000000680000007F0000007F0000007F0000007F00000042000000420000007F0000007F0000007F0000007F0000006C0000000C00000000000000000000000A0000006A0000007F0000007F0000007F0000007F000000420000002C0000007F0000007F0000007F0000006B000000120000000000000008000000090000000000000010000000690000007F0000007F0000007F0000002C00000010000000790000007F0000007300000011000000000000000F000000670000006900000011000000000000000F000000710000007F0000007900000010000000000000004E0000007F00000075000000170000000E000000670000007F0000007F000000690000001000000015000000730000007F0000004E00000000000000000000000E0000006F0000007F00000075000000710000007F0000007F0000007F0000007F00000072000000740000007F0000006F0000000E0000000000000000000000000000001A0000006E0000007F0000007F0000007F0000007F0000007F0000007F0000007F0000007F0000006E0000001A00000000000000000000000000000000000000000000000F0000004E000000780000007F0000007F0000007F0000007F000000780000004E0000000F0000000000000000000000000000000000000000000000000000000000000000000000110000002C00000048000000480000002C000000110000000000000000000000000000000000000000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7423196181</prop><prop prop-type="Status">0</prop><prop prop-type="Order">270</prop><prop prop-type="Type">C:TcxImageList</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}end&gt;</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

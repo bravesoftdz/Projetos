@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmNFCeImpedirDeslig.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmNFCeImpedirDeslig.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7425</prop>
+        <prop prop-type="OrigDateTime">42249.7546990741</prop>
+        <prop prop-type="XlatDateTime">42249.7546990741</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">99</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Left" resname="O:FrmNFCeImpedirDeslig.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Top" resname="O:FrmNFCeImpedirDeslig.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.BorderStyle" resname="O:FrmNFCeImpedirDeslig.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.BorderWidth" resname="O:FrmNFCeImpedirDeslig.BorderWidth">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Caption" resname="O:FrmNFCeImpedirDeslig.Caption">
+        <source>'Ativar emissão de NFC-e'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.ClientHeight" resname="O:FrmNFCeImpedirDeslig.ClientHeight">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.ClientWidth" resname="O:FrmNFCeImpedirDeslig.ClientWidth">
+        <source>479</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Color" resname="O:FrmNFCeImpedirDeslig.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Font.Charset" resname="O:FrmNFCeImpedirDeslig.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Font.Color" resname="O:FrmNFCeImpedirDeslig.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Font.Height" resname="O:FrmNFCeImpedirDeslig.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Font.Name" resname="O:FrmNFCeImpedirDeslig.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Font.Style" resname="O:FrmNFCeImpedirDeslig.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.OldCreateOrder" resname="O:FrmNFCeImpedirDeslig.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.Position" resname="O:FrmNFCeImpedirDeslig.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.OnClose" resname="O:FrmNFCeImpedirDeslig.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.PixelsPerInch" resname="O:FrmNFCeImpedirDeslig.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.TextHeight" resname="O:FrmNFCeImpedirDeslig.TextHeight">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmNFCeImpedirDeslig</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.AlignWithMargins" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Left" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Top" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Left" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Top" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Right" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Bottom" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Align" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Caption" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Caption">
+        <source>'Ative a emissão de NFC-e'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.ParentFont" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Charset" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Color" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Height" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Name" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Style" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.TextStyle" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.TextStyle">
+        <source>[fsBold, fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.IsFontAssigned" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Properties.Alignment.Horz" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Properties.Alignment.Horz">
+        <source>taCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.Properties.Alignment.Vert" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.AnchorX" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.AnchorX">
+        <source>240</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:cxLabel1.AnchorY" resname="O:FrmNFCeImpedirDeslig.O:cxLabel1.AnchorY">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Left" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Top" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Top">
+        <source>210</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Width" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Width">
+        <source>479</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Height" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Hint" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Hint">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Left" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Top" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Right" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Right">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Bottom" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Align" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Bevel.Mode" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.TabOrder" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Left" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Top" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Width" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Width">
+        <source>153</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Height" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Height">
+        <source>30</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Cursor" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742505463</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Align" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Caption" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Caption">
+        <source>'Ativar NFC-e'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Default" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.LookAndFeel.Kind" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.LookAndFeel.NativeStyle" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.ModalResult" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.TabOrder" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Charset" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Color" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Height" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Name" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Name">
+        <source>'Segoe UI Semibold'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Style" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.ParentFont" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.OnClick" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:btnAtivar.OnClick">
+        <source>btnAtivarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Left" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Left">
+        <source>425</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Top" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Align" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Align">
+        <source>alRight</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Caption" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.ParentFont" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Style.HotTrack" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Style.HotTrack">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Style.TextStyle" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Style.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Properties.Alignment.Vert" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.OnClick" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.OnClick">
+        <source>cxLabel2Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.AnchorY" resname="O:FrmNFCeImpedirDeslig.O:LMDSimplePanel4.O:cxLabel2.AnchorY">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.AlignWithMargins" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Left" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Top" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Top">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Left" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Top" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Right" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Bottom" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Margins.Bottom">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Align" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Caption" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Caption">
+        <source>'Sua loja já emitiu NFC-e. Dessa forma é obrigatório que todas as vendas realizadas desse momento em diante façam a emissão de NFC-e.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.ParentFont" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Charset" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Color" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Height" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Name" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Style" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.TextColor" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.TextColor">
+        <source>clRed</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.IsFontAssigned" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Properties.WordWrap" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmNFCeImpedirDeslig.O:lbMsg.Width" resname="O:FrmNFCeImpedirDeslig.O:lbMsg.Width">
+        <source>479</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425054745</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

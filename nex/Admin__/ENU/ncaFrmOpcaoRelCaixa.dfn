@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmOpcaoRelCaixa.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmOpcaoRelCaixa.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7425</prop>
+        <prop prop-type="OrigDateTime">41620.6030324074</prop>
+        <prop prop-type="XlatDateTime">41620.6030324074</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">60</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Left" resname="O:FrmOpcaoRelCaixa.Left">
+        <source>258</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Top" resname="O:FrmOpcaoRelCaixa.Top">
+        <source>186</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.BorderStyle" resname="O:FrmOpcaoRelCaixa.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.BorderWidth" resname="O:FrmOpcaoRelCaixa.BorderWidth">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Caption" resname="O:FrmOpcaoRelCaixa.Caption">
+        <source>'Selecione os itens que devem ser impressos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.ClientHeight" resname="O:FrmOpcaoRelCaixa.ClientHeight">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.ClientWidth" resname="O:FrmOpcaoRelCaixa.ClientWidth">
+        <source>322</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Color" resname="O:FrmOpcaoRelCaixa.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Font.Charset" resname="O:FrmOpcaoRelCaixa.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Font.Color" resname="O:FrmOpcaoRelCaixa.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Font.Height" resname="O:FrmOpcaoRelCaixa.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Font.Name" resname="O:FrmOpcaoRelCaixa.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Font.Style" resname="O:FrmOpcaoRelCaixa.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.OldCreateOrder" resname="O:FrmOpcaoRelCaixa.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.Position" resname="O:FrmOpcaoRelCaixa.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.OnClose" resname="O:FrmOpcaoRelCaixa.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.OnCreate" resname="O:FrmOpcaoRelCaixa.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.PixelsPerInch" resname="O:FrmOpcaoRelCaixa.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.TextHeight" resname="O:FrmOpcaoRelCaixa.TextHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmOpcaoRelCaixa</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.Left" resname="O:FrmOpcaoRelCaixa.O:cgTipo.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.Top" resname="O:FrmOpcaoRelCaixa.O:cgTipo.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101273</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.Width" resname="O:FrmOpcaoRelCaixa.O:cgTipo.Width">
+        <source>233</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.Height" resname="O:FrmOpcaoRelCaixa.O:cgTipo.Height">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.Align" resname="O:FrmOpcaoRelCaixa.O:cgTipo.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.ItemHeight" resname="O:FrmOpcaoRelCaixa.O:cgTipo.ItemHeight">
+        <source>13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:cgTipo.TabOrder" resname="O:FrmOpcaoRelCaixa.O:cgTipo.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TCheckListBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.Left" resname="O:FrmOpcaoRelCaixa.O:btnTodos.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.Top" resname="O:FrmOpcaoRelCaixa.O:btnTodos.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.Width" resname="O:FrmOpcaoRelCaixa.O:btnTodos.Width">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.Height" resname="O:FrmOpcaoRelCaixa.O:btnTodos.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.Caption" resname="O:FrmOpcaoRelCaixa.O:btnTodos.Caption">
+        <source>'&amp;Todos'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.TabOrder" resname="O:FrmOpcaoRelCaixa.O:btnTodos.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.OnClick" resname="O:FrmOpcaoRelCaixa.O:btnTodos.OnClick">
+        <source>btnTodosClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnTodos.LookAndFeel.NativeStyle" resname="O:FrmOpcaoRelCaixa.O:btnTodos.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.Left" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.Top" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.Top">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.Width" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.Width">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.Height" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.Caption" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.Caption">
+        <source>'&amp;Nenhum'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.TabOrder" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.OnClick" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.OnClick">
+        <source>btnNenhumClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnNenhum.LookAndFeel.NativeStyle" resname="O:FrmOpcaoRelCaixa.O:btnNenhum.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.Left" resname="O:FrmOpcaoRelCaixa.O:btnOk.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.Top" resname="O:FrmOpcaoRelCaixa.O:btnOk.Top">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.Width" resname="O:FrmOpcaoRelCaixa.O:btnOk.Width">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.Height" resname="O:FrmOpcaoRelCaixa.O:btnOk.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.Caption" resname="O:FrmOpcaoRelCaixa.O:btnOk.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.Default" resname="O:FrmOpcaoRelCaixa.O:btnOk.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.TabOrder" resname="O:FrmOpcaoRelCaixa.O:btnOk.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.OnClick" resname="O:FrmOpcaoRelCaixa.O:btnOk.OnClick">
+        <source>btnOkClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnOk.LookAndFeel.NativeStyle" resname="O:FrmOpcaoRelCaixa.O:btnOk.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.Left" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.Left">
+        <source>248</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.Top" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.Top">
+        <source>128</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.Width" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.Width">
+        <source>73</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.Height" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.Height">
+        <source>23</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.Cancel" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.Caption" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.Caption">
+        <source>'&amp;Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.TabOrder" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.TabOrder">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.OnClick" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmOpcaoRelCaixa.O:btnCancelar.LookAndFeel.NativeStyle" resname="O:FrmOpcaoRelCaixa.O:btnCancelar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7425101389</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

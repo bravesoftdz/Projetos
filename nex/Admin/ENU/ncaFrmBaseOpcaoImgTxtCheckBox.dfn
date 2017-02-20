@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmBaseOpcaoImgTxtCheckBox.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmBaseOpcaoImgTxtCheckBox.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420138889</prop>
+        <prop prop-type="OrigDateTime">41343.6373148148</prop>
+        <prop prop-type="XlatDateTime">41343.6373148148</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">22</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.Caption" resname="I:FrmBaseOpcaoImgTxtCheckBox.Caption">
+        <source>'FrmBaseOpcaoImgTxtCheckBox'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmBaseOpcaoImgTxtCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.PixelsPerInch" resname="I:FrmBaseOpcaoImgTxtCheckBox.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmBaseOpcaoImgTxtCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.TextHeight" resname="I:FrmBaseOpcaoImgTxtCheckBox.TextHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmBaseOpcaoImgTxtCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri." resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo." resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.">
+        <source></source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">0</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.AlignWithMargins" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Left" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Left">
+        <source>58</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Top" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Cursor" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Margins.Left" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Margins.Left">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Align" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Caption" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Caption">
+        <source>'CHECKBOX'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Properties.MultiLine" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Properties.MultiLine">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Style.LookAndFeel.Kind" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Style.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Style.LookAndFeel.NativeStyle" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Style.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Style.TextStyle" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleDisabled.LookAndFeel.Kind" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleDisabled.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleDisabled.LookAndFeel.NativeStyle" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleDisabled.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleFocused.LookAndFeel.Kind" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleFocused.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleFocused.LookAndFeel.NativeStyle" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleFocused.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleHot.LookAndFeel.Kind" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleHot.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleHot.LookAndFeel.NativeStyle" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.StyleHot.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.TabOrder" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Width" resname="I:FrmBaseOpcaoImgTxtCheckBox.I:panPri.I:panTopo.O:CB.Width">
+        <source>460</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420331829</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TcxCheckBox</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

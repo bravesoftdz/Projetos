@@ -1,0 +1,174 @@
+unit uNexDBPri;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, Vcl.Menus, Vcl.StdCtrls,
+  cxButtons, cxTextEdit, cxMaskEdit, cxLabel, LMDControl, LMDCustomControl,
+  LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel, dxBarBuiltInMenu, cxPC, uNexDBPanel,
+  cxDropDownEdit, nxsdServerEngine, nxreRemoteServerEngine, nxllTransport,
+  nxptBasePooledTransport, nxtwWinsockTransport, nxdb, nxllComponent;
+
+type
+  TFrmSuporteDB = class(TForm)
+    panLogin: TLMDSimplePanel;
+    cxLabel1: TcxLabel;
+    cxLabel2: TcxLabel;
+    panSup: TLMDSimplePanel;
+    LMDSimplePanel3: TLMDSimplePanel;
+    Paginas: TcxPageControl;
+    btnAdd: TcxButton;
+    btnExec: TcxButton;
+    btnLogin: TcxButton;
+    edSenha: TcxTextEdit;
+    cxLabel3: TcxLabel;
+    edToken: TcxMaskEdit;
+    lbToken: TcxLabel;
+    edProg: TcxComboBox;
+    cxLabel4: TcxLabel;
+    cxTextEdit1: TcxTextEdit;
+    cxLabel5: TcxLabel;
+    nxSe: TnxSession;
+    nxDB: TnxDatabase;
+    nxTCP: TnxWinsockTransport;
+    nxRSE: TnxRemoteServerEngine;
+    procedure btnLoginClick(Sender: TObject);
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormDestroy(Sender: TObject);
+    procedure btnAddClick(Sender: TObject);
+    procedure btnExecClick(Sender: TObject);
+    procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure FormShow(Sender: TObject);
+  private
+    { Private declarations }
+    function Panel: TFrmDBPanel;
+  public
+    { Public declarations }
+  end;
+
+  procedure AbreSuporteDB;
+
+var
+  FrmSuporteDB: TFrmSuporteDB = nil;
+
+const
+  Key_Tab        = 9;
+  Key_Ins        = 45;
+  Key_Del        = 46;
+  Key_Enter      = 13;
+  Key_Up         = 38;
+  Key_Down       = 40;
+  Key_Esc        = 27;
+  Key_Espaco     = 32;
+  Key_CtrlN      = $310E;
+  Key_F1         = $70;
+  Key_F2         = $71;
+  Key_F3         = $72;
+  Key_F4         = $73;
+  Key_F5         = $74;
+  Key_F6         = $75;
+  Key_F7         = $76;
+  Key_F8         = $77;
+  Key_F9         = $78;
+  Key_F10        = $79;
+  Key_F11        = $7A;
+  Key_F12        = $7B;
+  
+
+implementation
+
+{$R *.dfm}
+
+
+uses ncaSenhaToken, ClipBrd;
+
+
+resourcestring
+  rsSenhaIncorreta = 'Senha incorreta!';
+
+procedure AbreSuporteDB;
+begin
+  if Assigned(FrmSuporteDB) then Exit;
+  FrmSuporteDB := TFrmSuporteDB.Create(nil);
+  FrmSuporteDB.ShowModal;
+end;
+
+procedure TFrmSuporteDB.btnAddClick(Sender: TObject);
+var 
+  T: TcxTabSheet;
+  F: TFrmDBPanel;
+begin
+  T := TcxTabSheet.Create(Self);
+  T.PageControl := Paginas;
+  F := TFrmDBPanel.Create(T);
+  T.Tag := NativeInt(F);
+  T.Caption := 'Acesso SQL';
+  F.panPri.Parent := T;
+  Paginas.ActivePage := T;
+  F.meSQL.SetFocus;
+end;
+
+procedure TFrmSuporteDB.btnExecClick(Sender: TObject);
+begin
+  Panel.Exec;
+end;
+
+procedure TFrmSuporteDB.btnLoginClick(Sender: TObject);
+begin
+  if not SenhaTokenCorreta(edToken.Text, edSenha.Text) then
+    raise Exception.Create(rsSenhaIncorreta);
+    
+  nxTCP.Active := False;
+  
+  if edProg.ItemIndex=0 then
+    nxTCP.Port := 16200 else
+    nxTCP.Post := 17200;
+
+  nxDB.Active := True;    
+  
+  panLogin.Visible := False;
+  panSup.Visible := True;
+  btnAdd.Click;
+  WindowState := wsMaximized;
+end;
+
+procedure TFrmSuporteDB.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+end;
+
+procedure TFrmSuporteDB.FormDestroy(Sender: TObject);
+begin
+  FrmSuporteDB := nil;
+end;
+
+procedure TFrmSuporteDB.FormKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if panSup.Visible then
+  if Key=Key_F9 then btnExec.Click;
+end;
+
+function RandStr: String;
+begin
+  Result := IntToStr(Random(99));
+  if Length(Result)<2 then Result := '0' + Result;
+end;
+
+procedure TFrmSuporteDB.FormShow(Sender: TObject);
+begin
+  randomize;
+  edToken.Text := RandStr + RandStr + RandStr + RandStr;  
+  ClipBoard.AsText := edToken.Text;
+end;
+
+function TFrmSuporteDB.Panel: TFrmDBPanel;
+begin
+  if Paginas.PageCount>0 then
+    Result := TFrmDBPanel(Paginas.ActivePage.Tag) else
+    Result := nil;
+end;
+
+end.

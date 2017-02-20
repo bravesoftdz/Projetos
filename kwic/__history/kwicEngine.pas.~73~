@@ -1,0 +1,252 @@
+unit kwicEngine;
+
+interface
+
+uses Classes, nxllTypes,
+     nxsdDataDictionary, nxsrBufferManager,
+     nxsdDataDictionaryFulltext, nxsdKeyEngineToken, nxseFulltextEngineTable, nxseFulltextEngineCursor,
+     nxsrIndexEngineBase, nxsrFulltextEngineBase, nxsdServerEngine,
+     kwicDescriptor;
+
+type
+
+  TnxKwicTokenExtractorTableEngine = class;
+  TnxKwicTokenExtractorTableEngineClass = class of TnxKwicTokenExtractorTableEngine;
+
+  TnxKwicTokenExtractorCursorEngine = class;
+  TnxKwicTokenExtractorCursorEngineClass = class of TnxKwicTokenExtractorCursorEngine;
+
+  TnxKwicTokenExtractorTableEngine = class(TnxBaseTokenExtractorTableEngine)
+  protected {private}
+    kceteTokenExtractorDescriptor: TnxKwicTokenExtractorDescriptor;
+  protected
+    constructor Create(aParent     : TnxFulltextIndexTableEngine;
+                       aDescriptor : TnxBaseTokenExtractorDescriptor;
+                       aTrans      : TnxBaseTransaction); override;
+  public
+    property FieldTokenExtractorDescriptor: TnxKwicTokenExtractorDescriptor
+      read kceteTokenExtractorDescriptor;
+  end;
+
+  TnxKwicTokenExtractorCursorEngine = class(TnxBaseTokenExtractorCursorEngine)
+  protected {private}
+    kceceTokenExtractorTableEngine   : TnxKwicTokenExtractorTableEngine;
+
+    kceceDictionary                     : TnxDataDictionary;
+    kceceField                          : TnxFieldDescriptor;
+
+    kceceRecord                         : PnxByteArray;
+    kceceReadOrg                        : Boolean;
+
+    kceceDistance                       : Integer;
+    kceceFieldNumber                    : Integer;
+    kceceSeparator                      : String;
+
+    kceceCurrentOffset                  : integer;
+    kceceCurrentString                  : WideString;
+
+  protected
+    constructor Create(aParent      : TnxFulltextIndexCursorEngine;
+                       aTableEngine : TnxBaseTokenExtractorTableEngine); override;
+    function kceceBlobAsStream: TStringStream;
+  public
+    procedure Initialize(aRecord  : PnxByteArray;
+                   const aRefNr   : TnxInt64;
+                         aReadOrg : Boolean); override;
+    procedure ResetInternal; override;
+    function NextTokenInternal: InxToken; override;
+  end;
+
+
+implementation
+
+uses SysUtils, StrUtils, nxllBde, nxllFastMove, nxsdTypes, nxsrServerEngine;
+
+{ TnxKwicTokenExtractorTableEngine }
+
+constructor TnxKwicTokenExtractorTableEngine.Create(
+  aParent: TnxFulltextIndexTableEngine;
+  aDescriptor: TnxBaseTokenExtractorDescriptor; aTrans: TnxBaseTransaction);
+begin
+  kceteTokenExtractorDescriptor := aDescriptor as TnxKwicTokenExtractorDescriptor;
+  inherited Create(aParent, aDescriptor, aTrans);
+end;
+
+{ TnxKwicTokenExtractorCursorEngine }
+
+constructor TnxKwicTokenExtractorCursorEngine.Create(
+  aParent: TnxFulltextIndexCursorEngine;
+  aTableEngine: TnxBaseTokenExtractorTableEngine);
+begin
+  kceceTokenExtractorTableEngine := aTableEngine as TnxKwicTokenExtractorTableEngine;
+  inherited Create(aParent, aTableEngine);
+  with kceceTokenExtractorTableEngine,  kceteTokenExtractorDescriptor do begin
+    kceceDictionary := TnxDataDictionary(GetParentOfType(TnxDataDictionary));
+    kceceDistance := 0;
+    kceceFieldNumber := FieldNumber;
+    kceceField := Field;
+    kceceSeparator := KeywordSeparator;
+  end;
+end;
+
+procedure TnxKwicTokenExtractorCursorEngine.Initialize(aRecord: PnxByteArray;
+  const aRefNr: TnxInt64; aReadOrg: Boolean);
+var
+  isNull: boolean;
+  P: pointer;
+  i: integer;
+  S: string;
+  aStream: TStringStream;
+  sl : TStrings;
+begin
+  inherited;
+  if kceceDictionary.FieldsDescriptor.IsRecordFieldNull(kceceField.Number, aRecord) then
+    exit;
+  kceceCurrentOffset := -1;
+  kceceRecord := aRecord;
+  kceceReadOrg := aReadOrg;
+  case kceceField.fdType of
+    nxtBlob, nxtBlobMemo:
+      begin
+        S := '';
+        aStream := kceceBlobAsStream;
+        aStream.Position := 0;
+        sl := TStringList.Create;
+        try
+          S := '';
+          sl.Text := aStream.DataString;
+          for i := 0 to sl.Count-1 do begin
+            if i>0 then S := S + ' ';
+            S := S + sl[i];
+          end;
+  //        kceceCurrentString := aStream.DataString;
+          kceceCurrentString := S;
+        finally  
+          sl.Free;
+        end;
+
+      end;
+    nxtBlobWideMemo:
+      begin
+        aStream := kceceBlobAsStream;
+        aStream.Position := 0;
+        GetMem(P, aStream.Size);
+        SetLength(kceceCurrentString, aStream.Size);
+        aStream.Write(P, aStream.Size);
+        Move(P^, kceceCurrentString[1], aStream.Size);
+        sl := TStringList.Create;
+        try
+          sl.Text := kceceCurrentString;
+          S := '';
+          for i := 0 to sl.Count-1 do begin
+            if i>0 then S := S + ' ';
+            S := S + sl[i];
+          end;
+  //        kceceCurrentString := aStream.DataString;
+          kceceCurrentString := S;
+        finally  
+          sl.Free;
+        end;        
+      end;
+    else
+      kceceCurrentString := kceceDictionary.FieldsDescriptor.FieldByIndexAsVariant[aRecord, kceceFieldNumber];
+  end;
+end;
+
+function TnxKwicTokenExtractorCursorEngine.kceceBlobAsStream: TStringStream;
+var
+  p     : PnxInt64;
+  Len   : TnxWord32;
+  Error : TnxResult;
+begin
+  Error := DBIERR_NONE;
+
+  Result := TStringStream.Create('');
+  if not kceceDictionary.FieldsDescriptor.IsRecordFieldNull(kceceField.Number, kceceRecord) then begin
+    p := @kceceRecord[kceceField.fdOffset];
+    if p^ <> 0 then begin
+      nxLockTimeout;
+      try
+        with ParentFulltextIndexCursorEngine.ParentFulltextCursorEngine.
+          FulltextCursor as TnxServerBaseCursor do begin
+
+
+          Error := sbcBlobGetLength(kceceField.Number, p^, Len, kceceReadOrg);
+
+          if (Error = DBIERR_NONE) and (Len > 0 ) then begin
+            Error := BlobRead(kceceField.Number, p^, 0, Len, Result, kceceReadOrg);
+          end;
+
+        end;
+      finally
+        nxUnlockTimeout;
+      end;
+    end;
+  end;
+
+  if Error <> DBIERR_NONE then
+    Result := nil; //!!! exception?
+end;
+
+function TnxKwicTokenExtractorCursorEngine.NextTokenInternal: InxToken;
+var
+  S: WideString;
+  NewOffset: integer;
+  ws: TnxWideString;
+
+function MyPos(aStr: String; aOffset: integer): Integer;
+var I: Integer;
+
+function IsSep(k: Integer): Boolean;
+begin
+  Result := (aStr[k] in [' ', ',', '.', '-', '/', '"', '!', '?', '=', ':', ';', '\']);
+end;
+
+begin
+  if (aOffSet=0) and (Trim(AStr)>'') then
+    Result := 0
+  else begin
+    for I := aOffset+1 to Length(AStr) do
+      if IsSep(I) and ((I=Length(AStr)) or (not IsSep(I+1))) then begin
+        Result := I;
+        Exit;
+      end;
+    Result := 0;
+  end;
+end;  
+
+begin
+  Result := nil; {default action: only overridden if a non-empty key is produced}
+  S := '';
+  SetLength(ws, 0);
+  Inc(kceceCurrentOffset);
+  if (kceceCurrentOffset <= Length(kceceCurrentString)) then begin
+    NewOffset := MyPos(kceceCurrentString, kceceCurrentOffset) + 1;
+//    NewOffset := PosEx(' ', kceceCurrentString, kceceCurrentOffset) + 1;
+    
+    if (NewOffset > kceceCurrentOffset) then begin {another word to go after this one:}
+      S := Copy(kceceCurrentString, NewOffset, Length(kceceCurrentString));
+      kceceCurrentOffset := NewOffset;
+    end;
+    if (Length(S) > 0) then begin
+      S := Trim(S);
+      SetLength(ws, Length(S));
+      nxMove(S[1], ws[0], Length(ws) * SizeOf(TnxWideChar));
+      Result := nxCreateToken(ws, kceceCurrentOffset, kceceFieldNumber);
+    end;
+  end;
+end;
+
+procedure TnxKwicTokenExtractorCursorEngine.ResetInternal;
+begin
+  inherited;
+  kceceCurrentOffset := -1;
+end;
+
+initialization
+  TnxKwicTokenExtractorTableEngine.Register();
+  TnxKwicTokenExtractorCursorEngine.Register();
+finalization
+  TnxKwicTokenExtractorTableEngine.Unregister;
+  TnxKwicTokenExtractorCursorEngine.Unregister;
+end.

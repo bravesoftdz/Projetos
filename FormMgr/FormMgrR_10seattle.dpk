@@ -1,0 +1,73 @@
+package FormMgrR_10seattle;
+
+{$R *.res}
+{$IFDEF IMPLICITBUILDING This IFDEF should not be used by users}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$DEFINITIONINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$ENDIF IMPLICITBUILDING}
+{$DESCRIPTION 'Form Manager'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vcldb,
+  vclx,
+  vclimg,
+  lmdrtl,
+  lmdrtrtlx,
+  lmdrtcore,
+  dxCoreRS23,
+  cxLibraryRS23,
+  dxGDIPlusRS23,
+  dxThemeRS23,
+  cxPageControlRS23,
+  dxServerModeRS23,
+  cxDataRS23,
+  cxEditorsRS23,
+  dxBarRS23,
+  dxComnRS23,
+  dxBarExtItemsRS23,
+  dxRibbonRS23,
+  dxLayoutControlRS23,
+  dxSpreadSheetRS23,
+  cxExportRS23,
+  cxGridRS23,
+  dxPSCoreRS23,
+  dxPSLnksRS23,
+  dxPScxPCProdRS23,
+  cxPivotGridRS23,
+  dxPScxCommonRS23,
+  dxPScxExtCommonRS23,
+  dxPSdxLCLnkRS23,
+  dxPScxPivotGridLnkRS23,
+  dxPScxGridLnkRS23,
+  dxPsPrVwAdvRS23,
+  dxPSPrVwRibbonRS23;
+
+contains
+  ufmFormBase in 'ufmFormBase.pas' {FrmBase},
+  ufmImagens in 'ufmImagens.pas' {dmImagens: TDataModule},
+  ufmFrmBasePai in 'ufmFrmBasePai.pas' {FrmBasePai};
+
+end.

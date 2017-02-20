@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmLiga.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmLiga.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7424768519</prop>
+        <prop prop-type="OrigDateTime">41561.7277083333</prop>
+        <prop prop-type="XlatDateTime">41561.7277083333</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">156</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmLiga.Left" resname="O:FrmLiga.Left">
+        <source>271</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Top" resname="O:FrmLiga.Top">
+        <source>193</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.ActiveControl" resname="O:FrmLiga.ActiveControl">
+        <source>btnOk</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.AlphaBlendValue" resname="O:FrmLiga.AlphaBlendValue">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.BorderStyle" resname="O:FrmLiga.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Caption" resname="O:FrmLiga.Caption">
+        <source>'Ligar máquinas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.ClientHeight" resname="O:FrmLiga.ClientHeight">
+        <source>280</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.ClientWidth" resname="O:FrmLiga.ClientWidth">
+        <source>386</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Color" resname="O:FrmLiga.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Font.Charset" resname="O:FrmLiga.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Font.Color" resname="O:FrmLiga.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Font.Height" resname="O:FrmLiga.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Font.Name" resname="O:FrmLiga.Font.Name">
+        <source>'Verdana'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Font.Style" resname="O:FrmLiga.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.OldCreateOrder" resname="O:FrmLiga.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.Position" resname="O:FrmLiga.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.OnClose" resname="O:FrmLiga.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.PixelsPerInch" resname="O:FrmLiga.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.TextHeight" resname="O:FrmLiga.TextHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmLiga</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Tag" resname="O:FrmLiga.O:panReiniciar.Tag">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.AlignWithMargins" resname="O:FrmLiga.O:panReiniciar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Left" resname="O:FrmLiga.O:panReiniciar.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Top" resname="O:FrmLiga.O:panReiniciar.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Width" resname="O:FrmLiga.O:panReiniciar.Width">
+        <source>372</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Height" resname="O:FrmLiga.O:panReiniciar.Height">
+        <source>127</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Cursor" resname="O:FrmLiga.O:panReiniciar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Margins.Left" resname="O:FrmLiga.O:panReiniciar.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Margins.Top" resname="O:FrmLiga.O:panReiniciar.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Margins.Right" resname="O:FrmLiga.O:panReiniciar.Margins.Right">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Margins.Bottom" resname="O:FrmLiga.O:panReiniciar.Margins.Bottom">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Align" resname="O:FrmLiga.O:panReiniciar.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Bevel.Mode" resname="O:FrmLiga.O:panReiniciar.Bevel.Mode">
+        <source>bmStandard</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.Bevel.StandardStyle" resname="O:FrmLiga.O:panReiniciar.Bevel.StandardStyle">
+        <source>lsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.TabOrder" resname="O:FrmLiga.O:panReiniciar.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.AlignWithMargins" resname="O:FrmLiga.O:panReiniciar.O:Image2.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Left" resname="O:FrmLiga.O:panReiniciar.O:Image2.Left">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Top" resname="O:FrmLiga.O:panReiniciar.O:Image2.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Width" resname="O:FrmLiga.O:panReiniciar.O:Image2.Width">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Height" resname="O:FrmLiga.O:panReiniciar.O:Image2.Height">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Cursor" resname="O:FrmLiga.O:panReiniciar.O:Image2.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Align" resname="O:FrmLiga.O:panReiniciar.O:Image2.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.AutoSize" resname="O:FrmLiga.O:panReiniciar.O:Image2.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.Picture.Data" resname="O:FrmLiga.O:panReiniciar.O:Image2.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D49484452000000300000003008060000005702F9870000002A744558744372656174696F6E2054696D6500446920392041756720323030352031363A30383A3031202B30313030576E26210000000774494D4507D605170E0637E9E49A47000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC610500000CAF4944415478DAC559097C4D571AFFDFF792BCAC824490581BA5A6A8A5544797A0B428DD862EC368514BD196A28A563B43ED1DAAD5A2AD25D4120C1274D44EB58AD8634B238A089ACD4BDE92B7DCF9BE73CFD5EBC96B30A4F7F7FB7EEF9D73CFF2FDBFF3ADE72AB84B8F7B1EBA2DDF8EEDAFCC470E37EFD63ECAED4E5469AE227E4A7EE79E8ED483E7B1A2F954CCA7AECB442EDF71D6A588897809BF69534A5EEBAE01702DC194F7E660CAD4ADC8A766B1F19D7D1212820BB125C7815395A761A8C78B9FA83BD738A6F82B34A5CDC705F6C1ABD42C2072962D80CF7024FF0AF23ACDC7E09FCFE214F3ADBF730E4752500BFC4D4D85DA6D1526AC388905D4FD0B9187DF174DC18321766C280A4176C470BC4B5DFB892E952900E7641C0972A1C12F17B0FB85151872E8328E50B7C33E0CD52D3938A5CC8405DF03DB17625BC27F3081DEED262A2C7A17CD43DC58AFD4457456268EC74DC057D4BF92E86C5902501CA370D8D2030DB00948DF8B1F7B6EC43BBBB371C8FE1A4607D7C4288CA5517924F237E06ABA11A30FE762D9D501A81EEEC01AE54544211EC8988A13F1B3F12D8D4C94006ED90EFC025097C0929603F5FE41D78CCFB8B8E21842007A1380FBA9350538B31FFB86EDC288E5CDB0D8DC055599410410AD00E6ECC0B24B24F5D1F531C3D41DE5D199FA8F924E4DC6C93A895842AD854499C63D9C0BD160FE4664F45B2454D32F30BF002ECF407894053B2EE72379D9217CFBF612B141B15C4C710EC0A9A081A883EAD43A43F4357995B3A4D3F9A882306A7B894C105A5F6447414018544B5D62FE59EAAB0561D2E7A622B3C652611F4C99D9E3111AA9A2AB39047DDC16984207A13B34DB28BA1D15527E9B8659516EF4F716C2996DC38693B948EC3B0F9BD2019BB3174E0425909CD9771C22BA4A5499A822510451B05CC501CDC75C21A28908246AA88D3BB78D00AC46E2BF13B0634043740954F1B22916D174E6EAF83D9832663D7EA6913BA1B9E15B07903C18AD9E8EC60E0CA2713F50CF36A8D622A49FCBC7E278175EB704218E640A3421AA6158CD643874459E86FEF039FE489445271684FC7301385D3F12CD940769D6D31A70F252F95133B1D0E9660BA3FD3511DC32007E427286634BC527D1126D35751061698B6050A53E05D5E448B364DC245735AEECF5219E9E49F337D0B0501AC98CB726AA42F42530732592DFDC8463D462033F8E3F88E4A50130EDEB837ECDA2F03926D2D8EDD4B341AA453BC9B459AA4580A16D04A048E03AB97DFEAF93A7C5001AD1DFC9F0DEB3120B320BC499A748F5B97523D69F3E0D517966731C0D6E4DBA9926977A5CCE64C6834A006032ACAC1A24EF96E43210F76F8416872B017B0E22B5E51AA164CB88F6C110206F16806F5FE0E96E985E27100378033C29190C3250A0014480CF09E8007489EB008A0DC4EF9321ECA2FF112C49398F636DE2B06960135CA850815620AFE60985D7E6816B5206F29292C40CF51AB3EA6C04B90331C1558078AF83D8B3D29A362826174553928C5A884AE141688CAE92518B818C20F45330C95F2300978FF48BA5D425A9C534F20B6DBC62916BB1270B278A2422379CE5C1928693F15EAE5DA895D3286D65EB28347B38146B2CA188452BEAB149464E40335A967C55C96CB0242308E32994A442BAF48B25009D798724EA53D3A12AEB68267BFF36D0DC32BD532742DD9C81EF3B2CC676B7177BA46A15F8AA4BC8B0B668F34113CC8D6843AC76C0EF5EE730D15392B9100380101F55D22567F601E0F191BCCBC0B84E76099443DA7D441CF028CAABEF425D7D02DBBAAE438647158CB33833E54AD701E0FFE506B6C493131A61664447C408FF3E99A8315175C9A02F008B0F99FC589BD7C0B851FA76C32FB3C4792D87AE1E103E68ED696C7F7E0BCE10F37BA9672B51060CA9B7AFC1723BF2ED87D0691CE52D61F194747112DC554A365432AD8330FE5AFCAC687C54C9A4CEB4CEB8DDD0C72067687ABFFE22763EBB13675CAA509B1B98F7B71DF7957FA731BA8CBB173382E369A9C7A57E1B01844AB2C85F05A53B65DD9B33A3361FE6F536DBC92A4AF48E22BDC16EFCE4F00AB5E1889C8E128A9E12B7CCEB8726DE8B7833B208DDCC1D88BD0606F5092DE1D7829B7F54C924335BE4C3BC4D9E10A990BA196A4E302EECF562E5AEAB98FF71AA70274EF804B56B008EF54450EDAAE81C60C3A0402B1EA564CB2CA67422BA47AA0A331BE6F39F41188DF6661EAF64DEC8B8FE9F59E4D2882334476772989E8BB05F8C40CA110FE6F55C809D57B491A2BA530A67A14AA00BBDCCF9E86D56501B2D889547E80D57B19F123D4714EB0780DE36DD2CE786532892AAA403D1A9582ACB52A2D7895E22CAD7D48ADCAC372F1CFB53F330BDDD2758CB3314DB97784EB16384E52A5A509967C213D41D0D2DBC7FFE2701604FB49C6800510BA25D34653FF1EFC1F13947B073512AF6645F15256A261F3C6B70FC8BCDF0D4AB75D1B67538122C31C41A67869B89DAFF092A44D51A5643143EEE3C146F28C48F1FA551D1972D4670E979105A74BAA248F98549B9D78CAF8046FDEBA1698F18B489B1A29AD29E586B82B233620640A99C7D13ACD32F61F3F473C8BFEC1051971D3A5B25D77F7C5966E5958C72334996B844892D6746BD834F6078ED4694E4722DE01B07EE961B7569D2779F4571978358BC214B487A9F947C1E0C060C3F5B2A9DAB2124F1717C1519809705E3CFA3EC02199FCE74880ACF950BC7C80C8CFB24158BA8E7024A286C6ED84EED0EB3AB3CE6049AF01A554A8A2860EA69FA5866A904A7D69C4AC450D722D8266662E4D81DA23EC8314AFF0600EA2B307B6A6136D9642FFC93DE5D845613B1517542D924738972DDFE444D35E5712E44E147C73062C2162441BBA2F4DE00409D0193C78E59661BFA523AABA002B484950B3BCEFF5A69C72A528ABB954E9FA6747A15CDFC0BB59B134549306405CE5C58C71FC0887FA5F04DD3EF20AE01707D83B1A65CBC594CB6EDCE8742450C54B9B0C909735808229457687C10EE4A41C36D2AACD4341BD28EBB916D0AA499B2F6F004C2EB0986CB120EEBFB299873EC579199165E07E0A168943B9C87FBDD2A9A53EA1A235912EF3BC6C1B2F6AF18ACC452BBBD64EE4E9694FC8E222D47DCE42BD8D6659BB889C8948AA5FB2E3D7A9C914ACD1E4935DA006F1D2929C06827593D30A96A7D3C2398E5622E414AF94E14F5AAB43397A6F3AECD70D6598F49BF168A6C280BD7DF2A7925E4429450D094D4C6F9A1888B2D40BA3286148635EF7BEE845662061A80DCCEB58A5332AF481B635A084CDB84C4613F8844E6106E4CA14BCE46FD3DF691181D5C1EE3C42D3E4FFD59DB447C57E1005753AE62C22D5D6C715C5537D18A044479804673D1C4697B2A706916CED5988751C55E7C2777F2FBFC2100E199B2906EEE49592A271B74A8EA5EA8FB7271C05C00A5691025199CE871C255CB0FF3BACC74B971A6294D90BABCFFD887E5C31AA25EA32834561EA3999DA97F2685A3144CFBF680F876900E1FDF7FD3001CD3D0C16223B603A0582F206F7E1A764DDF8F9C8C02D8963F824A5D5B90DCD862D8A41CF234F826418FD8E208356685FA9D83764D521FC225ABC9F0862621D1E1C1E196551131B8311A3F138FD6611511B93307DB1FE3FB40CD915B6F0B80F30BACB2E621F6FD641C98B71766875B444296C8E9135DD1A35E5BF441476829166DE3DD0B8FD7064F80994C5BBFE0358B7B25F554304ED68BC37D949C0075216EB0D521F0862DC31776B7C8FEB38962A3C350FFB5E668DCA7351E7E612EBE3E7A5EF8A72CF8B95EFC43006BC7A079977142A6D5E4069C11F245F9D5CBBD31BE522BBC4D0907C121E63F84A7EF1E243D1A86F09E2D2809D12F836946C656A4D7DF81BD9BDBA1EA230F900F9B04E110DD83511CBA005FBABC984B3D27A1B983727C8E84BB567828820A6CA2A0BFE04F8D4ABD9D86C84884E959B56DB5842AE72D4CADD81243B97AF3BC0F77EF3D58B1E038725B5741E6E69698A8CCA633E0998381BE1BB074EE2F488F0A46EAC6A7D1AFE97DE4C386D0426309C02CCC92004EC87D9827F6696C7516B9AFDFAF34A50150342510E8AFFBC494339200C460A8E73CDCDDBF43D2D234A15E7C977FF8D24B981BD38DEA6A728BD68128A8BA1A2B8BDCF82F2B5A5C28A2D774C5C7CDEAA0A3DB410026DC00A024FE6EFF76DADF93331E53CB7BF0569F6424927DB099F2E53B57D2BFEDEE86BF3F5C135FB3B17EB6102983B789BB7ED6738EB04AE550D459D70B131F8843BBB0D1F894DCE53712C09DFBC857DA73E5137C94940AD31B8B844AF13D02EB2A7FCF72275447F4BA6ED81F12806AB56763FED97C715D9E22DF3393962A0422A91F3E6CFF39F6D98B85A1A697298089BD5063E437E2C2910D8FB3784E32F48223E0D8087C48DCB46E305914DF6BA07DCC36DEF55B228251CBEA1091240DA57CC8B8E30024E31192691B7CAAA5315D706F90824E1FACB9661BBF96C02067522172BEABD41DEF3000E3FC9224C7CCF127110E5DEC060BFFCFBDEE0A80D2D6D6D33BFD63D21D7FFE077CAE2589036B157D0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.ExplicitLeft" resname="O:FrmLiga.O:panReiniciar.O:Image2.ExplicitLeft">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.ExplicitTop" resname="O:FrmLiga.O:panReiniciar.O:Image2.ExplicitTop">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:Image2.ExplicitHeight" resname="O:FrmLiga.O:panReiniciar.O:Image2.ExplicitHeight">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.AlignWithMargins" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Left" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Left">
+        <source>57</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Top" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Width" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Width">
+        <source>312</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Height" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Height">
+        <source>121</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Cursor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Align" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Bevel.Mode" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.ParentColor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.ParentColor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812616</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.TabOrder" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Transparent" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Left" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Top" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Cursor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Align" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Caption" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Caption">
+        <source>'Ligar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.ParentFont" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Charset" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Color" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Height" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Name" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Name">
+        <source>'Verdana'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Style" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.TextColor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.TextStyle" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.IsFontAssigned" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:lbOperacao.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.AlignWithMargins" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Left" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Top" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Top">
+        <source>55</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Cursor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Left" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Top" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Top">
+        <source>12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Right" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Bottom" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Align" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Caption" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Caption">
+        <source>'A placa mãe e a placa de rede de suas máquinas clientes devem suportar o recurso de "wake-on-lan". Consulte o seu técnico de informática para saber se suas máquinas possuem esse recurso e como ativá-lo.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.ParentFont" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Charset" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Color" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Height" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Height">
+        <source>-11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Name" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Style" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.TextColor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.TextColor">
+        <source>4473924</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.IsFontAssigned" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Properties.WordWrap" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Width" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel4.Width">
+        <source>311</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.AlignWithMargins" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Left" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Top" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Top">
+        <source>22</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Cursor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Left" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Left">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Top" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Right" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Bottom" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Align" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.AutoSize" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Caption" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Caption">
+        <source>'Ligar remotamente o computador. '</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Style.TextColor" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Style.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Properties.Alignment.Vert" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Properties.WordWrap" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Height" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Height">
+        <source>21</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Width" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.Width">
+        <source>311</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.AnchorY" resname="O:FrmLiga.O:panReiniciar.O:LMDSimplePanel6.O:cxLabel1.AnchorY">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.AlignWithMargins" resname="O:FrmLiga.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Left" resname="O:FrmLiga.O:LMDSimplePanel1.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Top" resname="O:FrmLiga.O:LMDSimplePanel1.Top">
+        <source>151</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Width" resname="O:FrmLiga.O:LMDSimplePanel1.Width">
+        <source>386</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Height" resname="O:FrmLiga.O:LMDSimplePanel1.Height">
+        <source>129</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Margins.Left" resname="O:FrmLiga.O:LMDSimplePanel1.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Margins.Top" resname="O:FrmLiga.O:LMDSimplePanel1.Margins.Top">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Margins.Right" resname="O:FrmLiga.O:LMDSimplePanel1.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Margins.Bottom" resname="O:FrmLiga.O:LMDSimplePanel1.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Align" resname="O:FrmLiga.O:LMDSimplePanel1.Align">
+        <source>alClient</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Bevel.BorderSides" resname="O:FrmLiga.O:LMDSimplePanel1.Bevel.BorderSides">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmLiga.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmEdge</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.TabOrder" resname="O:FrmLiga.O:LMDSimplePanel1.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Left" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Top" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Top">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Width" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Width">
+        <source>112</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Height" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Caption" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Caption">
+        <source>'Máquina 10'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Checked" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.Checked">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.TabOrder" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.TabStop" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.TabStop">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.LookAndFeel.NativeStyle" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbMaq.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812731</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Left" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Top" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Top">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Width" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Width">
+        <source>138</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Height" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Height">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Caption" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.Caption">
+        <source>'Todas'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.TabOrder" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.LookAndFeel.NativeStyle" resname="O:FrmLiga.O:LMDSimplePanel1.O:rbTodas.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxRadioButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Left" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Left">
+        <source>122</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Top" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Width" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Height" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Cancel" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Cancel">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Caption" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.Caption">
+        <source>'&amp;Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.ModalResult" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.ModalResult">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.TabOrder" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.OnClick" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.OnClick">
+        <source>btnCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.LookAndFeel.NativeStyle" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnCancelar.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Left" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Left">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Top" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Top">
+        <source>79</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Width" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Width">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Height" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Caption" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Default" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.ModalResult" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.ModalResult">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.TabOrder" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.LookAndFeel.NativeStyle" resname="O:FrmLiga.O:LMDSimplePanel1.O:btnOk.LookAndFeel.NativeStyle">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7424812847</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

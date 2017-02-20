@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Comp\udmLogmein.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Comp\udmLogmein.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7433101852</prop>
+        <prop prop-type="OrigDateTime">41346.5838657407</prop>
+        <prop prop-type="XlatDateTime">41346.5838657407</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">10</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:dmLogmein.OldCreateOrder" resname="O:dmLogmein.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TdmLogmein</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.OnCreate" resname="O:dmLogmein.OnCreate">
+        <source>DataModuleCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TdmLogmein</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.Height" resname="O:dmLogmein.Height">
+        <source>138</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TdmLogmein</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.Width" resname="O:dmLogmein.Width">
+        <source>158</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TdmLogmein</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.O:Timer1.Interval" resname="O:dmLogmein.O:Timer1.Interval">
+        <source>4000</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.O:Timer1.OnTimer" resname="O:dmLogmein.O:Timer1.OnTimer">
+        <source>Timer1Timer</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.O:Timer1.Left" resname="O:dmLogmein.O:Timer1.Left">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.O:Timer1.Top" resname="O:dmLogmein.O:Timer1.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TTimer</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.O:WL.Left" resname="O:dmLogmein.O:WL.Left">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TWinList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:dmLogmein.O:WL.Top" resname="O:dmLogmein.O:WL.Top">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7433265856</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TWinList</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

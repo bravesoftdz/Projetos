@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmChecarCodProdutoDuplicado.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmChecarCodProdutoDuplicado.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420833333</prop>
+        <prop prop-type="OrigDateTime">41346.5640740741</prop>
+        <prop prop-type="XlatDateTime">41346.5640740741</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">101</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Left" resname="O:FrmChecarCodProdutoDuplicado.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Top" resname="O:FrmChecarCodProdutoDuplicado.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.BorderStyle" resname="O:FrmChecarCodProdutoDuplicado.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Caption" resname="O:FrmChecarCodProdutoDuplicado.Caption">
+        <source>'Código de produto duplicado'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.ClientHeight" resname="O:FrmChecarCodProdutoDuplicado.ClientHeight">
+        <source>274</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.ClientWidth" resname="O:FrmChecarCodProdutoDuplicado.ClientWidth">
+        <source>546</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Color" resname="O:FrmChecarCodProdutoDuplicado.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Font.Charset" resname="O:FrmChecarCodProdutoDuplicado.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Font.Color" resname="O:FrmChecarCodProdutoDuplicado.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Font.Height" resname="O:FrmChecarCodProdutoDuplicado.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Font.Name" resname="O:FrmChecarCodProdutoDuplicado.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Font.Style" resname="O:FrmChecarCodProdutoDuplicado.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.OldCreateOrder" resname="O:FrmChecarCodProdutoDuplicado.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.Position" resname="O:FrmChecarCodProdutoDuplicado.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.OnClose" resname="O:FrmChecarCodProdutoDuplicado.OnClose">
+        <source>FormClose</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.OnShow" resname="O:FrmChecarCodProdutoDuplicado.OnShow">
+        <source>FormShow</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.PixelsPerInch" resname="O:FrmChecarCodProdutoDuplicado.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.TextHeight" resname="O:FrmChecarCodProdutoDuplicado.TextHeight">
+        <source>16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmChecarCodProdutoDuplicado</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.AlignWithMargins" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Left" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Top" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Width" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Width">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Height" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Height">
+        <source>192</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Left" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Top" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Top">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Right" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Right">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Bottom" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Margins.Bottom">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Align" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.AutoSize" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.Picture.Data" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.Picture.Data">
+        <source>0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D49484452000000300000003008060000005702F9870000002A744558744372656174696F6E2054696D65004D692035204D727A20323030332030313A31363A3336202B303130302D49F2060000000774494D4507D605170E0709319EB6AD000000097048597300000AF000000AF00142AC34980000000467414D410000B18F0BFC610500000C7E4944415478DAD559097415D519FE66E6EDD91310902DA481B0AA052CA82CD6152CDAD25A84D3F6B48A5AAC75635191239BAC851244565903B2C81A400111135609084958024196009140C0246479C95B67FADF7BE72D090113D00273CE3DF3DEDC3B77BEEF5FBEFBDF190977F921DD6E00773281AA736B7705816DE3D0D9E9C1BB9A86AE3479B8DB83534576ACFEF84BCCCA3C81021AE2BE63091C988E7F1495604E4CE37853DDF867A018CD28BD9289BC635FE3C2457C37651DFE997E1AD934D4819FC9233F1B8103B371FFD5AB488BEDD0DB724F9BD7A17ACAE9AA07123DC1E33887635FBD87CC2CD7C63766E103EA3849CD79C71020534A5F4D416ADD9806DD9B3FB190C0974253DDD034AF4E4286DB9E8D836BC7AB89C918B6351D4BA9E30235F58E20B06B36FA78ED58D1FAA98992293C0EAA4AC6D53CA2C1CB89C806132E644C435ACAE1C3AFCEC06055451A7596DE7602390B60CD294056FD161D9BDDDB7E18547719789E12784D27209A0A492B457AF2082CDE84A98B53318B2E9E0173D1ED24B0771A46A83246B6EA310750AC84D3452115B0BEEF2CB16BB282A2DC4DD8B77947FE9B33F1D68FA5F89A3A8B700B097D4B040ECD4693E27264356AFFFBD0E8662FF0C4D5349730AADFFA1E41889351211B354AE88948DEEA5A3A792D2651C7716AAEDB42E0C02758268558FAC53DF629542F29A3E6F68317A07D4402A144F90C675916F6ADFEC2312C09038FE5621D75E4DFAC176E9AC0A139E86A77627BD387FF255B63DA43E304286125A63A1AFFCD1398E78333408EAE290623CEEC5F84D46D05DB06CFC308BA9841ADE2FF46605B5F8AF6879116716FE38E0D3B8EA5D029A10425AB2B04AFF828B4E28350BC97609029328CE150C35A430D6949F9E11424640D927A05692BD7AAD3D662E457E9584C1D3FE86EFAE509A4CF417F970773E31E1D25192C7529B4C9FAB28C8A9C249CCACAC0B2ED367CFF838DD098D0AA9917AFF5CA4742EB66288FEC499E70709CB222E3CAA954EC587736EBDFF331C4E5C21EEA28F9C5091C9E8D8812278ED76FD5B9414CF3FE62D19254A82547717CF722F4F8A00E6C5613AC66238C26030C063309A8091BC71D4193368FC06188A51073D38329A10D2E7CB76E9DB6643D3E59BC1D3369FAD3A8A5ACD69A40FA2C4C568D1814FBE854C814E12AA90E2B17D41F9660F0A4D3D890168110AB0146A3913793C944896BC6631D4A307548210ACD4F8B9C904442DB0BB3B17D69F6E541F3F1D6E5622EAB85A84542D78AC0912424945CC5A1461DFF680EABFF38ADB8E51C8C44E1239F9B88A7DE9671FEB205168BC94F403433C24324A4CCDD8F42431F887CA5302212B211C8FA2615EB925DCB272573593D865AD449B522707026362A91E1BD9A749E40CFB773EBF35597089873C7A1E3CBA128751001736502CC0B9A64C6BE453B5164EA25EE61F9CA082824B8AECBD8BEE09873D4671874E43CD652E7A59A7AA1C6048ECEC3D3A5E5D81CDBFD75C91CDA5CB73E034224640921F9D3F0F81B66E45EB15DE30193C94CF9A010482220F5E0F7F0955912240C062A49D28F62CBEAB2D47793309CD90A3594D51A11C85B03E3A973C8AC1BDFBC75BDB6EF10F8125E32084BBAF82CA1C59FA1FF4807761D8984D562E056F711501413EE4F28C7CCD15928F274A19C614A2408488C84AC12890AA47C7A429B998C515BD291440372510359AD1181FDD3F1B64742628B274652BD13A2EBB94B6F448216AE50470AA6CCCDC1EC0DF5106AAB4C8085CFCBBDCFE3A5BE765CF5C4D3789700CE163D5F281934FC78360F9BE697640F4EC2E00A1776D3E4C5B74CE0DB19A8E7AEA07AA743B798E8267F86572D132A124C804058D45338BC771BFA8E6A818830A512018F6AC5828FF6A269F38670AA1104DE25C04B415E60A164F662CF925C6D7132662E49C50C888D8FE79608EC9D8A398670E5D55F759F2C92B692F57D043C94060E44952521BE4F3B848528FEE46567D960C1374BB6A0D8D381D74602389D65DD0B3A014551612F2EC59789F61F872EC53B178BB0852667FB68EDA6081C9C81F6A515488BEFD6CF688DE944E50DDB2656474024728CB6122F7F580707B36328914518C98A195D3A14E2A3F7B3505CDE9A403B82ACCF480408B0B3625671E88B12AC5AAEAD9CBC011369F22CDC40566F4440DA938894D006751F6DDC6924ADB8657A19500D784978214239820D9B73316A6E02F70223A06A16BC3FE0289EFCAD077677B41EFF0238BB4FE20B5A2094240391F17A903CD6E31CBF06EF1ECEC16A9AFCE2F5BC705D0264FD3E654EAC68F9E420C9686D48402AAAC4BE2F81C56F561E2872296CCECDE8F4974710162AC2C8E3B5E1CB459B00531CBC9AC4E3DF0F5EF60491D1095058198C2ABEA70DE7FA79D845A1340C4256CB6B4C206721AC27F390D5E4BEFB9AD56B33806AFD127DA3E2AC1E3CF7828BCB61B4752BDE1C118743D9F790078C68195F814FFEBB1325575B72F9F4819765B6007A02245848D1FDACBC60CD680292C7409B958C315B33B0901E741ED5C86AB50452266138E5DDA8363D59081A79E8687EEB3B8342C7677D9D148108359F4646E625BC39E621BE220F1C7004CFF5284259451401730581F779C0CDAD2EB1129B816788E8ACD0E276994ABB15637172E8720C2259DD896A64F51A0299D3D1F85211B212BAF50C8B6CFC1C59BF8C828F6D56AA78E01AF04E111ED422237762D99A58D8CBAD78E5C563282B8BA5391848B7DE5CE2EC4B624500F7599F35AA4E38BAAF67404BFA1CB397EEC274BAF23DAAC8EA3504BE9980652131967E094F4E83EAB683BD44D318C0AAF1CF00FB88E84DE2D7C8C2B4AA86859DE5E0CA1D51F07A99759D3A681AA7B885E5154F25D0BC290294A423ABA0457FF160148D5E8DB7F28AB0195564B512819DFF41D70A3752DBF518A058A2EE27D9B473AB0708388362DFA95BDFA98377F1B050C8BADEE28B30541450325277B805DE3013272B48B8029E5002D6F6116088A42A66FD6E0DB07C11D6247E81F1F4F7288264D53F74C214C86D8B91D6B06593079B3D348694ECAA5F36353F785700BCDFFA4EBF0A318D57730E627F861BC969D17C5FD0BF57015A3FE045797438DDE3E42465C525623E988041D855BA8E2E2E7E07EEC4F5782F33079F4354AB6A2502A963F0925BC1BC5FF71E2B29A63AB44D14B2A9B1875E43C025C04881D8078505F28F2379430106CD6988E8483325B195C0DA307F58163A76B1C34135120B339925AD22C245BE81E5838F135419AD9C863DC35771593D40CDEE27B0620822AD161C4BE8DCA541FD36AF09EBEBC00581A004F6C7BE1E3A3E2214CFD6732968DFFF5EAA776C08B1596935B69094DAD03CD68B855376A3C262A6059BE580C6DE710562FE27C0FB8E55234856D7606C6A1697D573D4BCFCB655C330342A0AE33A3C3F9FBD7B12D60FB2BC3F84F88AEBBCD6FA9248D0B00B3BD0F0F938444598A9A4B6700216AB8D163513D62FDA4CFB612397501E36BA07FCD25983E36C26307B04764FDC8031F4F75B6AA582C07BD8D3AA73A7871B75A05ADF5D12001C1C429248600EBE1201DD13A43891A569E8F77E5D649EA9837002CD08C8547E3FD5B5004387EC87539309B4EA07EF0F9F1A1E5E7A64E28BB8346419C6D15F4A6DE4F908E43DF8ECDF1A4434EA49CA535A898050A1400EF8C3C7AF3E821C9346B3371F9EFC93E8F3615BE45D8E86D51682F6EDECF878F41E4836AAFC49F7FDE06B697D76A8B40E7FFC77140E5CCADF60B0303AC36F5F3E18273A3DFBD716514DAF47204879E0F4C7BF9052DD0BBA3C5A910F93721EE772AD502C121AC597533D648647D384FA28A8E481DA1C17B2812983B06FCA266CA3BF0BFC04E6BF814F5B3D10F74ADB1E13E1751452E1E608529E80070204AA848FCF0BFE85CA01A352C2BDA24A2A1F2393C4B24AD30FDE50FB773AC91380D173B024E32CD259E0304E7C8E81BDD1B1733CB6B77FE60F2175E2FFC4F30094C8AC84602BABCA3F6991FCB13521287C64FAADB1028DF5D17F8D2D548A4872BE60199C7C61D38890427D500401851A94DA11D8BF96647401F693F533C8991BE912DF72FAE6B00EEF8B575A37C6F8666D636D0D127E034B68B8081D4A4E59731338372FD65822CB954AE2E0B2C0C555868D95650FF79C28D45C549C7978024B3A0176E6058124CE9EE00A475FD0685B802B67A93EA36A7CD74E1C98B605471D6E6E7DBAC265D4E323C0CE31DDDBE077DDDAE285B8BA78D0644698AFE2F0259AA6068D560305890F87EABB407DAA4A9B4795D8EAD7347D109B834DC35E60B3F1EC3771541D5EE65EFD764DF43BA8942A28C5C594E338997916E534077BE9B503A2A8ABF041F11DCC2651D45A506B47AD11359B3EA6B6E11ABC7BFAA90F7955C76A55FA58E2B1D78DECBD29FB44CB3E0EFA3FD35605C6FE5BA985EBE00D3701BE3A70357DD759DD38468A251EFBF8C6CA871B97D33F71FD761EB5DB13DF2DC75D4FE07F0DDEEC7C252C336F0000000049454E44AE426082</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">{</prop><prop prop-type="Close">}</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:Image1.ExplicitHeight" resname="O:FrmChecarCodProdutoDuplicado.O:Image1.ExplicitHeight">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TImage</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.AlignWithMargins" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Left" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Top" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Top">
+        <source>222</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Width" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Width">
+        <source>506</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Height" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Left" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Left">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Top" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Right" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Right">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Bottom" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Margins.Bottom">
+        <source>20</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Align" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894329</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Bevel.Mode" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.TabOrder" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Left" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Top" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Width" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Height" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Height">
+        <source>32</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Cursor" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Align" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Caption" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Default" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Charset" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Color" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Height" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Name" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Name">
+        <source>'Segoe UI'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Style" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.ParentFont" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.TabOrder" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.OnClick" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.OnClick">
+        <source>btnOkClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.LookAndFeel.Kind" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.LookAndFeel.Kind">
+        <source>lfStandard</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.LookAndFeel.NativeStyle" resname="O:FrmChecarCodProdutoDuplicado.O:LMDSimplePanel1.O:btnOk.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Left" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Left">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Top" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Top">
+        <source>8</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.AutoSize" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Caption" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Caption">
+        <source>'Já existe um produto cadastrado com este código!'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.ParentFont" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Charset" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Color" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Height" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Name" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Style" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.Font.Style">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.TextColor" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.TextColor">
+        <source>clBlack</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.IsFontAssigned" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Properties.WordWrap" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Height" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Height">
+        <source>25</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Width" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel2.Width">
+        <source>337</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Left" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Left">
+        <source>80</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Top" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Top">
+        <source>39</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.AutoSize" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.AutoSize">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Caption" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Caption">
+        <source>'Tudo bem! O que deseja fazer?'#13#10#13#10'1) - É apenas um erro de cadastro, quero voltar à tela de edição.'#13#10'    - Muito bem, neste caso apenas clique em "OK".'#13#10#13#10'2) - Realmente quero cadastrar dois produtos ou mais, com o mesmo código.'#13#10'    - Ok, neste caso clique no botão abaixo.'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Style.TextColor" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Style.TextColor">
+        <source>6250335</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Properties.WordWrap" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Height" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Height">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Width" resname="O:FrmChecarCodProdutoDuplicado.O:cxLabel1.Width">
+        <source>465</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Left" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Left">
+        <source>200</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Top" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Top">
+        <source>162</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Width" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Width">
+        <source>326</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Height" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Height">
+        <source>26</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Cursor" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Caption" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Caption">
+        <source>'Ativar cadastramento de produtos com mesmo código'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Charset" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Charset">
+        <source>ANSI_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Color" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Height" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Height">
+        <source>-12</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Name" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Style" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.ParentFont" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.TabOrder" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.TabOrder">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.WordWrap" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.OnClick" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.OnClick">
+        <source>cxButton1Click</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.LookAndFeel.Kind" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.LookAndFeel.Kind">
+        <source>lfFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmChecarCodProdutoDuplicado.O:cxButton1.LookAndFeel.NativeStyle" resname="O:FrmChecarCodProdutoDuplicado.O:cxButton1.LookAndFeel.NativeStyle">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420894444</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

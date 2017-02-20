@@ -1,0 +1,111 @@
+unit uFrmComSombra;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, uFrmSombra, cxGraphics, cxControls, cxLookAndFeels,
+  cxLookAndFeelPainters, cxContainer, cxEdit, Menus, cxStyles, cxCustomData,
+  cxFilter, cxData, cxDataStorage, DB, cxDBData, cxImageComboBox, cxTextEdit,
+  cxGridLevel, cxGridBandedTableView, cxGridDBBandedTableView,
+  cxGridCustomTableView, cxGridTableView, cxGridDBTableView, cxGridCustomView,
+  cxGrid, StdCtrls, cxButtons, cxLabel, LMDPNGImage, ExtCtrls, LMDControl,
+  LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel,
+  cxClasses, kbmMemTable;
+
+type
+  TFrmComSombra = class(TForm)
+    mtTipo: TkbmMemTable;
+    mtTipoImg: TIntegerField;
+    mtTipoDescr: TStringField;
+    mtTipoDescr2: TStringField;
+    mtTipoID: TIntegerField;
+    mtTipoValor: TCurrencyField;
+    dsTipo: TDataSource;
+    cxStyleRepository1: TcxStyleRepository;
+    cxStyle1: TcxStyle;
+    cxStyle2: TcxStyle;
+    LMDSimplePanel1: TLMDSimplePanel;
+    Image2: TImage;
+    lbTitulo: TcxLabel;
+    btnCancelar: TcxButton;
+    btnContinuar: TcxButton;
+    LMDSimplePanel3: TLMDSimplePanel;
+    grid: TcxGrid;
+    tv: TcxGridDBTableView;
+    tvImg: TcxGridDBColumn;
+    tvDescr: TcxGridDBColumn;
+    tvID: TcxGridDBColumn;
+    tvDescr2: TcxGridDBColumn;
+    tv2: TcxGridDBBandedTableView;
+    tv2Img: TcxGridDBBandedColumn;
+    tv2Descr: TcxGridDBBandedColumn;
+    gl: TcxGridLevel;
+    lbTot: TcxLabel;
+    procedure gridEnter(Sender: TObject);
+  private
+    { Private declarations }
+    FSombra: TFrmSombra;
+    procedure CreateParams(var Params: TCreateParams); override;
+  public
+    { Public declarations }
+    constructor Create(AOwner: TComponent); override;
+
+    destructor Destroy; override;
+
+    function ShowModal: Integer; override;
+
+    function ShowModalCustom(aFadeMS: Cardinal): Integer;
+    
+  end;
+
+var
+  FrmComSombra: TFrmComSombra;
+
+implementation
+
+{$R *.dfm}
+
+{ TFrmComSombra }
+
+constructor TFrmComSombra.Create(AOwner: TComponent);
+begin
+  FSombra := TFrmSombra.Create(nil);
+  inherited;
+end;
+
+procedure TFrmComSombra.CreateParams(var Params: TCreateParams);
+begin
+  inherited;
+  params.ExStyle := params.ExStyle or WS_EX_APPWINDOW;
+  params.WndParent := FSombra.Handle;
+end;
+
+destructor TFrmComSombra.Destroy;
+begin
+  FSombra.TimerFree.Enabled := True;
+  inherited;
+end;
+
+procedure TFrmComSombra.gridEnter(Sender: TObject);
+begin
+  lbTot.Visible := True;
+  lbTitulo.Style.TextColor := $00404040;
+  btnContinuar.Enabled := True;
+end;
+
+function TFrmComSombra.ShowModal: Integer;
+begin
+  FSombra.FadeIn;
+  Result := inherited ShowModal;
+  FSombra.Hide;
+end;
+
+function TFrmComSombra.ShowModalCustom(aFadeMS: Cardinal): Integer;
+begin
+  FSombra.FadeIn(aFadeMS);
+  Result := inherited ShowModal;
+  FSombra.Hide;
+end;
+
+end.

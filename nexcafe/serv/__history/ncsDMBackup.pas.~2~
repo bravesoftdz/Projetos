@@ -1,0 +1,34 @@
+unit ncsDMBackup;
+
+interface
+
+uses
+  SysUtils, Classes, nxdbBackupController, nxdb, nxllComponent;
+
+type
+  TdmBackup = class(TDataModule)
+    nxDBD: TnxDatabase;
+    nxDBO: TnxDatabase;
+    nxSession: TnxSession;
+    nxBackup: TnxBackupController;
+    procedure DataModuleCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  dmBackup: TdmBackup;
+
+implementation
+
+{$R *.dfm}
+
+procedure TdmBackup.DataModuleCreate(Sender: TObject);
+begin
+  nxDBD.AliasPath := ExtractFilePath(ParamStr(0))+'sync\temp';
+  ForceDirectories(nxDBD.AliasPath);
+end;
+
+end.

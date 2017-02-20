@@ -1,0 +1,56 @@
+unit ncTipoEsp;
+
+interface
+
+uses
+  SysUtils,
+  DB,
+  MD5,
+  Dialogs,
+  Classes,
+  Windows,
+  ClasseCS,
+  ncClassesBase;
+
+const
+  tipoesp_dinheiro     = 0;
+  tipoesp_cheque       = 1;
+  tipoesp_cartao       = 2;
+  tipoesp_outros       = 3;
+
+type  
+
+  TncTipoEsp = class ( TncClasse )
+    FID   : Integer;
+    FTipo : Byte;
+    FNome : String;
+    FImg  : Integer;
+    FTrocoPermitido : Boolean;
+  protected 
+    function GetChave: Variant; override;
+  public
+    constructor Create; override;
+    function TipoClasse: Integer; override;
+  end;
+
+  TncTiposEsp = class ( TListaClasseCS )
+  private
+    function GetTipoEsp(I: Integer): TncTipoEsp;
+    function GetPorID(aID: Integer): TncTipoEsp;
+  public
+    property Itens[I: Integer]: TncTipoEsp
+      read GetTipoEsp;
+
+    property PorID[aID: Integer]: TncTipoEsp
+      read GetPorID;   
+  end;   
+
+var
+  gTiposEsp : TncTiposEsp;
+  
+
+    
+
+implementation
+
+end.

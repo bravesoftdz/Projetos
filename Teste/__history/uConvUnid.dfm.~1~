@@ -1,0 +1,104 @@
+object Form5: TForm5
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Form5'
+  ClientHeight = 211
+  ClientWidth = 457
+  Color = clBtnFace
+  Font.Charset = ANSI_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -16
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 21
+  object LMDSimplePanel3: TLMDSimplePanel
+    Left = 96
+    Top = 72
+    Width = 97
+    Height = 56
+    Hint = ''
+    Bevel.Mode = bmCustom
+    TabOrder = 0
+    object cxLabel3: TcxLabel
+      Left = 0
+      Top = 0
+      Align = alTop
+      Caption = 'De CX'
+      Style.TextStyle = [fsBold]
+      Properties.Alignment.Horz = taCenter
+      Properties.Alignment.Vert = taVCenter
+      ExplicitLeft = 3
+      ExplicitTop = 3
+      ExplicitWidth = 50
+      AnchorX = 49
+      AnchorY = 13
+    end
+    object edDE: TcxSpinEdit
+      Left = 0
+      Top = 25
+      Align = alClient
+      Enabled = False
+      Properties.Alignment.Horz = taCenter
+      Style.ButtonStyle = btsSimple
+      Style.ButtonTransparency = ebtHideInactive
+      StyleDisabled.BorderColor = clDefault
+      StyleDisabled.BorderStyle = ebsFlat
+      StyleDisabled.Color = clBtnFace
+      StyleDisabled.TextColor = clBlack
+      StyleDisabled.TextStyle = [fsBold]
+      TabOrder = 1
+      Value = 1
+      ExplicitTop = 0
+      ExplicitWidth = 65
+      ExplicitHeight = 29
+      Width = 97
+    end
+  end
+  object LMDSimplePanel1: TLMDSimplePanel
+    Left = 215
+    Top = 72
+    Width = 97
+    Height = 56
+    Hint = ''
+    Bevel.Mode = bmCustom
+    TabOrder = 1
+    object cxLabel1: TcxLabel
+      Left = 0
+      Top = 0
+      Align = alTop
+      Caption = 'Para PC'
+      Style.TextStyle = [fsBold]
+      Properties.Alignment.Horz = taCenter
+      Properties.Alignment.Vert = taVCenter
+      ExplicitLeft = 16
+      ExplicitTop = -6
+      AnchorX = 49
+      AnchorY = 13
+    end
+    object cxSpinEdit1: TcxSpinEdit
+      Left = 0
+      Top = 25
+      Align = alClient
+      Enabled = False
+      Properties.Alignment.Horz = taCenter
+      Style.ButtonStyle = btsSimple
+      Style.ButtonTransparency = ebtHideInactive
+      StyleDisabled.BorderColor = clDefault
+      StyleDisabled.BorderStyle = ebsFlat
+      StyleDisabled.Color = clWhite
+      StyleDisabled.TextColor = clBlack
+      StyleDisabled.TextStyle = [fsBold]
+      TabOrder = 1
+      Value = 1
+      Width = 97
+    end
+  end
+  object cxLabel2: TcxLabel
+    Left = 198
+    Top = 98
+    Caption = '='
+  end
+end

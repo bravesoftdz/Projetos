@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmBaseCadastroMT.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmBaseCadastroMT.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7420138889</prop>
+        <prop prop-type="OrigDateTime">42195.7038194444</prop>
+        <prop prop-type="XlatDateTime">42195.7038194444</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">35</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="I:FrmBaseCadastroMT.OnCreate" resname="I:FrmBaseCadastroMT.OnCreate">
+        <source>FormCreate</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmBaseCadastroMT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.PixelsPerInch" resname="I:FrmBaseCadastroMT.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmBaseCadastroMT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.TextHeight" resname="I:FrmBaseCadastroMT.TextHeight">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmBaseCadastroMT</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.LookAndFeel.SkinName" resname="I:FrmBaseCadastroMT.I:BarMgr.LookAndFeel.SkinName">
+        <source>''</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.Top" resname="I:FrmBaseCadastroMT.I:BarMgr.Top">
+        <source>130</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[0]" resname="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[0]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Open">(</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[1]" resname="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[1]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[2]" resname="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[2]">
+        <source>36</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[3]" resname="I:FrmBaseCadastroMT.I:BarMgr.DockControlHeights[3]">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TdxBarManager</prop><prop prop-type="Localize">1</prop><prop prop-type="Close">)</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.I:cmGravar.OnClick" resname="I:FrmBaseCadastroMT.I:BarMgr.I:cmGravar.OnClick">
+        <source>cmGravarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.I:cmGravar.ImageIndex" resname="I:FrmBaseCadastroMT.I:BarMgr.I:cmGravar.ImageIndex">
+        <source>4</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:BarMgr.I:cmCancelar.OnClick" resname="I:FrmBaseCadastroMT.I:BarMgr.I:cmCancelar.OnClick">
+        <source>cmCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TdxBarLargeButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.DesignActivation" resname="I:FrmBaseCadastroMT.O:MT.DesignActivation">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.AttachedAutoRefresh" resname="I:FrmBaseCadastroMT.O:MT.AttachedAutoRefresh">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.AttachMaxCount" resname="I:FrmBaseCadastroMT.O:MT.AttachMaxCount">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.FieldDefs" resname="I:FrmBaseCadastroMT.O:MT.FieldDefs">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.IndexDefs" resname="I:FrmBaseCadastroMT.O:MT.IndexDefs">
+        <source>&lt;&gt;</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.SortOptions" resname="I:FrmBaseCadastroMT.O:MT.SortOptions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.PersistentBackup" resname="I:FrmBaseCadastroMT.O:MT.PersistentBackup">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.ProgressFlags" resname="I:FrmBaseCadastroMT.O:MT.ProgressFlags">
+        <source>[mtpcLoad, mtpcSave, mtpcCopy]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.LoadedCompletely" resname="I:FrmBaseCadastroMT.O:MT.LoadedCompletely">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.SavedCompletely" resname="I:FrmBaseCadastroMT.O:MT.SavedCompletely">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.FilterOptions" resname="I:FrmBaseCadastroMT.O:MT.FilterOptions">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.Version" resname="I:FrmBaseCadastroMT.O:MT.Version">
+        <source>'7.64.00 Standard Edition'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7420325694</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.LanguageID" resname="I:FrmBaseCadastroMT.O:MT.LanguageID">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.SortID" resname="I:FrmBaseCadastroMT.O:MT.SortID">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.SubLanguageID" resname="I:FrmBaseCadastroMT.O:MT.SubLanguageID">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.LocaleID" resname="I:FrmBaseCadastroMT.O:MT.LocaleID">
+        <source>1024</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.Left" resname="I:FrmBaseCadastroMT.O:MT.Left">
+        <source>160</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:MT.Top" resname="I:FrmBaseCadastroMT.O:MT.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TkbmMemTable [2]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:DS.DataSet" resname="I:FrmBaseCadastroMT.O:DS.DataSet">
+        <source>MT</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TDataSource [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:DS.Left" resname="I:FrmBaseCadastroMT.O:DS.Left">
+        <source>208</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TDataSource [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.O:DS.Top" resname="I:FrmBaseCadastroMT.O:DS.Top">
+        <source>132</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TDataSource [3]</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:defStyle.Style.IsFontAssigned" resname="I:FrmBaseCadastroMT.I:defStyle.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TcxDefaultEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="I:FrmBaseCadastroMT.I:defStyle.PixelsPerInch" resname="I:FrmBaseCadastroMT.I:defStyle.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.742032581</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxDefaultEditStyleController</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

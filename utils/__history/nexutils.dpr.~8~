@@ -1,0 +1,44 @@
+library nexutils;
+
+{ Important note about DLL memory management: ShareMem must be the
+  first unit in your library's USES clause AND your project's (select
+  Project-View Source) USES clause if your DLL exports any procedures or
+  functions that pass strings as parameters or function results. This
+  applies to all strings passed to and from your DLL--even those that
+  are nested in records and classes. ShareMem is the interface unit to
+  the BORLNDMM.DLL shared memory manager, which must be deployed along
+  with your DLL. To avoid using BORLNDMM.DLL, pass string information
+  using PChar or ShortString parameters. }
+
+uses
+  GetDiskSerial;
+
+{$R *.res}
+
+function nexgetserialstr: string; stdcall;
+var
+  DS : TGetDiskSerial;
+  I : Integer;
+begin
+  Result := '';  
+    try  
+      DS := TGetDiskSerial.Create(nil);
+      for I := 0 to 3 do 
+      begin
+        try
+          DS.DriveID := I;
+          if Result>'' then Result := Result + #13#10;
+          Result := Result + DS.SerialNumber;
+        except
+        end;
+      end;
+    finally
+      DS.Free;
+    end;
+end;
+
+exports
+  nexgetserialstr;
+
+begin
+end.

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <PersonalityInfo>
+    <Option>
+      <Option Name="Personality">W32ResourceDLL.Personality</Option>
+      <Option Name="ProjectType">ResourceDLL</Option>
+      <Option Name="Version">1.0</Option>
+      <Option Name="GUID">{42180BA6-C63B-4ACE-923A-F6E5907F710F}</Option>
+    </Option>
+  </PersonalityInfo>
+  <W32ResourceDLL.Personality>
+    <Source>
+      <Source Name="MainSource">NexAdmin_Loja.dpr</Source>
+    </Source>
+    <Options>
+      <Options Name="BaseLang">1046</Options>
+      <Options Name="TargetName">..\..\..\..\Meus Programas\Nex\NexAdmin_Loja.ENU</Options>
+      <Options Name="BRCC_IncludePath"></Options>
+      <Options Name="Company"></Options>
+      <Options Name="Configuration"></Options>
+      <Options Name="Copyright"></Options>
+      <Options Name="Description"></Options>
+      <Options Name="Trademark"></Options>
+      <Options Name="Product"></Options>
+      <Options Name="ProductVersion"></Options>
+      <Options Name="Title"></Options>
+      <Options Name="FileVersion"></Options>
+      <Options Name="Evidence"></Options>
+      <Options Name="KeyFile"></Options>
+      <Options Name="KeyName"></Options>
+    </Options>
+    <FileList>
+      <File FileName="C\comp\fr5\Source\ExportPack\frxExportTXT.dfm" ContainerId="W32Form" ModuleName="frxExportTXT.dfm"/>
+      <File FileName="C\projetos\FormMgr\ufmFormBase.dfm" ContainerId="W32Form" ModuleName="ufmFormBase.dfm"/>
+      <File FileName="ncaAlertaAutocad.dfm" ContainerId="W32Form" ModuleName="ncaAlertaAutocad.dfm"/>
+      <File FileName="ncaAlertaClonarProduto.dfm" ContainerId="W32Form" ModuleName="ncaAlertaClonarProduto.dfm"/>
+      <File FileName="ncaAlertaNFCe.dfm" ContainerId="W32Form" ModuleName="ncaAlertaNFCe.dfm"/>
+      <File FileName="ncaAlertaRecuperarVenda.dfm" ContainerId="W32Form" ModuleName="ncaAlertaRecuperarVenda.dfm"/>
+      <File FileName="ncaAlertaTrial.dfm" ContainerId="W32Form" ModuleName="ncaAlertaTrial.dfm"/>
+      <File FileName="ncaBiometria.dfm" ContainerId="W32Form" ModuleName="ncaBiometria.dfm"/>
+      <File FileName="ncaConfigEspecie.dfm" ContainerId="W32Form" ModuleName="ncaConfigEspecie.dfm"/>
+      <File FileName="ncaDM.dfm" ContainerId="W32Form" ModuleName="ncaDM.dfm"/>
+      <File FileName="ncaDMComp.dfm" ContainerId="W32Form" ModuleName="ncaDMComp.dfm"/>
+      <File FileName="ncaDMDemonstrativoDeb.dfm" ContainerId="W32Form" ModuleName="ncaDMDemonstrativoDeb.dfm"/>
+      <File FileName="ncaDMImgEsp.dfm" ContainerId="W32Form" ModuleName="ncaDMImgEsp.dfm"/>
+      <File FileName="ncaDMorc.dfm" ContainerId="W32Form" ModuleName="ncaDMorc.dfm"/>
+      <File FileName="ncaDMSyncDoc.dfm" ContainerId="W32Form" ModuleName="ncaDMSyncDoc.dfm"/>
+      <File FileName="ncaDocMgr.dfm" ContainerId="W32Form" ModuleName="ncaDocMgr.dfm"/>
+      <File FileName="ncaEditEmail.dfm" ContainerId="W32Form" ModuleName="ncaEditEmail.dfm"/>
+      <File FileName="ncafbAvisos.dfm" ContainerId="W32Form" ModuleName="ncafbAvisos.dfm"/>
+      <File FileName="ncafbCaixa.dfm" ContainerId="W32Form" ModuleName="ncafbCaixa.dfm"/>
+      <File FileName="ncafbCaixasA.dfm" ContainerId="W32Form" ModuleName="ncafbCaixasA.dfm"/>
+      <File FileName="ncafbCartoes.dfm" ContainerId="W32Form" ModuleName="ncafbCartoes.dfm"/>
+      <File FileName="ncafbClientes.dfm" ContainerId="W32Form" ModuleName="ncafbClientes.dfm"/>
+      <File FileName="ncafbCXLetra.dfm" ContainerId="W32Form" ModuleName="ncafbCXLetra.dfm"/>
+      <File FileName="ncafbDiaHora.dfm" ContainerId="W32Form" ModuleName="ncafbDiaHora.dfm"/>
+      <File FileName="ncafbEst.dfm" ContainerId="W32Form" ModuleName="ncafbEst.dfm"/>
+      <File FileName="ncafbFornecedores.dfm" ContainerId="W32Form" ModuleName="ncafbFornecedores.dfm"/>
+      <File FileName="ncafbMEPend.dfm" ContainerId="W32Form" ModuleName="ncafbMEPend.dfm"/>
+      <File FileName="ncafbMesas.dfm" ContainerId="W32Form" ModuleName="ncafbMesas.dfm"/>
+      <File FileName="ncafbMovEst.dfm" ContainerId="W32Form" ModuleName="ncafbMovEst.dfm"/>
+      <File FileName="ncafbNFe.dfm" ContainerId="W32Form" ModuleName="ncafbNFe.dfm"/>
+      <File FileName="ncafbOrcamento.dfm" ContainerId="W32Form" ModuleName="ncafbOrcamento.dfm"/>
+      <File FileName="ncafbPagEsp.dfm" ContainerId="W32Form" ModuleName="ncafbPagEsp.dfm"/>
+      <File FileName="ncafbPass.dfm" ContainerId="W32Form" ModuleName="ncafbPass.dfm"/>
+      <File FileName="ncafbPesqCli.dfm" ContainerId="W32Form" ModuleName="ncafbPesqCli.dfm"/>
+      <File FileName="ncafbPesqFor.dfm" ContainerId="W32Form" ModuleName="ncafbPesqFor.dfm"/>
+      <File FileName="ncafbPrevSessao.dfm" ContainerId="W32Form" ModuleName="ncafbPrevSessao.dfm"/>
+      <File FileName="ncafbProdutos.dfm" ContainerId="W32Form" ModuleName="ncafbProdutos.dfm"/>
+      <File FileName="ncafbRevisarProduto.dfm" ContainerId="W32Form" ModuleName="ncafbRevisarProduto.dfm"/>
+      <File FileName="ncafbTiposAcesso.dfm" ContainerId="W32Form" ModuleName="ncafbTiposAcesso.dfm"/>
+      <File FileName="ncafbTotCaixa.dfm" ContainerId="W32Form" ModuleName="ncafbTotCaixa.dfm"/>
+      <File FileName="ncafbTran.dfm" ContainerId="W32Form" ModuleName="ncafbTran.dfm"/>
+      <File FileName="ncafbUsuarios.dfm" ContainerId="W32Form" ModuleName="ncafbUsuarios.dfm"/>
+      <File FileName="ncafbVendas2.dfm" ContainerId="W32Form" ModuleName="ncafbVendas2.dfm"/>
+      <File FileName="ncafbVendasTab.dfm" ContainerId="W32Form" ModuleName="ncafbVendasTab.dfm"/>
+      <File FileName="ncafgExtratoFid.dfm" ContainerId="W32Form" ModuleName="ncafgExtratoFid.dfm"/>
+      <File FileName="ncaFramePagamento.dfm" ContainerId="W32Form" ModuleName="ncaFramePagamento.dfm"/>
+      <File FileName="ncaFrmAbrirCx.dfm" ContainerId="W32Form" ModuleName="ncaFrmAbrirCx.dfm"/>
+      <File FileName="ncaFrmAddMaq.dfm" ContainerId="W32Form" ModuleName="ncaFrmAddMaq.dfm"/>
+      <File FileName="ncaFrmAguarde.dfm" ContainerId="W32Form" ModuleName="ncaFrmAguarde.dfm"/>
+      <File FileName="ncaFrmAjustaFid.dfm" ContainerId="W32Form" ModuleName="ncaFrmAjustaFid.dfm"/>
+      <File FileName="ncaFrmAlertaPIN.dfm" ContainerId="W32Form" ModuleName="ncaFrmAlertaPIN.dfm"/>
+      <File FileName="ncaFrmAposOrc.dfm" ContainerId="W32Form" ModuleName="ncaFrmAposOrc.dfm"/>
+      <File FileName="ncaFrmAposVenda.dfm" ContainerId="W32Form" ModuleName="ncaFrmAposVenda.dfm"/>
+      <File FileName="ncaFrmBaseCadastro.dfm" ContainerId="W32Form" ModuleName="ncaFrmBaseCadastro.dfm"/>
+      <File FileName="ncaFrmBaseCadastroMT.dfm" ContainerId="W32Form" ModuleName="ncaFrmBaseCadastroMT.dfm"/>
+      <File FileName="ncaFrmBaseOpcao.dfm" ContainerId="W32Form" ModuleName="ncaFrmBaseOpcao.dfm"/>
+      <File FileName="ncaFrmBaseOpcaoImgTxt.dfm" ContainerId="W32Form" ModuleName="ncaFrmBaseOpcaoImgTxt.dfm"/>
+      <File FileName="ncaFrmBaseOpcaoImgTxtCheckBox.dfm" ContainerId="W32Form" ModuleName="ncaFrmBaseOpcaoImgTxtCheckBox.dfm"/>
+      <File FileName="ncaFrmBasicTextEdit.dfm" ContainerId="W32Form" ModuleName="ncaFrmBasicTextEdit.dfm"/>
+      <File FileName="ncaFrmBRTrib.dfm" ContainerId="W32Form" ModuleName="ncaFrmBRTrib.dfm"/>
+      <File FileName="ncaFrmBRTribPesq.dfm" ContainerId="W32Form" ModuleName="ncaFrmBRTribPesq.dfm"/>
+      <File FileName="ncaFrmCadCli.dfm" ContainerId="W32Form" ModuleName="ncaFrmCadCli.dfm"/>
+      <File FileName="ncaFrmCadFornecedor.dfm" ContainerId="W32Form" ModuleName="ncaFrmCadFornecedor.dfm"/>
+      <File FileName="ncaFrmCaixa.dfm" ContainerId="W32Form" ModuleName="ncaFrmCaixa.dfm"/>
+      <File FileName="ncaFrmCancOk.dfm" ContainerId="W32Form" ModuleName="ncaFrmCancOk.dfm"/>
+      <File FileName="ncaFrmChecarCodProdutoDuplicado.dfm" ContainerId="W32Form" ModuleName="ncaFrmChecarCodProdutoDuplicado.dfm"/>
+      <File FileName="ncaFrmCHorario.dfm" ContainerId="W32Form" ModuleName="ncaFrmCHorario.dfm"/>
+      <File FileName="ncaFrmCliPesq2.dfm" ContainerId="W32Form" ModuleName="ncaFrmCliPesq2.dfm"/>
+      <File FileName="ncaFrmConfig_CodBar_Precisao.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfig_CodBar_Precisao.dfm"/>
+      <File FileName="ncaFrmConfig_ExigirVendedor.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfig_ExigirVendedor.dfm"/>
+      <File FileName="ncaFrmConfigAutoCad.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigAutoCad.dfm"/>
+      <File FileName="ncaFrmConfigCaixaAbertura.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigCaixaAbertura.dfm"/>
+      <File FileName="ncaFrmConfigCaixaFechamento.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigCaixaFechamento.dfm"/>
+      <File FileName="ncaFrmConfigChoiceME.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigChoiceME.dfm"/>
+      <File FileName="ncaFrmConfigCodBarBal.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigCodBarBal.dfm"/>
+      <File FileName="ncaFrmConfigCodProdutoDuplicado.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigCodProdutoDuplicado.dfm"/>
+      <File FileName="ncaFrmConfigComanda.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigComanda.dfm"/>
+      <File FileName="ncaFrmConfigComissao.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigComissao.dfm"/>
+      <File FileName="ncaFrmConfigConfirmaDeb.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigConfirmaDeb.dfm"/>
+      <File FileName="ncaFrmConfigDanfe_NFCe.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigDanfe_NFCe.dfm"/>
+      <File FileName="ncaFrmConfigDocOrc.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigDocOrc.dfm"/>
+      <File FileName="ncaFrmConfigEmailCaixa.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigEmailCaixa.dfm"/>
+      <File FileName="ncaFrmConfigEspecies.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigEspecies.dfm"/>
+      <File FileName="ncaFrmConfigFid.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigFid.dfm"/>
+      <File FileName="ncaFrmConfigLogin.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigLogin.dfm"/>
+      <File FileName="ncaFrmConfigNFE.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigNFE.dfm"/>
+      <File FileName="ncaFrmConfigPosVenda.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigPosVenda.dfm"/>
+      <File FileName="ncaFrmConfigPrecoAuto.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigPrecoAuto.dfm"/>
+      <File FileName="ncaFrmConfigQuickCad.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigQuickCad.dfm"/>
+      <File FileName="ncaFrmConfigRec.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigRec.dfm"/>
+      <File FileName="ncaFrmConfigRec_Serial.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigRec_Serial.dfm"/>
+      <File FileName="ncaFrmConfigTelaVendas.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigTelaVendas.dfm"/>
+      <File FileName="ncaFrmConfigVendaProdSemSaldo.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfigVendaProdSemSaldo.dfm"/>
+      <File FileName="ncaFrmConfirmarReg.dfm" ContainerId="W32Form" ModuleName="ncaFrmConfirmarReg.dfm"/>
+      <File FileName="ncaFrmConn.dfm" ContainerId="W32Form" ModuleName="ncaFrmConn.dfm"/>
+      <File FileName="ncaFrmConta.dfm" ContainerId="W32Form" ModuleName="ncaFrmConta.dfm"/>
+      <File FileName="ncaFrmContato.dfm" ContainerId="W32Form" ModuleName="ncaFrmContato.dfm"/>
+      <File FileName="ncaFrmCorrigeCredito.dfm" ContainerId="W32Form" ModuleName="ncaFrmCorrigeCredito.dfm"/>
+      <File FileName="ncaFrmCorrigeData.dfm" ContainerId="W32Form" ModuleName="ncaFrmCorrigeData.dfm"/>
+      <File FileName="ncaFrmCorrigeDataCaixa.dfm" ContainerId="W32Form" ModuleName="ncaFrmCorrigeDataCaixa.dfm"/>
+      <File FileName="ncaFrmCorrigeEmail.dfm" ContainerId="W32Form" ModuleName="ncaFrmCorrigeEmail.dfm"/>
+      <File FileName="ncaFrmCriarConta2.dfm" ContainerId="W32Form" ModuleName="ncaFrmCriarConta2.dfm"/>
+      <File FileName="ncaFrmDadosNFCe.dfm" ContainerId="W32Form" ModuleName="ncaFrmDadosNFCe.dfm"/>
+      <File FileName="ncaFrmDataAtivo.dfm" ContainerId="W32Form" ModuleName="ncaFrmDataAtivo.dfm"/>
+      <File FileName="ncaFrmDebito.dfm" ContainerId="W32Form" ModuleName="ncaFrmDebito.dfm"/>
+      <File FileName="ncaFrmDevolucao.dfm" ContainerId="W32Form" ModuleName="ncaFrmDevolucao.dfm"/>
+      <File FileName="ncaFrmDoc.dfm" ContainerId="W32Form" ModuleName="ncaFrmDoc.dfm"/>
+      <File FileName="ncaFrmEditContato.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditContato.dfm"/>
+      <File FileName="ncaFrmEditContatoOrc.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditContatoOrc.dfm"/>
+      <File FileName="ncaFrmEditContatoPeq.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditContatoPeq.dfm"/>
+      <File FileName="ncaFrmEditContatoValidar.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditContatoValidar.dfm"/>
+      <File FileName="ncaFrmEditDesc.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditDesc.dfm"/>
+      <File FileName="ncaFrmEditFunc.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditFunc.dfm"/>
+      <File FileName="ncaFrmEditObs.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditObs.dfm"/>
+      <File FileName="ncaFrmEditValidade.dfm" ContainerId="W32Form" ModuleName="ncaFrmEditValidade.dfm"/>
+      <File FileName="ncaFrmEmails.dfm" ContainerId="W32Form" ModuleName="ncaFrmEmails.dfm"/>
+      <File FileName="ncaFrmEnviaSenha.dfm" ContainerId="W32Form" ModuleName="ncaFrmEnviaSenha.dfm"/>
+      <File FileName="ncaFrmErroConexao.dfm" ContainerId="W32Form" ModuleName="ncaFrmErroConexao.dfm"/>
+      <File FileName="ncaFrmErroNav.dfm" ContainerId="W32Form" ModuleName="ncaFrmErroNav.dfm"/>
+      <File FileName="ncaFrmEscolhaProdDup.dfm" ContainerId="W32Form" ModuleName="ncaFrmEscolhaProdDup.dfm"/>
+      <File FileName="ncaFrmFechar.dfm" ContainerId="W32Form" ModuleName="ncaFrmFechar.dfm"/>
+      <File FileName="ncaFrmFornecedor.dfm" ContainerId="W32Form" ModuleName="ncaFrmFornecedor.dfm"/>
+      <File FileName="ncaFrmFromEmail.dfm" ContainerId="W32Form" ModuleName="ncaFrmFromEmail.dfm"/>
+      <File FileName="ncaFrmFuncPesq.dfm" ContainerId="W32Form" ModuleName="ncaFrmFuncPesq.dfm"/>
+      <File FileName="ncaFrmGetWebTabs.dfm" ContainerId="W32Form" ModuleName="ncaFrmGetWebTabs.dfm"/>
+      <File FileName="ncaFrmHistVer.dfm" ContainerId="W32Form" ModuleName="ncaFrmHistVer.dfm"/>
+      <File FileName="ncaFrmHorario.dfm" ContainerId="W32Form" ModuleName="ncaFrmHorario.dfm"/>
+      <File FileName="ncaFrmImpDemDeb.dfm" ContainerId="W32Form" ModuleName="ncaFrmImpDemDeb.dfm"/>
+      <File FileName="ncaFrmImpOrcamento.dfm" ContainerId="W32Form" ModuleName="ncaFrmImpOrcamento.dfm"/>
+      <File FileName="ncaFrmImpPrePago.dfm" ContainerId="W32Form" ModuleName="ncaFrmImpPrePago.dfm"/>
+      <File FileName="ncaFrmImprimeEtq.dfm" ContainerId="W32Form" ModuleName="ncaFrmImprimeEtq.dfm"/>
+      <File FileName="ncaFrmInfoMaq.dfm" ContainerId="W32Form" ModuleName="ncaFrmInfoMaq.dfm"/>
+      <File FileName="ncaFrmJust.dfm" ContainerId="W32Form" ModuleName="ncaFrmJust.dfm"/>
+      <File FileName="ncaFrmLancExtra.dfm" ContainerId="W32Form" ModuleName="ncaFrmLancExtra.dfm"/>
+      <File FileName="ncaFrmLeXML.dfm" ContainerId="W32Form" ModuleName="ncaFrmLeXML.dfm"/>
+      <File FileName="ncaFrmLiga.dfm" ContainerId="W32Form" ModuleName="ncaFrmLiga.dfm"/>
+      <File FileName="ncaFrmLimiteDebPadrao.dfm" ContainerId="W32Form" ModuleName="ncaFrmLimiteDebPadrao.dfm"/>
+      <File FileName="ncaFrmListaFornecedores.dfm" ContainerId="W32Form" ModuleName="ncaFrmListaFornecedores.dfm"/>
+      <File FileName="ncaFrmLogin.dfm" ContainerId="W32Form" ModuleName="ncaFrmLogin.dfm"/>
+      <File FileName="ncaFrmMaq.dfm" ContainerId="W32Form" ModuleName="ncaFrmMaq.dfm"/>
+      <File FileName="ncaFrmME2.dfm" ContainerId="W32Form" ModuleName="ncaFrmME2.dfm"/>
+      <File FileName="ncaFrmMigrarPremium.dfm" ContainerId="W32Form" ModuleName="ncaFrmMigrarPremium.dfm"/>
+      <File FileName="ncaFrmMsgChat.dfm" ContainerId="W32Form" ModuleName="ncaFrmMsgChat.dfm"/>
+      <File FileName="ncaFrmMunBr.dfm" ContainerId="W32Form" ModuleName="ncaFrmMunBr.dfm"/>
+      <File FileName="ncaFrmNCM.dfm" ContainerId="W32Form" ModuleName="ncaFrmNCM.dfm"/>
+      <File FileName="ncaFrmNCMEdit.dfm" ContainerId="W32Form" ModuleName="ncaFrmNCMEdit.dfm"/>
+      <File FileName="ncaFrmNCMEx.dfm" ContainerId="W32Form" ModuleName="ncaFrmNCMEx.dfm"/>
+      <File FileName="ncaFrmNCMPesq.dfm" ContainerId="W32Form" ModuleName="ncaFrmNCMPesq.dfm"/>
+      <File FileName="ncaFrmNFCeCancelarHomo.dfm" ContainerId="W32Form" ModuleName="ncaFrmNFCeCancelarHomo.dfm"/>
+      <File FileName="ncaFrmNFCeDepend.dfm" ContainerId="W32Form" ModuleName="ncaFrmNFCeDepend.dfm"/>
+      <File FileName="ncaFrmNFCeImpedirDeslig.dfm" ContainerId="W32Form" ModuleName="ncaFrmNFCeImpedirDeslig.dfm"/>
+      <File FileName="ncaFrmNFCeMigrarProd.dfm" ContainerId="W32Form" ModuleName="ncaFrmNFCeMigrarProd.dfm"/>
+      <File FileName="ncaFrmNFCeModoHomo.dfm" ContainerId="W32Form" ModuleName="ncaFrmNFCeModoHomo.dfm"/>
+      <File FileName="ncaFrmNovaEtiqueta.dfm" ContainerId="W32Form" ModuleName="ncaFrmNovaEtiqueta.dfm"/>
+      <File FileName="ncaFrmObrigado.dfm" ContainerId="W32Form" ModuleName="ncaFrmObrigado.dfm"/>
+      <File FileName="ncaFrmObs.dfm" ContainerId="W32Form" ModuleName="ncaFrmObs.dfm"/>
+      <File FileName="ncaFrmOnTrial.dfm" ContainerId="W32Form" ModuleName="ncaFrmOnTrial.dfm"/>
+      <File FileName="ncaFrmOpcaoRelCaixa.dfm" ContainerId="W32Form" ModuleName="ncaFrmOpcaoRelCaixa.dfm"/>
+      <File FileName="ncaFrmOpcoes.dfm" ContainerId="W32Form" ModuleName="ncaFrmOpcoes.dfm"/>
+      <File FileName="ncaFrmOrcamento.dfm" ContainerId="W32Form" ModuleName="ncaFrmOrcamento.dfm"/>
+      <File FileName="ncaFrmPagEspecie.dfm" ContainerId="W32Form" ModuleName="ncaFrmPagEspecie.dfm"/>
+      <File FileName="ncaFrmPanFor.dfm" ContainerId="W32Form" ModuleName="ncaFrmPanFor.dfm"/>
+      <File FileName="ncaFrmPanTopo.dfm" ContainerId="W32Form" ModuleName="ncaFrmPanTopo.dfm"/>
+      <File FileName="ncaFrmPass.dfm" ContainerId="W32Form" ModuleName="ncaFrmPass.dfm"/>
+      <File FileName="ncaFrmPeriodo.dfm" ContainerId="W32Form" ModuleName="ncaFrmPeriodo.dfm"/>
+      <File FileName="ncaFrmPesqCFOP.dfm" ContainerId="W32Form" ModuleName="ncaFrmPesqCFOP.dfm"/>
+      <File FileName="ncaFrmPesqFor.dfm" ContainerId="W32Form" ModuleName="ncaFrmPesqFor.dfm"/>
+      <File FileName="ncaFrmPopupAss.dfm" ContainerId="W32Form" ModuleName="ncaFrmPopupAss.dfm"/>
+      <File FileName="ncaFrmPri.dfm" ContainerId="W32Form" ModuleName="ncaFrmPri.dfm"/>
+      <File FileName="ncaFrmProdPesq.dfm" ContainerId="W32Form" ModuleName="ncaFrmProdPesq.dfm"/>
+      <File FileName="ncaFrmProdPesq2.dfm" ContainerId="W32Form" ModuleName="ncaFrmProdPesq2.dfm"/>
+      <File FileName="ncaFrmProdSemFid.dfm" ContainerId="W32Form" ModuleName="ncaFrmProdSemFid.dfm"/>
+      <File FileName="ncaFrmProduto.dfm" ContainerId="W32Form" ModuleName="ncaFrmProduto.dfm"/>
+      <File FileName="ncaFrmProduto_Estoque.dfm" ContainerId="W32Form" ModuleName="ncaFrmProduto_Estoque.dfm"/>
+      <File FileName="ncaFrmProduto_PrecoAuto.dfm" ContainerId="W32Form" ModuleName="ncaFrmProduto_PrecoAuto.dfm"/>
+      <File FileName="ncaFrmQtdDev.dfm" ContainerId="W32Form" ModuleName="ncaFrmQtdDev.dfm"/>
+      <File FileName="ncaFrmQtdMaq.dfm" ContainerId="W32Form" ModuleName="ncaFrmQtdMaq.dfm"/>
+      <File FileName="ncaFrmQuantEtq.dfm" ContainerId="W32Form" ModuleName="ncaFrmQuantEtq.dfm"/>
+      <File FileName="ncaFrmReativarNF.dfm" ContainerId="W32Form" ModuleName="ncaFrmReativarNF.dfm"/>
+      <File FileName="ncaFrmRecursoPremium.dfm" ContainerId="W32Form" ModuleName="ncaFrmRecursoPremium.dfm"/>
+      <File FileName="ncaFrmRecursoPRO.dfm" ContainerId="W32Form" ModuleName="ncaFrmRecursoPRO.dfm"/>
+      <File FileName="ncaFrmRej.dfm" ContainerId="W32Form" ModuleName="ncaFrmRej.dfm"/>
+      <File FileName="ncaFrmRejCanc.dfm" ContainerId="W32Form" ModuleName="ncaFrmRejCanc.dfm"/>
+      <File FileName="ncaFrmRemoverNF.dfm" ContainerId="W32Form" ModuleName="ncaFrmRemoverNF.dfm"/>
+      <File FileName="ncaFrmRenameEtq.dfm" ContainerId="W32Form" ModuleName="ncaFrmRenameEtq.dfm"/>
+      <File FileName="ncaFrmSaibaMaisClonar.dfm" ContainerId="W32Form" ModuleName="ncaFrmSaibaMaisClonar.dfm"/>
+      <File FileName="ncaFrmSemEstoque.dfm" ContainerId="W32Form" ModuleName="ncaFrmSemEstoque.dfm"/>
+      <File FileName="ncaFrmSendEmailOrc.dfm" ContainerId="W32Form" ModuleName="ncaFrmSendEmailOrc.dfm"/>
+      <File FileName="ncaFrmSenha.dfm" ContainerId="W32Form" ModuleName="ncaFrmSenha.dfm"/>
+      <File FileName="ncaFrmSenhaWiz.dfm" ContainerId="W32Form" ModuleName="ncaFrmSenhaWiz.dfm"/>
+      <File FileName="ncaFrmSite.dfm" ContainerId="W32Form" ModuleName="ncaFrmSite.dfm"/>
+      <File FileName="ncaFrmSombra.dfm" ContainerId="W32Form" ModuleName="ncaFrmSombra.dfm"/>
+      <File FileName="ncaFrmSubject.dfm" ContainerId="W32Form" ModuleName="ncaFrmSubject.dfm"/>
+      <File FileName="ncaFrmTipoAcesso.dfm" ContainerId="W32Form" ModuleName="ncaFrmTipoAcesso.dfm"/>
+      <File FileName="ncaFrmTipoRec.dfm" ContainerId="W32Form" ModuleName="ncaFrmTipoRec.dfm"/>
+      <File FileName="ncaFrmTipos.dfm" ContainerId="W32Form" ModuleName="ncaFrmTipos.dfm"/>
+      <File FileName="ncaFrmTotal.dfm" ContainerId="W32Form" ModuleName="ncaFrmTotal.dfm"/>
+      <File FileName="ncaFrmTotal3.dfm" ContainerId="W32Form" ModuleName="ncaFrmTotal3.dfm"/>
+      <File FileName="ncaFrmTotalOrcamento.dfm" ContainerId="W32Form" ModuleName="ncaFrmTotalOrcamento.dfm"/>
+      <File FileName="ncaFrmUpgradePremium.dfm" ContainerId="W32Form" ModuleName="ncaFrmUpgradePremium.dfm"/>
+      <File FileName="ncaFrmUsuario.dfm" ContainerId="W32Form" ModuleName="ncaFrmUsuario.dfm"/>
+      <File FileName="ncaFrmWebCam.dfm" ContainerId="W32Form" ModuleName="ncaFrmWebCam.dfm"/>
+      <File FileName="ncaFrmWebPopup.dfm" ContainerId="W32Form" ModuleName="ncaFrmWebPopup.dfm"/>
+      <File FileName="ncaFrmWebTab.dfm" ContainerId="W32Form" ModuleName="ncaFrmWebTab.dfm"/>
+      <File FileName="ncaFrmXmls.dfm" ContainerId="W32Form" ModuleName="ncaFrmXmls.dfm"/>
+      <File FileName="ncaGM_FrmParam.dfm" ContainerId="W32Form" ModuleName="ncaGM_FrmParam.dfm"/>
+      <File FileName="ncaLocalizaCli.dfm" ContainerId="W32Form" ModuleName="ncaLocalizaCli.dfm"/>
+      <File FileName="ncaPanBaseAlertaTopo.dfm" ContainerId="W32Form" ModuleName="ncaPanBaseAlertaTopo.dfm"/>
+      <File FileName="ncaPanItensVendaBase.dfm" ContainerId="W32Form" ModuleName="ncaPanItensVendaBase.dfm"/>
+      <File FileName="ncaPanItensVendaGrid.dfm" ContainerId="W32Form" ModuleName="ncaPanItensVendaGrid.dfm"/>
+      <File FileName="ncaPanVendaProd2.dfm" ContainerId="W32Form" ModuleName="ncaPanVendaProd2.dfm"/>
+      <File FileName="ncaPanVendaProdBase.dfm" ContainerId="W32Form" ModuleName="ncaPanVendaProdBase.dfm"/>
+      <File FileName="ncaPlusAPI.dfm" ContainerId="W32Form" ModuleName="ncaPlusAPI.dfm"/>
+      <File FileName="ncaProgressoDepend.dfm" ContainerId="W32Form" ModuleName="ncaProgressoDepend.dfm"/>
+      <File FileName="ncaWebBanner.dfm" ContainerId="W32Form" ModuleName="ncaWebBanner.dfm"/>
+      <File FileName="panModoHomo.dfm" ContainerId="W32Form" ModuleName="panModoHomo.dfm"/>
+      <File FileName="ufmImagens.dfm" ContainerId="W32Form" ModuleName="ufmImagens.dfm"/>
+      <File FileName="C\projetos\nex\comp\ncDMCaixa.dfm" ContainerId="W32Form" ModuleName="ncDMCaixa.dfm"/>
+      <File FileName="C\projetos\nex\comp\ncDMdanfe_NFCE.dfm" ContainerId="W32Form" ModuleName="ncDMdanfe_NFCE.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncDMServ.dfm" ContainerId="W32Form" ModuleName="ncDMServ.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncFrmChat.dfm" ContainerId="W32Form" ModuleName="ncFrmChat.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncFrmCreditos.dfm" ContainerId="W32Form" ModuleName="ncFrmCreditos.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncFrmCriarConta.dfm" ContainerId="W32Form" ModuleName="ncFrmCriarConta.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncFrmDownSup.dfm" ContainerId="W32Form" ModuleName="ncFrmDownSup.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncFrmSuporteRem.dfm" ContainerId="W32Form" ModuleName="ncFrmSuporteRem.dfm"/>
+      <File FileName="C\projetos\nex\Comp\ncFrmWebPopup.dfm" ContainerId="W32Form" ModuleName="ncFrmWebPopup.dfm"/>
+      <File FileName="C\projetos\nex\comp\ncServAtualizaLic_Indy.dfm" ContainerId="W32Form" ModuleName="ncServAtualizaLic_Indy.dfm"/>
+      <File FileName="C\projetos\nex\Comp\udmLogmein.dfm" ContainerId="W32Form" ModuleName="udmLogmein.dfm"/>
+      <File FileName="C\projetos\Utils\uFrmPanFaixa.dfm" ContainerId="W32Form" ModuleName="uFrmPanFaixa.dfm"/>
+      <File FileName="C\projetos\Utils\uFrmPanFaixas.dfm" ContainerId="W32Form" ModuleName="uFrmPanFaixas.dfm"/>
+      <File FileName="C\Meus Programas\Nex\NexAdmin_Loja_DRC.rc" ContainerId="W32RC" ModuleName="NexAdmin_Loja_DRC.rc"/>
+    </FileList>
+  </W32ResourceDLL.Personality>
+</BorlandProject>

@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file original="C:\projetos\nex\Admin\ncaFrmConfig_CodBar_Precisao.dfm" source-language="pt-BR" target-language="en-US" datatype="delphiform" tool="ETM v10.0" ts="C:\projetos\nex\Admin\ncaFrmConfig_CodBar_Precisao.dfm">
+    <header>
+      <prop-group name="ITEHeaderProp">
+        <prop prop-type="Version">9.0</prop>
+        <prop prop-type="SelfDateTime">42300.7422453704</prop>
+        <prop prop-type="OrigDateTime">41836.6786574074</prop>
+        <prop prop-type="XlatDateTime">41836.6786574074</prop>
+        <prop prop-type="Translated">0</prop>
+        <prop prop-type="UnTranslated">199</prop>
+      </prop-group>
+    </header>
+    <body>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Left" resname="O:FrmConfig_CodBar_Precisao.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">0</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Top" resname="O:FrmConfig_CodBar_Precisao.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">1</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.BorderStyle" resname="O:FrmConfig_CodBar_Precisao.BorderStyle">
+        <source>bsDialog</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">2</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.BorderWidth" resname="O:FrmConfig_CodBar_Precisao.BorderWidth">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">3</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Caption" resname="O:FrmConfig_CodBar_Precisao.Caption">
+        <source>'Precisão do peso'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">4</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.ClientHeight" resname="O:FrmConfig_CodBar_Precisao.ClientHeight">
+        <source>190</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">5</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.ClientWidth" resname="O:FrmConfig_CodBar_Precisao.ClientWidth">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">6</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Color" resname="O:FrmConfig_CodBar_Precisao.Color">
+        <source>clBtnFace</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">7</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Font.Charset" resname="O:FrmConfig_CodBar_Precisao.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">8</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Font.Color" resname="O:FrmConfig_CodBar_Precisao.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">9</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Font.Height" resname="O:FrmConfig_CodBar_Precisao.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">10</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Font.Name" resname="O:FrmConfig_CodBar_Precisao.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">11</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Font.Style" resname="O:FrmConfig_CodBar_Precisao.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">12</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.KeyPreview" resname="O:FrmConfig_CodBar_Precisao.KeyPreview">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">13</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.OldCreateOrder" resname="O:FrmConfig_CodBar_Precisao.OldCreateOrder">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">14</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.Position" resname="O:FrmConfig_CodBar_Precisao.Position">
+        <source>poScreenCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">15</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.OnKeyDown" resname="O:FrmConfig_CodBar_Precisao.OnKeyDown">
+        <source>FormKeyDown</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">16</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.OnKeyPress" resname="O:FrmConfig_CodBar_Precisao.OnKeyPress">
+        <source>FormKeyPress</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">17</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.PixelsPerInch" resname="O:FrmConfig_CodBar_Precisao.PixelsPerInch">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">18</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.TextHeight" resname="O:FrmConfig_CodBar_Precisao.TextHeight">
+        <source>19</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">19</prop><prop prop-type="Type">TFrmConfig_CodBar_Precisao</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">20</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">21</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Width" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Width">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">22</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Height" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Height">
+        <source>27</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">23</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">24</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">25</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Right" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">26</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Bottom" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Margins.Bottom">
+        <source>5</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">27</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Align" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">28</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Bevel.Mode" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">29</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.ParentColor" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.ParentColor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">30</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">31</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Transparent" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">32</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.ExplicitWidth" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.ExplicitWidth">
+        <source>379</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">33</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">34</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">35</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">36</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">37</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Align" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">38</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Caption" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Caption">
+        <source>'Peso com'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">39</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Properties.Alignment.Vert" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">40</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Transparent" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">41</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.AnchorY" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">42</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">43</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Left">
+        <source>82</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">44</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">45</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">46</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">47</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Right" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">48</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Bottom" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">49</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Align" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">50</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.ParentFont" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">51</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.Alignment.Vert" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.Alignment.Vert">
+        <source>taBottomJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">52</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.ImmediatePost" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">53</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.LargeIncrement" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.LargeIncrement">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">54</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.MaxValue" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.MaxValue">
+        <source>10</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">55</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.OnEditValueChanged" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Properties.OnEditValueChanged">
+        <source>edMaxQtdDigPropertiesEditValueChanged</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">56</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.BorderStyle" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">57</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Charset" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">58</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Color" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">59</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Height" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">60</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Name" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">61</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Style" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">62</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.StyleController" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">63</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.TextStyle" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">64</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.IsFontAssigned" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">65</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">66</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Width" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:edMaxQtdDig.Width">
+        <source>87</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">67</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">68</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Left">
+        <source>176</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">69</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">70</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Margins.Left">
+        <source>7</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">71</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Margins.Top" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536111</prop><prop prop-type="Status">0</prop><prop prop-type="Order">72</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Margins.Bottom" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">73</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Align" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">74</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Caption" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Caption">
+        <source>'dígitos de fração'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">75</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Properties.Alignment.Vert" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">76</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Transparent" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">77</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.AnchorY" resname="O:FrmConfig_CodBar_Precisao.O:panMaxQtdDig.O:lbMaxQtdDig2.AnchorY">
+        <source>14</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">78</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">79</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">80</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Top">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">81</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Width" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Width">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">82</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Height" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Height">
+        <source>90</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">83</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">84</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Top">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">85</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Right" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">86</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Bottom" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">87</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.AutoSize" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.AutoSize">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">88</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Align" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">89</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Bevel.Mode" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">90</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.ParentColor" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.ParentColor">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">91</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">92</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.Transparent" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">93</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">94</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">95</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">96</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">97</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Align" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">98</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Caption" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Caption">
+        <source>'Arredondar para cima quando 4o. dígito for igual ou maior que:'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">99</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Properties.Alignment.Vert" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">100</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Properties.WordWrap" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Properties.WordWrap">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">101</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Transparent" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Transparent">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">102</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Width" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.Width">
+        <source>435</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">103</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.AnchorY" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:lbArredondarDig.AnchorY">
+        <source>24</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">104</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">105</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Top">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">106</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Width" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Width">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">107</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Height" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Height">
+        <source>42</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">108</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Align" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Align">
+        <source>alTop</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">109</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Bevel.Mode" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">110</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">111</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.ExplicitLeft" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.ExplicitLeft">
+        <source>48</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">112</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.ExplicitWidth" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.ExplicitWidth">
+        <source>100</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">113</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.ExplicitHeight" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.ExplicitHeight">
+        <source>40</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">114</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Left">
+        <source>75</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">115</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">116</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Caption" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Caption">
+        <source>'(não arredondar)'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">117</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.ParentFont" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">118</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Charset" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">119</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Color" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">120</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Height" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">121</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Name" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">122</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Style" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">123</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.TextStyle" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">124</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.IsFontAssigned" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">125</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.StyleHot.TextStyle" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.StyleHot.TextStyle">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">126</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Visible" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:lbNao.Visible">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">127</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">128</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">129</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">130</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">131</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Top" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">132</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Right" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Right">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">133</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Bottom" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Margins.Bottom">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">134</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Constraints.MaxWidth" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Constraints.MaxWidth">
+        <source>379</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">135</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.ParentFont" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">136</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.Alignment.Vert" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.Alignment.Vert">
+        <source>taBottomJustify</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">137</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.ImmediatePost" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.ImmediatePost">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">138</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.LargeIncrement" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.LargeIncrement">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">139</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.MaxValue" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.MaxValue">
+        <source>9</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">140</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.OnEditValueChanged" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Properties.OnEditValueChanged">
+        <source>edMaxQtdDigPropertiesEditValueChanged</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">141</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.BorderStyle" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.BorderStyle">
+        <source>ebsFlat</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">142</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Charset" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">143</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Color" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">144</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Height" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Height">
+        <source>-16</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">145</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Name" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">146</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Style" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536227</prop><prop prop-type="Status">0</prop><prop prop-type="Order">147</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.StyleController" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.StyleController">
+        <source>FrmPri.cxEditStyleController1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">148</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.TextStyle" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.TextStyle">
+        <source>[fsBold]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">149</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.IsFontAssigned" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">150</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.TabOrder">
+        <source>1</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">151</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Width" resname="O:FrmConfig_CodBar_Precisao.O:panArredondar.O:pan2.O:edCodBarArredondar.Width">
+        <source>72</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">152</prop><prop prop-type="Type">TcxSpinEdit</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Left" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">153</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Top" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Top">
+        <source>157</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">154</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Width" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Width">
+        <source>438</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">155</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Height" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">156</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Align" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Align">
+        <source>alBottom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">157</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Bevel.Mode" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.Bevel.Mode">
+        <source>bmCustom</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">158</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.TabOrder">
+        <source>2</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">159</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.ExplicitWidth" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.ExplicitWidth">
+        <source>379</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">160</prop><prop prop-type="Type">TLMDSimplePanel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Left" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Left">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">161</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Top" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Top">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">162</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Width" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Width">
+        <source>81</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">163</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Height" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Height">
+        <source>33</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">164</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Align" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">165</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Caption" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Caption">
+        <source>'&amp;Ok'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">166</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Default" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Default">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">167</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Charset" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">168</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Color" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">169</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Height" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">170</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Name" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">171</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Style" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">172</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.ParentFont" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">173</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.TabOrder" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.TabOrder">
+        <source>0</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">174</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.OnClick" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.OnClick">
+        <source>btnOkClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">175</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.LookAndFeel.Kind" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:btnOk.LookAndFeel.Kind">
+        <source>lfOffice11</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">176</prop><prop prop-type="Type">TcxButton</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.AlignWithMargins" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.AlignWithMargins">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">177</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Left" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Left">
+        <source>96</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">178</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Top" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Top">
+        <source>3</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">179</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Cursor" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Cursor">
+        <source>crHandPoint</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">180</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Margins.Left" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Margins.Left">
+        <source>15</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">181</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Align" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Align">
+        <source>alLeft</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">182</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Caption" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Caption">
+        <source>'Cancelar'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">183</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.ParentFont" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.ParentFont">
+        <source>False</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">184</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Charset" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Charset">
+        <source>DEFAULT_CHARSET</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">185</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Color" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Color">
+        <source>clWindowText</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">186</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Height" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Height">
+        <source>-13</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">187</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Name" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Name">
+        <source>'Tahoma'</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">188</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Style" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.Font.Style">
+        <source>[]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">189</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.HotTrack" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.HotTrack">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">190</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.TextColor" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.TextColor">
+        <source>6118749</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">191</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.IsFontAssigned" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Style.IsFontAssigned">
+        <source>True</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">192</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.StyleHot.BorderStyle" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.StyleHot.BorderStyle">
+        <source>ebsNone</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">193</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.StyleHot.TextColor" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.StyleHot.TextColor">
+        <source>clBlue</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">194</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.StyleHot.TextStyle" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.StyleHot.TextStyle">
+        <source>[fsUnderline]</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">195</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Properties.Alignment.Vert" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.Properties.Alignment.Vert">
+        <source>taVCenter</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">196</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.OnClick" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.OnClick">
+        <source>lbCancelarClick</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">197</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+      <trans-unit id="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.AnchorY" resname="O:FrmConfig_CodBar_Precisao.O:LMDSimplePanel2.O:lbCancelar.AnchorY">
+        <source>17</source>
+        <prop-group name="ITEFieldProp">
+        <prop prop-type="Created">42300.7422536343</prop><prop prop-type="Status">0</prop><prop prop-type="Order">198</prop><prop prop-type="Type">TcxLabel</prop><prop prop-type="Localize">1</prop></prop-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

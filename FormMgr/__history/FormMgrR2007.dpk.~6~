@@ -1,0 +1,67 @@
+package FormMgrR2007;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL OFF}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS ON}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO ON}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES OFF}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST OFF}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $400000}
+{$DESCRIPTION 'Form Manager'}
+{$RUNONLY}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl,
+  vcljpg,
+  vcldb,
+  vclx,
+  ParPanelR,
+  dxCoreRS11,
+  cxLibraryRS11,
+  dxGDIPlusRS11,
+  dxThemeRS11,
+  cxPageControlRS11,
+  cxEditorsRS11,
+  cxDataRS11,
+  dxBarRS11,
+  dxComnRS11,
+  dxBarExtItemsRS11,
+  dxRibbonRS11,
+  dxLayoutControlRS11,
+  cxExportRS11,
+  cxGridRS11,
+  dxPSCoreRS11,
+  dxPSLnksRS11,
+  dxPScxPCProdRS11,
+  cxPivotGridRS11,
+  dxPScxCommonRS11,
+  dxPScxExtCommonRS11,
+  dxPSdxLCLnkRS11,
+  dxPScxPivotGridLnkRS11,
+  dxPScxGridLnkRS11,
+  dxPsPrVwAdvRS11,
+  dxPSPrVwRibbonRS11;
+
+contains
+  ufmFormBase in 'ufmFormBase.pas' {FrmBase},
+  ufmImagens in 'ufmImagens.pas' {dmImagens: TDataModule},
+  ufmFrmBasePai in 'ufmFrmBasePai.pas' {FrmBasePai};
+
+end.

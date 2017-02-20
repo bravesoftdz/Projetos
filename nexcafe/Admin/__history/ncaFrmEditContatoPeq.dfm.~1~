@@ -1,0 +1,143 @@
+inherited FrmEditContato1: TFrmEditContato1
+  AlignWithMargins = True
+  ClientHeight = 211
+  ClientWidth = 592
+  ExplicitWidth = 628
+  ExplicitHeight = 269
+  PixelsPerInch = 96
+  TextHeight = 19
+  inherited panPri: TLMDSimplePanel
+    Width = 592
+    Height = 34
+    ParentColor = True
+    ExplicitWidth = 592
+    ExplicitHeight = 34
+    inherited lbNome: TcxLabel
+      Left = 39
+      Top = 1
+      Style.Font.Height = -13
+      Style.IsFontAssigned = True
+      ExplicitLeft = 41
+      ExplicitTop = 1
+      ExplicitWidth = 173
+      ExplicitHeight = 33
+      AnchorY = 17
+    end
+    inherited Img: TMyImage
+      AlignWithMargins = True
+      Left = 4
+      Top = 1
+      Width = 32
+      Height = 32
+      Margins.Top = 0
+      Margins.Bottom = 0
+      ImageList = dmImagens.im32
+      ImageIndex = 1
+      ExplicitLeft = 1
+      ExplicitTop = 1
+      ExplicitWidth = 32
+      ExplicitHeight = 32
+    end
+    inherited lbRemove: TcxLabel
+      Left = 212
+      Top = 1
+      Style.Font.Height = -16
+      Style.IsFontAssigned = True
+      ExplicitLeft = 275
+      ExplicitWidth = 24
+      AnchorY = 17
+    end
+    inherited panDeb: TLMDSimplePanel
+      Left = 439
+      Top = 6
+      Height = 22
+      Margins.Top = 5
+      Margins.Bottom = 5
+      ExplicitLeft = 577
+      ExplicitTop = 12
+      ExplicitHeight = 28
+      inherited lbDebito: TcxLabel
+        Style.IsFontAssigned = True
+        ExplicitLeft = 5
+        ExplicitHeight = 28
+        AnchorX = 25
+        AnchorY = 11
+      end
+      inherited lbValorDebito: TcxLabel
+        Style.IsFontAssigned = True
+        ExplicitLeft = 45
+        ExplicitHeight = 28
+        AnchorX = 72
+        AnchorY = 11
+      end
+    end
+    inherited panFid: TLMDSimplePanel
+      Left = 353
+      Top = 6
+      Height = 22
+      Margins.Top = 5
+      Margins.Bottom = 5
+      ExplicitLeft = 491
+      ExplicitTop = 12
+      ExplicitHeight = 28
+      inherited lbPontos: TcxLabel
+        Style.IsFontAssigned = True
+        ExplicitLeft = 5
+        ExplicitHeight = 28
+        AnchorX = 26
+        AnchorY = 11
+      end
+      inherited lbQuantPontos: TcxLabel
+        Style.IsFontAssigned = True
+        ExplicitLeft = 47
+        ExplicitHeight = 28
+        AnchorX = 61
+        AnchorY = 11
+      end
+    end
+    inherited panCred: TLMDSimplePanel
+      Left = 239
+      Top = 6
+      Height = 22
+      Margins.Top = 5
+      Margins.Bottom = 5
+      ExplicitLeft = 377
+      ExplicitTop = 12
+      ExplicitHeight = 28
+      inherited lbCredito: TcxLabel
+        Style.IsFontAssigned = True
+        ExplicitLeft = 5
+        ExplicitHeight = 28
+        AnchorX = 28
+        AnchorY = 11
+      end
+      inherited lbValorCredito: TcxLabel
+        Style.IsFontAssigned = True
+        ExplicitLeft = 50
+        ExplicitHeight = 28
+        AnchorX = 77
+        AnchorY = 11
+      end
+    end
+  end
+  inherited LMDSimplePanel2: TLMDSimplePanel
+    Top = 177
+    Width = 592
+  end
+  inherited cxLabel1: TcxLabel
+    Caption = 'Para deixar em d'#233'bito '#233' necess'#225'rio selecionar um cliente:'
+    ParentFont = False
+    Style.IsFontAssigned = True
+  end
+  inherited imgs: TcxImageList
+    Height = 24
+    Width = 24
+    FormatVersion = 1
+    DesignInfo = 7864512
+    ImageInfo = <>
+  end
+  inherited cxImageList1: TcxImageList
+    FormatVersion = 1
+    DesignInfo = 7340368
+  end
+end

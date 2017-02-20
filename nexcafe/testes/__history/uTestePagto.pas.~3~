@@ -1,0 +1,72 @@
+unit uTestePagto;
+
+interface
+
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, cxGraphics, cxControls, cxLookAndFeels, cxLookAndFeelPainters,
+  cxContainer, cxEdit, StdCtrls, cxTextEdit, cxCurrencyEdit;
+
+type
+  TForm6 = class(TForm)
+    edValor: TcxCurrencyEdit;
+    Button1: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+
+implementation
+
+uses ncaFrmPagEspecie, ncEspecie;
+
+{$R *.dfm}
+
+procedure TForm6.Button1Click(Sender: TObject);
+var
+  P: TncPagEspecies;
+  CredUsado, Desconto: Currency;
+begin
+  P := TncPagEspecies.Create;
+  CredUsado := 0;
+  Desconto := 0;
+  FrmPagEspecie.Editar(True, P, 10, CredUsado, Desconto);
+end;
+
+procedure TForm6.FormCreate(Sender: TObject);
+begin
+  with gEspecies.NewItem do begin
+    Tipo := tipoesp_dinheiro;
+    Nome := 'Dinheiro;l
+    ID := 1;
+    Img := 1;
+  end;
+
+  with gEspecies.NewItem do begin
+    Tipo := tipoesp_cartao;
+    ID := 2;
+    Img := 2;
+  end;
+
+  with gEspecies.NewItem do begin
+    Tipo := tipoesp_cartao;
+    ID := 1;
+    Img := 1;
+  end;
+
+  with gEspecies.NewItem do begin
+    Tipo := tipoesp_dinheiro;
+    ID := 1;
+    Img := 1;
+  end;
+  
+
+end;
+
+end.
