@@ -77,7 +77,8 @@ implementation
 
 {$R *.dfm}
 
-uses ncClassesBase, ncaStrings, umsg, ncHttp, ncHash, nexUrls, ncaDM, ncaFrmPri;
+uses ncClassesBase, ncaStrings, umsg, ncHttp, ncHash, nexUrls, ncaDM, ncaFrmPri,
+  ncDebug;
 
 procedure TFrmTrial_fim.Assinar;
 var 
@@ -184,6 +185,7 @@ end;
 
 procedure TFrmTrial_fim.lbChamarSupClick(Sender: TObject);
 begin
+  DebugMsg(Self, 'lbChamarSupClick');
   FrmPri.ChamaSuporteRemoto;
 end;
 

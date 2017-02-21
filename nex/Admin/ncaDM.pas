@@ -3670,6 +3670,7 @@ end;
 
 procedure TDados.CMAoAtualizarConfig(Sender: TObject);
 begin
+  gConfig.ApplyFmtMoeda;
   GetFlags;
   tbConfig.Refresh;
   TpanAlertaModoHomo.Refresh;

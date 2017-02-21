@@ -53,7 +53,6 @@ uses
   ClasseCS in '..\..\CSComm\ClasseCS.pas',
   CacheProp in '..\..\CSComm\CacheProp.pas',
   ncsCallbackEvents in 'ncsCallbackEvents.pas',
-  uNxCompression in '..\..\nextarprodserver\uNxCompression.pas',
   uNexusDBUtils in '..\..\Utils\uNexusDBUtils.pas',
   uFaixaInteger in '..\..\Utils\uFaixaInteger.pas',
   ncEspecie in '..\Comp\ncEspecie.pas',
@@ -110,7 +109,8 @@ uses
   ncDMdanfe_nfe in '..\comp\ncDMdanfe_nfe.pas' {dmDanfe_nfe: TDataModule},
   nxsrServerEngine in 'C:\Comp\NexusDB4\nxsrServerEngine.pas',
   ncDM_post_nexapp in '..\nexapp\ncDM_post_nexapp.pas' {dm_post_nexapp: TDataModule},
-  ncDM_nexapp in '..\nexapp\ncDM_nexapp.pas' {dmNexApp: TDataModule};
+  ncDM_nexapp in '..\nexapp\ncDM_nexapp.pas' {dmNexApp: TDataModule},
+  uNxCompression in '..\..\utils\uNxCompression.pas';
 
 {$R *.res}
 

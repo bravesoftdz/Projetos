@@ -1754,6 +1754,19 @@ begin
         AddField('RecNomeLoja', '', nxtNullString, 40, 0, False);
         AddField('RecCortaFolha', '', nxtBoolean, 0, 0, False);
 
+        
+        with AddField('fmt_moeda', '', nxtBoolean, 0, 0, False) do 
+          with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
+            AsVariant := False;        
+        
+        with AddField('fmt_decimais', '', nxtByte, 3, 0, False) do
+          with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
+            AsVariant := 2;
+            
+        AddField('fmt_simbmoeda', '', nxtNullString, 5, 0, False);
+        AddField('fmt_sep_decimal', '', nxtNullString, 1, 0, False);
+        AddField('fmt_sep_milhar', '', nxtNullString, 1, 0, False);
+
         AddField('Pais', '', nxtNullString, 2, 0, False);
         AddField('tax_id_def', '', nxtWord32, 0, 0, False);
         

@@ -1033,6 +1033,8 @@ begin
         gConfig.LeDataset(tConfig);
       end;
 
+      gConfig.ApplyFmtMoeda;
+
       DebugMsg('CriaServidorBD 7.12');
       aLastVer := DM.sysLog_lastver;
 
@@ -1666,6 +1668,7 @@ function TncServidor.AtualizaConfigBD: Integer;
 begin
   try
     DM.SalvaConfig(gConfig);
+    gConfig.ApplyFmtMoeda;
     Result := 0;
   except
     on e: exception do begin

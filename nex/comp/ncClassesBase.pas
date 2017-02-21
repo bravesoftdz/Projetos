@@ -8,6 +8,7 @@ interface
 {$I NEX.INC}
 
 uses
+  cxFormats,
   Classes,
   CacheProp,
   ClasseCS,
@@ -788,6 +789,12 @@ type
     FTelaPosVenda_Mostrar  : Boolean;
     FTelaPosVenda_BtnDef   : Byte;
 
+    Ffmt_moeda             : Boolean;
+    Ffmt_decimais          : Byte;
+    Ffmt_simbmoeda         : string;
+    Ffmt_sep_decimal       : string;
+    Ffmt_sep_milhar        : string;
+
     FExigirVendedor        : Boolean;
 
     FValOrc_Tempo          : Word;
@@ -841,6 +848,8 @@ type
     destructor Destroy; override;
 
     procedure AssignConfig(C : TncConfig);
+
+    procedure ApplyFmtMoeda;
 
     property slFlags: TStrings
       read FslFlags;
@@ -901,9 +910,15 @@ type
       read GetRecBobina write SetRecBobina;  
     
   published
+
+    property fmt_moeda: Boolean read Ffmt_moeda write Ffmt_moeda;
+    property fmt_decimais: Byte read Ffmt_decimais write Ffmt_decimais;
+    property fmt_simbmoeda: string read Ffmt_simbmoeda write Ffmt_simbmoeda;
+    property fmt_sep_decimal: string read Ffmt_sep_decimal write Ffmt_sep_decimal;
+    property fmt_sep_milhar: string read Ffmt_sep_milhar write Ffmt_sep_milhar;
+  
     property Endereco_Loja: String
       read GetEndereco_Loja write SetEndereco_Loja;
-
     
     property ValOrc_Tempo: Word
       read FValOrc_Tempo write FValOrc_Tempo;
@@ -3459,6 +3474,12 @@ begin
 
   FExigirVendedor         := False;
 
+  Ffmt_moeda             := False;
+  Ffmt_decimais          := 2;
+  Ffmt_simbmoeda         := '';
+  Ffmt_sep_decimal       := '';
+  Ffmt_sep_milhar        := '';
+  
   FValOrc_Tempo           := 0;
   FValOrc_UTempo          := 0;
   FObsPadraoOrcamento     := '';
@@ -3714,6 +3735,52 @@ begin
   Result := (FDVA=0) and (FPreLib=True) and (gConfig.StatusConta=scPremiumVenc);
 end;
 
+
+procedure TncConfig.ApplyFmtMoeda;
+var F: TFormatSettings;
+
+function zeros: string;
+begin
+  Result := '';
+  while Length(Result)<Ffmt_decimais do Result := Result + '0';
+end;
+
+function zerosf: string;
+begin
+  Result := '';
+  while Length(Result)<F.CurrencyDecimals do Result := Result + '0';
+end;
+
+begin
+  if Ffmt_moeda then begin
+    dxFormatSettings.CurrencyDecimals := Ffmt_decimais;
+    dxFormatSettings.CurrencyString := FFmt_simbmoeda;
+  
+    if FFmt_sep_decimal>'' then
+      dxFormatSettings.DecimalSeparator := FFmt_sep_decimal[1] else
+      dxFormatSettings.DecimalSeparator := #0;
+
+    if FFmt_sep_milhar>'' then
+      dxFormatSettings.ThousandSeparator := FFmt_sep_milhar[1] else
+      dxFormatSettings.ThousandSeparator := #0;
+    
+    if Ffmt_decimais>0 then 
+      cxFormatController.CurrencyFormat := Ffmt_simbmoeda+' ,0.'+zeros+';-'+Ffmt_simbmoeda+' ,0.'+zeros else
+      cxFormatController.CurrencyFormat := Ffmt_simbmoeda+' ,0.'+zeros+';-'+Ffmt_simbmoeda+' ,0.'+zeros;
+  end else begin
+    F := TFormatSettings.Create;
+    dxFormatSettings.CurrencyDecimals := F.CurrencyDecimals;
+    dxFormatSettings.CurrencyString := F.CurrencyString;
+    dxFormatSettings.DecimalSeparator := F.DecimalSeparator;
+    dxFormatSettings.ThousandSeparator := F.ThousandSeparator;
+    if F.CurrencyDecimals > 0 then
+      cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf else
+      cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf;    
+  end;
+
+  cxFormatController.TranslationChanged;
+end;
+
 procedure TncConfig.AssignConfig(C: TncConfig);
 begin    
   FEndereco_Loja          := C.FEndereco_Loja;                 
@@ -3813,6 +3880,13 @@ begin
   FTelaPosVenda_Mostrar   := C.FTelaPosVenda_Mostrar   ;
   FTelaPosVenda_BtnDef    := C.FTelaPosVenda_BtnDef    ;
   FExigirVendedor         := C.FExigirVendedor         ;
+
+  Ffmt_moeda             := C.Ffmt_moeda;
+  Ffmt_decimais          := C.Ffmt_decimais;
+  Ffmt_simbmoeda         := C.Ffmt_simbmoeda;
+  Ffmt_sep_decimal       := C.Ffmt_sep_decimal;
+  Ffmt_sep_milhar        := C.Ffmt_sep_milhar;
+  
   FValOrc_Tempo           := C.FValOrc_Tempo           ;
   FValOrc_UTempo          := C.FValOrc_UTempo          ;
   FEmailOrc_Enviar        := C.FEmailOrc_Enviar        ;

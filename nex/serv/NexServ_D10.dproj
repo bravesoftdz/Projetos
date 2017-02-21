@@ -102,9 +102,9 @@
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
         <AppEnableAdministrator>true</AppEnableAdministrator>
         <DCC_DcuOutput>C:\ProjetoDCU\Nex</DCC_DcuOutput>
-        <VerInfo_Build>355</VerInfo_Build>
+        <VerInfo_Build>356</VerInfo_Build>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.355;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.355;Comments=</VerInfo_Keys>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.356;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.356;Comments=</VerInfo_Keys>
         <Debugger_HostApplication>C:\Meus Programas\Nex\NexServ_XE7.exe</Debugger_HostApplication>
     </PropertyGroup>
     <ProjectExtensions>
@@ -630,7 +630,6 @@
         <DCCReference Include="..\..\CSComm\ClasseCS.pas"/>
         <DCCReference Include="..\..\CSComm\CacheProp.pas"/>
         <DCCReference Include="ncsCallbackEvents.pas"/>
-        <DCCReference Include="..\..\nextarprodserver\uNxCompression.pas"/>
         <DCCReference Include="..\..\Utils\uNexusDBUtils.pas"/>
         <DCCReference Include="..\..\Utils\uFaixaInteger.pas"/>
         <DCCReference Include="..\Comp\ncEspecie.pas"/>
@@ -759,6 +758,7 @@
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
+        <DCCReference Include="..\..\utils\uNxCompression.pas"/>
         <None Include="nex.inc"/>
         <BuildConfiguration Include="Debug">
             <Key>Cfg_2</Key>

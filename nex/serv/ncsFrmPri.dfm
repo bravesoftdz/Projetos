@@ -2089,7 +2089,7 @@ object frmPri: TfrmPri
         ParentColor = False
         ParentFont = False
         TabOrder = 1
-        Properties.ActivePage = tsBD
+        Properties.ActivePage = tsAssistencia
         Properties.CustomButtons.Buttons = <>
         Properties.HotTrack = True
         Properties.Options = [pcoAlwaysShowGoDialogButton, pcoGradient, pcoGradientClientArea, pcoRedrawOnResize, pcoUsePageColorForTab]
@@ -2115,6 +2115,10 @@ object frmPri: TfrmPri
           ImageIndex = 3
           ParentColor = False
           ParentFont = False
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object panBD: TLMDSimplePanel
             Left = 0
             Top = 0
@@ -2230,10 +2234,6 @@ object frmPri: TfrmPri
           Color = clBtnFace
           ImageIndex = 3
           ParentColor = False
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
           object LMDSimplePanel9: TLMDSimplePanel
             Left = 0
             Top = 0

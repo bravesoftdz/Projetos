@@ -132,8 +132,15 @@ uses
   CSCClient,
   ncClassesBase, 
   ncaDM, 
-  ncaFrmPri, ncDebug, ncVersionInfo, ncaFrmErroConexao, ncErros, ncaFrmConn,
-  ncaFrmConfigLogin, ncaConnMgr, ncaFrmEnviaSenha;
+  ncaFrmPri, 
+  ncDebug, 
+  ncVersionInfo, 
+  ncaFrmErroConexao, 
+  ncErros, 
+  ncaFrmConn,
+  ncaFrmConfigLogin, 
+  ncaConnMgr, 
+  ncaFrmEnviaSenha;
 
 // START resource string wizard section
 const

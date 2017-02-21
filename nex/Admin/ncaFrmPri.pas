@@ -614,6 +614,8 @@ begin
 
   TimerAvisoAss.Enabled := True;
 
+  gConfig.ApplyFmtMoeda;
+
   Caption := 'Nex | NexAdmin | ' + SLingua + ' | ' + Dados.CM.Username + ' | ' + ExtractFileDir(ParamStr(0));
 
 //  PostMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0);
@@ -795,6 +797,7 @@ end;
 
 procedure TFrmPri.cmSuporteRemotoClick(Sender: TObject);
 begin
+  DebugMsg(Self, 'cmSuporteRemoto');
   ChamaSuporteRemoto;
 end;
 
@@ -1327,9 +1330,20 @@ procedure TFrmPri.AEShortCut(var Msg: TWMKey; var Handled: Boolean);
 var CodCli: Integer;
 begin
   with Dados do
-  if Msg.CharCode=vk_f8 then cmSuporteRemotoClick(nil);
-  if Msg.CharCode=vk_f12 then AbreSuporteDB;
-  if (Msg.CharCode=vk_f11) and (cmAbreGaveta.Visible=ivAlways) then cmAbreGaveta.Click;
+  if Msg.CharCode=vk_f8 then begin
+    Handled := True;
+    DebugMsg(Self, 'AEShortCut - '+Msg.Msg.ToString);
+    if not SameText(slConfig.Values['ignoraf8'], 'S') then
+      ChamaSuporteRemoto;
+  end;
+  if Msg.CharCode=vk_f12 then begin
+    Handled := True;
+    AbreSuporteDB;
+  end;
+  if (Msg.CharCode=vk_f11) and (cmAbreGaveta.Visible=ivAlways) then begin
+    Handled := True;
+    cmAbreGaveta.Click;
+  end;
   
 {  else
   if (Msg.CharCode=116) and CM.Ativo then begin
@@ -1441,6 +1455,7 @@ end;
 procedure TFrmPri.ChamaSuporteRemoto;
 var S: String;
 begin
+  DebugMsg(Self, 'ChamaSuporteRemoto');
   with Dados do 
   if TFrmSuporte.Create(nil).ObterSuporte then begin
     if CM.Ativo then 
@@ -1827,6 +1842,11 @@ procedure TFrmPri.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 var msg : tmsg;
 begin
+  if SameText(slConfig.Values['ignoraf8'], 'S') and (Key=Key_F8) then begin
+    DebugMsg(Self, 'FormKeyDown F8');
+    ChamaSuporteRemoto;
+  end;
+  
   if FM.FormAtivo<>nil then
     FM.FormAtivo.processKeyDown(Sender, Key, Shift);
 end;
