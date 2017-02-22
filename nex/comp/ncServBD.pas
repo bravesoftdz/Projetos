@@ -1187,7 +1187,10 @@ begin
        end;
      
      SaveFld('AtualizadoEm', datahora);
-     SaveFld('TotalFinal', LeCurrency('Total') - LeCurrency('Desconto'));  
+     SaveFld('TotalFinal', LeCurrency('Total') - LeCurrency('Desconto')); 
+
+     AddCard(SrvDB, card_type_orcamento, LeWord32('IDSeq'));
+      
      Exit;
    end else   
    if SameText(aTable, 'Cliente') then begin
@@ -1321,8 +1324,13 @@ begin
    vCancelado := LeFld('Cancelado');
    
    if (not gEvolvingTables) and aTabTran then begin
-     if (aTipo=trEstVenda) and (not LeBool('PagPend')) then Self.AddCard(SrvDB, card_type_venda, LeFld('ID'));
-     
+     if (aTipo=trEstVenda) then begin
+       if (not LeBool('PagPend')) then begin
+         Self.AddCard(SrvDB, card_type_venda, LeWord32('ID'));
+       end;
+     end else
+     if (aTipo=trEstDevolucao) then
+       AddCard(SrvDB, card_type_devolucao, LeWord32('ID'));
      if (LeByte('statusnfe') <> LeByte('statusnfe', False)) and (LeByte('statusnfe')=nfetran_gerar) then 
        PostMessage(CliNotifyHandle, wm_newgerar, Byte((LeByte('TipoNFE')=tiponfe_nfe)), 0);   
    end;

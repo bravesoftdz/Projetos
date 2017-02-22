@@ -386,8 +386,8 @@ type
     tIOrcDesconto: TCurrencyField;
     tIOrcTotalFinal: TCurrencyField;
     tIOrcRecVer: TLongWordField;
-    tOrcNomeCliente: TWideStringField;
     tOrcNomeFunc: TStringField;
+    tOrcNomeCliente: TWideStringField;
     procedure DataModuleCreate(Sender: TObject);
     procedure tPagEspCalcFields(DataSet: TDataSet);
     procedure DataModuleDestroy(Sender: TObject);
@@ -741,6 +741,7 @@ begin
   if tTranTipo.Value=trEstVenda then
     mtCardType.Value := card_type_venda else
     mtCardType.Value := card_type_devolucao;
+    
   mtCard.Post;
 
   jCard := TJsonObject.Create;
@@ -892,7 +893,7 @@ end;
 procedure TdmNexApp.DataModuleDestroy(Sender: TObject);
 begin
   fmOrc.Free;
-  fmOrcItens.Free;
+  fmItensOrc.Free;
   fmDev.Free;
   fmProd.Free;
   fmLastBuy.Free;
@@ -1176,6 +1177,8 @@ begin
       
       card_type_venda : if tTran.FindKey([tCardid_ref.Value]) then tCardjson.Value := Self.Create_json_venda;
 
+      card_type_devolucao : if tTran.FindKey([tCardid_ref.Value]) then tCardjson.Value := Self.Create_json_venda;
+
       card_type_orcamento : if tOrc.FindKey([tCardid_ref.Value]) then tCardjson.Value := Self.Create_json_orcamento;
 
       card_type_produto : if tProd.Locate('ID', tCardid_ref.Value, []) then tCardjson.Value := Self.Create_json_produto;
@@ -1257,9 +1260,15 @@ begin
 end;
 
 procedure Loop(aCardArray, aMethod: byte);
+var maxQ: Integer;
 begin  
   Req.Clear;
   Q := 0;
+
+  if aMethod=http_method_post then
+    maxQ := 1000 else
+    maxQ := 100;
+  
   try
     tCard.IndexName := 'I_card_array_status_method_card_id';
     InitTran(DB, [tCard, tPost], True);
@@ -1282,7 +1291,7 @@ begin
         
         Req.WriteString(tCardjson.Value);
   
-        if Q>=1000 then AddPost(aCardArray, aMethod);
+        if Q>=maxQ then AddPost(aCardArray, aMethod);
       end else 
         DebugMsg(Self, 'processa_enviar_json - ERRO JSON BRANCO: '+tCardType.AsString+' - '+tCardcard_ID.AsString);
     end;

@@ -280,6 +280,7 @@ object FrmProdPesq: TFrmProdPesq
               DataBinding.FieldName = 'Preco'
               PropertiesClassName = 'TcxCurrencyEditProperties'
               Properties.Alignment.Horz = taRightJustify
+              Properties.DecimalPlaces = 10
               OnGetDisplayText = TVPrecoGetDisplayText
               HeaderAlignmentHorz = taCenter
               Styles.Content = cxsNegrito
@@ -445,6 +446,7 @@ object FrmProdPesq: TFrmProdPesq
               TabOrder = 1
               OnKeyDown = edCodKeyDown
               OnKeyPress = edCodKeyPress
+              ExplicitHeight = 21
               Width = 517
             end
           end
@@ -503,6 +505,7 @@ object FrmProdPesq: TFrmProdPesq
               TabOrder = 1
               OnKeyDown = edDescrKeyDown
               OnKeyPress = edDescrKeyPress
+              ExplicitHeight = 21
               Width = 517
             end
           end
@@ -560,6 +563,7 @@ object FrmProdPesq: TFrmProdPesq
               TabOrder = 1
               OnKeyDown = edPrecoKeyDown
               OnKeyPress = edPrecoKeyPress
+              ExplicitHeight = 21
               Width = 226
             end
           end

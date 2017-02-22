@@ -273,6 +273,8 @@ object FrmProdPesq2: TFrmProdPesq2
       end
       object TVPreco: TcxGridDBColumn
         DataBinding.FieldName = 'Preco'
+        PropertiesClassName = 'TcxCurrencyEditProperties'
+        Properties.DecimalPlaces = 10
         Width = 106
       end
     end
@@ -336,9 +338,10 @@ object FrmProdPesq2: TFrmProdPesq2
     Properties.ActivePage = tsComFoto
     Properties.CustomButtons.Buttons = <>
     Properties.HideTabs = True
-    ClientRectBottom = 442
-    ClientRectRight = 164
-    ClientRectTop = 0
+    ClientRectBottom = 438
+    ClientRectLeft = 4
+    ClientRectRight = 160
+    ClientRectTop = 4
     object tsComFoto: TcxTabSheet
       Caption = 'tsComFoto'
       Color = clBtnFace
@@ -365,7 +368,7 @@ object FrmProdPesq2: TFrmProdPesq2
         TabOrder = 0
         OnClick = imgEditClick
         Height = 122
-        Width = 164
+        Width = 156
       end
     end
   end

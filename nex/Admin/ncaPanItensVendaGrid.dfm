@@ -2,8 +2,8 @@ inherited panItensVendaGrid: TpanItensVendaGrid
   Caption = 'panItensVendaGrid'
   ClientHeight = 389
   ClientWidth = 1016
-  ExplicitWidth = 1024
-  ExplicitHeight = 420
+  ExplicitWidth = 1032
+  ExplicitHeight = 428
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
@@ -237,6 +237,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
           Caption = '  Valor Unit'#225'rio'
           PropertiesClassName = 'TcxCurrencyEditProperties'
           Properties.Alignment.Horz = taLeftJustify
+          Properties.DecimalPlaces = 10
           Options.Focusing = False
           Styles.Header = cxStyle2
           Width = 156
@@ -470,11 +471,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
     UseSystemFont = True
     Left = 160
     Top = 88
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     object cmEditarProd: TdxBarButton
       Caption = 'Editar dados cadastrais do produto'
       Category = 0

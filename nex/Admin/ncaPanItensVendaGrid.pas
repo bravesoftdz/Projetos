@@ -280,6 +280,8 @@ begin
     Grid.Font.Style := [];
   FTotal := 0;
   FEntrou := False;
+
+  TcxCurrencyEditProperties(TVUnitario.Properties).DisplayFormat := gConfig.cxMaskUnitario;  
 end;
 
 function TpanItensVendaGrid.GetCount: Integer;

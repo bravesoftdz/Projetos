@@ -1944,6 +1944,9 @@ end;
 
 procedure TFrmProduto.FormCreate(Sender: TObject);
 begin
+  edPreco.Properties.DisplayFormat := gConfig.cxMaskUnitario;
+  edCusto.Properties.DisplayFormat := gConfig.cxMaskUnitario;
+  
   Paginas.HideTabs := True;
   panComissao.Enabled := Dados.CM.UA.Admin;
   Paginas.ActivePage := tsDados;

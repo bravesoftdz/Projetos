@@ -235,6 +235,7 @@ inherited fbProdutos: TfbProdutos
                   DataBinding.FieldName = 'Preco'
                   PropertiesClassName = 'TcxCurrencyEditProperties'
                   Properties.Alignment.Horz = taRightJustify
+                  Properties.DecimalPlaces = 10
                   Properties.Nullable = False
                   Properties.ReadOnly = True
                   HeaderAlignmentHorz = taCenter
@@ -255,6 +256,7 @@ inherited fbProdutos: TfbProdutos
                   DataBinding.FieldName = 'CustoUnitario'
                   PropertiesClassName = 'TcxCurrencyEditProperties'
                   Properties.Alignment.Horz = taRightJustify
+                  Properties.DecimalPlaces = 10
                   Properties.Nullable = False
                   Properties.ReadOnly = True
                   HeaderAlignmentHorz = taCenter

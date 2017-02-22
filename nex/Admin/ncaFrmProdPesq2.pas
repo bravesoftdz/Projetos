@@ -316,6 +316,7 @@ end;
 
 procedure TFrmProdPesq2.FormCreate(Sender: TObject);
 begin
+  TcxCurrencyEditProperties(TVPreco.Properties).DisplayFormat := gConfig.cxMaskUnitario;
   cbSuperBusca.Checked := getFormOptionBool(Self, 'superbusca', true);
   cbSuperBuscaClick(nil);
   

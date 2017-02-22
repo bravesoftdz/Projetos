@@ -618,6 +618,7 @@ end;
 procedure TFrmProdPesq.FormCreate(Sender: TObject);
 begin
   LeLayout;
+  TcxCurrencyEditProperties(TVPreco.Properties).DisplayFormat := gConfig.cxMaskUnitario;
   FIgnoreChange := False;
   FRecCount := 0;
   FAchouPorDescr := False;

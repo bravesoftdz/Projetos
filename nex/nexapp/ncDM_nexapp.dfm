@@ -5,14 +5,12 @@ object dmNexApp: TdmNexApp
   Height = 316
   Width = 424
   object RSE: TnxRemoteServerEngine
-    ActiveDesigntime = True
     Transport = TCP
     Left = 80
     Top = 32
   end
   object TCP: TnxWinsockTransport
     DisplayCategory = 'Transports'
-    ActiveDesigntime = True
     Timeout = 120000
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
@@ -21,7 +19,6 @@ object dmNexApp: TdmNexApp
     Top = 40
   end
   object Session: TnxSession
-    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     BeepOnLoginError = False
@@ -217,7 +214,6 @@ object dmNexApp: TdmNexApp
     end
   end
   object DB: TnxDatabase
-    ActiveDesigntime = True
     Session = Session
     Timeout = 120000
     AliasName = 'NexCafe'
@@ -1299,10 +1295,6 @@ object dmNexApp: TdmNexApp
     object tOrcValUTempo: TByteField
       FieldName = 'ValUTempo'
     end
-    object tOrcNomeCliente: TWideStringField
-      FieldName = 'NomeCliente'
-      Size = 50
-    end
     object tOrcObs: TnxMemoField
       FieldName = 'Obs'
       BlobType = ftMemo
@@ -1314,6 +1306,16 @@ object dmNexApp: TdmNexApp
       LookupKeyFields = 'Username'
       LookupResultField = 'Nome'
       KeyFields = 'Func'
+      Size = 50
+      Lookup = True
+    end
+    object tOrcNomeCliente: TWideStringField
+      FieldKind = fkLookup
+      FieldName = 'NomeCliente'
+      LookupDataSet = tCli
+      LookupKeyFields = 'ID'
+      LookupResultField = 'Nome'
+      KeyFields = 'Cliente'
       Size = 50
       Lookup = True
     end

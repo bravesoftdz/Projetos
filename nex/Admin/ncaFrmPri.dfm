@@ -427,10 +427,10 @@ object FrmPri: TFrmPri
             end
           end
           object dpRevisarProduto: TdxDockPanel
-            Left = 0
+            Left = 568
             Top = 0
             Width = 252
-            Height = 0
+            Height = 140
             Font.Charset = DEFAULT_CHARSET
             Font.Color = clBlack
             Font.Height = -13
@@ -521,6 +521,8 @@ object FrmPri: TFrmPri
       ImageIndex = 1
       ParentColor = False
       ParentFont = False
+      ExplicitWidth = 0
+      ExplicitHeight = 0
     end
   end
   object BarMgr: TdxBarManager

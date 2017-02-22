@@ -535,6 +535,9 @@ begin
   cmObs.Down := Boolean(StrToIntDef(slCOnfig.Values['fbProdutos.btnObs.Down'], 1));
   FAtualizando := False;
   TVProd.Preview.Visible := cmObs.Down;
+
+  TcxCurrencyEditProperties(TVProdPreco.Properties).DisplayFormat := gConfig.cxMaskUnitario;
+  TcxCurrencyEditProperties(TVProdCustoUnitario.Properties).DisplayFormat := gConfig.cxMaskUnitario;
 end;
 
 procedure TfbProdutos.Image1Click(Sender: TObject);

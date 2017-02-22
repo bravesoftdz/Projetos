@@ -339,6 +339,7 @@ object FrmProduto: TFrmProduto
               DataBinding.DataField = 'Preco'
               DataBinding.DataSource = dsMT
               ParentFont = False
+              Properties.DecimalPlaces = 10
               Properties.OnChange = edPrecoPropertiesChange
               Properties.OnEditValueChanged = edPrecoPropertiesEditValueChanged
               Style.Font.Charset = ANSI_CHARSET
@@ -359,6 +360,7 @@ object FrmProduto: TFrmProduto
               DataBinding.DataField = 'CustoUnitario'
               DataBinding.DataSource = dsMT
               ParentFont = False
+              Properties.DecimalPlaces = 10
               Properties.OnChange = edCustoPropertiesChange
               Properties.OnEditValueChanged = edCustoPropertiesEditValueChanged
               Style.StyleController = escFlat

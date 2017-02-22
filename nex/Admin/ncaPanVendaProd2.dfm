@@ -3,8 +3,8 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
   ClientHeight = 413
   ClientWidth = 1020
   OnResize = FormResize
-  ExplicitWidth = 1028
-  ExplicitHeight = 444
+  ExplicitWidth = 1036
+  ExplicitHeight = 452
   PixelsPerInch = 96
   TextHeight = 13
   inherited panVendaProd: TLMDSimplePanel
@@ -108,7 +108,6 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
                 Align = alClient
                 OnFocusChanged = edQtdFocusChanged
                 EditValue = 1.000000000000000000
-                ImeName = 'g'
                 ParentFont = False
                 Properties.AssignedValues.DisplayFormat = True
                 Properties.AssignedValues.EditFormat = True
@@ -532,6 +531,7 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
                 Enabled = False
                 ParentFont = False
                 Properties.Alignment.Horz = taLeftJustify
+                Properties.DecimalPlaces = 10
                 Properties.OnChange = edUnitPropertiesChange
                 Properties.OnEditValueChanged = edUnitPropertiesEditValueChanged
                 Style.BorderStyle = ebsFlat

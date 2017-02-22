@@ -401,7 +401,7 @@ end;
 
 procedure TFrmPanVendaProd2.CalcTotal;
 begin
-  Total := FUnitario * FQuant;
+  Total := DuasCasas(FUnitario * FQuant);
 end;
 
 function TFrmPanVendaProd2.CanCloseForm: Boolean;
@@ -801,6 +801,7 @@ begin
   FIDProdPopped := -1;
   FCodRepetido := False;
   FCodStr := '';
+  edUnit.Properties.DisplayFormat := gConfig.cxMaskUnitario;
 end;
 
 procedure TFrmPanVendaProd2.FormResize(Sender: TObject);

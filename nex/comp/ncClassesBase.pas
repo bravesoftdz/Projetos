@@ -853,6 +853,8 @@ type
 
     procedure ApplyFmtMoeda;
 
+    function cxMaskUnitario: String;
+
     property slFlags: TStrings
       read FslFlags;
 
@@ -3502,6 +3504,35 @@ begin
   FBanners               := '';
   FRecursos              := '';
   FConfirmarDebito       := True;
+end;
+
+function TncConfig.cxMaskUnitario: String;
+var 
+  S: String;
+  D: Byte;
+  M: String;
+  F: TFormatSettings;
+
+function zeros: string;
+begin 
+  Result := '';
+  while (Length(Result)<Self.Ffmt_decimais) do Result := Result + '0';
+end;
+  
+begin
+  S := '';
+  if Ffmt_moeda then begin
+    D := FFmt_decimais;
+    M := FFmt_SimbMoeda;
+  end else begin
+    F := TFormatSettings.Create;
+    D := F.CurrencyDecimals;
+    M := F.CurrencyString;
+  end;
+  
+  while Length(S)<Ffmt_decimais do S := S + '0';
+  while Length(S)<10 do S := S + '#';
+  Result := M+' ,0.'+S+';-'+M+' ,0.'+S;
 end;
 
 function TncConfig.DadosMinOk(T: TDataset): Boolean;
