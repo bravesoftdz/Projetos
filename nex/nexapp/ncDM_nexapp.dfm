@@ -5,12 +5,14 @@ object dmNexApp: TdmNexApp
   Height = 316
   Width = 424
   object RSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = TCP
     Left = 80
     Top = 32
   end
   object TCP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     Timeout = 120000
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
@@ -19,6 +21,7 @@ object dmNexApp: TdmNexApp
     Top = 40
   end
   object Session: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     BeepOnLoginError = False
@@ -214,6 +217,7 @@ object dmNexApp: TdmNexApp
     end
   end
   object DB: TnxDatabase
+    ActiveDesigntime = True
     Session = Session
     Timeout = 120000
     AliasName = 'NexCafe'
@@ -1221,6 +1225,143 @@ object dmNexApp: TdmNexApp
       FieldKind = fkCalculated
       FieldName = 'CalcCustoU'
       Calculated = True
+    end
+  end
+  object tOrc: TnxTable
+    Database = DB
+    TableName = 'Orcamento'
+    Left = 360
+    Top = 72
+    object tOrcUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tOrcIDSeq: TUnsignedAutoIncField
+      FieldName = 'IDSeq'
+    end
+    object tOrcRecVer: TLongWordField
+      FieldName = 'RecVer'
+    end
+    object tOrcCriadoEm: TDateTimeField
+      FieldName = 'CriadoEm'
+    end
+    object tOrcStatus: TByteField
+      FieldName = 'Status'
+    end
+    object tOrcAtualizadoEm: TDateTimeField
+      FieldName = 'AtualizadoEm'
+    end
+    object tOrcAprovadoEm: TDateTimeField
+      FieldName = 'AprovadoEm'
+    end
+    object tOrcRecusadoEm: TDateTimeField
+      FieldName = 'RecusadoEm'
+    end
+    object tOrcVendidoEm: TDateTimeField
+      FieldName = 'VendidoEm'
+    end
+    object tOrcExpiradoEm: TDateTimeField
+      FieldName = 'ExpiradoEm'
+    end
+    object tOrcStatusAlteradoEm: TDateTimeField
+      FieldName = 'StatusAlteradoEm'
+    end
+    object tOrcFunc: TStringField
+      FieldName = 'Func'
+    end
+    object tOrcIDVenda: TLongWordField
+      FieldName = 'IDVenda'
+    end
+    object tOrcCliente: TLongWordField
+      FieldName = 'Cliente'
+    end
+    object tOrcTotal: TCurrencyField
+      FieldName = 'Total'
+    end
+    object tOrcDesconto: TCurrencyField
+      FieldName = 'Desconto'
+    end
+    object tOrcTotalFinal: TCurrencyField
+      FieldName = 'TotalFinal'
+    end
+    object tOrcVendido: TBooleanField
+      FieldName = 'Vendido'
+    end
+    object tOrcValData: TDateTimeField
+      FieldName = 'ValData'
+    end
+    object tOrcValModo: TByteField
+      FieldName = 'ValModo'
+    end
+    object tOrcValTempo: TWordField
+      FieldName = 'ValTempo'
+    end
+    object tOrcValUTempo: TByteField
+      FieldName = 'ValUTempo'
+    end
+    object tOrcNomeCliente: TWideStringField
+      FieldName = 'NomeCliente'
+      Size = 50
+    end
+    object tOrcObs: TnxMemoField
+      FieldName = 'Obs'
+      BlobType = ftMemo
+    end
+    object tOrcNomeFunc: TStringField
+      FieldKind = fkLookup
+      FieldName = 'NomeFunc'
+      LookupDataSet = tUsuarios
+      LookupKeyFields = 'Username'
+      LookupResultField = 'Nome'
+      KeyFields = 'Func'
+      Size = 50
+      Lookup = True
+    end
+  end
+  object tIOrc: TnxTable
+    Database = DB
+    TableName = 'IOrcamento'
+    IndexName = 'IOrcamento_UID'
+    Left = 360
+    Top = 120
+    object tIOrcID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tIOrcOrcamento_UID: TGuidField
+      FieldName = 'Orcamento_UID'
+      Size = 38
+    end
+    object tIOrcUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tIOrcItem: TWordField
+      FieldName = 'Item'
+    end
+    object tIOrcProduto: TLongWordField
+      FieldName = 'Produto'
+    end
+    object tIOrcDescr: TnxMemoField
+      FieldName = 'Descr'
+      BlobType = ftMemo
+    end
+    object tIOrcUnitario: TCurrencyField
+      FieldName = 'Unitario'
+    end
+    object tIOrcQuant: TFloatField
+      FieldName = 'Quant'
+    end
+    object tIOrcTotal: TCurrencyField
+      FieldName = 'Total'
+    end
+    object tIOrcDesconto: TCurrencyField
+      FieldName = 'Desconto'
+    end
+    object tIOrcTotalFinal: TCurrencyField
+      FieldName = 'TotalFinal'
+    end
+    object tIOrcRecVer: TLongWordField
+      FieldName = 'RecVer'
     end
   end
 end

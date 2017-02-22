@@ -466,7 +466,8 @@ begin
   FCS.Enter;
   try
     DebugMsg(Self, 'Refresh: gBK_enviar: '+gBK_Enviar.ToString+' - ServidorAtivo: '+ServidorAtivo.ToString+' - IDLoja: '+RegistroGlobal.IDLoja.ToString+' - Tipo Licença: '+Byte(RegistroGlobal.Tipo).ToString);
-    B := gBK_enviar and (RegistroGlobal.IDLoja>0) and ServidorAtivo and (RegistroGlobal.Tipo in [tcFreePremium, tcFreePro]);
+    B := False;    
+//    B := gBK_enviar and (RegistroGlobal.IDLoja>0) and ServidorAtivo and (RegistroGlobal.Tipo in [tcFreePremium, tcFreePro]);
     if B then begin
       if (not Assigned(gThread_bk_upload)) then 
          gThread_bk_process := TThread_bk_process.Create;

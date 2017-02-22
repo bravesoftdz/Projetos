@@ -1,5 +1,6 @@
 program NexAdmin_Loja;
 
+
 uses
   LMDPngImage,
   ncaCurrFormat in 'ncaCurrFormat.pas',
