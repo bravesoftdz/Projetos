@@ -1363,51 +1363,81 @@ var
 begin
   Result := 0;
 
+  //se achou o produto pela id, joga true na variavel
   AchouProd := tProduto.FindKey([aProduto]);
 
+  //se variavel igual a true, verifica se produto controla estoque ou nao,
+  //e joga true ou false para variavel de controle de mov. estoque
   if AchouProd then
     vNaoControla := tProdutoNaoControlaEstoque.Value else
     vNaoControla := null;
 
+  //If aExclui (passada pelo parametro da funcao for true
+  //retorna valor de um pedido cancelado para variavel aPend, senao
+  //aPend recebe 0;
   if aExcluiu then
     aPend := QuantPend(aProduto, aID) else
     aPend := QuantPend(aProduto, 0);
 
-  if aDH>0 then 
+  //se a variavel aDH (daa e hora) passada por parametro for maior que 0,
+  //inicia movimentacao de estoque do produto passado por parametro.
+  if aDH>0 then
   begin
     tAuxME.IndexName := 'IProduto';
+    //variavel saldo armazena o saldo passado por parametro.
     aSaldo := aSaldoInicial;
     try
+      //passa valores de um intervalo para tAuxMe
       tAuxME.SetRange([aProduto, aDH, Succ(aID)], [aProduto, MaxDateTime]);
+      //se o retorno nao for vazio, entra no loop ate ultimo registro.
       while not tAuxME.Eof do begin
+        //habilita modo de edicao de tAuxMe
         tAuxME.Edit;
-        if vNaoControla=null then vNaoControla := tAuxMENaoControlaEstoque.Value;
+        //if variavel esta nula, alimenta variavel com o o tipo de controle do
+        //estoque do produto que esta sendo movimentado o estoque
+        if vNaoControla=null then
+          vNaoControla := tAuxMENaoControlaEstoque.Value;
         tAuxMENaoControlaEstoque.Value := vNaoControla;
         tAuxMEEstoqueAnt.Value := aSaldo;
+        //grava movimentacao do estoque em tAuxME
         tAuxME.Post;
-  
+
+        //variavel a Saldo recebe o ultimo saldo de estoque
         aSaldo := tAuxMESaldoPost.Value;
-          
+
         tAuxME.Next;
       end;
 
     finally
       tAuxME.CancelRange;
     end;
-  end else begin
+  end
+  else
+  begin
+    //se nao entrou na condicao da variavel aDH>0
+    //verifica se existe produto e nao mocimenta o estoque, se condicao for valida
+    //aSaldo recebe 0 Senao aSaldo recebe o ultimo saldo de estoque do produto
     if AchouProd and tProdutoNaoControlaEstoque.Value then
       aSaldo := 0 else
       aSaldo := UltimoSaldo(aProduto);
-  end;  
-  
-  if AchouProd then begin
+  end;
+
+  //Se achou o produto
+  if AchouProd then
+  begin
+    //Habilita edicao de tProduto
     tProduto.Edit;
+    //Estoque pendente a ser movimento recebe valor
     tProdutoEstoquePend.Value := aPend;
+    //se o produto nao controla o estoque for verdadeiro
+    //nao movimenta o estoque, senao pega o aSaldo e desconta aPend
     if tProdutoNaoControlaEstoque.Value then
-      tProdutoEstoqueAtual.Clear else 
+      tProdutoEstoqueAtual.Clear else
       tProdutoEstoqueAtual.Value := aSaldo - aPend;
+    //grava edicao
     tProduto.Post;
   end;
+  //retorna saldo atualizado do produto
   Result := aSaldo-aPend;
 end;
 

@@ -747,15 +747,12 @@
             <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="C:\Comp\NexusDB4\nxsrServerEngine.pas"/>
         <DCCReference Include="..\nexapp\ncDM_post_nexapp.pas">
             <Form>dm_post_nexapp</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="..\nexapp\ncDM_nexapp.pas">
             <Form>dmNexApp</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
         <DCCReference Include="..\..\utils\uNxCompression.pas"/>

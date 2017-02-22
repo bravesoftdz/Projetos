@@ -108,7 +108,7 @@ uses
   ncEndereco in '..\comp\ncEndereco.pas',
   ncTipoTran in '..\comp\ncTipoTran.pas',
   ncDMdanfe_nfe in '..\comp\ncDMdanfe_nfe.pas' {dmDanfe_nfe: TDataModule},
-  nxsrServerEngine in 'C:\Comp\NexusDB4\nxsrServerEngine.pas',
+  nxsrServerEngine,
   ncDM_post_nexapp in '..\nexapp\ncDM_post_nexapp.pas' {dm_post_nexapp: TDataModule},
   ncDM_nexapp in '..\nexapp\ncDM_nexapp.pas' {dmNexApp: TDataModule},
   uNxCompression in '..\..\utils\uNxCompression.pas';
