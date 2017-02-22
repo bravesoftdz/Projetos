@@ -1364,6 +1364,8 @@ begin
   Result := 0;
 
   //se achou o produto pela id, joga true na variavel
+  //comentário que não serve pra nada so pra salvar no GIT
+
   AchouProd := tProduto.FindKey([aProduto]);
 
   //se variavel igual a true, verifica se produto controla estoque ou nao,
