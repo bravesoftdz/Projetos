@@ -349,6 +349,45 @@ type
     tProdShopCode: TLongWordField;
     tCardcard_array: TByteField;
     tPostcard_array: TByteField;
+    tOrc: TnxTable;
+    tIOrc: TnxTable;
+    tOrcUID: TGuidField;
+    tOrcIDSeq: TUnsignedAutoIncField;
+    tOrcRecVer: TLongWordField;
+    tOrcCriadoEm: TDateTimeField;
+    tOrcStatus: TByteField;
+    tOrcAtualizadoEm: TDateTimeField;
+    tOrcAprovadoEm: TDateTimeField;
+    tOrcRecusadoEm: TDateTimeField;
+    tOrcVendidoEm: TDateTimeField;
+    tOrcExpiradoEm: TDateTimeField;
+    tOrcStatusAlteradoEm: TDateTimeField;
+    tOrcFunc: TStringField;
+    tOrcIDVenda: TLongWordField;
+    tOrcCliente: TLongWordField;
+    tOrcTotal: TCurrencyField;
+    tOrcDesconto: TCurrencyField;
+    tOrcTotalFinal: TCurrencyField;
+    tOrcVendido: TBooleanField;
+    tOrcValData: TDateTimeField;
+    tOrcValModo: TByteField;
+    tOrcValTempo: TWordField;
+    tOrcValUTempo: TByteField;
+    tOrcObs: TnxMemoField;
+    tIOrcID: TUnsignedAutoIncField;
+    tIOrcOrcamento_UID: TGuidField;
+    tIOrcUID: TGuidField;
+    tIOrcItem: TWordField;
+    tIOrcProduto: TLongWordField;
+    tIOrcDescr: TnxMemoField;
+    tIOrcUnitario: TCurrencyField;
+    tIOrcQuant: TFloatField;
+    tIOrcTotal: TCurrencyField;
+    tIOrcDesconto: TCurrencyField;
+    tIOrcTotalFinal: TCurrencyField;
+    tIOrcRecVer: TLongWordField;
+    tOrcNomeCliente: TWideStringField;
+    tOrcNomeFunc: TStringField;
     procedure DataModuleCreate(Sender: TObject);
     procedure tPagEspCalcFields(DataSet: TDataSet);
     procedure DataModuleDestroy(Sender: TObject);
@@ -360,6 +399,7 @@ type
     FShopCode : Cardinal;
     FTerm  : TTerminateEvent;
     fmTran : TStrings;
+    fmDev  : TStrings;
     fmProd : TStrings;
     fmLastBuy: TStrings;
     fmForn : TStrings;
@@ -368,12 +408,18 @@ type
     fmCaixa : TStrings;
     fmAberturaCx : TStrings;
     fmEstoque : TStrings;
+
+    fmOrc : TStrings;
+    fmItensOrc : TStrings;
+    
     FPrimeiraCarga : Boolean;
     { Private declarations }
     function ArrayItens: TJsonArray;
     function ArrayPagto: TJsonArray;
     function ArrayFornecedores: TJsonArray;
+    function ArrayItensOrc: TJsonArray;
     function Create_json_venda: String;
+    function Create_json_orcamento: String;
     function Create_json_caixa(aAbertura: Boolean): String;
     function Create_json_estoque: String;
     function Create_json_produto: String;
@@ -496,6 +542,31 @@ begin
     end;
 end;
 
+function TdmNexApp.ArrayItensOrc: TJsonArray;
+var J : TJsonObject;
+begin
+    Result := TJsonArray.Create;
+    try
+      tIOrc.SetRange([tOrcUID.Value], [tOrcUID.Value]);
+      try
+        tIOrc.First;
+        while not tIOrc.Eof do begin
+          J := TJsonObject.Create;
+          tIOrc.Fields.ToJson(J, fmItensOrc);
+          Result.Add(J);
+          tIOrc.Next;
+        end;
+      finally
+        tIOrc.CancelRange;
+      end;
+    except
+      on E: Exception do begin
+        Result.Free;
+        Raise;
+      end;
+    end;
+end;
+
 function TdmNexApp.ArrayPagto: TJsonArray;
 var J : TJsonObject;
 begin
@@ -600,6 +671,42 @@ begin
   end;
 end;
 
+function TdmNexApp.Create_json_orcamento: String;
+var 
+  jInfo, jCard : TJsonObject;
+begin
+  mtCard.Active := False;
+  mtCard.Active := True;
+  mtCard.Append;
+  mtCardIdRef.Value := tOrcIDSeq.Value;
+  mtCardCreationDate.Value := tCardcreated_on.Value;
+  mtCardEventDate.Value := tOrcAtualizadoEm.Value;
+  mtCardCode.Value := tCardcard_id.Value;
+  mtCardShopCode.Value := RegistroGlobal.IDLoja;
+  mtCardType.Value := card_type_orcamento;
+  mtCard.Post;
+
+  jCard := TJsonObject.Create;
+  try
+    mtCard.Fields.ToJson(jCard);
+    jInfo := TJsonObject.Create;
+    try
+      tOrc.Fields.ToJson(jInfo, fmOrc);
+      jInfo.addPair(TJsonPair.Create('Items', ArrayItensOrc));
+      jCard.addPair(tJsonPair.Create('Info', jInfo));
+    except
+      on E: Exception do begin
+        jInfo.Free;
+        raise;
+      end;
+    end;
+    Result := jCard.ToJSon;
+    DebugMsg(Self, 'Create_json_orcamento'+sLineBreak+Result);
+  finally
+    jCard.Free;
+  end;
+end;
+
 function TdmNexApp.Create_json_produto: String;
 var 
   J: TJsonObject;
@@ -630,7 +737,10 @@ begin
   mtCardEventDate.Value := tTranDataHora.Value;
   mtCardCode.Value := tCardcard_id.Value;
   mtCardShopCode.Value := RegistroGlobal.IDLoja;
-  mtCardType.Value := card_type_venda;
+
+  if tTranTipo.Value=trEstVenda then
+    mtCardType.Value := card_type_venda else
+    mtCardType.Value := card_type_devolucao;
   mtCard.Post;
 
   jCard := TJsonObject.Create;
@@ -638,7 +748,9 @@ begin
     mtCard.Fields.ToJson(jCard);
     jInfo := TJsonObject.Create;
     try
-      tTran.Fields.ToJson(jInfo, fmTran);
+      if tTranTipo.Value=trEstVenda then
+        tTran.Fields.ToJson(jInfo, fmTran) else
+        tTran.Fields.ToJson(jInfo, fmDev);
       jInfo.addPair(TJsonPair.Create('Items', ArrayItens));
       jInfo.addPair(TJsonPair.Create('Payments', ArrayPagto));
       jCard.addPair(tJsonPair.Create('Info', jInfo));
@@ -649,7 +761,7 @@ begin
       end;
     end;
     Result := jCard.ToJSon;
-    DebugMsg(Self, 'Create_json_venda'+sLineBreak+Result);
+    DebugMsg(Self, 'Create_json_venda_dev'+sLineBreak+Result);
   finally
     jCard.Free;
   end;
@@ -701,6 +813,16 @@ begin
   fmTran.Add('Cancelado=Cancelled');
   fmTran.Add('Obs=Comment');
 
+  fmDev := TStringList.Create;
+  fmDev.Add('DataHora=returnDate');
+  fmDev.Add('Cliente=CustomerCode');
+  fmDev.Add('NomeCliente=CustomerName');
+  fmDev.Add('Func=UserCode');
+  fmDev.Add('FuncName=UserName');
+  fmDev.Add('TotalFinal=Total');
+  fmDev.Add('Cancelado=Cancelled');
+  fmDev.Add('Obs=Comment');  
+
   fmPagto := TStringList.Create;
   fmPagto.Add('ImgEsp=PaymentCode');
   fmPagto.Add('Nome=PaymentDescription');
@@ -744,10 +866,34 @@ begin
   fmEstoque.Add('NomeFornecedor=ProviderName');
   fmEstoque.Add('EmailFornecedor=ProviderEmail');
   fmEstoque.Add('TelFornecedor=ProviderPhone');
+
+  fmOrc := TStringList.Create;
+  fmOrc.Add('CriadoEm=CreatedOn');
+  fmOrc.Add('AtualizadoEm=UpdatedOn');
+  fmOrc.Add('Cliente=CustomerCode');
+  fmOrc.Add('NomeCliente=CustomerName');
+  fmOrc.Add('Func=VendorCode');
+  fmOrc.Add('NomeFunc=VendorName');
+  fmOrc.Add('TotFinal=TotalNet');
+  fmOrc.Add('Total=TotalGross');
+  fmOrc.Add('Desconto=Discount');  
+  fmOrc.Add('Status=Status');
+  fmOrc.Add('ValData=ExpDate');
+  fmOrc.Add('Obs=Comment');
+
+  fmItensOrc := TStringList.Create;
+  fmItensOrc.Add('Produto=ProductCode');
+  fmItensOrc.Add('Descr=ProductName');
+  fmItensOrc.Add('Quant=Quantity');
+  fmItensOrc.Add('Unitario=UnitValue');
+  fmItensOrc.Add('TotalFinal=TotalValue');  
 end;
 
 procedure TdmNexApp.DataModuleDestroy(Sender: TObject);
 begin
+  fmOrc.Free;
+  fmOrcItens.Free;
+  fmDev.Free;
   fmProd.Free;
   fmLastBuy.Free;
   fmForn.Free;
@@ -774,6 +920,8 @@ begin
   tProd.Open;
   tCaixa.Open;
   tProdFor.Open;
+  tOrc.Open;
+  tIOrc.Open;
 end;
 
 procedure TdmNexApp.PrimeiraCarga;
@@ -806,10 +954,62 @@ begin
       Inc(T);
       sleep(0);
     end;
-    DebugMsg('TdmNexApp.PrimeiraCarga - Tabela TRAN - ' + IntToStr(T) + ' itens - Tempo: '+IntToStr(GetTickCount-C)+'ms');
+    DebugMsg('TdmNexApp.PrimeiraCarga - Tabela TRAN/Venda - ' + IntToStr(T) + ' itens - Tempo: '+IntToStr(GetTickCount-C)+'ms');
   finally
     tTran.CancelRange;
   end;
+
+  tCard.IndexName := 'I_type_id_ref_status';                                    
+  tCard.SetRange([card_type_devolucao], [card_type_devolucao]);
+  tCard.Last;
+  tTran.IndexName := 'ITipoID';
+  tTran.SetRange([trEstDevolucao, tCardid_ref.Value+1], [trEstDevolucao, High(Integer)]);
+  try
+    tTran.First;
+    T := 0;
+    while (not tTran.Eof) and (not _Term) do begin
+      tCard.Append;
+      tCardcreated_on.Value := Now;
+      tCardtype.Value := card_type_devolucao;
+      tCardid_ref.Value := tTranID.Value;
+      tCardstatus.Value := card_status_criar_json;
+      tCardmethod.value := http_method_post;
+      tCard.Post;
+      
+      tTran.Next;
+      Inc(T);
+      sleep(0);
+    end;
+    DebugMsg('TdmNexApp.PrimeiraCarga - Tabela TRAN/Devolucao - ' + IntToStr(T) + ' itens - Tempo: '+IntToStr(GetTickCount-C)+'ms');
+  finally
+    tTran.CancelRange;
+  end;  
+
+  tCard.IndexName := 'I_type_id_ref_status';                                    
+  tCard.SetRange([card_type_orcamento], [card_type_orcamento]);
+  tCard.Last;
+  
+  tOrc.IndexName := 'IIDSeq';
+  tOrc.SetRange([tCardid_ref.Value+1], [High(Integer)]);
+  try
+    tTran.First;
+    T := 0;
+    while (not tOrc.Eof) and (not _Term) do begin
+      tCard.Append;
+      tCardcreated_on.Value := Now;
+      tCardtype.Value := card_type_orcamento;
+      tCardid_ref.Value := tOrcIDSeq.Value;
+      tCardstatus.Value := card_status_criar_json;
+      tCardmethod.value := http_method_post;
+      tCard.Post;
+      tOrc.Next;
+      Inc(T);
+      sleep(0);
+    end;
+    DebugMsg('TdmNexApp.PrimeiraCarga - Tabela Orcamento - ' + IntToStr(T) + ' itens - Tempo: '+IntToStr(GetTickCount-C)+'ms');
+  finally
+    tOrc.CancelRange;
+  end;  
 
   tCard.SetRange([card_type_caixa], [card_type_caixa]);
   tCard.Last;
@@ -961,6 +1161,7 @@ begin
   tCard.IndexName := 'I_status_method_card_id';
   DebugMsg('TdmNexApp.processa_criar_json');
   tTran.IndexName := 'IID';
+  tOrc.IndexName := 'IIDSeq';
   tCaixa.IndexName := 'IID';
   tProd.IndexName := 'IID';
   while (not _Term) and tCard.FindKey([card_status_criar_json]) do begin
@@ -974,6 +1175,8 @@ begin
       end;
       
       card_type_venda : if tTran.FindKey([tCardid_ref.Value]) then tCardjson.Value := Self.Create_json_venda;
+
+      card_type_orcamento : if tOrc.FindKey([tCardid_ref.Value]) then tCardjson.Value := Self.Create_json_orcamento;
 
       card_type_produto : if tProd.Locate('ID', tCardid_ref.Value, []) then tCardjson.Value := Self.Create_json_produto;
 

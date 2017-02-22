@@ -112,6 +112,8 @@ const
   card_type_faturamento = 3;
   card_type_aberturacx  = 4;
   card_type_produto     = 5;
+  card_type_orcamento   = 6;
+  card_type_devolucao   = 7;
   card_type_resync      = 255;
 
   card_array_cards      = 0;
