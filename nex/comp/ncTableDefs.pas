@@ -1679,6 +1679,30 @@ begin
               UseStringSort := True;
             end;
           end;
+
+        with AddIndex('IFornecedorCPF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Fornecedor'));        
+          with Add(GetFieldFromName('CPF'), TnxExtTextKeyFieldDescriptor) as TnxExtTextKeyFieldDescriptor do begin
+            IgnoreCase := True;
+            with AddLocaleDescriptor do begin
+              Locale := $00000416; { Portuguese }
+              Flags := $00001000;
+              UseStringSort := True;
+            end;
+          end;
+        end;
+
+        with AddIndex('IFornecedorRg', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Fornecedor'));        
+          with Add(GetFieldFromName('Rg'), TnxExtTextKeyFieldDescriptor) as TnxExtTextKeyFieldDescriptor do begin
+            IgnoreCase := True;
+            with AddLocaleDescriptor do begin
+              Locale := $00000416; { Portuguese }
+              Flags := $00001000;
+              UseStringSort := True;
+            end;
+          end;        
+        end;
                     
         with AddIndex('IDebito', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('TemDebito'));

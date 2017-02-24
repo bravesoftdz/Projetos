@@ -5,7 +5,7 @@ object FrmPri: TFrmPri
   VertScrollBar.Visible = False
   Caption = 'NEX Admin'
   ClientHeight = 614
-  ClientWidth = 1020
+  ClientWidth = 958
   Color = 16118503
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -17,6 +17,7 @@ object FrmPri: TFrmPri
   Position = poDesigned
   Scaled = False
   ShowHint = True
+  WindowState = wsMaximized
   OnClose = FormClose
   OnCreate = FormCreate
   OnDestroy = FormDestroy
@@ -26,53 +27,46 @@ object FrmPri: TFrmPri
   OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 16
-  object pgMaq: TcxPageControl
+  object panPriMaster: TLMDSimplePanel
     Left = 0
     Top = 0
-    Width = 1020
+    Width = 958
     Height = 614
+    Hint = ''
     Margins.Left = 5
     Margins.Top = 5
     Margins.Right = 5
     Margins.Bottom = 5
     Align = alClient
+    Bevel.Mode = bmCustom
     Color = clWindowFrame
     Font.Charset = ANSI_CHARSET
     Font.Color = 7895160
     Font.Height = -13
     Font.Name = 'Segoe UI'
     Font.Style = []
-    ParentBackground = False
-    ParentColor = False
     ParentFont = False
     TabOrder = 0
-    Properties.ActivePage = tsNexAdmin
-    Properties.CustomButtons.Buttons = <>
-    Properties.HideTabs = True
-    Properties.HotTrack = True
-    Properties.Options = [pcoAlwaysShowGoDialogButton, pcoCloseButton, pcoFixedTabWidthWhenRotated, pcoGoDialog, pcoGradient, pcoGradientClientArea, pcoRedrawOnResize]
-    Properties.Style = 9
-    Properties.TabSlants.Positions = [spLeft, spRight]
-    Properties.TabWidth = 175
-    LookAndFeel.Kind = lfFlat
-    LookAndFeel.NativeStyle = False
-    TabSlants.Positions = [spLeft, spRight]
-    OnCanClose = pgMaqCanClose
-    ClientRectBottom = 614
-    ClientRectRight = 1020
-    ClientRectTop = 0
-    object tsNexAdmin: TcxTabSheet
-      Caption = 'Gerenciador'
-      Color = clBtnFace
-      ImageIndex = 0
-      ParentColor = False
+    object panPri: TLMDSimplePanel
+      Left = 0
+      Top = 0
+      Width = 958
+      Height = 614
+      Hint = ''
+      Margins.Left = 0
+      Margins.Top = 0
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Align = alClient
+      Bevel.Mode = bmCustom
+      TabOrder = 0
       DesignSize = (
-        1020
+        958
         614)
       object dsPri: TdxDockSite
         Left = 91
         Top = 33
-        Width = 929
+        Width = 867
         Height = 581
         Margins.Left = 5
         Margins.Top = 5
@@ -80,404 +74,339 @@ object FrmPri: TFrmPri
         Margins.Bottom = 5
         Color = clBtnFace
         ManagerColor = False
+        Visible = False
         Align = alClient
         DockingType = 5
-        OriginalWidth = 929
+        OriginalWidth = 867
         OriginalHeight = 581
-        object dxLayoutDockSite1: TdxLayoutDockSite
-          Left = 109
+        object dxLayoutDockSite4: TdxLayoutDockSite
+          Left = 0
           Top = 0
-          Width = 796
+          Width = 843
           Height = 581
-          Color = clBtnFace
-          ManagerColor = False
-          ParentShowHint = False
-          ShowHint = False
           DockingType = 0
           OriginalWidth = 300
           OriginalHeight = 200
-          object dxLayoutDockSite4: TdxLayoutDockSite
+          object dxLayoutDockSite2: TdxLayoutDockSite
             Left = 0
             Top = 0
-            Width = 796
+            Width = 843
             Height = 581
             DockingType = 0
             OriginalWidth = 300
             OriginalHeight = 200
-            object dxLayoutDockSite3: TdxLayoutDockSite
+          end
+          object dpPaginas: TdxDockPanel
+            Left = 0
+            Top = 0
+            Width = 843
+            Height = 581
+            Color = clBtnFace
+            ManagerColor = False
+            AllowDock = [dtClient]
+            AllowDockClients = []
+            AllowFloating = False
+            AutoHide = False
+            Caption = 'P'#225'ginas'
+            CaptionButtons = []
+            CustomCaptionButtons.Buttons = <>
+            ShowCaption = False
+            TabsProperties.CustomButtons.Buttons = <>
+            DockingType = 0
+            OriginalWidth = 185
+            OriginalHeight = 140
+            object btnChat: TLMDSpeedButton
+              Left = 78
+              Top = 362
+              Width = 60
+              Height = 24
+              Caption = 'CHAT'
+              Color = clYellow
+              ParentFont = False
+              AutoSize = False
+              ButtonLayout.Spacing = 0
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -12
+              Font.Name = 'Tahoma'
+              Font.Style = [fsBold]
+              ButtonStyle = ubsFlat
+            end
+            object Paginas: TcxPageControl
               Left = 0
               Top = 0
-              Width = 472
-              Height = 581
-              DockingType = 0
-              OriginalWidth = 300
-              OriginalHeight = 200
-              object dxLayoutDockSite2: TdxLayoutDockSite
-                Left = 0
-                Top = 0
-                Width = 472
-                Height = 581
-                DockingType = 0
-                OriginalWidth = 300
-                OriginalHeight = 200
-              end
-              object dpPaginas: TdxDockPanel
-                Left = 0
-                Top = 0
-                Width = 472
-                Height = 581
-                Color = clBtnFace
-                ManagerColor = False
-                AllowDock = [dtClient]
-                AllowDockClients = []
-                AllowFloating = False
-                AutoHide = False
-                Caption = 'P'#225'ginas'
-                CaptionButtons = []
-                CustomCaptionButtons.Buttons = <>
-                ShowCaption = False
-                TabsProperties.CustomButtons.Buttons = <>
-                DockingType = 0
-                OriginalWidth = 185
-                OriginalHeight = 140
-                object btnChat: TLMDSpeedButton
-                  Left = 78
-                  Top = 362
-                  Width = 60
-                  Height = 24
-                  Caption = 'CHAT'
-                  Color = clYellow
-                  ParentFont = False
-                  AutoSize = False
-                  ButtonLayout.Spacing = 0
-                  Font.Charset = DEFAULT_CHARSET
-                  Font.Color = clBlack
-                  Font.Height = -12
-                  Font.Name = 'Tahoma'
-                  Font.Style = [fsBold]
-                  ButtonStyle = ubsFlat
-                end
-                object Paginas: TcxPageControl
-                  Left = 0
-                  Top = 0
-                  Width = 468
-                  Height = 577
-                  Align = alClient
-                  Color = clBtnFace
-                  ParentBackground = False
-                  ParentColor = False
-                  TabOrder = 0
-                  Properties.CustomButtons.Buttons = <>
-                  Properties.HideTabs = True
-                  Properties.HotTrack = True
-                  Properties.Style = 5
-                  LookAndFeel.Kind = lfStandard
-                  LookAndFeel.NativeStyle = False
-                  ClientRectBottom = 577
-                  ClientRectRight = 468
-                  ClientRectTop = 0
-                end
-                object panPlanos: TLMDSimplePanel
-                  Left = 4
-                  Top = 280
-                  Width = 346
-                  Height = 33
-                  Hint = ''
-                  AutoSize = True
-                  Bevel.Mode = bmCustom
-                  Font.Charset = ANSI_CHARSET
-                  Font.Color = clBlack
-                  Font.Height = -11
-                  Font.Name = 'Segoe UI'
-                  Font.Style = []
-                  ParentFont = False
-                  TabOrder = 1
-                  object imgConta: TImage
-                    AlignWithMargins = True
-                    Left = 29
-                    Top = 3
-                    Width = 20
-                    Height = 27
-                    Align = alRight
-                    AutoSize = True
-                    Center = True
-                    Picture.Data = {
-                      0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000014
-                      0000001408060000008D891D0D0000000467414D410000B18F0BFC6105000000
-                      097048597300000EBC00000EBC0195BC72490000012349444154384FAD94C1AE
-                      44401045FD362248EC2C7C815FB0B2F201AC2DD9DA49FC8044D7AB5BB4E99EE9
-                      CCF31E37B9746EDD3A98C57844F4A89DE11D3BC33BF67CDFA720081E31581E0E
-                      59962916E102F1932E09556D660854804551A8344D8525978B3AFAC4BB60BC80
-                      08ABAA524992FC85277BBC835D395B40B8AE6B8AA2888FBF43D1E1AEECE87D0B
-                      A84B4DD3A8300CCFD2BB748E0E77CF0EEE1F4088CFAA6D5B19227719337470D6
-                      D2B9004DF140ADEB4A6559521CC7340C83656498A16302212770DB3695E739CD
-                      F34CCBB2C8EF641A1966E870F7D8DAF501C413519CA6E948F6CCB4163AE89A99
-                      05C40085711CEDEFF822EE5A500B8841DFF7185E06A28A1DEC42271041D77560
-                      7D93005CE65D6108F0F13F077ED347ED0CEFD819FEDFE4FD00617322D189D10E
-                      730000000049454E44AE426082}
-                    Visible = False
-                  end
-                  object Shape1: TShape
-                    AlignWithMargins = True
-                    Left = 19
-                    Top = 3
-                    Width = 1
-                    Height = 27
-                    Margins.Left = 6
-                    Margins.Right = 6
-                    Align = alRight
-                    Pen.Color = clSilver
-                    Pen.Style = psDash
-                    Shape = stRoundRect
-                  end
-                  object Shape2: TShape
-                    AlignWithMargins = True
-                    Left = 6
-                    Top = 3
-                    Width = 1
-                    Height = 27
-                    Margins.Left = 6
-                    Margins.Right = 6
-                    Align = alRight
-                    Pen.Color = clSilver
-                    Pen.Style = psDash
-                    Shape = stRoundRect
-                  end
-                  object lbConta: TcxLabel
-                    Left = 318
-                    Top = 0
-                    Cursor = crHandPoint
-                    Align = alRight
-                    Caption = 'XXX'
-                    ParentFont = False
-                    Style.Font.Charset = ANSI_CHARSET
-                    Style.Font.Color = clWindowText
-                    Style.Font.Height = -13
-                    Style.Font.Name = 'Segoe UI Semibold'
-                    Style.Font.Style = [fsBold]
-                    Style.HotTrack = True
-                    Style.TextStyle = [fsBold]
-                    Style.IsFontAssigned = True
-                    StyleHot.BorderStyle = ebsNone
-                    StyleHot.TextColor = clBlue
-                    StyleHot.TextStyle = [fsBold, fsUnderline]
-                    Properties.Alignment.Vert = taVCenter
-                    Transparent = True
-                    OnClick = lbContaClick
-                    AnchorY = 17
-                  end
-                  object lbVersao: TcxLabel
-                    Left = 290
-                    Top = 0
-                    Align = alRight
-                    Caption = 'XXX'
-                    ParentFont = False
-                    Style.Font.Charset = ANSI_CHARSET
-                    Style.Font.Color = clWindowText
-                    Style.Font.Height = -13
-                    Style.Font.Name = 'Segoe UI Semibold'
-                    Style.Font.Style = [fsBold]
-                    Style.TextStyle = [fsBold]
-                    Style.IsFontAssigned = True
-                    Properties.Alignment.Vert = taVCenter
-                    AnchorY = 17
-                  end
-                  object lbPromptVersao: TcxLabel
-                    Left = 239
-                    Top = 0
-                    Align = alRight
-                    Caption = 'Vers'#227'o: '
-                    ParentFont = False
-                    Style.TextColor = 3947580
-                    Properties.Alignment.Vert = taVCenter
-                    AnchorY = 17
-                  end
-                  object lbPlano: TcxLabel
-                    Left = 125
-                    Top = 0
-                    Cursor = crHandPoint
-                    Hint = 
-                      'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
-                      'u mudar de plano.'
-                    Align = alRight
-                    Caption = 'XXX'
-                    ParentFont = False
-                    Style.Font.Charset = ANSI_CHARSET
-                    Style.Font.Color = clWindowText
-                    Style.Font.Height = -13
-                    Style.Font.Name = 'Segoe UI Semibold'
-                    Style.Font.Style = [fsBold]
-                    Style.HotTrack = True
-                    Style.TextStyle = [fsBold]
-                    Style.IsFontAssigned = True
-                    StyleHot.BorderStyle = ebsNone
-                    StyleHot.TextStyle = [fsBold, fsUnderline]
-                    Properties.Alignment.Vert = taVCenter
-                    OnClick = lbPromptPlanoClick
-                    AnchorY = 17
-                  end
-                  object lbPromptPlano: TcxLabel
-                    Left = 86
-                    Top = 0
-                    Cursor = crHandPoint
-                    Hint = 
-                      'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
-                      'u mudar de plano.'
-                    Align = alRight
-                    Caption = 'Plano:'
-                    ParentFont = False
-                    Style.HotTrack = True
-                    Style.TextColor = 3947580
-                    StyleHot.BorderStyle = ebsNone
-                    StyleHot.TextStyle = [fsUnderline]
-                    Properties.Alignment.Vert = taVCenter
-                    OnClick = lbPromptPlanoClick
-                    AnchorY = 17
-                  end
-                  object lbVenc: TcxLabel
-                    Left = 175
-                    Top = 0
-                    Cursor = crHandPoint
-                    Hint = 
-                      'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
-                      'u mudar de plano.'
-                    Margins.Top = 0
-                    Margins.Bottom = 0
-                    Align = alRight
-                    Caption = '20/08/2014'
-                    ParentColor = False
-                    ParentFont = False
-                    Style.Color = clBtnFace
-                    Style.Font.Charset = ANSI_CHARSET
-                    Style.Font.Color = clWindowText
-                    Style.Font.Height = -13
-                    Style.Font.Name = 'Segoe UI Semibold'
-                    Style.Font.Style = [fsBold]
-                    Style.HotTrack = True
-                    Style.TextColor = clRed
-                    Style.TextStyle = [fsBold]
-                    Style.TransparentBorder = False
-                    Style.IsFontAssigned = True
-                    StyleHot.BorderStyle = ebsNone
-                    StyleHot.TextStyle = [fsBold, fsUnderline]
-                    Properties.Alignment.Vert = taVCenter
-                    OnClick = lbPromptPlanoClick
-                    AnchorY = 17
-                  end
-                  object lbPromptVenc: TcxLabel
-                    Left = 153
-                    Top = 0
-                    Cursor = crHandPoint
-                    Hint = 
-                      'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
-                      'u mudar de plano.'
-                    Align = alRight
-                    Caption = 'at'#233
-                    ParentFont = False
-                    Style.HotTrack = False
-                    Style.TextColor = 3947580
-                    Style.TextStyle = []
-                    StyleHot.BorderStyle = ebsNone
-                    StyleHot.TextStyle = []
-                    Properties.Alignment.Vert = taVCenter
-                    OnClick = lbPromptPlanoClick
-                    AnchorY = 17
-                  end
-                  object btnPais: TcxButton
-                    Left = 52
-                    Top = 0
-                    Width = 34
-                    Height = 33
-                    Cursor = crHandPoint
-                    Align = alRight
-                    Caption = 'Pa'#237's'
-                    OptionsImage.ImageIndex = 28
-                    OptionsImage.Images = Dados.imgPais
-                    PaintStyle = bpsGlyph
-                    SpeedButtonOptions.CanBeFocused = False
-                    SpeedButtonOptions.AllowAllUp = True
-                    SpeedButtonOptions.Flat = True
-                    SpeedButtonOptions.Transparent = True
-                    TabOrder = 7
-                    OnClick = btnPaisClick
-                  end
-                end
-              end
-            end
-            object dpAtalhosDir2: TdxDockPanel
-              Left = 472
-              Top = 0
-              Width = 324
-              Height = 581
+              Width = 839
+              Height = 577
+              Align = alClient
               Color = clBtnFace
-              ManagerColor = False
-              Visible = False
-              OnVisibleChanged = dpAtalhosDir2VisibleChanged
-              AllowFloating = False
-              AutoHide = False
-              Caption = 'Atalhos'
-              CaptionButtons = [cbMaximize, cbHide]
-              CustomCaptionButtons.Buttons = <>
-              TabsProperties.CustomButtons.Buttons = <>
-              OnResize = dpAtalhosDir2Resize
-              OnRestoreDockPosition = dpAtalhosDir2RestoreDockPosition
-              DockingType = 3
-              OriginalWidth = 324
-              OriginalHeight = 140
+              ParentBackground = False
+              ParentColor = False
+              TabOrder = 0
+              Properties.CustomButtons.Buttons = <>
+              Properties.HideTabs = True
+              Properties.HotTrack = True
+              Properties.Style = 5
+              LookAndFeel.Kind = lfStandard
+              LookAndFeel.NativeStyle = False
+              ClientRectBottom = 577
+              ClientRectRight = 839
+              ClientRectTop = 0
             end
-          end
-          object dpRevisarProduto: TdxDockPanel
-            Left = 568
-            Top = 0
-            Width = 252
-            Height = 140
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ManagerFont = False
-            Visible = False
-            AllowFloating = True
-            AutoHide = True
-            Caption = 'Revisar produtos'
-            CaptionButtons = [cbMaximize, cbHide]
-            CustomCaptionButtons.Buttons = <>
-            TabsProperties.CustomButtons.Buttons = <>
-            AutoHidePosition = 2
-            DockingType = 3
-            OriginalWidth = 252
-            OriginalHeight = 140
+            object panPlanos: TLMDSimplePanel
+              Left = 4
+              Top = 280
+              Width = 346
+              Height = 33
+              Hint = ''
+              AutoSize = True
+              Bevel.Mode = bmCustom
+              Font.Charset = ANSI_CHARSET
+              Font.Color = clBlack
+              Font.Height = -11
+              Font.Name = 'Segoe UI'
+              Font.Style = []
+              ParentFont = False
+              TabOrder = 1
+              object imgConta: TImage
+                AlignWithMargins = True
+                Left = 29
+                Top = 3
+                Width = 20
+                Height = 27
+                Align = alRight
+                AutoSize = True
+                Center = True
+                Picture.Data = {
+                  0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000014
+                  0000001408060000008D891D0D0000000467414D410000B18F0BFC6105000000
+                  097048597300000EBC00000EBC0195BC72490000012349444154384FAD94C1AE
+                  44401045FD362248EC2C7C815FB0B2F201AC2DD9DA49FC8044D7AB5BB4E99EE9
+                  CCF31E37B9746EDD3A98C57844F4A89DE11D3BC33BF67CDFA720081E31581E0E
+                  59962916E102F1932E09556D660854804551A8344D8525978B3AFAC4BB60BC80
+                  08ABAA524992FC85277BBC835D395B40B8AE6B8AA2888FBF43D1E1AEECE87D0B
+                  A84B4DD3A8300CCFD2BB748E0E77CF0EEE1F4088CFAA6D5B19227719337470D6
+                  D2B9004DF140ADEB4A6559521CC7340C83656498A16302212770DB3695E739CD
+                  F34CCBB2C8EF641A1966E870F7D8DAF501C413519CA6E948F6CCB4163AE89A99
+                  05C40085711CEDEFF822EE5A500B8841DFF7185E06A28A1DEC42271041D77560
+                  7D93005CE65D6108F0F13F077ED347ED0CEFD819FEDFE4FD00617322D189D10E
+                  730000000049454E44AE426082}
+                Visible = False
+              end
+              object Shape1: TShape
+                AlignWithMargins = True
+                Left = 19
+                Top = 3
+                Width = 1
+                Height = 27
+                Margins.Left = 6
+                Margins.Right = 6
+                Align = alRight
+                Pen.Color = clSilver
+                Pen.Style = psDash
+                Shape = stRoundRect
+              end
+              object Shape2: TShape
+                AlignWithMargins = True
+                Left = 6
+                Top = 3
+                Width = 1
+                Height = 27
+                Margins.Left = 6
+                Margins.Right = 6
+                Align = alRight
+                Pen.Color = clSilver
+                Pen.Style = psDash
+                Shape = stRoundRect
+              end
+              object lbConta: TcxLabel
+                Left = 318
+                Top = 0
+                Cursor = crHandPoint
+                Align = alRight
+                Caption = 'XXX'
+                ParentFont = False
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI Semibold'
+                Style.Font.Style = [fsBold]
+                Style.HotTrack = True
+                Style.TextStyle = [fsBold]
+                Style.IsFontAssigned = True
+                StyleHot.BorderStyle = ebsNone
+                StyleHot.TextColor = clBlue
+                StyleHot.TextStyle = [fsBold, fsUnderline]
+                Properties.Alignment.Vert = taVCenter
+                Transparent = True
+                OnClick = lbContaClick
+                AnchorY = 17
+              end
+              object lbVersao: TcxLabel
+                Left = 290
+                Top = 0
+                Align = alRight
+                Caption = 'XXX'
+                ParentFont = False
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI Semibold'
+                Style.Font.Style = [fsBold]
+                Style.TextStyle = [fsBold]
+                Style.IsFontAssigned = True
+                Properties.Alignment.Vert = taVCenter
+                AnchorY = 17
+              end
+              object lbPromptVersao: TcxLabel
+                Left = 239
+                Top = 0
+                Align = alRight
+                Caption = 'Vers'#227'o: '
+                ParentFont = False
+                Style.TextColor = 3947580
+                Properties.Alignment.Vert = taVCenter
+                AnchorY = 17
+              end
+              object lbPlano: TcxLabel
+                Left = 125
+                Top = 0
+                Cursor = crHandPoint
+                Hint = 
+                  'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
+                  'u mudar de plano.'
+                Align = alRight
+                Caption = 'XXX'
+                ParentFont = False
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI Semibold'
+                Style.Font.Style = [fsBold]
+                Style.HotTrack = True
+                Style.TextStyle = [fsBold]
+                Style.IsFontAssigned = True
+                StyleHot.BorderStyle = ebsNone
+                StyleHot.TextStyle = [fsBold, fsUnderline]
+                Properties.Alignment.Vert = taVCenter
+                OnClick = lbPromptPlanoClick
+                AnchorY = 17
+              end
+              object lbPromptPlano: TcxLabel
+                Left = 86
+                Top = 0
+                Cursor = crHandPoint
+                Hint = 
+                  'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
+                  'u mudar de plano.'
+                Align = alRight
+                Caption = 'Plano:'
+                ParentFont = False
+                Style.HotTrack = True
+                Style.TextColor = 3947580
+                StyleHot.BorderStyle = ebsNone
+                StyleHot.TextStyle = [fsUnderline]
+                Properties.Alignment.Vert = taVCenter
+                OnClick = lbPromptPlanoClick
+                AnchorY = 17
+              end
+              object lbVenc: TcxLabel
+                Left = 175
+                Top = 0
+                Cursor = crHandPoint
+                Hint = 
+                  'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
+                  'u mudar de plano.'
+                Margins.Top = 0
+                Margins.Bottom = 0
+                Align = alRight
+                Caption = '20/08/2014'
+                ParentColor = False
+                ParentFont = False
+                Style.Color = clBtnFace
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI Semibold'
+                Style.Font.Style = [fsBold]
+                Style.HotTrack = True
+                Style.TextColor = clRed
+                Style.TextStyle = [fsBold]
+                Style.TransparentBorder = False
+                Style.IsFontAssigned = True
+                StyleHot.BorderStyle = ebsNone
+                StyleHot.TextStyle = [fsBold, fsUnderline]
+                Properties.Alignment.Vert = taVCenter
+                OnClick = lbPromptPlanoClick
+                AnchorY = 17
+              end
+              object lbPromptVenc: TcxLabel
+                Left = 153
+                Top = 0
+                Cursor = crHandPoint
+                Hint = 
+                  'Clique aqui para ver detalhes do seu plano, renovar assinatura o' +
+                  'u mudar de plano.'
+                Align = alRight
+                Caption = 'at'#233
+                ParentFont = False
+                Style.HotTrack = False
+                Style.TextColor = 3947580
+                Style.TextStyle = []
+                StyleHot.BorderStyle = ebsNone
+                StyleHot.TextStyle = []
+                Properties.Alignment.Vert = taVCenter
+                OnClick = lbPromptPlanoClick
+                AnchorY = 17
+              end
+              object btnPais: TcxButton
+                Left = 52
+                Top = 0
+                Width = 34
+                Height = 33
+                Cursor = crHandPoint
+                Align = alRight
+                Caption = 'Pa'#237's'
+                OptionsImage.ImageIndex = 28
+                OptionsImage.Images = Dados.imgPais
+                PaintStyle = bpsGlyph
+                SpeedButtonOptions.CanBeFocused = False
+                SpeedButtonOptions.AllowAllUp = True
+                SpeedButtonOptions.Flat = True
+                SpeedButtonOptions.Transparent = True
+                TabOrder = 7
+                OnClick = btnPaisClick
+              end
+            end
           end
         end
-        object dpAtalhos: TdxDockPanel
+        object dpRevisarProduto: TdxDockPanel
           Left = 0
           Top = 0
-          Width = 109
-          Height = 581
-          Margins.Left = 1
-          Color = clBtnFace
-          ManagerColor = False
+          Width = 252
+          Height = 0
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -13
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ManagerFont = False
           Visible = False
-          AllowDock = [dtLeft]
-          AllowDockClients = []
-          AllowFloating = False
-          AutoHide = False
-          Caption = 'Exibir'
-          CaptionButtons = [cbHide]
+          AllowFloating = True
+          AutoHide = True
+          Caption = 'Revisar produtos'
+          CaptionButtons = [cbMaximize, cbHide]
           CustomCaptionButtons.Buttons = <>
-          ImageIndex = 27
-          ShowCaption = False
           TabsProperties.CustomButtons.Buttons = <>
-          DockingType = 1
-          OriginalWidth = 101
+          AutoHidePosition = 2
+          DockingType = 3
+          OriginalWidth = 252
           OriginalHeight = 140
         end
       end
       object dxBarDockControl1: TdxBarDockControl
         Left = 0
         Top = 0
-        Width = 1020
+        Width = 958
         Height = 33
         Margins.Left = 0
         Margins.Top = 4
@@ -491,7 +420,7 @@ object FrmPri: TFrmPri
         UseOwnColor = True
         UseOwnSunkenBorder = True
       end
-      object dxBarDockControl2: TdxBarDockControl
+      object bdcAtalhos: TdxBarDockControl
         AlignWithMargins = True
         Left = 5
         Top = 35
@@ -509,20 +438,6 @@ object FrmPri: TFrmPri
         UseOwnColor = True
         UseOwnSunkenBorder = True
       end
-    end
-    object cxTabSheet1: TcxTabSheet
-      Caption = 'Maq 15 - Acesso Remoto'
-      Color = 12895428
-      Font.Charset = ANSI_CHARSET
-      Font.Color = 8289918
-      Font.Height = -13
-      Font.Name = 'Segoe UI'
-      Font.Style = []
-      ImageIndex = 1
-      ParentColor = False
-      ParentFont = False
-      ExplicitWidth = 0
-      ExplicitHeight = 0
     end
   end
   object BarMgr: TdxBarManager
@@ -584,7 +499,7 @@ object FrmPri: TFrmPri
       ItemLinks = <
         item
           Visible = True
-          ItemName = 'dxBarSubItem4'
+          ItemName = 'cmSubArquivo'
         end
         item
           Visible = True
@@ -647,7 +562,7 @@ object FrmPri: TFrmPri
       Visible = False
       WholeRow = True
     end
-    object BarMgrBar3: TdxBar
+    object barAtalhos: TdxBar
       AllowClose = False
       AllowCustomizing = False
       AllowQuickCustomizing = False
@@ -656,8 +571,8 @@ object FrmPri: TFrmPri
       Caption = 'Custom 1'
       CaptionButtons = <>
       Color = clBtnFace
-      DockControl = dxBarDockControl2
-      DockedDockControl = dxBarDockControl2
+      DockControl = bdcAtalhos
+      DockedDockControl = bdcAtalhos
       DockedLeft = 0
       DockedTop = 0
       FloatLeft = 935
@@ -720,23 +635,13 @@ object FrmPri: TFrmPri
       Caption = '&Arquivo'
       Category = 0
       Visible = ivAlways
-      ItemLinks = <
-        item
-          Visible = True
-          ItemName = 'cmTrocarUsuario'
-        end>
+      ItemLinks = <>
       ItemOptions.Size = misNormal
-    end
-    object cmTrocarUsuario: TdxBarButton
-      Caption = 'Login'
-      Category = 0
-      Hint = 'Login'
-      Visible = ivNever
-      OnClick = cmTrocarUsuarioClick
     end
     object cmAlterarSenha: TdxBarButton
       Caption = 'Alterar Senha'
       Category = 0
+      Enabled = False
       Hint = 'Alterar Senha'
       Visible = ivAlways
       OnClick = cmAlterarSenhaClick
@@ -877,6 +782,7 @@ object FrmPri: TFrmPri
     object cmSubExibir: TdxBarSubItem
       Caption = 'E&xibir'
       Category = 0
+      Enabled = False
       Visible = ivAlways
       ItemLinks = <
         item
@@ -951,7 +857,7 @@ object FrmPri: TFrmPri
       Hint = 'Senha de Suporte'
       Visible = ivAlways
     end
-    object dxBarSubItem4: TdxBarSubItem
+    object cmSubArquivo: TdxBarSubItem
       Caption = 'Arquivo'
       Category = 0
       Visible = ivAlways
@@ -967,12 +873,12 @@ object FrmPri: TFrmPri
         item
           BeginGroup = True
           Visible = True
-          ItemName = 'dxBarSubItem5'
+          ItemName = 'cmSubLayout'
         end
         item
           BeginGroup = True
           Visible = True
-          ItemName = 'dxBarButton2'
+          ItemName = 'cmLogoff'
         end
         item
           BeginGroup = True
@@ -981,9 +887,10 @@ object FrmPri: TFrmPri
         end>
       ItemOptions.Size = misNormal
     end
-    object dxBarSubItem5: TdxBarSubItem
+    object cmSubLayout: TdxBarSubItem
       Caption = 'Layout'
       Category = 0
+      Enabled = False
       Visible = ivAlways
       ItemLinks = <
         item
@@ -1114,12 +1021,13 @@ object FrmPri: TFrmPri
       Visible = ivAlways
       OnClick = cmAbrirServClick
     end
-    object dxBarButton2: TdxBarButton
+    object cmLogoff: TdxBarButton
       Caption = 'Logoff     (trocar funcion'#225'rio)'
       Category = 0
+      Enabled = False
       Hint = 'Trocar funcion'#225'rio'
       Visible = ivAlways
-      OnClick = dxBarButton2Click
+      OnClick = cmLogoffClick
     end
     object dxBarButton7: TdxBarButton
       Caption = 'New Button'
@@ -2056,7 +1964,7 @@ object FrmPri: TFrmPri
     SortID = 0
     SubLanguageID = 1
     LocaleID = 1024
-    Left = 168
+    Left = 136
     Top = 120
     object MTDataHora: TDateTimeField
       FieldName = 'DataHora'
@@ -2068,8 +1976,8 @@ object FrmPri: TFrmPri
   end
   object DataSource1: TDataSource
     DataSet = MT
-    Left = 200
-    Top = 120
+    Left = 272
+    Top = 200
   end
   object Timer1: TTimer
     Enabled = False

@@ -101,7 +101,10 @@ const
   wm_newconsulta     = wm_user + 21;
   wm_newcce          = wm_user + 22;
   wm_sinaliza_bk     = wm_user + 23;
+  wm_startadmin      = wm_user + 24;
+  wm_startstep       = wm_user + 25;
 
+  
   card_status_criar_json   = 0;
   card_status_enviar_json  = 1;
   card_status_json_enviado = 2;
@@ -3785,33 +3788,41 @@ begin
 end;
 
 begin
-  if Ffmt_moeda then begin
-    dxFormatSettings.CurrencyDecimals := Ffmt_decimais;
-    dxFormatSettings.CurrencyString := FFmt_simbmoeda;
+  try
+    if Ffmt_moeda then begin
+      DebugMsg(Self, 'ApplyFmtMoeda 1');
+      dxFormatSettings.CurrencyDecimals := Ffmt_decimais;
+      dxFormatSettings.CurrencyString := FFmt_simbmoeda;
   
-    if FFmt_sep_decimal>'' then
-      dxFormatSettings.DecimalSeparator := FFmt_sep_decimal[1] else
-      dxFormatSettings.DecimalSeparator := #0;
-
-    if FFmt_sep_milhar>'' then
-      dxFormatSettings.ThousandSeparator := FFmt_sep_milhar[1] else
-      dxFormatSettings.ThousandSeparator := #0;
-    
-    if Ffmt_decimais>0 then 
-      cxFormatController.CurrencyFormat := Ffmt_simbmoeda+' ,0.'+zeros+';-'+Ffmt_simbmoeda+' ,0.'+zeros else
-      cxFormatController.CurrencyFormat := Ffmt_simbmoeda+' ,0.'+zeros+';-'+Ffmt_simbmoeda+' ,0.'+zeros;
-  end else begin
-    F := TFormatSettings.Create;
-    dxFormatSettings.CurrencyDecimals := F.CurrencyDecimals;
-    dxFormatSettings.CurrencyString := F.CurrencyString;
-    dxFormatSettings.DecimalSeparator := F.DecimalSeparator;
-    dxFormatSettings.ThousandSeparator := F.ThousandSeparator;
-    if F.CurrencyDecimals > 0 then
-      cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf else
-      cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf;    
+      if FFmt_sep_decimal>'' then
+        dxFormatSettings.DecimalSeparator := FFmt_sep_decimal[1] else
+        dxFormatSettings.DecimalSeparator := #0;
+  
+      if FFmt_sep_milhar>'' then
+        dxFormatSettings.ThousandSeparator := FFmt_sep_milhar[1] else
+        dxFormatSettings.ThousandSeparator := #0;
+      
+      if Ffmt_decimais>0 then 
+        cxFormatController.CurrencyFormat := Ffmt_simbmoeda+' ,0.'+zeros+';-'+Ffmt_simbmoeda+' ,0.'+zeros else
+        cxFormatController.CurrencyFormat := Ffmt_simbmoeda+' ,0.'+zeros+';-'+Ffmt_simbmoeda+' ,0.'+zeros;
+    end else begin
+      DebugMsg(Self, 'ApplyFmtMoeda 2');
+      F := TFormatSettings.Create;
+      dxFormatSettings.CurrencyDecimals := F.CurrencyDecimals;
+      dxFormatSettings.CurrencyString := F.CurrencyString;
+      dxFormatSettings.DecimalSeparator := F.DecimalSeparator;
+      dxFormatSettings.ThousandSeparator := F.ThousandSeparator;
+      if F.CurrencyDecimals > 0 then
+        cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf else
+        cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf;    
+    end;
+    DebugMsg(Self, 'ApplyFmtMoeda 3');
+    cxFormatController.TranslationChanged;
+    DebugMsg(Self, 'ApplyFmtMoeda 4');
+  except
+    on E: Exception do 
+      DebugEx(Self, 'ApplytFmtMoeda', E);
   end;
-
-  cxFormatController.TranslationChanged;
 end;
 
 procedure TncConfig.AssignConfig(C: TncConfig);

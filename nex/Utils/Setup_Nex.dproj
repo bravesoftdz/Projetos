@@ -90,8 +90,8 @@
     <PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
         <AppEnableAdministrator>true</AppEnableAdministrator>
         <AppEnableRuntimeThemes>true</AppEnableRuntimeThemes>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.355;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.355;Comments=</VerInfo_Keys>
-        <VerInfo_Build>355</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.357;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.357;Comments=</VerInfo_Keys>
+        <VerInfo_Build>357</VerInfo_Build>
         <VerInfo_MajorVer>5</VerInfo_MajorVer>
         <DCC_ExeOutput>c:\instaladores</DCC_ExeOutput>
         <DCC_DcuOutput>c:\projetodcu\xe7</DCC_DcuOutput>
@@ -137,6 +137,13 @@
                 <Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k230.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp230.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxDockingRS23.bpl">ExpressDocking Library by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxSpellCheckerRS23.bpl">ExpressSpellChecker 2 by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxTileControlRS23.bpl">ExpressTileControl by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxtrmdRS23.bpl">ExpressTreePrintedDataSet by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxFlowChartRS23.bpl">ExpressFlowChart by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dclcxSchedulerGridRS23.bpl">ExpressScheduler connection to ExpressQuantumGrid by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dclcxPivotGridChartRS23.bpl">ExpressPivotGrid connection to ExpressQuantumGrid Chart View by Developer Express Inc.</Excluded_Packages>
                 </Excluded_Packages>
                 <Source>
                     <Source Name="MainSource">Setup_Nex.dpr</Source>
@@ -495,9 +502,9 @@
         <DCCReference Include="unxInst_Pri_nex.pas">
             <Form>FrmPri</Form>
         </DCCReference>
-        <DCCReference Include="..\..\nex_old\Comp\ncFirewall.pas"/>
-        <DCCReference Include="..\..\nex_old\comp\ncDebug.pas"/>
-        <DCCReference Include="..\..\nex_old\Utils\unxInst_Folder.pas">
+        <DCCReference Include="..\Comp\ncFirewall.pas"/>
+        <DCCReference Include="..\comp\ncDebug.pas"/>
+        <DCCReference Include="unxInst_Folder.pas">
             <Form>FrmFolder</Form>
         </DCCReference>
         <BuildConfiguration Include="Debug">

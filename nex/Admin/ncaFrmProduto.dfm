@@ -1641,6 +1641,7 @@ object FrmProduto: TFrmProduto
                 StyleFocused.TextColor = clBlue
                 StyleHot.LookAndFeel.Kind = lfFlat
                 TabOrder = 0
+                ExplicitHeight = 21
                 Width = 100
               end
               object lbComissao: TcxLabel
@@ -1702,6 +1703,7 @@ object FrmProduto: TFrmProduto
                 StyleHot.LookAndFeel.Kind = lfFlat
                 TabOrder = 3
                 Text = 'Pre'#231'o de Venda'
+                ExplicitHeight = 21
                 Width = 179
               end
               object btnPremium: TcxButton
@@ -1752,9 +1754,10 @@ object FrmProduto: TFrmProduto
                 StyleHot.LookAndFeel.Kind = lfFlat
                 TabOrder = 0
                 OnClick = cbComissaoPadraoClick
+                ExplicitHeight = 21
               end
               object lbConfigComissao: TcxLabel
-                Left = 200
+                Left = 191
                 Top = 0
                 Cursor = crHandPoint
                 Margins.Top = 0
@@ -1770,7 +1773,7 @@ object FrmProduto: TFrmProduto
                 AnchorY = 16
               end
               object cxLabel8: TcxLabel
-                Left = 247
+                Left = 238
                 Top = 0
                 Align = alLeft
                 Caption = 'de comiss'#227'o.'
@@ -1785,6 +1788,9 @@ object FrmProduto: TFrmProduto
       object tsTrans: TcxTabSheet
         Caption = 'Transa'#231#245'es'
         ImageIndex = 92
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object panTran: TLMDSimplePanel
           AlignWithMargins = True
           Left = 7
@@ -1804,6 +1810,9 @@ object FrmProduto: TFrmProduto
       object tsPend: TcxTabSheet
         Caption = 'Pendentes'
         ImageIndex = 94
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object panPend: TLMDSimplePanel
           AlignWithMargins = True
           Left = 7
@@ -1942,6 +1951,7 @@ object FrmProduto: TFrmProduto
               Properties.WordWrap = True
               Transparent = True
               OnClick = lbSemFotoClick
+              ExplicitTop = 145
               Width = 178
               AnchorX = 100
               AnchorY = 166
@@ -1952,6 +1962,8 @@ object FrmProduto: TFrmProduto
           AllowCloseButton = False
           Caption = 'Foto'
           ImageIndex = 1
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object panFoto: TLMDSimplePanel
             Left = 0
             Top = 0
@@ -1999,6 +2011,7 @@ object FrmProduto: TFrmProduto
       BarManager = BarMgr
       SunkenBorder = False
       UseOwnSunkenBorder = True
+      ExplicitHeight = 644
     end
   end
   object panLookup: TLMDSimplePanel

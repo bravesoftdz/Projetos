@@ -641,6 +641,7 @@ type
     tvPend2Cidade: TcxGridDBColumn;
     tvPend2UF: TcxGridDBColumn;
     cmEntrega: TdxBarLargeButton;
+    TimerFiltraDados: TTimer;
     procedure cmNovoClick(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;
@@ -747,6 +748,7 @@ type
     procedure cmRotaClick(Sender: TObject);
     procedure cmCopiarEndClick(Sender: TObject);
     procedure cmEntregaClick(Sender: TObject);
+    procedure TimerFiltraDadosTimer(Sender: TObject);
   private
     FFrmPag : TFramePagamento;
     FPagEsp : TncPagEspecies;
@@ -804,6 +806,7 @@ type
 
     procedure processKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState); override;
 
+    procedure _FiltraDados; 
     procedure FiltraDados; override;
     procedure AtualizaDireitos; override;
     class function Descricao: String; override;
@@ -853,7 +856,7 @@ uses Clipbrd, ncaFrmPri, ncClassesBase, ncIDRecursos, ncaDM, ncaFrmConfigRec, nc
   ncaFrmNFCeCancelarHomo, ncaFrmNFCeImpedirDeslig, ncaFrmConfig_Gaveta,
   ncaFrmBaseOpcao, ncDMdanfe_SAT, ncaFrmConfigDanfe_SAT, ncaStrings,
   ncaDMImgEsp, ncaFrmConfig_EndLoja, ncTipoTran, ncaFrmConfigDanfe_NFe,
-  ncEndereco, ncaFrmEntrega;
+  ncEndereco, ncaFrmEntrega, ncDebug;
 
 {$R *.dfm}
 
@@ -1641,30 +1644,50 @@ begin
 end;
 
 procedure TfbVendas2.FiltraDados;
+begin
+  if not Tab.Active then 
+    TimerFiltraDados.Enabled := True else
+    _FiltraDados;
+end;
+
+procedure TfbVendas2._FiltraDados;
 var S: String;
 begin
-  LockWindowUpdate(panPri.Parent.Handle);
+  DebugMsg(Self, 'FiltraDados 1');
+//  LockWindowUpdate(panPri.Parent.Handle);
   try
+    DebugMsg(Self, 'FiltraDados 2');
     RefreshCancelados;
+    DebugMsg(Self, 'FiltraDados 3');
     if (cmSoCaixaAtual.Enabled <> cmTodosCaixas.Enabled) then
     if cmSoCaixaAtual.Enabled then
       cmSoCaixaAtual.Down := True else
       cmTodosCaixas.Down := True;
 
+    DebugMsg(Self, 'FiltraDados 4');
+      
     if not (cmSoCaixaAtual.Enabled or cmTodosCaixas.Enabled) then
       cmFiltro.Caption := ''
     else
     if cmSoCaixaAtual.Down then
       cmFiltro.Caption := cmSoCaixaAtual.Caption else 
       cmFiltro.Caption := cmTodosCaixas.Caption;
+
+    DebugMsg(Self, 'FiltraDados 5');
       
     tsVendas.Caption := rsVendas; //cmFiltro.Caption;
     cmExibir.Caption := cmFiltro.Caption;
     cmFiltro.Caption := cmFiltro.Caption;
+
+    DebugMsg(Self, 'FiltraDados 6');
     
     AjustaTela;
 
+    DebugMsg(Self, 'FiltraDados 7');
+    
     FiltraPend;
+
+    DebugMsg(Self, 'FiltraDados 8');
     
     if not tRej.Active then 
       tRej.Open;
@@ -1673,20 +1696,32 @@ begin
 
     if not tCont.Active then tCont.Open;
     tCont.SetRange([False, nfestatus_contingencia], [False, nfestatus_contingencia]);
+
+    DebugMsg(Self, 'FiltraDados 9');
     
     RefreshPend;
 
+    DebugMsg(Self, 'FiltraDados 10');
+    
     if cmResumido.Down then 
       FiltrarResumido else
       FiltrarDetalhado;
 
+    DebugMsg(Self, 'FiltraDados 11');
+
     RefreshPagEsp;
+
+    DebugMsg(Self, 'FiltraDados 12');
 
     tvPend.DataController.DataModeController.GridMode := False;
     tvPend2.DataController.DataModeController.GridMode := False;
+    DebugMsg(Self, 'FiltraDados 13');
+    
   finally
-    LockWindowUpdate(0);
+//    LockWindowUpdate(0);
   end;
+  DebugMsg(Self, 'FiltraDados 14');
+  
 end;
 
 procedure TfbVendas2.FiltraPend;
@@ -1893,6 +1928,7 @@ procedure TfbVendas2.FrmBasePaiCreate(Sender: TObject);
 begin
   inherited;
   pgModo.HideTabs := True;
+  Paginas.HideTabs := True;
   FExpanded := TStringList.Create;
   FMaxLines := getFormOptionInt(Self, 'MaxLines', 3);
   cmMaxItens.EditValue := FMaxLines;
@@ -2164,6 +2200,13 @@ procedure TfbVendas2.TabFilterRecord(DataSet: TDataSet; var Accept: Boolean);
 begin
   inherited;
   Accept := cmCancelados.Down or (not TabCancelado.Value);
+end;
+
+procedure TfbVendas2.TimerFiltraDadosTimer(Sender: TObject);
+begin
+  inherited;
+  TimerFiltraDados.Enabled := False;
+  _FiltraDados;
 end;
 
 procedure TfbVendas2.tMovEstCalcFields(DataSet: TDataSet);

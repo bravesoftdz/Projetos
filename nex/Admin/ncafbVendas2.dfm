@@ -41,7 +41,7 @@ inherited fbVendas2: TfbVendas2
       Font.Style = []
       ParentFont = False
       TabOrder = 1
-      Properties.ActivePage = tsPend
+      Properties.ActivePage = tsVendas
       Properties.CustomButtons.Buttons = <>
       Properties.Images = dmImagens.im16
       Properties.ShowFrame = True
@@ -100,10 +100,6 @@ inherited fbVendas2: TfbVendas2
           object tsResumido: TcxTabSheet
             Caption = 'Modo Resumido'
             ImageIndex = 0
-            ExplicitLeft = 0
-            ExplicitTop = 0
-            ExplicitWidth = 0
-            ExplicitHeight = 0
             object Grid: TcxGrid
               Left = 0
               Top = 0
@@ -655,10 +651,6 @@ inherited fbVendas2: TfbVendas2
           object tsDetalhado: TcxTabSheet
             Caption = 'Modo Detalhado'
             ImageIndex = 1
-            ExplicitLeft = 0
-            ExplicitTop = 0
-            ExplicitWidth = 0
-            ExplicitHeight = 0
             object gridDet: TcxGrid
               Left = 0
               Top = 0
@@ -1093,7 +1085,6 @@ inherited fbVendas2: TfbVendas2
           Height = 453
           Align = alRight
           AutoSize = True
-          ExplicitHeight = 140
           DockingType = 5
           OriginalWidth = 253
           OriginalHeight = 520
@@ -1699,10 +1690,6 @@ inherited fbVendas2: TfbVendas2
       object tsCont: TcxTabSheet
         Caption = 'NF em Conting'#234'ncia'
         ImageIndex = 18
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object gridCont: TcxGrid
           Left = 0
           Top = 0
@@ -4395,5 +4382,12 @@ inherited fbVendas2: TfbVendas2
       FieldName = 'pais'
       Size = 2
     end
+  end
+  object TimerFiltraDados: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = TimerFiltraDadosTimer
+    Left = 345
+    Top = 214
   end
 end

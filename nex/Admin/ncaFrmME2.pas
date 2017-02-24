@@ -17,7 +17,7 @@ uses
   cxDBEdit, cxVGrid, cxDBVGrid, cxInplaceContainer, LMDControl, LMDBaseControl,
   LMDBaseGraphicControl, LMDBaseLabel, LMDCustomLabel, LMDLabel,
   LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel,
-  cxDropDownEdit, cxRadioGroup, ncMovEst, ncafbPesqCli, cxCheckBox, Buttons,
+  cxDropDownEdit, cxRadioGroup, ncMovEst, cxCheckBox, Buttons,
   LMDBaseGraphicButton, LMDCustomSpeedButton, LMDSpeedButton,
   cxLabel, cxSpinEdit, cxLookAndFeels, cxLookAndFeelPainters,
   LMDCustomScrollBox, LMDScrollBox, cxPC, cxPCdxBarPopupMenu, ncaFrmTotal, ncaFrmTotal3,
@@ -542,8 +542,31 @@ begin
     end;
 
     if FNovo and (not Dados.ChecaCliConsumidorOk(FCli.ID)) then Exit;
+  end;  
+
+{  if (FME.TipoNFE in [tiponfe_nfce, tiponfe_sat]) and (FME.Tipo=trEstVenda) then begin
+    DebugMsg(Self, 'cmGravar 21');
+  
+    if (FME.Cliente=0) then raise exception.Create('A emissão de NF-e exige que seja informado um cliente');
+    case Dados.ClienteOkNFE(FME.Cliente) of
+      1 : begin  
+        Dados.EditCli(FME.Cliente, True);
+        FCli.Atualiza;
+        DebugMsg(Self, 'cmGravar 22');
+        Exit;
+      end;
+      2 : begin
+        DebugMsg(Self, 'cmGravar 23');
+        Dados.EditEnd(Dados.tbCliendereco_ID.AsGuid, True);
+        if Assigned(FEntrega) then
+          FEntrega.Atualiza;
+        Exit;
+      end;
+    end;
+
+    if FNovo and (not Dados.ChecaCliConsumidorOk(FCli.ID)) then Exit;
+  end;    }
     
-  end;    
 
   DebugMsg(Self, 'cmGravar 24');
 
@@ -634,7 +657,6 @@ begin
     end;
 
     DebugMsg(Self, 'cmGravar 34');
-    
     
     try  
       if (FME.Tipo=trEstVenda) and gConfig.TelaPosVenda_Mostrar and (FBalcao or (not FME.PagPend)) and (FOrcamento='') then 

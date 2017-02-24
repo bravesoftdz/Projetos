@@ -55,11 +55,10 @@ const
   
 type
   TFrmPri = class(TForm)
-    pgMaq : TcxPageControl;
-    tsNexAdmin : TcxTabSheet;
+    panPriMaster: TLMDSimplePanel;
+    panPri: TLMDSimplePanel;
     BarMgr: TdxBarManager;
     dxBarSubItem1: TdxBarSubItem;
-    cmTrocarUsuario: TdxBarButton;
     cmAlterarSenha  : TdxBarButton;
     dxBarButton3: TdxBarButton;
     dxBarButton4: TdxBarButton;
@@ -107,8 +106,6 @@ type
     cmImprimir: TdxBarButton;
     dsPri: TdxDockSite;
     dckMgr: TdxDockingManager;
-    dpAtalhos: TdxDockPanel;
-    dxLayoutDockSite1: TdxLayoutDockSite;
     dpPaginas: TdxDockPanel;
     dxLayoutDockSite2: TdxLayoutDockSite;
     Paginas: TcxPageControl;
@@ -124,21 +121,18 @@ type
     dxBarButton1: TdxBarButton;
     cxStyle30: TcxStyle;
     dxBarDockControl1: TdxBarDockControl;
-    cxTabSheet1: TcxTabSheet;
-    dxBarSubItem4: TdxBarSubItem;
-    dxBarSubItem5: TdxBarSubItem;
+    cmSubArquivo: TdxBarSubItem;
+    cmSubLayout: TdxBarSubItem;
     cmLayoutAddRemCols: TdxBarButton;
     cmLaySalvar: TdxBarButton;
     cmLayRestaurar: TdxBarButton;
-    dpAtalhosDir2: TdxDockPanel;
-    dxLayoutDockSite3: TdxLayoutDockSite;
-    BarMgrBar3: TdxBar;
+    barAtalhos: TdxBar;
     cmClientes: TdxBarLargeButton;
     cmProdutos: TdxBarLargeButton;
     cmCaixa: TdxBarLargeButton;
     cmUsuarios: TdxBarLargeButton;
     cxStyle31: TcxStyle;
-    dxBarDockControl2: TdxBarDockControl;
+    bdcAtalhos: TdxBarDockControl;
     cxStyle32: TcxStyle;
     cxStyle33: TcxStyle;
     cmEstatisticas: TdxBarLargeButton;
@@ -161,7 +155,7 @@ type
     cmAbrirServ: TdxBarButton;
     dxLayoutLookAndFeelList1: TdxLayoutLookAndFeelList;
     lfPadrao: TdxLayoutStandardLookAndFeel;
-    dxBarButton2: TdxBarButton;
+    cmLogoff: TdxBarButton;
     cxStyle44: TcxStyle;
     cxStyle45: TcxStyle;
     dxBarButton7: TdxBarButton;
@@ -242,7 +236,6 @@ type
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FMChange(Sender: TObject);
-    procedure cmTrocarUsuarioClick(Sender: TObject);
     procedure cmAlterarSenhaClick(Sender: TObject);
     procedure cmTelefonesClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -252,7 +245,6 @@ type
     procedure cmSuporteRemotoClick(Sender: TObject);
     procedure AEException(Sender: TObject; E: Exception);
     procedure FormResize(Sender: TObject);
-    procedure pgMaqCanClose(Sender: TObject; var ACanClose: Boolean);
     procedure cmImprimirClick(Sender: TObject);
     procedure cmExportarClick(Sender: TObject);
     procedure cmLayoutAddRemColsClick(Sender: TObject);
@@ -260,17 +252,13 @@ type
     procedure cmLayRestaurarClick(Sender: TObject);
     procedure cmMaquinasClick(Sender: TObject);
     procedure TimerHintTimer(Sender: TObject);
-    procedure dpAtalhosDir2Resize(Sender: TObject);
-    procedure dpAtalhosDir2RestoreDockPosition(Sender: TdxCustomDockControl;
-      var APosition: TdxDockPosition);
-    procedure dpAtalhosDir2VisibleChanged(Sender: TdxCustomDockControl);
     procedure dxBarStatic1Click(Sender: TObject);
     procedure dpCHATDock(Sender, Site: TdxCustomDockControl;
       ADockType: TdxDockingType; AIndex: Integer);
     procedure dpImpCloseQuery(Sender: TdxCustomDockControl;
       var CanClose: Boolean);
     procedure cmAbrirServClick(Sender: TObject);
-    procedure dxBarButton2Click(Sender: TObject);
+    procedure cmLogoffClick(Sender: TObject);
     procedure TimerFirewallTimer(Sender: TObject);
     procedure cxButton1Click(Sender: TObject);
     procedure cmComprarAssClick(Sender: TObject);
@@ -321,14 +309,9 @@ type
 
     procedure AjustaSBCaptions;
 
-    procedure OnFrmSemConta(Sender: TObject);
-    procedure OnChecaSenhaMaqs(Sender: TObject);
-
-    procedure OnChecaLimiteAdmin(Sender: TObject);
     procedure OnTerminateInfoPlanos(Sender: TObject);
     procedure OnTerminateInfoServer(Sender: TObject);
     
-
     procedure OnDestroyFrmWebTabs(Sender: TObject);
 
     procedure wmInfoCampanha(var Msg: TMessage);
@@ -349,6 +332,21 @@ type
     procedure wmDownloadIntInfo(var Msg: TMessage);
       message wm_downloadIntInfo;  
 
+    procedure wmStartAdmin(var Msg: TMessage);
+      message wm_startadmin;  
+
+    procedure wmStartStep(var Msg: TMessage);
+      message wm_startstep;  
+
+    procedure ssAtualizaTela;
+    procedure ssDspriVisible;
+    procedure ssAdminWebPopup;
+    procedure ssLoadWebItens;
+    procedure ssChecaSenhaConta;
+    procedure ssRevisarProduto;
+    procedure ssStartThreads;
+    procedure ssLastTimers;
+    
   public
     procedure MakeChatVisible(Sender: TObject);
     procedure AjustaVersao;
@@ -358,6 +356,8 @@ type
     procedure EscondeHint;
 
     procedure AtualizaConfig;
+    
+    procedure ChecaRedePremium;
 
     procedure AjustaRestSpace;
 
@@ -366,16 +366,12 @@ type
     procedure RefreshCaptionsNFCupom;
 
     procedure RefreshTran;
-    procedure RefreshBotoesMaq;
-    procedure RefreshCacheMaq;
     procedure MostrarCaixasAnteriores;
     procedure MostrarCaixaAtual;
 
     procedure AjustaVisSenha;
 
     function MesmoPC(aPC: String): Boolean;
-
-    procedure ChecaRede;
 
     function IsDocMgr: Boolean;
     
@@ -527,6 +523,20 @@ resourcestring
 
   rsEmTesteAte = 'em teste até';
   rsVencimento = 'vencimento';
+
+const
+  ss_startthreads     = 1;
+  ss_atualizatela     = 2; 
+  ss_dspri_visible    = 3;
+  ss_loadwebitens     = 4;
+  ss_checasenhaconta  = 5;
+  ss_checaredepremium = 6;
+  ss_revisarproduto   = 7;
+  ss_admin_webpopup   = 8;
+  ss_lasttimers       = 9;
+  
+
+  ss_max              = 9;  
   
 type  
   TThread_AbriuAdmin = class ( TThread )
@@ -602,56 +612,23 @@ end;
 
 procedure TFrmPri.TentaConectar(Reconexao: Boolean);
 begin
+  DebugMsg('TFrmPri.TentaConectar 1');
+
   Caption := 'Nex | NexAdmin | '+SLingua;
 
   with TFrmNexLogin.Create(Self) do
   ShowModal;
 
-  if not Dados.CM.Ativo then begin
+  if GShutingdown or (not Dados.CM.Ativo) then begin
     Close;
     Exit;
-  end;  
+  end; 
 
-  TimerAvisoAss.Enabled := True;
+  if not Dados.AbreDB then Exit;
 
-  gConfig.ApplyFmtMoeda;
+  PostMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0);
 
-  Caption := 'Nex | NexAdmin | ' + SLingua + ' | ' + Dados.CM.Username + ' | ' + ExtractFileDir(ParamStr(0));
-
-//  PostMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0);
-
-  try
-    Dados.AbreDB;
-  except
-    on e:exception do begin
-      GShutingdown := true;
-      Showmessage(E.Message);
-      glog.Log(self,[lcExcept],'TentaConectar: ' + e.Message);
-      try                                    
-        Dados.CM.Ativo := false;
-      except
-        on e:exception do begin
-          glog.Log(self,[lcExcept],'Dados.CM.Ativo := false: ' + e.Message);
-        end;
-      end;
-      glog.CloseLogFile;
-      application.Terminate;
-      exit;
-    end;
-  end;
-    
-  cmTrocarUsuario.Caption := 'Trocar de Usuário';
-  cmSubExibir.Enabled := True;
-  dsPri.Visible := True;
-  cmImprimir.Enabled := True;
-  cmExportar.Enabled := True;
-
-  AjustaVisSenha;
-
-  cmAlterarSenha.Enabled := True;
-
-  FM.Mostrar(TfbVendas2, 0, 0);
-
+  PostMessage(Handle, wm_startadmin, 0, 0);
 end;
 
 procedure TFrmPri.Timer1Timer(Sender: TObject);
@@ -750,6 +727,43 @@ begin
   end;
 end;
 
+
+procedure TFrmPri.wmStartAdmin(var Msg: TMessage);
+begin
+  gRecibo.Load;
+  gRecibo.ImportarModelos;
+
+  FM.Mostrar(TfbVendas2, 0, 0);
+
+  AtualizaDireitos;
+
+  PostMessage(Handle, wm_startstep, 1, 0);
+end;
+
+procedure TFrmPri.wmStartStep(var Msg: TMessage);
+begin
+  DebugMsg(Self, 'wmStartStep '+Msg.WParam.ToString);
+  try
+    case Msg.WParam of
+      ss_atualizatela     : self.ssAtualizaTela;
+      ss_dspri_visible    : self.ssDspriVisible;
+      ss_admin_webpopup   : self.ssAdminWebPopup;
+      ss_loadwebitens     : self.ssLoadWebItens;
+      ss_checasenhaconta  : self.ssChecaSenhaConta;
+      ss_checaredepremium : self.ChecaRedePremium;
+      ss_revisarproduto   : self.ssRevisarProduto;
+      ss_startthreads     : self.ssStartThreads;
+      ss_lasttimers       : self.ssLastTimers;
+    end;
+  except
+    on E: Exception do 
+      DebugEx(Self, 'smStartStep', E);
+  end;
+  
+  if Msg.WParam<ss_Max then 
+    PostMessage(Handle, wm_startstep, Msg.WParam+1, 0);
+end;
+
 procedure TFrmPri.wmAbreAba(var Msg: TMessage);
 //var
 //  I : TAbreAba;
@@ -807,87 +821,9 @@ begin
 end;
 
 procedure TFrmPri.FormShow(Sender: TObject);
-var I: Integer;
 begin
   DebugMsg('TFrmPri.FormShow - SLingua = '+SLingua);
   TentaConectar(False);
-  
-  if GShutingdown or (not Dados.CM.Ativo) then begin
-    Close;
-    Exit;
-  end;  
-
-  AjustaVersao;
-
-  if not SameText(ParamStr(1), 'afterinst') then 
-    TThread_AbriuAdmin.Create;
-
-  if IsDocMgr then cmDocMgr.Visible := ivAlways;
-
-  gRecibo.Load;
-  gRecibo.ImportarModelos;
-
-  gWebBanners := TncWebBanners.Create(Self);
-  gWebBanners.LoadBanners(gConfig.Banners);
-
-  gWebBotoes := TncaWebBotoes.Create(BarMgrBar3, Paginas, cmClientes.Style, cmClientes.Width);
-  gWebBotoes.ShowCaption := GetShowCaption;
-  gWebBotoes.OnClick := OnClickWebBotao;
-  gWebBotoes.FromString(gConfig.Botoes);
-
-  if not Dados.CM.Ativo then begin
-    Application.Terminate;
-    Exit;
-  end;
-
-  if gConfig.Conta='' then 
-    kapi_DownloadPreReg;
-
-  with TTimer.Create(Self) do begin
-    Interval := 1000;
-    OnTimer := OnChecaLimiteAdmin;
-    Enabled := True;
-  end;
-
-  if Dados.tbIC.IsEmpty then
-    TThreadInfoCampanha.Create(Handle);
-
-  FrmPanTopo.Verifica;
-
-  if FindWindow('TncServBaseClassName_Nex', nil)<>0 then
-    cmAbrirServ.Visible := ivAlways else
-    cmAbrirServ.Visible := ivNever;
-
-  AjustaVersao;
-
-  FRevisarProduto := TfbRevisarProduto.Create(Self, dpRevisarProduto);
-  FRevisarProduto.FiltraDados;
-  FRevisarProduto.panPri.Parent := dpRevisarProduto;
-  //FRevisarProduto.ParentChanged;
-  TimerRevisarCadProduto.interval := 50;
-  //refreshRevisarCadProduto(true);
-  TimerRevisarCadProduto.Enabled := true;
-
-  Application.CreateForm(TfbPesqCli, fbPesqCli);
-  Application.CreateForm(TfbPesqFor, fbPesqFor);
-  Application.CreateForm(TfbCXLetra, fbCXLetra);
-
-  fbPesqCli.FiltraDados;
-
-  LoadDckMgr;
-
-  with TTimer.Create(Self) do begin
-    Interval := 50;
-    OnTimer := Self.OnChecaSenhaMaqs;
-    Enabled := True;
-  end;
-
-  PostMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0);
-  AtualizaDireitos;
-
-  TimerFimTrial.Enabled := True;
-
-  TAdminFrmWebPopup.Create(Self).Show;
 end;
 
 function TFrmPri.GetShowCaption: Boolean;
@@ -919,7 +855,6 @@ end;
 procedure TFrmPri.LoadDckMgr;
 var
   S: String;
-
 begin
   if (Versoes.Versao<250) or DckMgrLoaded then Exit;
   DckMgrLoaded := True;
@@ -987,48 +922,6 @@ begin
   end;
 end;
 
-procedure TFrmPri.OnChecaLimiteAdmin(Sender: TObject);
-begin
-  sender.Free;
-  ChecaRede;
-end;
-
-procedure TFrmPri.OnChecaSenhaMaqs(Sender: TObject);
-var 
-  S: String;
-  Alterou : Boolean;
-  I, N : Integer;
-begin
-  Sender.Free;
-  S := '';
-{  gConfig.AtualizaCache;
-  if SameText(Dados.CM.UA.Username, 'admin') and (Dados.CM.UA.Senha='') and (not gConfig.SenhaAdminOk) then begin
-    if TFrmSenhaWiz.Create(Self).Editar(S) then begin
-      Dados.tbConfig.Edit;
-      Dados.tbConfigSenhaAdminOk.Value := True;
-      Dados.tbConfig.Post;
-      
-      Alterou := True;
-      gConfig.SenhaAdminOk := True;
-      if S>'' then begin
-        Dados.CM.UA.AtualizaCache;
-        Dados.CM.UA.Senha := S;
-        Dados.CM.SalvaAlteracoesObj(Dados.CM.UA, False);
-      end;
-    end;
-  end;}
-
-
-  if Trim(gConfig.Conta)='' then begin
-    with TTimer.Create(Self) do begin
-      Interval := 2000;
-      OnTimer := OnFrmSemConta;
-      Enabled := True;
-    end;
-  end else
-    TFrmEmailUsuario.ChecaEmailUsuarioAtual;
-end;
-
 procedure TFrmPri.OnClickWebBotao(Sender: TObject);
 begin
   with TncaWebBotao(TControl(Sender).Tag) do 
@@ -1049,13 +942,6 @@ end;
 
 procedure TFrmPri.OnDestroyFrmWebTabs(Sender: TObject);
 begin
-end;
-
-procedure TFrmPri.OnFrmSemConta(Sender: TObject);
-begin
-  Sender.Free;
-  if Trim(gConfig.Conta)='' then
-    TFrmCriarConta2.CreateParented(Self.Handle).ShowModal;
 end;
 
 procedure TFrmPri.OnTerminateInfoPlanos(Sender: TObject);
@@ -1253,6 +1139,7 @@ begin
 end;
 
 begin
+  DebugMsg(Self, 'AjustaVersao');
   PostMessage(handle, wm_alignpanplano, 0, 0);
 
   if gConfig.IsPremium then begin
@@ -1331,17 +1218,14 @@ var CodCli: Integer;
 begin
   with Dados do
   if Msg.CharCode=vk_f8 then begin
-    Handled := True;
     DebugMsg(Self, 'AEShortCut - '+Msg.Msg.ToString);
     if not SameText(slConfig.Values['ignoraf8'], 'S') then
       ChamaSuporteRemoto;
   end;
   if Msg.CharCode=vk_f12 then begin
-    Handled := True;
     AbreSuporteDB;
   end;
   if (Msg.CharCode=vk_f11) and (cmAbreGaveta.Visible=ivAlways) then begin
-    Handled := True;
     cmAbreGaveta.Click;
   end;
   
@@ -1465,33 +1349,13 @@ begin
   end;
 end;
 
-procedure TFrmPri.ChecaRede;
+procedure TFrmPri.ChecaRedePremium;
 begin
   if not (gConfig.StatusConta in [scFree, scPremium, scPremiumVenc]) then Exit;  
   if gConfig.IsPremium and (not gConfig.Pro) then Exit;
   if MesmoPC(Dados.nxTCPIP.ServerName) then Exit;
   TFrmRecursoPremium.Create(Self).Mostrar(rsRedePremium, 'rede');
   Close;
-end;
-
-procedure TFrmPri.cmTrocarUsuarioClick(Sender: TObject);
-begin
-  cmTrocarUsuario.Caption := 'Login';
-  Conectando := True;
-  try
-    cmSubExibir.Enabled := False;
-    dsPri.Visible := False;
-    cmImprimir.Enabled := False;
-    cmExportar.Enabled := False;
-    cmAlterarSenha.Enabled := False;
-    FM.Clear;
-    Dados.CM.Ativo := False;
-    Dados.FecharDB;
-    RegistraForms;
-    TentaConectar(False);
-  finally
-    Conectando := False;
-  end;    
 end;
 
 procedure TFrmPri.cmVerCodClick(Sender: TObject);
@@ -1578,33 +1442,9 @@ begin
   end; 
 end;
 
-procedure TFrmPri.pgMaqCanClose(Sender: TObject; var ACanClose: Boolean);
-begin
-  ACanClose := (pgMaq.ActivePageIndex>0);
-  if ACanClose and (pgMaq.PageCount=2) then
-    pgMaq.HideTabs := True;
-end;
-
 procedure TFrmPri.RefreshAds;
 begin
   CenterAds;
-end;
-
-procedure TFrmPri.RefreshBotoesMaq;
-//var F: TFrmBase;
-begin
-  //F := FM.FormAtivo;
-  //if (F is TfbMaq) then
-  //  TfbMaq(F).RefreshBotoes;
-end;
-
-procedure TFrmPri.RefreshCacheMaq;
-//var
-  //FI : PfmFormInfo;
-begin
-  //FI := FM.FormByClass(TfbMaq);
-  //if (FI <> nil) and (FI^.fiInstance<>nil) then
-  //  TfbMaq(FI^.fiInstance).RefreshCacheMaq;
 end;
 
 procedure TFrmPri.RefreshCaptionsNFCupom;
@@ -1654,23 +1494,76 @@ begin
   FM.RegistraForm(TfbNFCupom);
 end;
 
-procedure TFrmPri.dpAtalhosDir2Resize(Sender: TObject);
+procedure TFrmPri.ssAdminWebPopup;
 begin
-  if FM.FormAtivo<>nil then
-    FM.FormAtivo.AtualizaDireitos;
+  TAdminFrmWebPopup.Create(Self).Show;
 end;
 
-procedure TFrmPri.dpAtalhosDir2RestoreDockPosition(Sender: TdxCustomDockControl;
-  var APosition: TdxDockPosition);
+procedure TFrmPri.ssAtualizaTela;
 begin
-  if FM.FormAtivo<>nil then
-    FM.FormAtivo.AtualizaDireitos;
+  if gConfig.fmt_moeda then gConfig.ApplyFmtMoeda;
+  Caption := 'Nex | NexAdmin | ' + SLingua + ' | ' + Dados.CM.Username + ' | ' + ExtractFileDir(ParamStr(0));
+  if not Dados.AbreDB then Exit;
+  cmLogoff.Enabled := True;
+  cmSubLayout.Enabled := True;
+  cmSubExibir.Enabled := True;
+  cmImprimir.Enabled := True;
+  cmExportar.Enabled := True;
+  cmAlterarSenha.Enabled := True;
+  if IsDocMgr then cmDocMgr.Visible := ivAlways;
+  AjustaVisSenha;
+  if FindWindow('TncServBaseClassName_Nex', nil)<>0 then
+    cmAbrirServ.Visible := ivAlways else
+    cmAbrirServ.Visible := ivNever;
+  AjustaVersao;
+  LoadDckMgr;  
+  FrmPanTopo.Verifica;
 end;
 
-procedure TFrmPri.dpAtalhosDir2VisibleChanged(Sender: TdxCustomDockControl);
+procedure TFrmPri.ssChecaSenhaConta;
 begin
-  if FM.FormAtivo<>nil then
-    FM.FormAtivo.AtualizaDireitos;
+  if Trim(gConfig.Conta)='' then 
+    TFrmCriarConta2.CreateParented(Self.Handle).ShowModal else
+    TFrmEmailUsuario.ChecaEmailUsuarioAtual;
+end;
+
+procedure TFrmPri.ssDspriVisible;
+begin
+  LockWindowUpdate(Handle);
+  try
+    dsPri.Visible := True;
+    Application.ProcessMessages;
+  finally
+    LockWindowUpdate(0);
+  end;
+end;
+
+procedure TFrmPri.ssLastTimers;
+begin
+  TimerFimTrial.Enabled := True;
+  TimerAvisoAss.Enabled := True;
+end;
+
+procedure TFrmPri.ssLoadWebItens;
+begin
+  gWebBanners.LoadBanners(gConfig.Banners);
+  gWebBotoes.FromString(gConfig.Botoes);
+end;
+
+procedure TFrmPri.ssRevisarProduto;
+begin
+  FRevisarProduto := TfbRevisarProduto.Create(Self, dpRevisarProduto);
+  FRevisarProduto.FiltraDados;
+  FRevisarProduto.panPri.Parent := dpRevisarProduto;
+  TimerRevisarCadProduto.Interval := 50;
+  TimerRevisarCadProduto.Enabled := true;
+end;
+
+procedure TFrmPri.ssStartThreads;
+begin
+  if not SameText(ParamStr(1), 'afterinst') then TThread_AbriuAdmin.Create;
+  if gConfig.Conta='' then kapi_DownloadPreReg;
+  if Dados.tbIC.IsEmpty then TThreadInfoCampanha.Create(Handle);
 end;
 
 procedure TFrmPri.dpCHATDock(Sender, Site: TdxCustomDockControl;
@@ -1678,7 +1571,6 @@ procedure TFrmPri.dpCHATDock(Sender, Site: TdxCustomDockControl;
 begin
   Sender.CaptionButtons := [cbHide];
   Site.CaptionButtons := [cbHide];
-  
 end;
 
 procedure TFrmPri.dpImpCloseQuery(Sender: TdxCustomDockControl;
@@ -1707,7 +1599,7 @@ begin
   OpenTrack('atualizar', 'menuajuda');
 end;
 
-procedure TFrmPri.dxBarButton2Click(Sender: TObject);
+procedure TFrmPri.cmLogoffClick(Sender: TObject);
 begin
   Close;
   ShellStart(ParamStr(0), 'afterlogoff');
@@ -1830,6 +1722,10 @@ begin
   VerProg := SelfVersion;
   RegistraForms;
   AjustaVersao;
+  gWebBanners := TncWebBanners.Create(Self);
+  gWebBotoes := TncaWebBotoes.Create(barAtalhos, Paginas, cmClientes.Style, cmClientes.Width);
+  gWebBotoes.ShowCaption := GetShowCaption;
+  gWebBotoes.OnClick := OnClickWebBotao;
 end;
 
 procedure TFrmPri.FormDestroy(Sender: TObject);

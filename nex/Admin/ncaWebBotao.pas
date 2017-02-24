@@ -112,7 +112,7 @@ var
 
 implementation
 
-uses ncClassesBase, nexUrls, ncDebug;
+uses ncClassesBase, nexUrls, ncDebug, cxGraphics;
 
 { TncaWebBotoes }
 
@@ -208,6 +208,7 @@ begin
     for i := 0 to sl.Count-1 do 
       if B.FromString(sl[i]) then begin
         sl2.Add(B.Nome);
+        if B.Width<FWidth then B.Width := FWidth;
         UpdateBotao(B);
       end;
 
@@ -232,9 +233,9 @@ var I: Integer;
 begin
   for I := 0 to Count-1 do  begin
     Botao[I].Btn.ShowCaption := FShowCaption;
-    if FShowCaption then
+{    if FShowCaption then
       Botao[I].Btn.Width := Botao[I].FData.Width else
-      Botao[I].Btn.Width := 0;
+      Botao[I].Btn.Width := 0;}
   end;
 end;
 
@@ -249,6 +250,8 @@ begin
     B.Free;
     B := nil;
   end;
+  
+  if aData.Width<FWidth then aData.Width := FWidth;
 
   if B=nil then begin
     DebugMsg(Self, 'UpdateBotao 3');
@@ -315,18 +318,28 @@ end;
 
 function TncaWebBotaoData.FromString(S: String): Boolean;
 var sl: TStrings;
+    F: TFont;
 begin
   DebugMsg('TncaWebBotaoData.FromString: '+S);
   Clear;
   sl := SplitParams(S);
   try
     Nome := RemoveAspas(sl.Values['nome']);
+    F := TFont.Create;
+    try
+      F.Name := 'Segoe UI Semibold';
+      F.Size := 9;
+      F.Style := [fsBold];
+      Width := cxTextWidth(F, ' '+Nome+' ');
+    finally
+      F.Free;
+    end;
     Posicao := StrToIntDef(sl.Values['pos'], 0);
     Img := RemoveAspas(sl.Values['img']);
     Url := RemoveAspas(sl.Values['url']);
     Blank := (sl.Values['blank']='1');
     Gray  := (sl.Values['gray']<>'0');
-    Width := StrToIntDef(sl.Values['width'], 0);
+//    Width := StrToIntDef(sl.Values['width'], 0);
     Color := StrToIntDef(sl.Values['color'], 0);
     Bold  := (sl.Values['bold']='1');
     Toolbar := False; //(sl.Values['toolbar']='1');
@@ -399,9 +412,10 @@ begin
   FBtn.Tag := Integer(Self);
   FBtn.AutoGrayScale := FData.Gray;
 
-  if FData.Width<FWebBotoes.FWidth then
+ if FData.Width<FWebBotoes.FWidth then
     FBtn.Width := FWebBotoes.FWidth else
     FBtn.Width := FData.Width;
+    
   if FData.BotaoExiste then begin
     DebugMsg(Self, 'Create 3');
     LoadImgBtn;

@@ -5,7 +5,6 @@ object Dados: TDados
   Height = 568
   Width = 802
   object Session: TnxSession
-    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = RSE
@@ -13,7 +12,6 @@ object Dados: TDados
     Top = 56
   end
   object db: TnxDatabase
-    ActiveDesigntime = True
     Session = Session
     AliasName = 'nexcafe'
     FailSafe = True
@@ -1153,7 +1151,6 @@ object Dados: TDados
     Top = 288
   end
   object RSE: TnxRemoteServerEngine
-    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 400
     Top = 8
@@ -5836,7 +5833,6 @@ object Dados: TDados
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
-    ActiveDesigntime = True
     CommandHandler = SimpleCmdHandler
     Timeout = 120000
     OnConnectionLost = nxTCPIPConnectionLost

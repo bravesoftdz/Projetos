@@ -44,6 +44,7 @@ end;
 procedure TFrmTrial_sombra.Timer1Timer(Sender: TObject);
 begin
   Timer1.Enabled := False;
+  Application.CreateForm(TFrmTrial_Fim, FrmTrial_Fim);
   FrmTrial_Fim.Mostrar;
   Close;
 end;

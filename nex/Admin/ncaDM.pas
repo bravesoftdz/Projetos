@@ -909,7 +909,7 @@ type
 
     procedure SendNextSetFlags;
     
-    procedure AbreDB;
+    function AbreDB: Boolean;
     procedure FecharDB;
     function ControlaSaldo(aProduto: String): Boolean;
     { Public declarations }
@@ -952,6 +952,8 @@ type
     procedure OnRefreshUrls(Sender: TObject);
 
     function ClienteOkNFE(aCliente: Cardinal): Byte;
+
+    function ClienteOKNFCE_SAT(aCliente: Cardinal): Byte;
 
     procedure EnviaEmailAtivacaoNF(aNFe: Boolean; aCNPJAnt, aRazaoAnt: String);
 
@@ -1628,7 +1630,9 @@ begin
     Result := 0;
 end;
 
-procedure TDados.AbreDB;
+function TDados.AbreDB: Boolean;
+
+procedure _Abre;
 var I: Integer;
 begin
   db.Connected:= true;
@@ -1717,6 +1721,29 @@ begin
   dmComp := TdmComp.Create(Self);
 end;
 
+begin
+  try
+    Result := False;
+    DebugMsg(Self, 'AbreDB 1');
+    _Abre;
+    DebugMsg(Self, 'AbreDB 2');
+    Result := True
+  except
+    on E: Exception do begin
+      DebugEx(Self, 'AbreDB', E);
+      GShutingdown := True;
+      Showmessage(E.Message);
+      try                                    
+        CM.Ativo := false;
+      except
+        on E: Exception do 
+          DebugEx(Self, 'AbreDB E2', E);
+      end;
+      Application.Terminate;
+    end;
+  end;
+end;
+
 function TDados.AchaEnd(aEnd: TGuid): Boolean;
 begin
   Result := False;
@@ -1727,7 +1754,19 @@ begin
     Result := tbEnd.Locate('endereco_id', TGuidEx.ToString(aEnd), []);
 end;
 
-function TDados.ClienteOkNFE(aCliente: Cardinal): Byte;  // 0=OK, 1=Dados Cad não OK, 2=Endereço não OK
+function TDados.ClienteOKNFCE_SAT(aCliente: Cardinal): Byte; // 0=OK, 1=Dados Cad não OK
+begin
+  tbCli.Locate('ID', aCliente, []);
+  Result := 1;
+  if tbCliCPF.Text>'' then 
+  if tbCliPJuridica.Value then begin
+    if not IsCNPJ(SoDig(tbCliCPF.Value)) then Exit
+  end else
+    if not IsCPF(SoDig(tbCliCPF.Value)) then Exit;
+  Result := 0;
+end;
+
+function TDados.ClienteOkNFE(aCliente: Cardinal): Byte; 
 var E : TncEndereco;
 begin
   tbCli.Locate('ID', aCliente, []);
@@ -3661,6 +3700,7 @@ end;
 
 procedure TDados.CMAoAtualizarNFConfig(Sender: TObject);
 begin
+  DebugMsg(Self, 'CMAoAtualizarNFConfig');
   tNFConfig.Refresh;
   DM.tNFConfig.Refresh;
   TpanAlertaModoHomo.Refresh;
@@ -3670,7 +3710,8 @@ end;
 
 procedure TDados.CMAoAtualizarConfig(Sender: TObject);
 begin
-  gConfig.ApplyFmtMoeda;
+  DebugMsg(Self, 'CMAoAtualizarConfig');
+//  gConfig.ApplyFmtMoeda;
   GetFlags;
   tbConfig.Refresh;
   TpanAlertaModoHomo.Refresh;
@@ -3679,7 +3720,7 @@ begin
   BroadcastAtualizaDireitosConfig;  
   FrmPri.AjustaVersao; 
   FrmPri.AtualizaConfig;
-  FrmPri.ChecaRede;
+  FrmPri.ChecaRedePremium;
   if ShowUpgPremium and (gConfig.OnTrial and (not gConfig.Pro))then begin
     ShowUpgPremium := False;
     TFrmUpgradePremium.Create(Self).ShowModal;

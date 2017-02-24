@@ -5,7 +5,6 @@ object dmCaixa: TdmCaixa
   Height = 466
   Width = 678
   object nxSession: TnxSession
-    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     Timeout = 240000
@@ -14,21 +13,18 @@ object dmCaixa: TdmCaixa
     Top = 16
   end
   object nxDB: TnxDatabase
-    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 80
     Top = 16
   end
   object nxRSE: TnxRemoteServerEngine
-    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 136
     Top = 16
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
-    ActiveDesigntime = True
     Timeout = 240000
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
@@ -435,7 +431,6 @@ object dmCaixa: TdmCaixa
     Top = 224
   end
   object tCaixa: TnxTable
-    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     OnCalcFields = tCaixaCalcFields
@@ -3459,7 +3454,6 @@ object dmCaixa: TdmCaixa
     Top = 16
   end
   object tRepProd: TnxTable
-    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     TableName = 'Produto'
@@ -3580,7 +3574,6 @@ object dmCaixa: TdmCaixa
     Top = 80
   end
   object qRepTran: TnxQuery
-    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     OnCalcFields = qRepTranCalcFields
@@ -8171,7 +8164,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo60: TfrxMemoView
           Left = 68.031540000000000000
-          Top = 3.779529999999994000
+          Top = 3.779530000000000000
           Width = 102.047310000000000000
           Height = 18.897650000000000000
           DataField = 'DataHora'
@@ -8190,7 +8183,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo61: TfrxMemoView
           Left = 177.637910000000000000
-          Top = 3.779529999999994000
+          Top = 3.779530000000000000
           Width = 162.519790000000000000
           Height = 18.897650000000000000
           DataField = 'NomeCliente'

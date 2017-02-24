@@ -6,7 +6,7 @@ uses
   ncaCurrFormat in 'ncaCurrFormat.pas',
   Forms,
   nxllZipCompressor,
-  nxllRLECompressor,    
+  nxllRLECompressor,
   System.SysUtils,
   cxFormats,
   ncaDM in 'ncaDM.pas' {Dados: TDataModule},
@@ -356,13 +356,7 @@ begin
   Application.CreateForm(TdmImagens, dmImagens);
   Application.CreateForm(TdmImgEsp, dmImgEsp);
   Application.CreateForm(TFrmPri, FrmPri);
-  Application.CreateForm(TFrmLocalizaCli, FrmLocalizaCli);
   Application.CreateForm(TFrmPanTopo, FrmPanTopo);
-  Application.CreateForm(TFrmEmailUsuario, FrmEmailUsuario);
-  Application.CreateForm(TFrmMVAPauta, FrmMVAPauta);
-  Application.CreateForm(TfbCCE, fbCCE);
-  Application.CreateForm(TFrmTrial_fim, FrmTrial_fim);
-  Application.CreateForm(TFrmTrial_sombra, FrmTrial_sombra);
   Application.Run;
   Dados.Free;
   NomeArqDebug := '';

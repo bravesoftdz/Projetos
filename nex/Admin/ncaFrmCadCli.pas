@@ -296,7 +296,11 @@ type
 
     procedure Atualiza;
 
+    procedure ValidaCNPJ;
+    procedure ValidaCPF;
     procedure ValidaNFe;
+
+    procedure ValidaCPFCNPJ;
 
     procedure PesqTranspEntPadrao;
 
@@ -305,6 +309,7 @@ type
     FNovo : Boolean;
     Resultado: Integer;
     FRgAnt : String;
+    FCPFAnt : String;
     FCodAnt : String;
     FTabOrigem : TDataset;
     FCHorario : Cardinal;
@@ -350,7 +355,7 @@ resourcestring
   SHora = 'hora';
   SDataDeNascimentoNãoéVálida = 'Data de nascimento não é válida';
   SNomeNãoPodeSerDeixadoEmBranco = 'Nome não pode ser deixado em branco !';
-  SJáExisteUmClienteCadastradoComEs = 'Já existe outro cliente cadastrado com esse RG';
+  rsDocRepetido = 'Já existe outro cliente cadastrado com esse ';
   SCodigoRepetido = 'Já existe outro cliente cadastrado com esse código';
   SSeguirLimitePadrão = 'Seguir limite padrão (';
   SSeguirOpçãoPadrão = 'Seguir opção padrão ';
@@ -428,7 +433,7 @@ begin
     edNasc.SetFocus;
     Exit;
   end;
-    
+
   if MTNome.Value = '' then
     Raise ENexCafe.Create(SNomeNãoPodeSerDeixadoEmBranco);
 
@@ -437,6 +442,8 @@ begin
     raise ENexCafe.Create(SCodigoRepetido);
   end;
 
+  if gConfig.PaisBrasil and Dados.NFAtivo and (edCPF.Text>'') then ValidaCPFCNPJ;
+
   if lcIsentoIE.Visible then 
   if (not edIsentoIE.Checked) and (SoDig(edRG.Text)='') then begin
     Paginas.ActivePageIndex := 0;
@@ -444,10 +451,20 @@ begin
     raise Exception.Create(rsCadastrarIE);
   end;
    
-  if (FRgAnt<>MTRg.Value) and (MTRg.AsString>'') and tAux.FindKey([MTRG.Value]) then begin
+  tAux.IndexName := 'IFornecedorRG';
+  if (FRgAnt<>MTRg.Value) and (MTRg.AsString>'') and tAux.FindKey([False, MTRG.Value]) then begin
     edRG.SetFocus;
-    Raise ENexCafe.Create(SJáExisteUmClienteCadastradoComEs);
+    Raise ENexCafe.Create(rsDocRepetido+' '+lcRG.CaptionOptions.Text);
   end;
+
+  if lcCPF.Visible then  begin
+    tAux.IndexName := 'IFornecedorCPF';
+    if (FCPFAnt<>MTCPF.Value) and (MTCPF.AsString>'') and tAux.FindKey([False, MTCPF.Value]) then begin
+      edCPF.SetFocus;
+      Raise ENexCafe.Create(rsDocRepetido+' '+lcCPF.CaptionOptions.Text);
+    end;
+  end;
+  
     
   if not (MT.State in [dsInsert, dsEdit]) then MT.Edit;
   
@@ -739,6 +756,7 @@ begin
     edLimiteDeb.Enabled := True;
   end;
   FRGAnt := MTRG.Value;
+  FCPFAnt := MTCPF.Value;
   FCodAnt := MTCodigo.Value;
   Paginas.ActivePage := tsDados;
   edNome.SetFocus;
@@ -909,43 +927,58 @@ begin
   cmCancelar.Enabled := cmGravar.Enabled;
 end;
 
+procedure TFrmCadCli.ValidaCNPJ;
+begin
+  if not IsCNPJ(SoDig(edCPF.Text)) then begin
+    Paginas.ActivePageIndex := 0;
+    edCPF.SetFocus;
+    raise Exception.Create('O CNPJ informado é inválido!');
+  end;
+end;
+
+procedure TFrmCadCli.ValidaCPF;
+begin
+  if not IsCPF(SoDig(edCPF.Text)) then begin
+    Paginas.ActivePageIndex := 0;
+    edCPF.SetFocus;
+    raise Exception.Create('O CPF informado é inválido!');
+  end;  
+end;
+
+procedure TFrmCadCli.ValidaCPFCNPJ;
+begin
+  if edPJuridica.Checked then
+    ValidaCNPJ else
+    ValidaCPF;
+end;
+
 procedure TFrmCadCli.ValidaNFe;
 begin
-    if FEnd.Enderecos[0].DadosAtu.is_br then begin
-      if edPJuridica.Checked then begin
-        if SoDig(edCPF.Text)='' then begin
-          Paginas.ActivePageIndex := 0;
-          edCPF.SetFocus;
-          raise Exception.Create('A emissão de NF-e exige que seja informado o CNPJ');
-        end;
-
-        if not IsCNPJ(SoDig(edCPF.Text)) then begin
-          Paginas.ActivePageIndex := 0;
-          edCPF.SetFocus;
-          raise Exception.Create('O CNPJ informado é inválido!');
-        end;
-      end else begin
-        if SoDig(edCPF.Text)='' then begin
-          Paginas.ActivePageIndex := 0;
-          edCPF.SetFocus;
-          raise Exception.Create('A emissão de NF-e exige que seja informado o CPF');
-        end;
-
-        if not IsCPF(SoDig(edCPF.Text)) then begin
-          Paginas.ActivePageIndex := 0;
-          edCPF.SetFocus;
-          raise Exception.Create('O CPF informado é inválido!');
-        end;
+  if FEnd.Enderecos[0].DadosAtu.is_br then begin
+    if edPJuridica.Checked then begin
+      if SoDig(edCPF.Text)='' then begin
+        Paginas.ActivePageIndex := 0;
+        edCPF.SetFocus;
+        raise Exception.Create('A emissão de NF-e exige que seja informado o CNPJ');
       end;
+      ValidaCNPJ;
+    end else begin
+      if SoDig(edCPF.Text)='' then begin
+        Paginas.ActivePageIndex := 0;
+        edCPF.SetFocus;
+        raise Exception.Create('A emissão de NF-e exige que seja informado o CPF');
+      end;
+      ValidaCPF;
     end;
+  end;
 
-    if not FEnd.Enderecos[0].DadosAtu.NFeOk then begin
-      Paginas.ActivePageIndex := 0;
-      ShowMessage('A emissão de NF-e exige que o endereço do cliente esteja preenchido corretamente');
-      FEnd.P.ActivePageIndex := 0;
-      FEnd.Editar;
-      Exit;
-    end;
+  if not FEnd.Enderecos[0].DadosAtu.NFeOk then begin
+    Paginas.ActivePageIndex := 0;
+    ShowMessage('A emissão de NF-e exige que o endereço do cliente esteja preenchido corretamente');
+    FEnd.P.ActivePageIndex := 0;
+    FEnd.Editar;
+    Exit;
+  end;
 end;
 
 procedure TFrmCadCli.FormKeyDown(Sender: TObject; var Key: Word;

@@ -8,9 +8,9 @@ uses
   Forms,
   ElevationUtils,
   unxInst_Pri_nex in 'unxInst_Pri_nex.pas' {FrmPri},
-  ncFirewall in '..\..\nex_old\Comp\ncFirewall.pas',
-  ncDebug in '..\..\nex_old\comp\ncDebug.pas',
-  unxInst_Folder in '..\..\nex_old\Utils\unxInst_Folder.pas' {FrmFolder};
+  ncFirewall in '..\..\nex\Comp\ncFirewall.pas',
+  ncDebug in '..\..\nex\comp\ncDebug.pas',
+  unxInst_Folder in '..\..\nex\Utils\unxInst_Folder.pas' {FrmFolder};
 
 {$R *.res}
 {$R uacs.res}

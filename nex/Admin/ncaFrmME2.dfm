@@ -649,7 +649,7 @@ object FrmME2: TFrmME2
     Align = alTop
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
-    TabOrder = 11
+    TabOrder = 7
     Visible = False
   end
   object BarMgr: TdxBarManager
@@ -676,11 +676,6 @@ object FrmME2: TFrmME2
     UseSystemFont = False
     Left = 120
     Top = 304
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     object dxBarLargeButton1: TdxBarLargeButton
       Caption = 'New Button'
       Category = 0

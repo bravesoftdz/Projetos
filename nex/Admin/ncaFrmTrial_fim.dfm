@@ -347,7 +347,6 @@ object FrmTrial_fim: TFrmTrial_fim
             StyleHot.BorderStyle = ebsNone
             StyleHot.TextColor = clHighlight
             OnClick = lbSabaMaisClick
-            ExplicitTop = 334
           end
           object lbChamarSup: TcxLabel
             Left = 0
@@ -372,7 +371,6 @@ object FrmTrial_fim: TFrmTrial_fim
             StyleHot.BorderStyle = ebsNone
             StyleHot.TextColor = clHighlight
             OnClick = lbChamarSupClick
-            ExplicitTop = 303
           end
           object lbDuvida: TcxLabel
             AlignWithMargins = True
@@ -400,9 +398,6 @@ object FrmTrial_fim: TFrmTrial_fim
       BorderWidth = 15
       Caption = 'Confirmar FREE'
       ImageIndex = 1
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object cxLabel10: TcxLabel
         Left = 0
         Top = 0
