@@ -1299,10 +1299,12 @@ begin
 
       if tTranFrete.Value>0 then begin
         aFreteItem := DuasCasas(((tMovEstTotal.Value - tMovEstDesconto.Value) / tTranTotLiq.Value) * tTranFrete.Value, 2);
-        if aFreteOutros then
-          nfeDS.Campo('vOutro_I17a').Value := FormatValor(aFreteItem, 2) else
-          nfeDS.Campo('vFrete_I15').Value := FormatValor(aFreteItem, 2);
-        aFreteTotal := aFreteTotal + aFreteItem;
+        if aFreteItem>0.009 then begin
+          if aFreteOutros then
+            nfeDS.Campo('vOutro_I17a').Value := FormatValor(aFreteItem, 2) else
+            nfeDS.Campo('vFrete_I15').Value := FormatValor(aFreteItem, 2);
+          aFreteTotal := aFreteTotal + aFreteItem;
+        end;
       end;
         
       nfeDS.Campo('qCom_I10').Value     := FormatValor(Q, 4);
@@ -1400,6 +1402,7 @@ begin
 
       if tMovEst.Eof and (aFreteTotal>0) and (aFreteTotal<>tTranFrete.Value) then begin
         aFreteItem := DuasCasas(aFreteItem + (tTranFrete.Value - aFreteTotal), 2);
+        if aFreteItem>0.009 then
         if aFreteOutros then
           nfeDS.Campo('vOutro_I17a').Value := FormatValor(aFreteItem, 2) else
           nfeDS.Campo('vFrete_I15').Value := FormatValor(aFreteItem, 2);

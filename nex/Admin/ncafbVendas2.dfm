@@ -41,7 +41,7 @@ inherited fbVendas2: TfbVendas2
       Font.Style = []
       ParentFont = False
       TabOrder = 1
-      Properties.ActivePage = tsVendas
+      Properties.ActivePage = tsPend
       Properties.CustomButtons.Buttons = <>
       Properties.Images = dmImagens.im16
       Properties.ShowFrame = True
@@ -91,7 +91,7 @@ inherited fbVendas2: TfbVendas2
           Font.Style = []
           ParentFont = False
           TabOrder = 2
-          Properties.ActivePage = tsDetalhado
+          Properties.ActivePage = tsResumido
           Properties.CustomButtons.Buttons = <>
           ClientRectBottom = 449
           ClientRectLeft = 4
@@ -567,6 +567,7 @@ inherited fbVendas2: TfbVendas2
                   Caption = 'Tx.Ent/Frete'
                   DataBinding.FieldName = 'Frete'
                   PropertiesClassName = 'TcxCurrencyEditProperties'
+                  Properties.Alignment.Vert = taTopJustify
                   FooterAlignmentHorz = taCenter
                   HeaderAlignmentHorz = taCenter
                   Width = 81
@@ -844,7 +845,7 @@ inherited fbVendas2: TfbVendas2
                   MinWidth = 16
                   Options.CellMerging = True
                   Styles.OnGetContentStyle = tvDetDescrStylesGetContentStyle
-                  Width = 77
+                  Width = 86
                   OnCompareRowValuesForCellMerging = tvDetStatusNFECompareRowValuesForCellMerging
                 end
                 object TVTran: TcxGridDBColumn
@@ -1253,6 +1254,7 @@ inherited fbVendas2: TfbVendas2
               Caption = 'Tx.Ent/Frete'
               DataBinding.FieldName = 'Frete'
               PropertiesClassName = 'TcxCurrencyEditProperties'
+              Properties.Alignment.Vert = taTopJustify
               HeaderAlignmentHorz = taCenter
               Width = 73
             end
@@ -1389,6 +1391,8 @@ inherited fbVendas2: TfbVendas2
             object tvPend2Frete: TcxGridDBColumn
               Caption = 'Tx.Ent/Frete'
               DataBinding.FieldName = 'Frete'
+              PropertiesClassName = 'TcxCurrencyEditProperties'
+              Properties.Alignment.Vert = taTopJustify
               HeaderAlignmentHorz = taCenter
               Width = 80
             end
@@ -1435,7 +1439,7 @@ inherited fbVendas2: TfbVendas2
           end
           object glPend: TcxGridLevel
             Caption = 'Aguardando Pagamento'
-            GridView = tvPend2
+            GridView = tvPend
           end
           object glPend2: TcxGridLevel
           end
@@ -2803,6 +2807,10 @@ inherited fbVendas2: TfbVendas2
     object TabTranspPesoVol: TByteField
       FieldName = 'TranspPesoVol'
     end
+    object TabUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
+    end
   end
   object cxStyleRepository1: TcxStyleRepository
     Left = 264
@@ -3110,6 +3118,10 @@ inherited fbVendas2: TfbVendas2
     object tbMERecVer: TLongWordField
       FieldName = 'RecVer'
     end
+    object tbMEUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
   end
   object dckMgr: TdxDockingManager
     AutoHideInterval = 0
@@ -3409,6 +3421,10 @@ inherited fbVendas2: TfbVendas2
       Size = 2
       Calculated = True
     end
+    object tPendUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
+    end
   end
   object dsPend: TDataSource
     DataSet = tPend
@@ -3647,6 +3663,10 @@ inherited fbVendas2: TfbVendas2
     object tRejTranspPesoVol: TByteField
       FieldName = 'TranspPesoVol'
     end
+    object tRejUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
+    end
   end
   object tCont: TnxTable
     Database = Dados.db
@@ -3862,6 +3882,10 @@ inherited fbVendas2: TfbVendas2
     end
     object tContTranspPesoVol: TByteField
       FieldName = 'TranspPesoVol'
+    end
+    object tContUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
     end
   end
   object dsCont: TDataSource
@@ -4299,6 +4323,13 @@ inherited fbVendas2: TfbVendas2
     end
     object tMovEstVenDev: TBooleanField
       FieldName = 'VenDev'
+    end
+    object tMovEstUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tMovEstRecVer: TLongWordField
+      FieldName = 'RecVer'
     end
   end
   object tAuxPend: TnxTable

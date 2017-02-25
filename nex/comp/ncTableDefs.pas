@@ -2795,7 +2795,7 @@ begin
         AddField('TranspPesoB', '', nxtDouble, 0, 0, False);
         AddField('TranspPesoL', '', nxtDouble, 0, 0, False);
         AddField('TranspPesoVol', '', nxtByte, 0, 0, False);
-        
+        AddField('UpdID', '', nxtGUID, 0, 0, False);
 
         with AddField('PagPend', '', nxtBoolean, 0, 0, False) do
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do

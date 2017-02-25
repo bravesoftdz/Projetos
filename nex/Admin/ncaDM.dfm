@@ -609,6 +609,10 @@ object Dados: TDados
     object tbTranTranspPesoVol: TByteField
       FieldName = 'TranspPesoVol'
     end
+    object tbTranUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
+    end
   end
   object tbMovEst: TnxTable
     Database = db

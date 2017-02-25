@@ -642,6 +642,13 @@ type
     tvPend2UF: TcxGridDBColumn;
     cmEntrega: TdxBarLargeButton;
     TimerFiltraDados: TTimer;
+    TabUpdID: TGuidField;
+    tPendUpdID: TGuidField;
+    tbMEUID: TGuidField;
+    tMovEstUID: TGuidField;
+    tMovEstRecVer: TLongWordField;
+    tRejUpdID: TGuidField;
+    tContUpdID: TGuidField;
     procedure cmNovoClick(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;
@@ -1088,7 +1095,7 @@ begin
   cmVendaCaixa.Enabled := Permitido(daVendaCaixa);
   cmNovo.Enabled := Permitido(daVendaBalcao);
 
-  FiltraDados;
+  Refresh;
 end;
 
 procedure TfbVendas2.AtualizaOpEntrega;
@@ -1149,8 +1156,7 @@ begin
     aID := tMovEstTran.Value else
     aID := T.FieldByName('ID').AsLongWord;
 
-  if Dados.CancelaVenda(aID) then 
-    FiltraDados;
+  if Dados.CancelaVenda(aID) then Refresh 
 end;
 
 procedure TfbVendas2.cmCfgClick(Sender: TObject);
@@ -1227,7 +1233,7 @@ procedure TfbVendas2.cmDetalhadoClick(Sender: TObject);
 begin
   inherited;
   saveFormOptionBool(Self, 'modoresumido', false);
-  FiltraDados;
+  FiltrarResumido;
 end;
 
 procedure TfbVendas2.cmDetClick(Sender: TObject);
@@ -1272,7 +1278,7 @@ begin
       Dados.EditarTran(tContID.Value);
     end;
   end;
-  FiltraDados;
+  Refresh;
 end;
 
 procedure TfbVendas2.cmEntregaClick(Sender: TObject);
@@ -1387,7 +1393,7 @@ procedure TfbVendas2.cmResumidoClick(Sender: TObject);
 begin
   inherited;
   saveFormOptionBool(Self, 'modoresumido', true);
-  FiltraDados;
+  FiltrarDetalhado;
 end;
 
 procedure TfbVendas2.cmRotaClick(Sender: TObject);
@@ -1476,7 +1482,7 @@ end;
 procedure TfbVendas2.PaginasChange(Sender: TObject);
 begin
   inherited;
-  if not Tab.Active then Exit;
+  if not GetTab.Active then Exit;
 
   AjustaTela;
 
@@ -1633,7 +1639,9 @@ procedure TfbVendas2.cmMostrarDevClick(Sender: TObject);
 begin
   inherited;
   saveFormOptionBool(Self, 'cmMostrarDev', cmMostrarDev.Down);
-  FiltraDados;
+  if cmResumido.Down then 
+    FiltrarResumido else
+    FiltrarDetalhado;  
 end;
 
 procedure TfbVendas2.cmMostrarFinClick(Sender: TObject);
@@ -1645,7 +1653,7 @@ end;
 
 procedure TfbVendas2.FiltraDados;
 begin
-  if not Tab.Active then 
+  if not GetTab.Active then 
     TimerFiltraDados.Enabled := True else
     _FiltraDados;
 end;
@@ -2034,6 +2042,8 @@ end;
 
 procedure TfbVendas2.Refresh;
 begin
+  if not GetTab.Active then Exit;
+  
   RefreshPend;
   if pgModo.ActivePageIndex=0 then
     Tab.Refresh else

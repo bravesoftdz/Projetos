@@ -314,6 +314,8 @@ type
     FTranspPesoB : Double;
     FTranspVol   : Word;
     FTranspPesoVol : Byte; // 0 - nao enviar, 1 - enviar peso auto, 2 - enviar peso manual
+
+    FUpdID   : TGUID;
     
     FItens       : TncItensMovEst;
     function GetStrItens: String;
@@ -341,6 +343,8 @@ type
     procedure Set_tax_incluir(const Value: Currency);
     function GetEndEntrega: String;
     procedure SetEndEntrega(const Value: String);
+    function GetUpdID: String;
+    procedure SetUpdID(const Value: String);
   protected
     function GetChave: Variant; override;
   public
@@ -376,6 +380,9 @@ type
 
     function PagouTotal: Boolean;
 
+    property NativeUpdID: TGuid
+      read FUpdID write FUpdID;
+
     property NativeUID: TGuid
       read GetNativeUID write SetNativeUID;
 
@@ -392,6 +399,9 @@ type
 
     property UID_Ref: String
       read GetUID_Ref write SetUID_Ref;
+
+    property UpdID: String
+      read GetUpdID write SetUpdID;  
 
     property OpDevValor: Byte
       read FOpDevValor write FOpDevValor;
@@ -1414,6 +1424,13 @@ begin
     Result := TGuidEx.ToString(FUID_Ref);
 end;
 
+function TncMovEst.GetUpdID: String;
+begin
+  if TGuidEx.IsEmpty(FUpdID) then
+    Result := '' else
+    Result := TGuidEx.ToString(FUpdID);
+end;
+
 function TncMovEst.Get_tax_incluido: Currency;
 begin
   Result := FItens.get_tax_incluido;
@@ -1429,6 +1446,7 @@ begin
   FID          := -1;
   FUID         := TGuidEx.EmptyGuid;
   FUID_Ref     := TGuidEx.EmptyGuid;
+  FUpdID := TGuidEx.EmptyGuid;
   FOpDevValor  := 0;
   FDataHora    := 0;
   FCliente     := 0;
@@ -1645,6 +1663,13 @@ begin
   if Value='' then
     FUID_Ref := TGuidEx.EmptyGuid else
     FUID_Ref := TGuidEx.FromString(Value);
+end;
+
+procedure TncMovEst.SetUpdID(const Value: String);
+begin
+  if Value='' then
+    FUpdID := TGuidEx.EmptyGuid else
+    FUpdID := TGuidEx.FromString(Value);
 end;
 
 procedure TncMovEst.Set_tax_incluido(const Value: Currency);

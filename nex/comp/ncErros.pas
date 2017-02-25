@@ -81,6 +81,7 @@ const
   ncerrComandaInvalida = 66;
   ncerrNFCeImpedeFecharCaixa = 67;
   ncerrNFCeCancelarModoHomo = 68;  
+  ncerrTranAlteradaOutroUsuario = 69;
 
   ncerrExcecaoNaoTratada_TdmCaixa_AbreCaixa                     = 500;
   ncerrExcecaoNaoTratada_TdmCaixa_FechaCaixa                    = 501;
@@ -292,9 +293,8 @@ begin
       Result := 'Existe NFC-e em situação que impede o fechamento de caixa (Ex: Em contingência, com erro ou com cancelamento em andamento)';
     ncerrNFCeCancelarModoHomo : 
       Result := 'É necessário cancelar a venda feita em modo homologação para realizar essa operação';
-      
-      
-
+    ncerrTranAlteradaOutroUsuario : 
+      Result := SncErros_TranAlteradaOutroUsuario;
     ncerrExcecaoNaoTratada_TdmCaixa_AbreCaixa  :
       Result := SncErros_ExceçãoNãoTratadaNoServidor_TdmCaixa_AbreCaixa;
     ncerrExcecaoNaoTratada_TdmCaixa_FechaCaixa  :

@@ -6,6 +6,7 @@ inherited fbTran: TfbTran
   ClientWidth = 993
   OldCreateOrder = True
   OnDestroy = FrmBasePaiDestroy
+  ExplicitTop = -117
   ExplicitWidth = 1009
   ExplicitHeight = 628
   PixelsPerInch = 96
@@ -1477,6 +1478,22 @@ inherited fbTran: TfbTran
     end
     object QTranspEnt: TLongWordField
       FieldName = 'TranspEnt'
+    end
+    object QTranspVol: TWordField
+      FieldName = 'TranspVol'
+    end
+    object QTranspPesoB: TFloatField
+      FieldName = 'TranspPesoB'
+    end
+    object QTranspPesoL: TFloatField
+      FieldName = 'TranspPesoL'
+    end
+    object QTranspPesoVol: TByteField
+      FieldName = 'TranspPesoVol'
+    end
+    object QUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
     end
   end
 end

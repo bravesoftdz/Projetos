@@ -863,6 +863,7 @@ type
     tbProUID: TGuidField;
     tbProAlteradoEm: TDateTimeField;
     tbProAlteradoPor: TStringField;
+    tbTranUpdID: TGuidField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);
@@ -2260,6 +2261,7 @@ var
   S: String;
   aPrint : Boolean;
 begin
+  DebugMsg(Self, 'OnNFEUpdated - Tran: '+Tran.ToString);
   OnCCEUpdated(Sender, Tran);
   I := TranList.IndexOf(Tran.ToString);
   if (I>=0) and tbTran.Locate('UID', Tran.ToString, []) and 

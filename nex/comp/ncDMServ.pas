@@ -824,6 +824,8 @@ type
     tTranTranspPesoVol: TByteField;
     tAuxTranTranspPesoVol: TByteField;
     mtDebTipo: TByteField;
+    tTranUpdID: TGuidField;
+    tAuxTranUpdID: TGuidField;
     procedure tMovEstCalcFields(DataSet: TDataSet);
     procedure tAuxMECalcFields(DataSet: TDataSet);
     procedure tITranCalcFields(DataSet: TDataSet);
@@ -1715,6 +1717,7 @@ function TDM.CancelarTran(aID: Integer; aFunc: String): integer;
 var 
   NumCx: Integer;
   NewTran: Boolean;
+  P : PmsgNFEupdated;
 
 procedure CancelAndRollback;
 begin
@@ -1763,6 +1766,7 @@ begin
       tTranCanceladoEm.Value := Now;
       if (tTranDataHora.Value=0) or (tTranDataHora.IsNull) then 
         tTranDataHora.Value := tTranCanceladoEm.Value;
+      tTranUpdID.AsGuid := TGuid.NewGuid;  
       tTran.Post;
 
       CancelarPagEsp(tTranID.Value);
@@ -1918,6 +1922,12 @@ begin
         RefreshDebitoCliente;
       end;
       if NewTran then nxDB.Commit;
+
+      New(P);
+      P.msgCCE := False;
+      P.msgUID := tTranUID.AsGuid;
+      PostMessage(CliNotifyHandle, wm_nfeupdated, NativeUInt(P), 0);
+      
     except
       CancelAndRollback;
       Raise;
@@ -1966,6 +1976,7 @@ begin
       tTranCancelado.Value := True;
       tTranCanceladoPor.Value := tNFeCanceladoPor.Value;
       tTranCanceladoEm.Value := Now;
+      tTranUpdID.AsGuid := TGuid.NewGuid;  
       tTranStatusCanc.Value := statuscanc_nfe_ok;
       if (tTranDataHora.Value=0) or (tTranDataHora.IsNull) then 
         tTranDataHora.Value := tTranCanceladoEm.Value;
@@ -4370,6 +4381,12 @@ begin
           Result := ncerros.ncerrExisteTranPosterior;
           Exit;
         end;
+        if (ME.UpdID<>tTranUpdID.Value) then begin
+          DebugMsg(Self, 'SalvaMovEstCustom - ME.UpdID: '+ME.UpdID+' - tTranUpdID.Value: '+tTranUpdID.Value);
+          Result := ncerros.ncerrTranAlteradaOutroUsuario;
+          Exit;
+        end;
+
         MEAnt := TncMovEst.Create;
         MEAnt.LeDataset(tTran);
         if (tTranCaixa.Value<>NumCX) and ((ME.CaixaPag<>NumCx)) and (tTranCaixa.Value>0) then begin
@@ -4427,6 +4444,10 @@ begin
       tTranTranspPesoB.Value := ME.TranspPesoB;
       tTranTranspPesoVol.Value := ME.TranspPesoVol;
       tTranTranspVol.Value := ME.TranspVol;
+      ME.NativeUpdID := TGuid.NewGuid;
+      tTranUpdID.AsGuid := ME.NativeUpdID;
+
+      DebugMsg(Self, 'SalvaMovEstCustom - New UpdID: '+tTranUpdID.Value);
 
       if ME.Tipo=trEstVenda then
         tTranTipoNFE.Value := ME.TipoNFE;
@@ -4546,11 +4567,6 @@ begin
               tTranAmbNFe.Value := tNFConfigtpAmb.Value;
 
             tTran.Post;
-    
-            New(P);
-            P^.msgCCE := True;
-            P^.msgUID := tTranUID.AsGuid;
-            PostMessage(CliNotifyHandle, wm_nfeupdated, NativeUInt(P), 0);        
           end;
   
           trEstDevolucao : if NFeAtivo and (MEAnt=nil) then begin
@@ -4559,11 +4575,6 @@ begin
             tTranAmbNFe.Value := tNFConfigtpAmbNFe.Value;
             tTranTipoNFE.Value := tiponfe_nfe;
             tTran.Post;
-  
-            New(P);
-            P^.msgCCE := False;
-            P^.msgUID := tTranUID.AsGuid;
-            PostMessage(CliNotifyHandle, wm_nfeupdated, NativeUInt(P), 0);        
           end;
         end;
       end;
@@ -4593,6 +4604,12 @@ begin
 
       if NewTran then
         nxDB.Commit;
+
+       New(P);
+       P^.msgCCE := False;
+       P^.msgUID := tTranUID.AsGuid;
+       PostMessage(CliNotifyHandle, wm_nfeupdated, NativeUInt(P), 0);        
+        
         
     except
       if NewTran then 

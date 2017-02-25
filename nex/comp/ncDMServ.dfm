@@ -223,6 +223,10 @@ object DM: TDM
     object tTranTranspPesoVol: TByteField
       FieldName = 'TranspPesoVol'
     end
+    object tTranUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
+    end
   end
   object tITran: TnxTable
     Database = nxDB
@@ -1359,6 +1363,10 @@ object DM: TDM
     IndexName = 'IID'
     Left = 328
     Top = 136
+    object tAuxTranUpdID: TGuidField
+      FieldName = 'UpdID'
+      Size = 38
+    end
     object tAuxTranTranspPesoVol: TByteField
       FieldName = 'TranspPesoVol'
     end

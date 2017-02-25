@@ -198,6 +198,11 @@ type
     QFrete: TCurrencyField;
     QTranspEnt: TLongWordField;
     TVFrete: TcxGridDBColumn;
+    QTranspVol: TWordField;
+    QTranspPesoB: TFloatField;
+    QTranspPesoL: TFloatField;
+    QTranspPesoVol: TByteField;
+    QUpdID: TGuidField;
     procedure FrmBasePaiCreate(Sender: TObject);
     procedure cmFiltroTipoClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;

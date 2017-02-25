@@ -672,6 +672,7 @@ resourcestring
   SncErros_NãoéPermitidoOAcessoDeClienteSem = 'Não é permitido o acesso de cliente sem cadastro';
   SncErros_NãoéPossívelEncerrarOAcessoPoisH = 'Não é possível encerrar o acesso pois há uma impressão aguardando liberação';
   SncErros_FalhaDownloadInt                 = 'Falha no download de arquivo do servidor';
+  SncErros_TranAlteradaOutroUsuario         = 'A transação foi alterada por outro usuário antes de você salvar. Realize novamente a operação';
 
   SncErros_ExceçãoNãoTratadaNoServidor_TdmCaixa_AbreCaixa = 'Exceção não tratada no servidor (TdmCaixa.AbreCaixa)';
   SncErros_ExceçãoNãoTratadaNoServidor_TdmCaixa_FechaCaixa = 'Exceção não tratada no servidor (TdmCaixa.FechaCaixa)';
