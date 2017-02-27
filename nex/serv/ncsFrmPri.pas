@@ -164,12 +164,15 @@ type
 
     procedure wminiciar(var Msg: TMessage);
       message wm_user + 5;
-      
+
     function VersaoStr: String; 
 
     function VersaoCompleta: String; 
 
     procedure On_Error(const s:string);
+
+    procedure OnTimerIniciaAdmin(Sender: TObject);
+    procedure OnTimerMinimizar(Sender: TObject);
 
   public
     Serv : TncServidor;
@@ -474,6 +477,25 @@ begin
   ShellStart(edPasta.Text);
 end;
 
+procedure TfrmPri.OnTimerIniciaAdmin(Sender: TObject);
+begin
+  DebugMsg(Self, 'OnTimerIniciaAdmin');
+  try
+    WinExecAndWait32(ExtractFilePath(ParamStr(0))+'NexAdmin.exe afterinst', SW_SHOWNORMAL, False);
+  finally
+    Sender.Free;
+  end;
+end;
+
+procedure TfrmPri.OnTimerMinimizar(Sender: TObject);
+begin
+  try
+    btnMinimizarClick(nil);
+  finally
+    Sender.Free;
+  end;
+end;
+
 procedure TfrmPri.On_Error(const s: string);
 begin
   DebugMsg('ERRO Remote Control: '+s);
@@ -536,6 +558,8 @@ end;
 
 procedure TfrmPri.wminiciar(var Msg: TMessage);
 begin
+  DebugMsg(Self, 'wminiciar 1');
+
   try
     if not Serv.Ativo then Ativar;
   finally
@@ -545,14 +569,29 @@ begin
   Tray.Active := True;
 
   if Serv.Ativo then begin
+    DebugMsg(Self, 'wminiciar 2');
+    with TTimer.Create(Self) do begin
+      Interval := 500;
+      OnTimer := OnTimerMinimizar;
+      Enabled := True;
+    end;    
     PostMessage(Handle, wm_user+4, 0, 0);
-    if SameText(ParamStr(1), 'afterinst') or SameText(ParamStr(2), 'afterinst') then 
-      WinExecAndWait32(ExtractFilePath(ParamStr(0))+'NexAdmin.exe afterinst', SW_SHOWNORMAL, False);
-  end;
+    if SameText(ParamStr(1), 'afterinst') or SameText(ParamStr(2), 'afterinst') then begin
+      DebugMsg(Self, 'afterinst');
+      with TTimer.Create(Self) do begin
+        Interval := 2000;
+        OnTimer := OnTimerIniciaAdmin;
+        Enabled := True;
+      end;
+    end;
+  end else
+    DebugMsg(Self, 'wminiciar 3');
+  DebugMsg(Self, 'wminiciar 4');
 end;
 
 procedure TfrmPri.wmminimizar(var Msg: TMessage);
 begin
+   DebugMsg(Self, 'wmminimizar');
    btnMinimizarClick(nil);
 end;
 
@@ -627,6 +666,7 @@ var
   sPath : String; 
   S: String;
 begin
+  DebugMsg(Self, 'Ativar');
   try
     sPath := ExtractFilePath(ParamStr(0));
     S := sPath + PastaDados;
@@ -945,17 +985,12 @@ begin
   hndFrmPri := Handle;
   hndNotify := Handle;
 
-  DebugMsg('FormShow - ' + IntToStr(Integer(FPrimeiro)));
+  DebugMsg(Self, 'FormShow - ' + FPrimeiro.ToString);
   
   PostMessage(Handle, wm_user+5, 0, 0);
   FPrimeiro := False;
   AtualizaDadosComp;
-  {$IFDEF Lan}
-  Paginas.ActivePageIndex := 0;
-  {$ENDIF}
-  {$IFDEF Loja}
   Paginas.ActivePageIndex := 1;
-  {$ENDIF}
 end;
 
 procedure TfrmPri.FreeCaption(S: String);

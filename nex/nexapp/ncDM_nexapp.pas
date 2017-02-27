@@ -1354,10 +1354,16 @@ begin
 end;
 
 procedure TThread_nexapp.Execute;
-var dm : TdmNexApp;
+var 
+  dm : TdmNexApp;
+  FPrimeiro : Boolean;
+  C: Cardinal;
 begin
   dm := TdmNexApp.Create(nil);
   try
+    C := GetTickCount;
+    while ((GetTickCount-C) < 10000) and (not Terminated) do Sleep(1000);
+    
     dm.OnTerminateEvent := onterm;
     dm.Open;
     dm.PrimeiraCarga;

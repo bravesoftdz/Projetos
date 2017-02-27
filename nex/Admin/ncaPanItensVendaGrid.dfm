@@ -1,19 +1,19 @@
 inherited panItensVendaGrid: TpanItensVendaGrid
   Caption = 'panItensVendaGrid'
-  ClientHeight = 389
-  ClientWidth = 1016
-  ExplicitWidth = 1032
-  ExplicitHeight = 428
+  ClientHeight = 391
+  ClientWidth = 711
+  ExplicitWidth = 727
+  ExplicitHeight = 430
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
-    Width = 1016
-    Height = 389
+    Width = 711
+    Height = 391
     ExplicitWidth = 1016
     ExplicitHeight = 389
     inherited panTot: TLMDSimplePanel
-      Top = 342
-      Width = 1016
+      Top = 344
+      Width = 711
       Color = clWhite
       TabOrder = 2
       ExplicitTop = 342
@@ -53,7 +53,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         Colorize = True
       end
       object panSubTotal: TLMDSimplePanel
-        Left = 792
+        Left = 487
         Top = 0
         Width = 224
         Height = 47
@@ -64,6 +64,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         ParentColor = True
         TabOrder = 2
         Visible = False
+        ExplicitLeft = 792
         object cxLabel3: TcxLabel
           AlignWithMargins = True
           Left = 0
@@ -123,8 +124,8 @@ inherited panItensVendaGrid: TpanItensVendaGrid
     object Grid: TcxGrid
       Left = 0
       Top = 25
-      Width = 1016
-      Height = 317
+      Width = 711
+      Height = 319
       Margins.Left = 0
       Margins.Right = 0
       Margins.Bottom = 0
@@ -133,7 +134,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
       Font.Charset = ANSI_CHARSET
       Font.Color = clWindowText
       Font.Height = -24
-      Font.Name = 'Tahoma'
+      Font.Name = 'Segoe UI'
       Font.Style = []
       ParentFont = False
       TabOrder = 0
@@ -143,6 +144,9 @@ inherited panItensVendaGrid: TpanItensVendaGrid
       OnResize = GridResize
       LookAndFeel.Kind = lfFlat
       LookAndFeel.NativeStyle = False
+      ExplicitTop = 113
+      ExplicitWidth = 1016
+      ExplicitHeight = 317
       object TV: TcxGridTableView
         PopupMenu = pmPop
         Navigator.Buttons.CustomButtons = <>
@@ -306,7 +310,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
     object panTop: TLMDSimplePanel
       Left = 0
       Top = 0
-      Width = 1016
+      Width = 711
       Height = 25
       Hint = ''
       Align = alTop
@@ -314,8 +318,9 @@ inherited panItensVendaGrid: TpanItensVendaGrid
       Bevel.StandardStyle = lsNone
       Color = clWhite
       TabOrder = 1
+      ExplicitWidth = 1016
       object btnFontUp: TcxButton
-        Left = 970
+        Left = 665
         Top = 0
         Width = 23
         Height = 25
@@ -346,6 +351,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         SpeedButtonOptions.Transparent = True
         TabOrder = 0
         OnClick = btnFontUpClick
+        ExplicitLeft = 970
       end
       object lbItens: TcxLabel
         AlignWithMargins = True
@@ -373,13 +379,14 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         Properties.Alignment.Horz = taCenter
         Properties.Alignment.Vert = taVCenter
         Transparent = True
+        ExplicitWidth = 815
         Height = 25
-        Width = 815
-        AnchorX = 540
+        Width = 510
+        AnchorX = 387
         AnchorY = 13
       end
       object btnFontDown: TcxButton
-        Left = 993
+        Left = 688
         Top = 0
         Width = 23
         Height = 25
@@ -410,9 +417,10 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         SpeedButtonOptions.Transparent = True
         TabOrder = 2
         OnClick = btnFontDownClick
+        ExplicitLeft = 993
       end
       object btnBold: TcxButton
-        Left = 947
+        Left = 642
         Top = 0
         Width = 23
         Height = 25
@@ -426,6 +434,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         SpeedButtonOptions.Transparent = True
         TabOrder = 3
         OnClick = btnBoldClick
+        ExplicitLeft = 947
       end
       object lbMostrarCod: TcxLabel
         AlignWithMargins = True

@@ -9,7 +9,8 @@ uses
   cxLookAndFeels, cxLookAndFeelPainters, cxPC, Registry, LMDCustomComponent,
   LMDBaseController, LMDCustomContainer, LMDGenericList, cxPCdxBarPopupMenu,
   cxContainer, cxEdit, cxRadioGroup, cxCheckBox, PngImage, frxClass,
-  dxBarBuiltInMenu, Winapi.ShellAPI, dxGDIPlusClasses;
+  dxBarBuiltInMenu, Winapi.ShellAPI, dxGDIPlusClasses, Vcl.Menus, cxButtons,
+  cxLabel;
   
 type
   TFrmPri = class(TForm)
@@ -24,7 +25,7 @@ type
     Label10: TLabel;
     Image4: TImage;
     edPasta: TEdit;
-    btnPasta: TButton;
+    btnPasta: TcxButton;
     tsInstalar: TcxTabSheet;
     LMDSimplePanel4: TLMDSimplePanel;
     Label11: TLabel;
@@ -32,9 +33,8 @@ type
     Image5: TImage;
     meTermos: TMemo;
     LMDSimplePanel5: TLMDSimplePanel;
-    btnCancelar: TButton;
-    btnAvancar: TButton;
-    btnVoltar: TButton;
+    btnAvancar: TcxButton;
+    btnVoltar: TcxButton;
     Timer1: TTimer;
     Image6: TImage;
     Label15: TLabel;
@@ -46,6 +46,8 @@ type
     rbLocal: TcxRadioButton;
     rbRede: TcxRadioButton;
     cbConcordo: TCheckBox;
+    Timer2: TTimer;
+    btnCancelar: TcxLabel;
     procedure btnCancelarClick(Sender: TObject);
     procedure btnAvancarClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -57,6 +59,7 @@ type
     function fullexe(prog: byte): String;
     procedure rbRedeClick(Sender: TObject);
     procedure rbLocalClick(Sender: TObject);
+    procedure Timer2Timer(Sender: TObject);
   private
     { Private declarations }
     procedure LeDadosReg;
@@ -262,33 +265,16 @@ begin
         cbConcordo.SetFocus;
         Exit;
       end;
-      Paginas.ActivePageIndex := Paginas.ActivePageIndex + 1;
       try SalvaReg except end;
-      if rbRede.Checked and (not cbServ.Checked) then 
-        S := '/type=Admin'  else
-        S := '/type=Servidor';
-      sExe := IncludeTrailingBackslash(GetTempDirectory)+'setup_nex_.exe';
-      genList.Items[0].SaveToFile(sExe);
-      btnCancelar.Enabled := False;
-      FecharProg('NexAdmin.exe');
-      if rbLocal.Checked or cbServ.Checked then 
-        FecharProg('NexServ.exe');
-
-      if FechouAdmin or FechouServ then
-        cbExec1.Visible := False;  
-        
-      if WinExecAndWait32(sExe + ' /dir="'+edPasta.Text+'" /silent '+S, SW_SHOWNORMAL, True)<>0 then
-        Close;
-
-      if Pos('PREMIUM', UpperCase(ParamStr(0)))>0 then SalvaPlanoPremium;
-        
-      try  
-        try allowexceptionsonFirewall except end;
-        if rbLocal.Checked or cbServ.Checked then 
-          addApplicationToFirewall('Nex Servidor', fullexe(1));
-        addApplicationToFirewall('Nex Admin', fullexe(2));
-      except
-      end;
+ 
+      btnAvancar.Enabled := False;
+      btnVoltar.Enabled := False;
+      Paginas.Enabled := False;
+      Cursor := crHourGlass;
+      Paginas.Cursor := crHourGlass;
+      tsInstalar.Cursor := crHourGlass;
+      Screen.Cursor := crHourGlass;
+      Timer2.Enabled := True;
     end;
     
     3 : begin
@@ -387,8 +373,8 @@ begin
     btnAvancar.Caption := 'Avançar >';
   end;
   
-  btnVoltar.Visible := not (Paginas.ActivePageIndex in [0, 3]);
-  btnCancelar.Visible := (Paginas.ActivePageIndex <> 3);
+  btnVoltar.Enabled := not (Paginas.ActivePageIndex in [0, 3]);
+  btnCancelar.Enabled := (Paginas.ActivePageIndex <> 3);
 end;
 
 procedure TFrmPri.rbLocalClick(Sender: TObject);
@@ -441,6 +427,45 @@ procedure TFrmPri.Timer1Timer(Sender: TObject);
 begin
   Timer1.Enabled := False;
   Top := Top - 24;
+end;
+
+procedure TFrmPri.Timer2Timer(Sender: TObject);
+var S, sExe: String;
+begin
+      FecharProg('NexAdmin.exe');
+      if rbLocal.Checked or cbServ.Checked then 
+        FecharProg('NexServ.exe');
+
+      if FechouAdmin or FechouServ then
+        cbExec1.Visible := False; 
+        
+  Timer2.Enabled := False;
+    if rbRede.Checked and (not cbServ.Checked) then 
+      S := '/type=Admin'  else
+      S := '/type=Servidor';
+    sExe := IncludeTrailingBackslash(GetTempDirectory)+'setup_nex_.exe';
+    genList.Items[0].SaveToFile(sExe);  
+    if WinExecAndWait32(sExe + ' /dir="'+edPasta.Text+'" /silent '+S, SW_SHOWNORMAL, True)<>0 then
+      Close;
+
+  Screen.Cursor := crDefault;
+      
+  Cursor := crDefault;
+  Paginas.Enabled := True;
+  btnAvancar.Enabled := True;
+  Paginas.ActivePageIndex := Paginas.ActivePageIndex + 1;
+  btnCancelar.Enabled := False;
+         
+
+  if Pos('PREMIUM', UpperCase(ParamStr(0)))>0 then SalvaPlanoPremium;
+        
+  try  
+    try allowexceptionsonFirewall except end;
+    if rbLocal.Checked or cbServ.Checked then 
+      addApplicationToFirewall('Nex Servidor', fullexe(1));
+    addApplicationToFirewall('Nex Admin', fullexe(2));
+  except
+  end;
 end;
 
 end.

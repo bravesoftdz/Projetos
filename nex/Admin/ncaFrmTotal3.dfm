@@ -5,10 +5,10 @@ object FrmTotal3: TFrmTotal3
   ClientHeight = 427
   ClientWidth = 1089
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
+  Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Segoe UI'
   Font.Style = []
   OldCreateOrder = False
   OnCreate = FormCreate
@@ -48,9 +48,10 @@ object FrmTotal3: TFrmTotal3
         Align = alTop
         Bevel.Mode = bmCustom
         TabOrder = 0
+        ExplicitTop = 77
         object lbTotal: TcxLabel
           AlignWithMargins = True
-          Left = 29
+          Left = 65
           Top = 0
           Margins.Left = 0
           Margins.Top = 0
@@ -59,10 +60,10 @@ object FrmTotal3: TFrmTotal3
           Align = alRight
           Caption = 'Total = R$ 0,00'
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -48
-          Style.Font.Name = 'Tahoma'
+          Style.Font.Name = 'Segoe UI'
           Style.Font.Style = [fsBold]
           Style.LookAndFeel.Kind = lfUltraFlat
           Style.TextColor = clBlack
@@ -82,7 +83,7 @@ object FrmTotal3: TFrmTotal3
         Left = 0
         Top = 153
         Width = 417
-        Height = 78
+        Height = 88
         Hint = ''
         AutoSize = True
         Align = alTop
@@ -91,7 +92,7 @@ object FrmTotal3: TFrmTotal3
         object lbPontosDisp: TcxLabel
           AlignWithMargins = True
           Left = 0
-          Top = 39
+          Top = 44
           Margins.Left = 0
           Margins.Top = 0
           Margins.Right = 7
@@ -99,11 +100,11 @@ object FrmTotal3: TFrmTotal3
           Align = alTop
           Caption = 'Pontos Dispon'#237'veis = 500'
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -29
-          Style.Font.Name = 'Tahoma'
-          Style.Font.Style = []
+          Style.Font.Name = 'Segoe UI Semibold'
+          Style.Font.Style = [fsBold]
           Style.LookAndFeel.Kind = lfUltraFlat
           Style.TextColor = clBlack
           Style.TextStyle = []
@@ -113,9 +114,8 @@ object FrmTotal3: TFrmTotal3
           StyleHot.LookAndFeel.Kind = lfUltraFlat
           Properties.Alignment.Horz = taRightJustify
           Properties.Alignment.Vert = taVCenter
-          ExplicitTop = 21
           AnchorX = 410
-          AnchorY = 59
+          AnchorY = 66
         end
         object lbPontosNec: TcxLabel
           AlignWithMargins = True
@@ -128,11 +128,11 @@ object FrmTotal3: TFrmTotal3
           Align = alTop
           Caption = 'Pontos Necess'#225'rios = 100'
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -29
-          Style.Font.Name = 'Tahoma'
-          Style.Font.Style = []
+          Style.Font.Name = 'Segoe UI Semibold'
+          Style.Font.Style = [fsBold]
           Style.LookAndFeel.Kind = lfUltraFlat
           Style.TextColor = clBlack
           Style.TextStyle = []
@@ -143,7 +143,7 @@ object FrmTotal3: TFrmTotal3
           Properties.Alignment.Horz = taRightJustify
           Properties.Alignment.Vert = taVCenter
           AnchorX = 410
-          AnchorY = 20
+          AnchorY = 22
         end
       end
       object panDesconto: TLMDSimplePanel
@@ -158,17 +158,17 @@ object FrmTotal3: TFrmTotal3
         TabOrder = 2
         object lbDesconto: TcxLabel
           AlignWithMargins = True
-          Left = 314
+          Left = 320
           Top = 3
           Cursor = crHandPoint
           Margins.Right = 7
           Align = alRight
           Caption = 'R$ 0,00'
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -24
-          Style.Font.Name = 'Tahoma'
+          Style.Font.Name = 'Segoe UI'
           Style.Font.Style = [fsBold]
           Style.HotTrack = True
           Style.LookAndFeel.Kind = lfUltraFlat
@@ -199,11 +199,11 @@ object FrmTotal3: TFrmTotal3
           Align = alClient
           Caption = 'Desconto ='
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -24
-          Style.Font.Name = 'Tahoma'
-          Style.Font.Style = []
+          Style.Font.Name = 'Segoe UI Semibold'
+          Style.Font.Style = [fsBold]
           Style.HotTrack = True
           Style.LookAndFeel.Kind = lfUltraFlat
           Style.TextColor = clRed
@@ -218,7 +218,8 @@ object FrmTotal3: TFrmTotal3
           Properties.Alignment.Horz = taRightJustify
           Properties.Alignment.Vert = taVCenter
           OnClick = lbEditDescontoClick
-          AnchorX = 301
+          ExplicitWidth = 301
+          AnchorX = 307
           AnchorY = 20
         end
       end
@@ -235,16 +236,16 @@ object FrmTotal3: TFrmTotal3
         Visible = False
         object lbTaxTotal: TcxLabel
           AlignWithMargins = True
-          Left = 314
+          Left = 320
           Top = 3
           Margins.Right = 7
           Align = alRight
           Caption = 'R$ 0,00'
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -24
-          Style.Font.Name = 'Tahoma'
+          Style.Font.Name = 'Segoe UI'
           Style.Font.Style = [fsBold]
           Style.LookAndFeel.Kind = lfUltraFlat
           Style.TextColor = clGray
@@ -271,11 +272,11 @@ object FrmTotal3: TFrmTotal3
           Align = alClient
           Caption = 'Sales tax 10% ='
           ParentFont = False
-          Style.Font.Charset = DEFAULT_CHARSET
+          Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clRed
           Style.Font.Height = -24
-          Style.Font.Name = 'Tahoma'
-          Style.Font.Style = []
+          Style.Font.Name = 'Segoe UI Semibold'
+          Style.Font.Style = [fsBold]
           Style.LookAndFeel.Kind = lfUltraFlat
           Style.TextColor = clGray
           Style.TextStyle = []
@@ -287,7 +288,8 @@ object FrmTotal3: TFrmTotal3
           Properties.Alignment.Horz = taRightJustify
           Properties.Alignment.Vert = taVCenter
           OnClick = lbEditDescontoClick
-          AnchorX = 301
+          ExplicitWidth = 301
+          AnchorX = 307
           AnchorY = 20
         end
       end

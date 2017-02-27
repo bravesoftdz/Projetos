@@ -196,7 +196,7 @@ type
     function LeDadosNF: Boolean;
 
     //procedure SetMostrarUnit(const Value: Boolean);
-    procedure SetTamanho(Value: byte);
+    procedure SetTamanho(Value: byte);                            
 
     procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double);
 

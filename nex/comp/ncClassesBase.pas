@@ -800,6 +800,8 @@ type
     Ffmt_sep_decimal       : string;
     Ffmt_sep_milhar        : string;
 
+    FLastApplyFmtMoeda     : String;
+
     FExigirVendedor        : Boolean;
 
     FValOrc_Tempo          : Word;
@@ -3358,6 +3360,7 @@ end;
 constructor TncConfig.Create;
 begin
   inherited;
+  FLastApplyFmtMoeda := '';
   FslFlags := TStringList.Create;
   FCamposCliCC := TStringList.Create;
  
@@ -3787,7 +3790,18 @@ begin
   while Length(Result)<F.CurrencyDecimals do Result := Result + '0';
 end;
 
+function strparmoeda: String;
 begin
+  Result := FFmt_Moeda.ToString+
+            FFmt_decimais.ToString+
+            FFmt_simbmoeda+
+            FFmt_sep_decimal+
+            FFmt_sep_milhar;
+end;
+
+begin
+  if FLastApplyFmtMoeda=strparmoeda then Exit;
+  FLastApplyFmtMoeda := strparmoeda;
   try
     if Ffmt_moeda then begin
       DebugMsg(Self, 'ApplyFmtMoeda 1');
@@ -3814,10 +3828,13 @@ begin
       dxFormatSettings.ThousandSeparator := F.ThousandSeparator;
       if F.CurrencyDecimals > 0 then
         cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf else
-        cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf;    
+        cxFormatController.CurrencyFormat := F.CurrencyString+' ,0.'+zerosf+';-'+F.CurrencyString+' ,0.'+zerosf;
     end;
     DebugMsg(Self, 'ApplyFmtMoeda 3');
-    cxFormatController.TranslationChanged;
+    if not LadoServidor then begin
+      DebugMsg(Self, 'TranslationChanged');
+      cxFormatController.TranslationChanged;
+    end;
     DebugMsg(Self, 'ApplyFmtMoeda 4');
   except
     on E: Exception do 

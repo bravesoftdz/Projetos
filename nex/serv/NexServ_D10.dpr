@@ -145,7 +145,7 @@ begin
   NomeArqDebug := 'DebugNexServ.txt';
   if not ExeJaExiste then begin
     Application.CreateForm(TfrmPri, frmPri);
-  Application.Run;
+    Application.Run;
     EncerrarThreads := True;
   end;
 end.

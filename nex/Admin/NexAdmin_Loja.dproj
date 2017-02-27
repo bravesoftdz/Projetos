@@ -104,8 +104,8 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <DCC_Hints>false</DCC_Hints>
         <DCC_UseMSBuildExternally>false</DCC_UseMSBuildExternally>
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
-        <VerInfo_Build>357</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.357;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.357;Comments=</VerInfo_Keys>
+        <VerInfo_Build>358</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.358;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.358;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <ProjectExtensions>
@@ -412,15 +412,15 @@ $(PostBuildEvent)]]></PostBuildEvent>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
-                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="C:\Meus Programas\Nex\NexAdmin_Loja.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>NexAdmin_Loja.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
