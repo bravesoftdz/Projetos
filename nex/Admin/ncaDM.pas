@@ -231,17 +231,11 @@ type
     tbTranCaixaPag: TLongWordField;
     tbEspecieTipo: TByteField;
     tbProID: TUnsignedAutoIncField;
-    tbProCodigo: TStringField;
-    tbProDescricao: TStringField;
-    tbProUnid: TStringField;
     tbProPreco: TCurrencyField;
     tbProPrecoAuto: TBooleanField;
     tbProMargem: TFloatField;
-    tbProObs: TnxMemoField;
     tbProImagem: TGraphicField;
-    tbProCategoria: TStringField;
     tbProFornecedor: TLongWordField;
-    tbProSubCateg: TStringField;
     tbProEstoqueAtual: TFloatField;
     tbProCustoUnitario: TCurrencyField;
     tbProPodeAlterarPreco: TBooleanField;
@@ -864,6 +858,17 @@ type
     tbProAlteradoEm: TDateTimeField;
     tbProAlteradoPor: TStringField;
     tbTranUpdID: TGuidField;
+    tbProMarca: TGuidField;
+    tbProCodigo: TWideStringField;
+    tbProDescricao: TWideStringField;
+    tbProUnid: TWideStringField;
+    tbProObs: TWideMemoField;
+    tbProCategoria: TWideStringField;
+    tbMarca: TnxTable;
+    tbMarcaID: TUnsignedAutoIncField;
+    tbMarcaUID: TGuidField;
+    tbMarcaNome: TWideStringField;
+    tbMarcaRecVer: TLongWordField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);
@@ -937,6 +942,8 @@ type
     procedure OnProgressoDepend(aEtapa, aProgresso : Byte; aErro : Integer; aErroStr: String);
 
     procedure LoadReportFromDoc(aReport: TfrxReport; aDoc: String = '');
+
+    procedure ApagaMarcaVazia;
 
     function FindDoc(aDoc: String): Boolean;
 
@@ -1639,6 +1646,7 @@ begin
   db.Connected:= true;
   LoadTransp;
   tCCE.Open;
+  tbMarca.Open;
   tbTipoTranEst.Open;
   tbTipoTranCx.Open;
   tbTipoTran.Open;
@@ -3552,6 +3560,12 @@ begin
   finally
     tbTran.IndexName := SIndex;
   end;
+end;
+
+procedure TDados.ApagaMarcaVazia;
+begin
+  if tbMarca.Locate('UID', incluir_marca, []) then 
+    tbMarca.Delete;
 end;
 
 procedure TDados.FecharDB;

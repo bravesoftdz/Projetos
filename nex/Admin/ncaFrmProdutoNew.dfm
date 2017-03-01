@@ -1,9 +1,9 @@
-object FrmProduto: TFrmProduto
+object FrmProdutoNew: TFrmProdutoNew
   Left = 282
   Top = 164
   Caption = 'Dados do Produto ou Servi'#231'o'
   ClientHeight = 695
-  ClientWidth = 1131
+  ClientWidth = 1047
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -70,7 +70,7 @@ object FrmProduto: TFrmProduto
   object LMDSimplePanel2: TLMDSimplePanel
     Left = 0
     Top = 44
-    Width = 1131
+    Width = 1047
     Height = 651
     Hint = ''
     Margins.Left = 0
@@ -82,9 +82,9 @@ object FrmProduto: TFrmProduto
     Bevel.StandardStyle = lsNone
     TabOrder = 0
     object Paginas: TcxPageControl
-      Left = 0
+      Left = 80
       Top = 0
-      Width = 924
+      Width = 760
       Height = 651
       Cursor = crHandPoint
       Margins.Left = 0
@@ -99,7 +99,7 @@ object FrmProduto: TFrmProduto
       Font.Style = []
       ParentFont = False
       TabOrder = 0
-      Properties.ActivePage = tsDados
+      Properties.ActivePage = tsOpcoes
       Properties.CustomButtons.Buttons = <>
       Properties.HotTrack = True
       Properties.NavigatorPosition = npLeftTop
@@ -108,7 +108,7 @@ object FrmProduto: TFrmProduto
       LookAndFeel.Kind = lfFlat
       LookAndFeel.NativeStyle = False
       ClientRectBottom = 651
-      ClientRectRight = 924
+      ClientRectRight = 760
       ClientRectTop = 28
       object tsDados: TcxTabSheet
         Caption = 'Dados'
@@ -117,7 +117,7 @@ object FrmProduto: TFrmProduto
           AlignWithMargins = True
           Left = 7
           Top = 7
-          Width = 917
+          Width = 753
           Height = 616
           Hint = ''
           Margins.Left = 7
@@ -126,14 +126,14 @@ object FrmProduto: TFrmProduto
           Margins.Bottom = 0
           Align = alClient
           Bevel.BorderColor = clBtnText
-          Bevel.Mode = bmStandard
+          Bevel.Mode = bmEdge
           Bevel.StandardStyle = lsNone
           TabOrder = 0
           object LC: TdxLayoutControl
-            Left = 0
-            Top = 0
-            Width = 917
-            Height = 616
+            Left = 2
+            Top = 2
+            Width = 749
+            Height = 612
             Margins.Left = 7
             Margins.Top = 7
             Margins.Right = 0
@@ -148,87 +148,38 @@ object FrmProduto: TFrmProduto
             TabOrder = 0
             LayoutLookAndFeel = lfProd
             OptionsImage.Images = dmImagens.im24
+            object dxBevel2: TdxBevel
+              Left = 10
+              Top = 283
+              Width = 817
+              Height = 3
+              Shape = dxbsLineCenteredVert
+            end
             object dxBevel1: TdxBevel
               Left = 10
-              Top = 158
-              Width = 880
+              Top = 121
+              Width = 817
               Height = 5
               Shape = dxbsLineCenteredVert
             end
-            object img: TImage
-              Left = 10000
-              Top = 10000
-              Width = 48
-              Height = 48
-              Margins.Left = 0
-              Margins.Top = 0
-              Margins.Right = 0
-              Margins.Bottom = 0
-              AutoSize = True
-              Constraints.MaxHeight = 48
-              Constraints.MinWidth = 48
-              Picture.Data = {
-                0B546478504E47496D61676589504E470D0A1A0A0000000D4948445200000030
-                0000003008060000005702F987000000017352474200AECE1CE9000000046741
-                4D410000B18F0BFC6105000000097048597300000EBC00000EBC0195BC724900
-                000651494441546843D5985B6C54551486B98A0113630CFA60220F46E5C134F1
-                41628C31C20B468BA02025A951E3157CA025B5174B63F4018A56A4B480102F95
-                D42A9896516AA1530484D2F482D32A6DDA5229B74A531BAA9502BD4DBBFDFFCD
-                D9877DCEEC694FC781382BF932FBACBDD65EFF9AD9FBCC9999248488698CCE58
-                C2E88C258CCE58C2E88C258CCE58C2E88C258CCE58C2E88C25263D53B26E3E68
-                01E27F0E35CE3735100BE2152DA6064C8192BEC17EC4DC5C7B764FB6518B02E6
-                AD8184BD1BC5E8E828136EAABDBA7FAB518F02E6AD81DC5F4A19ECD97A07AE88
-                EF5AAB44FA9142F1D2BE3C09C7F471CEABB1AE498F02367E03AFECCB173D572F
-                31D893F9CFFC2A5EF82127641D05E718E3C54EF7FE29168DB18D60E60696F836
-                8837FD9F8A2F4EFC34A177ACA8F9684891EA0B27457D577B889FB15EAC02CD86
-                3B0B30730391586547B3BD30B7CCE768FEE0B91322383222464647C4CFE79BC4
-                D686FD6299F6E930C765BDA0026C075F8100089EFDA75BE405CAC41BFE6DF2CD
-                55F9B0E834D03F3C28127FCC95B91B6A7D622038240F7D6BCF1FF295B4FDD529
-                632F623BAEAAD8216399C35C581D5808A603872870075805AE2D00D3743A6223
-                6E605F7B40E62DC7DD6A607848FAD65797481F3F01C2F16E1C621AB795556BB8
-                AC3D9009D734E01063E076500C542E878E98881B585B5924F35656F093BF662B
-                4A374A9FDEC0F3DF7F246F0A569D119088505B404646C65250098405C74BB598
-                C9E0132B1FC3EBB924E20696EFFD58E6C597ACB7B70A5FB36BF68820F6BF6AC0
-                451EC26461889C0ADA2DD1263837D58A9F81DC035C43E52B226AE02AF6B0CA23
-                FCD2DBD356232E0D5EB522847D067C6DB5E2F5F26D8CEB00B7624A3530A0890D
-                C7808A47EEFD8087C753038E20173884438E06148B71B7C8AAFC8621D22EF4F5
-                C8D7A1E0B0D8787CEFBB18CA3520ACCC25742CCA541E6A14AAB12292061A81BD
-                8514EA56C92DA58CD7EF57ED969FC66070380E2E8A9FED12E885D9CCC57AFAD9
-                908CD9C01319A542A17C60332FD4215E575D2C6F93CD173BE435A1601AC7F1E0
-                CAD0C0DFB894FB1962D25CE2BC90C65CAC77375F75C66BE0A2D6C44396FF3106
-                E05628F3DEF26F975B84C6E71E6E231E60DA12DF87A2F8643587F540AE093185
-                2E715E08D93A8AF11A68D41A5862F9F94ED6AA1813F804788FB71B0B74B5EB0D
-                14B8C479A140E5BB09D700EFBD6CA0506B60077D168F6AE3704CFBECB70362CD
-                A102AEDF03E49A10B3DA25CE0BAB998B35EED2D697D80DBC8C2F9B770EEF14BB
-                5A8E71CFCEE424442FD31AB80CEED193717DAF364FF896DBF358779A5A1F3C48
-                1FC4CC7289F3C22C6BBDE7F4F589DD800E9E4A1FE72404DD02CE6B02CB81FA72
-                91E0FA3E6DDED804EF50FE330D29CA0741133907F6FEC75A5FAAB1C2D800F856
-                054050A24BA00FDCA62F82EBB9DA3C713481C7733EB0FD0E66285F7A7A7A3730
-                0996708E312A1E9AE600FEC6B5D725E11A18C473CD9D2A088276BA049E05AF01
-                F9D15A3171D69CC2D1046013EFE9BEB4B4B4C6D4D4542956174E1FE7541CF44C
-                077E6A533E45B806C8D72A0862A683124D9C6210348123E0B0E5D3E163AA2AC6
-                3B131F91EDE2242727E7E9F48C8CC09A94144138A64F8F81969920139CD3FD84
-                9363FDADF2A20A8498292013F45BE2BCA23761939F9F5FD077F972695B4BCB02
-                F71C7D9C638CEE879E90DF0E748EF5C7D61058AC2740D01C900BBA2C8163A2E7
-                126C9104D09E9C9C2CCACBCB392F2D38325A4AAC4B39C718C632072EC73A0AA3
-                D30B1037193C009E0209C07DD811763D1EFB7B0A18D5F73AF63963446F438DA8
-                7A78B684631AE718A3E2ADDC959872E8705C440AC4B299B0E28926C426292949
-                9C3A758AB1A27EC593121A7D9C33E500C7BF738E229110A9789282435B5454C4
-                78717C619C84461FE74C391676138E4213E5BF8827721B65AE15FD4D0151BB60
-                AE8463FA5CDBC7443CD777149B281EC4FB5C454348C63BDDDDD62C028B1E9170
-                4C9F29D6858F351C05A30D8A74BA8A86C0ADD2D4D22A5ADF5E2EE1789CEDA3E0
-                0FF11BDE80A9B003DE6DFC070F89CE6DD9128EE933C5BA610D63E168612A6A62
-                D3962D76031C9B624CB086B170B4301535B169739E381DA895706C8A31C11AC6
-                C2D10245AADD454D64656589C6C64609C7A61803FCAD7AC31B9809C63DC8BC65
-                1617174B3CDC3E09D7943FBA8C85A30D8ACD031F805DC00F8E813A506B5107E1
-                4789DB0F18CB1CE6728D79FADA8E42B18798F42F83D6EEE81A833BA100000000
-                49454E44AE426082}
-              Visible = False
-            end
-            object dxBevel2: TdxBevel
+            object dxBevel4: TdxBevel
               Left = 10
-              Top = 320
-              Width = 880
+              Top = 405
+              Width = 817
+              Height = 3
+              Shape = dxbsLineCenteredVert
+            end
+            object dxBevel5: TdxBevel
+              Left = 10
+              Top = 740
+              Width = 817
+              Height = 3
+              Shape = dxbsLineCenteredVert
+            end
+            object dxBevel3: TdxBevel
+              Left = 10
+              Top = 820
+              Width = 817
               Height = 3
               Shape = dxbsLineCenteredVert
             end
@@ -270,11 +221,121 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               Style.IsFontAssigned = True
               TabOrder = 2
-              Width = 750
+              Width = 687
+            end
+            object edAtual: TcxCurrencyEdit
+              Left = 140
+              Top = 294
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              EditValue = 0.000000000000000000
+              ParentFont = False
+              Properties.DecimalPlaces = 5
+              Properties.DisplayFormat = '0.####'
+              Properties.EditFormat = '0.####'
+              Properties.ImeName = 'g'
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -16
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.StyleController = escFlat
+              Style.TextStyle = [fsBold]
+              Style.IsFontAssigned = True
+              TabOrder = 14
+              Width = 189
+            end
+            object cbNaoControlaEstoque: TcxDBCheckBox
+              Left = 337
+              Top = 298
+              Cursor = crHandPoint
+              Caption = 'N'#227'o controlar estoque'
+              DataBinding.DataField = 'NaoControlaEstoque'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.FullFocusRect = True
+              Properties.ImmediatePost = True
+              Properties.NullStyle = nssUnchecked
+              Properties.OnEditValueChanged = cbNaoControlaEstoquePropertiesEditValueChanged
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.StyleController = escFlat
+              Style.TextColor = clGrayText
+              Style.IsFontAssigned = True
+              TabOrder = 15
+              Transparent = True
+            end
+            object edLimites: TcxPopupEdit
+              Left = 140
+              Top = 368
+              ParentFont = False
+              Properties.OnInitPopup = edLimitesPropertiesInitPopup
+              Style.StyleController = escFlat
+              TabOrder = 18
+              OnEnter = edLimitesEnter
+              Width = 189
+            end
+            object edUnid: TcxDBLookupComboBox
+              Left = 140
+              Top = 331
+              DataBinding.DataField = 'LookupUnid'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.ClearKey = 46
+              Properties.DropDownHeight = 200
+              Properties.DropDownRows = 400
+              Properties.DropDownWidth = 400
+              Properties.ImmediateDropDownWhenActivated = True
+              Properties.ImmediatePost = True
+              Properties.KeyFieldNames = 'Descricao'
+              Properties.ListColumns = <
+                item
+                  FieldName = 'Descricao'
+                end>
+              Properties.ListOptions.CaseInsensitive = True
+              Properties.ListOptions.ColumnSorting = False
+              Properties.ListOptions.FocusRowOnMouseMove = False
+              Properties.ListOptions.GridLines = glNone
+              Properties.ListOptions.ShowHeader = False
+              Properties.PostPopupValueOnTab = True
+              Properties.Revertable = True
+              Properties.OnInitPopup = edUnidPropertiesInitPopup
+              Style.StyleController = escFlat
+              TabOrder = 16
+              OnKeyDown = edUnidKeyDown
+              Width = 189
+            end
+            object cbVendaFrac: TcxDBCheckBox
+              Left = 337
+              Top = 335
+              Cursor = crHandPoint
+              Caption = 'Permite fracionamento (Ex: venda por peso/kg)'
+              DataBinding.DataField = 'PermiteVendaFracionada'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.FullFocusRect = True
+              Properties.ImmediatePost = True
+              Properties.NullStyle = nssUnchecked
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.StyleController = escFlat
+              Style.TextColor = clGrayText
+              Style.IsFontAssigned = True
+              TabOrder = 17
+              Transparent = True
             end
             object edPreco: TcxDBCurrencyEdit
               Left = 140
-              Top = 171
+              Top = 134
               DataBinding.DataField = 'Preco'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -290,12 +351,12 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               Style.IsFontAssigned = True
               StyleDisabled.TextColor = clBlack
-              TabOrder = 7
+              TabOrder = 6
               Width = 189
             end
             object edCusto: TcxDBCurrencyEdit
               Left = 140
-              Top = 208
+              Top = 171
               DataBinding.DataField = 'CustoUnitario'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -303,12 +364,12 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edCustoPropertiesChange
               Properties.OnEditValueChanged = edCustoPropertiesEditValueChanged
               Style.StyleController = escFlat
-              TabOrder = 9
+              TabOrder = 8
               Width = 189
             end
             object cbPrecoAuto: TcxDBCheckBox
               Left = 337
-              Top = 175
+              Top = 138
               Cursor = crHandPoint
               Caption = 'Autom'#225'tico'
               DataBinding.DataField = 'PrecoAuto'
@@ -331,12 +392,12 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfUltraFlat
               StyleFocused.LookAndFeel.Kind = lfUltraFlat
               StyleHot.LookAndFeel.Kind = lfUltraFlat
-              TabOrder = 8
+              TabOrder = 7
               Transparent = True
             end
             object edMarkup: TcxCurrencyEdit
               Left = 140
-              Top = 245
+              Top = 208
               OnFocusChanged = edMarkupFocusChanged
               ParentFont = False
               Properties.DisplayFormat = '0.##%'
@@ -345,12 +406,12 @@ object FrmProduto: TFrmProduto
               Properties.OnEditValueChanged = edMarkupPropertiesEditValueChanged
               Style.HotTrack = False
               Style.StyleController = escFlat
-              TabOrder = 11
+              TabOrder = 10
               Width = 189
             end
             object cbPodeAlterarPreco: TcxDBCheckBox
               Left = 337
-              Top = 212
+              Top = 175
               Cursor = crHandPoint
               AutoSize = False
               Caption = 'Permite alterar o pre'#231'o de venda na hora da venda'
@@ -373,14 +434,14 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfUltraFlat
               StyleFocused.LookAndFeel.Kind = lfUltraFlat
               StyleHot.LookAndFeel.Kind = lfUltraFlat
-              TabOrder = 10
+              TabOrder = 9
               Transparent = True
               Height = 21
               Width = 424
             end
             object lbInfoMarkup: TcxLabel
               Left = 140
-              Top = 282
+              Top = 245
               Caption = 
                 'Markup '#233' o percentual a ser acrescentado sobre o pre'#231'o de custo ' +
                 'para gerar o pre'#231'o de venda. '#13#10'Exemplo: um markup de 50% sobre u' +
@@ -400,7 +461,7 @@ object FrmProduto: TFrmProduto
             end
             object lbMarkup: TcxLabel
               Left = 484
-              Top = 251
+              Top = 214
               Cursor = crHandPoint
               Caption = 'Definir Markup Padr'#227'o'
               ParentFont = False
@@ -421,7 +482,7 @@ object FrmProduto: TFrmProduto
             end
             object cbSeguirMarkupPadrao: TcxDBCheckBox
               Left = 337
-              Top = 249
+              Top = 212
               Cursor = crHandPoint
               OnFocusChanged = edMarkupFocusChanged
               Caption = 'Seguir Markup Padr'#227'o'
@@ -446,8 +507,74 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfUltraFlat
               StyleFocused.LookAndFeel.Kind = lfUltraFlat
               StyleHot.LookAndFeel.Kind = lfUltraFlat
-              TabOrder = 12
+              TabOrder = 11
               Transparent = True
+            end
+            object panFornecedores: TLMDSimplePanel
+              Left = 10
+              Top = 751
+              Width = 817
+              Height = 61
+              Hint = ''
+              Bevel.Mode = bmCustom
+              TabOrder = 34
+            end
+            object lbObs: TcxLabel
+              Left = 10
+              Top = 831
+              Cursor = crHandPoint
+              Caption = 'Adicionar Observa'#231#245'es'
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -13
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = True
+              Style.TextColor = 3947580
+              Style.TextStyle = [fsUnderline]
+              Style.IsFontAssigned = True
+              StyleHot.BorderStyle = ebsNone
+              StyleHot.TextColor = clBlack
+              StyleHot.TextStyle = [fsUnderline]
+              Properties.WordWrap = True
+              Transparent = True
+              OnClick = lbObsClick
+              Width = 817
+            end
+            object edCateg: TcxDBLookupComboBox
+              Left = 140
+              Top = 84
+              DataBinding.DataField = 'LookupCateg'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.ClearKey = 46
+              Properties.DropDownHeight = 200
+              Properties.DropDownListStyle = lsEditList
+              Properties.DropDownRows = 400
+              Properties.DropDownWidth = 300
+              Properties.GridMode = True
+              Properties.HideSelection = False
+              Properties.ImmediateDropDownWhenActivated = True
+              Properties.ImmediatePost = True
+              Properties.KeyFieldNames = 'Descricao'
+              Properties.ListColumns = <
+                item
+                  FieldName = 'Descricao'
+                end>
+              Properties.ListOptions.CaseInsensitive = True
+              Properties.ListOptions.ColumnSorting = False
+              Properties.ListOptions.FocusRowOnMouseMove = False
+              Properties.ListOptions.GridLines = glNone
+              Properties.ListOptions.ShowHeader = False
+              Properties.PostPopupValueOnTab = True
+              Properties.Revertable = True
+              Properties.OnChange = edCategPropertiesChange
+              Properties.OnInitPopup = edCategPropertiesInitPopup
+              Style.StyleController = escFlat
+              TabOrder = 3
+              OnKeyDown = edCategKeyDown
+              Width = 189
             end
             object lbInfoCod: TcxLabel
               AlignWithMargins = True
@@ -475,119 +602,9 @@ object FrmProduto: TFrmProduto
               Width = 334
               AnchorY = 32
             end
-            object edAtual: TcxCurrencyEdit
-              Left = 140
-              Top = 369
-              Margins.Top = 0
-              Margins.Right = 0
-              Margins.Bottom = 0
-              EditValue = 0.000000000000000000
-              ParentFont = False
-              Properties.DecimalPlaces = 5
-              Properties.DisplayFormat = '0.####'
-              Properties.EditFormat = '0.####'
-              Properties.ImeName = 'g'
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -16
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.StyleController = escFlat
-              Style.TextStyle = [fsBold]
-              Style.IsFontAssigned = True
-              TabOrder = 15
-              Width = 189
-            end
-            object cbNaoControlaEstoque: TcxDBCheckBox
-              Left = 337
-              Top = 369
-              Cursor = crHandPoint
-              Caption = 'N'#227'o controlar estoque'
-              DataBinding.DataField = 'NaoControlaEstoque'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.FullFocusRect = True
-              Properties.ImmediatePost = True
-              Properties.NullStyle = nssUnchecked
-              Properties.OnEditValueChanged = cbNaoControlaEstoquePropertiesEditValueChanged
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              Style.TextColor = clGrayText
-              Style.IsFontAssigned = True
-              TabOrder = 16
-              Transparent = True
-            end
-            object edUnid: TcxDBLookupComboBox
-              Left = 140
-              Top = 406
-              DataBinding.DataField = 'LookupUnid'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.ClearKey = 46
-              Properties.DropDownHeight = 200
-              Properties.DropDownRows = 400
-              Properties.DropDownWidth = 400
-              Properties.ImmediateDropDownWhenActivated = True
-              Properties.ImmediatePost = True
-              Properties.KeyFieldNames = 'Descricao'
-              Properties.ListColumns = <
-                item
-                  FieldName = 'Descricao'
-                end>
-              Properties.ListOptions.CaseInsensitive = True
-              Properties.ListOptions.ColumnSorting = False
-              Properties.ListOptions.FocusRowOnMouseMove = False
-              Properties.ListOptions.GridLines = glNone
-              Properties.ListOptions.ShowHeader = False
-              Properties.PostPopupValueOnTab = True
-              Properties.Revertable = True
-              Properties.OnInitPopup = edUnidPropertiesInitPopup
-              Style.StyleController = escFlat
-              TabOrder = 17
-              OnKeyDown = edUnidKeyDown
-              Width = 189
-            end
-            object cbVendaFrac: TcxDBCheckBox
-              Left = 337
-              Top = 406
-              Cursor = crHandPoint
-              Caption = 'Permite fracionamento (Ex: venda por peso/kg)'
-              DataBinding.DataField = 'PermiteVendaFracionada'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.FullFocusRect = True
-              Properties.ImmediatePost = True
-              Properties.NullStyle = nssUnchecked
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              Style.TextColor = clGrayText
-              Style.IsFontAssigned = True
-              TabOrder = 18
-              Transparent = True
-            end
-            object edLimites: TcxPopupEdit
-              Left = 140
-              Top = 443
-              ParentFont = False
-              Properties.OnInitPopup = edLimitesPropertiesInitPopup
-              Style.StyleController = escFlat
-              TabOrder = 19
-              OnEnter = edLimitesEnter
-              Width = 189
-            end
             object edNCM: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 122
+              Top = 514
               OnFocusChanged = edNCMFocusChanged
               DataBinding.DataField = 'NCM'
               DataBinding.DataSource = dsMT
@@ -604,24 +621,129 @@ object FrmProduto: TFrmProduto
               Properties.OnButtonClick = edNCMPropertiesButtonClick
               Properties.OnChange = edNCMPropertiesChange
               Style.StyleController = escFlat
-              TabOrder = 23
-              Visible = False
+              TabOrder = 22
               Width = 109
             end
-            object lbNCM: TcxLabel
-              Left = 10000
-              Top = 10000
-              Caption = 'lbNCM'
+            object edBrTrib: TcxDBButtonEdit
+              Left = 122
+              Top = 603
+              OnFocusChanged = edBrTribFocusChanged
+              DataBinding.DataField = 'brtrib'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.Buttons = <
+                item
+                  Default = True
+                  Kind = bkEllipsis
+                end>
+              Properties.ClearKey = 46
+              Properties.MaskKind = emkRegExpr
+              Properties.EditMask = '\d+'
+              Properties.ReadOnly = False
+              Properties.OnButtonClick = edBrTribPropertiesButtonClick
+              Properties.OnChange = edBrTribPropertiesChange
+              Style.HotTrack = False
+              Style.StyleController = escFlat
+              TabOrder = 28
+              Width = 109
+            end
+            object lbInfoBrTrib: TcxLabel
+              Left = 122
+              Top = 640
+              Caption = 
+                'Digite o c'#243'digo de tributa'#231#227'o ou pressione F5. Esse campo '#233' obri' +
+                'gat'#243'rio para emiss'#227'o de NF. '
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clHotLight
+              Style.Font.Height = -12
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.TransparentBorder = False
+              Style.IsFontAssigned = True
+              Properties.WordWrap = True
+              Transparent = True
+              Width = 690
+            end
+            object lbBrTrib: TcxLabel
+              Left = 239
+              Top = 603
+              Caption = 'lbBrTrib'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 618
+            end
+            object edTax: TcxDBButtonEdit
+              Left = 122
+              Top = 439
+              DataBinding.DataField = 'tax_name'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.Buttons = <
+                item
+                  Default = True
+                  Kind = bkEllipsis
+                end>
+              Properties.ReadOnly = True
+              Properties.OnButtonClick = edTaxPropertiesButtonClick
+              Style.HotTrack = False
+              Style.StyleController = escFlat
+              StyleDisabled.TextColor = clBlack
+              TabOrder = 19
+              Width = 189
+            end
+            object edTaxDef: TcxDBCheckBox
+              Left = 319
+              Top = 439
+              Cursor = crHandPoint
+              Caption = 'Seguir Taxa'#231#227'o Padr'#227'o'
+              DataBinding.DataField = 'tax_def'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.ImmediatePost = True
+              Properties.NullStyle = nssUnchecked
+              Properties.OnEditValueChanged = edTaxDefPropertiesEditValueChanged
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.StyleController = escFlat
+              Style.TextColor = clGrayText
+              Style.IsFontAssigned = True
+              TabOrder = 20
+              Transparent = True
+            end
+            object lbSetTaxDef: TcxLabel
+              Left = 465
+              Top = 439
+              Cursor = crHandPoint
+              Caption = 'Definir taxa'#231#227'o padr'#227'o'
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clBlack
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = [fsUnderline]
+              Style.HotTrack = True
+              Style.TextColor = clGray
+              Style.IsFontAssigned = True
+              StyleFocused.BorderStyle = ebsNone
+              StyleFocused.TextColor = clHotLight
+              StyleHot.BorderStyle = ebsNone
+              StyleHot.TextColor = clHotLight
+              Properties.Alignment.Vert = taVCenter
+              Transparent = True
+              OnClick = lbSetTaxDefClick
+              AnchorY = 454
             end
             object lbInfoNCM: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 122
+              Top = 577
               Caption = 
                 'NCM: Nomeclatura Comum do Mercosul. Esse campo '#233' necess'#225'rio para' +
                 ' a emiss'#227'o de NF.'
@@ -636,12 +758,21 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
-              Width = 472
+              Width = 690
+            end
+            object lbNCM: TcxLabel
+              Left = 239
+              Top = 514
+              Caption = 'lbNCM'
+              ParentFont = False
+              Style.HotTrack = False
+              Properties.Alignment.Vert = taVCenter
+              Transparent = True
+              AnchorY = 529
             end
             object edCest: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 327
+              Top = 514
               OnFocusChanged = edCestFocusChanged
               AutoSize = False
               DataBinding.DataField = 'cest'
@@ -660,27 +791,13 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edCestPropertiesChange
               Style.HotTrack = False
               Style.StyleController = escFlat
-              TabOrder = 26
-              Visible = False
+              TabOrder = 24
               Height = 29
               Width = 109
             end
-            object lbCEST: TcxLabel
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Caption = 'lbCEST'
-              ParentFont = False
-              Style.HotTrack = False
-              Properties.Alignment.Vert = taVCenter
-              Transparent = True
-              Visible = False
-              OnClick = lbCESTClick
-              AnchorY = 10015
-            end
             object lbInfoCest: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 122
+              Top = 551
               AutoSize = False
               Caption = 
                 'CEST: C'#243'digo Especificador da Substitui'#231#227'o Tribut'#225'ria. Pressione' +
@@ -696,69 +813,25 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
               Height = 18
-              Width = 690
+              Width = 591
             end
-            object edBrTrib: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
-              OnFocusChanged = edBrTribFocusChanged
-              DataBinding.DataField = 'brtrib'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.Buttons = <
-                item
-                  Default = True
-                  Kind = bkEllipsis
-                end>
-              Properties.ClearKey = 46
-              Properties.MaskKind = emkRegExpr
-              Properties.EditMask = '\d+'
-              Properties.ReadOnly = False
-              Properties.OnButtonClick = edBrTribPropertiesButtonClick
-              Properties.OnChange = edBrTribPropertiesChange
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              TabOrder = 29
-              Visible = False
-              Width = 109
-            end
-            object lbBrTrib: TcxLabel
-              Left = 10000
-              Top = 10000
-              Caption = 'lbBrTrib'
+            object lbCEST: TcxLabel
+              Left = 444
+              Top = 514
+              Cursor = crHandPoint
+              Caption = 'lbCEST'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
-            end
-            object lbInfoBrTrib: TcxLabel
-              Left = 10000
-              Top = 10000
-              Caption = 
-                'Digite o c'#243'digo de tributa'#231#227'o ou pressione F5. Esse campo '#233' obri' +
-                'gat'#243'rio para emiss'#227'o de NF. '
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clHotLight
-              Style.Font.Height = -12
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.TransparentBorder = False
-              Style.IsFontAssigned = True
-              Properties.WordWrap = True
-              Transparent = True
-              Visible = False
-              Width = 755
+              OnClick = lbCESTClick
+              AnchorY = 529
             end
             object edICMSST: TcxButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 122
+              Top = 666
               OnFocusChanged = edICMSSTFocusChanged
               ParentFont = False
               Properties.Buttons = <
@@ -767,32 +840,14 @@ object FrmProduto: TFrmProduto
                   Kind = bkEllipsis
                 end>
               Properties.OnButtonClick = edICMSSTPropertiesButtonClick
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -16
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
               Style.HotTrack = False
-              Style.IsFontAssigned = True
-              TabOrder = 32
+              TabOrder = 31
               Text = 'por MVA'
-              Visible = False
               Width = 109
             end
-            object lbDescrSt: TcxLabel
-              Left = 10000
-              Top = 10000
-              Caption = 'Pauta'
-              ParentFont = False
-              Style.HotTrack = False
-              Properties.Alignment.Vert = taVCenter
-              Transparent = True
-              Visible = False
-              AnchorY = 10015
-            end
             object lbHintSt: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 122
+              Top = 699
               AutoSize = False
               Caption = 
                 'ICMS ST: Pressione F9 para definir as regras de c'#225'lculo do ICMS ' +
@@ -808,477 +863,71 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
               Height = 18
-              Width = 755
+              Width = 690
             end
-            object panFornecedores: TLMDSimplePanel
-              Left = 10000
-              Top = 10000
-              Width = 852
-              Height = 61
-              Hint = ''
-              Bevel.Mode = bmCustom
-              TabOrder = 35
-              Visible = False
-            end
-            object edObs: TcxDBMemo
-              Left = 10000
-              Top = 10000
-              DataBinding.DataField = 'Obs'
-              DataBinding.DataSource = dsMT
+            object lbDescrSt: TcxLabel
+              Left = 239
+              Top = 666
+              Caption = 'Pauta'
               ParentFont = False
               Style.HotTrack = False
-              TabOrder = 36
-              Visible = False
-              Height = 126
-              Width = 852
-            end
-            object edComissaoPerc: TcxCurrencyEdit
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Margins.Left = 7
-              Margins.Top = 7
-              Margins.Right = 7
-              Margins.Bottom = 7
-              EditValue = 0.000000000000000000
-              Enabled = False
-              ParentFont = False
-              Properties.DecimalPlaces = 2
-              Properties.DisplayFormat = '0.##%'
-              Properties.EditFormat = '#.##'
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -16
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.LookAndFeel.Kind = lfFlat
-              Style.StyleController = FrmPri.escFlat
-              Style.IsFontAssigned = True
-              StyleDisabled.LookAndFeel.Kind = lfFlat
-              StyleDisabled.TextStyle = []
-              StyleFocused.LookAndFeel.Kind = lfFlat
-              StyleHot.LookAndFeel.Kind = lfFlat
-              TabOrder = 37
-              Visible = False
-              Width = 161
-            end
-            object panPend: TLMDSimplePanel
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Width = 852
-              Height = 240
-              Hint = ''
-              Margins.Left = 7
-              Margins.Top = 7
-              Margins.Right = 0
-              Margins.Bottom = 0
-              Bevel.Mode = bmStandard
-              TabOrder = 48
-              Visible = False
-            end
-            object edComissaoLucro: TcxComboBox
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Margins.Left = 7
-              Margins.Top = 7
-              Margins.Right = 7
-              Margins.Bottom = 7
-              Enabled = False
-              ParentFont = False
-              Properties.DropDownListStyle = lsFixedList
-              Properties.ImmediateDropDownWhenActivated = True
-              Properties.ImmediatePost = True
-              Properties.ImmediateUpdateText = True
-              Properties.Items.Strings = (
-                'Pre'#231'o de Venda'
-                'Lucro')
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -16
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.LookAndFeel.Kind = lfFlat
-              Style.StyleController = FrmPri.cxEditStyleController1
-              Style.IsFontAssigned = True
-              StyleDisabled.LookAndFeel.Kind = lfFlat
-              StyleFocused.LookAndFeel.Kind = lfFlat
-              StyleHot.LookAndFeel.Kind = lfFlat
-              TabOrder = 40
-              Text = 'Pre'#231'o de Venda'
-              Visible = False
-              Width = 161
-            end
-            object btnPremium: TcxButton
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Width = 120
-              Height = 35
-              Cursor = crHandPoint
-              Margins.Left = 0
-              Margins.Top = 9
-              Margins.Right = 0
-              Margins.Bottom = 9
-              Caption = 'Recurso PRO'
-              LookAndFeel.Kind = lfFlat
-              OptionsImage.ImageIndex = 85
-              OptionsImage.Images = dmImagens.im16
-              TabOrder = 41
-              Visible = False
-              OnClick = btnPremiumClick
-            end
-            object cbComissaoPadrao: TcxCheckBox
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Margins.Left = 70
-              Margins.Top = 0
-              Margins.Right = 0
-              Margins.Bottom = 0
-              Caption = 'Seguir percentual padr'#227'o'
-              Enabled = False
-              ParentFont = False
-              State = cbsChecked
-              Style.HotTrack = False
-              Style.LookAndFeel.Kind = lfFlat
-              StyleDisabled.LookAndFeel.Kind = lfFlat
-              StyleFocused.LookAndFeel.Kind = lfFlat
-              StyleHot.LookAndFeel.Kind = lfFlat
-              TabOrder = 38
-              Visible = False
-              OnClick = cbComissaoPadraoClick
-            end
-            object lbConfigComissao: TcxLabel
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Margins.Top = 0
-              Caption = 'Configurar padr'#227'o'
-              Enabled = False
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = True
-              Style.TextColor = clGray
-              Style.TextStyle = [fsUnderline]
-              Style.IsFontAssigned = True
-              StyleHot.BorderStyle = ebsNone
-              StyleHot.TextColor = clHotLight
               Properties.Alignment.Vert = taVCenter
-              Visible = False
-              OnClick = lbConfigComissaoClick
-              AnchorY = 10015
-            end
-            object imgFid: TMyImage
-              Left = 10000
-              Top = 10000
-              Width = 48
-              Height = 48
-              Visible = False
-              MouseOverDrawMode = idmNormal
-              MouseOffDrawMode = idmNormal
-              MouseDownDrawMode = idmGrayScale
-              ImageList = cxImageList1
-              ImageIndex = 0
-              Colorize = False
-            end
-            object edFidPontos: TcxDBSpinEdit
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              DataBinding.DataField = 'FidPontos'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.ImmediatePost = True
-              Style.HotTrack = False
-              Style.LookAndFeel.NativeStyle = False
-              Style.StyleController = FrmPri.cxEditStyleController1
-              StyleDisabled.LookAndFeel.NativeStyle = False
-              StyleFocused.Color = 11206655
-              StyleFocused.LookAndFeel.NativeStyle = False
-              StyleHot.LookAndFeel.NativeStyle = False
-              TabOrder = 46
-              Visible = False
-              Width = 100
-            end
-            object edFidelidade: TcxDBCheckBox
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Caption = 'Este produto pode ser resgatado como pr'#234'mio'
-              DataBinding.DataField = 'Fidelidade'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Style.HotTrack = False
-              TabOrder = 45
-              Visible = False
-              OnClick = edFidelidadeClick
-            end
-            object lbFidelidade: TcxLabel
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Caption = 
-                'Fideliza'#231#227'o de clientes por ac'#250'mulo de pontos e resgate de pr'#234'mi' +
-                'os: '
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -13
-              Style.Font.Name = 'Segoe UI Semibold'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.TextStyle = []
-              Style.IsFontAssigned = True
-              Properties.Alignment.Vert = taVCenter
-              Visible = False
-              AnchorY = 10011
-            end
-            object lbOpcoesFid: TcxLabel
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Caption = 'Ativar sistema de fideliza'#231#227'o'
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = True
-              Style.TextStyle = [fsUnderline]
-              Style.IsFontAssigned = True
-              StyleHot.BorderStyle = ebsNone
-              StyleHot.TextColor = clHotLight
-              Properties.Alignment.Vert = taVCenter
-              Visible = False
-              OnClick = lbOpcoesFidClick
-              AnchorY = 10011
-            end
-            object edCateg: TcxDBLookupComboBox
-              Left = 140
-              Top = 84
-              DataBinding.DataField = 'LookupCateg'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.ClearKey = 46
-              Properties.DropDownHeight = 400
-              Properties.DropDownListStyle = lsEditList
-              Properties.DropDownRows = 400
-              Properties.DropDownWidth = 300
-              Properties.GridMode = True
-              Properties.HideSelection = False
-              Properties.ImmediateDropDownWhenActivated = True
-              Properties.ImmediatePost = True
-              Properties.KeyFieldNames = 'Descricao'
-              Properties.ListColumns = <
-                item
-                  FieldName = 'Descricao'
-                end>
-              Properties.ListOptions.CaseInsensitive = True
-              Properties.ListOptions.ColumnSorting = False
-              Properties.ListOptions.FocusRowOnMouseMove = False
-              Properties.ListOptions.GridLines = glNone
-              Properties.ListOptions.ShowHeader = False
-              Properties.PostPopupValueOnTab = True
-              Properties.Revertable = True
-              Properties.OnChange = edCategPropertiesChange
-              Properties.OnInitPopup = edCategPropertiesInitPopup
-              Style.StyleController = escFlat
-              TabOrder = 3
-              OnKeyDown = edCategKeyDown
-              Width = 189
-            end
-            object edMarca: TcxDBLookupComboBox
-              Left = 140
-              Top = 121
-              DataBinding.DataField = 'NomeMarca'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.ClearKey = 46
-              Properties.DropDownHeight = 200
-              Properties.DropDownListStyle = lsEditList
-              Properties.DropDownRows = 400
-              Properties.DropDownWidth = 300
-              Properties.GridMode = True
-              Properties.HideSelection = False
-              Properties.ImmediateDropDownWhenActivated = True
-              Properties.ImmediatePost = True
-              Properties.KeyFieldNames = 'UID'
-              Properties.ListColumns = <
-                item
-                  FieldName = 'Nome'
-                end>
-              Properties.ListOptions.CaseInsensitive = True
-              Properties.ListOptions.ColumnSorting = False
-              Properties.ListOptions.FocusRowOnMouseMove = False
-              Properties.ListOptions.GridLines = glNone
-              Properties.ListOptions.ShowHeader = False
-              Properties.ListSource = dsMarca
-              Properties.PostPopupValueOnTab = True
-              Properties.Revertable = True
-              Properties.OnInitPopup = edMarcaPropertiesInitPopup
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              TabOrder = 4
-              OnKeyDown = edMarcaKeyDown
-              Width = 189
+              Transparent = True
+              AnchorY = 679
             end
             object edPesoLiq: TcxDBCurrencyEdit
-              Left = 804
+              Left = 579
               Top = 84
-              TabStop = False
               DataBinding.DataField = 'PesoLiq'
               DataBinding.DataSource = dsMT
               ParentFont = False
               Properties.DecimalPlaces = 3
               Properties.DisplayFormat = '0.###'
               Properties.EditFormat = '0.###'
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -16
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
               Style.HotTrack = False
-              Style.IsFontAssigned = True
-              TabOrder = 5
-              Width = 86
+              TabOrder = 4
+              Width = 85
             end
             object edPesoBruto: TcxDBCurrencyEdit
-              Left = 804
-              Top = 121
-              TabStop = False
-              AutoSize = False
+              Left = 741
+              Top = 84
               DataBinding.DataField = 'PesoBruto'
               DataBinding.DataSource = dsMT
               ParentFont = False
               Properties.DecimalPlaces = 3
               Properties.DisplayFormat = '0.###'
               Properties.EditFormat = '0.###'
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -16
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
               Style.HotTrack = False
-              Style.IsFontAssigned = True
-              TabOrder = 6
-              Height = 29
+              TabOrder = 5
               Width = 86
-            end
-            object edTax: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
-              DataBinding.DataField = 'tax_name'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.Buttons = <
-                item
-                  Default = True
-                  Kind = bkEllipsis
-                end>
-              Properties.ReadOnly = True
-              Properties.OnButtonClick = edTaxPropertiesButtonClick
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              StyleDisabled.TextColor = clBlack
-              TabOrder = 20
-              Visible = False
-              Width = 189
-            end
-            object edTaxDef: TcxDBCheckBox
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Caption = 'Seguir Taxa'#231#227'o Padr'#227'o'
-              DataBinding.DataField = 'tax_def'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.ImmediatePost = True
-              Properties.NullStyle = nssUnchecked
-              Properties.OnEditValueChanged = edTaxDefPropertiesEditValueChanged
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              Style.TextColor = clGrayText
-              Style.IsFontAssigned = True
-              TabOrder = 21
-              Transparent = True
-              Visible = False
-            end
-            object lbSetTaxDef: TcxLabel
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Caption = 'Definir taxa'#231#227'o padr'#227'o'
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clBlack
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = [fsUnderline]
-              Style.HotTrack = True
-              Style.TextColor = clGray
-              Style.IsFontAssigned = True
-              StyleFocused.BorderStyle = ebsNone
-              StyleFocused.TextColor = clHotLight
-              StyleHot.BorderStyle = ebsNone
-              StyleHot.TextColor = clHotLight
-              Properties.Alignment.Vert = taVCenter
-              Transparent = True
-              Visible = False
-              OnClick = lbSetTaxDefClick
-              AnchorY = 10120
-            end
-            object panTran: TLMDSimplePanel
-              AlignWithMargins = True
-              Left = 10000
-              Top = 10000
-              Width = 852
-              Height = 240
-              Hint = ''
-              Margins.Left = 7
-              Margins.Top = 7
-              Margins.Right = 0
-              Margins.Bottom = 0
-              Bevel.Mode = bmStandard
-              TabOrder = 47
-              Visible = False
             end
             object LCGroup_Root: TdxLayoutGroup
               AlignHorz = ahClient
-              AlignVert = avClient
-              CaptionOptions.Visible = False
+              AlignVert = avTop
               ButtonOptions.Buttons = <>
               Hidden = True
-              ItemIndex = 5
+              ItemIndex = 8
               ShowBorder = False
               Index = -1
             end
             object lcgPreco: TdxLayoutGroup
               Parent = LCGroup_Root
               CaptionOptions.Text = 'New Group'
-              CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
               ItemIndex = 1
               Locked = True
               ShowBorder = False
               Index = 3
+            end
+            object LCItem2: TdxLayoutItem
+              Parent = lcgPreco
+              Control = dxBevel2
+              ControlOptions.OriginalHeight = 3
+              ControlOptions.OriginalWidth = 788
+              ControlOptions.ShowBorder = False
+              Index = 2
             end
             object LCItem1: TdxLayoutItem
               Parent = lcgPreco
@@ -1308,9 +957,78 @@ object FrmProduto: TFrmProduto
               LayoutLookAndFeel = lfDestaque
               Control = edDescr
               ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 658
+              ControlOptions.OriginalWidth = 597
               ControlOptions.ShowBorder = False
               Index = 1
+            end
+            object LCGroup6: TdxLayoutAutoCreatedGroup
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              LayoutDirection = ldHorizontal
+              Index = 4
+              AutoCreated = True
+            end
+            object lcEstoqueAtual: TdxLayoutItem
+              Parent = LCGroup6
+              AlignHorz = ahLeft
+              CaptionOptions.Text = 'Estoque Atual'
+              LayoutLookAndFeel = lfDestaque
+              Control = edAtual
+              ControlOptions.OriginalHeight = 29
+              ControlOptions.OriginalWidth = 189
+              ControlOptions.ShowBorder = False
+              Index = 0
+            end
+            object lcNaoControlaEstoque: TdxLayoutItem
+              Parent = LCGroup6
+              AlignHorz = ahLeft
+              AlignVert = avCenter
+              CaptionOptions.Visible = False
+              Control = cbNaoControlaEstoque
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 140
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object lcLimites: TdxLayoutItem
+              Parent = LCGroup_Root
+              AlignHorz = ahLeft
+              AlignVert = avTop
+              CaptionOptions.Text = 'Limites de Estoque'
+              Control = edLimites
+              ControlOptions.OriginalHeight = 29
+              ControlOptions.OriginalWidth = 189
+              ControlOptions.ShowBorder = False
+              Index = 6
+            end
+            object lcUnid: TdxLayoutItem
+              Parent = LCGroup1
+              AlignHorz = ahLeft
+              CaptionOptions.Text = 'Unidade Medida'
+              Control = edUnid
+              ControlOptions.OriginalHeight = 29
+              ControlOptions.OriginalWidth = 189
+              ControlOptions.ShowBorder = False
+              Index = 0
+            end
+            object lcVendaFrac: TdxLayoutItem
+              Parent = LCGroup1
+              AlignHorz = ahLeft
+              AlignVert = avCenter
+              CaptionOptions.Text = ' '
+              CaptionOptions.Visible = False
+              Control = cbVendaFrac
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 263
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object LCGroup1: TdxLayoutAutoCreatedGroup
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              LayoutDirection = ldHorizontal
+              Index = 5
+              AutoCreated = True
             end
             object lcPreco: TdxLayoutItem
               Parent = LCGroup8
@@ -1390,8 +1108,9 @@ object FrmProduto: TFrmProduto
               AutoCreated = True
             end
             object lcInfoMarkup: TdxLayoutItem
-              Parent = LCGroup3
+              Parent = LCGroup2
               AlignHorz = ahLeft
+              AlignVert = avTop
               CaptionOptions.Text = ' '
               Visible = False
               Control = lbInfoMarkup
@@ -1399,14 +1118,7 @@ object FrmProduto: TFrmProduto
               ControlOptions.OriginalHeight = 30
               ControlOptions.OriginalWidth = 498
               ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object LCGroup3: TdxLayoutAutoCreatedGroup
-              Parent = LCGroup2
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              Index = 2
-              AutoCreated = True
+              Index = 3
             end
             object lcDefinirMarkupPadrao: TdxLayoutItem
               Parent = LCGroup5
@@ -1422,9 +1134,11 @@ object FrmProduto: TFrmProduto
               Index = 2
             end
             object LCGroup5: TdxLayoutAutoCreatedGroup
-              Parent = LCGroup3
+              Parent = LCGroup2
+              AlignHorz = ahClient
+              AlignVert = avTop
               LayoutDirection = ldHorizontal
-              Index = 0
+              Index = 2
               AutoCreated = True
             end
             object lcMarkupPadrao: TdxLayoutItem
@@ -1438,6 +1152,66 @@ object FrmProduto: TFrmProduto
               ControlOptions.ShowBorder = False
               Index = 1
             end
+            object lcDivNFE: TdxLayoutItem
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              Control = dxBevel4
+              ControlOptions.OriginalHeight = 3
+              ControlOptions.OriginalWidth = 788
+              ControlOptions.ShowBorder = False
+              Index = 7
+            end
+            object lciFornecedores: TdxLayoutItem
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              CaptionOptions.Text = 'Fornecedores:     Adicionar Fornecedor'
+              CaptionOptions.Visible = False
+              CaptionOptions.Layout = clTop
+              Control = panFornecedores
+              ControlOptions.OriginalHeight = 61
+              ControlOptions.OriginalWidth = 788
+              ControlOptions.ShowBorder = False
+              OnCaptionClick = lciFornecedoresCaptionClick
+              Index = 11
+            end
+            object LCItem9: TdxLayoutItem
+              Parent = LCGroup_Root
+              Control = dxBevel5
+              ControlOptions.OriginalHeight = 3
+              ControlOptions.OriginalWidth = 788
+              ControlOptions.ShowBorder = False
+              Index = 10
+            end
+            object LCItem16: TdxLayoutItem
+              Parent = LCGroup_Root
+              Control = dxBevel3
+              ControlOptions.OriginalHeight = 3
+              ControlOptions.OriginalWidth = 788
+              ControlOptions.ShowBorder = False
+              Index = 12
+            end
+            object lciObs: TdxLayoutItem
+              Parent = LCGroup_Root
+              CaptionOptions.Text = 'Observa'#231#245'es:'
+              CaptionOptions.Visible = False
+              CaptionOptions.Layout = clTop
+              Control = lbObs
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 139
+              ControlOptions.ShowBorder = False
+              OnCaptionClick = lciObsCaptionClick
+              Index = 13
+            end
+            object lcCateg: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup3
+              AlignHorz = ahLeft
+              CaptionOptions.Text = 'Categoria'
+              Control = edCateg
+              ControlOptions.OriginalHeight = 29
+              ControlOptions.OriginalWidth = 189
+              ControlOptions.ShowBorder = False
+              Index = 0
+            end
             object lcInfoCod: TdxLayoutItem
               Parent = LCGroup7
               AlignVert = avCenter
@@ -1450,83 +1224,20 @@ object FrmProduto: TFrmProduto
             end
             object LCGroup7: TdxLayoutAutoCreatedGroup
               Parent = LCGroup_Root
+              AlignHorz = ahClient
               LayoutDirection = ldHorizontal
               Index = 0
               AutoCreated = True
             end
-            object lcEstoqueAtual: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup4
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'Estoque Atual'
-              LayoutLookAndFeel = lfDestaque
-              Control = edAtual
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 189
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lcNaoControlaEstoque: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup4
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Control = cbNaoControlaEstoque
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 140
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lcUnid: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup10
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'Unidade Medida'
-              Control = edUnid
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 189
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lcVendaFrac: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup10
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Text = ' '
-              CaptionOptions.Visible = False
-              Control = cbVendaFrac
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 263
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lcLimites: TdxLayoutItem
-              Parent = grEstoque
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'Limites de Estoque'
-              Control = edLimites
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 189
-              ControlOptions.ShowBorder = False
-              Index = 2
-            end
             object lgrBR: TdxLayoutGroup
-              Parent = grBottom
-              CaptionOptions.Text = 'Tributa'#231#227'o'
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              CaptionOptions.Text = 'BRTrib'
               ButtonOptions.Buttons = <>
-              ItemIndex = 3
-              Index = 2
-            end
-            object dxLayoutAutoCreatedGroup2: TdxLayoutAutoCreatedGroup
-              Parent = lgrBR
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              Index = 0
-              AutoCreated = True
+              Index = 9
             end
             object lcNCM: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup8
+              Parent = dxLayoutAutoCreatedGroup4
               AlignHorz = ahLeft
               AlignVert = avTop
               CaptionOptions.Text = 'NCM'
@@ -1535,72 +1246,6 @@ object FrmProduto: TFrmProduto
               ControlOptions.OriginalWidth = 109
               ControlOptions.ShowBorder = False
               Index = 0
-            end
-            object lcNCMDescr: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup8
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Text = 'cxLabel2'
-              CaptionOptions.Visible = False
-              Control = lbNCM
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 45
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lcInfoNCM: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup6
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = ' '
-              Visible = False
-              Control = lbInfoNCM
-              ControlOptions.OriginalHeight = 15
-              ControlOptions.OriginalWidth = 472
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lcCEST: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup7
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'CEST'
-              Control = edCest
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 109
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lclbCEST: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup7
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Control = lbCEST
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 44
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lclbInfoCest: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup2
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = ' '
-              Visible = False
-              Control = lbInfoCest
-              ControlOptions.OriginalHeight = 18
-              ControlOptions.OriginalWidth = 690
-              ControlOptions.ShowBorder = False
-              Index = 2
-            end
-            object dxLayoutAutoCreatedGroup5: TdxLayoutAutoCreatedGroup
-              Parent = lgrBR
-              AlignHorz = ahClient
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 1
-              AutoCreated = True
             end
             object lcBRTrib: TdxLayoutItem
               Parent = dxLayoutAutoCreatedGroup5
@@ -1611,18 +1256,6 @@ object FrmProduto: TFrmProduto
               ControlOptions.OriginalWidth = 109
               ControlOptions.ShowBorder = False
               Index = 0
-            end
-            object lcBrTribNome: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup5
-              AlignHorz = ahClient
-              AlignVert = avClient
-              CaptionOptions.Text = 'cxLabel1'
-              CaptionOptions.Visible = False
-              Control = lbBrTrib
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 121
-              ControlOptions.ShowBorder = False
-              Index = 1
             end
             object lcInfoBrTrib: TdxLayoutItem
               Parent = lgrBR
@@ -1636,403 +1269,33 @@ object FrmProduto: TFrmProduto
               ControlOptions.ShowBorder = False
               Index = 2
             end
-            object dxLayoutAutoCreatedGroup1: TdxLayoutAutoCreatedGroup
+            object lcBrTribNome: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup5
+              AlignHorz = ahClient
+              AlignVert = avClient
+              CaptionOptions.Text = 'cxLabel1'
+              CaptionOptions.Visible = False
+              Control = lbBrTrib
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 121
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutAutoCreatedGroup5: TdxLayoutAutoCreatedGroup
               Parent = lgrBR
-              LayoutDirection = ldHorizontal
-              Index = 3
-              AutoCreated = True
-            end
-            object lcICMSSt: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup1
-              AlignHorz = ahLeft
-              CaptionOptions.Text = 'MVA/Pauta - F9'
-              Control = edICMSST
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 109
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lcDescrSt: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup1
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Control = lbDescrSt
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 36
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lcInfoSt: TdxLayoutItem
-              Parent = lgrBR
-              CaptionOptions.Text = ' '
-              Visible = False
-              Control = lbHintSt
-              ControlOptions.OriginalHeight = 18
-              ControlOptions.OriginalWidth = 690
-              ControlOptions.ShowBorder = False
-              Index = 4
-            end
-            object lciFornecedores: TdxLayoutItem
-              Parent = grBottom
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = 'Fornecedores'
-              CaptionOptions.Visible = False
-              CaptionOptions.Layout = clTop
-              Control = panFornecedores
-              ControlOptions.OriginalHeight = 61
-              ControlOptions.OriginalWidth = 788
-              ControlOptions.ShowBorder = False
-              OnCaptionClick = lciFornecedoresCaptionClick
-              Index = 3
-            end
-            object lcObs: TdxLayoutItem
-              Parent = grBottom
-              AlignVert = avTop
-              CaptionOptions.Text = 'Observa'#231#245'es'
-              CaptionOptions.Visible = False
-              CaptionOptions.Layout = clTop
-              Control = edObs
-              ControlOptions.OriginalHeight = 126
-              ControlOptions.OriginalWidth = 185
-              ControlOptions.ShowBorder = False
-              Index = 4
-            end
-            object grBottom: TdxLayoutGroup
-              Parent = LCGroup_Root
-              AlignHorz = ahClient
-              AlignVert = avClient
-              CaptionOptions.Text = 'New Group'
-              CaptionOptions.Visible = False
-              ButtonOptions.Buttons = <>
-              LayoutDirection = ldTabbed
-              LayoutLookAndFeelException = True
-              Padding.AssignedValues = [lpavBottom, lpavLeft]
-              ShowBorder = False
-              OnTabChanged = grBottomTabChanged
-              Index = 5
-            end
-            object dxLayoutAutoCreatedGroup6: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup2
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              Index = 0
-              AutoCreated = True
-            end
-            object dxLayoutAutoCreatedGroup7: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup2
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 1
-              AutoCreated = True
-            end
-            object dxLayoutAutoCreatedGroup8: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup6
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
-            end
-            object grEstoque: TdxLayoutGroup
-              Parent = grBottom
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'Estoque'
-              ButtonOptions.Buttons = <>
-              Index = 0
-            end
-            object dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup
-              Parent = grEstoque
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
-            end
-            object dxLayoutAutoCreatedGroup10: TdxLayoutAutoCreatedGroup
-              Parent = grEstoque
               AlignHorz = ahClient
               AlignVert = avTop
               LayoutDirection = ldHorizontal
               Index = 1
               AutoCreated = True
-            end
-            object grComissao: TdxLayoutGroup
-              Parent = grBottom
-              CaptionOptions.Text = 'Comiss'#227'o'
-              ButtonOptions.Buttons = <>
-              Index = 5
-            end
-            object lcComissao: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup13
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'Comiss'#227'o de '
-              Control = edComissaoPerc
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 161
-              ControlOptions.ShowBorder = False
-              Enabled = False
-              Index = 0
-            end
-            object dxLayoutAutoCreatedGroup11: TdxLayoutAutoCreatedGroup
-              Parent = grComissao
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
-            end
-            object grPend: TdxLayoutGroup
-              Parent = grBottom
-              CaptionOptions.Text = 'Pedidos Pendentes'
-              Visible = False
-              ButtonOptions.Buttons = <>
-              Index = 8
-            end
-            object lcPend: TdxLayoutItem
-              Parent = grPend
-              AlignHorz = ahClient
-              AlignVert = avClient
-              Control = panPend
-              ControlOptions.OriginalHeight = 66
-              ControlOptions.OriginalWidth = 100
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object dxLayoutItem3: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup11
-              AlignVert = avClient
-              Control = img
-              ControlOptions.OriginalHeight = 48
-              ControlOptions.OriginalWidth = 48
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lcComissaoLucro: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup12
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = 'Sobre'
-              Control = edComissaoLucro
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 161
-              ControlOptions.ShowBorder = False
-              Enabled = False
-              Index = 1
-            end
-            object dxLayoutAutoCreatedGroup12: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup11
-              AlignHorz = ahLeft
-              Index = 1
-              AutoCreated = True
-            end
-            object lcRecursoPro: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup12
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              CaptionOptions.Text = ' '
-              Control = btnPremium
-              ControlOptions.OriginalHeight = 35
-              ControlOptions.OriginalWidth = 120
-              ControlOptions.ShowBorder = False
-              Index = 2
-            end
-            object lcComissaoPadrao: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup13
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Control = cbComissaoPadrao
-              ControlOptions.OriginalHeight = 25
-              ControlOptions.OriginalWidth = 173
-              ControlOptions.ShowBorder = False
-              Enabled = False
-              Index = 1
-            end
-            object dxLayoutAutoCreatedGroup13: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup12
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
-            end
-            object lcConfigComissao: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup13
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Offsets.Left = 20
-              Control = lbConfigComissao
-              ControlOptions.OriginalHeight = 17
-              ControlOptions.OriginalWidth = 100
-              ControlOptions.ShowBorder = False
-              Enabled = False
-              Index = 2
-            end
-            object grFidelidade: TdxLayoutGroup
-              Parent = grBottom
-              CaptionOptions.Text = 'Fidelidade'
-              ButtonOptions.Buttons = <>
-              Index = 6
-            end
-            object lcimgFid: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup14
-              AlignHorz = ahLeft
-              CaptionOptions.Visible = False
-              Control = imgFid
-              ControlOptions.OriginalHeight = 48
-              ControlOptions.OriginalWidth = 48
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object dxLayoutItem4: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup15
-              AlignHorz = ahLeft
-              AlignVert = avBottom
-              CaptionOptions.Text = 'Pontos necess'#225'rios para resgate'
-              Control = edFidPontos
-              ControlOptions.OriginalHeight = 24
-              ControlOptions.OriginalWidth = 100
-              ControlOptions.ShowBorder = False
-              Index = 2
-            end
-            object dxLayoutAutoCreatedGroup14: TdxLayoutAutoCreatedGroup
-              Parent = grFidelidade
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
-            end
-            object dxLayoutItem5: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup15
-              AlignVert = avBottom
-              CaptionOptions.Visible = False
-              Control = edFidelidade
-              ControlOptions.OriginalHeight = 25
-              ControlOptions.OriginalWidth = 304
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object dxLayoutAutoCreatedGroup15: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup14
-              Index = 1
-              AutoCreated = True
-            end
-            object lcFidelidade: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup16
-              AlignHorz = ahClient
-              AlignVert = avBottom
-              CaptionOptions.Visible = False
-              Control = lbFidelidade
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 423
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object dxLayoutItem7: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup16
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Control = lbOpcoesFid
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 148
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object dxLayoutAutoCreatedGroup16: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup15
-              AlignVert = avBottom
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
-            end
-            object dxLayoutItem8: TdxLayoutItem
-              Parent = LCGroup_Root
-              AlignHorz = ahClient
-              Control = dxBevel2
-              ControlOptions.OriginalHeight = 3
-              ControlOptions.OriginalWidth = 50
-              ControlOptions.ShowBorder = False
-              Index = 4
-            end
-            object dxLayoutGroup2: TdxLayoutGroup
-              CaptionOptions.Text = 'New Group'
-              ButtonOptions.Buttons = <>
-              Index = -1
-            end
-            object grCategMarca: TdxLayoutGroup
-              Parent = dxLayoutAutoCreatedGroup3
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              ButtonOptions.Buttons = <>
-              ItemIndex = 1
-              ShowBorder = False
-              Index = 0
-            end
-            object lcCateg: TdxLayoutItem
-              Parent = grCategMarca
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = 'Categoria'
-              Control = edCateg
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 189
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lcMarca: TdxLayoutItem
-              Parent = grCategMarca
-              AlignHorz = ahLeft
-              CaptionOptions.Text = 'Marca'
-              Control = edMarca
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 189
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object dxLayoutAutoCreatedGroup3: TdxLayoutAutoCreatedGroup
-              Parent = LCGroup_Root
-              AlignVert = avTop
-              LayoutDirection = ldHorizontal
-              Index = 2
-              AutoCreated = True
-            end
-            object grPeso: TdxLayoutGroup
-              Parent = dxLayoutAutoCreatedGroup3
-              AlignHorz = ahRight
-              AlignVert = avClient
-              ButtonOptions.Buttons = <>
-              ShowBorder = False
-              Index = 1
-            end
-            object lcPesoLiq: TdxLayoutItem
-              Parent = grPeso
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = 'Peso L'#237'quido'
-              Control = edPesoLiq
-              ControlOptions.OriginalHeight = 29
-              ControlOptions.OriginalWidth = 85
-              ControlOptions.ShowBorder = False
-              Index = 0
-            end
-            object lcPesoBruto: TdxLayoutItem
-              Parent = grPeso
-              AlignHorz = ahClient
-              AlignVert = avClient
-              CaptionOptions.Text = 'Peso Bruto'
-              Control = edPesoBruto
-              ControlOptions.OriginalHeight = 25
-              ControlOptions.OriginalWidth = 86
-              ControlOptions.ShowBorder = False
-              Index = 1
             end
             object lgrTax: TdxLayoutGroup
-              Parent = grBottom
-              AlignHorz = ahLeft
-              AlignVert = avTop
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
               CaptionOptions.Text = ' TAX '
               ButtonOptions.Buttons = <>
               LayoutDirection = ldHorizontal
-              Index = 1
+              Index = 8
             end
             object lcTAX: TdxLayoutItem
               Parent = lgrTax
@@ -2059,41 +1322,513 @@ object FrmProduto: TFrmProduto
             end
             object dxLayoutItem1: TdxLayoutItem
               Parent = lgrTax
-              AlignHorz = ahLeft
               AlignVert = avClient
               CaptionOptions.Visible = False
-              Offsets.Left = 40
               Control = lbSetTaxDef
-              ControlOptions.OriginalHeight = 17
+              ControlOptions.OriginalHeight = 21
               ControlOptions.OriginalWidth = 121
               ControlOptions.ShowBorder = False
               Index = 2
             end
-            object grTran: TdxLayoutGroup
-              Parent = grBottom
-              CaptionOptions.Text = 'Transa'#231#245'es'
-              ButtonOptions.Buttons = <>
-              Index = 7
-            end
-            object dxLayoutItem2: TdxLayoutItem
-              Parent = grTran
+            object lcInfoNCM: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup2
               AlignHorz = ahClient
+              AlignVert = avTop
+              CaptionOptions.Text = ' '
+              Visible = False
+              Control = lbInfoNCM
+              ControlOptions.OriginalHeight = 15
+              ControlOptions.OriginalWidth = 690
+              ControlOptions.ShowBorder = False
+              Index = 2
+            end
+            object dxLayoutAutoCreatedGroup2: TdxLayoutAutoCreatedGroup
+              Parent = lgrBR
+              AlignHorz = ahLeft
+              AlignVert = avTop
+              Index = 0
+              AutoCreated = True
+            end
+            object lcNCMDescr: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup4
+              AlignHorz = ahLeft
               AlignVert = avClient
-              CaptionOptions.Text = 'Transa'#231#245'es'
+              CaptionOptions.Text = 'cxLabel2'
               CaptionOptions.Visible = False
-              Control = panTran
-              ControlOptions.OriginalHeight = 616
-              ControlOptions.OriginalWidth = 100
+              Control = lbNCM
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 45
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup
+              Parent = dxLayoutAutoCreatedGroup2
+              AlignVert = avTop
+              LayoutDirection = ldHorizontal
+              Index = 0
+              AutoCreated = True
+            end
+            object lcCEST: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup4
+              AlignHorz = ahLeft
+              AlignVert = avBottom
+              CaptionOptions.Text = 'CEST'
+              Control = edCest
+              ControlOptions.OriginalHeight = 29
+              ControlOptions.OriginalWidth = 109
+              ControlOptions.ShowBorder = False
+              Index = 2
+            end
+            object lclbInfoCest: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup2
+              AlignHorz = ahLeft
+              AlignVert = avTop
+              CaptionOptions.Text = ' '
+              Visible = False
+              Control = lbInfoCest
+              ControlOptions.OriginalHeight = 18
+              ControlOptions.OriginalWidth = 591
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object lclbCEST: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup4
+              AlignHorz = ahLeft
+              AlignVert = avClient
+              CaptionOptions.Visible = False
+              Control = lbCEST
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 44
+              ControlOptions.ShowBorder = False
+              Index = 3
+            end
+            object lcICMSSt: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup1
+              AlignHorz = ahLeft
+              CaptionOptions.Text = 'MVA/Pauta - F9'
+              Control = edICMSST
+              ControlOptions.OriginalHeight = 25
+              ControlOptions.OriginalWidth = 109
               ControlOptions.ShowBorder = False
               Index = 0
             end
+            object lcInfoSt: TdxLayoutItem
+              Parent = lgrBR
+              CaptionOptions.Text = ' '
+              Visible = False
+              Control = lbHintSt
+              ControlOptions.OriginalHeight = 18
+              ControlOptions.OriginalWidth = 690
+              ControlOptions.ShowBorder = False
+              Index = 4
+            end
+            object lcDescrSt: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup1
+              AlignVert = avClient
+              CaptionOptions.Visible = False
+              Control = lbDescrSt
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 36
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutAutoCreatedGroup1: TdxLayoutAutoCreatedGroup
+              Parent = lgrBR
+              LayoutDirection = ldHorizontal
+              Index = 3
+              AutoCreated = True
+            end
+            object lcPesoLiq: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup3
+              AlignHorz = ahRight
+              AlignVert = avClient
+              CaptionOptions.Text = 'Peso L'#237'q.'
+              Control = edPesoLiq
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 85
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutAutoCreatedGroup3: TdxLayoutAutoCreatedGroup
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              LayoutDirection = ldHorizontal
+              Index = 2
+              AutoCreated = True
+            end
+            object lcPesoBruto: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup3
+              AlignHorz = ahRight
+              AlignVert = avClient
+              CaptionOptions.Text = 'Peso Bruto'
+              Control = edPesoBruto
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 86
+              ControlOptions.ShowBorder = False
+              Index = 2
+            end
           end
+        end
+      end
+      object tsOpcoes: TcxTabSheet
+        Caption = 'Op'#231#245'es'
+        ImageIndex = 3
+        object LMDSimplePanel3: TLMDSimplePanel
+          AlignWithMargins = True
+          Left = 7
+          Top = 7
+          Width = 753
+          Height = 616
+          Hint = ''
+          Margins.Left = 7
+          Margins.Top = 7
+          Margins.Right = 0
+          Margins.Bottom = 0
+          Align = alClient
+          Bevel.BorderInnerWidth = 1
+          Bevel.Mode = bmEdge
+          TabOrder = 0
+          object LMDSimplePanel4: TLMDSimplePanel
+            Left = 3
+            Top = 3
+            Width = 747
+            Height = 106
+            Hint = ''
+            Align = alTop
+            Bevel.BorderSides = [fsBottom]
+            Bevel.Mode = bmEdge
+            TabOrder = 0
+            object cxLabel4: TcxLabel
+              AlignWithMargins = True
+              Left = 70
+              Top = 5
+              Caption = 
+                'Fideliza'#231#227'o de clientes por ac'#250'mulo de pontos e resgate de pr'#234'mi' +
+                'os: '
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -13
+              Style.Font.Name = 'Segoe UI Semibold'
+              Style.Font.Style = []
+              Style.TextStyle = []
+              Style.IsFontAssigned = True
+              Properties.Alignment.Vert = taVCenter
+              AnchorY = 16
+            end
+            object lbOpcoesFid: TcxLabel
+              AlignWithMargins = True
+              Left = 499
+              Top = 6
+              Cursor = crHandPoint
+              Caption = 'Ativar sistema de fideliza'#231#227'o'
+              ParentFont = False
+              Style.HotTrack = True
+              Style.TextStyle = [fsUnderline]
+              StyleHot.BorderStyle = ebsNone
+              StyleHot.TextColor = clBlue
+              Properties.Alignment.Vert = taVCenter
+              OnClick = lbOpcoesFidClick
+              AnchorY = 17
+            end
+            object edFidelidade: TcxDBCheckBox
+              Left = 70
+              Top = 32
+              Cursor = crHandPoint
+              Caption = 'Este produto pode ser resgatado como pr'#234'mio'
+              DataBinding.DataField = 'Fidelidade'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Style.BorderStyle = ebsFlat
+              TabOrder = 2
+              OnClick = edFidelidadeClick
+            end
+            object edFidPontos: TcxDBSpinEdit
+              Left = 282
+              Top = 64
+              Cursor = crHandPoint
+              DataBinding.DataField = 'FidPontos'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.ImmediatePost = True
+              Style.BorderColor = clWindowFrame
+              Style.BorderStyle = ebsFlat
+              Style.HotTrack = False
+              Style.LookAndFeel.NativeStyle = False
+              Style.StyleController = FrmPri.cxEditStyleController1
+              Style.ButtonStyle = btsFlat
+              StyleDisabled.LookAndFeel.NativeStyle = False
+              StyleFocused.Color = 11206655
+              StyleFocused.LookAndFeel.NativeStyle = False
+              StyleHot.LookAndFeel.NativeStyle = False
+              TabOrder = 4
+              Width = 107
+            end
+            object lbPontos: TcxLabel
+              Left = 73
+              Top = 64
+              Cursor = crHandPoint
+              Caption = 'Pontos necess'#225'rios para resgate:'
+              FocusControl = edFidPontos
+              ParentFont = False
+            end
+            object imgFid: TMyImage
+              Left = 11
+              Top = 7
+              Width = 48
+              Height = 58
+              MouseOverDrawMode = idmNormal
+              MouseOffDrawMode = idmDingy
+              MouseDownDrawMode = idmNormal
+              ImageList = cxImageList1
+              ImageIndex = 0
+              Colorize = False
+            end
+          end
+          object panComissao: TLMDSimplePanel
+            Left = 3
+            Top = 109
+            Width = 747
+            Height = 106
+            Hint = ''
+            Align = alTop
+            Bevel.BorderSides = []
+            Bevel.Mode = bmEdge
+            TabOrder = 1
+            object LMDSimplePanel7: TLMDSimplePanel
+              Left = 0
+              Top = 0
+              Width = 747
+              Height = 48
+              Hint = ''
+              Margins.Left = 7
+              Margins.Top = 7
+              Margins.Right = 7
+              Margins.Bottom = 7
+              Align = alTop
+              Bevel.Mode = bmCustom
+              TabOrder = 0
+              object edComissaoPerc: TcxCurrencyEdit
+                AlignWithMargins = True
+                Left = 74
+                Top = 7
+                Margins.Left = 7
+                Margins.Top = 7
+                Margins.Right = 7
+                Margins.Bottom = 7
+                Align = alLeft
+                EditValue = 0.000000000000000000
+                Enabled = False
+                ParentFont = False
+                Properties.DecimalPlaces = 2
+                Properties.DisplayFormat = '0.##%'
+                Properties.EditFormat = '#.##'
+                Style.BorderColor = clSilver
+                Style.Color = clWhite
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI'
+                Style.Font.Style = []
+                Style.HotTrack = False
+                Style.LookAndFeel.Kind = lfFlat
+                Style.StyleController = FrmPri.cxEditStyleController1
+                Style.TextStyle = [fsBold]
+                Style.TransparentBorder = False
+                Style.IsFontAssigned = True
+                StyleDisabled.LookAndFeel.Kind = lfFlat
+                StyleDisabled.TextStyle = []
+                StyleFocused.BorderColor = clBtnShadow
+                StyleFocused.BorderStyle = ebsFlat
+                StyleFocused.LookAndFeel.Kind = lfFlat
+                StyleFocused.TextColor = clBlue
+                StyleHot.LookAndFeel.Kind = lfFlat
+                TabOrder = 0
+                Width = 100
+              end
+              object lbComissao: TcxLabel
+                Left = 0
+                Top = 0
+                Align = alLeft
+                Caption = 'Comiss'#227'o:'
+                Enabled = False
+                ParentFont = False
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI'
+                Style.Font.Style = [fsBold]
+                Style.IsFontAssigned = True
+                Properties.Alignment.Horz = taLeftJustify
+                Properties.Alignment.Vert = taVCenter
+                AnchorY = 24
+              end
+              object lbComissaoSobre: TcxLabel
+                Left = 181
+                Top = 0
+                Align = alLeft
+                Caption = 'sobre'
+                Enabled = False
+                ParentFont = False
+                Properties.Alignment.Horz = taLeftJustify
+                Properties.Alignment.Vert = taVCenter
+                AnchorY = 24
+              end
+              object edComissaoLucro: TcxComboBox
+                AlignWithMargins = True
+                Left = 226
+                Top = 7
+                Margins.Left = 7
+                Margins.Top = 7
+                Margins.Right = 7
+                Margins.Bottom = 7
+                Align = alLeft
+                Enabled = False
+                ParentFont = False
+                Properties.DropDownListStyle = lsFixedList
+                Properties.ImmediateDropDownWhenActivated = True
+                Properties.ImmediatePost = True
+                Properties.ImmediateUpdateText = True
+                Properties.Items.Strings = (
+                  'Pre'#231'o de Venda'
+                  'Lucro')
+                Style.Font.Charset = ANSI_CHARSET
+                Style.Font.Color = clWindowText
+                Style.Font.Height = -13
+                Style.Font.Name = 'Segoe UI'
+                Style.Font.Style = []
+                Style.LookAndFeel.Kind = lfFlat
+                Style.StyleController = FrmPri.cxEditStyleController1
+                Style.IsFontAssigned = True
+                StyleDisabled.LookAndFeel.Kind = lfFlat
+                StyleFocused.LookAndFeel.Kind = lfFlat
+                StyleHot.LookAndFeel.Kind = lfFlat
+                TabOrder = 3
+                Text = 'Pre'#231'o de Venda'
+                Width = 179
+              end
+              object btnPremium: TcxButton
+                AlignWithMargins = True
+                Left = 412
+                Top = 9
+                Width = 113
+                Height = 30
+                Cursor = crHandPoint
+                Margins.Left = 0
+                Margins.Top = 9
+                Margins.Right = 0
+                Margins.Bottom = 9
+                Align = alLeft
+                Caption = 'Recurso PRO'
+                LookAndFeel.Kind = lfOffice11
+                OptionsImage.ImageIndex = 85
+                OptionsImage.Images = dmImagens.im16
+                TabOrder = 4
+                OnClick = btnPremiumClick
+              end
+            end
+            object LMDSimplePanel5: TLMDSimplePanel
+              Left = 0
+              Top = 48
+              Width = 747
+              Height = 31
+              Hint = ''
+              Align = alTop
+              Bevel.Mode = bmCustom
+              TabOrder = 1
+              object cbComissaoPadrao: TcxCheckBox
+                AlignWithMargins = True
+                Left = 70
+                Top = 0
+                Cursor = crHandPoint
+                Margins.Left = 70
+                Margins.Top = 0
+                Margins.Right = 0
+                Margins.Bottom = 0
+                Align = alLeft
+                Caption = 'Seguir percentual '
+                ParentFont = False
+                State = cbsChecked
+                Style.LookAndFeel.Kind = lfFlat
+                StyleDisabled.LookAndFeel.Kind = lfFlat
+                StyleFocused.LookAndFeel.Kind = lfFlat
+                StyleHot.LookAndFeel.Kind = lfFlat
+                TabOrder = 0
+                OnClick = cbComissaoPadraoClick
+              end
+              object lbConfigComissao: TcxLabel
+                Left = 200
+                Top = 0
+                Cursor = crHandPoint
+                Margins.Top = 0
+                Align = alLeft
+                Caption = 'padr'#227'o'
+                ParentFont = False
+                Style.HotTrack = True
+                Style.TextStyle = [fsUnderline]
+                StyleHot.BorderStyle = ebsNone
+                StyleHot.TextColor = clBlue
+                Properties.Alignment.Vert = taVCenter
+                OnClick = lbConfigComissaoClick
+                ExplicitLeft = 191
+                AnchorY = 16
+              end
+              object cxLabel8: TcxLabel
+                Left = 247
+                Top = 0
+                Align = alLeft
+                Caption = 'de comiss'#227'o.'
+                ParentFont = False
+                Properties.Alignment.Vert = taVCenter
+                ExplicitLeft = 238
+                AnchorY = 16
+              end
+            end
+          end
+        end
+      end
+      object tsTrans: TcxTabSheet
+        Caption = 'Transa'#231#245'es'
+        ImageIndex = 92
+        object panTran: TLMDSimplePanel
+          AlignWithMargins = True
+          Left = 7
+          Top = 7
+          Width = 753
+          Height = 616
+          Hint = ''
+          Margins.Left = 7
+          Margins.Top = 7
+          Margins.Right = 0
+          Margins.Bottom = 0
+          Align = alClient
+          Bevel.Mode = bmStandard
+          TabOrder = 0
+        end
+      end
+      object tsPend: TcxTabSheet
+        Caption = 'Pendentes'
+        ImageIndex = 94
+        object panPend: TLMDSimplePanel
+          AlignWithMargins = True
+          Left = 7
+          Top = 7
+          Width = 753
+          Height = 616
+          Hint = ''
+          Margins.Left = 7
+          Margins.Top = 7
+          Margins.Right = 0
+          Margins.Bottom = 0
+          Align = alClient
+          Bevel.Mode = bmStandard
+          TabOrder = 0
         end
       end
     end
     object LMDSimplePanel1: TLMDSimplePanel
       AlignWithMargins = True
-      Left = 931
+      Left = 847
       Top = 7
       Width = 200
       Height = 644
@@ -2120,33 +1855,40 @@ object FrmProduto: TFrmProduto
         ParentColor = False
         TabOrder = 0
         TabStop = False
-        Properties.ActivePage = tsFoto
+        Properties.ActivePage = tsSemFoto
         Properties.CustomButtons.Buttons = <>
         Properties.HideTabs = True
         LookAndFeel.NativeStyle = False
-        ClientRectBottom = 177
-        ClientRectRight = 200
-        ClientRectTop = 0
+        ClientRectBottom = 176
+        ClientRectLeft = 1
+        ClientRectRight = 199
+        ClientRectTop = 1
         object tsSemFoto: TcxTabSheet
           Caption = 'SemFoto'
           ImageIndex = 0
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 200
+          ExplicitHeight = 177
           object panSemFoto: TLMDSimplePanel
             Left = 0
             Top = 0
-            Width = 200
-            Height = 177
+            Width = 198
+            Height = 175
             Hint = ''
             Align = alClient
             Bevel.BorderColor = clBtnShadow
             Bevel.LightColor = 15987699
             Bevel.Mode = bmStandard
             TabOrder = 0
+            ExplicitWidth = 200
+            ExplicitHeight = 177
             object Image1: TImage
               AlignWithMargins = True
               Left = 1
               Top = 1
-              Width = 198
-              Height = 95
+              Width = 196
+              Height = 93
               Margins.Left = 0
               Margins.Top = 0
               Margins.Right = 0
@@ -2185,14 +1927,14 @@ object FrmProduto: TFrmProduto
             object lbSemFoto: TcxLabel
               AlignWithMargins = True
               Left = 11
-              Top = 132
+              Top = 130
               Cursor = crHandPoint
               Margins.Left = 10
               Margins.Top = 10
               Margins.Right = 10
               Margins.Bottom = 10
               Align = alBottom
-              Caption = 'Clique aqui para selecionar uma foto para esse produto'
+              Caption = 'Clique aqui para selecionar uma imagem para esse produto'
               ParentFont = False
               Style.Font.Charset = ANSI_CHARSET
               Style.Font.Color = clWindowText
@@ -2212,9 +1954,11 @@ object FrmProduto: TFrmProduto
               Properties.WordWrap = True
               Transparent = True
               OnClick = lbSemFotoClick
-              Width = 178
-              AnchorX = 100
-              AnchorY = 166
+              ExplicitTop = 132
+              ExplicitWidth = 178
+              Width = 176
+              AnchorX = 99
+              AnchorY = 164
             end
           end
         end
@@ -2222,17 +1966,23 @@ object FrmProduto: TFrmProduto
           AllowCloseButton = False
           Caption = 'Foto'
           ImageIndex = 1
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 200
+          ExplicitHeight = 177
           object panFoto: TLMDSimplePanel
             Left = 0
             Top = 0
-            Width = 200
-            Height = 177
+            Width = 198
+            Height = 175
             Hint = ''
             Align = alClient
             Bevel.WidthInner = 0
             Bevel.WidthOuter = 0
             Bevel.Mode = bmStandard
             TabOrder = 0
+            ExplicitWidth = 200
+            ExplicitHeight = 177
             object edFoto: TcxDBImage
               Left = 1
               Top = 1
@@ -2248,12 +1998,29 @@ object FrmProduto: TFrmProduto
               Style.Color = clWhite
               Style.TransparentBorder = False
               TabOrder = 0
-              Height = 175
-              Width = 198
+              ExplicitWidth = 198
+              ExplicitHeight = 175
+              Height = 173
+              Width = 196
             end
           end
         end
       end
+    end
+    object dxBarDockControl1: TdxBarDockControl
+      AlignWithMargins = True
+      Left = 0
+      Top = 7
+      Width = 80
+      Height = 644
+      Margins.Left = 0
+      Margins.Top = 7
+      Margins.Right = 0
+      Margins.Bottom = 0
+      Align = dalLeft
+      BarManager = BarMgr
+      SunkenBorder = False
+      UseOwnSunkenBorder = True
     end
   end
   object panLookup: TLMDSimplePanel
@@ -2430,8 +2197,8 @@ object FrmProduto: TFrmProduto
     PopupMenuLinks = <>
     SunkenBorder = True
     UseSystemFont = True
-    Left = 80
-    Top = 528
+    Left = 24
+    Top = 352
     DockControlHeights = (
       0
       0
@@ -2486,6 +2253,52 @@ object FrmProduto: TFrmProduto
       Visible = True
       WholeRow = True
     end
+    object BarMgrBar2: TdxBar
+      AllowClose = False
+      AllowCustomizing = False
+      AllowQuickCustomizing = False
+      AllowReset = False
+      BorderStyle = bbsNone
+      Caption = 'Custom 1'
+      CaptionButtons = <>
+      DockControl = dxBarDockControl1
+      DockedDockControl = dxBarDockControl1
+      DockedLeft = 0
+      DockedTop = 0
+      FloatLeft = 1054
+      FloatTop = 8
+      FloatClientWidth = 0
+      FloatClientHeight = 0
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -12
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ItemLinks = <
+        item
+          Visible = True
+          ItemName = 'cmDados'
+        end
+        item
+          Visible = True
+          ItemName = 'cmTran'
+        end
+        item
+          Visible = True
+          ItemName = 'cmPend'
+        end
+        item
+          Visible = True
+          ItemName = 'cmOpcoes'
+        end>
+      OneOnRow = True
+      RotateWhenVertical = False
+      Row = 0
+      UseOwnFont = True
+      UseRestSpace = True
+      Visible = True
+      WholeRow = False
+    end
     object cmKardex: TdxBarButton
       Caption = '&Kardex'
       Category = 0
@@ -2534,6 +2347,51 @@ object FrmProduto: TFrmProduto
       LargeImageIndex = 124
       ShowCaption = False
     end
+    object cmDados: TdxBarLargeButton
+      Caption = 'Dados'
+      Category = 0
+      Hint = 'Dados'
+      Visible = ivAlways
+      ButtonStyle = bsChecked
+      GroupIndex = 1
+      Down = True
+      OnClick = cmDadosClick
+      AutoGrayScale = False
+      LargeImageIndex = 38
+      Width = 80
+    end
+    object cmTran: TdxBarLargeButton
+      Caption = 'Transa'#231#245'es'
+      Category = 0
+      Hint = 'Transa'#231#245'es'
+      Visible = ivAlways
+      ButtonStyle = bsChecked
+      GroupIndex = 1
+      OnClick = cmTranClick
+      LargeImageIndex = 156
+      Width = 80
+    end
+    object cmOpcoes: TdxBarLargeButton
+      Caption = 'Op'#231'oes'
+      Category = 0
+      Hint = 'Op'#231'oes'
+      Visible = ivAlways
+      ButtonStyle = bsChecked
+      GroupIndex = 1
+      OnClick = cmOpcoesClick
+      LargeImageIndex = 157
+      Width = 80
+    end
+    object cmPend: TdxBarLargeButton
+      Caption = 'Reservados'
+      Category = 0
+      Hint = 'Reservados'
+      Visible = ivNever
+      ButtonStyle = bsChecked
+      GroupIndex = 1
+      OnClick = cmPendClick
+      LargeImageIndex = 158
+    end
   end
   object QCat: TnxQuery
     ActiveRuntime = True
@@ -2543,7 +2401,7 @@ object FrmProduto: TFrmProduto
       'Select Distinct(Categoria) From Produto')
     Left = 892
     Top = 306
-    object QCatCategoria: TWideStringField
+    object QCatCategoria: TStringField
       FieldName = 'Categoria'
       Size = 35
     end
@@ -2556,8 +2414,8 @@ object FrmProduto: TFrmProduto
   object FMgr: TFormManager
     BarMgr = BarMgr
     PageControl = Paginas
-    Left = 618
-    Top = 337
+    Left = 522
+    Top = 305
   end
   object MT: TkbmMemTable
     DesignActivation = True
@@ -2767,6 +2625,15 @@ object FrmProduto: TFrmProduto
     object MTFidPontos: TIntegerField
       FieldName = 'FidPontos'
     end
+    object MTCodigo: TStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object MTDescricao: TStringField
+      DisplayWidth = 100
+      FieldName = 'Descricao'
+      Size = 100
+    end
     object MTbrtrib: TWordField
       Alignment = taLeftJustify
       FieldName = 'brtrib'
@@ -2775,9 +2642,18 @@ object FrmProduto: TFrmProduto
       Alignment = taLeftJustify
       FieldName = 'Preco'
     end
+    object MTObs: TMemoField
+      FieldName = 'Obs'
+      BlobType = ftMemo
+    end
     object MTImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
+    end
+    object MTCategoria: TStringField
+      DisplayWidth = 35
+      FieldName = 'Categoria'
+      Size = 35
     end
     object MTCustoUnitario: TCurrencyField
       Alignment = taLeftJustify
@@ -2791,6 +2667,11 @@ object FrmProduto: TFrmProduto
     end
     object MTPermiteVendaFracionada: TBooleanField
       FieldName = 'PermiteVendaFracionada'
+    end
+    object MTUnid: TStringField
+      DisplayLabel = 'Unidade'
+      FieldName = 'Unid'
+      Size = 5
     end
     object MTEstoqueRepor: TFloatField
       FieldName = 'EstoqueRepor'
@@ -2868,40 +2749,6 @@ object FrmProduto: TFrmProduto
       FieldName = 'NCM_Ex'
       Size = 2
     end
-    object MTMarca: TGuidField
-      FieldName = 'Marca'
-      Size = 38
-    end
-    object MTCodigo: TWideStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object MTDescricao: TWideStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object MTUnid: TWideStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
-    object MTObs: TWideMemoField
-      FieldName = 'Obs'
-      BlobType = ftWideMemo
-    end
-    object MTCategoria: TWideStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-    object MTNomeMarca: TWideStringField
-      FieldKind = fkLookup
-      FieldName = 'NomeMarca'
-      LookupDataSet = tMarca
-      LookupKeyFields = 'UID'
-      LookupResultField = 'Nome'
-      KeyFields = 'Marca'
-      Size = 40
-      Lookup = True
-    end
     object MTtax_id: TLongWordField
       FieldName = 'tax_id'
     end
@@ -2933,8 +2780,8 @@ object FrmProduto: TFrmProduto
     Top = 352
   end
   object dxLayoutLookAndFeelList1: TdxLayoutLookAndFeelList
-    Left = 656
-    Top = 552
+    Left = 432
+    Top = 360
     object dxLayoutWebLookAndFeel1: TdxLayoutWebLookAndFeel
     end
     object dxLayoutStandardLookAndFeel1: TdxLayoutStandardLookAndFeel
@@ -2974,7 +2821,7 @@ object FrmProduto: TFrmProduto
       'Select Distinct(Unid) From Produto')
     Left = 892
     Top = 354
-    object qUnidadeUnid: TWideStringField
+    object qUnidadeUnid: TStringField
       FieldName = 'Unid'
       Size = 5
     end
@@ -2992,7 +2839,7 @@ object FrmProduto: TFrmProduto
     IndexName = 'uq_Categoria'
     Left = 592
     Top = 288
-    object tCategDescricao: TWideStringField
+    object tCategDescricao: TStringField
       FieldName = 'Descricao'
       Size = 35
     end
@@ -3000,7 +2847,7 @@ object FrmProduto: TFrmProduto
   object dsCateg: TDataSource
     DataSet = tCateg
     Left = 856
-    Top = 288
+    Top = 312
   end
   object Q: TnxQuery
     Database = Dados.db
@@ -3013,8 +2860,8 @@ object FrmProduto: TFrmProduto
     TableName = 'Unidade'
     IndexName = 'uq_Unidade'
     Left = 752
-    Top = 296
-    object tUnidDescricao: TWideStringField
+    Top = 312
+    object tUnidDescricao: TStringField
       FieldName = 'Descricao'
       Size = 5
     end
@@ -3028,7 +2875,7 @@ object FrmProduto: TFrmProduto
     Height = 48
     Width = 48
     FormatVersion = 1
-    DesignInfo = 18874440
+    DesignInfo = 23068720
     ImageInfo = <
       item
         Image.Data = {
@@ -3615,6 +3462,299 @@ object FrmProduto: TFrmProduto
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000000000000000
           0000000000000000000000000000000000000000000000000000}
+      end
+      item
+        Image.Data = {
+          36240000424D3624000000000000360000002800000030000000300000000100
+          2000000000000024000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          000000000000000000000000000000000000000000000000000000000000007C
+          00D2007A00DF007800DF007800DF007900DF007700DF007800DF007400DF0074
+          00DF007500DF007300DF007300DF007300DF007200DF007100DF007100DF0070
+          00DF007000DF006F00DF006F00DF006D00DF006C00DF006C00DF006B00DF006C
+          00DF006A00DF006900DF006A00DF006800DF006900DF006700DF006500DF0065
+          00DF006400DF006500DF006300DF006200DF006300DF006100DF006200DF0060
+          00DF006100DF005F00DF005E00DF005F00DF005500BA00000000000000000084
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005B00D400000000000000000084
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005B00D400000000000000000085
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005A00D400000000000000000086
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005B00D400000000000000000086
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005C00D400000000000000000087
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005F00D400000000000000000087
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005E00D400000000000000000088
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006000D400000000000000000088
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF005F00D400000000000000000089
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF4F8F2FFF697A28FF697A
+          28FF37A335FF1EB73CFF1EB73CFF1EB73CFF006000D40000000000000000008A
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF37A335FFCD290DFFFF0000FFFF0000FFFF00
+          00FFFF0000FF9A521BFF1EB73CFF1EB73CFF006100D40000000000000000008A
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFFCD290DFFFF0000FFE51507FF697A28FF697A
+          28FF826621FF9A521BFF1EB73CFF1EB73CFF006000D40000000000000000008B
+          00F01EB73CFF1EB73CFF1EB73CFF17C767FF14CF7DFF17C767FF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1BBF51FF14CF7DFF14CF7DFF1BBF51FF1EB73CFF1EB7
+          3CFF14CF7DFF14CF7DFF17C767FF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1BBF51FF14CF7DFF14CF7DFF14CF7DFF1EB7
+          3CFF1EB73CFF1EB73CFF4F8F2FFFFF0000FFFF0000FF37A335FF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006100D40000000000000000008B
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF17C767FF07EFD3FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FF
+          FFFF17C767FF1EB73CFF697A28FFFF0000FFFF0000FFFF0000FFFF0000FFFF00
+          00FFFF0000FFFF0000FF697A28FF1EB73CFF006400D40000000000000000008C
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF1EB73CFF1EB7
+          3CFF1EB73CFF14CF7DFF00FFFFFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF17C767FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FF
+          FFFF14CF7DFF1EB73CFF697A28FFFF0000FFFF0000FFB43D14FFB43D14FFB43D
+          14FFFF0000FFFF0000FF697A28FF1EB73CFF006400D40000000000000000008C
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF1EB73CFF1EB7
+          3CFF1BBF51FF03F7E9FF00FFFFFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF07EFD3FF00FFFFFF00FFFFFF0AE7BEFF1BBF51FF1EB73CFF1EB73CFF14CF
+          7DFF17C767FF1EB73CFF1EB73CFFFF0000FFFF0000FF697A28FF1EB73CFF37A3
+          35FFFF0000FFFF0000FF37A335FF1EB73CFF006500D40000000000000000008D
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF1EB73CFF1EB7
+          3CFF0AE7BEFF00FFFFFF03F7E9FF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1BBF
+          51FF00FFFFFF00FFFFFF07EFD3FF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF826621FFFF0000FFFF0000FFB43D14FFE515
+          07FFFF0000FFB43D14FF1EB73CFF1EB73CFF006500D40000000000000000008D
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF1EB73CFF14CF
+          7DFF00FFFFFF00FFFFFF17C767FF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF1EB73CFF14CF
+          7DFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF697A28FFE51507FFFF0000FFFF00
+          00FF9A521BFF1EB73CFF1EB73CFF1EB73CFF006500D40000000000000000008E
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF1BBF51FF03F7
+          E9FF00FFFFFF0DDFA8FF1EB73CFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF1EB73CFF14CF
+          7DFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006600D40000000000000000008E
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF0AE7BEFF0DDFA8FF00FF
+          FFFF03F7E9FF1EB73CFF1EB73CFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF17C7
+          67FF00FFFFFF00FFFFFF0DDFA8FF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006600D40000000000000000008F
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF03F7E9FF00FFFFFF00FF
+          FFFF17C767FF1EB73CFF1EB73CFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF03F7E9FF00FFFFFF03F7E9FF1BBF51FF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006700D40000000000000000008F
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF00FFFFFF00FFFFFF0AE7
+          BEFF1EB73CFF1EB73CFF1EB73CFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF0AE7BEFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF14CF7DFF00FFFFFF00FFFFFF03F7E9FF0DDFA8FF14CF7DFF14CF7DFF0AE7
+          BEFF14CF7DFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006A00D400000000000000000090
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF00FFFFFF03F7E9FF1BBF
+          51FF1EB73CFF1EB73CFF1EB73CFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF14CF7DFF1EB7
+          3CFF1EB73CFF0DDFA8FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FF
+          FFFF14CF7DFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006900D400000000000000000092
+          00F01EB73CFF1EB73CFF1EB73CFF0AE7BEFF00FFFFFF00FFFFFF14CF7DFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF00FFFFFF00FFFFFF14CF7DFF1EB73CFF1EB7
+          3CFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF14CF7DFF1EB7
+          3CFF1EB73CFF1EB73CFF17C767FF0AE7BEFF00FFFFFF00FFFFFF00FFFFFF07EF
+          D3FF17C767FF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006A00D400000000000000000091
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006A00D400000000000000000093
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006A00D400000000000000000092
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006C00D400000000000000000094
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006B00D400000000000000000093
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006D00D400000000000000000095
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006F00D400000000000000000097
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006F00D400000000000000000096
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF007000D400000000000000000098
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF006F00D400000000000000000098
+          00F01EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF1EB7
+          3CFF1EB73CFF1EB73CFF1EB73CFF1EB73CFF007100D40000000000000000009C
+          00E3009900F1009700F1009800F1009600F1009600F1009400F1009500F10093
+          00F1009400F1009200F1009300F1009100F1009100F1009000F1009000F1008F
+          00F1008F00F1008D00F1008E00F1008C00F1008D00F1008B00F1008C00F1008A
+          00F1008B00F1008900F1008A00F1008800F1008900F1008700F1008800F10086
+          00F1008700F1008500F1008600F1008400F1008500F1008300F1008400F10082
+          00F1008300F1008100F1008200F1008100F1007300C800000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000000000000000
+          0000000000000000000000000000000000000000000000000000}
       end>
   end
   object escFlat: TcxEditStyleController
@@ -3632,7 +3772,7 @@ object FrmProduto: TFrmProduto
     StyleFocused.LookAndFeel.Kind = lfFlat
     StyleFocused.TextColor = clHotLight
     StyleHot.LookAndFeel.Kind = lfFlat
-    Left = 528
+    Left = 472
     Top = 216
     PixelsPerInch = 96
   end
@@ -3642,7 +3782,7 @@ object FrmProduto: TFrmProduto
     TableName = 'ProdFor'
     IndexName = 'IProdFor'
     Left = 808
-    Top = 272
+    Top = 312
     object tProdForUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -3668,14 +3808,26 @@ object FrmProduto: TFrmProduto
     FilterOptions = [foCaseInsensitive]
     TableName = 'Produto'
     IndexName = 'IID'
-    Left = 624
-    Top = 224
+    Left = 1000
+    Top = 424
     object tProID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
     object tProUID: TGuidField
       FieldName = 'UID'
       Size = 38
+    end
+    object tProCodigo: TStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProDescricao: TStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProUnid: TStringField
+      FieldName = 'Unid'
+      Size = 5
     end
     object tProPreco: TCurrencyField
       FieldName = 'Preco'
@@ -3686,12 +3838,24 @@ object FrmProduto: TFrmProduto
     object tProMargem: TFloatField
       FieldName = 'Margem'
     end
+    object tProObs: TnxMemoField
+      FieldName = 'Obs'
+      BlobType = ftMemo
+    end
     object tProImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
+    object tProCategoria: TStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
     object tProFornecedor: TLongWordField
       FieldName = 'Fornecedor'
+    end
+    object tProSubCateg: TStringField
+      FieldName = 'SubCateg'
+      Size = 35
     end
     object tProEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -3791,64 +3955,5 @@ object FrmProduto: TFrmProduto
       FieldName = 'AlteradoPor'
       Size = 30
     end
-    object tProMarca: TGuidField
-      FieldName = 'Marca'
-      Size = 38
-    end
-    object tProCodigo: TWideStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProDescricao: TWideStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProUnid: TWideStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
-    object tProObs: TWideMemoField
-      FieldName = 'Obs'
-      BlobType = ftWideMemo
-    end
-    object tProCategoria: TWideStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-  end
-  object tMarca: TnxTable
-    ActiveRuntime = True
-    Database = Dados.db
-    TableName = 'Marca'
-    IndexName = 'IUID'
-    Left = 415
-    Top = 151
-    object tMarcaID: TUnsignedAutoIncField
-      FieldName = 'ID'
-    end
-    object tMarcaUID: TGuidField
-      FieldName = 'UID'
-      Size = 38
-    end
-    object tMarcaNome: TWideStringField
-      FieldName = 'Nome'
-      Size = 40
-    end
-    object tMarcaRecVer: TLongWordField
-      FieldName = 'RecVer'
-    end
-  end
-  object dsMarca: TDataSource
-    DataSet = tMarca
-    Left = 495
-    Top = 167
-  end
-  object tAux: TnxTable
-    ActiveRuntime = True
-    Database = Dados.db
-    TableName = 'Produto'
-    IndexName = 'IMarcaDescr'
-    Left = 383
-    Top = 215
   end
 end

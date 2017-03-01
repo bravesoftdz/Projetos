@@ -29,7 +29,7 @@ object dmNFCe_gerar: TdmNFCe_gerar
       'fce\retrato.rtm'
     DanfceSettings.FormatoDanfce = fdNormal
     DanfceSettings.ExibirDetalhamento = True
-    Versao = '5.7.31.50994'
+    Versao = '5.7.33.53481'
     CaracteresRemoverAcentos = #225#233#237#243#250#224#232#236#242#249#226#234#238#244#251#228#235#239#246#252#227#245#241#231#193#201#205#211#218#192#200#204#210#217#194#202#206#212#219#196#203#207#214#220#195#213#209#199#186#170
     TipoCertificado = ckFile
     DiretorioTemplates = 
@@ -1083,18 +1083,6 @@ object dmNFCe_gerar: TdmNFCe_gerar
     object tProdutoID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tProdutoCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdutoDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProdutoUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProdutoPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -1104,24 +1092,12 @@ object dmNFCe_gerar: TdmNFCe_gerar
     object tProdutoMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdutoObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdutoImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tProdutoCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tProdutoFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tProdutoSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tProdutoCustoUnitario: TCurrencyField
       FieldName = 'CustoUnitario'
@@ -1217,6 +1193,41 @@ object dmNFCe_gerar: TdmNFCe_gerar
     object tProdutoRecVer: TLongWordField
       FieldName = 'RecVer'
     end
+    object tProdutoUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdutoMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdutoCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdutoDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdutoUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdutoObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProdutoCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProdutoAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProdutoAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
+    end
   end
   object tAuxNFE: TnxTable
     Database = nxDB
@@ -1262,6 +1273,7 @@ object dmNFCe_gerar: TdmNFCe_gerar
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
@@ -1269,17 +1281,20 @@ object dmNFCe_gerar: TdmNFCe_gerar
     Top = 24
   end
   object nxRSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 248
     Top = 24
   end
   object nxDB: TnxDatabase
+    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 200
     Top = 24
   end
   object nxSession: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = nxRSE

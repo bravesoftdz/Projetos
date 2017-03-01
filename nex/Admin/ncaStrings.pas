@@ -3,6 +3,7 @@ unit ncaStrings;
 interface
 
 resourcestring
+  rsNovaMarca  = 'nova marca';
   rsPersonalizado = 'Personalizado';
   rsMes            = 'Mês';
   rsMigrarFree     = 'Migrar para o FREE';

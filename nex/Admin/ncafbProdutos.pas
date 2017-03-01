@@ -30,18 +30,13 @@ uses
 type
   TfbProdutos = class(TFrmBase)
     Tab: TnxTable;
-    TabUnid: TStringField;
     TabPreco: TCurrencyField;
-    TabObs: TMemoField;
     TabImagem: TGraphicField;
     TabCustoUnitario: TCurrencyField;
     TabEstoqueFinal: TFloatField;
     dsTab: TDataSource;
     cmReprocessar: TdxBarButton;
     pmEstoque: TdxBarPopupMenu;
-    TabDescricao: TStringField;
-    TabCategoria: TStringField;
-    TabSubCateg: TStringField;
     TabPodeAlterarPreco: TBooleanField;
     TabNaoControlaEstoque: TBooleanField;
     PB: TcxProgressBar;
@@ -66,7 +61,6 @@ type
     TabMargem: TFloatField;
     cxStyleRepository1: TcxStyleRepository;
     cxStyle1: TcxStyle;
-    TabCodigo: TStringField;
     BarMgrBar2: TdxBar;
     cmFerramentas: TdxBarSubItem;
     cmBusca: TdxBarControlContainerItem;
@@ -77,7 +71,6 @@ type
     cmMostrarFin: TdxBarButton;
     cxStyle2: TcxStyle;
     tAux: TnxTable;
-    tAuxCodigo: TStringField;
     cxStyle3: TcxStyle;
     TimerSelBusca: TTimer;
     TabComissaoPerc: TFloatField;
@@ -232,6 +225,16 @@ type
     TVprodPesoLiq: TcxGridDBColumn;
     TVprodpesoBruto: TcxGridDBColumn;
     TVprodCest: TcxGridDBColumn;
+    TabMarca: TGuidField;
+    TabCodigo: TWideStringField;
+    TabDescricao: TWideStringField;
+    TabUnid: TWideStringField;
+    TabObs: TWideMemoField;
+    TabCategoria: TWideStringField;
+    TabRecVer: TLongWordField;
+    tAuxCodigo: TWideStringField;
+    TabNomeMarca: TWideStringField;
+    TVprodMarca: TcxGridDBColumn;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);
@@ -1258,27 +1261,8 @@ begin
     
   if Tab.Active then
     Tab.Refresh;
-
 end;
 
 end.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 

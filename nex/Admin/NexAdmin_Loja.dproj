@@ -104,8 +104,8 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <DCC_Hints>false</DCC_Hints>
         <DCC_UseMSBuildExternally>false</DCC_UseMSBuildExternally>
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
-        <VerInfo_Build>358</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.358;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.358;Comments=</VerInfo_Keys>
+        <VerInfo_Build>359</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.359;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.359;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <ProjectExtensions>
@@ -1369,8 +1369,8 @@ $(PostBuildEvent)]]></PostBuildEvent>
             <Form>FrmPlus</Form>
         </DCCReference>
         <DCCReference Include="..\comp\ncIPAddr.pas"/>
-        <DCCReference Include="ncaFrmProduto.pas">
-            <Form>FrmProduto</Form>
+        <DCCReference Include="ncaFrmProdutoNew.pas">
+            <Form>FrmProdutoNew</Form>
         </DCCReference>
         <DCCReference Include="ncaFrmProdPesq2.pas">
             <Form>FrmProdPesq2</Form>
@@ -1667,6 +1667,10 @@ $(PostBuildEvent)]]></PostBuildEvent>
         </DCCReference>
         <DCCReference Include="ncaFrmTrial_Sombra.pas">
             <Form>FrmTrial_sombra</Form>
+        </DCCReference>
+        <DCCReference Include="ncaFrmProduto.pas">
+            <Form>FrmProduto</Form>
+            <FormType>dfm</FormType>
         </DCCReference>
         <None Include="C:\Comp\LMD2015\source\LMDCmps.inc"/>
         <None Include="C:\Comp\LMD2015\source\lmddlgcmps.inc"/>

@@ -122,13 +122,13 @@ object FrmPanFor: TFrmPanFor
     end
     object btnApagar: TcxButton
       AlignWithMargins = True
-      Left = 984
+      Left = 685
       Top = 3
       Width = 26
       Height = 28
       Cursor = crHandPoint
       Margins.Right = 10
-      Align = alRight
+      Align = alLeft
       Caption = 'btnApagar'
       Colors.Default = clWhite
       OptionsImage.Glyph.Data = {
@@ -179,7 +179,7 @@ object FrmPanFor: TFrmPanFor
     end
     object lbPadrao: TcxLabel
       AlignWithMargins = True
-      Left = 770
+      Left = 809
       Top = 3
       Margins.Right = 0
       Align = alLeft
@@ -199,11 +199,12 @@ object FrmPanFor: TFrmPanFor
       Transparent = True
       Visible = False
       OnClick = lbPadraoClick
+      ExplicitLeft = 770
       AnchorY = 17
     end
     object lbSetPadrao: TcxLabel
       AlignWithMargins = True
-      Left = 685
+      Left = 724
       Top = 0
       Cursor = crHandPoint
       Margins.Top = 0
@@ -229,7 +230,8 @@ object FrmPanFor: TFrmPanFor
       Properties.Alignment.Vert = taVCenter
       Transparent = True
       OnClick = lbSetPadraoClick
-      AnchorX = 726
+      ExplicitLeft = 685
+      AnchorX = 765
       AnchorY = 17
     end
   end

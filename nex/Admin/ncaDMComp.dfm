@@ -894,18 +894,6 @@ object dmComp: TdmComp
     object tProID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tProCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -915,24 +903,22 @@ object dmComp: TdmComp
     object tProMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tProCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tProFornecedor: TLongWordField
       FieldName = 'Fornecedor'
     end
-    object tProSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
+    object tProNomeMarca: TWideStringField
+      FieldKind = fkLookup
+      FieldName = 'NomeMarca'
+      LookupDataSet = Dados.tbMarca
+      LookupKeyFields = 'UID'
+      LookupResultField = 'Nome'
+      KeyFields = 'Marca'
+      Size = 40
+      Lookup = True
     end
     object tProEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -995,6 +981,67 @@ object dmComp: TdmComp
     object tProNCM: TStringField
       FieldName = 'NCM'
       Size = 8
+    end
+    object tProUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProbrtrib: TWordField
+      FieldName = 'brtrib'
+    end
+    object tProPesoBruto: TFloatField
+      FieldName = 'PesoBruto'
+    end
+    object tProPesoLiq: TFloatField
+      FieldName = 'PesoLiq'
+    end
+    object tProFidelidade: TBooleanField
+      FieldName = 'Fidelidade'
+    end
+    object tProFidPontos: TIntegerField
+      FieldName = 'FidPontos'
+    end
+    object tProNCM_Ex: TStringField
+      FieldName = 'NCM_Ex'
+      Size = 2
+    end
+    object tProcest: TLongWordField
+      FieldName = 'cest'
+    end
+    object tPromodST: TByteField
+      FieldName = 'modST'
+    end
+    object tProMVA: TnxMemoField
+      FieldName = 'MVA'
+      BlobType = ftMemo
+    end
+    object tProPauta: TnxMemoField
+      FieldName = 'Pauta'
+      BlobType = ftMemo
     end
   end
   object dbConfig: TfrxDBDataset
@@ -1289,7 +1336,7 @@ object dmComp: TdmComp
     Top = 32
   end
   object repWin: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -1649,7 +1696,7 @@ object dmComp: TdmComp
     Top = 104
   end
   object repWinB: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -2076,7 +2123,7 @@ object dmComp: TdmComp
     end
   end
   object repCust: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -2224,17 +2271,12 @@ object dmComp: TdmComp
     FieldAliases.Strings = (
       'EstoqueFinal=EstoqueFinal'
       'ID=ID'
-      'Codigo=Codigo'
-      'Descricao=Descricao'
-      'Unid=Unid'
       'Preco=Preco'
       'PrecoAuto=PrecoAuto'
       'Margem=Margem'
-      'Obs=Obs'
       'Imagem=Imagem'
-      'Categoria=Categoria'
       'Fornecedor=Fornecedor'
-      'SubCateg=SubCateg'
+      'NomeMarca=NomeMarca'
       'EstoqueAtual=EstoqueAtual'
       'CustoUnitario=CustoUnitario'
       'PodeAlterarPreco=PodeAlterarPreco'
@@ -2252,7 +2294,24 @@ object dmComp: TdmComp
       'NomeFornecedor=NomeFornecedor'
       'EstoquePend=EstoquePend'
       'EstoqueTot=EstoqueTot'
-      'NCM=NCM')
+      'NCM=NCM'
+      'UID=UID'
+      'Marca=Marca'
+      'Codigo=Codigo'
+      'Descricao=Descricao'
+      'Unid=Unid'
+      'Obs=Obs'
+      'Categoria=Categoria'
+      'brtrib=brtrib'
+      'PesoBruto=PesoBruto'
+      'PesoLiq=PesoLiq'
+      'Fidelidade=Fidelidade'
+      'FidPontos=FidPontos'
+      'NCM_Ex=NCM_Ex'
+      'cest=cest'
+      'modST=modST'
+      'MVA=MVA'
+      'Pauta=Pauta')
     DataSet = tPro
     BCDToCurrency = False
     Left = 528
@@ -2632,7 +2691,7 @@ object dmComp: TdmComp
     Top = 88
   end
   object repSerial: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = True
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -2926,7 +2985,7 @@ object dmComp: TdmComp
     Top = 280
   end
   object repDebWin: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -3306,7 +3365,7 @@ object dmComp: TdmComp
     end
   end
   object repDebWinB: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -3744,7 +3803,7 @@ object dmComp: TdmComp
     end
   end
   object repDebSerial: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = True
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]

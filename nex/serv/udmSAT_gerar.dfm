@@ -1021,18 +1021,6 @@ object dmSAT_gerar: TdmSAT_gerar
     object tProdutoID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tProdutoCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdutoDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProdutoUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProdutoPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -1042,24 +1030,16 @@ object dmSAT_gerar: TdmSAT_gerar
     object tProdutoMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdutoObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdutoImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tProdutoCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tProdutoFornecedor: TLongWordField
       FieldName = 'Fornecedor'
     end
-    object tProdutoSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
+    object tProdutoObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
     end
     object tProdutoCustoUnitario: TCurrencyField
       FieldName = 'CustoUnitario'
@@ -1155,6 +1135,37 @@ object dmSAT_gerar: TdmSAT_gerar
     object tProdutoRecVer: TLongWordField
       FieldName = 'RecVer'
     end
+    object tProdutoUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdutoMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdutoCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdutoDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdutoUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdutoCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProdutoAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProdutoAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
+    end
   end
   object tAuxNFE: TnxTable
     Database = nxDB
@@ -1200,6 +1211,7 @@ object dmSAT_gerar: TdmSAT_gerar
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
@@ -1207,17 +1219,20 @@ object dmSAT_gerar: TdmSAT_gerar
     Top = 24
   end
   object nxRSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 248
     Top = 24
   end
   object nxDB: TnxDatabase
+    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 200
     Top = 24
   end
   object nxSession: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = nxRSE
@@ -1237,7 +1252,7 @@ object dmSAT_gerar: TdmSAT_gerar
     DiretorioCopiaSeguranca = 
       'C:\Program Files (x86)\Embarcadero\Studio\15.0\bin\CopiaSeguranc' +
       'a\'
-    Versao = '2.7.14.51307'
+    Versao = '2.7.15.52970'
     ValidarEsquemaAntesEnvio = False
     UtilizarEmuladorSefaz = False
     EmailSettings.Autenticacao = False

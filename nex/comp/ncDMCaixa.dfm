@@ -5,6 +5,7 @@ object dmCaixa: TdmCaixa
   Height = 466
   Width = 678
   object nxSession: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     Timeout = 240000
@@ -13,18 +14,21 @@ object dmCaixa: TdmCaixa
     Top = 16
   end
   object nxDB: TnxDatabase
+    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 80
     Top = 16
   end
   object nxRSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 136
     Top = 16
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     Timeout = 240000
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
@@ -57,10 +61,6 @@ object dmCaixa: TdmCaixa
       '')
     Left = 247
     Top = 96
-    object qVCCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object qVCTotal: TCurrencyField
       FieldName = 'Total'
     end
@@ -75,6 +75,10 @@ object dmCaixa: TdmCaixa
     object qVCQuant: TFloatField
       FieldName = 'Quant'
     end
+    object qVCCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
   end
   object tProd: TnxTable
     Database = nxDB
@@ -83,10 +87,6 @@ object dmCaixa: TdmCaixa
     IndexName = 'IID'
     Left = 24
     Top = 275
-    object tProdDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
     object tProdID: TAutoIncField
       FieldName = 'ID'
     end
@@ -95,6 +95,10 @@ object dmCaixa: TdmCaixa
     end
     object tProdNaoControlaEstoque: TBooleanField
       FieldName = 'NaoControlaEstoque'
+    end
+    object tProdDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
     end
   end
   object tAuxME: TnxTable
@@ -174,7 +178,6 @@ object dmCaixa: TdmCaixa
     end
   end
   object mtEst: TkbmMemTable
-    Active = True
     DesignActivation = True
     AttachedAutoRefresh = True
     AttachMaxCount = 1
@@ -204,11 +207,6 @@ object dmCaixa: TdmCaixa
         DataType = ftCurrency
       end
       item
-        Name = 'Descricao'
-        DataType = ftString
-        Size = 100
-      end
-      item
         Name = 'SaldoFinal'
         DataType = ftFloat
       end
@@ -231,6 +229,10 @@ object dmCaixa: TdmCaixa
       item
         Name = 'Devolucoes'
         DataType = ftFloat
+      end
+      item
+        Name = 'Descricao'
+        DataType = ftWideString
       end>
     IndexFieldNames = 'ID'
     IndexName = 'mtEstIndex1'
@@ -271,10 +273,6 @@ object dmCaixa: TdmCaixa
     object mtEstValorVendas: TCurrencyField
       FieldName = 'ValorVendas'
     end
-    object mtEstDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
     object mtEstSaldoFinal: TFloatField
       FieldName = 'SaldoFinal'
     end
@@ -296,6 +294,10 @@ object dmCaixa: TdmCaixa
     end
     object mtEstDevolucoes: TFloatField
       FieldName = 'Devolucoes'
+    end
+    object mtEstDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 40
     end
   end
   object dsTot: TDataSource
@@ -3460,114 +3462,56 @@ object dmCaixa: TdmCaixa
     IndexName = 'IAbaixoMin'
     Left = 424
     Top = 147
-    object tRepProdID: TUnsignedAutoIncField
-      FieldName = 'ID'
-    end
-    object tRepProdCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tRepProdDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tRepProdUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
-    object tRepProdPreco: TCurrencyField
-      FieldName = 'Preco'
-    end
-    object tRepProdPrecoAuto: TBooleanField
-      FieldName = 'PrecoAuto'
-    end
-    object tRepProdMargem: TFloatField
-      FieldName = 'Margem'
-    end
-    object tRepProdObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
-    object tRepProdImagem: TGraphicField
-      FieldName = 'Imagem'
-      BlobType = ftGraphic
-    end
-    object tRepProdCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-    object tRepProdFornecedor: TLongWordField
-      FieldName = 'Fornecedor'
-    end
-    object tRepProdSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
-    end
-    object tRepProdEstoqueAtual: TFloatField
-      FieldName = 'EstoqueAtual'
-    end
-    object tRepProdCustoUnitario: TCurrencyField
-      FieldName = 'CustoUnitario'
-    end
-    object tRepProdPodeAlterarPreco: TBooleanField
-      FieldName = 'PodeAlterarPreco'
-    end
-    object tRepProdPermiteVendaFracionada: TBooleanField
-      FieldName = 'PermiteVendaFracionada'
-    end
-    object tRepProdNaoControlaEstoque: TBooleanField
-      FieldName = 'NaoControlaEstoque'
-    end
-    object tRepProdEstoqueMin: TFloatField
-      FieldName = 'EstoqueMin'
-    end
-    object tRepProdEstoqueMax: TFloatField
-      FieldName = 'EstoqueMax'
-    end
-    object tRepProdAbaixoMin: TBooleanField
-      FieldName = 'AbaixoMin'
-    end
-    object tRepProdAbaixoMinDesde: TDateTimeField
-      FieldName = 'AbaixoMinDesde'
-    end
-    object tRepProdEstoqueRepor: TFloatField
-      FieldName = 'EstoqueRepor'
-    end
-    object tRepProdComissaoPerc: TFloatField
-      FieldName = 'ComissaoPerc'
-    end
-    object tRepProdComissaoLucro: TBooleanField
-      FieldName = 'ComissaoLucro'
-    end
-    object tRepProdAtivo: TBooleanField
-      FieldName = 'Ativo'
-    end
-    object tRepProdFidelidade: TBooleanField
-      FieldName = 'Fidelidade'
-    end
-    object tRepProdFidPontos: TIntegerField
-      FieldName = 'FidPontos'
-    end
-    object tRepProdCadastroRapido: TBooleanField
-      FieldName = 'CadastroRapido'
-    end
-    object tRepProdIncluidoEm: TDateTimeField
-      FieldName = 'IncluidoEm'
-    end
-    object tRepProdEstoquePend: TFloatField
-      FieldName = 'EstoquePend'
-    end
-    object tRepProdEstoqueTot: TFloatField
-      FieldName = 'EstoqueTot'
-    end
-    object tRepProdNCM: TStringField
-      FieldName = 'NCM'
-      Size = 8
-    end
   end
   object frdbProd: TfrxDBDataset
     UserName = 'frdbProd'
     CloseDataSource = False
+    FieldAliases.Strings = (
+      'ID=ID'
+      'UID=UID'
+      'Marca=Marca'
+      'Codigo=Codigo'
+      'Descricao=Descricao'
+      'Unid=Unid'
+      'Preco=Preco'
+      'PrecoAuto=PrecoAuto'
+      'Margem=Margem'
+      'Obs=Obs'
+      'Imagem=Imagem'
+      'Categoria=Categoria'
+      'Fornecedor=Fornecedor'
+      'EstoqueAtual=EstoqueAtual'
+      'EstoquePend=EstoquePend'
+      'EstoqueTot=EstoqueTot'
+      'brtrib=brtrib'
+      'CustoUnitario=CustoUnitario'
+      'PodeAlterarPreco=PodeAlterarPreco'
+      'PermiteVendaFracionada=PermiteVendaFracionada'
+      'NaoControlaEstoque=NaoControlaEstoque'
+      'EstoqueMin=EstoqueMin'
+      'EstoqueMax=EstoqueMax'
+      'AbaixoMin=AbaixoMin'
+      'AbaixoMinDesde=AbaixoMinDesde'
+      'EstoqueRepor=EstoqueRepor'
+      'ComissaoPerc=ComissaoPerc'
+      'ComissaoLucro=ComissaoLucro'
+      'PesoBruto=PesoBruto'
+      'PesoLiq=PesoLiq'
+      'tax_id=tax_id'
+      'Ativo=Ativo'
+      'Fidelidade=Fidelidade'
+      'FidPontos=FidPontos'
+      'NCM=NCM'
+      'NCM_Ex=NCM_Ex'
+      'cest=cest'
+      'modST=modST'
+      'MVA=MVA'
+      'Pauta=Pauta'
+      'CadastroRapido=CadastroRapido'
+      'IncluidoEm=IncluidoEm'
+      'AlteradoEm=AlteradoEm'
+      'AlteradoPor=AlteradoPor'
+      'RecVer=RecVer')
     DataSet = tRepProd
     BCDToCurrency = False
     Left = 168
@@ -4427,7 +4371,7 @@ object dmCaixa: TdmCaixa
     PreviewOptions.Zoom = 1.000000000000000000
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
-    ReportOptions.CreateDate = 39015.443900231500000000
+    ReportOptions.CreateDate = 39015.443900231490000000
     ReportOptions.LastChange = 42530.615283078700000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (

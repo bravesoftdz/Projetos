@@ -36,7 +36,6 @@ type
     dsQVC: TDataSource;
     qVC: TnxQuery;
     tProd: TnxTable;
-    tProdDescricao: TStringField;
     tAuxME: TnxTable;
     mtEst: TkbmMemTable;
     mtEstSaldoInicial: TFloatField;
@@ -45,7 +44,6 @@ type
     mtEstSaidas: TFloatField;
     mtEstVendas: TFloatField;
     mtEstValorVendas: TCurrencyField;
-    mtEstDescricao: TStringField;
     mtEstSaldoFinal: TFloatField;
     mtEstLucro: TCurrencyField;
     dsTot: TDataSource;
@@ -62,7 +60,6 @@ type
     qDesc: TnxQuery;
     qCanc: TnxQuery;
     tCli: TnxTable;
-    qVCCategoria: TStringField;
     qVCTotal: TCurrencyField;
     qVCDesconto: TCurrencyField;
     qVCTotFinal: TCurrencyField;
@@ -250,35 +247,6 @@ type
     tTranFidResgate: TBooleanField;
     tTranPagFunc: TStringField;
     tTranPagPend: TBooleanField;
-    tRepProdID: TUnsignedAutoIncField;
-    tRepProdCodigo: TStringField;
-    tRepProdDescricao: TStringField;
-    tRepProdUnid: TStringField;
-    tRepProdPreco: TCurrencyField;
-    tRepProdPrecoAuto: TBooleanField;
-    tRepProdMargem: TFloatField;
-    tRepProdObs: TnxMemoField;
-    tRepProdImagem: TGraphicField;
-    tRepProdCategoria: TStringField;
-    tRepProdFornecedor: TLongWordField;
-    tRepProdSubCateg: TStringField;
-    tRepProdEstoqueAtual: TFloatField;
-    tRepProdCustoUnitario: TCurrencyField;
-    tRepProdPodeAlterarPreco: TBooleanField;
-    tRepProdPermiteVendaFracionada: TBooleanField;
-    tRepProdNaoControlaEstoque: TBooleanField;
-    tRepProdEstoqueMin: TFloatField;
-    tRepProdEstoqueMax: TFloatField;
-    tRepProdAbaixoMin: TBooleanField;
-    tRepProdAbaixoMinDesde: TDateTimeField;
-    tRepProdEstoqueRepor: TFloatField;
-    tRepProdComissaoPerc: TFloatField;
-    tRepProdComissaoLucro: TBooleanField;
-    tRepProdAtivo: TBooleanField;
-    tRepProdFidelidade: TBooleanField;
-    tRepProdFidPontos: TIntegerField;
-    tRepProdCadastroRapido: TBooleanField;
-    tRepProdIncluidoEm: TDateTimeField;
     qPagEspEspecie: TWordField;
     qPagEspTotalValor: TCurrencyField;
     qPagEspTotalTroco: TCurrencyField;
@@ -344,9 +312,6 @@ type
     mtRF4Bold: TBooleanField;
     mtRF4Cor: TIntegerField;
     dbRF4: TfrxDBDataset;
-    tRepProdEstoquePend: TFloatField;
-    tRepProdEstoqueTot: TFloatField;
-    tRepProdNCM: TStringField;
     tTranUID_ref: TGuidField;
     tTranStatusNFE: TByteField;
     tTranChaveNFE: TStringField;
@@ -402,6 +367,9 @@ type
     qRepTranComissao: TCurrencyField;
     qRepTranFrete: TCurrencyField;
     qRepTranTotalFinal: TCurrencyField;
+    tProdDescricao: TWideStringField;
+    mtEstDescricao: TWideStringField;
+    qVCCategoria: TWideStringField;
     procedure qVCCalcFields(DataSet: TDataSet);
     procedure tAuxMECalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
@@ -1365,7 +1333,7 @@ begin
       if not mtEst.FindKey([qMEProduto.Value]) then begin
         mtEst.Append;
         mtEstID.Value := qMEProduto.Value;
-        if tProd.Locate('id', qMEProduto.Value, []) then
+        if tProd.Locate('ID', qMEProduto.Value, []) then
           mtEstDescricao.Value := tProdDescricao.Value else
           mtEstDescricao.Value := '## PRODUTO FOI APAGADO'; 
 

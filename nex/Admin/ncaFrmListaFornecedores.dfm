@@ -3,7 +3,7 @@ object FrmListaFornecedores: TFrmListaFornecedores
   Top = 0
   Caption = 'FrmListaFornecedores'
   ClientHeight = 359
-  ClientWidth = 848
+  ClientWidth = 922
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,7 +19,7 @@ object FrmListaFornecedores: TFrmListaFornecedores
   object panPri: TLMDSimplePanel
     Left = 0
     Top = 0
-    Width = 848
+    Width = 922
     Height = 61
     Hint = ''
     AutoSize = True
@@ -33,16 +33,19 @@ object FrmListaFornecedores: TFrmListaFornecedores
     ParentColor = True
     ParentFont = False
     TabOrder = 0
+    ExplicitWidth = 848
     object panItens: TLMDSimplePanel
       Left = 0
       Top = 0
-      Width = 848
+      Width = 922
       Height = 41
       Hint = ''
       Align = alTop
       Bevel.Mode = bmCustom
       ParentColor = True
       TabOrder = 0
+      ExplicitTop = -7
+      ExplicitWidth = 848
     end
     object lbAdd: TcxLabel
       Left = 0

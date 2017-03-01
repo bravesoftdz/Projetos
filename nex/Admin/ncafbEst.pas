@@ -108,7 +108,6 @@ type
     pgVendasComissao: TcxDBPivotGridField;
     tProd: TnxTable;
     tProdID: TAutoIncField;
-    tProdDescricao: TStringField;
     tProdNomeFornecedor: TStringField;
     tMEFornecedor: TStringField;
     pgVendasField1: TcxDBPivotGridField;
@@ -117,14 +116,10 @@ type
     qVendastotal: TCurrencyField;
     qVendasdesconto: TCurrencyField;
     qVendasPago: TCurrencyField;
-    tProdCodigo: TStringField;
-    tProdUnid: TStringField;
     tProdPreco: TCurrencyField;
     tProdPrecoAuto: TBooleanField;
     tProdMargem: TFloatField;
-    tProdObs: TnxMemoField;
     tProdImagem: TGraphicField;
-    tProdCategoria: TStringField;
     tProdCustoUnitario: TCurrencyField;
     tProdAbaixoMin: TBooleanField;
     tProdAbaixoMinDesde: TDateTimeField;
@@ -170,7 +165,6 @@ type
     qVendasproduto: TLongWordField;
     qVendasQuant: TFloatField;
     tProdFornecedor: TLongWordField;
-    tProdSubCateg: TStringField;
     tProdEstoqueAtual: TFloatField;
     tProdPodeAlterarPreco: TBooleanField;
     tProdPermiteVendaFracionada: TBooleanField;
@@ -274,6 +268,13 @@ type
     tvHoraHora: TcxGridDBColumn;
     tvHoraQtd: TcxGridDBColumn;
     tvHoraValor: TcxGridDBColumn;
+    tProdUID: TGuidField;
+    tProdMarca: TGuidField;
+    tProdCodigo: TWideStringField;
+    tProdDescricao: TWideStringField;
+    tProdUnid: TWideStringField;
+    tProdObs: TWideMemoField;
+    tProdCategoria: TWideStringField;
     procedure FrmBasePaiCreate(Sender: TObject);
     procedure TVFocusedRecordChanged(Sender: TcxCustomGridTableView;
       APrevFocusedRecord, AFocusedRecord: TcxCustomGridRecord;

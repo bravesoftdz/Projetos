@@ -1,4 +1,4 @@
-unit ncaFrmProduto;
+unit ncaFrmProdutoNew;
 {
     ResourceString: Dario 08/03/13
 }
@@ -42,7 +42,7 @@ const
    kAlturaTotalFrmProduto = 555;
 
 type
-  TFrmProduto = class(TForm)
+  TFrmProdutoNew = class(TForm)
     BarMgr: TdxBarManager;
     QCat: TnxQuery;
     dsMT: TDataSource;
@@ -53,12 +53,17 @@ type
     cmGravar: TdxBarLargeButton;
     cmCancelar: TdxBarLargeButton;
     MT: TkbmMemTable;
+    MTCodigo: TStringField;
+    MTDescricao: TStringField;
     MTPreco: TCurrencyField;
+    MTObs: TMemoField;
     MTImagem: TGraphicField;
+    MTCategoria: TStringField;
     MTCustoUnitario: TCurrencyField;
     MTPodeAlterarPreco: TBooleanField;
     MTNaoControlaEstoque: TBooleanField;
     dsCAT: TDataSource;
+    QCatCategoria: TStringField;
     MTFidelidade: TBooleanField;
     MTFidPontos: TIntegerField;
     MTEstoqueRepor: TFloatField;
@@ -72,7 +77,9 @@ type
     MTID: TIntegerField;
     tsDados: TcxTabSheet;
     panCad: TLMDSimplePanel;
+    MTUnid: TStringField;
     qUnidade: TnxQuery;
+    qUnidadeUnid: TStringField;
     MTCadastroRapido: TBooleanField;
     MTPermiteVendaFracionada: TBooleanField;
     cmClone: TdxBarButton;
@@ -81,10 +88,12 @@ type
     MTPrecoAuto: TBooleanField;
     MTMargem: TFloatField;
     tCateg: TnxTable;
+    tCategDescricao: TStringField;
     MTLookupCateg: TStringField;
     dsCateg: TDataSource;
     Q: TnxQuery;
     tUnid: TnxTable;
+    tUnidDescricao: TStringField;
     dsUnid: TDataSource;
     MTLookupUnid: TStringField;
     cxImageList1: TcxImageList;
@@ -104,6 +113,8 @@ type
     edCusto: TcxDBCurrencyEdit;
     lcPrecoAuto: TdxLayoutItem;
     cbPrecoAuto: TcxDBCheckBox;
+    LCItem2: TdxLayoutItem;
+    dxBevel2: TdxBevel;
     LCItem5: TdxLayoutItem;
     cbPodeAlterarPreco: TcxDBCheckBox;
     lcMarkup: TdxLayoutItem;
@@ -114,6 +125,8 @@ type
     cbSeguirMarkupPadrao: TcxDBCheckBox;
     lbMarkup: TcxLabel;
     lcDefinirMarkupPadrao: TdxLayoutItem;
+    tsTrans: TcxTabSheet;
+    tsPend: TcxTabSheet;
     LCItem1: TdxLayoutItem;
     dxBevel1: TdxBevel;
     LCItem4: TdxLayoutItem;
@@ -148,17 +161,49 @@ type
     cbNaoControlaEstoque: TcxDBCheckBox;
     lcVendaFrac: TdxLayoutItem;
     cbVendaFrac: TcxDBCheckBox;
+    LCGroup6: TdxLayoutAutoCreatedGroup;
+    LCItem16: TdxLayoutItem;
+    dxBevel3: TdxBevel;
     edLimites: TcxPopupEdit;
     lcLimites: TdxLayoutItem;
+    LCGroup1: TdxLayoutAutoCreatedGroup;
     LCGroup2: TdxLayoutAutoCreatedGroup;
     LCGroup8: TdxLayoutAutoCreatedGroup;
     LCGroup9: TdxLayoutAutoCreatedGroup;
-    LCGroup3: TdxLayoutAutoCreatedGroup;
     LCGroup5: TdxLayoutAutoCreatedGroup;
     MTSeguirMargemPadrao: TBooleanField;
+    tsOpcoes: TcxTabSheet;
+    panTran: TLMDSimplePanel;
+    LMDSimplePanel3: TLMDSimplePanel;
+    LMDSimplePanel4: TLMDSimplePanel;
+    cxLabel4: TcxLabel;
+    lbOpcoesFid: TcxLabel;
+    edFidelidade: TcxDBCheckBox;
+    edFidPontos: TcxDBSpinEdit;
+    lbPontos: TcxLabel;
+    panComissao: TLMDSimplePanel;
+    LMDSimplePanel7: TLMDSimplePanel;
+    edComissaoPerc: TcxCurrencyEdit;
+    lbComissao: TcxLabel;
+    lbComissaoSobre: TcxLabel;
+    edComissaoLucro: TcxComboBox;
+    btnPremium: TcxButton;
+    LMDSimplePanel5: TLMDSimplePanel;
+    cbComissaoPadrao: TcxCheckBox;
+    lbConfigComissao: TcxLabel;
+    cxLabel8: TcxLabel;
+    dxBarDockControl1: TdxBarDockControl;
+    BarMgrBar2: TdxBar;
+    cmDados: TdxBarLargeButton;
+    cmTran: TdxBarLargeButton;
+    cmOpcoes: TdxBarLargeButton;
+    cmPend: TdxBarLargeButton;
+    panPend: TLMDSimplePanel;
     lcInfoNCM: TdxLayoutItem;
     lbInfoNCM: TcxLabel;
     MTNCM_Ex: TStringField;
+    lcDivNFE: TdxLayoutItem;
+    dxBevel4: TdxBevel;
     MTbrtrib: TWordField;
     lcBRTrib: TdxLayoutItem;
     edBrTrib: TcxDBButtonEdit;
@@ -170,6 +215,10 @@ type
     lcNCMDescr: TdxLayoutItem;
     panFornecedores: TLMDSimplePanel;
     lciFornecedores: TdxLayoutItem;
+    LCItem9: TdxLayoutItem;
+    dxBevel5: TdxBevel;
+    lbObs: TcxLabel;
+    lciObs: TdxLayoutItem;
     tProdFor: TnxTable;
     tProdForUID: TGuidField;
     tProdForProduto: TLongWordField;
@@ -196,7 +245,9 @@ type
     lcTaxDef: TdxLayoutItem;
     dxLayoutItem1: TdxLayoutItem;
     lbSetTaxDef: TcxLabel;
+    imgFid: TMyImage;
     dxLayoutAutoCreatedGroup2: TdxLayoutAutoCreatedGroup;
+    dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup;
     MTmodST: TByteField;
     MTMVA: TMemoField;
     MTPauta: TMemoField;
@@ -211,16 +262,23 @@ type
     MTPesoLiq: TFloatField;
     edPesoLiq: TcxDBCurrencyEdit;
     lcPesoLiq: TdxLayoutItem;
+    dxLayoutAutoCreatedGroup3: TdxLayoutAutoCreatedGroup;
     lcPesoBruto: TdxLayoutItem;
     edPesoBruto: TcxDBCurrencyEdit;
     tPro: TnxTable;
     tProID: TUnsignedAutoIncField;
     tProUID: TGuidField;
+    tProCodigo: TStringField;
+    tProDescricao: TStringField;
+    tProUnid: TStringField;
     tProPreco: TCurrencyField;
     tProPrecoAuto: TBooleanField;
     tProMargem: TFloatField;
+    tProObs: TnxMemoField;
     tProImagem: TGraphicField;
+    tProCategoria: TStringField;
     tProFornecedor: TLongWordField;
+    tProSubCateg: TStringField;
     tProEstoqueAtual: TFloatField;
     tProEstoquePend: TFloatField;
     tProEstoqueTot: TFloatField;
@@ -252,83 +310,6 @@ type
     tProIncluidoEm: TDateTimeField;
     tProAlteradoEm: TDateTimeField;
     tProAlteradoPor: TStringField;
-    edObs: TcxDBMemo;
-    lcObs: TdxLayoutItem;
-    grBottom: TdxLayoutGroup;
-    dxLayoutAutoCreatedGroup6: TdxLayoutAutoCreatedGroup;
-    dxLayoutAutoCreatedGroup7: TdxLayoutAutoCreatedGroup;
-    dxLayoutAutoCreatedGroup8: TdxLayoutAutoCreatedGroup;
-    grEstoque: TdxLayoutGroup;
-    dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup;
-    dxLayoutAutoCreatedGroup10: TdxLayoutAutoCreatedGroup;
-    grTran: TdxLayoutGroup;
-    grComissao: TdxLayoutGroup;
-    dxLayoutItem2: TdxLayoutItem;
-    panTran: TLMDSimplePanel;
-    lcRecursoPro: TdxLayoutItem;
-    btnPremium: TcxButton;
-    lcComissaoLucro: TdxLayoutItem;
-    edComissaoLucro: TcxComboBox;
-    lcComissao: TdxLayoutItem;
-    edComissaoPerc: TcxCurrencyEdit;
-    lcComissaoPadrao: TdxLayoutItem;
-    cbComissaoPadrao: TcxCheckBox;
-    dxLayoutAutoCreatedGroup11: TdxLayoutAutoCreatedGroup;
-    lcConfigComissao: TdxLayoutItem;
-    lbConfigComissao: TcxLabel;
-    grPend: TdxLayoutGroup;
-    lcPend: TdxLayoutItem;
-    panPend: TLMDSimplePanel;
-    dxLayoutItem3: TdxLayoutItem;
-    img: TImage;
-    dxLayoutAutoCreatedGroup12: TdxLayoutAutoCreatedGroup;
-    dxLayoutAutoCreatedGroup13: TdxLayoutAutoCreatedGroup;
-    grFidelidade: TdxLayoutGroup;
-    imgFid: TMyImage;
-    lcimgFid: TdxLayoutItem;
-    dxLayoutItem4: TdxLayoutItem;
-    edFidPontos: TcxDBSpinEdit;
-    dxLayoutAutoCreatedGroup14: TdxLayoutAutoCreatedGroup;
-    dxLayoutItem5: TdxLayoutItem;
-    edFidelidade: TcxDBCheckBox;
-    dxLayoutAutoCreatedGroup15: TdxLayoutAutoCreatedGroup;
-    lcFidelidade: TdxLayoutItem;
-    lbFidelidade: TcxLabel;
-    dxLayoutItem7: TdxLayoutItem;
-    lbOpcoesFid: TcxLabel;
-    dxLayoutAutoCreatedGroup16: TdxLayoutAutoCreatedGroup;
-    dxLayoutItem8: TdxLayoutItem;
-    dxBevel2: TdxBevel;
-    lcMarca: TdxLayoutItem;
-    edMarca: TcxDBLookupComboBox;
-    grCategMarca: TdxLayoutGroup;
-    dxLayoutGroup2: TdxLayoutGroup;
-    grPeso: TdxLayoutGroup;
-    dxLayoutAutoCreatedGroup3: TdxLayoutAutoCreatedGroup;
-    MTMarca: TGuidField;
-    MTCodigo: TWideStringField;
-    MTDescricao: TWideStringField;
-    MTUnid: TWideStringField;
-    MTObs: TWideMemoField;
-    MTCategoria: TWideStringField;
-    MTNomeMarca: TWideStringField;
-    tProMarca: TGuidField;
-    tProCodigo: TWideStringField;
-    tProDescricao: TWideStringField;
-    tProUnid: TWideStringField;
-    tProObs: TWideMemoField;
-    tProCategoria: TWideStringField;
-    QCatCategoria: TWideStringField;
-    qUnidadeUnid: TWideStringField;
-    tUnidDescricao: TWideStringField;
-    tCategDescricao: TWideStringField;
-    tMarca: TnxTable;
-    tMarcaID: TUnsignedAutoIncField;
-    tMarcaUID: TGuidField;
-    tMarcaNome: TWideStringField;
-    tMarcaRecVer: TLongWordField;
-    dsMarca: TDataSource;
-    tAux: TnxTable;
     procedure cmGravarClick(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
@@ -337,6 +318,7 @@ type
       Shift: TShiftState);
     procedure FormCreate(Sender: TObject);
     procedure MTAfterInsert(DataSet: TDataSet);
+    procedure NBLinkClick(Sender: TObject; ALink: TdxNavBarItemLink);
     procedure edNaoControlarEstoquePropertiesCloseUp(Sender: TObject);
     procedure edFidelidadePropertiesChange(Sender: TObject);
     procedure lbSemFotoClick(Sender: TObject);
@@ -367,6 +349,7 @@ type
     procedure edMarkupFocusChanged(Sender: TObject);
     procedure btnManterAbertoClick(Sender: TObject);
     procedure edLimitesEnter(Sender: TObject);
+    procedure nbiTranClick(Sender: TObject);
     procedure nbiFichaClick(Sender: TObject);
     procedure edPrecoPropertiesChange(Sender: TObject);
     procedure edPrecoPropertiesEditValueChanged(Sender: TObject);
@@ -379,6 +362,11 @@ type
     procedure cbSeguirMarkupPadraoPropertiesEditValueChanged(Sender: TObject);
     procedure cbNaoControlaEstoquePropertiesEditValueChanged(Sender: TObject);
     procedure edLimitesPropertiesInitPopup(Sender: TObject);
+    procedure nbiOpcoesClick(Sender: TObject);
+    procedure cmDadosClick(Sender: TObject);
+    procedure cmTranClick(Sender: TObject);
+    procedure cmOpcoesClick(Sender: TObject);
+    procedure cmPendClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
     procedure edNCMPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
@@ -391,6 +379,8 @@ type
     procedure edBrTribFocusChanged(Sender: TObject);
     procedure edBrTribPropertiesChange(Sender: TObject);
     procedure edNCMPropertiesChange(Sender: TObject);
+    procedure lbObsClick(Sender: TObject);
+    procedure lciObsCaptionClick(Sender: TObject);
     procedure lciFornecedoresCaptionClick(Sender: TObject);
     procedure edCestFocusChanged(Sender: TObject);
     procedure edCestPropertiesChange(Sender: TObject);
@@ -405,10 +395,6 @@ type
     procedure edICMSSTPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
     procedure edICMSSTFocusChanged(Sender: TObject);
-    procedure grBottomTabChanged(Sender: TObject);
-    procedure edMarcaKeyDown(Sender: TObject; var Key: Word;
-      Shift: TShiftState);
-    procedure edMarcaPropertiesInitPopup(Sender: TObject);
     
   private
     FrmEstoque : TFrmProd_Estoque;
@@ -416,8 +402,6 @@ type
     FFrmBrTrib : TFrmBRTribPesq;
     FFrmTax  : TFrmTaxPesq;
     FFrmCEST : TFrmCESTPesq;
-    FShowed  : Boolean;
-    FMarcaAnt : String;
 
     FNCMOk : Boolean;
     FCESTOk : Boolean;
@@ -454,6 +438,7 @@ type
     procedure FocusNextEstoque(Sender: TObject);
       
     procedure CustomDrawBorder(AViewInfo: TcxContainerViewInfo; ACanvas: TcxCanvas; const R: TRect; var AHandled: Boolean; out ABorderWidth: Integer);
+    procedure SetObs(const Value: String);
 
     procedure LoadProdFor;
     procedure SaveProdFor;
@@ -471,10 +456,14 @@ type
     procedure TentaGravar;
     procedure Editar(aTab: TnxTable; const aFocusUnid: Boolean = False);
     function Incluir(aTab: TnxTable; const aDMDanfe: TdmDanfe_NFCE = nil; const aFor: Integer = 0): Boolean;
+
+    property Obs: String
+      read FObs write SetObs;
+    
   end;
 
 var
-  FrmProduto: TFrmProduto;
+  FrmProdutoNew: TFrmProdutoNew;
   
 implementation
 
@@ -492,7 +481,7 @@ uses
   ncClassesBase, ncaFrmOpcoes, ncaFrmConfigCodProdutoDuplicado,
   ncaFrmConfigQuickCad, ncaAlertaClonarProduto, ncaAlertaAutocad,
   ncaFrmConfigPrecoAuto, ncaFrmBasicTextEdit, ncaFrmConfigFid,
-  ncaFrmConfigComissao, ncaFrmObs, ncaFrmMVAPauta, ncDebug, ncaStrings;
+  ncaFrmConfigComissao, ncaFrmObs, ncaFrmMVAPauta, ncDebug;
 
 // START resource string wizard section
 resourcestring
@@ -504,13 +493,11 @@ resourcestring
   SConfirmaExcluir = 'Deseja realmente excluir';
   SCategEmUsoOutrosProdutos = 'Essa categoria é usada por outros produtos. Não é possível excluir';
   SUnidEmUsoOutrosProdutos = 'Essa unidade é usada por outros produtos. Não é possível excluir';
-  SMarcaEmUsoOutrosProdutos = 'Essa marca está cadastrada em outros produtos. Não é possível excluir';
   SMin = 'min';
   SMax = 'max';
   SLucro = 'Lucro';
   SCategoria = 'Categoria';
   SUnidadeMed = 'Unidade de Medida';
-  SMarca = 'Marca';
   SProdutoExcluido = 'Esse produto foi excluído por outro usuário';
   SOpcoesFid = 'Configurar sistema de fidelização';
   SAtivarFid = 'Ativar sistema de fidelização';
@@ -533,14 +520,12 @@ resourcestring
 
 {$R *.DFM}
 
-type 
-  THackTab = class (TcxCustomTabControlProperties);
-
-procedure TFrmProduto.Editar(aTab: TnxTable; const aFocusUnid: Boolean = False);
+procedure TFrmProdutoNew.Editar(aTab: TnxTable; const aFocusUnid: Boolean = False);
 begin
   Tab := aTab;
 
   if aFocusUnid then ActiveControl := edUnid;
+  
 
   with aTab.FieldByName('EstoqueAtual') do
     if IsNull then
@@ -593,7 +578,7 @@ begin
   ShowModal;
 end;
 
-procedure TFrmProduto.cmCloneClick(Sender: TObject);
+procedure TFrmProdutoNew.cmCloneClick(Sender: TObject);
 begin
     TpanAlertaClonarProduto.Create(Self).Mostrar(Self);
     cmClone.Enabled := False;
@@ -609,66 +594,52 @@ begin
    FrmEstoque.OnChange(FrmEstoque);   
 end;
 
-procedure TFrmProduto.cmConfigClick(Sender: TObject);
+procedure TFrmProdutoNew.cmConfigClick(Sender: TObject);
 begin
   TFrmOpcoes.Create(Self).Editar(SOpçõesParaProdutos, [TFrmConfigAutoCad, TFrmConfigPrecoAuto, TFrmConfigQuickCad, TFrmConfigComissao, TFrmConfigCodProdutoDuplicado]);
   UpdatePrecoMarkup;  
 end;
 
-procedure TFrmProduto.edLimitesEnter(Sender: TObject);
+procedure TFrmProdutoNew.cmDadosClick(Sender: TObject);
+begin
+  Paginas.ActivePage := tsDados;
+  cmDados.AutoGrayScale := False;
+  cmTran.AutoGrayScale := True;
+  cmOpcoes.AutoGrayScale := True;
+  cmPend.AutoGrayScale := True;
+end;
+
+procedure TFrmProdutoNew.edLimitesEnter(Sender: TObject);
 begin
   edLimites.DroppedDown := True;
 end;
 
-procedure TFrmProduto.edLimitesPropertiesInitPopup(Sender: TObject);
+procedure TFrmProdutoNew.edLimitesPropertiesInitPopup(Sender: TObject);
 begin
   edLimites.Style.PopupBorderStyle := epbsFrame3D;
 end;
 
-procedure TFrmProduto.edMarcaKeyDown(Sender: TObject; var Key: Word;
-  Shift: TShiftState);
-begin
-  if (Key <> KEY_ENTER) and (Key  <> Key_TAB) and (Key <> Key_ESC) and (Key <> Key_F2) then
-    edMarca.DroppedDown := True;
-end;
-
-procedure TFrmProduto.edMarcaPropertiesInitPopup(Sender: TObject);
-begin
-  tMarca.Refresh;
-  if tMarca.IsEmpty then begin
-    tMarca.Append;
-    tMarcaUID.Value := incluir_marca;
-    tMarcaNome.Value := '';
-    tMarca.Post;
-  end;
-
-  edMarca.Properties.Grid.Align := alClient;
-  panLookup.Parent := edMarca.Properties.Grid.Parent;
-  panLookup.Visible := True;
-  panLookup.Align := alTop;
-end;
-
-procedure TFrmProduto.edMarkupFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edMarkupFocusChanged(Sender: TObject);
 begin
   lcInfoMarkup.Visible := edMarkup.Focused or cbSeguirMarkupPadrao.Focused or lbMarkup.Focused;
 end;
 
-procedure TFrmProduto.edMarkupPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edMarkupPropertiesChange(Sender: TObject);
 begin
   if edMarkup.Focused then edMarkup.PostEditValue;
 end;
 
-procedure TFrmProduto.edMarkupPropertiesEditValueChanged(Sender: TObject);
+procedure TFrmProdutoNew.edMarkupPropertiesEditValueChanged(Sender: TObject);
 begin
   if edMarkup.Focused then UpdatePrecoMarkup;
 end;
 
-procedure TFrmProduto.edNaoControlarEstoquePropertiesCloseUp(Sender: TObject);
+procedure TFrmProdutoNew.edNaoControlarEstoquePropertiesCloseUp(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.edNCMFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edNCMFocusChanged(Sender: TObject);
 begin
   EnableDisable;
   lcInfoNCM.Visible := edNCM.Focused;
@@ -677,7 +648,7 @@ begin
     lcNCM.CaptionOptions.Text := 'NCM';
 end;
 
-procedure TFrmProduto.edNCMPropertiesButtonClick(Sender: TObject;
+procedure TFrmProdutoNew.edNCMPropertiesButtonClick(Sender: TObject;
   AButtonIndex: Integer);
 var aNCM, aNCMEx : String;  
 begin
@@ -691,42 +662,42 @@ begin
   end;  
 end;
 
-procedure TFrmProduto.edNCMPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edNCMPropertiesChange(Sender: TObject);
 begin
   UpdateNCM;
 end;
 
-procedure TFrmProduto.edOrigemFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edOrigemFocusChanged(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.edPrecoPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edPrecoPropertiesChange(Sender: TObject);
 begin
   if edPreco.Focused then edPreco.PostEditValue;
 end;
 
-procedure TFrmProduto.edPrecoPropertiesEditValueChanged(Sender: TObject);
+procedure TFrmProdutoNew.edPrecoPropertiesEditValueChanged(Sender: TObject);
 begin
   if edPreco.Focused then UpdatePrecoMarkup;
 end;
 
-procedure TFrmProduto.edProdPropriaFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edProdPropriaFocusChanged(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.edSTFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edSTFocusChanged(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.edTaxDefPropertiesEditValueChanged(Sender: TObject);
+procedure TFrmProdutoNew.edTaxDefPropertiesEditValueChanged(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.edTaxPropertiesButtonClick(Sender: TObject;
+procedure TFrmProdutoNew.edTaxPropertiesButtonClick(Sender: TObject;
   AButtonIndex: Integer);
 var 
   aCod: Cardinal;
@@ -744,14 +715,14 @@ begin
   end;
 end;
 
-procedure TFrmProduto.edUnidKeyDown(Sender: TObject; var Key: Word;
+procedure TFrmProdutoNew.edUnidKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
   if (Key <> KEY_ENTER) and (Key  <> Key_TAB) and (Key <> Key_ESC) and (Key <> Key_F2) then
     edUnid.DroppedDown := True;
 end;
 
-procedure TFrmProduto.edUnidPropertiesInitPopup(Sender: TObject);
+procedure TFrmProdutoNew.edUnidPropertiesInitPopup(Sender: TObject);
 begin
   edUnid.Properties.Grid.Align := alClient;
   panLookup.Parent := edUnid.Properties.Grid.Parent;
@@ -775,7 +746,7 @@ begin
   Result := TrimLeft(Result);  
 end;
 
-procedure TFrmProduto.EnableDisable;
+procedure TFrmProdutoNew.EnableDisable;
 var S: String;
 begin
   ConfigNFE;
@@ -833,20 +804,20 @@ begin
     imgFid.MouseOffDrawMode := idmNormal else
     imgFid.MouseOffDrawMode := idmDisabled;
 
-  lcFidelidade.Enabled := edFidelidade.Enabled;
+  lbPontos.Enabled := edFidPontos.Enabled;  
 
   if cbComissaoPadrao.Checked then begin
     edComissaoPerc.Value := gConfig.ComissaoPerc;
     edComissaoLucro.ItemIndex := Byte(gConfig.ComissaoLucro);
   end;
 
-  lcComissao.Enabled := (not cbComissaoPadrao.Checked) and gConfig.IsPremium;
-  lcComissaoLucro.Enabled := lcComissao.Enabled and gConfig.IsPremium;
-  lcComissaoPadrao.Enabled := gConfig.IsPremium;
-  lcConfigComissao.Enabled := gConfig.IsPremium;
+  lbComissao.Enabled := not cbComissaoPadrao.Checked;
+  lbComissaoSobre.Enabled := lbComissao.Enabled;
+  edComissaoPerc.Enabled := lbComissao.Enabled;
+  edComissaoLucro.Enabled := lbComissao.Enabled;
 end;
 
-function TFrmProduto.EstoqueFocused: Boolean;
+function TFrmProdutoNew.EstoqueFocused: Boolean;
 begin
   Result := edAtual.Focused or
             cbNaoControlaEstoque.Focused or
@@ -856,7 +827,7 @@ begin
             cbVendaFrac.Focused;
 end;
 
-function TFrmProduto.Incluir(aTab: TnxTable; const aDMDanfe: TDMdanfe_NFCE = nil; const aFor: integer = 0): Boolean;
+function TFrmProdutoNew.Incluir(aTab: TnxTable; const aDMDanfe: TDMdanfe_NFCE = nil; const aFor: integer = 0): Boolean;
 var S: String;
 begin
   FNovo := True;
@@ -904,12 +875,12 @@ begin
   CodAnt := '';
 end;
     
-procedure TFrmProduto.lbSemFotoClick(Sender: TObject);
+procedure TFrmProdutoNew.lbSemFotoClick(Sender: TObject);
 begin
   edFoto.LoadFromFile;
 end;
 
-procedure TFrmProduto.lbSetTaxDefClick(Sender: TObject);
+procedure TFrmProdutoNew.lbSetTaxDefClick(Sender: TObject);
 var aCod: Cardinal;
 begin
   if not Assigned(FFrmTax) then
@@ -924,12 +895,17 @@ begin
   MTCalcFields(MT);
 end;
 
-procedure TFrmProduto.lciFornecedoresCaptionClick(Sender: TObject);
+procedure TFrmProdutoNew.lciFornecedoresCaptionClick(Sender: TObject);
 begin
   FListaFor.lbAddClick(nil);
 end;
 
-procedure TFrmProduto.LoadProdFor;
+procedure TFrmProdutoNew.lciObsCaptionClick(Sender: TObject);
+begin
+  lbObsClick(nil);
+end;
+
+procedure TFrmProdutoNew.LoadProdFor;
 begin
   if FNovo then begin
     FListaFor.Add;
@@ -956,19 +932,19 @@ begin
   FListaFor.Update;
 end;
 
-function TFrmProduto.MinCaptionWidth(Sender: TObject): Integer;
+function TFrmProdutoNew.MinCaptionWidth(Sender: TObject): Integer;
 begin
   Result := lcLimites.ViewInfo.CaptionViewInfo.CalculateMinWidth;
 end;
 
-procedure TFrmProduto.MTAfterInsert(DataSet: TDataSet);
+procedure TFrmProdutoNew.MTAfterInsert(DataSet: TDataSet);
 begin
   MTFidelidade.Value := False;
   MTNaoControlaEstoque.Value := False;
   MTPrecoAuto.Value := gConfig.PrecoAuto;
 end;
 
-procedure TFrmProduto.MTCalcFields(DataSet: TDataSet);
+procedure TFrmProdutoNew.MTCalcFields(DataSet: TDataSet);
 begin
   if mttax_def.Value then
     mttax_name.Value := Dados.getTaxName(0) 
@@ -979,12 +955,27 @@ begin
     mttax_name.Value := '';
 end;
 
-procedure TFrmProduto.nbiFichaClick(Sender: TObject);
+procedure TFrmProdutoNew.nbiFichaClick(Sender: TObject);
 begin
   paginas.ActivePage := tsDados;
 end;
 
-function TFrmProduto.NFEFocused: Boolean;
+procedure TFrmProdutoNew.nbiOpcoesClick(Sender: TObject);
+begin
+  Paginas.ActivePage := tsOpcoes;
+end;
+
+procedure TFrmProdutoNew.nbiTranClick(Sender: TObject);
+begin
+  Paginas.ActivePage := tsTrans;
+end;
+
+procedure TFrmProdutoNew.NBLinkClick(Sender: TObject; ALink: TdxNavBarItemLink);
+begin
+  Paginas.ActivePageIndex := ALink.Item.Tag;
+end;
+
+function TFrmProdutoNew.NFEFocused: Boolean;
 begin
   Result := True {edNCM.Focused or
             edOrigem.Focused or
@@ -992,7 +983,7 @@ begin
             edST.Focused};
 end;
 
-function TFrmProduto.PrecoFocused: Boolean;
+function TFrmProdutoNew.PrecoFocused: Boolean;
 begin
   Result := edPreco.Focused or 
             edCusto.Focused or 
@@ -1005,7 +996,7 @@ begin
 end;
 
 
-procedure TFrmProduto.SaveProdFor;
+procedure TFrmProdutoNew.SaveProdFor;
 var 
   L : TList;
   I : Integer;
@@ -1041,12 +1032,28 @@ begin
   end;
 end;
 
-procedure TFrmProduto.TentaGravar;
+procedure TFrmProdutoNew.SetObs(const Value: String);
+begin
+  FObs := Value;
+  if Trim(FObs)='' then begin
+    lbObs.Caption := SAddObs;
+    lbObs.Style.TextStyle := [fsUnderline];
+    lbObs.StyleHot.TextStyle := [fsUnderline];
+    lciObs.CaptionOptions.Visible := False;
+  end else begin
+    lciObs.CaptionOptions.Visible := True;
+    lbObs.Caption := FObs;
+    lbObs.Style.TextStyle := [fsBold];
+    lbObs.StyleHot.TextStyle := [fsBold];
+  end;
+end;
+
+procedure TFrmProdutoNew.TentaGravar;
 begin
   if cmGravar.Enabled then cmGravarClick(nil);
 end;
 
-procedure TFrmProduto.UpdateBrTrib;
+procedure TFrmProdutoNew.UpdateBrTrib;
 begin
   FBrTribOk := True;
   if not lcBrTrib.Visible then Exit;
@@ -1066,7 +1073,7 @@ begin
   end;
 end;
 
-procedure TFrmProduto.UpdateCEST;
+procedure TFrmProdutoNew.UpdateCEST;
 var aVazio: Boolean;
 begin
   Dados.tbCEST.IndexName := 'I_ncm_cest';
@@ -1128,7 +1135,7 @@ begin
   end;
 end;
 
-procedure TFrmProduto.UpdateNCM;
+procedure TFrmProdutoNew.UpdateNCM;
 begin
   FNCMOk := True;
   if not lcNCM.Visible then Exit;
@@ -1153,7 +1160,7 @@ begin
   end;
 end;
 
-procedure TFrmProduto.UpdatePrecoMarkup;
+procedure TFrmProdutoNew.UpdatePrecoMarkup;
 var P, C, M: Double;
 begin
  
@@ -1201,7 +1208,7 @@ begin
   Result := PercToStr(D);
 end;
 
-procedure TFrmProduto.UpdateST;
+procedure TFrmProdutoNew.UpdateST;
 var 
   I: Integer;
   S: String;
@@ -1251,7 +1258,7 @@ begin
   end;
 end;
 
-procedure TFrmProduto.ValidaSAT;
+procedure TFrmProdutoNew.ValidaSAT;
 var 
   I : Integer;
   S : String;
@@ -1263,12 +1270,12 @@ begin
       raise Exception.Create('O SAT permite apenas dígitos numéricos no código do produto');
 end;
 
-procedure TFrmProduto.wmProxControl(var Msg: TMsg);
+procedure TFrmProdutoNew.wmProxControl(var Msg: TMsg);
 begin
   Perform(Wm_NextDlgCtl,0,0);
 end;
 
-procedure TFrmProduto.cmGravarClick(Sender: TObject);
+procedure TFrmProdutoNew.cmGravarClick(Sender: TObject);
 var 
   Cat: String;
   DS : TDataSource;
@@ -1287,6 +1294,8 @@ begin
       raise exception.Create(SInformarMarkup);
     end;  
   end;
+
+  MTObs.Value := FObs;
 
   if Dados.NFAtivo and (Trim(edUnid.Text)='') then begin
     Paginas.ActivePage := tsDados;
@@ -1429,7 +1438,34 @@ begin
   ModalResult := mrOk;
 end;
 
-procedure TFrmProduto.ConfigNFE;
+procedure TFrmProdutoNew.cmOpcoesClick(Sender: TObject);
+begin
+  Paginas.ActivePage := tsOpcoes;
+  cmDados.AutoGrayScale := True;
+  cmTran.AutoGrayScale := True;
+  cmOpcoes.AutoGrayScale := False;
+  cmPend.AutoGrayScale := True;
+end;
+
+procedure TFrmProdutoNew.cmPendClick(Sender: TObject);
+begin
+  Paginas.ActivePage := tsPend;
+  cmPend.AutoGrayScale := False;
+  cmDados.AutoGrayScale := True;
+  cmTran.AutoGrayScale := True;
+  cmOpcoes.AutoGrayScale := True;
+end;
+
+procedure TFrmProdutoNew.cmTranClick(Sender: TObject);
+begin
+  Paginas.ActivePage := tsTrans;
+  cmDados.AutoGrayScale := True;
+  cmTran.AutoGrayScale := False;
+  cmOpcoes.AutoGrayScale := True;
+  cmPend.AutoGrayScale := True;
+end;
+
+procedure TFrmProdutoNew.ConfigNFE;
 begin
   with Dados do begin 
     lcNCM.Visible := SameText(gConfig.PaisNorm, 'BR');
@@ -1442,7 +1478,7 @@ begin
   end;
 end;
 
-procedure TFrmProduto.CustomDrawBorder(
+procedure TFrmProdutoNew.CustomDrawBorder(
     AViewInfo: TcxContainerViewInfo; 
     ACanvas: TcxCanvas; const R: TRect; var AHandled: Boolean; out ABorderWidth: Integer);
 begin
@@ -1451,36 +1487,24 @@ begin
   ABorderWidth := 0;
 end;
 
-procedure TFrmProduto.cxLabel3Click(Sender: TObject);
+procedure TFrmProdutoNew.cxLabel3Click(Sender: TObject);
 begin
   edDescr.SetFocus;
 end;
 
-procedure TFrmProduto.cxLabel6Click(Sender: TObject);
+procedure TFrmProdutoNew.cxLabel6Click(Sender: TObject);
 begin
   edCateg.SetFocus;
 end;
 
-procedure TFrmProduto.cxLabel7Click(Sender: TObject);
+procedure TFrmProdutoNew.cxLabel7Click(Sender: TObject);
 begin
   edUnid.SetFocus;
 end;
 
-procedure TFrmProduto.btnExcluirClick(Sender: TObject);
-var
+procedure TFrmProdutoNew.btnExcluirClick(Sender: TObject);
+var 
   Orig: String;
-
-function PodeApagarMarca: Boolean;
-begin 
-  Result := True;
-  tAux.Refresh;
-  tAux.SetRange([tMarcaUID.Value], [tMarcaUID.Value]);
-  if tAux.IsEmpty then Exit;
-  if not FNovo then 
-    if (tAux.RecordCount=1) and (tAux.FieldByName('ID').AsLongWord=MTID.Value) then Exit;
-  Result := False;
-end;
-
 begin
   if edCateg.Focused then begin
     if SimNao(SConfirmaExcluir+' '+tCategDescricao.Value+'?') then begin
@@ -1521,38 +1545,19 @@ begin
     end;
     edUnid.DroppedDown := True;
   end;
-
-  if edMarca.Focused then begin
-    if tMarca.IsEmpty then Exit;
-
-    if not PodeApagarMarca then begin
-      ShowMessage(SMarcaEmUsoOutrosProdutos);
-      Exit;
-    end;
-    
-    if SimNao(SConfirmaExcluir+' '+tMarcaNome.Value+'?') then begin
-      if MTMarca.Value=tMarcaUID.Value then begin
-        MTMarca.Clear;
-        edMarca.Clear;
-      end;  
-      tMarca.Delete;
-    end;  
-      
-    edMarca.DroppedDown := True;
-  end;  
 end;
 
-procedure TFrmProduto.btnManterAbertoClick(Sender: TObject);
+procedure TFrmProdutoNew.btnManterAbertoClick(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.btnPremiumClick(Sender: TObject);
+procedure TFrmProdutoNew.btnPremiumClick(Sender: TObject);
 begin
   OpenPremium('comissao');
 end;
 
-procedure TFrmProduto.btnEditarClick(Sender: TObject);
+procedure TFrmProdutoNew.btnEditarClick(Sender: TObject);
 var S, Orig: String;
 begin
   if edCateg.Focused then begin
@@ -1598,24 +1603,11 @@ begin
     end;
     edUnid.DroppedDown := True;
   end;
-
-  if edMarca.Focused then begin
-    S := tMarcaNome.Value;
-    Orig := S;
-    if TFrmBasicTextEdit.Create(Self).Editar(SMarca, SMarca, 40, S) then begin
-      tMarca.Edit;
-      tMarcaNome.Value := S;
-      tMarca.Post;
-    end;
-    edMarca.DroppedDown := True;
-  end;  
   
 end;
 
-procedure TFrmProduto.btnAdicionarClick(Sender: TObject);
-var 
-  S: String;
-  G: TGuid;
+procedure TFrmProdutoNew.btnAdicionarClick(Sender: TObject);
+var S: String;
 begin
   if edCateg.Focused then begin
     S := '';
@@ -1643,27 +1635,9 @@ begin
     end else
       edUnid.DroppedDown := True;
   end;
-
-  if edMarca.Focused then begin
-    S := '';
-    if TFrmBasicTextEdit.Create(Self).Editar(SMarca, SMarca, 40, S) then begin
-      if not tMarca.Locate('Nome', S, []) then begin
-        G := TGuid.NewGuid;
-        tMarca.Append;
-        tMarcaUID.AsGuid := G;
-        tMarcaNome.Value := S;
-        tMarca.Post;
-      end else
-        G := tMarcaUID.AsGuid;
-      MTMarca.AsGuid := G;
-      edMarca.Reset;
-      Dados.ApagaMarcaVazia;
-    end else
-      edMarca.DroppedDown := True;
-  end;  
 end;
 
-procedure TFrmProduto.lbCESTClick(Sender: TObject);
+procedure TFrmProdutoNew.lbCESTClick(Sender: TObject);
 begin
   if not Assigned(FFrmCEST) then
     FFrmCEST := gCESTPesqList.GetFrm;
@@ -1671,26 +1645,33 @@ begin
   Dados.tbCest.Refresh;
 end;
 
-procedure TFrmProduto.lbConfigComissaoClick(Sender: TObject);
+procedure TFrmProdutoNew.lbConfigComissaoClick(Sender: TObject);
 begin
   TFrmConfigComissao.Create(Self).ShowModal;
   EnableDisable;
 end;
 
-procedure TFrmProduto.lbMarkupClick(Sender: TObject);
+procedure TFrmProdutoNew.lbMarkupClick(Sender: TObject);
 begin
   TFrmConfigPrecoAuto.Create(Self).ShowModal;
   UpdatePrecoMarkup;
   EnableDisable;
 end;
 
-procedure TFrmProduto.lbOpcoesFidClick(Sender: TObject);
+procedure TFrmProdutoNew.lbObsClick(Sender: TObject);
+var S: String;
+begin
+  S := FObs;
+  if TFrmObs.Create(Self).Editar(S, True) then Obs := S;
+end;
+
+procedure TFrmProdutoNew.lbOpcoesFidClick(Sender: TObject);
 begin
   TFrmConfigFid.Create(Self).ShowModal;
   EnableDisable;
 end;
 
-procedure TFrmProduto.edFidelidadePropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edFidelidadePropertiesChange(Sender: TObject);
 begin
   EnableDisable;
 end;
@@ -1700,20 +1681,20 @@ begin
   Result := not Assigned(APicture.Graphic) or APicture.Graphic.Empty;
 end;
 
-procedure TFrmProduto.edFotoPropertiesEditValueChanged(Sender: TObject);
+procedure TFrmProdutoNew.edFotoPropertiesEditValueChanged(Sender: TObject);
 begin
   if IsPictureEmpty(edFoto.Picture) then
     pagFoto.ActivePageIndex := 0 else
     pagFoto.ActivePageIndex := 1;
 end;
 
-procedure TFrmProduto.edICMSSTFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edICMSSTFocusChanged(Sender: TObject);
 begin
   EnableDisable;
   lcInfoSt.Visible := edICMSST.Focused;
 end;
 
-procedure TFrmProduto.edICMSSTPropertiesButtonClick(Sender: TObject;
+procedure TFrmProdutoNew.edICMSSTPropertiesButtonClick(Sender: TObject;
   AButtonIndex: Integer);
 var 
   aMVA, aPauta : String;
@@ -1731,27 +1712,27 @@ begin
   end;
 end;
 
-function TFrmProduto.CanClose: Boolean;
+function TFrmProdutoNew.CanClose: Boolean;
 begin
   Result := not (
     edCateg.DroppedDown or
     edUnid.DroppedDown);
 end;
 
-procedure TFrmProduto.cbComissaoPadraoClick(Sender: TObject);
+procedure TFrmProdutoNew.cbComissaoPadraoClick(Sender: TObject);
 begin
   EnableDisable;
   if (not cbComissaoPadrao.Checked) and cbComissaoPadrao.Focused then
     edComissaoPerc.SetFocus;
 end;
 
-procedure TFrmProduto.cbNaoControlaEstoquePropertiesEditValueChanged(
+procedure TFrmProdutoNew.cbNaoControlaEstoquePropertiesEditValueChanged(
   Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.cbPrecoAutoPropertiesEditValueChanged(Sender: TObject);
+procedure TFrmProdutoNew.cbPrecoAutoPropertiesEditValueChanged(Sender: TObject);
 begin
   if cbPrecoAuto.Focused then begin
     UpdatePrecoMarkup;
@@ -1765,7 +1746,7 @@ begin
   end;  
 end;
 
-procedure TFrmProduto.cbSeguirMarkupPadraoPropertiesEditValueChanged(
+procedure TFrmProdutoNew.cbSeguirMarkupPadraoPropertiesEditValueChanged(
   Sender: TObject);
 begin
   if not cbSeguirMarkupPadrao.Focused then Exit;
@@ -1783,19 +1764,19 @@ begin
     edCusto.SetFocus;
 end;
 
-procedure TFrmProduto.edFidelidadeClick(Sender: TObject);
+procedure TFrmProdutoNew.edFidelidadeClick(Sender: TObject);
 begin
   EnableDisable;
   if edFidelidade.Focused and edFidPontos.Enabled then
     edFidPontos.SetFocus;
 end;
 
-procedure TFrmProduto.ChangeEstoque(Sender: TObject);
+procedure TFrmProdutoNew.ChangeEstoque(Sender: TObject);
 begin
   EnableDisable;
 end;
 
-procedure TFrmProduto.cmCancelarClick(Sender: TObject);
+procedure TFrmProdutoNew.cmCancelarClick(Sender: TObject);
 begin
   FFechando := True;
   Paginas.ActivePage := tsDados;
@@ -1804,36 +1785,32 @@ begin
   Close;
 end;
 
-procedure TFrmProduto.FocusNextEstoque(Sender: TObject);
+procedure TFrmProdutoNew.FocusNextEstoque(Sender: TObject);
 begin
-  if lgrBR.Visible then begin 
-    lgrBR.MakeVisible;
-    edNCM.SetFocus;
-  end else
+  if lgrBR.Visible then 
+    edNCM.SetFocus
+  else
   if lgrTax.Visible then begin
-    lgrTax.MakeVisible;
     if lcTax.Enabled then
       edTax.SetFocus else
       edTaxDef.SetFocus;
-  end else begin
-    lciFornecedores.MakeVisible;
+  end else
     self.FListaFor.Fornecedores[0].edFor.SetFocus;
-  end;
 end;
 
-procedure TFrmProduto.FormClose(Sender: TObject; var Action: TCloseAction);
+procedure TFrmProdutoNew.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
 //  FVen:= nil;
   FMgr.Clear;
   Action:= CaFree;
 end;
 
-procedure TFrmProduto.FormShow(Sender: TObject);
+procedure TFrmProdutoNew.FormShow(Sender: TObject);
 var 
   SaveIndex, i: Integer;
   SIndex : String;
 begin
-  FMarcaAnt := MTMarca.Value;
+  Obs := MTObs.Value;
   ConfigNFE;
   UpdateNCM;
   UpdateBrTrib;
@@ -1887,7 +1864,8 @@ begin
 
   SaveIndex := Paginas.ActivePageIndex;
 
-  grTran.Enabled := not FNovo;
+  tsTrans.Enabled := not FNovo;
+  
     
   if not FNovo then begin
     with TfbMovEst.Create(Self) do begin
@@ -1903,7 +1881,7 @@ begin
       try
         tbMovEst.IndexName := 'IProdPendCancelado';
         if tbMovEst.FindKey([MTID.Value, True, False]) then begin
-          grPend.Visible := True;
+          cmPend.Visible := ivAlways;
           with TfbMEPend.Create(Self) do begin
             panPri.Parent := panPend;
             AtualizaDireitos;
@@ -1916,51 +1894,19 @@ begin
         tbMovEst.IndexName := SIndex;
       end;              
     end;
-  end else begin
-    grTran.Visible := False;
-    grPend.Visible := False;
-  end;
-
-  I := getFormOptionInt(Self, 'grBottom.ItemIndex');
-
-  try
-    if (grBottom.Items[i].Visible) and grBottom.Items[i].Enabled then
-      grBottom.ItemIndex := I;
-  except
-    grBottom.ItemIndex := 0;
-  end;
-
-  FShowed := True;
-  
+  end else 
+    cmTran.Visible := ivNever;
+    
   if (Screen.Width=640) then
     PostMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0);
 end;
 
-procedure TFrmProduto.grBottomTabChanged(Sender: TObject);
-begin
-  if FShowed then begin
-    saveFormOptionInt(Self, 'grBottom.ItemIndex', grBottom.ItemIndex);
-    case grBottom.ItemIndex of
-      0 : begin
-        if lcEstoqueAtual.Enabled then
-          edAtual.SetFocus else
-          edUnid.SetFocus;
-      end;
-      1 : edTax.SetFocus;
-      2 : edNCM.SetFocus;
-      3 : FListaFor.Fornecedores[0].edFor.SetFocus;
-      4 : edObs.SetFocus;
-    end;
-    
-  end;
-end;
-
-procedure TFrmProduto.imgBarcodeScanClick(Sender: TObject);
+procedure TFrmProdutoNew.imgBarcodeScanClick(Sender: TObject);
 begin
   edCodigo.SetFocus;
 end;
 
-procedure TFrmProduto.FormKeyDown(Sender: TObject; var Key: Word;
+procedure TFrmProdutoNew.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
   case Key of
@@ -1988,23 +1934,20 @@ begin
   end;
 end;
 
-procedure TFrmProduto.FormKeyPress(Sender: TObject; var Key: Char);
+procedure TFrmProdutoNew.FormKeyPress(Sender: TObject; var Key: Char);
 begin
   if Key = #13 then Key := #0;
   if Key = #27 then Key := #0;
   
 end;
 
-procedure TFrmProduto.FormCreate(Sender: TObject);
+procedure TFrmProdutoNew.FormCreate(Sender: TObject);
 begin
-  FShowed := False;
-  THackTab(grBottom.TabbedOptions).Style := Paginas.Style;
   edPreco.Properties.DisplayFormat := gConfig.cxMaskUnitario;
   edCusto.Properties.DisplayFormat := gConfig.cxMaskUnitario;
   
   Paginas.HideTabs := True;
-  grComissao.Enabled := Dados.CM.UA.Admin;
-  grFidelidade.Enabled := Dados.CM.UA.Admin;
+  panComissao.Enabled := Dados.CM.UA.Admin;
   Paginas.ActivePage := tsDados;
 
   lgrBR.ShowBorder := False;
@@ -2034,7 +1977,7 @@ begin
     tUnidDescricao.Value := SMetro;
     tUnid.Post;
   end;
-  lcRecursoPro.Visible := not gConfig.IsPremium;
+  btnPremium.Visible := not gConfig.IsPremium;
   FNovo := False;
   edFidelidade.Enabled := gConfig.IsPremium;
   FEstoqueAnt := 0;
@@ -2058,7 +2001,7 @@ begin
   panFornecedores.AutoSize := True;
 end;
 
-procedure TFrmProduto.FormDestroy(Sender: TObject);
+procedure TFrmProdutoNew.FormDestroy(Sender: TObject);
 begin
   if Assigned(FFrmNCM) then gNCMPesqList.ReleaseFrm(FFrmNCM);
   if Assigned(FFrmBrTrib) then gBRTribPesqList.ReleaseFrm(FFrmBrTrib);
@@ -2067,7 +2010,7 @@ begin
   
 end;
 
-procedure TFrmProduto.edBrTribFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edBrTribFocusChanged(Sender: TObject);
 begin
   EnableDisable;
   lcInfoBrTrib.Visible := edBrTrib.Focused;
@@ -2076,7 +2019,7 @@ begin
     lcBrTrib.CaptionOptions.Text := 'Tributação';
 end;
 
-procedure TFrmProduto.edBrTribPropertiesButtonClick(Sender: TObject;
+procedure TFrmProdutoNew.edBrTribPropertiesButtonClick(Sender: TObject;
   AButtonIndex: Integer);
 var 
   aCod: Word;  
@@ -2092,25 +2035,25 @@ begin
   UpdateBrTrib;  
 end;
 
-procedure TFrmProduto.edBrTribPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edBrTribPropertiesChange(Sender: TObject);
 begin
   UpdateBrTrib;
   UpdateSt;
 end;
 
-procedure TFrmProduto.edCategKeyDown(Sender: TObject; var Key: Word;
+procedure TFrmProdutoNew.edCategKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
   if (Key <> KEY_ENTER) and (Key  <> Key_TAB) and (Key <> Key_ESC) and (Key <> Key_F2) then
     edCateg.DroppedDown := True;
 end;
 
-procedure TFrmProduto.edCategPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edCategPropertiesChange(Sender: TObject);
 begin
   edCateg.PostEditValue;
 end;
 
-procedure TFrmProduto.edCategPropertiesInitPopup(Sender: TObject);
+procedure TFrmProdutoNew.edCategPropertiesInitPopup(Sender: TObject);
 begin
   if not tCateg.FindKey([edCateg.EditValue]) then begin
     tCateg.Append;
@@ -2124,7 +2067,7 @@ begin
   panLookup.Align := alTop;
 end;
 
-procedure TFrmProduto.edCestFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edCestFocusChanged(Sender: TObject);
 begin
   EnableDisable;
   lclbInfoCEST.Visible := edCEST.Focused;
@@ -2133,7 +2076,7 @@ begin
     lcCEST.CaptionOptions.Text := 'CEST';
 end;
 
-procedure TFrmProduto.edCestPropertiesButtonClick(Sender: TObject;
+procedure TFrmProdutoNew.edCestPropertiesButtonClick(Sender: TObject;
   AButtonIndex: Integer);
 var 
   aCod: Cardinal;  
@@ -2149,12 +2092,12 @@ begin
   UpdateCESt;
 end;
 
-procedure TFrmProduto.edCestPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edCestPropertiesChange(Sender: TObject);
 begin
   UpdateCEST;
 end;
 
-procedure TFrmProduto.edCodigoExit(Sender: TObject);
+procedure TFrmProdutoNew.edCodigoExit(Sender: TObject);
 var
   ms : TMemoryStream;
 begin
@@ -2182,17 +2125,17 @@ begin
   end;}
 end;
 
-procedure TFrmProduto.edCodigoFocusChanged(Sender: TObject);
+procedure TFrmProdutoNew.edCodigoFocusChanged(Sender: TObject);
 begin
   lcInfoCod.Visible := edCodigo.Focused;
 end;
 
-procedure TFrmProduto.edCustoPropertiesChange(Sender: TObject);
+procedure TFrmProdutoNew.edCustoPropertiesChange(Sender: TObject);
 begin
   if edCusto.Focused then edCusto.PostEditValue;
 end;
 
-procedure TFrmProduto.edCustoPropertiesEditValueChanged(Sender: TObject);
+procedure TFrmProdutoNew.edCustoPropertiesEditValueChanged(Sender: TObject);
 begin
   if edCusto.Focused then UpdatePrecoMarkup;
 end;

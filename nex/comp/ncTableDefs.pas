@@ -1418,7 +1418,7 @@ begin
     with Result do begin
       AddRecordDescriptor(TnxBaseRecordDescriptor);
       with FieldsDescriptor do begin
-        AddField('Descricao', '', nxtNullString, 35, 0, False);
+        AddField('Descricao', '', nxtWideString, 35, 0, False);
         AddField('RecVer', '', nxtWord32, 0, 0, False);
         
         with EnsureIndicesDescriptor do 
@@ -1459,7 +1459,7 @@ begin
         with AddField('UID', '', nxtGUID, 0, 0, False) do
           AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
       
-        AddField('Descricao', '', nxtNullString, 5, 0, False);
+        AddField('Descricao', '', nxtWideString, 5, 0, False);
         AddField('RecVer', '', nxtWord32, 0, 0, False);
         with EnsureIndicesDescriptor do 
           with AddIndex('IRecVer', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
@@ -1482,6 +1482,42 @@ begin
 
         with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
           Add(GetFieldFromName('UID'));   
+      end;          
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
+function __Marca(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+        
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+      
+        AddField('Nome', '', nxtWideString, 40, 0, False);
+        AddField('RecVer', '', nxtWord32, 0, 0, False);
+        with EnsureIndicesDescriptor do 
+          with AddIndex('IRecVer', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+            Add(GetFieldFromName('RecVer'));
+      end;
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('ID'));
+
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID')); 
+
+        with AddIndex('INome', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('Nome'));   
       end;          
       CheckValid(False);
     end;
@@ -2570,17 +2606,17 @@ begin
         with AddField('UID', '', nxtGUID, 0, 0, False) do
           AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
         
-        AddField('Codigo', '', nxtNullString, 30, 0, False);
-        AddField('Descricao', '', nxtNullString, 100, 0, False);
-        AddField('Unid', '', nxtNullString, 5, 0, False);
+        AddField('Marca', '', nxtGUID, 0, 0, False);
+        AddField('Codigo', '', nxtWideString, 30, 0, False);
+        AddField('Descricao', '', nxtWideString, 100, 0, False);
+        AddField('Unid', '', nxtWideString, 5, 0, False);
         AddField('Preco', '', nxtCurrency, 5, 0, False);
         AddField('PrecoAuto', '', nxtBoolean, 0, 0, False);
         AddField('Margem', '', nxtDouble, 0, 0, False);
-        AddField('Obs', '', nxtBLOBMemo, 0, 0, False);
+        AddField('Obs', '', nxtBLOBWideMemo, 0, 0, False);
         AddField('Imagem', '', nxtBLOBGraphic, 0, 0, False);
-        AddField('Categoria', '', nxtNullString, 35, 0, False);
+        AddField('Categoria', '', nxtWideString, 35, 0, False);
         AddField('Fornecedor', '', nxtWord32, 10, 0, False);
-        AddField('SubCateg', '', nxtNullString, 35, 0, False);
         AddField('EstoqueAtual', '', nxtDouble, 0, 0, False);
         AddField('EstoquePend', '', nxtDouble, 0, 0, False);
         AddField('EstoqueTot', '', nxtDouble, 0, 0, False);
@@ -2688,6 +2724,12 @@ begin
           Add(GetFieldFromName('AbaixoMin'));
           Add(GetFieldFromName('AbaixoMinDesde'));
         end;
+        
+        with AddIndex('IMarcaDescr', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Marca'));
+          Add(GetFieldFromName('Descricao'));
+        end;
+        
         with AddIndex('IPrecoAutoMargem', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('PrecoAuto'));
           Add(GetFieldFromName('Margem'));
@@ -3900,6 +3942,7 @@ initialization
     Add('ITran',        __ITran,        idtb_ITran);
     Add('MovEst',       __MovEst,       idtb_MovEst);
     Add('Produto',      __Produto,      idtb_Produto);
+    Add('Marca',        __Marca,        idtb_Marca);
     Add('Tran',         __Tran,         idtb_Tran);
     Add('Usuario',      __Usuario,      idtb_Usuario);
     Add('infoCampanha', __infocampanha, idtb_infoCampanha);

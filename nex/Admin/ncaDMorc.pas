@@ -39,16 +39,10 @@ type
     dbProduto: TfrxDBDataset;
     tCliente: TnxTable;
     tProdutoID: TAutoIncField;
-    tProdutoCodigo: TStringField;
-    tProdutoDescricao: TStringField;
-    tProdutoUnid: TStringField;
     tProdutoPreco: TCurrencyField;
     tProdutoPrecoAuto: TBooleanField;
     tProdutoMargem: TFloatField;
-    tProdutoObs: TnxMemoField;
     tProdutoImagem: TGraphicField;
-    tProdutoCategoria: TStringField;
-    tProdutoSubCateg: TStringField;
     tProdutoCustoUnitario: TCurrencyField;
     tProdutoPodeAlterarPreco: TBooleanField;
     tProdutoPermiteVendaFracionada: TBooleanField;
@@ -149,6 +143,25 @@ type
     tClienteValorCred: TCurrencyField;
     tClienteRecVer: TLongWordField;
     tClienteEndNumComp: TStringField;
+    tProdutoUID: TGuidField;
+    tProdutoMarca: TGuidField;
+    tProdutoCodigo: TWideStringField;
+    tProdutoDescricao: TWideStringField;
+    tProdutoUnid: TWideStringField;
+    tProdutoObs: TWideMemoField;
+    tProdutoCategoria: TWideStringField;
+    tProdutobrtrib: TWordField;
+    tProdutoPesoBruto: TFloatField;
+    tProdutoPesoLiq: TFloatField;
+    tProdutotax_id: TLongWordField;
+    tProdutoNCM_Ex: TStringField;
+    tProdutocest: TLongWordField;
+    tProdutomodST: TByteField;
+    tProdutoMVA: TnxMemoField;
+    tProdutoPauta: TnxMemoField;
+    tProdutoAlteradoEm: TDateTimeField;
+    tProdutoAlteradoPor: TStringField;
+    tProdutoNomeMarca: TWideStringField;
     procedure DataModuleCreate(Sender: TObject);
     procedure tClienteCalcFields(DataSet: TDataSet);
   private
@@ -600,6 +613,7 @@ finalization
   gOrcFields.Free;  
 
 end.
+
 
 
 

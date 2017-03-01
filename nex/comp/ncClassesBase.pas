@@ -27,7 +27,8 @@ uses
   uNexTransResourceStrings_PT;
 
 const
-
+  incluir_marca = '{AA7D6FDC-C1EB-4910-AE16-6AA37A4D9CEA}';
+  
   idtb_Caixa        = 01;
   idtb_Card         = 02;
   idtb_Credito      = 03;
@@ -74,6 +75,7 @@ const
   idtb_bk_process   = 44;
   idtb_bk_upload    = 45;
   idtb_LinkXML      = 46;
+  idtb_Marca        = 47;
 
   bk_status_criar_json = 0;
   bk_status_enviar     = 1;

@@ -283,7 +283,7 @@ object FrmOrcamento: TFrmOrcamento
     Bevel.BorderColor = clRed
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
-    TabOrder = 10
+    TabOrder = 6
     object lbValidade: TcxLabel
       AlignWithMargins = True
       Left = 130
@@ -380,11 +380,6 @@ object FrmOrcamento: TFrmOrcamento
     UseSystemFont = False
     Left = 120
     Top = 304
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     object dxBarLargeButton1: TdxBarLargeButton
       Caption = 'New Button'
       Category = 0
@@ -450,18 +445,6 @@ object FrmOrcamento: TFrmOrcamento
     object tProID: TAutoIncField
       FieldName = 'ID'
     end
-    object tProCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -480,21 +463,9 @@ object FrmOrcamento: TFrmOrcamento
     object tProCadastroRapido: TBooleanField
       FieldName = 'CadastroRapido'
     end
-    object tProCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-    object tProObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
-    end
-    object tProSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tProNaoControlaEstoque: TBooleanField
       FieldName = 'NaoControlaEstoque'
@@ -563,6 +534,58 @@ object FrmOrcamento: TFrmOrcamento
     end
     object tProcest: TLongWordField
       FieldName = 'cest'
+    end
+    object tProUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProPesoBruto: TFloatField
+      FieldName = 'PesoBruto'
+    end
+    object tProPesoLiq: TFloatField
+      FieldName = 'PesoLiq'
+    end
+    object tPromodST: TByteField
+      FieldName = 'modST'
+    end
+    object tProMVA: TnxMemoField
+      FieldName = 'MVA'
+      BlobType = ftMemo
+    end
+    object tProPauta: TnxMemoField
+      FieldName = 'Pauta'
+      BlobType = ftMemo
+    end
+    object tProAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
     end
   end
   object DataSource1: TDataSource

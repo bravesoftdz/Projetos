@@ -1,7 +1,7 @@
 inherited fbRevisarProduto: TfbRevisarProduto
   Caption = 'Revisar produtos cadastrados rapidamente'
-  ExplicitWidth = 676
-  ExplicitHeight = 382
+  ExplicitWidth = 684
+  ExplicitHeight = 390
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
@@ -55,11 +55,6 @@ inherited fbRevisarProduto: TfbRevisarProduto
     ImageOptions.LargeImages = dmImagens.im24
     Left = 264
     Top = 96
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     inherited BarMgrBar1: TdxBar
       ItemLinks = <
         item
@@ -73,8 +68,8 @@ inherited fbRevisarProduto: TfbRevisarProduto
     inherited cmEditar: TdxBarLargeButton
       Caption = '&Editar / Concluir Cadastro'
       Hint = 'Editar / Concluir Cadastro'
-      LargeImageIndex = 2
       OnClick = cmEditarClick
+      LargeImageIndex = 2
       ShowCaption = True
       ImageIndex = 20
     end
@@ -113,99 +108,23 @@ inherited fbRevisarProduto: TfbRevisarProduto
     IndexName = 'ICadastroRapido'
     Left = 96
     Top = 136
-    object TabDescricao: TStringField
+    object TabID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object TabUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object TabCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object TabDescricao: TWideStringField
       FieldName = 'Descricao'
       Size = 100
     end
     object TabCadastroRapido: TBooleanField
       FieldName = 'CadastroRapido'
-    end
-    object TabIncluidoEm: TDateTimeField
-      FieldName = 'IncluidoEm'
-    end
-    object TabID: TAutoIncField
-      FieldName = 'ID'
-    end
-    object TabCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object TabUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
-    object TabPreco: TCurrencyField
-      FieldName = 'Preco'
-    end
-    object TabObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
-    object TabImagem: TGraphicField
-      FieldName = 'Imagem'
-      BlobType = ftGraphic
-    end
-    object TabCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-    object TabSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
-    end
-    object TabCustoUnitario: TCurrencyField
-      FieldName = 'CustoUnitario'
-    end
-    object TabPodeAlterarPreco: TBooleanField
-      FieldName = 'PodeAlterarPreco'
-    end
-    object TabNaoControlaEstoque: TBooleanField
-      FieldName = 'NaoControlaEstoque'
-    end
-    object TabAbaixoMin: TBooleanField
-      FieldName = 'AbaixoMin'
-    end
-    object TabAbaixoMinDesde: TDateTimeField
-      FieldName = 'AbaixoMinDesde'
-    end
-    object TabAtivo: TBooleanField
-      FieldName = 'Ativo'
-    end
-    object TabFidelidade: TBooleanField
-      FieldName = 'Fidelidade'
-    end
-    object TabFidPontos: TIntegerField
-      FieldName = 'FidPontos'
-    end
-    object TabPrecoAuto: TBooleanField
-      FieldName = 'PrecoAuto'
-    end
-    object TabMargem: TFloatField
-      FieldName = 'Margem'
-    end
-    object TabFornecedor: TLongWordField
-      FieldName = 'Fornecedor'
-    end
-    object TabPermiteVendaFracionada: TBooleanField
-      FieldName = 'PermiteVendaFracionada'
-    end
-    object TabComissaoPerc: TFloatField
-      FieldName = 'ComissaoPerc'
-    end
-    object TabComissaoLucro: TBooleanField
-      FieldName = 'ComissaoLucro'
-    end
-    object TabEstoqueAtual: TFloatField
-      FieldName = 'EstoqueAtual'
-    end
-    object TabEstoqueMin: TFloatField
-      FieldName = 'EstoqueMin'
-    end
-    object TabEstoqueMax: TFloatField
-      FieldName = 'EstoqueMax'
-    end
-    object TabEstoqueRepor: TFloatField
-      FieldName = 'EstoqueRepor'
     end
   end
   object DataSource1: TDataSource

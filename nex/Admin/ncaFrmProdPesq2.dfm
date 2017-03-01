@@ -383,18 +383,6 @@ object FrmProdPesq2: TFrmProdPesq2
     object TabID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object TabCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object TabDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object TabUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object TabPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -404,24 +392,12 @@ object FrmProdPesq2: TFrmProdPesq2
     object TabMargem: TFloatField
       FieldName = 'Margem'
     end
-    object TabObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object TabImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object TabCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object TabFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object TabSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object TabEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -516,6 +492,51 @@ object FrmProdPesq2: TFrmProdPesq2
     end
     object TabRecVer: TLongWordField
       FieldName = 'RecVer'
+    end
+    object TabUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object TabMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object TabCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object TabDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object TabUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object TabObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object TabCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object TabAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object TabAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
+    end
+    object TabNomeMarca: TWideStringField
+      FieldKind = fkLookup
+      FieldName = 'NomeMarca'
+      LookupDataSet = Dados.tbMarca
+      LookupKeyFields = 'UID'
+      LookupResultField = 'Nome'
+      KeyFields = 'Marca'
+      Size = 40
+      Lookup = True
     end
   end
   object DS: TDataSource
@@ -1342,102 +1363,9 @@ object FrmProdPesq2: TFrmProdPesq2
     TableName = 'Produto'
     Left = 144
     Top = 144
-    object tAuxID: TUnsignedAutoIncField
-      FieldName = 'ID'
-    end
-    object tAuxCodigo: TStringField
+    object tAuxCodigo: TWideStringField
       FieldName = 'Codigo'
       Size = 30
-    end
-    object tAuxDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tAuxUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
-    object tAuxPreco: TCurrencyField
-      FieldName = 'Preco'
-    end
-    object tAuxPrecoAuto: TBooleanField
-      FieldName = 'PrecoAuto'
-    end
-    object tAuxMargem: TFloatField
-      FieldName = 'Margem'
-    end
-    object tAuxObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
-    object tAuxImagem: TGraphicField
-      FieldName = 'Imagem'
-      BlobType = ftGraphic
-    end
-    object tAuxCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-    object tAuxFornecedor: TLongWordField
-      FieldName = 'Fornecedor'
-    end
-    object tAuxSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
-    end
-    object tAuxEstoqueAtual: TFloatField
-      FieldName = 'EstoqueAtual'
-    end
-    object tAuxCustoUnitario: TCurrencyField
-      FieldName = 'CustoUnitario'
-    end
-    object tAuxPodeAlterarPreco: TBooleanField
-      FieldName = 'PodeAlterarPreco'
-    end
-    object tAuxPermiteVendaFracionada: TBooleanField
-      FieldName = 'PermiteVendaFracionada'
-    end
-    object tAuxNaoControlaEstoque: TBooleanField
-      FieldName = 'NaoControlaEstoque'
-    end
-    object tAuxEstoqueMin: TFloatField
-      FieldName = 'EstoqueMin'
-    end
-    object tAuxEstoqueMax: TFloatField
-      FieldName = 'EstoqueMax'
-    end
-    object tAuxAbaixoMin: TBooleanField
-      FieldName = 'AbaixoMin'
-    end
-    object tAuxAbaixoMinDesde: TDateTimeField
-      FieldName = 'AbaixoMinDesde'
-    end
-    object tAuxEstoqueRepor: TFloatField
-      FieldName = 'EstoqueRepor'
-    end
-    object tAuxComissaoPerc: TFloatField
-      FieldName = 'ComissaoPerc'
-    end
-    object tAuxComissaoLucro: TBooleanField
-      FieldName = 'ComissaoLucro'
-    end
-    object tAuxAtivo: TBooleanField
-      FieldName = 'Ativo'
-    end
-    object tAuxFidelidade: TBooleanField
-      FieldName = 'Fidelidade'
-    end
-    object tAuxFidPontos: TIntegerField
-      FieldName = 'FidPontos'
-    end
-    object tAuxCadastroRapido: TBooleanField
-      FieldName = 'CadastroRapido'
-    end
-    object tAuxIncluidoEm: TDateTimeField
-      FieldName = 'IncluidoEm'
-    end
-    object tAuxRecVer: TLongWordField
-      FieldName = 'RecVer'
     end
   end
 end

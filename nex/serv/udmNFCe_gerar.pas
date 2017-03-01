@@ -216,17 +216,11 @@ type
     tMovEstUnitarioLiq: TCurrencyField;
     tProduto: TnxTable;
     tProdutoID: TUnsignedAutoIncField;
-    tProdutoCodigo: TStringField;
-    tProdutoDescricao: TStringField;
-    tProdutoUnid: TStringField;
     tProdutoPreco: TCurrencyField;
     tProdutoPrecoAuto: TBooleanField;
     tProdutoMargem: TFloatField;
-    tProdutoObs: TnxMemoField;
     tProdutoImagem: TGraphicField;
-    tProdutoCategoria: TStringField;
     tProdutoFornecedor: TLongWordField;
-    tProdutoSubCateg: TStringField;
     tProdutoCustoUnitario: TCurrencyField;
     tProdutoPodeAlterarPreco: TBooleanField;
     tProdutoPermiteVendaFracionada: TBooleanField;
@@ -444,6 +438,15 @@ type
     tTranspFornecedor: TBooleanField;
     tTranspValorCred: TCurrencyField;
     tTranspRecVer: TLongWordField;
+    tProdutoUID: TGuidField;
+    tProdutoMarca: TGuidField;
+    tProdutoCodigo: TWideStringField;
+    tProdutoDescricao: TWideStringField;
+    tProdutoUnid: TWideStringField;
+    tProdutoObs: TWideMemoField;
+    tProdutoCategoria: TWideStringField;
+    tProdutoAlteradoEm: TDateTimeField;
+    tProdutoAlteradoPor: TStringField;
     procedure DataModuleCreate(Sender: TObject);
     procedure DataModuleDestroy(Sender: TObject);
   private

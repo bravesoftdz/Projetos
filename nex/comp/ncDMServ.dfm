@@ -816,18 +816,6 @@ object DM: TDM
     object tProdutoID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tProdutoCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdutoDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProdutoUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProdutoPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -837,24 +825,12 @@ object DM: TDM
     object tProdutoMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdutoObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdutoImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tProdutoCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tProdutoFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tProdutoSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tProdutoCustoUnitario: TCurrencyField
       FieldName = 'CustoUnitario'
@@ -947,8 +923,43 @@ object DM: TDM
       FieldName = 'Pauta'
       BlobType = ftMemo
     end
-    object tProdutoRecVer: TLongWordField
+    object su: TLongWordField
       FieldName = 'RecVer'
+    end
+    object tProdutoUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdutoMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdutoCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdutoDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdutoAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProdutoAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
+    end
+    object tProdutoCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProdutoUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdutoObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
     end
   end
   object tAuxITran: TnxTable
@@ -1685,7 +1696,7 @@ object DM: TDM
     SubLanguageID = 1
     LocaleID = 1024
     Left = 264
-    Top = 304
+    Top = 280
     object mtDebData: TDateTimeField
       FieldName = 'Data'
     end
@@ -2449,8 +2460,8 @@ object DM: TDM
     Database = nxDB
     TableName = 'ProdFor'
     IndexName = 'IProdFor'
-    Left = 384
-    Top = 336
+    Left = 320
+    Top = 280
     object tProdForUID: TGuidField
       FieldName = 'UID'
       Size = 38

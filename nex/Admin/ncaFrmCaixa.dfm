@@ -28,7 +28,7 @@ object FrmCaixa: TFrmCaixa
     Align = alClient
     BevelOuter = bvNone
     BorderWidth = 5
-    TabOrder = 2
+    TabOrder = 0
     object dxBarDockControl1: TdxBarDockControl
       Left = 5
       Top = 5
@@ -93,7 +93,7 @@ object FrmCaixa: TFrmCaixa
       Align = alClient
       TabOrder = 3
       Visible = False
-      Properties.ActivePage = tsVC
+      Properties.ActivePage = tsVendas
       Properties.CustomButtons.Buttons = <>
       Properties.HotTrack = True
       Properties.Style = 3
@@ -685,11 +685,6 @@ object FrmCaixa: TFrmCaixa
     UseSystemFont = True
     Left = 87
     Top = 327
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     object BarMgrBar1: TdxBar
       AllowClose = False
       AllowCustomizing = False
@@ -759,20 +754,20 @@ object FrmCaixa: TFrmCaixa
       Category = 0
       Hint = 'Sair'
       Visible = ivAlways
-      LargeImageIndex = 45
       OnClick = cmCancelaClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 45
     end
     object cmImprimir: TdxBarLargeButton
       Caption = '&Imprimir'
       Category = 0
       Hint = 'Imprimir'
       Visible = ivNever
-      LargeImageIndex = 7
       OnClick = cmImprimirClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 7
     end
     object edDataI: TdxBarDateCombo
       Caption = 'Totalizar per'#237'odo: De'
@@ -813,20 +808,20 @@ object FrmCaixa: TFrmCaixa
       Category = 0
       Hint = 'Totalizar'
       Visible = ivNever
-      LargeImageIndex = 42
       OnClick = btnTotalizarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 42
     end
     object cmExp: TdxBarLargeButton
       Caption = 'Exportar'
       Category = 0
       Hint = 'Exportar'
       Visible = ivAlways
-      LargeImageIndex = 47
       OnClick = cmExpClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 47
     end
   end
   object Timer1: TTimer
@@ -862,7 +857,7 @@ object FrmCaixa: TFrmCaixa
       PrinterPage._dxMeasurementUnits_ = 0
       PrinterPage._dxLastMU_ = 2
       ReportDocument.Caption = 'Resumo Financeiro'
-      ReportDocument.CreationDate = 42711.676060219900000000
+      ReportDocument.CreationDate = 42795.032011712960000000
       BuiltInReportLink = True
     end
     object dplTempoMaq: TdxGridReportLink
@@ -957,7 +952,7 @@ object FrmCaixa: TFrmCaixa
       PrinterPage._dxMeasurementUnits_ = 0
       PrinterPage._dxLastMU_ = 2
       ReportDocument.Caption = 'Vendas por Categoria'
-      ReportDocument.CreationDate = 42711.676060358800000000
+      ReportDocument.CreationDate = 42795.032011736110000000
       ReportTitle.Text = 'Vendas por Categoria'
       BuiltInReportLink = True
     end

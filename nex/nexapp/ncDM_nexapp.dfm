@@ -719,18 +719,6 @@ object dmNexApp: TdmNexApp
     object tProdID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tProdCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProdUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProdPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -740,24 +728,12 @@ object dmNexApp: TdmNexApp
     object tProdMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tProdCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tProdFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tProdSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tProdEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -869,6 +845,58 @@ object dmNexApp: TdmNexApp
       FieldKind = fkCalculated
       FieldName = 'ShopCode'
       Calculated = True
+    end
+    object tProdUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProdCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProdPesoBruto: TFloatField
+      FieldName = 'PesoBruto'
+    end
+    object tProdPesoLiq: TFloatField
+      FieldName = 'PesoLiq'
+    end
+    object tProdmodST: TByteField
+      FieldName = 'modST'
+    end
+    object tProdMVA: TnxMemoField
+      FieldName = 'MVA'
+      BlobType = ftMemo
+    end
+    object tProdPauta: TnxMemoField
+      FieldName = 'Pauta'
+      BlobType = ftMemo
+    end
+    object tProdAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProdAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
     end
   end
   object tCli: TnxTable

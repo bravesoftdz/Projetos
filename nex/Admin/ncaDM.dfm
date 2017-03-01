@@ -5,6 +5,7 @@ object Dados: TDados
   Height = 568
   Width = 802
   object Session: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = RSE
@@ -12,6 +13,7 @@ object Dados: TDados
     Top = 56
   end
   object db: TnxDatabase
+    ActiveDesigntime = True
     Session = Session
     AliasName = 'nexcafe'
     FailSafe = True
@@ -19,6 +21,7 @@ object Dados: TDados
     Top = 64
   end
   object tbCli: TnxTable
+    ActiveDesigntime = True
     Database = db
     Timeout = 10000
     FilterOptions = [foCaseInsensitive]
@@ -228,18 +231,6 @@ object Dados: TDados
     object tbProID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tbProCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tbProDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tbProUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tbProPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -249,24 +240,12 @@ object Dados: TDados
     object tbProMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tbProObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tbProImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tbProCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tbProFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tbProSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tbProEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -372,6 +351,30 @@ object Dados: TDados
     object tbProAlteradoPor: TStringField
       FieldName = 'AlteradoPor'
       Size = 30
+    end
+    object tbProMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tbProCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tbProDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tbProUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tbProObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tbProCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
     end
   end
   object tbTran: TnxTable
@@ -1155,6 +1158,7 @@ object Dados: TDados
     Top = 288
   end
   object RSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 400
     Top = 8
@@ -5837,6 +5841,7 @@ object Dados: TDados
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     CommandHandler = SimpleCmdHandler
     Timeout = 120000
     OnConnectionLost = nxTCPIPConnectionLost
@@ -8873,6 +8878,7 @@ object Dados: TDados
     end
   end
   object tbNCM: TnxTable
+    ActiveDesigntime = True
     Database = db
     OnCalcFields = tbNCMCalcFields
     TableName = 'NCM'
@@ -9220,6 +9226,7 @@ object Dados: TDados
     end
   end
   object tBrTrib: TnxTable
+    ActiveDesigntime = True
     Database = db
     TableName = 'BRTrib'
     IndexName = 'IID'
@@ -19667,6 +19674,27 @@ object Dados: TDados
       FieldName = 'ValorCred'
     end
     object tbTranspRecVer: TLongWordField
+      FieldName = 'RecVer'
+    end
+  end
+  object tbMarca: TnxTable
+    Database = db
+    TableName = 'Marca'
+    IndexName = 'IUID'
+    Left = 368
+    Top = 288
+    object tbMarcaID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tbMarcaUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tbMarcaNome: TWideStringField
+      FieldName = 'Nome'
+      Size = 40
+    end
+    object tbMarcaRecVer: TLongWordField
       FieldName = 'RecVer'
     end
   end

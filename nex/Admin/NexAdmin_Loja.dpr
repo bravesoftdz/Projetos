@@ -235,7 +235,7 @@ uses
   ncafbMovEst in 'ncafbMovEst.pas' {fbMovEst: TFrmBasePai},
   ncaPlusAPI in 'ncaPlusAPI.pas' {FrmPlus},
   ncIPAddr in '..\comp\ncIPAddr.pas',
-  ncaFrmProduto in 'ncaFrmProduto.pas' {FrmProduto},
+  ncaFrmProdutoNew in 'ncaFrmProdutoNew.pas' {FrmProdutoNew},
   ncaFrmProdPesq2 in 'ncaFrmProdPesq2.pas' {FrmProdPesq2},
   ncaFrmBasicTextEdit in 'ncaFrmBasicTextEdit.pas' {FrmBasicTextEdit},
   uProxCampo in '..\Utils\uProxCampo.pas',
@@ -334,7 +334,8 @@ uses
   ncaFrmPesqEndereco in 'ncaFrmPesqEndereco.pas' {FrmPesqEndereco},
   ncaFrmCadFornecedor in 'ncaFrmCadFornecedor.pas' {FrmCadFornecedor},
   ncaFrmTrial_fim in 'ncaFrmTrial_fim.pas' {FrmTrial_fim},
-  ncaFrmTrial_Sombra in 'ncaFrmTrial_Sombra.pas' {FrmTrial_sombra};
+  ncaFrmTrial_Sombra in 'ncaFrmTrial_Sombra.pas' {FrmTrial_sombra},
+  ncaFrmProduto in 'ncaFrmProduto.pas' {FrmProduto};
 
 {$R *.res}
 {---$R uac.res}

@@ -2,17 +2,17 @@ inherited fbProdEst: TfbProdEst
   Left = 170
   Top = 150
   Caption = 'Produtos / Estoque'
-  ClientHeight = 501
+  ClientHeight = 380
   ClientWidth = 740
   OldCreateOrder = True
   OnDestroy = FrmBasePaiDestroy
-  ExplicitWidth = 748
-  ExplicitHeight = 532
+  ExplicitWidth = 756
+  ExplicitHeight = 419
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
     Width = 740
-    Height = 501
+    Height = 380
     HelpType = htKeyword
     ExplicitWidth = 740
     ExplicitHeight = 501
@@ -25,7 +25,7 @@ inherited fbProdEst: TfbProdEst
       Left = 0
       Top = 28
       Width = 740
-      Height = 473
+      Height = 352
       Cursor = crHandPoint
       Margins.Left = 5
       Margins.Top = 0
@@ -47,20 +47,16 @@ inherited fbProdEst: TfbProdEst
       Properties.TabHeight = 32
       LookAndFeel.Kind = lfFlat
       LookAndFeel.NativeStyle = False
-      ClientRectBottom = 473
+      ExplicitHeight = 473
+      ClientRectBottom = 352
       ClientRectRight = 740
       ClientRectTop = 0
     end
   end
   inherited BarMgr: TdxBarManager
     LookAndFeel.Kind = lfFlat
-    Left = 112
-    Top = 264
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    Left = 136
+    Top = 128
     inherited BarMgrBar1: TdxBar
       OldName = 'BarraTabSheet1'
     end
@@ -81,12 +77,12 @@ inherited fbProdEst: TfbProdEst
     end
   end
   inherited MenuGrid: TcxGridPopupMenu
-    Left = 48
-    Top = 305
+    Left = 72
+    Top = 153
   end
   inherited dlgExp: TSaveDialog
-    Left = 48
-    Top = 249
+    Left = 56
+    Top = 105
   end
   object FM: TFormManager
     BarMgr = FrmPri.BarMgr

@@ -5,7 +5,7 @@ object dmDBProc: TdmDBProc
   Width = 200
   object nxDB: TnxDatabase
     Session = nxSession
-    AliasPath = 'c:\meus programas\nexcafe\dados'
+    AliasName = 'NexCafe'
     Left = 72
     Top = 16
   end
@@ -21,67 +21,109 @@ object dmDBProc: TdmDBProc
     IndexName = 'IID'
     Left = 120
     Top = 16
-    object tCliID: TAutoIncField
+    object tCliID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tCliNome: TStringField
-      FieldName = 'Nome'
-      Size = 40
+    object tCliCodigo: TStringField
+      FieldName = 'Codigo'
+      Size = 15
     end
-    object tCliEndereco: TStringField
-      FieldName = 'Endereco'
+    object tCliCodigoKey: TStringField
+      FieldName = 'CodigoKey'
+      Size = 15
+    end
+    object tCliNome: TWideStringField
+      FieldName = 'Nome'
       Size = 50
     end
-    object tCliBairro: TStringField
-      FieldName = 'Bairro'
+    object tCliEndereco: TWideStringField
+      FieldName = 'Endereco'
+      Size = 60
     end
-    object tCliCidade: TStringField
-      FieldName = 'Cidade'
+    object tCliEndereco2: TWideStringField
+      FieldName = 'Endereco2'
+      Size = 60
+    end
+    object tCliEnd_Numero: TWideStringField
+      FieldName = 'End_Numero'
+    end
+    object tCliEnd_CodMun: TWideStringField
+      FieldName = 'End_CodMun'
+      Size = 7
+    end
+    object tCliEnd_Dest: TWideStringField
+      FieldName = 'End_Dest'
+      Size = 40
+    end
+    object tCliEnd_Obs: TWideStringField
+      FieldName = 'End_Obs'
+      Size = 40
+    end
+    object tCliendereco_id: TGuidField
+      FieldName = 'endereco_id'
+      Size = 38
+    end
+    object tCliPais: TWideStringField
+      FieldName = 'Pais'
+      Size = 2
+    end
+    object tCliBairro: TWideStringField
+      FieldName = 'Bairro'
       Size = 30
     end
-    object tCliUF: TStringField
+    object tCliCidade: TWideStringField
+      FieldName = 'Cidade'
+      Size = 40
+    end
+    object tCliUF: TWideStringField
       FieldName = 'UF'
       Size = 30
     end
-    object tCliCEP: TStringField
+    object tCliCEP: TWideStringField
       FieldName = 'CEP'
       Size = 10
+    end
+    object tCliNaoContribICMS: TBooleanField
+      FieldName = 'NaoContribICMS'
+    end
+    object tCliIsentoIE: TBooleanField
+      FieldName = 'IsentoIE'
+    end
+    object tCliNFE_CredIcms: TBooleanField
+      FieldName = 'NFE_CredIcms'
     end
     object tCliSexo: TStringField
       FieldName = 'Sexo'
       Size = 1
     end
-    object tCliObs: TnxMemoField
+    object tCliObs: TWideMemoField
       FieldName = 'Obs'
-      BlobType = ftMemo
+      BlobType = ftWideMemo
     end
-    object tCliCpf: TStringField
+    object tCliCpf: TWideStringField
       FieldName = 'Cpf'
     end
-    object tCliRg: TStringField
+    object tCliRg: TWideStringField
       FieldName = 'Rg'
     end
-    object tCliTelefone: TStringField
+    object tCliTelefone: TWideStringField
       FieldName = 'Telefone'
       Size = 15
     end
-    object tCliEmail: TnxMemoField
+    object tCliEmail: TWideMemoField
       FieldName = 'Email'
-      BlobType = ftMemo
+      BlobType = ftWideMemo
     end
     object tCliPassaportes: TFloatField
       FieldName = 'Passaportes'
     end
-    object tCliPai: TStringField
+    object tCliPai: TWideStringField
       FieldName = 'Pai'
       Size = 40
     end
-    object tCliMae: TStringField
+    object tCliMae: TWideStringField
       FieldName = 'Mae'
       Size = 40
-    end
-    object tCliSenha: TStringField
-      FieldName = 'Senha'
     end
     object tCliUltVisita: TDateTimeField
       FieldName = 'UltVisita'
@@ -89,18 +131,10 @@ object dmDBProc: TdmDBProc
     object tCliDebito: TCurrencyField
       FieldName = 'Debito'
     end
-    object tCliEscola: TStringField
-      FieldName = 'Escola'
-      Size = 40
-    end
-    object tCliNickName: TStringField
-      FieldName = 'NickName'
-      Size = 30
-    end
     object tCliDataNasc: TDateTimeField
       FieldName = 'DataNasc'
     end
-    object tCliCelular: TStringField
+    object tCliCelular: TWideStringField
       FieldName = 'Celular'
       Size = 15
     end
@@ -122,15 +156,9 @@ object dmDBProc: TdmDBProc
     end
     object tCliIncluidoPor: TStringField
       FieldName = 'IncluidoPor'
-      Size = 10
     end
     object tCliAlteradoPor: TStringField
       FieldName = 'AlteradoPor'
-      Size = 10
-    end
-    object tCliTitEleitor: TStringField
-      FieldName = 'TitEleitor'
-      Size = 13
     end
     object tCliFidPontos: TFloatField
       FieldName = 'FidPontos'
@@ -151,8 +179,28 @@ object dmDBProc: TdmDBProc
     object tCliTemCredito: TBooleanField
       FieldName = 'TemCredito'
     end
+    object tCliInfoExtra: TWideStringField
+      FieldName = 'InfoExtra'
+      Size = 50
+    end
+    object tCliTranspEntPadrao: TLongWordField
+      FieldName = 'TranspEntPadrao'
+    end
+    object tCliUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tCliTranspEnt: TBooleanField
+      FieldName = 'TranspEnt'
+    end
+    object tCliTipoFor: TByteField
+      FieldName = 'TipoFor'
+    end
     object tCliPJuridica: TBooleanField
       FieldName = 'PJuridica'
+    end
+    object tCliConsumidor: TBooleanField
+      FieldName = 'Consumidor'
     end
     object tCliInativo: TBooleanField
       FieldName = 'Inativo'
@@ -163,7 +211,7 @@ object dmDBProc: TdmDBProc
     object tCliValorCred: TCurrencyField
       FieldName = 'ValorCred'
     end
-    object tCliRecVer: TIntegerField
+    object tCliRecVer: TLongWordField
       FieldName = 'RecVer'
     end
   end

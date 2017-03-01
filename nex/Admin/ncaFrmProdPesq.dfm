@@ -446,7 +446,6 @@ object FrmProdPesq: TFrmProdPesq
               TabOrder = 1
               OnKeyDown = edCodKeyDown
               OnKeyPress = edCodKeyPress
-              ExplicitHeight = 21
               Width = 517
             end
           end
@@ -505,7 +504,6 @@ object FrmProdPesq: TFrmProdPesq
               TabOrder = 1
               OnKeyDown = edDescrKeyDown
               OnKeyPress = edDescrKeyPress
-              ExplicitHeight = 21
               Width = 517
             end
           end
@@ -563,7 +561,6 @@ object FrmProdPesq: TFrmProdPesq
               TabOrder = 1
               OnKeyDown = edPrecoKeyDown
               OnKeyPress = edPrecoKeyPress
-              ExplicitHeight = 21
               Width = 226
             end
           end
@@ -1033,7 +1030,7 @@ object FrmProdPesq: TFrmProdPesq
     IndexName = 'ICodigo'
     Left = 232
     Top = 272
-    object tAuxCodigo: TStringField
+    object tAuxCodigo: TWideStringField
       FieldName = 'Codigo'
       Size = 30
     end
@@ -1049,18 +1046,6 @@ object FrmProdPesq: TFrmProdPesq
     object TabID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object TabCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object TabDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object TabUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object TabPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -1070,24 +1055,22 @@ object FrmProdPesq: TFrmProdPesq
     object TabMargem: TFloatField
       FieldName = 'Margem'
     end
-    object TabObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object TabImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object TabCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
+    object TabNomeMarca: TWideStringField
+      FieldKind = fkLookup
+      FieldName = 'NomeMarca'
+      LookupDataSet = Dados.tbMarca
+      LookupKeyFields = 'UID'
+      LookupResultField = 'Nome'
+      KeyFields = 'Marca'
+      Size = 40
+      Lookup = True
     end
     object TabFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object TabSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object TabEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -1183,6 +1166,41 @@ object FrmProdPesq: TFrmProdPesq
     object TabPauta: TnxMemoField
       FieldName = 'Pauta'
       BlobType = ftMemo
+    end
+    object TabUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object TabMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object TabCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object TabDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object TabUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object TabObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object TabCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object TabAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object TabAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
     end
   end
   object dsTab: TDataSource

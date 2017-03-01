@@ -225,20 +225,18 @@ object dmOrc: TdmOrc
     MasterSource = dsItens
     Left = 344
     Top = 144
+    object tProdutoNomeMarca: TWideStringField
+      FieldKind = fkLookup
+      FieldName = 'NomeMarca'
+      LookupDataSet = Dados.tbMarca
+      LookupKeyFields = 'UID'
+      LookupResultField = 'Nome'
+      KeyFields = 'Marca'
+      Size = 40
+      Lookup = True
+    end
     object tProdutoID: TAutoIncField
       FieldName = 'ID'
-    end
-    object tProdutoCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdutoDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProdutoUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
     end
     object tProdutoPreco: TCurrencyField
       FieldName = 'Preco'
@@ -249,21 +247,9 @@ object dmOrc: TdmOrc
     object tProdutoMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdutoObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdutoImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
-    end
-    object tProdutoCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
-    object tProdutoSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tProdutoCustoUnitario: TCurrencyField
       FieldName = 'CustoUnitario'
@@ -339,6 +325,71 @@ object dmOrc: TdmOrc
       FieldName = 'NCM'
       Size = 8
     end
+    object tProdutoUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdutoMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdutoCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdutoDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdutoUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdutoObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProdutoCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProdutobrtrib: TWordField
+      FieldName = 'brtrib'
+    end
+    object tProdutoPesoBruto: TFloatField
+      FieldName = 'PesoBruto'
+    end
+    object tProdutoPesoLiq: TFloatField
+      FieldName = 'PesoLiq'
+    end
+    object tProdutotax_id: TLongWordField
+      FieldName = 'tax_id'
+    end
+    object tProdutoNCM_Ex: TStringField
+      FieldName = 'NCM_Ex'
+      Size = 2
+    end
+    object tProdutocest: TLongWordField
+      FieldName = 'cest'
+    end
+    object tProdutomodST: TByteField
+      FieldName = 'modST'
+    end
+    object tProdutoMVA: TnxMemoField
+      FieldName = 'MVA'
+      BlobType = ftMemo
+    end
+    object tProdutoPauta: TnxMemoField
+      FieldName = 'Pauta'
+      BlobType = ftMemo
+    end
+    object tProdutoAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProdutoAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
+    end
   end
   object dbProduto: TfrxDBDataset
     RangeBegin = rbCurrent
@@ -346,17 +397,12 @@ object dmOrc: TdmOrc
     UserName = 'dbProduto'
     CloseDataSource = False
     FieldAliases.Strings = (
+      'NomeMarca=NomeMarca'
       'ID=ID'
-      'Codigo=Codigo'
-      'Descricao=Descricao'
-      'Unid=Unid'
       'Preco=Preco'
       'PrecoAuto=PrecoAuto'
       'Margem=Margem'
-      'Obs=Obs'
       'Imagem=Imagem'
-      'Categoria=Categoria'
-      'SubCateg=SubCateg'
       'CustoUnitario=CustoUnitario'
       'PodeAlterarPreco=PodeAlterarPreco'
       'PermiteVendaFracionada=PermiteVendaFracionada'
@@ -378,7 +424,25 @@ object dmOrc: TdmOrc
       'EstoqueRepor=EstoqueRepor'
       'EstoquePend=EstoquePend'
       'EstoqueTot=EstoqueTot'
-      'NCM=NCM')
+      'NCM=NCM'
+      'UID=UID'
+      'Marca=Marca'
+      'Codigo=Codigo'
+      'Descricao=Descricao'
+      'Unid=Unid'
+      'Obs=Obs'
+      'Categoria=Categoria'
+      'brtrib=brtrib'
+      'PesoBruto=PesoBruto'
+      'PesoLiq=PesoLiq'
+      'tax_id=tax_id'
+      'NCM_Ex=NCM_Ex'
+      'cest=cest'
+      'modST=modST'
+      'MVA=MVA'
+      'Pauta=Pauta'
+      'AlteradoEm=AlteradoEm'
+      'AlteradoPor=AlteradoPor')
     DataSet = tProduto
     BCDToCurrency = False
     Left = 248
@@ -641,7 +705,7 @@ object dmOrc: TdmOrc
     Top = 160
   end
   object repOrcamento: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbZoom, pbNavigator, pbNoFullScreen]
@@ -1487,7 +1551,7 @@ object dmOrc: TdmOrc
     end
   end
   object repCustom: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]

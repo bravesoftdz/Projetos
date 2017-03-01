@@ -2,8 +2,8 @@ inherited fbOrcamento: TfbOrcamento
   Caption = 'Or'#231'amento'
   ClientHeight = 380
   ClientWidth = 852
-  ExplicitWidth = 860
-  ExplicitHeight = 411
+  ExplicitWidth = 868
+  ExplicitHeight = 419
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
@@ -260,11 +260,6 @@ inherited fbOrcamento: TfbOrcamento
   end
   inherited BarMgr: TdxBarManager
     UseSystemFont = False
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     inherited BarMgrBar1: TdxBar
       Font.Height = -13
       ItemLinks = <
@@ -337,41 +332,41 @@ inherited fbOrcamento: TfbOrcamento
       Category = 0
       Hint = 'Aprovar (F2)'
       Visible = ivAlways
-      LargeImageIndex = 148
       PaintStyle = psCaptionGlyph
       OnClick = cmAprovarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 148
     end
     object cmRecusar: TdxBarLargeButton
       Caption = 'Recusar (F3)'
       Category = 0
       Hint = 'Recusar (F3)'
       Visible = ivAlways
-      LargeImageIndex = 149
       OnClick = cmRecusarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 149
     end
     object cmVender: TdxBarLargeButton
       Caption = 'Vender (F4)'
       Category = 0
       Hint = 'Vender (F4)'
       Visible = ivAlways
-      LargeImageIndex = 150
       OnClick = cmVenderClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 150
     end
     object cmImprime: TdxBarLargeButton
       Caption = 'Imprimir'
       Category = 0
       Hint = 'Imprimir'
       Visible = ivAlways
-      LargeImageIndex = 7
       OnClick = cmImprimeClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 7
       ShowCaption = False
     end
     object cmEmail: TdxBarLargeButton
@@ -379,10 +374,10 @@ inherited fbOrcamento: TfbOrcamento
       Category = 0
       Hint = 'Enviar por e-mail'
       Visible = ivAlways
-      LargeImageIndex = 153
       OnClick = cmEmailClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 153
     end
   end
   inherited CP: TdxComponentPrinter

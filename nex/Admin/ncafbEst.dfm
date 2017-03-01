@@ -3,8 +3,9 @@ inherited fbEst: TfbEst
   ClientHeight = 475
   ClientWidth = 1048
   OnDestroy = FrmBasePaiDestroy
-  ExplicitWidth = 1056
-  ExplicitHeight = 506
+  ExplicitTop = -151
+  ExplicitWidth = 1064
+  ExplicitHeight = 514
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
@@ -1162,10 +1163,6 @@ inherited fbEst: TfbEst
           Height = 391
           Align = alClient
           TabOrder = 0
-          ExplicitLeft = 408
-          ExplicitTop = 64
-          ExplicitWidth = 250
-          ExplicitHeight = 200
           object tvHora: TcxGridDBTableView
             Navigator.Buttons.CustomButtons = <>
             DataController.DataSource = dsHora
@@ -1243,11 +1240,6 @@ inherited fbEst: TfbEst
     LookAndFeel.Kind = lfFlat
     Left = 744
     Top = 192
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     inherited BarMgrBar1: TdxBar
       Font.Height = -13
       ItemLinks = <
@@ -1294,13 +1286,13 @@ inherited fbEst: TfbEst
     end
     inherited cmExportar: TdxBarLargeButton
       Visible = ivNever
-      LargeImageIndex = 31
       GlyphLayout = glTop
+      LargeImageIndex = 31
     end
     inherited cmImprimir: TdxBarLargeButton
       Visible = ivNever
-      LargeImageIndex = 17
       GlyphLayout = glTop
+      LargeImageIndex = 17
     end
     inherited cmLayout: TdxBarLargeButton
       ImageIndex = -1
@@ -1332,9 +1324,9 @@ inherited fbEst: TfbEst
       Category = 0
       Hint = 'Gerar'
       Visible = ivAlways
-      LargeImageIndex = 15
       OnClick = cmGerarClick
       AutoGrayScale = False
+      LargeImageIndex = 15
     end
     object edDataF: TdxBarDateCombo
       Caption = ' a '
@@ -1359,18 +1351,18 @@ inherited fbEst: TfbEst
       Category = 0
       Hint = 'Voltar'
       Visible = ivAlways
-      LargeImageIndex = 16
       OnClick = cmVoltarClick
       AutoGrayScale = False
+      LargeImageIndex = 16
     end
     object cmVerGraf: TdxBarLargeButton
       Caption = 'Ver Gr'#225'fico'
       Category = 0
       Hint = 'Ver Gr'#225'fico'
       Visible = ivAlways
-      LargeImageIndex = 18
       OnClick = cmVerGrafClick
       AutoGrayScale = False
+      LargeImageIndex = 18
     end
   end
   inherited MenuGrid: TcxGridPopupMenu
@@ -1610,6 +1602,7 @@ inherited fbEst: TfbEst
     end
   end
   object tCli: TnxTable
+    ActiveDesigntime = True
     Database = Dados.db
     Timeout = 120000
     BlockReadOptions = []
@@ -1764,10 +1757,6 @@ inherited fbEst: TfbEst
       FieldName = 'CustoTotal'
       Calculated = True
     end
-    object tProdDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
     object tProdNomeFornecedor: TStringField
       FieldKind = fkLookup
       FieldName = 'NomeFornecedor'
@@ -1778,14 +1767,6 @@ inherited fbEst: TfbEst
       Size = 50
       Lookup = True
     end
-    object tProdCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProdPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -1795,17 +1776,9 @@ inherited fbEst: TfbEst
     object tProdMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
-    end
-    object tProdCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
     end
     object tProdCustoUnitario: TCurrencyField
       FieldName = 'CustoUnitario'
@@ -1869,10 +1842,6 @@ inherited fbEst: TfbEst
     object tProdFornecedor: TLongWordField
       FieldName = 'Fornecedor'
     end
-    object tProdSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
-    end
     object tProdEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
     end
@@ -1900,6 +1869,34 @@ inherited fbEst: TfbEst
     object tProdNCM: TStringField
       FieldName = 'NCM'
       Size = 8
+    end
+    object tProdUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProdCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
     end
   end
   object qVendas: TnxQuery
