@@ -5,8 +5,8 @@ inherited fbCaixasA: TfbCaixasA
   ClientHeight = 509
   ClientWidth = 888
   OldCreateOrder = True
-  ExplicitWidth = 896
-  ExplicitHeight = 540
+  ExplicitWidth = 904
+  ExplicitHeight = 548
   PixelsPerInch = 96
   TextHeight = 13
   inherited panPri: TLMDSimplePanel
@@ -236,11 +236,6 @@ inherited fbCaixasA: TfbCaixasA
   end
   inherited BarMgr: TdxBarManager
     Top = 96
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     inherited BarMgrBar1: TdxBar
       ItemLinks = <
         item
@@ -280,8 +275,8 @@ inherited fbCaixasA: TfbCaixasA
     inherited cmEditar: TdxBarLargeButton
       Caption = '&Ver Detalhes'
       Hint = 'Ver Detalhes'
-      LargeImageIndex = 99
       OnClick = cmEditarClick
+      LargeImageIndex = 99
       ShowCaption = True
       ImageIndex = 73
     end
@@ -312,10 +307,10 @@ inherited fbCaixasA: TfbCaixasA
         'Somar todos caixas de um per'#237'odo. Ex: caixa do m'#234's, da semana, d' +
         'o ano.'
       Visible = ivAlways
-      LargeImageIndex = 42
       OnClick = cmTotalizarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 42
       SyncImageIndex = False
       ImageIndex = -1
     end
@@ -347,10 +342,10 @@ inherited fbCaixasA: TfbCaixasA
       Category = 0
       Hint = 'Corrigir Caixa'
       Visible = ivAlways
-      LargeImageIndex = 58
       OnClick = cmCorrigeDataHoraClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 58
       SyncImageIndex = False
       ImageIndex = -1
     end
@@ -359,10 +354,10 @@ inherited fbCaixasA: TfbCaixasA
       Category = 0
       Hint = 'Reprocessar Caixa'
       Visible = ivAlways
-      LargeImageIndex = 46
       OnClick = cmReprocessarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 46
       SyncImageIndex = False
       ImageIndex = -1
     end
@@ -374,10 +369,10 @@ inherited fbCaixasA: TfbCaixasA
       Visible = ivAlways
       ButtonStyle = bsChecked
       Down = True
-      LargeImageIndex = 112
       OnClick = cmObsClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 112
       ShowCaption = False
     end
     object cmCorrigir: TdxBarLargeButton
@@ -385,27 +380,30 @@ inherited fbCaixasA: TfbCaixasA
       Category = 0
       Hint = 'Corrigir'
       Visible = ivAlways
-      LargeImageIndex = 38
       OnClick = cmCorrigeDataHoraClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 38
     end
     object cmEmail: TdxBarLargeButton
       Caption = 'Reenviar caixa por e-mail'
       Category = 0
       Hint = 'Reenviar caixa por e-mail'
       Visible = ivAlways
-      LargeImageIndex = 71
       OnClick = cmEmailClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 71
     end
-    object cmRel: TdxBarButton
-      Caption = 'Relat'#243'rio'
+    object cmRel: TdxBarLargeButton
+      Caption = 'Relat'#243'rio de Caixa'
       Category = 0
-      Hint = 'Relat'#243'rio'
-      Visible = ivNever
+      Hint = 'Relat'#243'rio de Caixa'
+      Visible = ivAlways
       OnClick = cmRelClick
+      AutoGrayScale = False
+      GlyphLayout = glLeft
+      LargeImageIndex = 7
     end
   end
   inherited MenuGrid: TcxGridPopupMenu

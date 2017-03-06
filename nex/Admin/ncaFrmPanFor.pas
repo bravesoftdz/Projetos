@@ -43,6 +43,8 @@ type
     procedure lbForClick(Sender: TObject);
     procedure lbRefClick(Sender: TObject);
     procedure lbPadraoClick(Sender: TObject);
+    procedure edRefKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure edForKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
   private
     { Private declarations }
     FForA : Cardinal;
@@ -53,6 +55,7 @@ type
     FOnChangeFornecedor : TOnChangeFornecedor;
     FFornecedorRepetido : TFornecedorRepetido;
     FOnGetMinWidth      : TGetMinWidth;
+    FOnFocusNext  : TNotifyEvent;
     function GetRef: String;
     procedure SetFor(aFor: Cardinal);
 
@@ -74,6 +77,9 @@ type
 
     property Ref: String
       read GetRef;
+
+    property OnFocusNext: TNotifyEvent
+      read FOnFocusNext write FOnFocusNext;  
 
     property OnFornecedorPadrao: TFornecedorPadrao
       read FFornecedorPadrao write FFornecedorPadrao;  
@@ -123,6 +129,13 @@ begin
   if not edFor.Focused then panPri.Color := clBtnFace;}
 end;
 
+procedure TFrmPanFor.edRefKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if (Key=13) and Assigned(FOnFocusNext) then
+    FOnFocusNext(Self);
+end;
+
 procedure TFrmPanFor.Clear;
 begin
   Load(0, '');
@@ -140,6 +153,12 @@ begin
   Update;
 {  btnApagar.Visible := edRef.Focused and _MostrarApagar;
   if not edRef.Focused then panPri.Color := clBtnFace;}
+end;
+
+procedure TFrmPanFor.edForKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if (Key=13) then edRef.SetFocus;
 end;
 
 procedure TFrmPanFor.edForPropertiesButtonClick(Sender: TObject;
@@ -161,6 +180,7 @@ end;
 procedure TFrmPanFor.FormCreate(Sender: TObject);
 begin
   FOnGetMinWidth := nil;
+  FOnFocusNext := nil;
   
   if Screen.Width<=1024 then begin
     lbFor.Visible := False;

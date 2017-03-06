@@ -25,14 +25,8 @@ type
     dsTab: TDataSource;
     Tab: TnxTable;
     TabID: TAutoIncField;
-    TabCodigo: TStringField;
-    TabUnid: TStringField;
     TabPreco: TCurrencyField;
-    TabObs: TMemoField;
     TabImagem: TGraphicField;
-    TabDescricao: TStringField;
-    TabCategoria: TStringField;
-    TabSubCateg: TStringField;
     LMDSimplePanel1: TLMDSimplePanel;
     LMDSimplePanel2: TLMDSimplePanel;
     cxButton1: TcxButton;
@@ -50,6 +44,11 @@ type
     cxStyle3: TcxStyle;
     cxStyle4: TcxStyle;
     cxButton2: TcxButton;
+    TabCodigo: TWideStringField;
+    TabDescricao: TWideStringField;
+    TabUnid: TWideStringField;
+    TabObs: TWideMemoField;
+    TabCategoria: TWideStringField;
     procedure cxButton1Click(Sender: TObject);
     procedure TVprodGetCellHeight(Sender: TcxCustomGridTableView;
       ARecord: TcxCustomGridRecord; AItem: TcxCustomGridTableItem;

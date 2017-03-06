@@ -309,10 +309,6 @@ object FrmCadCli: TFrmCadCli
               object tsFoto: TcxTabSheet
                 Caption = 'Foto'
                 ImageIndex = 1
-                ExplicitLeft = 0
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object panFoto: TLMDSimplePanel
                   Left = 0
                   Top = 0
@@ -603,7 +599,7 @@ object FrmCadCli: TFrmCadCli
               CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
               Hidden = True
-              ItemIndex = 3
+              ItemIndex = 2
               ShowBorder = False
               Index = 0
             end

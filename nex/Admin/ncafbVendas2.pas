@@ -649,6 +649,9 @@ type
     tMovEstRecVer: TLongWordField;
     tRejUpdID: TGuidField;
     tContUpdID: TGuidField;
+    tbMEObs: TWideMemoField;
+    tvDetOBS: TcxGridDBColumn;
+    tMovEstObs: TWideMemoField;
     procedure cmNovoClick(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;
@@ -1047,6 +1050,7 @@ begin
   TVTroco.Caption := rsTroco;
 
   TVObs.Visible := cmObs.Down;
+  tvDet.Preview.Visible := cmObs.Down;
   
   cmDevolucao.Enabled := Permitido(daDevolucao);
 
@@ -1350,6 +1354,7 @@ procedure TfbVendas2.cmObsClick(Sender: TObject);
 begin
   inherited;
   TVObs.Visible := cmObs.Down;
+  tvDet.Preview.Visible := cmObs.Down;
   saveFormOptionBool(Self, 'cmObs', cmObs.Down);
 end;
 

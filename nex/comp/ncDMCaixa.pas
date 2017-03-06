@@ -1467,20 +1467,11 @@ begin
   if SameText(Sender.Name, 'srTran') then // do not localize
     Sender.Visible := FImpTran;
 
-  if SameText(Sender.Name, 'srImpressoes') then // do not localize
-    Sender.Visible := gConfig.cce(cceImpressoes);
-    
   if SameText(Sender.Name, 'srMovEstoque') then // do not localize
     Sender.Visible := gConfig.cce(cceMovEstoque);
 
-  if SameText(Sender.Name, 'srResumoFin') then // do not localize
-    Sender.Visible := gConfig.cce(cceResumoFin);
-
   if SameText(Sender.Name, 'srEstoqueAbaixoMin') then // do not localize
     Sender.Visible := gConfig.cce(cceEstoqueAbaixoMin); 
-
-  if SameText(Sender.Name, 'srPagEsp') then // do not localize
-    Sender.Visible := gConfig.cce(ccePagEsp);  
 
   if SameText(Sender.Name, 'Footer2') then // do not localize
     Sender.Visible := (Trim(tCaixaObs.Value)>'');

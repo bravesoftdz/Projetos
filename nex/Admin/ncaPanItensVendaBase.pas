@@ -36,7 +36,7 @@ type
     procedure _SetResgateFidelidade; virtual; 
   public
     TipoTran: Byte;
-    procedure UpdateItem(aIndex, aIDProduto: Integer; aQuant: Extended; aUnit, aTotal: Double; aCancelado: Boolean); 
+    procedure UpdateItem(aIndex, aIDProduto: Integer; aQuant: Extended; aUnit, aTotal: Double; aCancelado: Boolean; aObs: String); 
     procedure UpdateItemMovEst(aIndex: Integer; aItem: TncItemMovEst); 
 
     property Count: Integer
@@ -48,6 +48,8 @@ type
 
     procedure BeginUpdate; virtual;
     procedure EndUpdate; virtual;
+
+    function EditObsItem: Boolean; virtual; abstract;
 
     procedure SetGap(aPixels: Integer); virtual;
 
@@ -75,8 +77,6 @@ type
     property Values[aIndex: Integer; aName: String]: Variant
       read GetField write SetField;  
     
-
-
     { Public declarations }
   end;
 
@@ -107,7 +107,7 @@ begin
 end;
 
 procedure TpanItensVendaBase.UpdateItem(aIndex, aIDProduto: Integer;
-  aQuant: Extended; aUnit, aTotal: Double; aCancelado: Boolean);
+  aQuant: Extended; aUnit, aTotal: Double; aCancelado: Boolean; aObs: String);
 var aCodigo, aDescr: Variant;  
 begin
   if aIndex=-1 then begin
@@ -139,14 +139,15 @@ begin
   
   Values[aIndex, 'Quant'] := aQuant;
   Values[aIndex, 'Cancelado'] := aCancelado;
+  Values[aIndex, 'Obs'] := aObs;
 end;
 
 procedure TpanItensVendaBase.UpdateItemMovEst(aIndex: Integer; aItem: TncItemMovEst);
 begin
   with aItem do
   if ResgateFidelidade then 
-    UpdateItem(aIndex, imProduto, imQuant, Trunc(imFidPontos / imQuant), aItem.imTotal, aItem.imCancelado) else
-    UpdateItem(aIndex, imProduto, imQuant, imUnitario, aItem.imTotal, aItem.imCancelado);
+    UpdateItem(aIndex, imProduto, imQuant, Trunc(imFidPontos / imQuant), aItem.imTotal, aItem.imCancelado, aItem.imObs) else
+    UpdateItem(aIndex, imProduto, imQuant, imUnitario, aItem.imTotal, aItem.imCancelado, aItem.imObs);
 end;
 
 procedure TpanItensVendaBase.BeginUpdate;

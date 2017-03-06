@@ -10,6 +10,7 @@ object FrmPanFor: TFrmPanFor
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
   OnClose = FormClose
   OnCreate = FormCreate
@@ -79,6 +80,7 @@ object FrmPanFor: TFrmPanFor
       TabOrder = 1
       OnEnter = edForEnter
       OnExit = edForExit
+      OnKeyDown = edForKeyDown
       Width = 345
     end
     object edRef: TcxTextEdit
@@ -100,6 +102,7 @@ object FrmPanFor: TFrmPanFor
       TabOrder = 2
       OnEnter = edRefEnter
       OnExit = edRefExit
+      OnKeyDown = edRefKeyDown
       Width = 172
     end
     object lbRef: TcxLabel
@@ -199,7 +202,6 @@ object FrmPanFor: TFrmPanFor
       Transparent = True
       Visible = False
       OnClick = lbPadraoClick
-      ExplicitLeft = 770
       AnchorY = 17
     end
     object lbSetPadrao: TcxLabel
@@ -230,7 +232,6 @@ object FrmPanFor: TFrmPanFor
       Properties.Alignment.Vert = taVCenter
       Transparent = True
       OnClick = lbSetPadraoClick
-      ExplicitLeft = 685
       AnchorX = 765
       AnchorY = 17
     end

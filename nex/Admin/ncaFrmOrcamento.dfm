@@ -63,23 +63,6 @@ object FrmOrcamento: TFrmOrcamento
     Caption = 'cbFocus'
     TabOrder = 2
   end
-  object panBuscaProd: TLMDSimplePanel
-    AlignWithMargins = True
-    Left = 7
-    Top = 115
-    Width = 989
-    Height = 52
-    Hint = ''
-    Margins.Left = 7
-    Margins.Top = 0
-    Margins.Right = 7
-    Margins.Bottom = 0
-    Align = alTop
-    Bevel.BorderColor = clRed
-    Bevel.Mode = bmStandard
-    Bevel.StandardStyle = lsNone
-    TabOrder = 3
-  end
   object LMDSimplePanel1: TLMDSimplePanel
     Left = 0
     Top = 0
@@ -100,7 +83,7 @@ object FrmOrcamento: TFrmOrcamento
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
-    TabOrder = 4
+    TabOrder = 3
     object LMDDrawEdge1: TLMDDrawEdge
       AlignWithMargins = True
       Left = 176
@@ -266,7 +249,7 @@ object FrmOrcamento: TFrmOrcamento
     Align = alTop
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
-    TabOrder = 5
+    TabOrder = 4
   end
   object panValidade: TLMDSimplePanel
     AlignWithMargins = True
@@ -283,7 +266,7 @@ object FrmOrcamento: TFrmOrcamento
     Bevel.BorderColor = clRed
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
-    TabOrder = 6
+    TabOrder = 5
     object lbValidade: TcxLabel
       AlignWithMargins = True
       Left = 130
@@ -355,6 +338,23 @@ object FrmOrcamento: TFrmOrcamento
       OnClick = lbValidadeClick
       AnchorY = 21
     end
+  end
+  object panBuscaProd: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 7
+    Top = 115
+    Width = 989
+    Height = 52
+    Hint = ''
+    Margins.Left = 7
+    Margins.Top = 0
+    Margins.Right = 7
+    Margins.Bottom = 0
+    Align = alTop
+    Bevel.BorderColor = clRed
+    Bevel.Mode = bmStandard
+    Bevel.StandardStyle = lsNone
+    TabOrder = 6
   end
   object BarMgr: TdxBarManager
     AllowReset = False

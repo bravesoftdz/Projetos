@@ -60,6 +60,8 @@ type
     
     FUsuarios     : TncListaUsuarios;
     FTimerOrc     : TTimer;
+    FTimerNexApp  : TTimer;
+    FTimerBK      : TTimer;
     FNotifyHWND   : HWND;
     FErroNLS      : Boolean;
     
@@ -77,6 +79,8 @@ type
     function AtualizaConfigBD: Integer;
 
     procedure OnTimerOrc(Sender: TObject);
+    procedure OnTimerNexApp(Sender: TObject);
+    procedure OnTimerBK(Sender: TObject);
 
   protected  
     procedure AoCriarObj(Obj: TncClasse); virtual; 
@@ -198,6 +202,15 @@ type
     property ErroNLS: Boolean read FErroNLS;
   end;
 
+  TThreadUpdTabledEvolved = class ( TThread )
+  protected
+    FTables : TStrings;
+    procedure Execute; override;
+  public
+    constructor Create(aTables: TStrings);
+    destructor Destroy; override;
+  end;
+
 const
   WndClassName = 'TncServBaseClassName_Nex';  
 
@@ -283,6 +296,16 @@ begin
   FTimerOrc.Enabled := False;
   FTimerOrc.OnTimer := OnTimerOrc;
 
+  FTimerNexApp := TTimer.Create(nil);
+  FTimerNexApp.Interval := 200;
+  FTimerNexApp.Enabled := False;
+  FTimerNexApp.OnTimer := OnTimerNexApp;
+
+  FTimerBK := TTimer.Create(nil);
+  FTimerBK.Interval := 200;
+  FTimerBK.Enabled := False;
+  FTimerBK.OnTimer := OnTimerBK;
+
   DebugMsg('TncSevidor.Create - 5');
   
   FUsuarios      := TncListaUsuarios.Create;
@@ -325,6 +348,8 @@ begin
     DestroiServidorBD;
     DebugMsg('TncServidor.Destroy - 9');
     FTimerOrc.Free;
+    FTimerNexApp.Free;
+    FTimerBK.Free;
   finally
     Unlock;
   end;
@@ -493,6 +518,30 @@ begin
     end;
   finally
     FTimerOrc.Enabled := True;
+  end;
+end;
+
+procedure TncServidor.OnTimerBK(Sender: TObject);
+begin
+  DebugMsg(Self, 'OnTimerBK');
+  FTimerNexApp.Enabled := False;
+  Lock;
+  try
+    sinaliza_bk_process;
+  finally
+    Unlock;
+  end;
+end;
+
+procedure TncServidor.OnTimerNexApp(Sender: TObject);
+begin
+  DebugMsg(Self, 'OnTimerNexApp');
+  FTimerNexApp.Enabled := False;
+  Lock;
+  try
+    sinaliza_nexapp;
+  finally
+    Unlock;
   end;
 end;
 
@@ -961,27 +1010,10 @@ begin
         end;
 
         StartRecVer;
-        
-        if ProgTables.Count>0 then begin
-          Q := TnxQuery.Create(Self);
-          Q.Timeout := 600000;
-          Q.Session := aSessao;
-          Q.Database := aDB;
-          try
-            for I := 0 to ProgTables.Count - 1 do 
-            if not SameText(ProgTables[I], 'doc') then begin
-              S := GetTableAutoField(ProgTables[I]);
-              if (S='') and gRecVerManager.ControlRecVer(ProgTables[I]) then S := 'RECVER';
-              if S>'' then begin
-                Q.SQL.Text := 'update "'+ProgTables[I]+'" set ' + S + '=null';
-                Q.ExecSQL;
-                Q.Active := False;
-              end;
-            end;
-          finally
-            Q.Free;
-          end;
-        end;
+
+        if ProgTables.Count>0 then 
+          ncServBase.TThreadUpdTabledEvolved.Create(ProgTables);
+
         DebugMsg('CriaServidorBD 7.3');
       finally
         FechaProgressForm;
@@ -2457,10 +2489,17 @@ end;
 
 procedure TncServidor.wmSinalizaBK(var Msg: TMessage);
 begin
-  if Msg.WParam>0 then
-    Sleep(200);
+  DebugMsg(Self, 'wmSinalizaBK 1');
+  if Msg.WParam>0 then begin
+    DebugMsg(Self, 'wmSinalizaBK 2'); 
+    FTimerBk.Enabled := False;
+    FTimerBK.Enabled := True;
+    Exit;
+  end;
+  
   Lock;
   try
+    DebugMsg(Self, 'wmSinalizaBK 3');
     sinaliza_bk_process;
   finally
     Unlock;
@@ -2469,11 +2508,18 @@ end;
 
 procedure TncServidor.wmSinalizaNexApp(var Msg: TMessage);
 begin
-  if Msg.WParam>0 then
-    Sleep(200);
+  DebugMsg(Self, 'wmSinalizaNexApp');
+  
+  if Msg.WParam>0 then begin
+    DebugMsg(Self, 'wmSinalizaNexApp 2');
+    FTimerNexApp.Enabled := False;
+    FTimerNexApp.Enabled := True;
+    Exit;
+  end;
     
   Lock;
   try
+    DebugMsg(Self, 'wmSinalizaNexApp 3');
     sinaliza_nexapp;
   finally
     Unlock;
@@ -2585,6 +2631,68 @@ begin
        DebugEx(Self, 'CancelaTran', E);
     end;
   end;
+end;
+
+{ TThreadUpdTabledEvolved }
+
+constructor TThreadUpdTabledEvolved.Create(aTables: TStrings);
+begin
+  inherited Create(False);
+  FTables := TStringList.Create;
+  FTables.Assign(aTables);
+  FreeOnTerminate := True;
+end;
+
+destructor TThreadUpdTabledEvolved.Destroy;
+begin
+  FTables.Free;
+  inherited;
+end;
+
+procedure TThreadUpdTabledEvolved.Execute;
+var 
+  Q: TnxQuery;
+  SS: TnxSession;
+  D: TnxDatabase;
+  I: Integer;
+  S: String;
+begin
+  DebugMsg(Self, 'Execute 1');
+  if FTables.Count>0 then 
+  try
+    Q := nil;
+    SS := nil;
+    D := nil;
+    try
+      DebugMsg(Self, 'Execute 2');
+      D := CreateDB(SS);
+      SS := CreateSession;
+      Q := TnxQuery.Create(nil);
+      Q.Database := D;
+      Q.Timeout := 60000 * 60;
+      DebugMsg(Self, 'Execute 3');
+      for I := 0 to FTables.Count - 1 do 
+      if not SameText(FTables[I], 'doc') then begin
+        DebugMsg(Self, 'Execute 4 - '+FTables[I]);
+        S := GetTableAutoField(FTables[I]);
+        if (S='') and gRecVerManager.ControlRecVer(FTables[I]) then S := 'RECVER';
+        if S>'' then begin
+          DebugMsg(Self, 'Execute 5 - '+FTables[I]);
+          Q.SQL.Text := 'update "'+FTables[I]+'" set ' + S + '=null';
+          Q.ExecSQL;
+          Q.Active := False;
+          DebugMsg(Self, 'Execute 6 - '+FTables[I]);
+        end;
+      end;
+    finally
+      if Assigned(Q) then Q.Free;
+      if Assigned(D) then D.Free;
+      if Assigned(SS) then SS.Free;
+    end;
+  except
+    on E: Exception do DebugEx(Self, 'Execute', E);
+  end;
+  DebugMsg(Self, 'Execute 7 - '+FTables[I]);
 end;
 
 initialization

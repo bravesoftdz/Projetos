@@ -398,7 +398,7 @@ object FrmNCMEdit: TFrmNCMEdit
     IndexName = 'uq_Unidade'
     Left = 342
     Top = 207
-    object tUnidDescricao: TStringField
+    object tUnidDescricao: TWideStringField
       FieldName = 'Descricao'
       Size = 5
     end

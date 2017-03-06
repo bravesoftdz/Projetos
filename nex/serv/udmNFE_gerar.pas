@@ -1487,7 +1487,7 @@ begin
     nfeDS.Campo('xNome_X06').Value := FmtNFE(tTranspNome.Value);
 
     if Trim(tTranspRG.Value)>'' then
-      nfeDS.Campo('IE_X07').Value := FmtNFE(tTranspRG.Value);
+      nfeDS.Campo('IE_X07').Value := SoDig(tTranspRG.Value);
 
     sEnd := '';
     AddEnd(tTranspEndereco.Value);

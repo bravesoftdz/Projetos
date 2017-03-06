@@ -5,7 +5,8 @@ uses
   kwicEngine in '..\..\kwic\kwicEngine.pas',
   Forms,
   uImp2Nex in 'uImp2Nex.pas' {FrmPri},
-  uProxCampo in '..\Utils\uProxCampo.pas';
+  uProxCampo in '..\Utils\uProxCampo.pas',
+  ncDebug in '..\comp\ncDebug.pas';
 
 {$R *.res}
 

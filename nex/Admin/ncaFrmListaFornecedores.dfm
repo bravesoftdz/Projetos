@@ -10,6 +10,7 @@ object FrmListaFornecedores: TFrmListaFornecedores
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
   OnClose = FormClose
   OnCreate = FormCreate
@@ -33,7 +34,6 @@ object FrmListaFornecedores: TFrmListaFornecedores
     ParentColor = True
     ParentFont = False
     TabOrder = 0
-    ExplicitWidth = 848
     object panItens: TLMDSimplePanel
       Left = 0
       Top = 0
@@ -44,8 +44,6 @@ object FrmListaFornecedores: TFrmListaFornecedores
       Bevel.Mode = bmCustom
       ParentColor = True
       TabOrder = 0
-      ExplicitTop = -7
-      ExplicitWidth = 848
     end
     object lbAdd: TcxLabel
       Left = 0

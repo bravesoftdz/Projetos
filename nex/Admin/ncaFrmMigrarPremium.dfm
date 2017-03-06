@@ -136,6 +136,7 @@ object FrmMigrarPremium: TFrmMigrarPremium
     Bevel.WidthInner = 0
     Bevel.Mode = bmEdge
     TabOrder = 2
+    ExplicitLeft = -5
     object Paginas: TcxPageControl
       AlignWithMargins = True
       Left = 17
@@ -148,7 +149,7 @@ object FrmMigrarPremium: TFrmMigrarPremium
       Margins.Bottom = 15
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = ts3
+      Properties.ActivePage = ts2
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
       LookAndFeel.Kind = lfUltraFlat

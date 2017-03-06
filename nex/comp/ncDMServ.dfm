@@ -726,6 +726,10 @@ object DM: TDM
     object tMovEstVenDev: TBooleanField
       FieldName = 'VenDev'
     end
+    object tMovEstObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
   end
   object tCaixa: TnxTable
     Database = nxDB
@@ -1051,6 +1055,10 @@ object DM: TDM
     IndexName = 'IProduto'
     Left = 216
     Top = 136
+    object tAuxMEObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
     object tAuxMEFator: TIntegerField
       FieldKind = fkCalculated
       FieldName = 'Fator'

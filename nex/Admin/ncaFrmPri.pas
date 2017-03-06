@@ -231,6 +231,7 @@ type
     cxStyle63: TcxStyle;
     cxStyle64: TcxStyle;
     TimerFimTrial: TTimer;
+    cxStyle65: TcxStyle;
     procedure Timer1Timer(Sender: TObject);
     procedure cmSairClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
@@ -368,6 +369,7 @@ type
     procedure RefreshTran;
     procedure MostrarCaixasAnteriores;
     procedure MostrarCaixaAtual;
+    procedure RefreshCaixaAberto;
 
     procedure AjustaVisSenha;
 
@@ -1445,6 +1447,14 @@ end;
 procedure TFrmPri.RefreshAds;
 begin
   CenterAds;
+end;
+
+procedure TFrmPri.RefreshCaixaAberto;
+var P : PfmFormInfo;
+begin
+  P := FM.FormByClass(TfbVendas2);
+  if Assigned(P) and Assigned(P^.fiInstance) then 
+    P^.fiInstance.FiltraDados;
 end;
 
 procedure TFrmPri.RefreshCaptionsNFCupom;

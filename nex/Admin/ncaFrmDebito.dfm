@@ -687,10 +687,10 @@ object FrmDebito: TFrmDebito
       Category = 0
       Hint = 'Salvar - F2'
       Visible = ivAlways
-      LargeImageIndex = 5
       OnClick = cmGravarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 5
       SyncImageIndex = False
       ImageIndex = 28
     end
@@ -699,10 +699,10 @@ object FrmDebito: TFrmDebito
       Category = 0
       Hint = 'Cancelar'
       Visible = ivAlways
-      LargeImageIndex = 4
       OnClick = cmCancelarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 4
     end
     object cmRecibo: TdxBarControlContainerItem
       Align = iaRight
@@ -717,10 +717,10 @@ object FrmDebito: TFrmDebito
       Category = 0
       Hint = 'Imprimir Demonstrativo'
       Visible = ivAlways
-      LargeImageIndex = 17
       OnClick = cmDemonstrativoClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 17
     end
   end
   object cxStyleRepository1: TcxStyleRepository
@@ -1193,18 +1193,6 @@ object FrmDebito: TFrmDebito
     object tbProID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tbProCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tbProDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tbProUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tbProPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -1214,24 +1202,12 @@ object FrmDebito: TFrmDebito
     object tbProMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tbProObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tbProImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tbProCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tbProFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tbProSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tbProEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -1320,6 +1296,47 @@ object FrmDebito: TFrmDebito
     object tbProPauta: TnxMemoField
       FieldName = 'Pauta'
       BlobType = ftMemo
+    end
+    object tbProUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tbProMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tbProCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tbProDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tbProUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tbProObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tbProCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tbProPesoBruto: TFloatField
+      FieldName = 'PesoBruto'
+    end
+    object tbProPesoLiq: TFloatField
+      FieldName = 'PesoLiq'
+    end
+    object tbProAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tbProAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
     end
   end
 end

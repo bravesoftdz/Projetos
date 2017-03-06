@@ -5,7 +5,6 @@ inherited fbVendas2: TfbVendas2
   Font.Height = -13
   Font.Name = 'Segoe UI'
   OnDestroy = FrmBasePaiDestroy
-  ExplicitTop = -38
   ExplicitWidth = 1024
   ExplicitHeight = 592
   PixelsPerInch = 96
@@ -18,7 +17,7 @@ inherited fbVendas2: TfbVendas2
     Margins.Right = 4
     Margins.Bottom = 4
     ExplicitWidth = 1008
-    ExplicitHeight = 554
+    ExplicitHeight = 553
     inherited dxBarDockControl1: TdxBarDockControl
       Width = 1008
       Height = 44
@@ -50,7 +49,6 @@ inherited fbVendas2: TfbVendas2
       Properties.TabHeight = 32
       OnChange = PaginasChange
       OnDrawTabEx = PaginasDrawTabEx
-      ExplicitHeight = 510
       ClientRectBottom = 508
       ClientRectLeft = 1
       ClientRectRight = 1007
@@ -58,7 +56,6 @@ inherited fbVendas2: TfbVendas2
       object tsVendas: TcxTabSheet
         Cursor = crHandPoint
         Caption = 'Vendas do caixa atual'
-        ExplicitHeight = 475
         object Shape1: TShape
           Left = 464
           Top = 184
@@ -94,9 +91,8 @@ inherited fbVendas2: TfbVendas2
           Font.Style = []
           ParentFont = False
           TabOrder = 2
-          Properties.ActivePage = tsResumido
+          Properties.ActivePage = tsDetalhado
           Properties.CustomButtons.Buttons = <>
-          ExplicitHeight = 453
           ClientRectBottom = 448
           ClientRectLeft = 4
           ClientRectRight = 789
@@ -104,7 +100,6 @@ inherited fbVendas2: TfbVendas2
           object tsResumido: TcxTabSheet
             Caption = 'Modo Resumido'
             ImageIndex = 0
-            ExplicitHeight = 425
             object Grid: TcxGrid
               Left = 0
               Top = 0
@@ -127,7 +122,6 @@ inherited fbVendas2: TfbVendas2
               LevelTabs.CaptionAlignment = taLeftJustify
               LookAndFeel.Kind = lfUltraFlat
               LookAndFeel.NativeStyle = False
-              ExplicitHeight = 425
               object TV: TcxGridDBTableView
                 OnDblClick = cmEditarClick
                 OnMouseMove = TVMouseMove
@@ -669,7 +663,6 @@ inherited fbVendas2: TfbVendas2
               TabOrder = 0
               LookAndFeel.Kind = lfUltraFlat
               LookAndFeel.NativeStyle = False
-              ExplicitLeft = -2
               object tvDet: TcxGridDBTableView
                 OnDblClick = cmEditarClick
                 Navigator.Buttons.CustomButtons = <>
@@ -746,7 +739,8 @@ inherited fbVendas2: TfbVendas2
                 OptionsView.GridLineColor = 15000804
                 OptionsView.GroupFooters = gfVisibleWhenExpanded
                 OptionsView.HeaderHeight = 22
-                Preview.AutoHeight = False
+                Preview.Column = tvDetOBS
+                Preview.MaxLineCount = 0
                 Styles.Header = FrmPri.cxsHeader
                 OnCustomDrawColumnHeader = tvPendCustomDrawColumnHeader
                 object tvDetStatusNFE: TcxGridDBColumn
@@ -1074,6 +1068,9 @@ inherited fbVendas2: TfbVendas2
                   PropertiesClassName = 'TcxCurrencyEditProperties'
                   HeaderAlignmentHorz = taCenter
                 end
+                object tvDetOBS: TcxGridDBColumn
+                  DataBinding.FieldName = 'Obs'
+                end
               end
               object glDet: TcxGridLevel
                 GridView = tvDet
@@ -1088,7 +1085,6 @@ inherited fbVendas2: TfbVendas2
           Height = 452
           Align = alRight
           AutoSize = True
-          ExplicitHeight = 453
           DockingType = 5
           OriginalWidth = 253
           OriginalHeight = 520
@@ -1097,7 +1093,6 @@ inherited fbVendas2: TfbVendas2
             Top = 0
             Width = 213
             Height = 452
-            ExplicitHeight = 453
             DockingType = 0
             OriginalWidth = 213
             OriginalHeight = 200
@@ -1121,7 +1116,6 @@ inherited fbVendas2: TfbVendas2
             CaptionButtons = [cbMaximize, cbHide]
             CustomCaptionButtons.Buttons = <>
             TabsProperties.CustomButtons.Buttons = <>
-            ExplicitHeight = 453
             DockingType = 0
             OriginalWidth = 213
             OriginalHeight = 140
@@ -1137,7 +1131,6 @@ inherited fbVendas2: TfbVendas2
         Font.Name = 'Tahoma'
         Font.Style = []
         ParentFont = False
-        ExplicitHeight = 475
         object gridPend: TcxGrid
           Left = 0
           Top = 40
@@ -1153,7 +1146,6 @@ inherited fbVendas2: TfbVendas2
           ParentFont = False
           TabOrder = 0
           LookAndFeel.Kind = lfUltraFlat
-          ExplicitHeight = 435
           object tvPend: TcxGridDBTableView
             OnDblClick = cmEditarClick
             Navigator.Buttons.CustomButtons = <>
@@ -1517,7 +1509,6 @@ inherited fbVendas2: TfbVendas2
         Font.Style = [fsBold]
         ImageIndex = 53
         ParentFont = False
-        ExplicitHeight = 475
         object bdcRej: TdxBarDockControl
           Left = 0
           Top = 0
@@ -2991,8 +2982,8 @@ inherited fbVendas2: TfbVendas2
     Database = Dados.db
     TableName = 'MovEst'
     IndexName = 'ICaixaMov'
-    Left = 160
-    Top = 280
+    Left = 184
+    Top = 304
     object tbMEID: TAutoIncField
       FieldName = 'ID'
     end
@@ -3129,6 +3120,10 @@ inherited fbVendas2: TfbVendas2
     object tbMEUID: TGuidField
       FieldName = 'UID'
       Size = 38
+    end
+    object tbMEObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
     end
   end
   object dckMgr: TdxDockingManager
@@ -4338,6 +4333,10 @@ inherited fbVendas2: TfbVendas2
     end
     object tMovEstRecVer: TLongWordField
       FieldName = 'RecVer'
+    end
+    object tMovEstObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
     end
   end
   object tAuxPend: TnxTable

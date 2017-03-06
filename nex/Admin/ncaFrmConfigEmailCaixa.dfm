@@ -2,6 +2,7 @@ inherited FrmConfigEmailCaixa: TFrmConfigEmailCaixa
   Caption = 'Configurar Caixa por E-mail'
   ClientHeight = 508
   ClientWidth = 634
+  ExplicitTop = -24
   ExplicitWidth = 640
   ExplicitHeight = 537
   PixelsPerInch = 96
@@ -19,7 +20,7 @@ inherited FrmConfigEmailCaixa: TFrmConfigEmailCaixa
           0D544C4D44504E474F626A65637489504E470D0A1A0A0000000D494844520000
           00300000003008060000005702F9870000002B744558744372656174696F6E20
           54696D65004D6F2032342046656220323030332031333A35363A3136202B3031
-          303072742DFA0000000774494D45D60705170E051F23AAA60500000009704859
+          303072742DFA0000000774494D4507D605170E051FF77C617E00000009704859
           7300000AF000000AF00142AC34980000000467414D410000B18F0BFC61050000
           06A54944415478DAED996D6C144518C79FADA8281ADA4A91106AB5DF4C34F201
           8484805F1010414088D8429B36D0961628010C090909AF0DEF6F7DE1FA460860
@@ -253,19 +254,10 @@ inherited FrmConfigEmailCaixa: TFrmConfigEmailCaixa
         Enabled = False
         Items = <
           item
-            Text = 'Resumo financeiro'
-          end
-          item
-            Text = 'Total por Meio de Pagamento'
-          end
-          item
             Text = 'Resumo de movimenta'#231#227'o de estoque'
           end
           item
             Text = 'Produtos com estoque abaixo do m'#237'nimo'
-          end
-          item
-            Text = 'Totalizador de Impress'#245'es'
           end
           item
             Text = 'Transa'#231#245'es com Desconto'
@@ -296,7 +288,6 @@ inherited FrmConfigEmailCaixa: TFrmConfigEmailCaixa
         StyleHot.LookAndFeel.Kind = lfFlat
         StyleHot.LookAndFeel.NativeStyle = False
         TabOrder = 1
-        ExplicitHeight = 153
       end
     end
     object LMDSimplePanel4: TLMDSimplePanel
@@ -312,7 +303,6 @@ inherited FrmConfigEmailCaixa: TFrmConfigEmailCaixa
       Bevel.Mode = bmCustom
       ParentColor = True
       TabOrder = 4
-      ExplicitTop = 339
       object lbEmailIdent: TcxLabel
         Left = 0
         Top = 0
@@ -350,7 +340,7 @@ inherited FrmConfigEmailCaixa: TFrmConfigEmailCaixa
     Top = 466
     Width = 614
     ParentColor = True
-    ExplicitTop = 425
+    ExplicitTop = 466
     ExplicitWidth = 614
   end
 end

@@ -559,6 +559,7 @@ begin
   imID_Ref := IM.imID_Ref;
   imTran := IM.imTran;
   imProduto := IM.imProduto;
+  imProdutoDescr := IM.imProdutoDescr;
   imQuant := IM.imQuant;
   imUnitario := IM.imUnitario;
   imTotal := IM.imTotal;
@@ -804,6 +805,8 @@ begin
   imTran := tMovEst.FieldByName('Tran').AsInteger; // do not localize
   imTipoTran := tMovEst.FieldByName('TipoTran').AsInteger; // do not localize
   imProduto := tMovEst.FieldByName('Produto').AsInteger; // do not localize
+  imProdutoDescr := tMovEst.FieldByName('Descr').AsString;
+  imObs := tMovEst.FieldByName('Obs').AsString;
   imQuant := tMovEst.FieldByName('Quant').AsFloat; // do not localize
 
   imUnitario := tMovEst.FieldByName('Unitario').AsCurrency; // do not localize
@@ -863,6 +866,7 @@ begin
   D.FieldByName('CustoU').AsCurrency := imCustoU; // do not localize
   D.FieldByName('ID_Ref').AsLongWord := imID_Ref;
   D.FieldByName('Descr').AsString := imProdutoDescr;
+  D.FieldByName('Obs').AsString := imObs;
   if imFidResgate then begin
     D.FieldByName('Unitario').Clear; // do not localize
     D.FieldByName('Total').Clear; // do not localize

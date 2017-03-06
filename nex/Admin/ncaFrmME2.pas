@@ -57,7 +57,6 @@ type
     tCodR: TnxTable;
     cbFocus: TCheckBox;
     cxStyle5: TcxStyle;
-    panBuscaProd: TLMDSimplePanel;
     panTopo: TLMDSimplePanel;
     panCli: TLMDSimplePanel;
     cbCompra: TcxCheckBox;
@@ -151,6 +150,7 @@ type
     tProPauta: TnxMemoField;
     tProAlteradoEm: TDateTimeField;
     tProAlteradoPor: TStringField;
+    panBuscaProd: TLMDSimplePanel;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure cmGravarClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -206,7 +206,7 @@ type
     //procedure SetMostrarUnit(const Value: Boolean);
     procedure SetTamanho(Value: byte);                            
 
-    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double);
+    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
 
     procedure OnClicouRemoverItem(Sender: TObject; aBotao: TBotaoItemVenda);
 
@@ -234,6 +234,8 @@ type
     procedure AtualizaDadosNF;
 
     procedure OnChangeDesconto(Sender: TObject);
+
+    procedure EditObsItem(Sender: TObject);
 
     procedure OnAtualizaTotal(Sender: TObject);
 
@@ -680,7 +682,7 @@ begin
   Close;
 end;
 
-procedure TFrmME2.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double);
+procedure TFrmME2.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
 var IM: TncItemMovEst;
 begin
   IM := TncItemMovEst.Create(nil);
@@ -688,6 +690,7 @@ begin
     IM.imTipoTran := FME.Tipo;
     IM.imFidResgate := FidResgate;
     IM.imProduto := aProdID;
+    IM.imObs := aObs;
     IM.imQuant := aQuant;
     IM.imTax_id := aTaxId;
     IM.imPermSemEstoque := aPermSemEstoque;
@@ -1012,7 +1015,7 @@ begin
       for I := 0 to sl.Count - 1 do begin
         DecodeTempItemStr(sl[i], aProduto, aQuant, aUnitario, aTotal, aPermSemEstoque);
         if tPro.Locate('ID', aProduto, []) then
-          OnAddProd(nil, aProduto, tProTaxIdNorm.Value, aUnitario, aTotal, aQuant, tProDescricao.Value, aPermSemEstoque, 0);
+          OnAddProd(nil, aProduto, tProTaxIdNorm.Value, aUnitario, aTotal, aQuant, tProDescricao.Value, aPermSemEstoque, 0, '');
       end;
     finally
       sl.Free;
@@ -1057,6 +1060,15 @@ begin
   finally
     P.Free;
   end;
+end;
+
+procedure TFrmME2.EditObsItem(Sender: TObject);
+var I : Integer;
+begin
+  if FPanItens.Count<1 then Exit;
+  I := FPanItens.FocusedItemIndex;
+  if FPanItens.EditObsItem then 
+    FME.Itens[I].imObs := FPanItens.Values[I, 'Obs'];
 end;
 
 procedure TFrmME2.edProdKeyDown(Sender: TObject; var Key: Word;
@@ -1105,6 +1117,7 @@ begin
   FTot.panTot.Parent := panTot;
   FTot.OnEditarPagEsp := OnEditarPagEsp;
   FTot.OnAtualizaTotal := OnAtualizaTotal;
+  FTot.lbEditObsItem.OnClick := Self.EditObsItem;
 
   FCli := TFrmEditContato.Create(Self);
   FCli.panPri.Parent := panCli;
@@ -1173,6 +1186,10 @@ begin
     Key_F6 : begin
       FPanAddProd.ClosePops;
       FFunc.Pesquisa;
+    end;
+    Key_F10 : begin
+      FPanAddProd.ClosePops;
+      Self.EditObsItem(nil);
     end;
     Key_F7 : if (FME.Tipo=trEstVenda) and lbDadosNF.Visible then lbDadosNFClick(nil);
     Key_F9 : 

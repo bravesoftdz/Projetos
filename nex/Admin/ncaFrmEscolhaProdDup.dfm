@@ -240,20 +240,6 @@ object FrmEscolhaProdDup: TFrmEscolhaProdDup
     object TabID: TAutoIncField
       FieldName = 'ID'
     end
-    object TabCodigo: TStringField
-      DisplayLabel = 'C'#243'digo'
-      FieldName = 'Codigo'
-      Size = 15
-    end
-    object TabDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 55
-    end
-    object TabUnid: TStringField
-      DisplayLabel = 'Unidade'
-      FieldName = 'Unid'
-      Size = 5
-    end
     object TabPreco: TCurrencyField
       DisplayLabel = 'Pre'#231'o'
       FieldName = 'Preco'
@@ -262,17 +248,24 @@ object FrmEscolhaProdDup: TFrmEscolhaProdDup
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object TabObs: TMemoField
-      DisplayLabel = 'Observa'#231#227'o'
+    object TabCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object TabDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object TabUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object TabObs: TWideMemoField
       FieldName = 'Obs'
-      BlobType = ftMemo
+      BlobType = ftWideMemo
     end
-    object TabCategoria: TStringField
+    object TabCategoria: TWideStringField
       FieldName = 'Categoria'
-      Size = 35
-    end
-    object TabSubCateg: TStringField
-      FieldName = 'SubCateg'
       Size = 35
     end
   end

@@ -32,12 +32,12 @@ type
     lbDisplayObs: TcxLabel;
     lbEditDesconto: TcxLabel;
     lbEditObs: TcxLabel;
-    lbEditPagamento: TcxLabel;
+    lbEditObsItem: TcxLabel;
     procedure panValoresResize(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure lbEditObsClick(Sender: TObject);
     procedure lbEditDescontoClick(Sender: TObject);
-    procedure lbEditPagamentoClick(Sender: TObject);
+    procedure lbEditObsItemClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
   private
     FDesconto: Currency;
@@ -403,7 +403,6 @@ begin
   SubTotal := aCusto;
   Desconto := aDesconto;
   FidResgate := False;
-  lbEditPagamento.Visible := False;
   lbEditDesconto.Visible := True;
 end;
 
@@ -418,7 +417,6 @@ begin
   PontosNec := aNec;
   PontosDisp := aDisp;
   Obs := aObs;
-  lbEditPagamento.Visible := False;
 end;
 
 procedure TFrmTotal3.InitVal(aPagEsp: TncPagEspecies; aSubTot, aDesconto, aPago, aRecebido: Double;
@@ -433,7 +431,7 @@ begin
   Desconto := aDesconto;
   FObsNF := aObsNF;
   Obs := aObs;
-  if (aPagEsp=nil) or (aPagEsp.Count=0) then lbEditPagamento.Visible := False;
+//  if (aPagEsp=nil) or (aPagEsp.Count=0) then lbEditPagamento.Visible := False;
 end;
 
 procedure TFrmTotal3.lbEditDescontoClick(Sender: TObject);
@@ -446,9 +444,9 @@ begin
   EditObs;
 end;
 
-procedure TFrmTotal3.lbEditPagamentoClick(Sender: TObject);
+procedure TFrmTotal3.lbEditObsItemClick(Sender: TObject);
 begin
-  if Assigned(FOnEditarPagEsp) then FOnEditarPagEsp(Self);
+//  if Assigned(FOnEditarPagEsp) then FOnEditarPagEsp(Self);
 end;
 
 procedure TFrmTotal3.panValoresResize(Sender: TObject);

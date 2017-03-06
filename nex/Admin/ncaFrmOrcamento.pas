@@ -57,7 +57,6 @@ type
     tCodR: TnxTable;
     cbFocus: TCheckBox;
     cxStyle5: TcxStyle;
-    panBuscaProd: TLMDSimplePanel;
     LMDSimplePanel1: TLMDSimplePanel;
     panCli: TLMDSimplePanel;
     imgs: TcxImageList;
@@ -142,6 +141,7 @@ type
     tProPauta: TnxMemoField;
     tProAlteradoEm: TDateTimeField;
     tProAlteradoPor: TStringField;
+    panBuscaProd: TLMDSimplePanel;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure cmGravarClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
@@ -186,7 +186,7 @@ type
       message wm_user;
 
     //procedure SetMostrarUnit(const Value: Boolean);
-    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double);
+    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
 
     procedure OnClicouRemoverItem(Sender: TObject; aBotao: TBotaoItemVenda);
 
@@ -308,7 +308,7 @@ begin
   Close;
 end;
 
-procedure TFrmOrcamento.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double);
+procedure TFrmOrcamento.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
 var IM: TncItemMovEst;
 begin
   IM := TncItemMovEst.Create(nil);
@@ -318,6 +318,7 @@ begin
     IM.imProduto := aProdID;
     IM.imQuant := aQuant;
     IM.imPermSemEstoque := aPermSemEstoque;
+    IM.imObs := aObs;
     if FidResgate then
       IM.imFidPontos := aFidPontos * IM.imQuant
     else begin

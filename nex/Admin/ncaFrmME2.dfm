@@ -103,23 +103,6 @@ object FrmME2: TFrmME2
     Caption = 'cbFocus'
     TabOrder = 3
   end
-  object panBuscaProd: TLMDSimplePanel
-    AlignWithMargins = True
-    Left = 7
-    Top = 177
-    Width = 1121
-    Height = 52
-    Hint = ''
-    Margins.Left = 7
-    Margins.Top = 0
-    Margins.Right = 7
-    Margins.Bottom = 0
-    Align = alTop
-    Bevel.BorderColor = clRed
-    Bevel.Mode = bmStandard
-    Bevel.StandardStyle = lsNone
-    TabOrder = 4
-  end
   object panTopo: TLMDSimplePanel
     Left = 0
     Top = 0
@@ -140,7 +123,7 @@ object FrmME2: TFrmME2
     Font.Name = 'Segoe UI'
     Font.Style = []
     ParentFont = False
-    TabOrder = 5
+    TabOrder = 4
     object LMDDrawEdge1: TLMDDrawEdge
       AlignWithMargins = True
       Left = 316
@@ -601,7 +584,7 @@ object FrmME2: TFrmME2
     Align = alTop
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
-    TabOrder = 6
+    TabOrder = 5
     object lbDadosNF: TcxLabel
       AlignWithMargins = True
       Left = 719
@@ -649,8 +632,25 @@ object FrmME2: TFrmME2
     Align = alTop
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
-    TabOrder = 7
+    TabOrder = 6
     Visible = False
+  end
+  object panBuscaProd: TLMDSimplePanel
+    AlignWithMargins = True
+    Left = 7
+    Top = 177
+    Width = 1121
+    Height = 52
+    Hint = ''
+    Margins.Left = 7
+    Margins.Top = 0
+    Margins.Right = 7
+    Margins.Bottom = 0
+    Align = alTop
+    Bevel.BorderColor = clRed
+    Bevel.Mode = bmStandard
+    Bevel.StandardStyle = lsNone
+    TabOrder = 7
   end
   object BarMgr: TdxBarManager
     AllowReset = False

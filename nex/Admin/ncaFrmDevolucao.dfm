@@ -748,7 +748,7 @@ object FrmDev: TFrmDev
               StyleHot.LookAndFeel.Kind = lfFlat
               TabOrder = 3
               OnClick = cbMostrarCodClick
-              ExplicitLeft = 584
+              ExplicitLeft = 651
             end
           end
         end

@@ -268,10 +268,11 @@ begin
   for b := 0 to 4 do 
   with rb(b) do begin
     Checked := (value=b);
-    if Checked then
-      Font.Style := [fsBold] else
+    if Checked then begin
+      Font.Style := [fsBold];
+      lbResumoCartao.Caption := Format(lbResumoCartao.Caption, [Caption, sl.Values['data']]);  
+    end else
       Font.Style := [];
-    lbResumoCartao.Caption := Format(lbResumoCartao.Caption, [Caption, sl.Values['data']]);  
   end;  
 end;
 

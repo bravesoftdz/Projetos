@@ -7,7 +7,7 @@ inherited fbProdutos: TfbProdutos
   Font.Height = -13
   OldCreateOrder = True
   Scaled = False
-  ExplicitTop = -205
+  ExplicitTop = -157
   ExplicitWidth = 1036
   ExplicitHeight = 558
   PixelsPerInch = 96
@@ -27,7 +27,7 @@ inherited fbProdutos: TfbProdutos
     end
     object PB: TcxProgressBar
       Left = 0
-      Top = 498
+      Top = 495
       Align = alBottom
       ParentFont = False
       Style.LookAndFeel.Kind = lfFlat
@@ -41,31 +41,33 @@ inherited fbProdutos: TfbProdutos
       StyleHot.LookAndFeel.NativeStyle = False
       TabOrder = 0
       Visible = False
+      ExplicitTop = 498
       Width = 1020
     end
     object Paginas: TcxPageControl
       Left = 0
       Top = 3
       Width = 1020
-      Height = 495
+      Height = 492
       Align = alClient
       TabOrder = 2
       Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
-      ClientRectBottom = 491
+      ExplicitHeight = 495
+      ClientRectBottom = 488
       ClientRectLeft = 4
       ClientRectRight = 1016
       ClientRectTop = 4
       object tsProd: TcxTabSheet
         Caption = 'Produtos'
         ImageIndex = 0
-        ExplicitHeight = 484
+        ExplicitHeight = 487
         object panGrid: TLMDSplitterPanel
           Left = 0
           Top = 44
           Width = 1012
-          Height = 443
+          Height = 440
           Hint = ''
           Bevel.Mode = bmStandard
           Bevel.StandardStyle = lsNone
@@ -79,14 +81,13 @@ inherited fbProdutos: TfbProdutos
           Align = alClient
           Color = clWhite
           TabOrder = 0
-          ExplicitHeight = 440
           object LMDSplitterPane1: TLMDSplitterPane
             Bevel.Mode = bmStandard
             object Grid: TcxGrid
               Left = 0
               Top = 38
               Width = 731
-              Height = 403
+              Height = 400
               Align = alClient
               BorderStyle = cxcbsNone
               Font.Charset = ANSI_CHARSET
@@ -98,7 +99,6 @@ inherited fbProdutos: TfbProdutos
               TabOrder = 0
               LookAndFeel.Kind = lfFlat
               LookAndFeel.NativeStyle = False
-              ExplicitHeight = 400
               object TVprod: TcxGridDBTableView
                 OnDblClick = TVprodDblClick
                 OnKeyDown = TVprodKeyDown
@@ -602,7 +602,6 @@ inherited fbProdutos: TfbProdutos
                   OnEnter = edBuscaEnter
                   OnKeyDown = edBuscaKeyDown
                   OnMouseUp = edBuscaMouseUp
-                  ExplicitHeight = 21
                   Width = 375
                 end
                 object lbLocalizar: TcxLabel
@@ -1928,18 +1927,6 @@ inherited fbProdutos: TfbProdutos
     object tEtqProdID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tEtqProdCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tEtqProdDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tEtqProdUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tEtqProdPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -1949,24 +1936,12 @@ inherited fbProdutos: TfbProdutos
     object tEtqProdMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tEtqProdObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tEtqProdImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tEtqProdCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tEtqProdFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tEtqProdSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tEtqProdEstoqueAtual: TFloatField
       FieldName = 'EstoqueAtual'
@@ -2046,6 +2021,58 @@ inherited fbProdutos: TfbProdutos
       FieldKind = fkCalculated
       FieldName = 'PrecoComTaxa'
       Calculated = True
+    end
+    object tEtqProdUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tEtqProdMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tEtqProdCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tEtqProdDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tEtqProdUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tEtqProdObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tEtqProdCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tEtqProdPesoBruto: TFloatField
+      FieldName = 'PesoBruto'
+    end
+    object tEtqProdPesoLiq: TFloatField
+      FieldName = 'PesoLiq'
+    end
+    object tEtqProdmodST: TByteField
+      FieldName = 'modST'
+    end
+    object tEtqProdMVA: TnxMemoField
+      FieldName = 'MVA'
+      BlobType = ftMemo
+    end
+    object tEtqProdPauta: TnxMemoField
+      FieldName = 'Pauta'
+      BlobType = ftMemo
+    end
+    object tEtqProdAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tEtqProdAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
     end
   end
   object mtImprimir: TkbmMemTable

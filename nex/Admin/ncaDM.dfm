@@ -21,7 +21,6 @@ object Dados: TDados
     Top = 64
   end
   object tbCli: TnxTable
-    ActiveDesigntime = True
     Database = db
     Timeout = 10000
     FilterOptions = [foCaseInsensitive]
@@ -755,6 +754,17 @@ object Dados: TDados
     end
     object tbMovEstDebDev: TCurrencyField
       FieldName = 'DebDev'
+    end
+    object tbMovEstUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tbMovEstObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tbMovEstVenDev: TBooleanField
+      FieldName = 'VenDev'
     end
   end
   object tbConfig: TnxTable
@@ -8878,7 +8888,6 @@ object Dados: TDados
     end
   end
   object tbNCM: TnxTable
-    ActiveDesigntime = True
     Database = db
     OnCalcFields = tbNCMCalcFields
     TableName = 'NCM'

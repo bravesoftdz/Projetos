@@ -2394,6 +2394,7 @@ begin
         AddField('Lucro',  '', nxtCurrency, 16, 0, False);
         AddField('Desconto', '', nxtCurrency, 16, 0, False);
         AddField('Descr', '', nxtWideString, 100, 0, False);
+        AddField('Obs', '', nxtBlobWideMemo, 0, 0, False);
         AddField('TotalFinal', '', nxtCurrency, 16, 0, False);
         AddField('Pago', '', nxtCurrency, 16, 0, False);
         AddField('PagoPost', '', nxtCurrency, 16, 0, False);

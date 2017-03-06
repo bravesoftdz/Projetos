@@ -380,10 +380,10 @@ object FrmPri: TFrmPri
           end
         end
         object dpRevisarProduto: TdxDockPanel
-          Left = 0
+          Left = 615
           Top = 0
           Width = 252
-          Height = 0
+          Height = 140
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -1862,6 +1862,15 @@ object FrmPri: TFrmPri
       Font.Height = -13
       Font.Name = 'Segoe UI'
       Font.Style = [fsBold]
+    end
+    object cxStyle65: TcxStyle
+      AssignedValues = [svFont, svTextColor]
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Segoe UI Semibold'
+      Font.Style = [fsBold]
+      TextColor = clHotLight
     end
     object GridTableViewStyleSheetEggplant: TcxGridTableViewStyleSheet
       Caption = 'Eggplant'

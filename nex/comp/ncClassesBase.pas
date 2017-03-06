@@ -323,15 +323,12 @@ const
   tamTelaPDV1   = 1;
   
   // conteudo do caixa por e-amil
-  cceResumoFin        = 0;
-  cceMovEstoque       = 1;
-  cceEstoqueAbaixoMin = 2;
-  cceImpressoes       = 3;
-  cceTransacoesCanc   = 4;
-  cceTransacoesDesc   = 5;
-  cceTransacoesObs    = 6;
-  ccePagEsp           = 7;
-  cceTodasTran        = 8;
+  cceMovEstoque       = 0;
+  cceEstoqueAbaixoMin = 1;
+  cceTransacoesDesc   = 2;
+  cceTransacoesCanc   = 3;
+  cceTransacoesObs    = 4;
+  cceTodasTran        = 5;
 
   // opção de censura horário
   opchSemCensura  = 1;
@@ -468,6 +465,8 @@ const
   trAjustaCusto   = 16;
   trZerarEstoque  = 17;
   trEstDevolucao  = 18;
+  trEstDevFor     = 19;
+  
   trMax           = trEstDevolucao;
 
   itMovEst    = 1;

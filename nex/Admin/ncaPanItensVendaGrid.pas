@@ -53,6 +53,7 @@ type
     panSubTotal: TLMDSimplePanel;
     cxLabel3: TcxLabel;
     lbSubTotal: TcxLabel;
+    TVObs: TcxGridColumn;
     procedure TVDataControllerAfterDelete(
       ADataController: TcxCustomDataController);
     procedure TVQuantGetDisplayText(Sender: TcxCustomGridTableItem;
@@ -120,6 +121,8 @@ type
 
     procedure Atualiza; override;
 
+    function EditObsItem: Boolean; override;
+
     procedure MostrarBotao(aBotao: TBotaoItemVenda; aMostrar: Boolean); override;
 
     function QuantProduto(aProduto: Integer): Double; override;
@@ -135,7 +138,8 @@ var
 
 implementation
 
-uses ufmImagens, ncClassesBase, ncaDM, ncaFrmPri, ncafbProdutos, ncaFrmProduto;
+uses ufmImagens, ncClassesBase, ncaDM, ncaFrmPri, ncafbProdutos, ncaFrmProduto,
+  ncaFrmObs, ncaFrmObsItem;
 
 {$R *.dfm}
 
@@ -245,6 +249,26 @@ begin
     cmCancelar.Enabled := False;
   end;
   UpdateTotal;
+end;
+
+function TpanItensVendaGrid.EditObsItem: Boolean;
+var 
+  S: String;
+  V: Variant;
+begin
+  inherited;
+
+  if Self.Count<1 then Exit;
+  
+  V := getField(FocusedItemIndex, 'Obs');
+  if VarIsNull(V) then
+    S := '' else
+    S := V;
+
+  Result := TFrmObsItem.Create(Self).Editar(getField(FocusedItemIndex, 'Descr'), S, True);
+  
+  if Result then
+    setField(FocusedItemIndex, 'Obs', S);
 end;
 
 procedure TpanItensVendaGrid.EndUpdate;

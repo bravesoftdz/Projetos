@@ -3,7 +3,7 @@ object FrmTotal3: TFrmTotal3
   Top = 0
   Caption = 'FrmTotal3'
   ClientHeight = 427
-  ClientWidth = 1089
+  ClientWidth = 1022
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -18,14 +18,14 @@ object FrmTotal3: TFrmTotal3
   object panTot: TLMDSimplePanel
     Left = 0
     Top = 0
-    Width = 1089
+    Width = 1022
     Height = 270
     Hint = ''
     Align = alTop
     Bevel.Mode = bmCustom
     TabOrder = 0
     object panValores: TLMDSimplePanel
-      Left = 672
+      Left = 605
       Top = 0
       Width = 417
       Height = 270
@@ -48,7 +48,6 @@ object FrmTotal3: TFrmTotal3
         Align = alTop
         Bevel.Mode = bmCustom
         TabOrder = 0
-        ExplicitTop = 77
         object lbTotal: TcxLabel
           AlignWithMargins = True
           Left = 65
@@ -218,7 +217,6 @@ object FrmTotal3: TFrmTotal3
           Properties.Alignment.Horz = taRightJustify
           Properties.Alignment.Vert = taVCenter
           OnClick = lbEditDescontoClick
-          ExplicitWidth = 301
           AnchorX = 307
           AnchorY = 20
         end
@@ -288,7 +286,6 @@ object FrmTotal3: TFrmTotal3
           Properties.Alignment.Horz = taRightJustify
           Properties.Alignment.Vert = taVCenter
           OnClick = lbEditDescontoClick
-          ExplicitWidth = 301
           AnchorX = 307
           AnchorY = 20
         end
@@ -298,7 +295,7 @@ object FrmTotal3: TFrmTotal3
       AlignWithMargins = True
       Left = 7
       Top = 7
-      Width = 640
+      Width = 573
       Height = 256
       Hint = ''
       Margins.Left = 7
@@ -311,7 +308,7 @@ object FrmTotal3: TFrmTotal3
       object panEFEs: TLMDSimplePanel
         Left = 1
         Top = 230
-        Width = 638
+        Width = 571
         Height = 25
         Hint = ''
         Align = alBottom
@@ -330,7 +327,7 @@ object FrmTotal3: TFrmTotal3
           ParentFont = False
           Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clWindowText
-          Style.Font.Height = -16
+          Style.Font.Height = -13
           Style.Font.Name = 'Segoe UI'
           Style.Font.Style = []
           Style.HotTrack = True
@@ -338,13 +335,13 @@ object FrmTotal3: TFrmTotal3
           Style.IsFontAssigned = True
           StyleHot.BorderStyle = ebsNone
           StyleHot.TextColor = clHotLight
-          Properties.Alignment.Vert = taBottomJustify
+          Properties.Alignment.Vert = taVCenter
           OnClick = lbEditDescontoClick
-          AnchorY = 25
+          AnchorY = 13
         end
         object lbEditObs: TcxLabel
           AlignWithMargins = True
-          Left = 120
+          Left = 105
           Top = 0
           Cursor = crHandPoint
           Margins.Left = 20
@@ -356,7 +353,7 @@ object FrmTotal3: TFrmTotal3
           ParentFont = False
           Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clWindowText
-          Style.Font.Height = -16
+          Style.Font.Height = -13
           Style.Font.Name = 'Segoe UI'
           Style.Font.Style = []
           Style.HotTrack = True
@@ -364,13 +361,13 @@ object FrmTotal3: TFrmTotal3
           Style.IsFontAssigned = True
           StyleHot.BorderStyle = ebsNone
           StyleHot.TextColor = clHotLight
-          Properties.Alignment.Vert = taBottomJustify
+          Properties.Alignment.Vert = taVCenter
           OnClick = lbEditObsClick
-          AnchorY = 25
+          AnchorY = 13
         end
-        object lbEditPagamento: TcxLabel
+        object lbEditObsItem: TcxLabel
           AlignWithMargins = True
-          Left = 264
+          Left = 231
           Top = 0
           Cursor = crHandPoint
           Margins.Left = 20
@@ -378,11 +375,11 @@ object FrmTotal3: TFrmTotal3
           Margins.Right = 0
           Margins.Bottom = 0
           Align = alLeft
-          Caption = 'Ver dados de pagamento'
+          Caption = 'Complemento do item - F10'
           ParentFont = False
           Style.Font.Charset = ANSI_CHARSET
           Style.Font.Color = clWindowText
-          Style.Font.Height = -16
+          Style.Font.Height = -13
           Style.Font.Name = 'Segoe UI'
           Style.Font.Style = []
           Style.HotTrack = True
@@ -390,10 +387,9 @@ object FrmTotal3: TFrmTotal3
           Style.IsFontAssigned = True
           StyleHot.BorderStyle = ebsNone
           StyleHot.TextColor = clHotLight
-          Properties.Alignment.Vert = taBottomJustify
-          Visible = False
-          OnClick = lbEditPagamentoClick
-          AnchorY = 25
+          Properties.Alignment.Vert = taVCenter
+          OnClick = lbEditObsItemClick
+          AnchorY = 13
         end
       end
       object lbDisplayObs: TcxLabel
@@ -430,7 +426,7 @@ object FrmTotal3: TFrmTotal3
         Properties.WordWrap = True
         OnClick = lbEditObsClick
         Height = 229
-        Width = 638
+        Width = 571
       end
     end
   end

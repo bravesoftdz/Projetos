@@ -9,15 +9,15 @@ inherited panItensVendaGrid: TpanItensVendaGrid
   inherited panPri: TLMDSimplePanel
     Width = 711
     Height = 391
-    ExplicitWidth = 1016
-    ExplicitHeight = 389
+    ExplicitWidth = 711
+    ExplicitHeight = 391
     inherited panTot: TLMDSimplePanel
       Top = 344
       Width = 711
       Color = clWhite
       TabOrder = 2
-      ExplicitTop = 342
-      ExplicitWidth = 1016
+      ExplicitTop = 344
+      ExplicitWidth = 711
       object cmRemover: TMyImage
         Left = 0
         Top = 0
@@ -64,7 +64,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         ParentColor = True
         TabOrder = 2
         Visible = False
-        ExplicitLeft = 792
         object cxLabel3: TcxLabel
           AlignWithMargins = True
           Left = 0
@@ -144,9 +143,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
       OnResize = GridResize
       LookAndFeel.Kind = lfFlat
       LookAndFeel.NativeStyle = False
-      ExplicitTop = 113
-      ExplicitWidth = 1016
-      ExplicitHeight = 317
       object TV: TcxGridTableView
         PopupMenu = pmPop
         Navigator.Buttons.CustomButtons = <>
@@ -190,7 +186,11 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         OptionsView.GridLines = glHorizontal
         OptionsView.GroupByBox = False
         OptionsView.Header = False
+        Preview.Column = TVObs
+        Preview.MaxLineCount = 0
+        Preview.Visible = True
         Styles.Background = FrmPri.cxStyle53
+        Styles.Preview = FrmPri.cxStyle65
         object TVItem: TcxGridColumn
           Caption = 'Item'
           PropertiesClassName = 'TcxTextEditProperties'
@@ -302,6 +302,8 @@ inherited panItensVendaGrid: TpanItensVendaGrid
           Options.Focusing = False
           VisibleForCustomization = False
         end
+        object TVObs: TcxGridColumn
+        end
       end
       object GL: TcxGridLevel
         GridView = TV
@@ -318,7 +320,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
       Bevel.StandardStyle = lsNone
       Color = clWhite
       TabOrder = 1
-      ExplicitWidth = 1016
       object btnFontUp: TcxButton
         Left = 665
         Top = 0
@@ -351,7 +352,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         SpeedButtonOptions.Transparent = True
         TabOrder = 0
         OnClick = btnFontUpClick
-        ExplicitLeft = 970
       end
       object lbItens: TcxLabel
         AlignWithMargins = True
@@ -379,7 +379,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         Properties.Alignment.Horz = taCenter
         Properties.Alignment.Vert = taVCenter
         Transparent = True
-        ExplicitWidth = 815
         Height = 25
         Width = 510
         AnchorX = 387
@@ -417,7 +416,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         SpeedButtonOptions.Transparent = True
         TabOrder = 2
         OnClick = btnFontDownClick
-        ExplicitLeft = 993
       end
       object btnBold: TcxButton
         Left = 642
@@ -434,7 +432,6 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         SpeedButtonOptions.Transparent = True
         TabOrder = 3
         OnClick = btnBoldClick
-        ExplicitLeft = 947
       end
       object lbMostrarCod: TcxLabel
         AlignWithMargins = True

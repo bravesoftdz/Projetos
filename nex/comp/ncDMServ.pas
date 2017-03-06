@@ -829,6 +829,8 @@ type
     tProdutoCategoria: TWideStringField;
     tProdutoUnid: TWideStringField;
     tProdutoObs: TWideMemoField;
+    tMovEstObs: TWideMemoField;
+    tAuxMEObs: TWideMemoField;
     procedure tMovEstCalcFields(DataSet: TDataSet);
     procedure tAuxMECalcFields(DataSet: TDataSet);
     procedure tITranCalcFields(DataSet: TDataSet);
@@ -1217,7 +1219,6 @@ begin
     while not tTran.Eof do begin
       Inc(I);
       if Assigned(aProgresso) then aProgresso(rsCorrigeDescrVenda, I, T);
-
 
       if (tTranTipo.Value in [trEstVenda, trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trAjustaCusto]) then 
       begin
@@ -2226,9 +2227,16 @@ begin
     I := 0;
     while not tMovEst.Eof do begin
       tMovEst.Edit;
-      tMovEstCustoT.Value := tMovEstCustoU.Value * tMovEstQuant.Value;
-      tMovEstLucro.Value := tMovEstTotLiq.Value - tMovEstCustoT.Value;
-      tMovEst.Post;
+      try 
+        tMovEstCustoT.Value := tMovEstCustoU.Value * tMovEstQuant.Value; 
+        tMovEstLucro.Value := tMovEstTotLiq.Value - tMovEstCustoT.Value;
+        tMovEst.Post;
+      except
+        on E: Exception do begin
+          tMovEst.Cancel;
+          DebugEx(Self, 'CorrigeCustoT', E);
+        end;
+      end;
       Inc(I);
       if Assigned(aProgresso) then aProgresso(rsCorrigeLucro, I, T);
       
@@ -3190,10 +3198,7 @@ begin
     tMovEst.SetRange([ME.ID], [ME.ID]);
     ME.Itens.Limpa;
     while not tMovEst.Eof do begin
-      with ME.Itens.NewItem do begin 
-        LoadFromDataset(tMovEst, tMovEstTax);
-        imObs := ME.Obs;
-      end;
+      ME.Itens.NewItem.LoadFromDataset(tMovEst, tMovEstTax);
       tMovEst.Next;
     end;
   finally

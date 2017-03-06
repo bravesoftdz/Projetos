@@ -400,6 +400,7 @@ end;
 procedure TThread_bk_process.Execute;
 var dm : Tdm_bk_process;
 begin
+  DebugMsg('TThread_bk_process.Execute');
   dm := Tdm_bk_process.Create(nil);
   try
     dm.OnTerminateEvent := onterm;

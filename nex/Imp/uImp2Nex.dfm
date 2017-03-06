@@ -3,8 +3,8 @@ object FrmPri: TFrmPri
   Top = 0
   BorderWidth = 10
   Caption = 'Importar CSV - ESTOQUE'
-  ClientHeight = 501
-  ClientWidth = 712
+  ClientHeight = 481
+  ClientWidth = 692
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -22,8 +22,8 @@ object FrmPri: TFrmPri
   object Paginas: TcxPageControl
     Left = 0
     Top = 0
-    Width = 712
-    Height = 458
+    Width = 692
+    Height = 438
     Align = alClient
     TabOrder = 0
     Properties.ActivePage = tsCampos
@@ -31,8 +31,8 @@ object FrmPri: TFrmPri
     LookAndFeel.NativeStyle = False
     OnChange = PaginasChange
     OnPageChanging = PaginasPageChanging
-    ClientRectBottom = 458
-    ClientRectRight = 712
+    ClientRectBottom = 438
+    ClientRectRight = 692
     ClientRectTop = 28
     object tsArq: TcxTabSheet
       Caption = 'Selecione o arquivo'
@@ -52,13 +52,13 @@ object FrmPri: TFrmPri
         Style.Font.Style = []
         Style.IsFontAssigned = True
         TabOrder = 0
-        Height = 390
-        Width = 712
+        Height = 370
+        Width = 692
       end
       object LMDSimplePanel2: TLMDSimplePanel
         Left = 0
         Top = 0
-        Width = 712
+        Width = 692
         Height = 40
         Hint = ''
         Align = alTop
@@ -137,8 +137,8 @@ object FrmPri: TFrmPri
       object Grid: TcxGrid
         Left = 0
         Top = 0
-        Width = 712
-        Height = 430
+        Width = 692
+        Height = 410
         Align = alClient
         TabOrder = 0
         LookAndFeel.Kind = lfFlat
@@ -235,7 +235,7 @@ object FrmPri: TFrmPri
         AlignWithMargins = True
         Left = 0
         Top = 10
-        Width = 712
+        Width = 692
         Height = 25
         Margins.Left = 0
         Margins.Top = 10
@@ -247,15 +247,15 @@ object FrmPri: TFrmPri
       object pagImp: TcxPageControl
         Left = 0
         Top = 45
-        Width = 712
-        Height = 385
+        Width = 692
+        Height = 365
         Align = alClient
         TabOrder = 1
         Properties.ActivePage = tsImpCli
         Properties.CustomButtons.Buttons = <>
         LookAndFeel.NativeStyle = False
-        ClientRectBottom = 385
-        ClientRectRight = 712
+        ClientRectBottom = 365
+        ClientRectRight = 692
         ClientRectTop = 28
         object tsImpProd: TcxTabSheet
           Caption = 'tsImpProd'
@@ -312,8 +312,8 @@ object FrmPri: TFrmPri
             AlignWithMargins = True
             Left = 0
             Top = 122
-            Width = 712
-            Height = 235
+            Width = 692
+            Height = 215
             Margins.Left = 0
             Margins.Top = 10
             Margins.Right = 0
@@ -349,8 +349,8 @@ object FrmPri: TFrmPri
             AlignWithMargins = True
             Left = 0
             Top = 72
-            Width = 712
-            Height = 285
+            Width = 692
+            Height = 265
             Margins.Left = 0
             Margins.Top = 10
             Margins.Right = 0
@@ -382,8 +382,8 @@ object FrmPri: TFrmPri
   object LMDSimplePanel1: TLMDSimplePanel
     AlignWithMargins = True
     Left = 0
-    Top = 468
-    Width = 712
+    Top = 448
+    Width = 692
     Height = 33
     Hint = ''
     Margins.Left = 0
@@ -569,18 +569,6 @@ object FrmPri: TFrmPri
     object tProdID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
-    object tProdCodigo: TStringField
-      FieldName = 'Codigo'
-      Size = 30
-    end
-    object tProdDescricao: TStringField
-      FieldName = 'Descricao'
-      Size = 100
-    end
-    object tProdUnid: TStringField
-      FieldName = 'Unid'
-      Size = 5
-    end
     object tProdPreco: TCurrencyField
       FieldName = 'Preco'
     end
@@ -590,24 +578,12 @@ object FrmPri: TFrmPri
     object tProdMargem: TFloatField
       FieldName = 'Margem'
     end
-    object tProdObs: TnxMemoField
-      FieldName = 'Obs'
-      BlobType = ftMemo
-    end
     object tProdImagem: TGraphicField
       FieldName = 'Imagem'
       BlobType = ftGraphic
     end
-    object tProdCategoria: TStringField
-      FieldName = 'Categoria'
-      Size = 35
-    end
     object tProdFornecedor: TLongWordField
       FieldName = 'Fornecedor'
-    end
-    object tProdSubCateg: TStringField
-      FieldName = 'SubCateg'
-      Size = 35
     end
     object tProdCustoUnitario: TCurrencyField
       FieldName = 'CustoUnitario'
@@ -702,6 +678,41 @@ object FrmPri: TFrmPri
     object tProdPauta: TnxMemoField
       FieldName = 'Pauta'
       BlobType = ftMemo
+    end
+    object tProdUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tProdMarca: TGuidField
+      FieldName = 'Marca'
+      Size = 38
+    end
+    object tProdCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tProdDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+    object tProdUnid: TWideStringField
+      FieldName = 'Unid'
+      Size = 5
+    end
+    object tProdObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tProdCategoria: TWideStringField
+      FieldName = 'Categoria'
+      Size = 35
+    end
+    object tProdAlteradoEm: TDateTimeField
+      FieldName = 'AlteradoEm'
+    end
+    object tProdAlteradoPor: TStringField
+      FieldName = 'AlteradoPor'
+      Size = 30
     end
   end
   object tCli: TnxTable

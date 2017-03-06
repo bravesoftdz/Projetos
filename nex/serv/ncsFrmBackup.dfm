@@ -6,10 +6,10 @@ object FrmCopia: TFrmCopia
   ClientHeight = 414
   ClientWidth = 460
   Color = clBtnFace
-  Font.Charset = DEFAULT_CHARSET
+  Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
   Font.Height = -11
-  Font.Name = 'Tahoma'
+  Font.Name = 'Segoe UI'
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
@@ -64,14 +64,14 @@ object FrmCopia: TFrmCopia
           TabOrder = 0
           object cxLabel1: TcxLabel
             Left = 10
-            Top = 40
+            Top = 49
             Caption = 'Pasta destino:'
           end
           object edBackupDir: TLMDBrowseEdit
             Left = 10
-            Top = 58
+            Top = 67
             Width = 351
-            Height = 19
+            Height = 24
             Hint = ''
             Bevel.StyleInner = bvNormal
             Bevel.StyleOuter = bvRaised
@@ -81,6 +81,12 @@ object FrmCopia: TFrmCopia
             Ctl3D = True
             ParentCtl3D = False
             TabOrder = 1
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Segoe UI Semibold'
+            Font.Style = [fsBold]
+            ParentFont = False
             CustomButtons = <
               item
                 Glyph.Data = {
@@ -111,7 +117,7 @@ object FrmCopia: TFrmCopia
           end
           object PB: TcxProgressBar
             Left = 10
-            Top = 90
+            Top = 108
             Style.BorderStyle = ebsFlat
             Style.LookAndFeel.Kind = lfFlat
             Style.LookAndFeel.NativeStyle = True
@@ -127,12 +133,9 @@ object FrmCopia: TFrmCopia
           end
           object lbProgresso: TcxLabel
             Left = 8
-            Top = 111
-            AutoSize = False
+            Top = 129
             Caption = 'Progresso do Backup'
             Visible = False
-            Height = 17
-            Width = 255
           end
           object btnBackup: TcxButton
             Left = 10
@@ -218,6 +221,12 @@ object FrmCopia: TFrmCopia
               0000000000000000000000000000000000000000000000000000000000000000
               0000000000000000000000000000000000000000000000000000}
             TabOrder = 4
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
             OnClick = btnBackupClick
           end
         end
@@ -266,7 +275,7 @@ object FrmCopia: TFrmCopia
           object btnRestaurar: TcxButton
             Left = 8
             Top = 1
-            Width = 217
+            Width = 241
             Height = 35
             Caption = 'Restaurar C'#243'pia de Dados'
             LookAndFeel.Kind = lfFlat
@@ -347,6 +356,12 @@ object FrmCopia: TFrmCopia
               0000000000000000000000000000000000000000000000000000000000000000
               0000000000000000000000000000000000000000000000000000}
             TabOrder = 2
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
             OnClick = btnRestaurarClick
           end
         end
@@ -354,9 +369,6 @@ object FrmCopia: TFrmCopia
       object tsCorrigir: TcxTabSheet
         Caption = 'Corrigir'
         ImageIndex = 1
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object LMDSimplePanel2: TLMDSimplePanel
           AlignWithMargins = True
           Left = 0
@@ -371,6 +383,7 @@ object FrmCopia: TFrmCopia
           Align = alTop
           Bevel.Mode = bmCustom
           TabOrder = 0
+          ExplicitLeft = 8
           object LMDSimplePanel7: TLMDSimplePanel
             Left = 0
             Top = 35
@@ -384,7 +397,7 @@ object FrmCopia: TFrmCopia
           object btnCorrigir: TcxButton
             Left = 0
             Top = 0
-            Width = 289
+            Width = 297
             Height = 35
             Align = alLeft
             Caption = 'Executar corre'#231#227'o do banco de dados'
@@ -466,6 +479,12 @@ object FrmCopia: TFrmCopia
               0000000000000000000000000000000000000000000000000000000000000000
               0000000000000000000000000000000000000000000000000000}
             TabOrder = 1
+            Font.Charset = ANSI_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Segoe UI'
+            Font.Style = []
+            ParentFont = False
             OnClick = btnCorrigirClick
           end
         end
@@ -495,6 +514,13 @@ object FrmCopia: TFrmCopia
                 'stiver com problemas que impe'#231'am seu uso. '#13#10#13#10'Poss'#237'veis causas: ' +
                 'Desligamento inadequado do Windows/Computador, Queda de energia,' +
                 ' Travamentos, Problemas com disco r'#237'gido, ou V'#237'rus.'
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.IsFontAssigned = True
               Properties.WordWrap = True
               Width = 439
             end
@@ -507,8 +533,15 @@ object FrmCopia: TFrmCopia
               Left = 0
               Top = 0
               Align = alTop
+              ParentFont = False
               Style.BorderStyle = ebsFlat
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -13
+              Style.Font.Name = 'Segoe UI Semibold'
+              Style.Font.Style = [fsBold]
               Style.LookAndFeel.NativeStyle = True
+              Style.IsFontAssigned = True
               StyleDisabled.LookAndFeel.NativeStyle = True
               StyleFocused.LookAndFeel.NativeStyle = True
               StyleHot.LookAndFeel.NativeStyle = True
@@ -517,11 +550,18 @@ object FrmCopia: TFrmCopia
             end
             object lbCorr: TcxLabel
               Left = 0
-              Top = 27
-              AutoSize = False
+              Top = 25
+              Align = alTop
               Caption = '...'
-              Height = 17
-              Width = 361
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.IsFontAssigned = True
+              ExplicitTop = 27
+              ExplicitWidth = 16
             end
           end
         end
@@ -537,10 +577,10 @@ object FrmCopia: TFrmCopia
           Hint = ''
           Align = alClient
           Bevel.Mode = bmCustom
-          Font.Charset = DEFAULT_CHARSET
+          Font.Charset = ANSI_CHARSET
           Font.Color = clWindowText
           Font.Height = -13
-          Font.Name = 'Tahoma'
+          Font.Name = 'Segoe UI'
           Font.Style = []
           ParentFont = False
           TabOrder = 0
@@ -646,10 +686,10 @@ object FrmCopia: TFrmCopia
               0000000000000000000000000000000000000000000000000000000000000000
               0000000000000000000000000000000000000000000000000000}
             TabOrder = 1
-            Font.Charset = DEFAULT_CHARSET
+            Font.Charset = ANSI_CHARSET
             Font.Color = clWindowText
             Font.Height = -13
-            Font.Name = 'Tahoma'
+            Font.Name = 'Segoe UI'
             Font.Style = []
             ParentFont = False
             OnClick = btnZerarClick
@@ -657,7 +697,7 @@ object FrmCopia: TFrmCopia
           object cbZerarConfig: TcxCheckBox
             AlignWithMargins = True
             Left = 8
-            Top = 57
+            Top = 79
             Cursor = crHandPoint
             Margins.Left = 8
             Margins.Top = 0
@@ -670,12 +710,12 @@ object FrmCopia: TFrmCopia
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 2
-            ExplicitWidth = 121
+            ExplicitTop = 77
           end
           object cbZerarProd: TcxCheckBox
             AlignWithMargins = True
             Left = 8
-            Top = 78
+            Top = 104
             Cursor = crHandPoint
             Margins.Left = 8
             Margins.Top = 0
@@ -688,13 +728,12 @@ object FrmCopia: TFrmCopia
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 3
-            ExplicitTop = 81
-            ExplicitWidth = 121
+            ExplicitTop = 102
           end
           object cbZerarHist: TcxCheckBox
             AlignWithMargins = True
             Left = 8
-            Top = 36
+            Top = 37
             Cursor = crHandPoint
             Margins.Left = 8
             Margins.Top = 8
@@ -716,7 +755,7 @@ object FrmCopia: TFrmCopia
           object cbZerarCli: TcxCheckBox
             AlignWithMargins = True
             Left = 8
-            Top = 99
+            Top = 129
             Cursor = crHandPoint
             Margins.Left = 8
             Margins.Top = 0
@@ -729,8 +768,6 @@ object FrmCopia: TFrmCopia
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 5
-            ExplicitTop = 124
-            ExplicitWidth = 121
           end
           object pbZ: TcxProgressBar
             Left = 8
@@ -761,9 +798,6 @@ object FrmCopia: TFrmCopia
       object cxTabSheet3: TcxTabSheet
         Caption = 'cxTabSheet3'
         ImageIndex = 4
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object LMDSimplePanel3: TLMDSimplePanel
           AlignWithMargins = True
           Left = 0

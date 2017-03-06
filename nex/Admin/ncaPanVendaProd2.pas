@@ -391,7 +391,7 @@ begin
     T := DuasCasas(FUnitario*edQtd.Value) else
     T := DuasCasas(FCBBInfo.PesoValor);
     
-  AddProd(tProID.Value, tProTaxIDNorm.Value, FUnitario, T, edQtd.Value, tProDescricao.Value, PermSemEstoque, tProFidPontos.Value);
+  AddProd(tProID.Value, tProTaxIDNorm.Value, FUnitario, T, edQtd.Value, tProDescricao.Value, PermSemEstoque, tProFidPontos.Value, '');
   
   Clear;
 

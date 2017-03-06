@@ -869,6 +869,9 @@ type
     tbMarcaUID: TGuidField;
     tbMarcaNome: TWideStringField;
     tbMarcaRecVer: TLongWordField;
+    tbMovEstUID: TGuidField;
+    tbMovEstObs: TWideMemoField;
+    tbMovEstVenDev: TBooleanField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);
@@ -3019,7 +3022,8 @@ begin
   end else begin
     DiaAberto := 0;
     NumAberto := -1;
-  end;  
+  end;
+  FrmPri.RefreshCaixaAberto;  
   BroadcastAtualizaDireitosConfig;  
 end;
 

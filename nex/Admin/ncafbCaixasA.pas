@@ -77,9 +77,9 @@ type
     TDIDLivre: TcxGridDBColumn;
     TabIDLivre: TStringField;
     cmEmail: TdxBarLargeButton;
-    cmRel: TdxBarButton;
     cxStyleRepository1: TcxStyleRepository;
     cxsBold: TcxStyle;
+    cmRel: TdxBarLargeButton;
     procedure cmEditarClick(Sender: TObject);
     procedure cmTotalizarClick(Sender: TObject);
     procedure cmCorrigeDataHoraClick(Sender: TObject);

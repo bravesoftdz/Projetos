@@ -175,17 +175,11 @@ type
     cmTipoTran: TdxBarListItem;
     pmTipoTran: TdxBarPopupMenu;
     tEtqProdID: TUnsignedAutoIncField;
-    tEtqProdCodigo: TStringField;
-    tEtqProdDescricao: TStringField;
-    tEtqProdUnid: TStringField;
     tEtqProdPreco: TCurrencyField;
     tEtqProdPrecoAuto: TBooleanField;
     tEtqProdMargem: TFloatField;
-    tEtqProdObs: TnxMemoField;
     tEtqProdImagem: TGraphicField;
-    tEtqProdCategoria: TStringField;
     tEtqProdFornecedor: TLongWordField;
-    tEtqProdSubCateg: TStringField;
     tEtqProdEstoqueAtual: TFloatField;
     tEtqProdEstoquePend: TFloatField;
     tEtqProdEstoqueTot: TFloatField;
@@ -235,6 +229,20 @@ type
     tAuxCodigo: TWideStringField;
     TabNomeMarca: TWideStringField;
     TVprodMarca: TcxGridDBColumn;
+    tEtqProdUID: TGuidField;
+    tEtqProdMarca: TGuidField;
+    tEtqProdCodigo: TWideStringField;
+    tEtqProdDescricao: TWideStringField;
+    tEtqProdUnid: TWideStringField;
+    tEtqProdObs: TWideMemoField;
+    tEtqProdCategoria: TWideStringField;
+    tEtqProdPesoBruto: TFloatField;
+    tEtqProdPesoLiq: TFloatField;
+    tEtqProdmodST: TByteField;
+    tEtqProdMVA: TnxMemoField;
+    tEtqProdPauta: TnxMemoField;
+    tEtqProdAlteradoEm: TDateTimeField;
+    tEtqProdAlteradoPor: TStringField;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);
@@ -1264,5 +1272,8 @@ begin
 end;
 
 end.
+
+
+
 
 

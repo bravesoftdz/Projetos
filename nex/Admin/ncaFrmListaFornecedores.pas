@@ -39,6 +39,7 @@ type
     FStyle : TcxEditStyleController;
     FPadrao : Integer;
     FOnGetMinWidth : TGetMinWidth;
+    FOnFocusNext : TNotifyEvent;
     procedure CalcHeight;
     procedure OnDestroyItem(Sender: TObject);
     function MostrarApagar(Sender: TObject): Boolean;
@@ -56,6 +57,7 @@ type
 
     function _OnGetMinWidth(Sender: TObject): Integer;
 
+    procedure FocusNext(Sender: TObject);
   public
     function Alterou: Boolean;
 
@@ -71,7 +73,10 @@ type
 
     function IsFocused: Boolean;
 
+    procedure FocarPrimeiro;
+
     function FocusedFrm: TFrmPanFor;
+    function FocusedIndex: Integer;
 
     function AchaFor(aFor: Integer): Boolean;
 
@@ -89,6 +94,9 @@ type
     procedure Clear; 
 
     property OnGetMinWidth : TGetMinWidth read FOnGetMinWidth write FOnGetMinWidth;
+
+    property OnFocusNext: TNotifyEvent
+      read FOnFocusNext write FOnFocusNext;
 
     { Public declarations }
   end;
@@ -141,6 +149,12 @@ begin
   Result := FItens.Count;
 end;
 
+procedure TFrmListaFornecedores.FocarPrimeiro;
+begin
+  if Count=0 then Add;
+  Fornecedores[0].edFor.SetFocus;
+end;
+
 function TFrmListaFornecedores.FocusedFrm: TFrmPanFor;
 var I: Integer;
 begin
@@ -149,6 +163,28 @@ begin
     Exit;
   end;
   Result := nil;
+end;
+
+function TFrmListaFornecedores.FocusedIndex: Integer;
+var I: Integer;
+begin
+  for I := 0 to Count-1 do if Fornecedores[I].IsFocused then begin
+    Result := I;
+    Exit;
+  end;
+  Result := -1;
+end;
+
+procedure TFrmListaFornecedores.FocusNext(Sender: TObject);
+var I : Integer;
+begin
+  I := FocusedIndex;
+  if I>=0 then
+  if (I=Count-1) then begin
+    if Assigned(FOnFocusNext) then
+      FOnFocusNext(Self);
+  end else
+    Fornecedores[I+1].edFor.SetFocus;
 end;
 
 procedure TFrmListaFornecedores.FormClose(Sender: TObject;
@@ -160,6 +196,7 @@ end;
 procedure TFrmListaFornecedores.FormCreate(Sender: TObject);
 begin
   if Screen.Width<=1024 then lbAdd.Visible := False;
+  FOnFocusNext := nil;
   
   FOnGetMinWidth := nil;
   FHabilitar := True;
@@ -325,6 +362,7 @@ function TFrmListaFornecedores.Add: TFrmPanFor;
 begin
   Result := TFrmPanFor.Create(Self);
   FItens.Add(Result);
+  Result.OnFocusNext := FocusNext;
   Result.OnFornecedorPadrao := PadraoQuant;
   Result.OnSetPadrao := OnSetPadrao;
   Result.OnChangeFornecedor := OnChangeFornecedor;

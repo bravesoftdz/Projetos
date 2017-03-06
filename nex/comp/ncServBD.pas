@@ -1189,9 +1189,8 @@ begin
      SaveFld('AtualizadoEm', datahora);
      SaveFld('TotalFinal', LeCurrency('Total') - LeCurrency('Desconto')); 
 
-     AddCard(SrvDB, card_type_orcamento, LeWord32('IDSeq'));
-      
-     Exit;
+     if not gEvolvingTables then
+       AddCard(SrvDB, card_type_orcamento, LeWord32('IDSeq'), True);
    end else   
    if SameText(aTable, 'Cliente') then begin
      if gEvolvingTables then Exit;

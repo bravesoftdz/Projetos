@@ -178,6 +178,7 @@ object dmCaixa: TdmCaixa
     end
   end
   object mtEst: TkbmMemTable
+    Active = True
     DesignActivation = True
     AttachedAutoRefresh = True
     AttachMaxCount = 1
@@ -233,6 +234,7 @@ object dmCaixa: TdmCaixa
       item
         Name = 'Descricao'
         DataType = ftWideString
+        Size = 40
       end>
     IndexFieldNames = 'ID'
     IndexName = 'mtEstIndex1'
@@ -433,6 +435,7 @@ object dmCaixa: TdmCaixa
     Top = 224
   end
   object tCaixa: TnxTable
+    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     OnCalcFields = tCaixaCalcFields
@@ -580,8 +583,8 @@ object dmCaixa: TdmCaixa
     PreviewOptions.Zoom = 1.000000000000000000
     PrintOptions.Printer = 'Default'
     PrintOptions.PrintOnSheet = 0
-    ReportOptions.CreateDate = 39015.443900231490000000
-    ReportOptions.LastChange = 42555.499512384260000000
+    ReportOptions.CreateDate = 39015.443900231500000000
+    ReportOptions.LastChange = 42555.499512384300000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'procedure Memo9OnBeforePrint(Sender: TfrxComponent);'
@@ -766,7 +769,7 @@ object dmCaixa: TdmCaixa
         end
         object Line1: TfrxLineView
           Align = baWidth
-          Top = 46.677180000000010000
+          Top = 46.677180000000000000
           Width = 740.409927000000000000
           Color = clBlack
           Frame.Color = clGray
@@ -783,7 +786,7 @@ object dmCaixa: TdmCaixa
         object Memo82: TfrxMemoView
           Align = baCenter
           Left = 222.803293500000000000
-          Top = 0.779530000000001200
+          Top = 0.779530000000001000
           Width = 294.803340000000000000
           Height = 18.897650000000000000
           AutoWidth = True
@@ -934,7 +937,7 @@ object dmCaixa: TdmCaixa
         Top = 18.897650000000000000
         Width = 740.409927000000000000
         object Shape5: TfrxShapeView
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Width = 740.409927000000000000
           Height = 26.456710000000000000
         end
@@ -955,7 +958,7 @@ object dmCaixa: TdmCaixa
         end
         object Line25: TfrxLineView
           Left = 207.874150000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -978,7 +981,7 @@ object dmCaixa: TdmCaixa
         end
         object Line26: TfrxLineView
           Left = 272.125984250000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1001,7 +1004,7 @@ object dmCaixa: TdmCaixa
         end
         object Line27: TfrxLineView
           Left = 328.819110000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1024,7 +1027,7 @@ object dmCaixa: TdmCaixa
         end
         object Line28: TfrxLineView
           Left = 389.291590000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1047,7 +1050,7 @@ object dmCaixa: TdmCaixa
         end
         object Line29: TfrxLineView
           Left = 457.323130000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1100,7 +1103,7 @@ object dmCaixa: TdmCaixa
         end
         object Line30: TfrxLineView
           Left = 517.795610000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1123,7 +1126,7 @@ object dmCaixa: TdmCaixa
         end
         object Line31: TfrxLineView
           Left = 589.606680000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1146,7 +1149,7 @@ object dmCaixa: TdmCaixa
         end
         object Line32: TfrxLineView
           Left = 661.417750000000000000
-          Top = 49.133889999999990000
+          Top = 49.133890000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
@@ -1167,7 +1170,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo26: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 3.779529999999994000
+          Top = 3.779530000000000000
           Width = 200.315090000000000000
           Height = 18.897650000000000000
           DataField = 'Descricao'
@@ -1181,6 +1184,7 @@ object dmCaixa: TdmCaixa
           Memo.UTF8W = (
             '[frdbEst."Descricao"]')
           ParentFont = False
+          WordBreak = True
           VAlign = vaCenter
         end
         object Line20: TfrxLineView
@@ -1216,7 +1220,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo27: TfrxMemoView
           Left = 211.653680000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           DataField = 'SaldoInicial'
@@ -1236,7 +1240,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo28: TfrxMemoView
           Left = 275.905690000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 49.133855830000000000
           Height = 18.897650000000000000
           DataField = 'EntradasTot'
@@ -1255,7 +1259,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo29: TfrxMemoView
           Left = 332.598640000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 52.913385830000000000
           Height = 18.897650000000000000
           DataField = 'Saidas'
@@ -1274,7 +1278,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo30: TfrxMemoView
           Left = 393.071120000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 60.472440940000000000
           Height = 18.897650000000000000
           DataField = 'FidResg'
@@ -1293,7 +1297,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo31: TfrxMemoView
           Left = 461.102660000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 52.913385830000000000
           Height = 18.897650000000000000
           DataField = 'Vendas'
@@ -1331,7 +1335,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo3: TfrxMemoView
           Left = 593.386210000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 64.251975830000000000
           Height = 18.897650000000000000
           DataField = 'ValorVendas'
@@ -1353,7 +1357,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo4: TfrxMemoView
           Left = 665.197280000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 71.811035830000000000
           Height = 18.897650000000000000
           DataField = 'Lucro'
@@ -1375,7 +1379,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo18: TfrxMemoView
           Left = 521.575140000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 64.251975830000000000
           Height = 18.897650000000000000
           DataField = 'SaldoFinal'
@@ -1419,7 +1423,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo19: TfrxMemoView
           Left = 593.386210000000000000
-          Top = 3.779547089999994000
+          Top = 3.779547089999990000
           Width = 64.251975830000000000
           Height = 18.897650000000000000
           DataSet = frdbEst
@@ -1440,7 +1444,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo20: TfrxMemoView
           Left = 665.197280000000000000
-          Top = 3.779547089999994000
+          Top = 3.779547089999990000
           Width = 71.811035830000000000
           Height = 18.897650000000000000
           DataSet = frdbEst
@@ -1471,24 +1475,24 @@ object dmCaixa: TdmCaixa
       BottomMargin = 10.000000000000000000
       object Header4: TfrxHeader
         FillType = ftBrush
-        Height = 98.267780000000000000
+        Height = 84.267780000000000000
         Top = 18.897650000000000000
         Width = 740.409927000000000000
         object Shape8: TfrxShapeView
-          Top = 49.133889999999990000
+          Top = 35.133890000000000000
           Width = 740.409927000000000000
           Height = 49.133890000000000000
         end
         object Line34: TfrxLineView
           Left = 64.252010000000000000
-          Top = 49.133889999999990000
+          Top = 35.133890000000000000
           Height = 49.133872910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo45: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 52.913420000000000000
+          Top = 38.913420000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           AutoWidth = True
@@ -1505,14 +1509,14 @@ object dmCaixa: TdmCaixa
         end
         object Line35: TfrxLineView
           Left = 173.858204250000000000
-          Top = 49.133889999999990000
+          Top = 35.133890000000000000
           Height = 49.133872910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo46: TfrxMemoView
           Left = 68.031540000000000000
-          Top = 52.913420000000000000
+          Top = 38.913420000000000000
           Width = 83.149660000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1527,7 +1531,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo47: TfrxMemoView
           Left = 68.031540000000000000
-          Top = 75.590600000000000000
+          Top = 61.590600000000000000
           Width = 98.267745830000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1542,21 +1546,21 @@ object dmCaixa: TdmCaixa
         end
         object Line37: TfrxLineView
           Left = 340.157700000000000000
-          Top = 49.133889999999990000
+          Top = 35.133890000000000000
           Height = 49.133872910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Line38: TfrxLineView
           Left = 404.409710000000000000
-          Top = 49.133889999999990000
+          Top = 35.133890000000000000
           Height = 49.133872910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo51: TfrxMemoView
           Left = 343.937230000000000000
-          Top = 52.913420000000000000
+          Top = 38.913420000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1572,14 +1576,14 @@ object dmCaixa: TdmCaixa
         end
         object Line39: TfrxLineView
           Left = 468.661720000000000000
-          Top = 49.133889999999990000
+          Top = 35.133890000000000000
           Height = 49.133872910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo53: TfrxMemoView
           Left = 472.441250000000000000
-          Top = 52.913420000000000000
+          Top = 38.913420000000000000
           Width = 75.590558500000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1594,7 +1598,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo54: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 75.590600000000000000
+          Top = 61.590600000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           AutoWidth = True
@@ -1611,7 +1615,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo44: TfrxMemoView
           Left = 177.637910000000000000
-          Top = 52.913420000000000000
+          Top = 38.913420000000000000
           Width = 162.519790000000000000
           Height = 18.897650000000000000
           AutoWidth = True
@@ -1627,7 +1631,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo50: TfrxMemoView
           Left = 177.637910000000000000
-          Top = 75.590600000000000000
+          Top = 61.590600000000000000
           Width = 162.519790000000000000
           Height = 18.897650000000000000
           AutoWidth = True
@@ -1643,7 +1647,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo48: TfrxMemoView
           Left = 343.937230000000000000
-          Top = 75.590600000000000000
+          Top = 61.590600000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1659,7 +1663,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo55: TfrxMemoView
           Left = 408.189240000000000000
-          Top = 52.913420000000000000
+          Top = 38.913420000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1675,7 +1679,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo56: TfrxMemoView
           Left = 408.189240000000000000
-          Top = 75.590600000000000000
+          Top = 61.590600000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1690,7 +1694,7 @@ object dmCaixa: TdmCaixa
           VAlign = vaCenter
         end
         object Memo49: TfrxMemoView
-          Top = 26.456710000000000000
+          Top = 12.456710000000000000
           Width = 306.141930000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -1707,7 +1711,7 @@ object dmCaixa: TdmCaixa
       object MasterData5: TfrxMasterData
         FillType = ftBrush
         Height = 49.133858270000000000
-        Top = 139.842610000000000000
+        Top = 124.724490000000000000
         Width = 740.409927000000000000
         DataSet = frdbTran
         DataSetName = 'frdbTran'
@@ -1721,7 +1725,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo52: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'Memo24OnBeforePrint'
@@ -1761,7 +1765,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo58: TfrxMemoView
           Left = 408.189240000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 56.692915830000000000
           Height = 18.897650000000000000
           DataField = 'TotalFinal'
@@ -1780,7 +1784,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo59: TfrxMemoView
           Left = 472.441250000000000000
-          Top = 3.779529999999994000
+          Top = 3.779530000000000000
           Width = 264.567100000000000000
           Height = 41.574830000000000000
           StretchMode = smMaxHeight
@@ -1833,7 +1837,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo60: TfrxMemoView
           Left = 68.031540000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 102.047310000000000000
           Height = 18.897650000000000000
           DataField = 'DataHora'
@@ -1872,7 +1876,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo62: TfrxMemoView
           Left = 177.637910000000000000
-          Top = 26.456709999999990000
+          Top = 26.456710000000000000
           Width = 162.519790000000000000
           Height = 18.897650000000000000
           DataField = 'Descricao'
@@ -1892,7 +1896,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo63: TfrxMemoView
           Left = 408.189240000000000000
-          Top = 26.456709999999990000
+          Top = 26.456710000000000000
           Width = 56.692915830000000000
           Height = 18.897650000000000000
           DataField = 'Pago'
@@ -1911,7 +1915,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo64: TfrxMemoView
           Left = 343.937230000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 56.692915830000000000
           Height = 18.897650000000000000
           DataField = 'Total'
@@ -1930,7 +1934,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo65: TfrxMemoView
           Left = 343.937230000000000000
-          Top = 26.456709999999990000
+          Top = 26.456710000000000000
           Width = 56.692915830000000000
           Height = 18.897650000000000000
           DataField = 'Desconto'
@@ -1949,7 +1953,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo66: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 26.456709999999990000
+          Top = 26.456710000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'Memo24OnBeforePrint'
@@ -1977,20 +1981,21 @@ object dmCaixa: TdmCaixa
       RightMargin = 10.000000000000000000
       TopMargin = 10.000000000000000000
       BottomMargin = 10.000000000000000000
+      PrintIfEmpty = False
       object Header5: TfrxHeader
         FillType = ftBrush
-        Height = 79.370130000000000000
+        Height = 67.370130000000000000
         Top = 18.897650000000000000
         Width = 740.409927000000000000
         object Shape10: TfrxShapeView
-          Top = 52.913420000000000000
+          Top = 40.913420000000000000
           Width = 740.409927000000000000
           Height = 26.456710000000000000
         end
         object Memo67: TfrxMemoView
           Description = 'Produto'
           Left = 3.779530000000000000
-          Top = 56.692949999999990000
+          Top = 44.692950000000000000
           Width = 170.078850000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2005,14 +2010,14 @@ object dmCaixa: TdmCaixa
         end
         object Line45: TfrxLineView
           Left = 381.732530000000000000
-          Top = 52.913420000000000000
+          Top = 40.913420000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo69: TfrxMemoView
           Left = 389.291590000000000000
-          Top = 56.692949999999990000
+          Top = 44.692950000000000000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2028,14 +2033,14 @@ object dmCaixa: TdmCaixa
         end
         object Line46: TfrxLineView
           Left = 476.220780000000000000
-          Top = 52.913420000000000000
+          Top = 40.913420000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo70: TfrxMemoView
           Left = 483.779840000000000000
-          Top = 56.692949999999990000
+          Top = 44.692950000000000000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2051,14 +2056,14 @@ object dmCaixa: TdmCaixa
         end
         object Line47: TfrxLineView
           Left = 566.929500000000000000
-          Top = 52.913420000000000000
+          Top = 40.913420000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo71: TfrxMemoView
           Left = 574.488560000000000000
-          Top = 56.692949999999990000
+          Top = 44.692950000000000000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2074,14 +2079,14 @@ object dmCaixa: TdmCaixa
         end
         object Line48: TfrxLineView
           Left = 657.638220000000000000
-          Top = 52.913420000000000000
+          Top = 40.913420000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo72: TfrxMemoView
           Left = 661.417750000000000000
-          Top = 56.692949999999990000
+          Top = 44.692950000000000000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2096,7 +2101,7 @@ object dmCaixa: TdmCaixa
           VAlign = vaCenter
         end
         object Memo73: TfrxMemoView
-          Top = 30.236240000000000000
+          Top = 18.236240000000000000
           Width = 411.968770000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2111,14 +2116,14 @@ object dmCaixa: TdmCaixa
         end
         object Line44: TfrxLineView
           Left = 283.464750000000000000
-          Top = 52.913420000000000000
+          Top = 40.913420000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo74: TfrxMemoView
           Left = 291.023810000000000000
-          Top = 56.692949999999990000
+          Top = 44.692950000000000000
           Width = 83.149660000000000000
           Height = 18.897650000000000000
           Font.Charset = DEFAULT_CHARSET
@@ -2136,7 +2141,7 @@ object dmCaixa: TdmCaixa
       object MasterData6: TfrxMasterData
         FillType = ftBrush
         Height = 26.456692910000000000
-        Top = 120.944960000000000000
+        Top = 109.606370000000000000
         Width = 740.409927000000000000
         DataSet = frdbProd
         DataSetName = 'frdbProd'
@@ -2148,7 +2153,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo68: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 275.905690000000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'Memo11OnBeforePrint'
@@ -2191,7 +2196,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo75: TfrxMemoView
           Left = 389.291590000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
           DataField = 'EstoqueAtual'
@@ -2210,7 +2215,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo76: TfrxMemoView
           Left = 483.779840000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           DataField = 'EstoqueMin'
@@ -2229,7 +2234,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo77: TfrxMemoView
           Left = 574.488560000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 79.370130000000000000
           Height = 18.897650000000000000
           DataField = 'EstoqueMax'
@@ -2248,7 +2253,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo78: TfrxMemoView
           Left = 661.417750000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 75.590600000000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'Memo16OnBeforePrint'
@@ -2275,7 +2280,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo79: TfrxMemoView
           Left = 291.023810000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 83.149660000000000000
           Height = 18.897650000000000000
           DataField = 'AbaixoMinDesde'
@@ -2408,7 +2413,7 @@ object dmCaixa: TdmCaixa
         end
         object dbRF2Descricao: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 1.889763779999996000
+          Top = 1.889763780000000000
           Width = 340.157700000000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'dbRF2DescricaoOnBeforePrint'
@@ -2426,7 +2431,7 @@ object dmCaixa: TdmCaixa
         end
         object dbRF2Total: TfrxMemoView
           Left = 359.055118110000000000
-          Top = 1.889763779999996000
+          Top = 1.889763780000000000
           Width = 128.503937010000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'dbRF2TotalOnBeforePrint'
@@ -2474,7 +2479,7 @@ object dmCaixa: TdmCaixa
         end
         object dbRF3Descricao: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 1.889763779999996000
+          Top = 1.889763780000000000
           Width = 328.819110000000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'dbRF3DescricaoOnBeforePrint'
@@ -2486,7 +2491,7 @@ object dmCaixa: TdmCaixa
         end
         object dbRF3Total: TfrxMemoView
           Left = 359.055118110000000000
-          Top = 1.889763779999996000
+          Top = 1.889763780000000000
           Width = 128.503937010000000000
           Height = 18.897650000000000000
           OnBeforePrint = 'dbRF3TotalOnBeforePrint'
@@ -2555,7 +2560,7 @@ object dmCaixa: TdmCaixa
         end
         object frdbCaixaObs: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 4.779529999999994000
+          Top = 4.779529999999990000
           Width = 706.772110000000000000
           Height = 18.897650000000000000
           StretchMode = smActualHeight
@@ -2603,7 +2608,7 @@ object dmCaixa: TdmCaixa
       object MasterData7: TfrxMasterData
         FillType = ftBrush
         Height = 26.456692910000000000
-        Top = 113.385900000000000000
+        Top = 105.826840000000000000
         Width = 740.409927000000000000
         DataSet = frdbPagEsp
         DataSetName = 'dbMeioPag'
@@ -2649,7 +2654,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo12: TfrxMemoView
           Left = 642.520100000000000000
-          Top = 3.559060000000003000
+          Top = 3.559060000000000000
           Width = 94.488250000000000000
           Height = 18.897650000000000000
           DataField = 'Total'
@@ -2680,7 +2685,7 @@ object dmCaixa: TdmCaixa
           Frame.Typ = [ftLeft]
         end
         object Line33: TfrxLineView
-          Left = 529.134199999999900000
+          Left = 529.134200000000000000
           Height = 26.456692910000000000
           StretchMode = smMaxHeight
           Color = clBlack
@@ -2688,7 +2693,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo42: TfrxMemoView
           Left = 162.519790000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
           DataSet = frdbPagEsp
@@ -2730,7 +2735,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo43: TfrxMemoView
           Left = 287.244280000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 117.165430000000000000
           Height = 18.897650000000000000
           DataSet = frdbPagEsp
@@ -2772,7 +2777,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo80: TfrxMemoView
           Left = 411.968770000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 113.385900000000000000
           Height = 18.897650000000000000
           DataSet = frdbPagEsp
@@ -2814,7 +2819,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo81: TfrxMemoView
           Left = 532.913730000000000000
-          Top = 3.779529999999994000
+          Top = 3.779529999999990000
           Width = 102.047310000000000000
           Height = 18.897650000000000000
           DataSet = frdbPagEsp
@@ -2864,11 +2869,11 @@ object dmCaixa: TdmCaixa
       end
       object Header8: TfrxHeader
         FillType = ftBrush
-        Height = 71.811070000000000000
+        Height = 64.811070000000000000
         Top = 18.897650000000000000
         Width = 740.409927000000000000
         object Memo14: TfrxMemoView
-          Top = 20.677180000000000000
+          Top = 13.677180000000000000
           Width = 188.976500000000000000
           Height = 22.677180000000000000
           Font.Charset = ANSI_CHARSET
@@ -2881,27 +2886,27 @@ object dmCaixa: TdmCaixa
           ParentFont = False
         end
         object Shape16: TfrxShapeView
-          Top = 45.354360000000000000
+          Top = 38.354360000000000000
           Width = 740.409448820000000000
           Height = 26.456710000000000000
         end
         object Line4: TfrxLineView
           Left = 638.740157480315000000
-          Top = 45.354360000000000000
+          Top = 38.354360000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Line5: TfrxLineView
           Left = 159.496062990000000000
-          Top = 45.354360000000000000
+          Top = 38.354360000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo15: TfrxMemoView
           Left = 645.520100000000000000
-          Top = 48.913420000000000000
+          Top = 41.913420000000000000
           Width = 90.708720000000000000
           Height = 18.897650000000000000
           Font.Charset = ANSI_CHARSET
@@ -2916,7 +2921,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo16: TfrxMemoView
           Left = 3.779530000000000000
-          Top = 49.133889999999990000
+          Top = 42.133890000000000000
           Width = 151.181200000000000000
           Height = 18.897650000000000000
           Font.Charset = ANSI_CHARSET
@@ -2930,28 +2935,28 @@ object dmCaixa: TdmCaixa
         end
         object Line8: TfrxLineView
           Left = 408.189240000000000000
-          Top = 45.354360000000000000
+          Top = 38.354360000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Line11: TfrxLineView
           Left = 283.464750000000000000
-          Top = 45.354360000000000000
+          Top = 38.354360000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Line19: TfrxLineView
           Left = 529.134200000000000000
-          Top = 45.354360000000000000
+          Top = 38.354360000000000000
           Height = 26.456692910000000000
           Color = clBlack
           Frame.Typ = [ftLeft]
         end
         object Memo17: TfrxMemoView
           Left = 177.637910000000000000
-          Top = 49.133889999999990000
+          Top = 42.133890000000000000
           Width = 90.708720000000000000
           Height = 18.897650000000000000
           Font.Charset = ANSI_CHARSET
@@ -2966,7 +2971,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo23: TfrxMemoView
           Left = 298.582870000000000000
-          Top = 49.133889999999990000
+          Top = 42.133890000000000000
           Width = 90.708720000000000000
           Height = 18.897650000000000000
           Font.Charset = ANSI_CHARSET
@@ -2981,7 +2986,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo24: TfrxMemoView
           Left = 423.307360000000000000
-          Top = 49.133889999999990000
+          Top = 42.133890000000000000
           Width = 90.708720000000000000
           Height = 18.897650000000000000
           Font.Charset = ANSI_CHARSET
@@ -2996,7 +3001,7 @@ object dmCaixa: TdmCaixa
         end
         object Memo25: TfrxMemoView
           Left = 540.472790000000000000
-          Top = 49.133889999999990000
+          Top = 42.133890000000000000
           Width = 90.708720000000000000
           Height = 18.897650000000000000
           Font.Charset = ANSI_CHARSET
@@ -3013,14 +3018,15 @@ object dmCaixa: TdmCaixa
       object MasterData8: TfrxMasterData
         FillType = ftBrush
         Height = 22.677180000000000000
-        Top = 162.519790000000000000
+        Top = 154.960730000000000000
         Width = 740.409927000000000000
         DataSet = frdbMPObs
         DataSetName = 'dbMPObs'
         RowCount = 1
+        Stretched = True
         object Memo13: TfrxMemoView
           Align = baWidth
-          Top = 1.779529999999994000
+          Top = 1.779529999999990000
           Width = 740.409927000000000000
           Height = 18.897650000000000000
           DataSet = frdbMPObs
@@ -3518,6 +3524,7 @@ object dmCaixa: TdmCaixa
     Top = 80
   end
   object qRepTran: TnxQuery
+    ActiveDesigntime = True
     Database = nxDB
     Timeout = 120000
     OnCalcFields = qRepTranCalcFields
@@ -6770,6 +6777,7 @@ object dmCaixa: TdmCaixa
     end
   end
   object mtMPObs: TkbmMemTable
+    Active = True
     DesignActivation = True
     AttachedAutoRefresh = True
     AttachMaxCount = 1
@@ -6796,6 +6804,7 @@ object dmCaixa: TdmCaixa
         Name = 'Especie'
         DataType = ftWord
       end>
+    IndexFieldNames = 'Especie'
     IndexName = 'mtMPObsIndex1'
     IndexDefs = <
       item

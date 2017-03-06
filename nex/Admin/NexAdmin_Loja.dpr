@@ -326,7 +326,7 @@ uses
   ncaFrmTipoNF in 'ncaFrmTipoNF.pas' {FrmTipoNF},
   ncaFrmMVAPauta in 'ncaFrmMVAPauta.pas' {FrmMVAPauta},
   ncaFrmImpDemDeb in 'ncaFrmImpDemDeb.pas' {FrmImpDemDeb},
-  ncaFrmObs in 'ncaFrmObs.pas' {FrmObs},
+  ncaFrmObsItem in 'ncaFrmObsItem.pas' {FrmObsItem},
   ncaFrmCancOk in 'ncaFrmCancOk.pas' {FrmCancOk},
   ncaFrmRejCanc in 'ncaFrmRejCanc.pas' {FrmRejCanc},
   ncafbCCE in 'ncafbCCE.pas' {fbCCE: TFrmBasePai},
@@ -335,7 +335,8 @@ uses
   ncaFrmCadFornecedor in 'ncaFrmCadFornecedor.pas' {FrmCadFornecedor},
   ncaFrmTrial_fim in 'ncaFrmTrial_fim.pas' {FrmTrial_fim},
   ncaFrmTrial_Sombra in 'ncaFrmTrial_Sombra.pas' {FrmTrial_sombra},
-  ncaFrmProduto in 'ncaFrmProduto.pas' {FrmProduto};
+  ncaFrmProduto in 'ncaFrmProduto.pas' {FrmProduto},
+  ncaFrmObs in 'ncaFrmObs.pas' {FrmObs};
 
 {$R *.res}
 {---$R uac.res}

@@ -152,7 +152,6 @@ type
     lcLimites: TdxLayoutItem;
     LCGroup2: TdxLayoutAutoCreatedGroup;
     LCGroup8: TdxLayoutAutoCreatedGroup;
-    LCGroup9: TdxLayoutAutoCreatedGroup;
     LCGroup3: TdxLayoutAutoCreatedGroup;
     LCGroup5: TdxLayoutAutoCreatedGroup;
     MTSeguirMargemPadrao: TBooleanField;
@@ -409,6 +408,12 @@ type
     procedure edMarcaKeyDown(Sender: TObject; var Key: Word;
       Shift: TShiftState);
     procedure edMarcaPropertiesInitPopup(Sender: TObject);
+    procedure edICMSSTKeyPress(Sender: TObject; var Key: Char);
+    procedure edICMSSTKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure edBrTribKeyDown(Sender: TObject; var Key: Word;
+      Shift: TShiftState);
+    procedure edBrTribKeyPress(Sender: TObject; var Key: Char);
     
   private
     FrmEstoque : TFrmProd_Estoque;
@@ -452,11 +457,16 @@ type
     procedure wmProxControl(var Msg: TMsg); message wm_user;
 
     procedure FocusNextEstoque(Sender: TObject);
+    procedure FocusAfterFornecedor(Sender: TObject);
+
+    procedure FocaFornecedor;
       
     procedure CustomDrawBorder(AViewInfo: TcxContainerViewInfo; ACanvas: TcxCanvas; const R: TRect; var AHandled: Boolean; out ABorderWidth: Integer);
 
     procedure LoadProdFor;
     procedure SaveProdFor;
+
+    
 
     
   public
@@ -1713,6 +1723,19 @@ begin
   lcInfoSt.Visible := edICMSST.Focused;
 end;
 
+procedure TFrmProduto.edICMSSTKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if Key=13 then 
+    lciFornecedores.MakeVisible;
+end;
+
+procedure TFrmProduto.edICMSSTKeyPress(Sender: TObject; var Key: Char);
+begin
+  if Key=#13 then 
+    Key := #0;
+end;
+
 procedure TFrmProduto.edICMSSTPropertiesButtonClick(Sender: TObject;
   AButtonIndex: Integer);
 var 
@@ -1802,6 +1825,17 @@ begin
   edCodigo.SetFocus;
   edDescr.SetFocus;
   Close;
+end;
+
+procedure TFrmProduto.FocaFornecedor;
+begin
+  lciFornecedores.MakeVisible;
+  self.FListaFor.Fornecedores[0].edFor.SetFocus;
+end;
+
+procedure TFrmProduto.FocusAfterFornecedor(Sender: TObject);
+begin
+  lcObs.MakeVisible;
 end;
 
 procedure TFrmProduto.FocusNextEstoque(Sender: TObject);
@@ -1948,7 +1982,7 @@ begin
       end;
       1 : edTax.SetFocus;
       2 : edNCM.SetFocus;
-      3 : FListaFor.Fornecedores[0].edFor.SetFocus;
+      3 : FListaFor.FocarPrimeiro;
       4 : edObs.SetFocus;
     end;
     
@@ -1964,7 +1998,10 @@ procedure TFrmProduto.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
 begin
   case Key of
-    Key_Enter : PostMessage(Handle, wm_user, 0, 0);
+    Key_Enter : 
+    if not (edBRTrib.Focused or edICMSSt.Focused or edTax.Focused or FListaFor.IsFocused) then
+      PostMessage(Handle, wm_user, 0, 0);
+      
     Key_F2 : if cmGravar.Enabled then cmGravarClick(nil);
 
     Key_F9 : edICMSSTPropertiesButtonClick(nil, 0);
@@ -2053,6 +2090,7 @@ begin
   CodAnt := '';
   FDadosFor.dcCodigo := 0;
   FListaFor := TFrmListaFornecedores.Create(Self);
+  FListaFor.OnFocusNext := FocusAfterFornecedor;
   FListaFor.panPri.Parent := panFornecedores;
   FListaFor.OnGetMinWidth := MinCaptionWidth;
   panFornecedores.AutoSize := True;
@@ -2074,6 +2112,20 @@ begin
   if edBrTrib.Focused then
     lcBrTrib.CaptionOptions.Text := 'Tributação (F5)' else
     lcBrTrib.CaptionOptions.Text := 'Tributação';
+end;
+
+procedure TFrmProduto.edBrTribKeyDown(Sender: TObject; var Key: Word;
+  Shift: TShiftState);
+begin
+  if (Key=13) then 
+  if lcICMSSt.Visible then 
+    edICMSSt.SetFocus else
+    lciFornecedores.MakeVisible;
+end;
+
+procedure TFrmProduto.edBrTribKeyPress(Sender: TObject; var Key: Char);
+begin
+  if Key=#13 then Key := #0;
 end;
 
 procedure TFrmProduto.edBrTribPropertiesButtonClick(Sender: TObject;

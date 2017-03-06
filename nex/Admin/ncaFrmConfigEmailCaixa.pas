@@ -30,7 +30,6 @@ type
     panPremium: TLMDSimplePanel;
     Image1: TImage;
     lbPro: TcxLabel;
-    procedure FormCreate(Sender: TObject);
     procedure CBClick(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure lbProClick(Sender: TObject);
@@ -101,14 +100,6 @@ procedure TFrmConfigEmailCaixa.lbProClick(Sender: TObject);
 begin
   inherited;
   MsgRecursoPro;
-end;
-
-procedure TFrmConfigEmailCaixa.FormCreate(Sender: TObject);
-begin
-  inherited;
-  {$ifdef Loja}
-   edEmailConteudo.Items[4].Free;
-  {$endif}
 end;
 
 procedure TFrmConfigEmailCaixa.FormShow(Sender: TObject);
