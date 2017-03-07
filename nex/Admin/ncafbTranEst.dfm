@@ -5,8 +5,8 @@ inherited fbTranEst: TfbTranEst
   Font.Height = -13
   Font.Name = 'Segoe UI'
   OnDestroy = FrmBasePaiDestroy
-  ExplicitWidth = 1220
-  ExplicitHeight = 473
+  ExplicitWidth = 1228
+  ExplicitHeight = 481
   PixelsPerInch = 96
   TextHeight = 17
   inherited panPri: TLMDSimplePanel
@@ -990,11 +990,6 @@ inherited fbTranEst: TfbTranEst
     UseSystemFont = False
     Left = 72
     Top = 192
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     inherited BarMgrBar1: TdxBar
       Font.Height = -13
       ItemLinks = <
@@ -1021,6 +1016,10 @@ inherited fbTranEst: TfbTranEst
         end
         item
           BeginGroup = True
+          Visible = True
+          ItemName = 'cmDevFor'
+        end
+        item
           Visible = True
           ItemName = 'cmCfg'
         end>
@@ -1148,10 +1147,10 @@ inherited fbTranEst: TfbTranEst
       Category = 0
       Hint = 'Cancelar'
       Visible = ivAlways
-      LargeImageIndex = 131
       OnClick = cmCancelarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 131
     end
     object dxBarButton3: TdxBarButton [23]
       Caption = 'Configurar'
@@ -1225,18 +1224,18 @@ inherited fbTranEst: TfbTranEst
       Category = 0
       Hint = 'Emitir Novamente'
       Visible = ivAlways
-      LargeImageIndex = 171
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 171
     end
     object cmPagtoRej: TdxBarLargeButton [29]
       Caption = 'Meio de Pagamento - F2'
       Category = 0
       Hint = 'Meio de Pagamento - F2'
       Visible = ivAlways
-      LargeImageIndex = 137
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 137
     end
     object cmMaxItens: TcxBarEditItem [30]
       Caption = 'Quantidade de itens na lista de transa'#231#245'es:  '
@@ -1343,21 +1342,28 @@ inherited fbTranEst: TfbTranEst
       Category = 0
       Hint = 'Imprimir NF'
       Visible = ivAlways
-      LargeImageIndex = 201
       OnClick = cmDanfeClick
       GlyphLayout = glLeft
+      LargeImageIndex = 201
     end
     object cmImpRecibo: TdxBarLargeButton
       Caption = 'Imprime Recibo'
       Category = 0
       Hint = 'Imprime Recibo'
       Visible = ivNever
-      LargeImageIndex = 191
       OnClick = cmImpReciboClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 191
       SyncImageIndex = False
       ImageIndex = 191
+    end
+    object cmDevFor: TdxBarButton
+      Caption = 'Dev. NF-e Compra'
+      Category = 0
+      Hint = 'Dev. NF-e Compra'
+      Visible = ivNever
+      OnClick = cmDevForClick
     end
   end
   inherited MenuGrid: TcxGridPopupMenu

@@ -165,9 +165,9 @@ begin
 
   TVCodigo.Visible := (slConfig.Values['MostrarCodigo']='1');
 
-  TVUnitario.Visible := (not ResgateFidelidade) and (TipoTran in [trEstVenda, trEstCompra]);
-  TVTotal.Visible := (not ResgateFidelidade) and (TipoTran in [trEstVenda, trEstCompra]);
-  TVIgual.Visible := (TipoTran in [trEstVenda, trEstCompra]);
+  TVUnitario.Visible := (not ResgateFidelidade) and (TipoTran in [trEstVenda, trEstCompra, trEstDevFor]);
+  TVTotal.Visible := (not ResgateFidelidade) and (TipoTran in [trEstVenda, trEstCompra, trEstDevFor]);
+  TVIgual.Visible := (TipoTran in [trEstVenda, trEstCompra, trEstDevFor]);
   TVVezes.Visible := TVIgual.Visible;
   if ResgateFidelidade then begin
     TVFidPontos.Index := TVVezes.Index+1;

@@ -3,6 +3,7 @@ unit ncaStrings;
 interface
 
 resourcestring
+  rsNecessarioFornecedor = 'É necessário informar o Fornecedor';
   rsNovaMarca  = 'nova marca';
   rsPersonalizado = 'Personalizado';
   rsMes            = 'Mês';

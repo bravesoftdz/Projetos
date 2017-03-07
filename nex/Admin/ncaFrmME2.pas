@@ -24,7 +24,7 @@ uses
   cxLookupEdit, cxDBLookupEdit, Menus, StdCtrls, cxButtons, ncaFrmEditContato, ncaFrmEditFunc,
   ncClassesBase, cxNavigator, ncaPanVendaProdBase, ncaPanItensVendaBase, ncaPanItensVendaGrid,
   cxBarEditItem, ImgList, ncMyImage, ncDebCredValidator, dxGDIPlusClasses,
-  LMDDrawEdge, System.ImageList, ncaFrmEditEntrega;
+  LMDDrawEdge, System.ImageList, ncaFrmEditEntrega, ncaPanVendaProd2;
 
 type
   TFrmME2 = class(TForm)
@@ -188,7 +188,7 @@ type
     FprocClickCompra: Boolean;
     //FMostrarUnit : Boolean;  agora sempre mostrará o preço unitário
     FTamanho     : byte;
-    FPanAddProd  : TFrmPanVendaProdBase;
+    FPanAddProd  : TFrmPanVendaProd2;
     FPanItens    : TpanItensVendaGrid;
     FDCValidator : TncDebCredValidator;
     FItensA      : TncItensMovEst;
@@ -223,6 +223,8 @@ type
     function OnQuantOk(Sender: TFrmPanVendaProdBase; aProduto: Cardinal; aQuant, Estoque: Double): Boolean;
 
     procedure OnEditarPagEsp(Sender: TObject);
+
+    function GetFornecedor: Cardinal;
 
     procedure UpdateTipoTran;
                                       
@@ -697,7 +699,7 @@ begin
     if FidResgate then
       IM.imFidPontos := aFidPontos * IM.imQuant
     else begin
-      if FME.Tipo in [trEstVenda, trEstCompra] then begin
+      if FME.Tipo in [trEstVenda, trEstCompra, trEstDevFor ] then begin
         IM.imUnitario := aValorUnit;
         IM.imTotal := aTotal;
       end;
@@ -943,7 +945,8 @@ begin
   end else begin
     case aME.Tipo of
       trEstVenda  : FTot.InitVal(aME.PagEsp, aME.Total, aME.Desconto, aME.Pago, 0, aME.Obs, aME.ObsNF, panTot);
-      trEstCompra : FTot.InitCusto(aME.PAgEsp, aME.Total, aME.Desconto, aME.Obs, panTot);
+      trEstCompra,
+      trEstDevFor : FTot.InitCusto(aME.PAgEsp, aME.Total, aME.Desconto, aME.Obs, panTot);
     else 
       FTot.InitCusto(nil, 0, 0, aME.Obs, panTot);
     end;
@@ -958,11 +961,11 @@ begin
       aTipoDoc := tipodoc_pedido else
       aTipoDoc := tipodoc_venda;
 
-    if aTipoDoc=tipodoc_pedido then 
+    if aTipoDoc=tipodoc_pedido then
       cbRecibo.Visible := gRecibo.Imprimir[tipodoc_pedido] else
       cbRecibo.Visible := (not Dados.NFCeAtivo) and gRecibo.Imprimir[tipodoc_venda];
 
-    cbRecibo.Checked := gRecibo.ImpAuto[aTipoDoc];  
+    cbRecibo.Checked := gRecibo.ImpAuto[aTipoDoc];
   end else
     cbRecibo.Visible := False;
 
@@ -974,22 +977,23 @@ begin
   if FME.Tipo=trEstVenda then
     FFunc.Username := FME.Vendedor else
     FFunc.Username := FME.Func;
-  
+
   FCli.ID := FME.Cliente;
   FEntrega.Cliente := FME.Cliente;
   panEntrega.Visible := FME.Entregar;
   if panEntrega.Visible and (FME.endereco_entrega>'') then
     FEntrega.ID := FME.Native_End_Entrega else
     FEntrega.ID := TGuidEx.Empty;
-    
+
   if FME.Cliente>0 then
     TC := 0 else
     TC := 1;
 
   FDCValidator.SetOldCli(FCli.ID, FCli.Debito, FCli.Credito, FME.PagEsp.CreditoUsado, FME.PagEsp.Credito);
-  
+
   cmGravar.Enabled := aPodeSalvar and (aNovo or Permitido(daTraAlterar));
   FCli.Fornecedor := (FME.Tipo <> trEstVenda);
+
   UpdateTipoTran;
 
   if aNovo then begin
@@ -1088,7 +1092,7 @@ end;
 
 procedure TFrmME2.FormCreate(Sender: TObject);
 begin
-  cbCupom.Caption := Dados.tNFConfigNFStr.Value; 
+  cbCupom.Caption := Dados.tNFConfigNFStr.Value;
   if slConfig.Values['tutomode']='1' then begin
     WindowState := wsNormal;
     Position := poScreenCenter;
@@ -1102,10 +1106,11 @@ begin
   
   cmConfig.Enabled := Dados.CM.UA.Admin;
   FCredUsado := 0;
-  FPanAddProd  := DefPanVendaProdClass.Create(Self);
+  FPanAddProd  := TFrmPanVendaProd2.Create(Self);
   FPanAddProd.OnAddProd := OnAddProd;
   FPanAddProd.PanVendaProd.Parent := panBuscaProd;
   FPanAddProd.OnQuantOk := Self.OnQuantOk;
+  FPanAddProd.Fornecedor := Self.GetFornecedor;
 
   FPanItens := TPanItensVendaGrid.Create(Self);
   FpanItens.panPri.Parent := panLista;
@@ -1209,6 +1214,7 @@ end;
 
 procedure TFrmME2.FormShow(Sender: TObject);
 begin
+
   if lbTipoTran.Visible then begin
     lbTipoTran.Left := (panTopo.Width - lbTipoTran.Width) div 2;
   
@@ -1250,6 +1256,11 @@ begin
   Result := FME.FidResgate;
 end;
 
+function TFrmME2.GetFornecedor: Cardinal;
+begin
+  Result := FCli.ID;
+end;
+
 procedure TFrmME2.lbDadosNFClick(Sender: TObject);
 begin
   if FME.Tipo=trEstVenda then
@@ -1277,7 +1288,7 @@ end;
 
 procedure TFrmME2.AddItem(aItem: TncItemMovEst);
 begin
-  if not FidResgate then 
+  if not FidResgate then
     FTot.SubTotal := FTot.SubTotal + aItem.imTotal else
     FTot.PontosNec := FTot.PontosNec + aItem.imFidPontos;
   aItem.imTaxItens.LoadTaxItens(DM.tTax, DM.tTaxItens);  
@@ -1441,7 +1452,7 @@ begin
       FTot.SetPagEsp(FME.PagEsp);
     end;
   end;
-  panCli.Visible := FidResgate or (FME.Tipo in [trEstVenda, trEstCompra]);
+  panCli.Visible := FidResgate or (FME.Tipo in [trEstVenda, trEstCompra, trEstDevFor]);
 
   FPanAddProd.TipoTran := fme.tIPO;
 

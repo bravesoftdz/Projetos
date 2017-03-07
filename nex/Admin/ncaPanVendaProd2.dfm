@@ -921,4 +921,168 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
           00000000000000000000}
       end>
   end
+  object tME: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'MovEst'
+    Left = 464
+    Top = 280
+    object tMEID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tMEUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tMEID_ref: TLongWordField
+      FieldName = 'ID_ref'
+    end
+    object tMETran: TLongWordField
+      FieldName = 'Tran'
+    end
+    object tMEItem: TByteField
+      FieldName = 'Item'
+    end
+    object tMEtax_id: TLongWordField
+      FieldName = 'tax_id'
+    end
+    object tMEtax_incluido: TCurrencyField
+      FieldName = 'tax_incluido'
+    end
+    object tMEtax_incluir: TCurrencyField
+      FieldName = 'tax_incluir'
+    end
+    object tMEProduto: TLongWordField
+      FieldName = 'Produto'
+    end
+    object tMEQuant: TFloatField
+      FieldName = 'Quant'
+    end
+    object tMEUnitario: TCurrencyField
+      FieldName = 'Unitario'
+    end
+    object tMETotal: TCurrencyField
+      FieldName = 'Total'
+    end
+    object tMETotLiq: TCurrencyField
+      FieldName = 'TotLiq'
+    end
+    object tMECustoU: TCurrencyField
+      FieldName = 'CustoU'
+    end
+    object tMECustoT: TCurrencyField
+      FieldName = 'CustoT'
+    end
+    object tMELucro: TCurrencyField
+      FieldName = 'Lucro'
+    end
+    object tMEDesconto: TCurrencyField
+      FieldName = 'Desconto'
+    end
+    object tMEDescr: TWideStringField
+      FieldName = 'Descr'
+      Size = 100
+    end
+    object tMEObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tMETotalFinal: TCurrencyField
+      FieldName = 'TotalFinal'
+    end
+    object tMEPago: TCurrencyField
+      FieldName = 'Pago'
+    end
+    object tMEPagoPost: TCurrencyField
+      FieldName = 'PagoPost'
+    end
+    object tMEDescPost: TCurrencyField
+      FieldName = 'DescPost'
+    end
+    object tMEDataHora: TDateTimeField
+      FieldName = 'DataHora'
+    end
+    object tMEPend: TBooleanField
+      FieldName = 'Pend'
+    end
+    object tMEIncluidoEm: TDateTimeField
+      FieldName = 'IncluidoEm'
+    end
+    object tMEEntrada: TBooleanField
+      FieldName = 'Entrada'
+    end
+    object tMECancelado: TBooleanField
+      FieldName = 'Cancelado'
+    end
+    object tMEAjustaCusto: TBooleanField
+      FieldName = 'AjustaCusto'
+    end
+    object tMEEstoqueAnt: TFloatField
+      FieldName = 'EstoqueAnt'
+    end
+    object tMECliente: TLongWordField
+      FieldName = 'Cliente'
+    end
+    object tMECaixa: TIntegerField
+      FieldName = 'Caixa'
+    end
+    object tMECategoria: TStringField
+      FieldName = 'Categoria'
+    end
+    object tMENaoControlaEstoque: TBooleanField
+      FieldName = 'NaoControlaEstoque'
+    end
+    object tMEITran: TIntegerField
+      FieldName = 'ITran'
+    end
+    object tMETipoTran: TByteField
+      FieldName = 'TipoTran'
+    end
+    object tMESessao: TIntegerField
+      FieldName = 'Sessao'
+    end
+    object tMEDebDev: TCurrencyField
+      FieldName = 'DebDev'
+    end
+    object tMEComissao: TCurrencyField
+      FieldName = 'Comissao'
+    end
+    object tMEComissaoPerc: TFloatField
+      FieldName = 'ComissaoPerc'
+    end
+    object tMEComissaoLucro: TBooleanField
+      FieldName = 'ComissaoLucro'
+    end
+    object tMEVenDev: TBooleanField
+      FieldName = 'VenDev'
+    end
+    object tMEPermSemEstoque: TBooleanField
+      FieldName = 'PermSemEstoque'
+    end
+    object tMEFidResgate: TBooleanField
+      FieldName = 'FidResgate'
+    end
+    object tMEFidPontos: TFloatField
+      FieldName = 'FidPontos'
+    end
+    object tMERecVer: TLongWordField
+      FieldName = 'RecVer'
+    end
+  end
+  object tXML: TnxTable
+    ActiveRuntime = True
+    ActiveDesigntime = True
+    Database = Dados.db
+    TableName = 'xmls_compra'
+    IndexName = 'ITran'
+    Left = 528
+    Top = 104
+    object tXMLxml: TnxMemoField
+      FieldName = 'xml'
+      BlobType = ftMemo
+    end
+    object tXMLtran: TLongWordField
+      FieldName = 'tran'
+    end
+  end
 end
