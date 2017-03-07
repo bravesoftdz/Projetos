@@ -260,6 +260,7 @@ type
     cmDanfe: TdxBarLargeButton;
     cmImpRecibo: TdxBarLargeButton;
     TVTipoNFE: TcxGridDBColumn;
+    cmDevFor: TdxBarButton;
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;
       ARecord: TcxCustomGridRecord; var AText: string);
@@ -336,6 +337,7 @@ type
       APrevFocusedRecord, AFocusedRecord: TcxCustomGridRecord;
       ANewItemRecordFocusingChanged: Boolean);
     procedure cmImpReciboClick(Sender: TObject);
+    procedure cmDevForClick(Sender: TObject);
   private
     FLastCxFiltro : Integer;
     FBool : Boolean;
@@ -556,6 +558,11 @@ procedure TfbTranEst.AtualizaDireitos;
 var I: Integer;
 begin
   inherited;
+  //verifica se está em modo de desenvolvimento ou produção.
+  //NexAdmin.ini Adiciona a TAG Dev = 1 para testes.
+
+  if slConfig.Values['Dev'] = '1'  then
+    cmDevFor.Visible := ivAlways;
 
   TVTipoNFE.Visible := Dados.NFeAtivo and Dados.NFCeAtivo;
   TVTipoNFE.VisibleForCustomization := TVTipoNFE.Visible;
@@ -754,11 +761,12 @@ begin
 end;
 
 procedure TfbTranEst.cmTipoTranClick(Sender: TObject);
-var 
+var
   T: Byte;
   P : Byte;
   G: TGUID;
 
+//função para verificar se usuário pode realizar a operação selecionada.
 function PodeOper(aOper: Integer): Boolean;
 begin
   Result := Permitido(aOper);
@@ -767,19 +775,40 @@ end;
   
 begin
   inherited;
-  
+  //Pega o byte da transação. O código a ser repassado para abrir a tela ncaFrmME2
+  //Esta mesma tela pode ser entrada, saida, devolução de pedido, devolução de NF
   T := Byte(cmTipoTran.Items.Objects[cmTipoTran.ItemIndex]);
 
   case T of
-    trEstSaida : if not PodeOper(daEstSaida) then Exit;
-    trEstEntrada : if not PodeOper(daEstEntrada) then Exit;
-    trEstDevolucao : if not PodeOper(daDevolucao) then Exit;
-    trEstCompra : if not PodeOper(daEstCompras) then Exit;
+    //se a transação for do tipo Saida e usuário não tiver autorização sai do processo
+    trEstSaida :
+      if not PodeOper(daEstSaida) then
+        Exit;
+
+    //se a transação for do tipo entrada e usuário não tiver autorização sai do processo
+    trEstEntrada :
+      if not PodeOper(daEstEntrada) then
+        Exit;
+
+    //se a transação for do tipo Devolução (pedidos) e usuário não tiver autorização sai do processo
+    trEstDevolucao :
+      if not PodeOper(daDevolucao) then
+        Exit;
+
+    //se a transação for do tipo Compra e usuário não tiver autorização sai do processo
+    trEstCompra :
+      if not PodeOper(daEstCompras) then
+        Exit;
+
+     //Se a transação for do tipo devolução ao fornecedor e usuário não tiver autorização sai do processo
+    trEstDevFor :
+      if not PodeOper(daEstDevFor) then
+        Exit;
   end;
-  
 
   case T of
-    trEstVenda : begin  
+    //Caso a transação seja uma venda
+    trEstVenda : begin
       if not TfbVendas2._PodeVender then Exit;
       P := Dados.NovaVenda(G, 0, False, False, tamTelaPDV1);
       if P>0 then begin
@@ -793,14 +822,17 @@ begin
       end;
     end;  
 
-    trEstDevolucao : 
+    //caso a transação seja uma devolução
+    trEstDevolucao :
     if TFrmDev.Create(Self).FazDev(G) then begin
       if not Tab.Active then Tab.Open;
       if not tMovEst.Active then tMovEst.Open;
       if Tab.Locate('UID', G.ToString, []) then
         tMovEst.Locate('Tran', TabID.Value, []);
     end;
-        
+    //caso a transação seja uma devolução ao fornecedor.
+    //montar aqui a parte da devolução ao fornecedor.
+
   else
     Dados.NovoMovEst(T, 0);
   end;
@@ -844,6 +876,14 @@ end;
 class function TfbTranEst.Descricao: String;
 begin
   Result := rsTransacoesEstoque;
+end;
+
+procedure TfbTranEst.cmDevForClick(Sender: TObject);
+begin
+  inherited;
+    //chama a tela de movimentação de estoque. Passando como parametro o tipo de movimentação
+    //Passa o tipo Estoque devolução fornecedor.
+    Dados.NovoMovEst(trEstDevFor, 0);
 end;
 
 procedure TfbTranEst.cmMaxItensPropertiesEditValueChanged(Sender: TObject);

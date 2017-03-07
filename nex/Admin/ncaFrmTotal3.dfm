@@ -2,7 +2,7 @@ object FrmTotal3: TFrmTotal3
   Left = 0
   Top = 0
   Caption = 'FrmTotal3'
-  ClientHeight = 427
+  ClientHeight = 272
   ClientWidth = 1022
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
@@ -434,7 +434,7 @@ object FrmTotal3: TFrmTotal3
     Height = 32
     Width = 32
     FormatVersion = 1
-    DesignInfo = 20447400
+    DesignInfo = 9961688
     ImageInfo = <
       item
         Image.Data = {

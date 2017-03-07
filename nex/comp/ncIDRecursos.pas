@@ -91,6 +91,7 @@ resourcestring
     rsDireito73 = 'Ver informações de comissão';
     rsDireito74 = 'Alterar o vendedor';
     rsDireito75 = 'Criar carta de correção para NF-e';
+    rsDireito76 = 'Realizar devoluções ao fornecedor';
     
 
 const
@@ -180,9 +181,10 @@ const
   daVerDadosComissao = 73;
   daAlterarVendedor  = 74;
   daCCe              = 75;
+  daEstDevFor        = 76;
   
 
-  daQuantidade        = daCCe;
+  daQuantidade        = daEstDevFor;
 
   daDefault = [daCliCadastrar, daProCadastrar, daCaiAbrirFechar, daCaiVerAtual, daIniciarSessaoCliCad, 
                daAlterarTipoAcesso, daTraAlterar, daAtenderClientes, daAlterarCensuraH, daCaiVerValores, 
@@ -302,7 +304,8 @@ const
     rsDireito72,
     rsDireito73,
     rsDireito74,
-    rsDireito75);
+    rsDireito75,
+    rsDireito76);
     
     
 implementation

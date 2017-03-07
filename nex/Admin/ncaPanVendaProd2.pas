@@ -18,6 +18,8 @@ uses
   ImgList, ncMyImage, PngImage, cxCheckBox, frxClass, System.ImageList;
 
 type
+  TGetFornecedor = function : Cardinal of object;
+
   TFrmPanVendaProd2 = class(TFrmPanVendaProdBase)
     panInner: TLMDSimplePanel;
     panBuscaTop: TLMDSimplePanel;
@@ -100,6 +102,56 @@ type
     tProAlteradoEm: TDateTimeField;
     tProAlteradoPor: TStringField;
     tProRecVer: TLongWordField;
+    tME: TnxTable;
+    tMEID: TUnsignedAutoIncField;
+    tMEUID: TGuidField;
+    tMEID_ref: TLongWordField;
+    tMETran: TLongWordField;
+    tMEItem: TByteField;
+    tMEtax_id: TLongWordField;
+    tMEtax_incluido: TCurrencyField;
+    tMEtax_incluir: TCurrencyField;
+    tMEProduto: TLongWordField;
+    tMEQuant: TFloatField;
+    tMEUnitario: TCurrencyField;
+    tMETotal: TCurrencyField;
+    tMETotLiq: TCurrencyField;
+    tMECustoU: TCurrencyField;
+    tMECustoT: TCurrencyField;
+    tMELucro: TCurrencyField;
+    tMEDesconto: TCurrencyField;
+    tMEDescr: TWideStringField;
+    tMEObs: TWideMemoField;
+    tMETotalFinal: TCurrencyField;
+    tMEPago: TCurrencyField;
+    tMEPagoPost: TCurrencyField;
+    tMEDescPost: TCurrencyField;
+    tMEDataHora: TDateTimeField;
+    tMEPend: TBooleanField;
+    tMEIncluidoEm: TDateTimeField;
+    tMEEntrada: TBooleanField;
+    tMECancelado: TBooleanField;
+    tMEAjustaCusto: TBooleanField;
+    tMEEstoqueAnt: TFloatField;
+    tMECliente: TLongWordField;
+    tMECaixa: TIntegerField;
+    tMECategoria: TStringField;
+    tMENaoControlaEstoque: TBooleanField;
+    tMEITran: TIntegerField;
+    tMETipoTran: TByteField;
+    tMESessao: TIntegerField;
+    tMEDebDev: TCurrencyField;
+    tMEComissao: TCurrencyField;
+    tMEComissaoPerc: TFloatField;
+    tMEComissaoLucro: TBooleanField;
+    tMEVenDev: TBooleanField;
+    tMEPermSemEstoque: TBooleanField;
+    tMEFidResgate: TBooleanField;
+    tMEFidPontos: TFloatField;
+    tMERecVer: TLongWordField;
+    tXML: TnxTable;
+    tXMLxml: TnxMemoField;
+    tXMLtran: TLongWordField;
     procedure FormCreate(Sender: TObject);
     procedure btnLancarClick(Sender: TObject);
     procedure edQtdKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -157,6 +209,7 @@ type
     FCBBInfo: TncCodBarBalInfo;
     FTicksKey : Cardinal;
     FProdTexto : String;
+    FGetFornecedor : TGetFornecedor;
 
     function CorFocus: TColor;
 
@@ -183,6 +236,8 @@ type
     function QuantOk(aProduto: Cardinal; aQuant, aEstoque: Double): Boolean;
 
     function Focado: Boolean;
+
+    function getPrecoCusto (idProd :cardinal):Currency;
 
     procedure UpdateColor;
 
@@ -215,6 +270,9 @@ type
     procedure FocusProd(aFrom: String); override;
     function CanCloseForm: Boolean; override;
 
+    property Fornecedor: TGetFornecedor
+      read FGetFornecedor write FGetFornecedor;
+
     property Quant: Double
       read FQuant write SetQuant;
 
@@ -246,7 +304,7 @@ implementation
 
 uses ncaDM, ncaFrmPri, ncErros, ncaFrmEscolhaProdDup, 
   ncaFrmSemEstoque, ncaFrmProdSemFid, ncaFrmConfigTelaVendas, ncDebug,
-  ncaFrmNCMEdit;
+  ncaFrmNCMEdit, ncaStrings;
 
 {$R *.dfm}
 
@@ -324,7 +382,7 @@ begin
   if IDProd>0 then begin
     panValor.Enabled := True;
     panPreco.Enabled := True;
-    edUnit.Enabled := tProPodeAlterarPreco.Value or (TipoTran=trEstCompra);
+    edUnit.Enabled := tProPodeAlterarPreco.Value or (TipoTran = trEstCompra );
     lbTotal.Enabled := True;
 {    if TipoTran=trEstCompra then 
       edUnit.Value := tProCustoUnitario.Value;}
@@ -382,6 +440,25 @@ begin
   if (not QuantOk(tProID.Value, edQtd.Value, tProEstoqueAtual.Value)) and gConfig.NaoVenderAlemEstoque and (not tProNaoControlaEstoque.Value) then begin
     PermSemEstoque := TFrmSemEstoque.Create(Self).PodeVender(tProDescricao.Value, tProEstoqueAtual.Value);
     if not PermSemEstoque then Exit;
+  end;
+
+  if (TipoTran=trEstDevFor) then begin
+    if Fornecedor=0 then raise Exception.Create(rsNecessarioFornecedor);
+
+    //if Dados.NFeAtivo then begin
+      //se não achou nenhum movimento de entrada avisa usuario e cancela processo
+      if Unitario = 0  then
+        raise Exception.Create('Não há compras desse produto com esse fornecedor.');
+
+      //se não encontrou o XML de lançamento de entrada cancela operação e avisa o usuário
+      if not tXML.FindKey([tMETran.Value]) then
+        raise Exception.Create('Não é possível fazer devolução de compras sem o XML de compra.');
+
+      //verifica a quantidade informada pelo usuário, se a quantidade informada for maior que a
+      //quantidade lançada no documento de entrada avisa o usuario e cancela a operação.
+      if edQtd.value > tMEQuant.Value then
+        raise Exception.Create('Quantidade do item informado é maior que a quantidade lançada na NF-e entrada.');
+    //end;
   end;
 
   if Dados.NFAtivo and (TipoTran=trEstVenda) then
@@ -530,7 +607,7 @@ function GetCharFromVirtualKey(Key: Word): string;
     asciiResult: Integer;
  begin
     GetKeyboardState(keyboardState) ;
- 
+
     SetLength(Result, 2) ;
     asciiResult := ToAscii(key, MapVirtualKey(key, 0), keyboardState, @Result[1], 0) ;
     case asciiResult of
@@ -794,6 +871,7 @@ procedure TFrmPanVendaProd2.FormCreate(Sender: TObject);
 begin
   inherited;
   lbDigiteProduto.Visible := (edProd.EditingText='') and (slConfig.Values['tutomode']<>'1');
+  FGetFornecedor := nil;
   
   FCBBInfo.Clear; 
 
@@ -817,6 +895,24 @@ procedure TFrmPanVendaProd2.FormResize(Sender: TObject);
 begin
   inherited;
   AjustaPanQtd;
+end;
+
+function TFrmPanVendaProd2.getPrecoCusto(idProd: cardinal): Currency;
+begin
+  //Indice de pesquisa no banco de dados. Busca por Cancelado, Contato (cliente), Produto, Tipo da movimentação (compra) e data e hora.
+  //sempre que realizar alguma pesquisa desta maneira não pode "pular" os campos a serem pesquisados, somente pode ser ignorado os ultimos campos.
+  tME.IndexName := 'ICanceladoContatoProdutoTipoDataHora';
+  tME.SetRange([False, Fornecedor, tProID.Value, trEstCompra], [False, Fornecedor, tProID.Value, trEstCompra]);
+  tME.Last;
+  //se não encontrou registro retorna valor 0. se nao seta no ultimo registro
+  //da tabela e retorna o ultimo custo.
+  if tMe.IsEmpty then
+    Result := 0
+  else
+  begin
+    //tME.Last;
+    Result := tMECustoU.Value;
+  end;
 end;
 
 procedure TFrmPanVendaProd2.lbCifraoUnitClick(Sender: TObject);
@@ -944,17 +1040,29 @@ begin
     tPro.Locate('ID', FIDProd, []);
     CodStr := tProCodigo.Value;
     //MostrarUnit := ((FME.Tipo=trEstVenda) and tProPodeAlterarPreco.Value) or (FME.Tipo=trEstCompra);
+
     case TipoTran of
+      //se a transação for uma venda pega o preço de venda.
+      //se nas configurações o usuário marcou o para que possa alterar o preço de vende
+      //libera o campo conforme esta configuração.
       trEstVenda : begin
         Unitario := tProPreco.Value;
         edUnit.Enabled := tProPodeAlterarPreco.Value;
         edUnit.Properties.ReadOnly := False;
       end;
+
       trEstCompra : begin
         Unitario := tProCustoUnitario.Value;
         edUnit.Enabled := True;
         edUnit.Properties.ReadOnly := False;
-      end
+      end;
+
+      //Pega o ultimo custo conforme pela ID do produto na função getPrecoCusto(ID PROD)
+      trEstDevFor : begin
+        Unitario := getPrecoCusto(tProID.Value);
+        edUnit.Enabled := false;
+        edUnit.Properties.ReadOnly := False;
+      end;
     else
       edUnit.Value := 0;
     end;

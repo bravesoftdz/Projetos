@@ -2457,7 +2457,14 @@ begin
           Add(GetFieldFromName('Cliente'));
           Add(GetFieldFromName('TipoTran'));
           Add(GetFieldFromName('DataHora'));
-        end;        
+        end;
+        with AddIndex('ICanceladoContatoProdutoTipoDataHora', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Cancelado'));
+          Add(GetFieldFromName('Cliente'));
+          Add(GetFieldFromName('Produto'));
+          Add(GetFieldFromName('TipoTran'));
+          Add(GetFieldFromName('DataHora'));
+        end;
 
 {---- MOSTRAR CANCELADOS -----}    
    {---- Mesmo Caixa ----}    
