@@ -3446,7 +3446,7 @@ begin
   tTipoTranemite_nfe.Value := aEmiteNFe;
   tTipoTranmovest.Value := aEntrada;
   tTipoTranatualiza_custo.Value := aAtualiza_Custo;
-  tTipoTranvisivel.Value := TipoTranCaixa(aTipo) or (aTipo in [trEstVenda, trEstDevolucao, trEstCompra, trEstEntrada, trEstSaida]);
+  tTipoTranvisivel.Value := TipoTranCaixa(aTipo) or (aTipo in [trEstVenda, trEstDevolucao, trEstCompra, trEstEntrada, trEstSaida, trEstDevFor]);
   tTipoTranpagto.Value := (aTipo in [trEstVenda, trEstDevolucao]);
   tTipoTransel_endereco.Value := (aTipo in [trEstVenda]);
   tTipoTranTipoCad.Value := aTipoCad;

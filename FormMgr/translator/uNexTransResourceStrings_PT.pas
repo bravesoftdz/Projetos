@@ -54,6 +54,7 @@ resourcestring
   rsAjustaCusto   = 'Ajuste de Custo';
   rsZerarEstoque  = 'Zerar Estoque';
   rsDevolucao     = 'Devolução';
+  rsDevFor        = 'Devolução ao Fornecedor';
 
   rsCaixa = 'Caixa';
 

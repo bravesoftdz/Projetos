@@ -1762,6 +1762,7 @@ begin
     trAjustaCusto   : Result := rsAjustaCusto;
     trZerarEstoque  : Result := rsZerarEstoque;
     trEstDevolucao  : Result := rsDevolucao;
+    trEstDevFor     : Result := rsDevFor;
   else
     Result := '';
   end;
