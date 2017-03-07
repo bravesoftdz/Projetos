@@ -3472,6 +3472,7 @@ begin
   AddItem(trAjustaCusto,  tipocad_nenhum,     False, False, False, True);
   AddItem(trZerarEstoque, tipocad_nenhum,     False, False, True,  False);
   AddItem(trEstDevolucao, tipocad_cliente,    True,  True,  True,  False);
+  AddItem(trEstDevFor,    tipocad_fornecedor, False, True,  True,  False);
   
   DebugMsg(Self, 'PopulateTipoTran OK');
 end;

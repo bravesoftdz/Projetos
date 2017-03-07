@@ -122,13 +122,13 @@ begin
   if (Values[aIndex, 'IDProduto']=null) or
      (Values[aIndex, 'IDProduto']<>aIDProduto) then begin
 
-{    if tbPro.FindKey([aIDProduto]) then begin
+    if tbPro.FindKey([aIDProduto]) then begin
       aCodigo := tbProCodigo.Value;
       aDescr := tbProDescricao.Value;
-    end else begin}
+    end else begin
       aCodigo := '';
       aDescr := '';
- //   end;
+    end;
     Values[aIndex, 'IDProduto'] := aIDProduto;
     Values[aIndex, 'Codigo'] := VarToString(aCodigo)+'  ';
     Values[aIndex, 'Descr']  := aDescr; //Descr(VarToString(aCodigo), VarToString(aDescr));

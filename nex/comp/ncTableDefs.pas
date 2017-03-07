@@ -178,6 +178,40 @@ begin
   end;
 end;
 
+// ProdFor
+function __xmls_compra(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+      
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+          
+        AddField('xml', '', nxtBlobMemo, 10, 0, False);
+        AddField('Tran', '', nxtWord32, 10, 0, False);
+      end;
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('ID'));
+
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));   
+      
+        with AddIndex('ITran', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do 
+          Add(GetFieldFromName('Tran'));
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
 
 // ProdFor
 function __ProdFor(aDatabase : TnxDatabase): TnxDataDictionary;
@@ -3967,6 +4001,7 @@ initialization
     Add('movest_tax',   __movest_tax,   idtb_movest_tax);
     Add('BRTrib_Tipo',  __brtrib_tipo,  idtb_BRTrib_Tipo);
     Add('LinkXML',      __LinkXML,      idtb_LinkXML);
+    Add('xmls_compra',  __xmls_compra,  idtb_xmls_compra);
 
 // Tabelas que fazem backup no cloud mas possuem campos/indices de ID ou UID diferente do padrão    
 

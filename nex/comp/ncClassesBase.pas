@@ -76,6 +76,7 @@ const
   idtb_bk_upload    = 45;
   idtb_LinkXML      = 46;
   idtb_Marca        = 47;
+  idtb_xmls_compra  = 48;
 
   bk_status_criar_json = 0;
   bk_status_enviar     = 1;
