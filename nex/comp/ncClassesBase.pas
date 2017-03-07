@@ -1728,7 +1728,8 @@ begin
     trEstSaida,
     trAjustaCusto,
     trZerarEstoque,
-    trEstDevolucao]);
+    trEstDevolucao,
+    trEstDevFor]);
 end;
 
 function TipoTranCaixa(aTipo: Byte): Boolean;
@@ -1742,7 +1743,8 @@ begin
     trCaixaSai,
     trCorrDataCx,
     trAjustaFid,
-    trEstDevolucao]);
+    trEstDevolucao,
+    trEstDevFor]);
 end;
 
 function TipoTranToStr(const aTipoTran: Byte): String;

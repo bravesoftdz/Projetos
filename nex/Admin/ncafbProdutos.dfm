@@ -7,7 +7,6 @@ inherited fbProdutos: TfbProdutos
   Font.Height = -13
   OldCreateOrder = True
   Scaled = False
-  ExplicitTop = -157
   ExplicitWidth = 1036
   ExplicitHeight = 558
   PixelsPerInch = 96
@@ -2408,7 +2407,7 @@ inherited fbProdutos: TfbProdutos
         ItemName = 'cmTipoTran'
       end>
     UseOwnFont = True
-    Left = 488
-    Top = 220
+    Left = 472
+    Top = 340
   end
 end

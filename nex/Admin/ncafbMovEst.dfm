@@ -3,21 +3,21 @@ inherited fbMovEst: TfbMovEst
   Top = 157
   Caption = 'fbMovEst'
   ClientHeight = 392
-  ClientWidth = 693
+  ClientWidth = 877
   Font.Height = -13
   Font.Name = 'Segoe UI'
   OldCreateOrder = True
-  ExplicitWidth = 701
-  ExplicitHeight = 423
+  ExplicitWidth = 893
+  ExplicitHeight = 431
   PixelsPerInch = 96
   TextHeight = 17
   inherited panPri: TLMDSimplePanel
-    Width = 693
+    Width = 877
     Height = 392
     ExplicitWidth = 693
     ExplicitHeight = 392
     inherited dxBarDockControl1: TdxBarDockControl
-      Width = 693
+      Width = 877
       Height = 34
       SunkenBorder = False
       ExplicitWidth = 693
@@ -26,7 +26,7 @@ inherited fbMovEst: TfbMovEst
     object Grid: TcxGrid
       Left = 0
       Top = 34
-      Width = 693
+      Width = 877
       Height = 358
       Align = alClient
       BorderStyle = cxcbsNone
@@ -39,6 +39,7 @@ inherited fbMovEst: TfbMovEst
       TabOrder = 0
       LookAndFeel.Kind = lfUltraFlat
       LookAndFeel.NativeStyle = False
+      ExplicitWidth = 693
       object TV: TcxGridDBTableView
         OnDblClick = TVDblClick
         Navigator.Buttons.CustomButtons = <
@@ -102,7 +103,6 @@ inherited fbMovEst: TfbMovEst
         OptionsSelection.HideFocusRectOnExit = False
         OptionsSelection.UnselectFocusedRecordOnExit = False
         OptionsView.GridLineColor = 16053492
-        OptionsView.GroupByBox = False
         OptionsView.GroupFooters = gfVisibleWhenExpanded
         Preview.AutoHeight = False
         Styles.Header = FrmPri.cxsHeader
@@ -304,11 +304,8 @@ inherited fbMovEst: TfbMovEst
   inherited BarMgr: TdxBarManager
     ImageOptions.LargeImages = dmImagens.im24
     LookAndFeel.Kind = lfFlat
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
+    Left = 464
+    Top = 152
     inherited BarMgrBar1: TdxBar
       ItemLinks = <
         item
@@ -333,8 +330,8 @@ inherited fbMovEst: TfbMovEst
     inherited cmEditar: TdxBarLargeButton
       Caption = '&Editar / Ver Detalhes'
       Hint = 'Editar / Ver Detalhes'
-      LargeImageIndex = 2
       OnClick = cmEditarClick
+      LargeImageIndex = 2
       ShowCaption = True
       ImageIndex = 20
     end
@@ -342,8 +339,8 @@ inherited fbMovEst: TfbMovEst
       ImageIndex = 12
     end
     inherited cmExportar: TdxBarLargeButton
-      LargeImageIndex = -1
       PaintStyle = psCaption
+      LargeImageIndex = -1
     end
     inherited cmImprimir: TdxBarLargeButton
       Caption = '&Imprimir Lista'
@@ -368,9 +365,21 @@ inherited fbMovEst: TfbMovEst
       OnClick = cmExportar2Click
     end
   end
+  inherited MenuGrid: TcxGridPopupMenu
+    Left = 392
+    Top = 121
+  end
   inherited CP: TdxComponentPrinter
     Left = 200
     Top = 106
+  end
+  inherited dlgExp: TSaveDialog
+    Left = 288
+    Top = 177
+  end
+  inherited pmLay: TdxBarPopupMenu
+    Left = 288
+    Top = 122
   end
   object Tab: TnxTable
     ActiveDesigntime = True

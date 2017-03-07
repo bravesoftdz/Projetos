@@ -9235,7 +9235,6 @@ object Dados: TDados
     end
   end
   object tBrTrib: TnxTable
-    ActiveDesigntime = True
     Database = db
     TableName = 'BRTrib'
     IndexName = 'IID'
