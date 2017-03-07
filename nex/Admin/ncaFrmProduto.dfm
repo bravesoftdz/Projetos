@@ -446,8 +446,8 @@ object FrmProduto: TFrmProduto
               AnchorY = 32
             end
             object edAtual: TcxCurrencyEdit
-              Left = 10000
-              Top = 10000
+              Left = 140
+              Top = 369
               Margins.Top = 0
               Margins.Right = 0
               Margins.Bottom = 0
@@ -466,12 +466,11 @@ object FrmProduto: TFrmProduto
               Style.TextStyle = [fsBold]
               Style.IsFontAssigned = True
               TabOrder = 15
-              Visible = False
               Width = 189
             end
             object cbNaoControlaEstoque: TcxDBCheckBox
-              Left = 10000
-              Top = 10000
+              Left = 337
+              Top = 369
               Cursor = crHandPoint
               Caption = 'N'#227'o controlar estoque'
               DataBinding.DataField = 'NaoControlaEstoque'
@@ -492,11 +491,10 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 16
               Transparent = True
-              Visible = False
             end
             object edUnid: TcxDBLookupComboBox
-              Left = 10000
-              Top = 10000
+              Left = 140
+              Top = 406
               DataBinding.DataField = 'LookupUnid'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -521,13 +519,12 @@ object FrmProduto: TFrmProduto
               Properties.OnInitPopup = edUnidPropertiesInitPopup
               Style.StyleController = escFlat
               TabOrder = 17
-              Visible = False
               OnKeyDown = edUnidKeyDown
               Width = 189
             end
             object cbVendaFrac: TcxDBCheckBox
-              Left = 10000
-              Top = 10000
+              Left = 337
+              Top = 406
               Cursor = crHandPoint
               Caption = 'Permite fracionamento (Ex: venda por peso/kg)'
               DataBinding.DataField = 'PermiteVendaFracionada'
@@ -547,16 +544,14 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 18
               Transparent = True
-              Visible = False
             end
             object edLimites: TcxPopupEdit
-              Left = 10000
-              Top = 10000
+              Left = 140
+              Top = 443
               ParentFont = False
               Properties.OnInitPopup = edLimitesPropertiesInitPopup
               Style.StyleController = escFlat
               TabOrder = 19
-              Visible = False
               OnEnter = edLimitesEnter
               Width = 189
             end
@@ -793,13 +788,14 @@ object FrmProduto: TFrmProduto
               Width = 755
             end
             object panFornecedores: TLMDSimplePanel
-              Left = 24
-              Top = 369
+              Left = 10000
+              Top = 10000
               Width = 852
               Height = 61
               Hint = ''
               Bevel.Mode = bmCustom
               TabOrder = 35
+              Visible = False
             end
             object edObs: TcxDBMemo
               Left = 10000
@@ -1273,7 +1269,7 @@ object FrmProduto: TFrmProduto
               CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
               Hidden = True
-              ItemIndex = 3
+              ItemIndex = 5
               ShowBorder = False
               Index = -1
             end
@@ -1694,7 +1690,6 @@ object FrmProduto: TFrmProduto
               CaptionOptions.Text = 'New Group'
               CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
-              ItemIndex = 3
               LayoutDirection = ldTabbed
               LayoutLookAndFeelException = True
               Padding.AssignedValues = [lpavBottom, lpavLeft]
@@ -2213,6 +2208,7 @@ object FrmProduto: TFrmProduto
               Properties.WordWrap = True
               Transparent = True
               OnClick = lbSemFotoClick
+              ExplicitTop = 145
               Width = 178
               AnchorX = 100
               AnchorY = 166

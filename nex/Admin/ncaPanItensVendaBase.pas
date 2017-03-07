@@ -7,7 +7,7 @@ uses
   Dialogs, LMDControl, LMDCustomControl, LMDCustomPanel, LMDCustomBevelPanel,
   LMDSimplePanel, ncMovEst, cxGraphics, cxControls, cxLookAndFeels,
   cxLookAndFeelPainters, cxContainer, cxEdit, Menus, StdCtrls, cxButtons,
-  cxLabel, cxTextEdit, cxMemo;
+  cxLabel, cxTextEdit, cxMemo, Data.DB, nxdb;
 
 type
   
@@ -18,6 +18,10 @@ type
   TpanItensVendaBase = class(TForm)
     panPri: TLMDSimplePanel;
     panTot: TLMDSimplePanel;
+    tbPro: TnxTable;
+    tbProID: TUnsignedAutoIncField;
+    tbProCodigo: TWideStringField;
+    tbProDescricao: TWideStringField;
     procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
@@ -115,11 +119,16 @@ begin
     Count := Count+1;
   end;
   
-  with Dados do 
   if (Values[aIndex, 'IDProduto']=null) or
      (Values[aIndex, 'IDProduto']<>aIDProduto) then begin
-    aCodigo := tbPro.Lookup('ID', aIDProduto, 'Codigo');
-    aDescr := tbPro.Lookup('ID', aIDProduto, 'Descricao'); 
+
+{    if tbPro.FindKey([aIDProduto]) then begin
+      aCodigo := tbProCodigo.Value;
+      aDescr := tbProDescricao.Value;
+    end else begin}
+      aCodigo := '';
+      aDescr := '';
+ //   end;
     Values[aIndex, 'IDProduto'] := aIDProduto;
     Values[aIndex, 'Codigo'] := VarToString(aCodigo)+'  ';
     Values[aIndex, 'Descr']  := aDescr; //Descr(VarToString(aCodigo), VarToString(aDescr));

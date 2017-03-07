@@ -11,7 +11,7 @@ uses
   cxSpinEdit, cxGridLevel, cxGridCustomTableView, cxGridTableView, cxClasses,
   cxGridCustomView, cxGrid, dxBar, ncMovEst, ImgList, LMDDckAlphaImages,
   dxBarExtItems, cxContainer, cxLabel, Menus, StdCtrls, cxButtons, ExtCtrls,
-  ncMyImage, cxCheckBox, System.ImageList;
+  ncMyImage, cxCheckBox, System.ImageList, Data.DB, nxdb;
 
 type
   

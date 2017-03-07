@@ -1280,7 +1280,7 @@ begin
   if not FidResgate then 
     FTot.SubTotal := FTot.SubTotal + aItem.imTotal else
     FTot.PontosNec := FTot.PontosNec + aItem.imFidPontos;
-  aItem.imTaxItens.LoadTaxItens(DM.tTax, DM.tTaxItens);  
+//  aItem.imTaxItens.LoadTaxItens(DM.tTax, DM.tTaxItens);  
   FpanItens.UpdateItemMovEst(-1, aItem);
 end;
 
@@ -1315,13 +1315,23 @@ begin
 end;
 
 procedure TFrmME2.LoadItens;
-var I : Integer;
+var 
+  I : Integer;
+  C : Cardinal;
 begin
+  C := GetTickCount;
   FTot.SubTotal := 0;
-  for I := 0 to FME.Itens.Count - 1 do begin
-    AddItem(FME.Itens[I]);
-    FTot.Recebido := FME.Pago;
+  DebugMsg(Self, 'LoadItens 1');
+  FPanItens.Grid.BeginUpdate;
+  try
+    for I := 0 to FME.Itens.Count - 1 do 
+      AddItem(FME.Itens[I]);
+  finally
+    FPanItens.Grid.EndUpdate;
   end;
+  FTot.Recebido := FME.Pago;
+  C := GetTickCount-C;
+  DebugMsg(Self, 'LoadItens 2 - '+C.ToString);
 end;
 
 procedure TFrmME2.LoadItensOrcamento;

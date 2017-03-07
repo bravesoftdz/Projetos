@@ -38,4 +38,26 @@ object panItensVendaBase: TpanItensVendaBase
       TabOrder = 0
     end
   end
+  object tbPro: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    Timeout = 10000
+    Filtered = True
+    FilterOptions = [foCaseInsensitive]
+    TableName = 'Produto'
+    IndexName = 'IID'
+    Left = 136
+    Top = 88
+    object tbProID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tbProCodigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tbProDescricao: TWideStringField
+      FieldName = 'Descricao'
+      Size = 100
+    end
+  end
 end
