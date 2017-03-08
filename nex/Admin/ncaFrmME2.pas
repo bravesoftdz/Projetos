@@ -1512,6 +1512,7 @@ begin
       cbCompra.Checked := False;
       cbCompraClick(nil);
     end;
+    FME.XMLCompra := XML;
     AlimentaDadosFiscais;
     
     mt.First;

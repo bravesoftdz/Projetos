@@ -36,12 +36,11 @@ object FrmLeXML: TFrmLeXML
       Height = 489
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = tsProd
+      Properties.ActivePage = tsArq
       Properties.CustomButtons.Buttons = <>
       OnChange = pgPriChange
-      ClientRectBottom = 485
-      ClientRectLeft = 4
-      ClientRectRight = 748
+      ClientRectBottom = 489
+      ClientRectRight = 752
       ClientRectTop = 28
       object tsArq: TcxTabSheet
         Caption = 'tsArq'
@@ -51,8 +50,8 @@ object FrmLeXML: TFrmLeXML
         object LMDSimplePanel6: TLMDSimplePanel
           Left = 0
           Top = 30
-          Width = 744
-          Height = 427
+          Width = 752
+          Height = 431
           Hint = ''
           Align = alClient
           Bevel.Mode = bmEdge
@@ -80,13 +79,13 @@ object FrmLeXML: TFrmLeXML
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 0
-            Width = 720
+            Width = 728
           end
           object LMDSimplePanel7: TLMDSimplePanel
             AlignWithMargins = True
             Left = 12
-            Top = 43
-            Width = 720
+            Top = 47
+            Width = 728
             Height = 32
             Hint = ''
             Margins.Left = 10
@@ -96,7 +95,6 @@ object FrmLeXML: TFrmLeXML
             Align = alTop
             Bevel.Mode = bmCustom
             TabOrder = 1
-            ExplicitTop = 47
             object btnSelArq: TcxButton
               Left = 0
               Top = 0
@@ -121,7 +119,7 @@ object FrmLeXML: TFrmLeXML
           object lbErro: TcxLabel
             AlignWithMargins = True
             Left = 12
-            Top = 85
+            Top = 89
             Margins.Left = 10
             Margins.Top = 0
             Margins.Right = 10
@@ -163,7 +161,7 @@ object FrmLeXML: TFrmLeXML
           Properties.Alignment.Horz = taLeftJustify
           Transparent = True
           Height = 30
-          Width = 744
+          Width = 752
         end
       end
       object tsFor: TcxTabSheet
@@ -193,13 +191,13 @@ object FrmLeXML: TFrmLeXML
           Properties.Alignment.Horz = taLeftJustify
           Transparent = True
           Height = 30
-          Width = 744
+          Width = 752
         end
         object LMDSimplePanel8: TLMDSimplePanel
           Left = 0
           Top = 30
-          Width = 744
-          Height = 427
+          Width = 752
+          Height = 431
           Hint = ''
           Align = alClient
           Bevel.Mode = bmEdge
@@ -227,13 +225,13 @@ object FrmLeXML: TFrmLeXML
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 0
-            Width = 720
+            Width = 728
           end
           object panNewFor: TLMDSimplePanel
             AlignWithMargins = True
             Left = 12
             Top = 51
-            Width = 720
+            Width = 728
             Height = 86
             Hint = ''
             Margins.Left = 10
@@ -293,14 +291,14 @@ object FrmLeXML: TFrmLeXML
         object Splitter: TLMDSplitterPanel
           Left = 0
           Top = 30
-          Width = 744
-          Height = 427
+          Width = 752
+          Height = 431
           Hint = ''
           Bevel.Mode = bmCustom
           Bars = <
             item
               OldPosition = -1
-              Position = 368
+              Position = 372
               ResizeButtonStyle = rbsFlatGripOnly
               Width = 7
             end>
@@ -337,15 +335,15 @@ object FrmLeXML: TFrmLeXML
               Properties.Alignment.Horz = taLeftJustify
               Properties.Alignment.Vert = taVCenter
               Height = 29
-              Width = 357
+              Width = 361
               AnchorY = 15
             end
             object grid: TcxGrid
               AlignWithMargins = True
               Left = 0
               Top = 30
-              Width = 364
-              Height = 364
+              Width = 368
+              Height = 368
               Margins.Left = 0
               Margins.Top = 1
               Margins.Right = 0
@@ -461,7 +459,7 @@ object FrmLeXML: TFrmLeXML
             object lbPend: TcxLabel
               AlignWithMargins = True
               Left = 7
-              Top = 394
+              Top = 398
               Margins.Left = 7
               Margins.Top = 0
               Margins.Right = 0
@@ -479,8 +477,8 @@ object FrmLeXML: TFrmLeXML
               Properties.Alignment.Horz = taLeftJustify
               Properties.Alignment.Vert = taVCenter
               Height = 29
-              Width = 357
-              AnchorY = 409
+              Width = 361
+              AnchorY = 413
             end
           end
           object spLC: TLMDSplitterPane
@@ -491,8 +489,8 @@ object FrmLeXML: TFrmLeXML
               AlignWithMargins = True
               Left = 52
               Top = 68
-              Width = 317
-              Height = 359
+              Width = 321
+              Height = 363
               Margins.Left = 52
               Margins.Top = 20
               Margins.Right = 0
@@ -502,9 +500,8 @@ object FrmLeXML: TFrmLeXML
               Properties.ActivePage = tsConvUnid
               Properties.CustomButtons.Buttons = <>
               LookAndFeel.Kind = lfUltraFlat
-              ClientRectBottom = 355
-              ClientRectLeft = 4
-              ClientRectRight = 313
+              ClientRectBottom = 363
+              ClientRectRight = 321
               ClientRectTop = 28
               object tsSugestao: TcxTabSheet
                 Caption = 'tsSugestao'
@@ -519,12 +516,12 @@ object FrmLeXML: TFrmLeXML
                   StyleDisabled.LookAndFeel.Kind = lfFlat
                   TabOrder = 0
                   Height = 305
-                  Width = 309
+                  Width = 321
                   object btnPesquisar: TLMDButton
                     AlignWithMargins = True
                     Left = 12
                     Top = 205
-                    Width = 285
+                    Width = 297
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -552,7 +549,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 12
                     Top = 163
-                    Width = 285
+                    Width = 297
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -588,13 +585,12 @@ object FrmLeXML: TFrmLeXML
                     Caption = 'N'#227'o '#233' esse?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
-                    ExplicitTop = 136
                   end
                   object btnAceitarSug: TLMDButton
                     AlignWithMargins = True
                     Left = 12
                     Top = 90
-                    Width = 285
+                    Width = 297
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -632,7 +628,6 @@ object FrmLeXML: TFrmLeXML
                     Caption = #201' esse mesmo?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
-                    ExplicitTop = 63
                   end
                   object lbProdutoSugerido: TcxLabel
                     AlignWithMargins = True
@@ -657,7 +652,7 @@ object FrmLeXML: TFrmLeXML
                     Style.IsFontAssigned = True
                     Properties.Alignment.Vert = taVCenter
                     Properties.WordWrap = True
-                    Width = 285
+                    Width = 297
                     AnchorY = 36
                   end
                 end
@@ -665,14 +660,10 @@ object FrmLeXML: TFrmLeXML
               object tsSemProd: TcxTabSheet
                 Caption = 'tsSemProd'
                 ImageIndex = 1
-                ExplicitLeft = 0
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
-                  Width = 309
+                  Width = 321
                   Height = 32
                   Hint = ''
                   Margins.Left = 0
@@ -700,7 +691,7 @@ object FrmLeXML: TFrmLeXML
                   AlignWithMargins = True
                   Left = 0
                   Top = 42
-                  Width = 309
+                  Width = 321
                   Height = 32
                   Hint = ''
                   Margins.Left = 0
@@ -728,14 +719,10 @@ object FrmLeXML: TFrmLeXML
               object tsSemUnid: TcxTabSheet
                 Caption = 'tsSemUnid'
                 ImageIndex = 2
-                ExplicitLeft = 0
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object LMDHTMLLabel2: TLMDHTMLLabel
                   Left = 0
                   Top = 0
-                  Width = 308
+                  Width = 312
                   Height = 38
                   Margins.Left = 0
                   Margins.Top = 10
@@ -760,7 +747,7 @@ object FrmLeXML: TFrmLeXML
                 object LMDSimplePanel3: TLMDSimplePanel
                   Left = 0
                   Top = 38
-                  Width = 309
+                  Width = 321
                   Height = 32
                   Hint = ''
                   Align = alTop
@@ -795,7 +782,7 @@ object FrmLeXML: TFrmLeXML
                 object lbUnidProd: TLMDHTMLLabel
                   Left = 0
                   Top = 46
-                  Width = 309
+                  Width = 321
                   Height = 25
                   Margins.Left = 0
                   Margins.Right = 0
@@ -818,7 +805,7 @@ object FrmLeXML: TFrmLeXML
                 object lbUnidXML: TLMDHTMLLabel
                   Left = 0
                   Top = 21
-                  Width = 309
+                  Width = 321
                   Height = 25
                   Margins.Left = 0
                   Margins.Right = 0
@@ -879,7 +866,7 @@ object FrmLeXML: TFrmLeXML
                 object panRegra: TLMDSimplePanel
                   Left = 0
                   Top = 112
-                  Width = 309
+                  Width = 321
                   Height = 34
                   Hint = ''
                   Margins.Left = 0
@@ -894,7 +881,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 0
                     Top = 3
-                    Width = 309
+                    Width = 321
                     Height = 31
                     Hint = ''
                     Margins.Left = 0
@@ -1014,7 +1001,7 @@ object FrmLeXML: TFrmLeXML
                 end
                 object edUniv: TcxDBCheckBox
                   Left = 0
-                  Top = 293
+                  Top = 301
                   Cursor = crHandPoint
                   Align = alBottom
                   Caption = 'A convers'#227'o de CX para PC '#233' sempre igual, para TODOS produtos.'
@@ -1035,24 +1022,20 @@ object FrmLeXML: TFrmLeXML
                   StyleFocused.LookAndFeel.Kind = lfFlat
                   StyleHot.LookAndFeel.Kind = lfFlat
                   TabOrder = 4
-                  ExplicitTop = 306
-                  Width = 309
+                  ExplicitTop = 314
+                  Width = 321
                 end
               end
               object tsOk: TcxTabSheet
                 Caption = 'tsOk'
                 ImageIndex = 4
-                ExplicitLeft = 0
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
               end
             end
             object LMDSimplePanel1: TLMDSimplePanel
               AlignWithMargins = True
               Left = 0
               Top = 0
-              Width = 369
+              Width = 373
               Height = 48
               Hint = ''
               Margins.Left = 0
@@ -1065,7 +1048,7 @@ object FrmLeXML: TFrmLeXML
               object LMDSimplePanel2: TLMDSimplePanel
                 Left = 52
                 Top = 0
-                Width = 317
+                Width = 321
                 Height = 48
                 Hint = ''
                 Align = alClient
@@ -1099,7 +1082,7 @@ object FrmLeXML: TFrmLeXML
                 object LMDSimplePanel4: TLMDSimplePanel
                   Left = 0
                   Top = 17
-                  Width = 317
+                  Width = 321
                   Height = 31
                   Hint = ''
                   Align = alClient
@@ -1138,11 +1121,11 @@ object FrmLeXML: TFrmLeXML
                     StyleFocused.LookAndFeel.Kind = lfFlat
                     StyleHot.LookAndFeel.Kind = lfFlat
                     TabOrder = 0
-                    Width = 287
+                    Width = 291
                   end
                   object btnEditar: TcxButton
                     AlignWithMargins = True
-                    Left = 290
+                    Left = 294
                     Top = 0
                     Width = 27
                     Height = 31
@@ -1218,7 +1201,7 @@ object FrmLeXML: TFrmLeXML
           Properties.Alignment.Horz = taLeftJustify
           Transparent = True
           Height = 30
-          Width = 744
+          Width = 752
         end
       end
       object tsFrete: TcxTabSheet
@@ -1248,13 +1231,13 @@ object FrmLeXML: TFrmLeXML
           Properties.Alignment.Horz = taLeftJustify
           Transparent = True
           Height = 30
-          Width = 744
+          Width = 752
         end
         object panFrete: TLMDSimplePanel
           Left = 0
           Top = 30
-          Width = 744
-          Height = 427
+          Width = 752
+          Height = 431
           Hint = ''
           Align = alClient
           Bevel.Mode = bmEdge
@@ -1279,8 +1262,7 @@ object FrmLeXML: TFrmLeXML
             Style.StyleController = FrmPri.escFlat
             Style.IsFontAssigned = True
             TabOrder = 0
-            ExplicitWidth = 150
-            Width = 720
+            Width = 150
           end
           object cxLabel10: TcxLabel
             AlignWithMargins = True
@@ -1302,12 +1284,12 @@ object FrmLeXML: TFrmLeXML
             Style.TextStyle = []
             Style.IsFontAssigned = True
             Properties.WordWrap = True
-            Width = 722
+            Width = 730
           end
           object cxLabel11: TcxLabel
             AlignWithMargins = True
             Left = 12
-            Top = 63
+            Top = 71
             Margins.Left = 10
             Margins.Top = 0
             Margins.Right = 10
@@ -1326,12 +1308,12 @@ object FrmLeXML: TFrmLeXML
             Style.TextStyle = []
             Style.IsFontAssigned = True
             Properties.WordWrap = True
-            Width = 720
+            Width = 728
           end
           object cbEntrada: TcxCheckBox
             AlignWithMargins = True
             Left = 12
-            Top = 129
+            Top = 137
             Margins.Left = 10
             Margins.Top = 20
             Margins.Right = 10
@@ -1353,8 +1335,6 @@ object FrmLeXML: TFrmLeXML
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 3
-            ExplicitTop = 137
-            ExplicitWidth = 121
           end
         end
       end
