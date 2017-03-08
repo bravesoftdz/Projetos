@@ -188,6 +188,7 @@ type
     FOnConcluir : TNotifyEvent;
     FTotal : Currency;
     FpercFrete : Double;
+    FXML : String;
     { Private declarations }
     procedure LoadProd;  
     procedure LoadDadosProd;
@@ -216,6 +217,8 @@ type
     function QuantFator: Double;
 
     function Frete: Currency;
+
+    property XML: String read FXML;
 
     property Total: Currency
       read FTotal;
@@ -411,6 +414,7 @@ begin
   sl := TStringList.Create;
   try
     sl.LoadFromFile(OpenXML.FileName);
+    FXML := sl.Text;
     dmDanfe.LoadXML(sl.Text, 0, '', '', '', '', Dados.tbConfig, '', '', '', False);
 
     edFrete.Value := dmDanfe.mtTotalvFrete.Value;
