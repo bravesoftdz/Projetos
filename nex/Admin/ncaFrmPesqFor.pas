@@ -30,7 +30,7 @@ uses
   dxPScxPivotGridLnk, uNexTransResourceStrings_PT, cxBarEditItem, cxButtons,
   dxGDIPlusClasses, LMDPNGImage, Menus, ncMyImage, ImgList, cxLookupEdit,
   cxDBLookupEdit, cxDBLookupComboBox, cxPCdxBarPopupMenu, DBCtrls, cxPC,
-  cxImage, cxDBEdit, dxBarBuiltInMenu, ncDMDanfe_NFCE, System.ImageList;
+  cxImage, cxDBEdit, dxBarBuiltInMenu, ncDMDanfe_NFE, System.ImageList;
 
 type
   TFrmPesqFor = class(TForm)
@@ -162,7 +162,7 @@ type
     FUpdating : Boolean;
     FSave: String;
     FBuscaPor: Byte;
-    FDMDanfe : TdmDanfe_NFCE;
+    FDMDanfe : TdmDanfe_NFE;
 
     procedure Atualiza;
 
@@ -177,7 +177,7 @@ type
     property BuscaPor: Byte
       read FBuscaPor write SetBuscaPor;
 
-    function Pesquisar(var aID: Integer; var aNome: String; var aFidPontos: Double; const aDMDanfe: TdmDanfe_NFCE = nil): Boolean;
+    function Pesquisar(var aID: Integer; var aNome: String; var aFidPontos: Double; const aDMDanfe: TdmDanfe_NFE = nil): Boolean;
 
     procedure Reset;
 
@@ -324,7 +324,7 @@ begin
 end;
 
 function TFrmPesqFor.Pesquisar(var aID: Integer; var aNome: String;
-  var aFidPontos: Double; const aDMDanfe: TdmDanfe_NFCE = nil): Boolean;
+  var aFidPontos: Double; const aDMDanfe: TdmDanfe_NFE = nil): Boolean;
 begin
   FUpdating := True;
   try

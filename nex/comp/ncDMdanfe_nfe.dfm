@@ -243,7 +243,160 @@ object dmDanfe_nfe: TdmDanfe_nfe
     DesignActivation = True
     AttachedAutoRefresh = True
     AttachMaxCount = 1
-    FieldDefs = <>
+    FieldDefs = <
+      item
+        Name = 'nItem'
+        DataType = ftWord
+      end
+      item
+        Name = 'cProd'
+        DataType = ftString
+        Size = 30
+      end
+      item
+        Name = 'cEAN'
+        DataType = ftString
+        Size = 15
+      end
+      item
+        Name = 'xProd'
+        DataType = ftString
+        Size = 100
+      end
+      item
+        Name = 'CFOP'
+        DataType = ftWord
+      end
+      item
+        Name = 'uCom'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'qCom'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vUnCom'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vProd'
+        DataType = ftFloat
+      end
+      item
+        Name = 'cEANTrib'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'uTrib'
+        DataType = ftFloat
+      end
+      item
+        Name = 'qTrib'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vUnTrib'
+        DataType = ftFloat
+      end
+      item
+        Name = 'indTot'
+        DataType = ftWord
+      end
+      item
+        Name = 'vTotTrib'
+        DataType = ftFloat
+      end
+      item
+        Name = 'orig'
+        DataType = ftWord
+      end
+      item
+        Name = 'CST'
+        DataType = ftWord
+      end
+      item
+        Name = 'CSOSN'
+        DataType = ftWord
+      end
+      item
+        Name = 'Codigo'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'vlUnitario'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'vlTotal'
+        DataType = ftString
+        Size = 20
+      end
+      item
+        Name = 'NCM'
+        DataType = ftString
+        Size = 8
+      end
+      item
+        Name = 'vIPI'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vDesc'
+        DataType = ftFloat
+      end
+      item
+        Name = 'modBC'
+        DataType = ftWord
+      end
+      item
+        Name = 'ICMS_CST'
+        DataType = ftWord
+      end
+      item
+        Name = 'ICMS_vBC'
+        DataType = ftFloat
+      end
+      item
+        Name = 'pICMS'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vICMS'
+        DataType = ftFloat
+      end
+      item
+        Name = 'cEnq'
+        DataType = ftWord
+      end
+      item
+        Name = 'IPI_CST'
+        DataType = ftWord
+      end
+      item
+        Name = 'PIS_CST'
+        DataType = ftWord
+      end
+      item
+        Name = 'PIS_vBC'
+        DataType = ftFloat
+      end
+      item
+        Name = 'pPIS'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vPIS'
+        DataType = ftFloat
+      end
+      item
+        Name = 'COFINS_CST'
+        DataType = ftWord
+      end>
     IndexDefs = <>
     SortOptions = []
     PersistentBackup = False
@@ -293,9 +446,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
     object mtItemcEANTrib: TStringField
       FieldName = 'cEANTrib'
     end
-    object mtItemuTrib: TFloatField
-      FieldName = 'uTrib'
-    end
     object mtItemqTrib: TFloatField
       FieldName = 'qTrib'
     end
@@ -336,23 +486,114 @@ object dmDanfe_nfe: TdmDanfe_nfe
       FieldName = 'NCM'
       Size = 8
     end
-    object mtItemvICMSST: TFloatField
-      FieldName = 'vICMSST'
-    end
     object mtItemvIPI: TFloatField
       FieldName = 'vIPI'
     end
     object mtItemvDesc: TFloatField
       FieldName = 'vDesc'
     end
-    object mtItemvBC: TFloatField
-      FieldName = 'vBC'
+    object mtItemmodBC: TWordField
+      FieldKind = fkCalculated
+      FieldName = 'modBC'
+      Calculated = True
+    end
+    object mtItemICMS_CST: TWordField
+      FieldName = 'ICMS_CST'
+    end
+    object mtItemICMS_vBC: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'ICMS_vBC'
+      Calculated = True
     end
     object mtItempICMS: TFloatField
       FieldName = 'pICMS'
     end
     object mtItemvICMS: TFloatField
       FieldName = 'vICMS'
+    end
+    object mtItemcEnq: TWordField
+      FieldName = 'cEnq'
+    end
+    object mtItemIPI_CST: TWordField
+      FieldName = 'IPI_CST'
+    end
+    object mtItemPIS_CST: TWordField
+      FieldKind = fkCalculated
+      FieldName = 'PIS_CST'
+      Calculated = True
+    end
+    object mtItemPIS_vBC: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'PIS_vBC'
+      Calculated = True
+    end
+    object mtItempPIS: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'pPIS'
+      Calculated = True
+    end
+    object mtItemvPIS: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'vPIS'
+      Calculated = True
+    end
+    object mtItemCOFINS_CST: TWordField
+      FieldKind = fkCalculated
+      FieldName = 'COFINS_CST'
+      Calculated = True
+    end
+    object mtItemCOFINS_vBC: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'COFINS_vBC'
+      Calculated = True
+    end
+    object mtItempCofins: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'pCofins'
+      Calculated = True
+    end
+    object mtItemvCofins: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'vCofins'
+      Calculated = True
+    end
+    object mtItemmodBCST: TWordField
+      FieldKind = fkCalculated
+      FieldName = 'modBCST'
+      Calculated = True
+    end
+    object mtItempMVAST: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'pMVAST'
+      Calculated = True
+    end
+    object mtItemvBCST: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'vBCST'
+      Calculated = True
+    end
+    object mtItempICMSST: TWordField
+      FieldKind = fkCalculated
+      FieldName = 'pICMSST'
+      Calculated = True
+    end
+    object mtItemvICMSST: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'vICMSST'
+      Calculated = True
+    end
+    object mtItemIPI_vBC: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'IPI_vBC'
+      Calculated = True
+    end
+    object mtItempIPI: TFloatField
+      FieldKind = fkCalculated
+      FieldName = 'pIPI'
+      Calculated = True
+    end
+    object mtItemuTrib: TStringField
+      FieldName = 'uTrib'
     end
   end
   object mtTotal: TkbmMemTable
@@ -890,7 +1131,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     Top = 200
   end
   object repBobina: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -15985,7 +16226,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
-          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -16032,7 +16272,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object repFolha: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -31129,7 +31369,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
-          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -31176,7 +31415,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object frCustom: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -46274,7 +46513,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
-          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -47006,7 +47244,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object frRep: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]

@@ -32,7 +32,7 @@ uses
   dxPSFillPatterns, dxPSEdgePatterns, dxPSPDFExportCore, dxPSPDFExport,
   cxDrawTextUtils, dxPSPrVwStd, dxPSPrVwAdv, dxPSPrVwRibbon,
   dxPScxPageControlProducer, dxPScxGridLnk, dxPScxGridLayoutViewLnk, ncaFrmMemoEnd,
-  dxPScxEditorProducers, dxPScxExtEditorProducers, dxPSCore, dxPScxCommon, ncDMDanfe_NFCE,
+  dxPScxEditorProducers, dxPScxExtEditorProducers, dxPSCore, dxPScxCommon, ncDMDanfe_NFE,
   dxPScxPivotGridLnk;
 
 
@@ -209,7 +209,7 @@ type
     FRgAnt : String;
     FTab : TDataset;
     FCHorario : Cardinal;
-    function Novo(aTab: TDataset; aPai: TWinControl; const aDMDanfe: TdmDanfe_NFCE = nil): Integer;
+    function Novo(aTab: TDataset; aPai: TWinControl; const aDMDanfe: TdmDanfe_NFE = nil): Integer;
     function Editar(aTab: TDataset; aPai: TWinControl): Boolean;
 
     { Public declarations }
@@ -499,7 +499,7 @@ begin
   
 end;
 
-function TFrmCadFornecedor.Novo(aTab: TDataset; aPai: TwinControl; const aDMDanfe: TdmDanfe_NFCE = nil): Integer;
+function TFrmCadFornecedor.Novo(aTab: TDataset; aPai: TwinControl; const aDMDanfe: TdmDanfe_NFE = nil): Integer;
 begin
   if aTab=nil then aTab := Dados.tbCli;
   nbiTran.Enabled := False;

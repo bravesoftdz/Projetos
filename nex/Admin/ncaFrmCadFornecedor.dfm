@@ -149,6 +149,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
       object tsDados: TcxTabSheet
         Caption = 'Ficha'
         ImageIndex = 0
+        ExplicitLeft = 0
+        ExplicitTop = 0
         ExplicitWidth = 819
         ExplicitHeight = 417
         object lcFicha: TdxLayoutControl
@@ -184,7 +186,7 @@ object FrmCadFornecedor: TFrmCadFornecedor
             StyleHot.LookAndFeel.NativeStyle = False
             StyleHot.LookAndFeel.SkinName = ''
             TabOrder = 0
-            Width = 531
+            Width = 570
           end
           object edTelefone: TcxDBTextEdit
             Left = 94
@@ -257,7 +259,7 @@ object FrmCadFornecedor: TFrmCadFornecedor
             StyleHot.LookAndFeel.NativeStyle = False
             StyleHot.LookAndFeel.SkinName = ''
             TabOrder = 6
-            Width = 531
+            Width = 570
           end
           object edObs: TcxDBMemo
             Left = 94
@@ -283,7 +285,7 @@ object FrmCadFornecedor: TFrmCadFornecedor
             StyleHot.LookAndFeel.SkinName = ''
             TabOrder = 7
             Height = 65
-            Width = 531
+            Width = 570
           end
           object edCNPJ: TcxDBTextEdit
             Left = 94
@@ -367,6 +369,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Text = 'Nome'
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edNome
+            ControlOptions.OriginalHeight = 25
+            ControlOptions.OriginalWidth = 531
             ControlOptions.ShowBorder = False
             Index = 0
           end
@@ -394,6 +398,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Text = 'Telefone'
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edTelefone
+            ControlOptions.OriginalHeight = 25
+            ControlOptions.OriginalWidth = 171
             ControlOptions.ShowBorder = False
             Index = 0
           end
@@ -403,6 +409,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Width = 50
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edCelular
+            ControlOptions.OriginalHeight = 25
+            ControlOptions.OriginalWidth = 150
             ControlOptions.ShowBorder = False
             Index = 1
           end
@@ -413,6 +421,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Text = 'CNPJ'
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edCNPJ
+            ControlOptions.OriginalHeight = 25
+            ControlOptions.OriginalWidth = 171
             ControlOptions.ShowBorder = False
             Index = 1
           end
@@ -422,6 +432,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Text = 'E-mail'
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edEmail
+            ControlOptions.OriginalHeight = 25
+            ControlOptions.OriginalWidth = 531
             ControlOptions.ShowBorder = False
             Index = 3
           end
@@ -431,6 +443,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Text = 'Observa'#231#245'es'
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edObs
+            ControlOptions.OriginalHeight = 65
+            ControlOptions.OriginalWidth = 531
             ControlOptions.ShowBorder = False
             Index = 4
           end
@@ -441,6 +455,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.Text = 'IE'
             LayoutLookAndFeel = FrmPri.lfDefault
             Control = edIE
+            ControlOptions.OriginalHeight = 25
+            ControlOptions.OriginalWidth = 171
             ControlOptions.ShowBorder = False
             Index = 1
           end
@@ -450,6 +466,8 @@ object FrmCadFornecedor: TFrmCadFornecedor
             CaptionOptions.AlignVert = tavTop
             CaptionOptions.Text = 'Endere'#231'o'
             Control = panEnd
+            ControlOptions.OriginalHeight = 93
+            ControlOptions.OriginalWidth = 570
             ControlOptions.ShowBorder = False
             Index = 2
           end
@@ -466,8 +484,7 @@ object FrmCadFornecedor: TFrmCadFornecedor
       object tsProdutos: TcxTabSheet
         Caption = 'Produtos'
         ImageIndex = 2
-        ExplicitWidth = 819
-        ExplicitHeight = 417
+        ExplicitHeight = 350
         object gridProd: TcxGrid
           AlignWithMargins = True
           Left = 0
@@ -556,7 +573,6 @@ object FrmCadFornecedor: TFrmCadFornecedor
           Height = 36
           Align = dalTop
           BarManager = BarMgr
-          ExplicitWidth = 819
         end
       end
     end
@@ -681,10 +697,10 @@ object FrmCadFornecedor: TFrmCadFornecedor
       Category = 0
       Hint = 'Salvar - F2'
       Visible = ivAlways
-      LargeImageIndex = 5
       OnClick = cmGravarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 5
       SyncImageIndex = False
       ImageIndex = 4
     end
@@ -693,10 +709,10 @@ object FrmCadFornecedor: TFrmCadFornecedor
       Category = 0
       Hint = 'Cancelar'
       Visible = ivAlways
-      LargeImageIndex = 4
       OnClick = cmCancelarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 4
     end
     object dxBarCombo1: TdxBarCombo
       Caption = 'Tipo da Conta'
@@ -730,20 +746,20 @@ object FrmCadFornecedor: TFrmCadFornecedor
       Category = 0
       Hint = 'Imprimir'
       Visible = ivAlways
-      LargeImageIndex = 17
       OnClick = dxBarLargeButton1Click
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 17
     end
     object dxBarLargeButton2: TdxBarLargeButton
       Caption = 'Exportar'
       Category = 0
       Hint = 'Exportar'
       Visible = ivAlways
-      LargeImageIndex = 31
       OnClick = dxBarLargeButton2Click
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 31
     end
   end
   object DS: TDataSource
@@ -1243,18 +1259,18 @@ object FrmCadFornecedor: TFrmCadFornecedor
       Active = True
       Component = gridProd
       PrinterPage.DMPaper = 9
-      PrinterPage.Footer = 6350
-      PrinterPage.Header = 6350
-      PrinterPage.Margins.Bottom = 12700
-      PrinterPage.Margins.Left = 12700
-      PrinterPage.Margins.Right = 12700
-      PrinterPage.Margins.Top = 12700
+      PrinterPage.Footer = 200
+      PrinterPage.Header = 100
+      PrinterPage.Margins.Bottom = 500
+      PrinterPage.Margins.Left = 500
+      PrinterPage.Margins.Right = 500
+      PrinterPage.Margins.Top = 500
       PrinterPage.Orientation = poLandscape
-      PrinterPage.PageSize.X = 210000
-      PrinterPage.PageSize.Y = 297000
+      PrinterPage.PageSize.X = 8300
+      PrinterPage.PageSize.Y = 11700
       PrinterPage._dxMeasurementUnits_ = 0
-      PrinterPage._dxLastMU_ = 2
-      ReportDocument.CreationDate = 42738.452146493060000000
+      PrinterPage._dxLastMU_ = 1
+      ReportDocument.CreationDate = 42802.642606620370000000
       ReportTitle.Text = 'Produtos'
       OptionsOnEveryPage.FilterBar = False
       OptionsView.FilterBar = False

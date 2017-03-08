@@ -156,6 +156,11 @@ type
     mtItemvICMSST: TFloatField;
     mtItemvIPI: TFloatField;
     mtItemvDesc: TFloatField;
+    mtItemICMS_CST: TStringField;
+    mtItemmodBC: TWordField;
+    mtItemICMS_vBC: TFloatField;
+    mtItempICMS: TFloatField;
+    mtItemvICMS: TFloatField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure l(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);

@@ -113,6 +113,9 @@ object FrmProduto: TFrmProduto
       object tsDados: TcxTabSheet
         Caption = 'Dados'
         ImageIndex = 91
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object panCad: TLMDSimplePanel
           AlignWithMargins = True
           Left = 7
@@ -2114,29 +2117,36 @@ object FrmProduto: TFrmProduto
         Properties.CustomButtons.Buttons = <>
         Properties.HideTabs = True
         LookAndFeel.NativeStyle = False
-        ClientRectBottom = 177
-        ClientRectRight = 200
-        ClientRectTop = 0
+        ClientRectBottom = 176
+        ClientRectLeft = 1
+        ClientRectRight = 199
+        ClientRectTop = 1
         object tsSemFoto: TcxTabSheet
           Caption = 'SemFoto'
           ImageIndex = 0
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 200
+          ExplicitHeight = 177
           object panSemFoto: TLMDSimplePanel
             Left = 0
             Top = 0
-            Width = 200
-            Height = 177
+            Width = 198
+            Height = 175
             Hint = ''
             Align = alClient
             Bevel.BorderColor = clBtnShadow
             Bevel.LightColor = 15987699
             Bevel.Mode = bmStandard
             TabOrder = 0
+            ExplicitWidth = 200
+            ExplicitHeight = 177
             object Image1: TImage
               AlignWithMargins = True
               Left = 1
               Top = 1
-              Width = 198
-              Height = 95
+              Width = 196
+              Height = 93
               Margins.Left = 0
               Margins.Top = 0
               Margins.Right = 0
@@ -2175,7 +2185,7 @@ object FrmProduto: TFrmProduto
             object lbSemFoto: TcxLabel
               AlignWithMargins = True
               Left = 11
-              Top = 132
+              Top = 130
               Cursor = crHandPoint
               Margins.Left = 10
               Margins.Top = 10
@@ -2203,9 +2213,10 @@ object FrmProduto: TFrmProduto
               Transparent = True
               OnClick = lbSemFotoClick
               ExplicitTop = 145
-              Width = 178
-              AnchorX = 100
-              AnchorY = 166
+              ExplicitWidth = 178
+              Width = 176
+              AnchorX = 99
+              AnchorY = 164
             end
           end
         end
@@ -2213,6 +2224,10 @@ object FrmProduto: TFrmProduto
           AllowCloseButton = False
           Caption = 'Foto'
           ImageIndex = 1
+          ExplicitLeft = 0
+          ExplicitTop = 0
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object panFoto: TLMDSimplePanel
             Left = 0
             Top = 0
@@ -2239,8 +2254,8 @@ object FrmProduto: TFrmProduto
               Style.Color = clWhite
               Style.TransparentBorder = False
               TabOrder = 0
-              Height = 175
-              Width = 198
+              Height = 173
+              Width = 196
             end
           end
         end

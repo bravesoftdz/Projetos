@@ -36,7 +36,7 @@ uses
   ncaFrmListaFornecedores,
   ncaFrmCESTPesq, 
   ncaFrmTaxPesq,
-  ncDMdanfe_NFCE, System.ImageList;
+  ncDMdanfe_NFE, System.ImageList;
 
 const
    kAlturaTotalFrmProduto = 555;
@@ -480,7 +480,7 @@ type
     { Public declarations }
     procedure TentaGravar;
     procedure Editar(aTab: TnxTable; const aFocusUnid: Boolean = False);
-    function Incluir(aTab: TnxTable; const aDMDanfe: TdmDanfe_NFCE = nil; const aFor: Integer = 0): Boolean;
+    function Incluir(aTab: TnxTable; const aDMDanfe: TdmDanfe_NFE = nil; const aFor: Integer = 0): Boolean;
   end;
 
 var
@@ -866,7 +866,7 @@ begin
             cbVendaFrac.Focused;
 end;
 
-function TFrmProduto.Incluir(aTab: TnxTable; const aDMDanfe: TDMdanfe_NFCE = nil; const aFor: integer = 0): Boolean;
+function TFrmProduto.Incluir(aTab: TnxTable; const aDMDanfe: TDMdanfe_NFE = nil; const aFor: integer = 0): Boolean;
 var S: String;
 begin
   FNovo := True;

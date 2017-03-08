@@ -585,6 +585,7 @@ object FrmLeXML: TFrmLeXML
                     Caption = 'N'#227'o '#233' esse?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
+                    ExplicitTop = 136
                   end
                   object btnAceitarSug: TLMDButton
                     AlignWithMargins = True
@@ -628,6 +629,7 @@ object FrmLeXML: TFrmLeXML
                     Caption = #201' esse mesmo?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
+                    ExplicitTop = 63
                   end
                   object lbProdutoSugerido: TcxLabel
                     AlignWithMargins = True
@@ -660,6 +662,9 @@ object FrmLeXML: TFrmLeXML
               object tsSemProd: TcxTabSheet
                 Caption = 'tsSemProd'
                 ImageIndex = 1
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
@@ -719,6 +724,9 @@ object FrmLeXML: TFrmLeXML
               object tsSemUnid: TcxTabSheet
                 Caption = 'tsSemUnid'
                 ImageIndex = 2
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
                 object LMDHTMLLabel2: TLMDHTMLLabel
                   Left = 0
                   Top = 0
@@ -1029,6 +1037,9 @@ object FrmLeXML: TFrmLeXML
               object tsOk: TcxTabSheet
                 Caption = 'tsOk'
                 ImageIndex = 4
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
               end
             end
             object LMDSimplePanel1: TLMDSimplePanel

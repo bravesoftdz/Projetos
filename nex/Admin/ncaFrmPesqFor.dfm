@@ -717,10 +717,10 @@ object FrmPesqFor: TFrmPesqFor
       Properties.ActivePage = tsSemFoto
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
-      ClientRectBottom = 69
-      ClientRectLeft = 4
-      ClientRectRight = 93
-      ClientRectTop = 4
+      ClientRectBottom = 72
+      ClientRectLeft = 1
+      ClientRectRight = 96
+      ClientRectTop = 1
       object tsSemFoto: TcxTabSheet
         Caption = 'tsSemFoto'
         ImageIndex = 0
@@ -770,8 +770,8 @@ object FrmPesqFor: TFrmPesqFor
           Style.TransparentBorder = False
           TabOrder = 0
           OnClick = imgEditClick
-          Height = 65
-          Width = 89
+          Height = 71
+          Width = 95
         end
       end
     end

@@ -332,6 +332,21 @@ object dmDanfe_NFCE: TdmDanfe_NFCE
     object mtItemvDesc: TFloatField
       FieldName = 'vDesc'
     end
+    object mtItemICMS_CST: TStringField
+      FieldName = 'ICMS_CST'
+    end
+    object mtItemmodBC: TWordField
+      FieldName = 'modBC'
+    end
+    object mtItemICMS_vBC: TFloatField
+      FieldName = 'ICMS_vBC'
+    end
+    object mtItempICMS: TFloatField
+      FieldName = 'pICMS'
+    end
+    object mtItemvICMS: TFloatField
+      FieldName = 'vICMS'
+    end
   end
   object mtTotal: TkbmMemTable
     DesignActivation = True

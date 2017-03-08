@@ -59,7 +59,6 @@ type
     mtItemvUnCom: TFloatField;
     mtItemvProd: TFloatField;
     mtItemcEANTrib: TStringField;
-    mtItemuTrib: TFloatField;
     mtItemqTrib: TFloatField;
     mtItemvUnTrib: TFloatField;
     mtItemindTot: TWordField;
@@ -144,7 +143,6 @@ type
     mtItemvlTotal: TStringField;
     mtTotalVlTotTrib: TStringField;
     mtItemNCM: TStringField;
-    mtItemvICMSST: TFloatField;
     mtItemvIPI: TFloatField;
     mtItemvDesc: TFloatField;
     mtDestdoc: TStringField;
@@ -152,7 +150,6 @@ type
     mtIDEinfCpl: TMemoField;
     mtIDEinfCplLinha: TMemoField;
     mtIDEhora_emissao: TStringField;
-    mtItemvBC: TFloatField;
     mtItempICMS: TFloatField;
     mtItemvICMS: TFloatField;
     mtIDEcanhoto: TMemoField;
@@ -181,6 +178,27 @@ type
     mtTranspmodFrete: TByteField;
     mtTranspmodFreteStr: TStringField;
     mtTranspCNPJ_CPF: TStringField;
+    mtItemICMS_CST: TWordField;
+    mtItemmodBC: TWordField;
+    mtItemICMS_vBC: TFloatField;
+    mtItemcEnq: TWordField;
+    mtItemIPI_CST: TWordField;
+    mtItemPIS_CST: TWordField;
+    mtItemPIS_vBC: TFloatField;
+    mtItempPIS: TFloatField;
+    mtItemvPIS: TFloatField;
+    mtItemCOFINS_CST: TWordField;
+    mtItemCOFINS_vBC: TFloatField;
+    mtItempCofins: TFloatField;
+    mtItemvCofins: TFloatField;
+    mtItemmodBCST: TWordField;
+    mtItempMVAST: TFloatField;
+    mtItemvBCST: TFloatField;
+    mtItempICMSST: TWordField;
+    mtItemvICMSST: TFloatField;
+    mtItemIPI_vBC: TFloatField;
+    mtItempIPI: TFloatField;
+    mtItemuTrib: TStringField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);
@@ -1013,7 +1031,7 @@ procedure TdmDanfe_nfe.mtItemBeforePost(DataSet: TDataSet);
 begin
   if mtItemVDesc.IsNull then mtItemVDesc.Value := 0;
   if mtItemVICMS.IsNull then mtItemVICMS.Value := 0;
-  if mtItemVBC.IsNull then mtItemVBC.Value := 0;
+  //if mtItemVBC.IsNull then mtItemVBC.Value := 0;
   if mtItemPICMS.IsNull then mtItemPICMS.Value := 0;
 end;
 

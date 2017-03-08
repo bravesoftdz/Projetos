@@ -13,7 +13,7 @@ uses
   cxTextEdit, cxMaskEdit, cxButtonEdit, cxLabel, dxLayoutcxEditAdapters,
   dxLayoutControlAdapters, Vcl.Menus, cxCheckBox, cxDBEdit, cxCurrencyEdit,
   dxLayoutContainer, Vcl.StdCtrls, cxButtons, dxLayoutControl, LMDBaseControl,
-  LMDBaseGraphicControl, LMDGraphicControl, LMDHTMLLabel, ncDMdanfe_NFCE,
+  LMDBaseGraphicControl, LMDGraphicControl, LMDHTMLLabel, ncDMdanfe_NFE,
   ncMyImage, Vcl.ImgList, cxGridInplaceEditForm, dxBar, LMDCustomScrollBox,
   LMDScrollBox, LMDSplt, nxdb, cxRadioGroup, LMDCustomButton, LMDButton,
   dxBarBuiltInMenu, cxPC, cxGroupBox, cxSpinEdit, Vcl.ExtCtrls, System.ImageList;
@@ -179,7 +179,7 @@ type
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
-    dmDanfe : TdmDanfe_NFCE;
+    dmDanfe : TdmDanfe_NFE;
     FFor    : Integer;
     FChave  : String;
     FLoaded : Boolean;
@@ -190,7 +190,7 @@ type
     FpercFrete : Double;
     FXML : String;
     { Private declarations }
-    procedure LoadProd;  
+    procedure LoadProd;
     procedure LoadDadosProd;
     procedure LoadConvUnid;
     procedure Update;
@@ -205,7 +205,7 @@ type
     procedure RefreshPend;
 
     procedure Concluir;
-    
+
     function LoadFor: Boolean;
 
     procedure LoadItens;
@@ -213,7 +213,7 @@ type
 
   public
     procedure AlimentaDadosFiscais;
-    
+
     function QuantFator: Double;
 
     function Frete: Currency;
@@ -275,9 +275,95 @@ end;
 procedure ExtraiTags;
 begin
   with dmDanfe do begin
-    sl.Values['CST'] := mtItemCST.AsString;
-    sl.Values['CSOSN'] := mtItemCSOSN.AsString;
-    sl.Values['vIPI'] := ConverteUnid(mtItemvIPI.Value);
+     //Tags do cabeçalho do produto
+    if not mtItemcProd.IsNull then
+      sl.Values['cProd'] := mtItemcProd.AsString;
+    if not mtItemcEAN.IsNull then
+      sl.Values['cEAN'] := mtItemcEAN.AsString;
+    if not mtItemxProd.IsNull then
+      sl.Values['xProd'] := mtItemxProd.AsString;
+    if not mtItemNCM.IsNull then
+      sl.Values['NCM'] := mtItemNCM.AsString;
+    if not mtItemCFOP.IsNull then
+      sl.Values['CFOP'] := mtItemCFOP.AsString;
+    if not mtItemuCom.IsNull then
+      sl.Values['uCom'] := mtItemuCom.AsString;
+    if not mtItemqCom.IsNull then
+      sl.Values['qCom'] := mtItemqCom.AsString;
+    if not mtItemvUnCom.IsNull then
+      sl.Values['vUnCom'] := mtItemvUnCom.AsString;
+    if not mtItemvProd.IsNull then
+      sl.Values['vProd'] := mtItemvProd.AsString;
+    if not mtItemcEANTrib.IsNull then
+      sl.Values['cEANTrib'] := mtItemcEANTrib.AsString;
+    if not mtItemuTrib.IsNull then
+      sl.Values['uTrib'] := mtItemuTrib.AsString;
+    if not mtItemqTrib.IsNull then
+      sl.Values['qTrib'] := mtItemqTrib.AsString;
+    if not mtItemvUnTrib.IsNull then
+      sl.Values['vUnTrib'] := mtItemvUnTrib.AsString;
+    if not mtItemindTot.IsNull then
+      sl.Values['indTot'] := mtItemindTot.AsString;
+
+    //Tags do ICMS
+    if not mtItemorig.IsNull then
+      sl.Values['orig'] := mtItemorig.AsString;
+    if not mtItemmodBC.IsNull then
+      sl.Values['modBC'] := mtItemmodBC.AsString;
+    if not mtItemICMS_CST.isNull then
+      sl.Values['ICMS_CST'] := mtItemICMS_CST.asstring;
+    if not mtItemCSOSN.IsNull then
+      sl.Values['CSOSN'] := mtItemCSOSN.AsString;
+    if not mtItemICMS_vBC.isNull  then
+      sl.Values['ICMS_vBC'] := ConverteUnid(mtItemICMS_vBC.value);
+    if not mtItempICMS.IsNull then
+      sl.Values['pICMS'] := mtItempICMS.AsString;
+    if not mtItemvICMS.IsNull then
+      sl.Values['vICMS'] := ConverteUnid(mtItemvICMS.value);
+
+    //Tags ICMS-ST
+    if not mtItemmodBCST.IsNull then
+      sl.Values['modBCST'] := mtItemmodBCST.AsString;
+    if not mtItempMVAST.IsNull then
+      sl.Values['pMVAST'] := ConverteUnid(mtItempMVAST.value);
+    if not mtItemvBCST.IsNull then
+      sl.Values['vBCST'] := ConverteUnid(mtItemvBCST.value);
+    if not mtItempICMSST.IsNull then
+      sl.Values['pICMSST'] := mtItempICMSST.AsString;
+    if not mtItemvICMSST.IsNull then
+      sl.Values['vICMSST'] := ConverteUnid(mtItemvICMSST.Value);
+
+    //Tags IPI
+    if not mtItemcEnq.IsNull then
+      sl.Values['cEnq'] := mtItemcEnq.AsString;
+    if not mtItemIPI_CST.isNull then
+      sl.Values['IPI_CST'] := mtItemIPI_CST.AsString;
+    if not mtItemvIPI.isNull then
+      sl.Values['vIPI'] := ConverteUnid(mtItemvIPI.Value);
+    if not mtItempIPI.isNull then
+      sl.Values['pIPI'] := mtItempIPI.AsString;
+    if not mtItemIPI_vBC.isNull then
+      sl.Values['IPI_vBC'] := ConverteUnid(mtItemIPI_vBC.Value);
+
+    //Tags PIS
+    if not mtItemPIS_CST.IsNull then
+      sl.Values['PIS_CST'] := mtItemPIS_CST.AsString;
+    if not mtItemPIS_vBC.IsNull then
+      sl.Values['PIS_vBC'] := ConverteUnid(mtItemPIS_vBC.value);
+    if not mtItempPis.isNull then
+      sl.values['pPIS'] := mtItempPIS.AsString;
+    if not mtItemvPis.isNull then
+      sl.values['vPIS'] := ConverteUnid(mtItemvPIS.value);
+
+    //Tags Cofins
+    if not mtItemCOFINS_CST.IsNull then
+      sl.Values['PIS_CST'] := mtItemPIS_CST.AsString;
+    if not mtItemCOFINS_vBC.IsNull then
+      sl.Values['PIS_vBC'] := ConverteUnid(mtItemPIS_vBC.Value);
+    if not mtItempCofins.isNull then
+      sl.values['pPIS'] := mtItempPIS.AsString;
+    if not mtItemvCofins.isNull then
+      sl.values['vPIS'] := ConverteUnid(mtItemvPIS.Value);
   end;
 end;
 
@@ -415,7 +501,7 @@ begin
   try
     sl.LoadFromFile(OpenXML.FileName);
     FXML := sl.Text;
-    dmDanfe.LoadXML(sl.Text, 0, '', '', '', '', Dados.tbConfig, '', '', '', False);
+    dmDanfe.LoadXML(sl.Text, 0, '', '', Dados.tbConfig, False);
 
     edFrete.Value := dmDanfe.mtTotalvFrete.Value;
 
@@ -524,7 +610,7 @@ begin
   
   FLoaded := False;
   FPend := 0;
-  dmDanfe := TdmDanfe_NFCE.Create(self);
+  dmDanfe := TdmDanfe_NFE.Create(self);
   Paginas.Properties.HideTabs := True;
   FFor := 0;
   pgPri.Properties.HideTabs := True;
