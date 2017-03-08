@@ -1300,6 +1300,7 @@ begin
 
   if Dados.NFAtivo and (Trim(edUnid.Text)='') then begin
     Paginas.ActivePage := tsDados;
+    grEstoque.MakeVisible;
     edUnid.SetFocus;
     raise Exception.Create(SUnidObrigatoria);
   end;  
@@ -1348,18 +1349,23 @@ begin
     with Dados do
     if (lbNCM.Caption='') then begin 
       if NFAtivo then begin
+        lgrBR.MakeVisible;
         edNCM.SetFocus;
         raise exception.Create('É necessário informar o NCM do produto');
       end;
     end else
     if not FNCMOk then begin
+      lgrBR.MakeVisible;
       edNCM.SetFocus;
       raise exception.Create(lbNCM.Caption);
     end;
   
     with Dados do 
     if not FCESTOk then begin
-      if edCEST.Enabled then edCEST.SetFocus;
+      if edCEST.Enabled then begin
+        lgrBR.MakeVisible;
+        edCEST.SetFocus;
+      end;
       if edCEST.EditText='' then
         raise exception.Create('É necessário informar o CEST do produto') else
         raise exception.Create(lbCEST.Caption);
@@ -1368,11 +1374,13 @@ begin
     with Dados do 
     if lbbrtrib.Caption='' then begin
       if NFAtivo then begin
+        lgrBR.MakeVisible;
         edBRTrib.SetFocus;
         raise exception.Create('É necessário informar a tributação do produto');
       end;
     end else
     if not FBRTribOk then begin
+      lgrBR.MakeVisible;
       edBRTrib.SetFocus;
       raise exception.Create(lbBRtrib.Caption);
     end;                     

@@ -190,6 +190,8 @@ begin
       
         with AddField('UID', '', nxtGUID, 0, 0, False) do
           AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+
+        AddField('ChaveNFE', '', nxtNullString, 44, 0, False);
           
         AddField('xml', '', nxtBlobMemo, 10, 0, False);
         AddField('Tran', '', nxtWord32, 10, 0, False);
@@ -200,6 +202,9 @@ begin
 
         with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
           Add(GetFieldFromName('UID'));   
+
+        with AddIndex('IChaveNFE', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('ChaveNFE'));   
       
         with AddIndex('ITran', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do 
           Add(GetFieldFromName('Tran'));
@@ -2452,6 +2457,7 @@ begin
         AddField('ComissaoPerc', '', nxtDouble, 0, 0, False);
         AddField('ComissaoLucro', '', nxtBoolean, 0, 0, False);
         AddField('VenDev', '', nxtBoolean, 0, 0, False);
+        AddField('DadosFiscais', '', nxtBlobMemo, 0, 0, False);
         
         with AddField('PermSemEstoque', '', nxtBoolean, 0, 0, False) do
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do

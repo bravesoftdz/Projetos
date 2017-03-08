@@ -791,6 +791,29 @@ object dmComp: TdmComp
     object tMovEstIncluidoEm: TDateTimeField
       FieldName = 'IncluidoEm'
     end
+    object tMovEstUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tMovEstTotLiq: TCurrencyField
+      FieldName = 'TotLiq'
+    end
+    object tMovEstCustoT: TCurrencyField
+      FieldName = 'CustoT'
+    end
+    object tMovEstLucro: TCurrencyField
+      FieldName = 'Lucro'
+    end
+    object tMovEstObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tMovEstDebDev: TCurrencyField
+      FieldName = 'DebDev'
+    end
+    object tMovEstVenDev: TBooleanField
+      FieldName = 'VenDev'
+    end
   end
   object tAuxITran: TnxTable
     Database = Dados.db

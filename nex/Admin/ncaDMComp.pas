@@ -419,6 +419,13 @@ type
     tProMVA: TnxMemoField;
     tProPauta: TnxMemoField;
     tProNomeMarca: TWideStringField;
+    tMovEstUID: TGuidField;
+    tMovEstTotLiq: TCurrencyField;
+    tMovEstCustoT: TCurrencyField;
+    tMovEstLucro: TCurrencyField;
+    tMovEstObs: TWideMemoField;
+    tMovEstDebDev: TCurrencyField;
+    tMovEstVenDev: TBooleanField;
     procedure DataModuleDestroy(Sender: TObject);
     procedure tTranCalcFields(DataSet: TDataSet);
     procedure tITranCalcFields(DataSet: TDataSet);

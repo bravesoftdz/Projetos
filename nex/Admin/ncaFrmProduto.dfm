@@ -446,8 +446,8 @@ object FrmProduto: TFrmProduto
               AnchorY = 32
             end
             object edAtual: TcxCurrencyEdit
-              Left = 140
-              Top = 369
+              Left = 10000
+              Top = 10000
               Margins.Top = 0
               Margins.Right = 0
               Margins.Bottom = 0
@@ -466,11 +466,12 @@ object FrmProduto: TFrmProduto
               Style.TextStyle = [fsBold]
               Style.IsFontAssigned = True
               TabOrder = 15
+              Visible = False
               Width = 189
             end
             object cbNaoControlaEstoque: TcxDBCheckBox
-              Left = 337
-              Top = 369
+              Left = 10000
+              Top = 10000
               Cursor = crHandPoint
               Caption = 'N'#227'o controlar estoque'
               DataBinding.DataField = 'NaoControlaEstoque'
@@ -491,10 +492,11 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 16
               Transparent = True
+              Visible = False
             end
             object edUnid: TcxDBLookupComboBox
-              Left = 140
-              Top = 406
+              Left = 10000
+              Top = 10000
               DataBinding.DataField = 'LookupUnid'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -519,12 +521,13 @@ object FrmProduto: TFrmProduto
               Properties.OnInitPopup = edUnidPropertiesInitPopup
               Style.StyleController = escFlat
               TabOrder = 17
+              Visible = False
               OnKeyDown = edUnidKeyDown
               Width = 189
             end
             object cbVendaFrac: TcxDBCheckBox
-              Left = 337
-              Top = 406
+              Left = 10000
+              Top = 10000
               Cursor = crHandPoint
               Caption = 'Permite fracionamento (Ex: venda por peso/kg)'
               DataBinding.DataField = 'PermiteVendaFracionada'
@@ -544,20 +547,22 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 18
               Transparent = True
+              Visible = False
             end
             object edLimites: TcxPopupEdit
-              Left = 140
-              Top = 443
+              Left = 10000
+              Top = 10000
               ParentFont = False
               Properties.OnInitPopup = edLimitesPropertiesInitPopup
               Style.StyleController = escFlat
               TabOrder = 19
+              Visible = False
               OnEnter = edLimitesEnter
               Width = 189
             end
             object edNCM: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 369
               OnFocusChanged = edNCMFocusChanged
               DataBinding.DataField = 'NCM'
               DataBinding.DataSource = dsMT
@@ -575,23 +580,21 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edNCMPropertiesChange
               Style.StyleController = escFlat
               TabOrder = 23
-              Visible = False
               Width = 109
             end
             object lbNCM: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 369
               Caption = 'lbNCM'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 384
             end
             object lbInfoNCM: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 406
               Caption = 
                 'NCM: Nomeclatura Comum do Mercosul. Esse campo '#233' necess'#225'rio para' +
                 ' a emiss'#227'o de NF.'
@@ -606,12 +609,11 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               Width = 472
             end
             object edCest: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 432
               OnFocusChanged = edCestFocusChanged
               AutoSize = False
               DataBinding.DataField = 'cest'
@@ -631,26 +633,24 @@ object FrmProduto: TFrmProduto
               Style.HotTrack = False
               Style.StyleController = escFlat
               TabOrder = 26
-              Visible = False
               Height = 29
               Width = 109
             end
             object lbCEST: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 432
               Cursor = crHandPoint
               Caption = 'lbCEST'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
-              AnchorY = 10015
+              AnchorY = 447
             end
             object lbInfoCest: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 469
               AutoSize = False
               Caption = 
                 'CEST: C'#243'digo Especificador da Substitui'#231#227'o Tribut'#225'ria. Pressione' +
@@ -666,14 +666,13 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
               Height = 18
               Width = 690
             end
             object edBrTrib: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 495
               OnFocusChanged = edBrTribFocusChanged
               DataBinding.DataField = 'brtrib'
               DataBinding.DataSource = dsMT
@@ -692,25 +691,23 @@ object FrmProduto: TFrmProduto
               Style.HotTrack = False
               Style.StyleController = escFlat
               TabOrder = 29
-              Visible = False
               OnKeyDown = edBrTribKeyDown
               OnKeyPress = edBrTribKeyPress
               Width = 109
             end
             object lbBrTrib: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 495
               Caption = 'lbBrTrib'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 510
             end
             object lbInfoBrTrib: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 532
               Caption = 
                 'Digite o c'#243'digo de tributa'#231#227'o ou pressione F5. Esse campo '#233' obri' +
                 'gat'#243'rio para emiss'#227'o de NF. '
@@ -725,12 +722,11 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
-              Width = 490
+              Width = 755
             end
             object edICMSST: TcxButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 558
               OnFocusChanged = edICMSSTFocusChanged
               ParentFont = False
               Properties.Buttons = <
@@ -748,25 +744,23 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 32
               Text = 'por MVA'
-              Visible = False
               OnKeyDown = edICMSSTKeyDown
               OnKeyPress = edICMSSTKeyPress
               Width = 109
             end
             object lbDescrSt: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 558
               Caption = 'Pauta'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 573
             end
             object lbHintSt: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 595
               AutoSize = False
               Caption = 
                 'ICMS ST: Pressione F9 para definir as regras de c'#225'lculo do ICMS ' +
@@ -782,7 +776,6 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
               Height = 18
               Width = 755
@@ -1690,6 +1683,7 @@ object FrmProduto: TFrmProduto
               CaptionOptions.Text = 'New Group'
               CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
+              ItemIndex = 2
               LayoutDirection = ldTabbed
               LayoutLookAndFeelException = True
               Padding.AssignedValues = [lpavBottom, lpavLeft]

@@ -3125,6 +3125,10 @@ inherited fbVendas2: TfbVendas2
       FieldName = 'Obs'
       BlobType = ftWideMemo
     end
+    object tbMEDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
   end
   object dckMgr: TdxDockingManager
     AutoHideInterval = 0
@@ -4337,6 +4341,10 @@ inherited fbVendas2: TfbVendas2
     object tMovEstObs: TWideMemoField
       FieldName = 'Obs'
       BlobType = ftWideMemo
+    end
+    object tMovEstDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
     end
   end
   object tAuxPend: TnxTable

@@ -947,6 +947,10 @@ object dmNFE_gerar: TdmNFE_gerar
     IndexName = 'ITranItem'
     Left = 72
     Top = 168
+    object tMovEstDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
     object tMovEstFator: TIntegerField
       FieldKind = fkCalculated
       FieldName = 'Fator'
@@ -1295,7 +1299,6 @@ object dmNFE_gerar: TdmNFE_gerar
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
-    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
@@ -1303,20 +1306,17 @@ object dmNFE_gerar: TdmNFE_gerar
     Top = 24
   end
   object nxRSE: TnxRemoteServerEngine
-    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 248
     Top = 24
   end
   object nxDB: TnxDatabase
-    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 200
     Top = 24
   end
   object nxSession: TnxSession
-    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = nxRSE

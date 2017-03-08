@@ -261,6 +261,13 @@ type
     cmImpRecibo: TdxBarLargeButton;
     TVTipoNFE: TcxGridDBColumn;
     cmDevFor: TdxBarButton;
+    tMovEstUID: TGuidField;
+    tMovEstTotLiq: TCurrencyField;
+    tMovEstCustoT: TCurrencyField;
+    tMovEstLucro: TCurrencyField;
+    tMovEstObs: TWideMemoField;
+    tMovEstVenDev: TBooleanField;
+    tMovEstDadosFiscais: TnxMemoField;
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;
       ARecord: TcxCustomGridRecord; var AText: string);

@@ -872,6 +872,7 @@ type
     tbMovEstUID: TGuidField;
     tbMovEstObs: TWideMemoField;
     tbMovEstVenDev: TBooleanField;
+    tbMovEstDadosFiscais: TnxMemoField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);

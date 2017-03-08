@@ -652,6 +652,8 @@ type
     tbMEObs: TWideMemoField;
     tvDetOBS: TcxGridDBColumn;
     tMovEstObs: TWideMemoField;
+    tMovEstDadosFiscais: TnxMemoField;
+    tbMEDadosFiscais: TnxMemoField;
     procedure cmNovoClick(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;

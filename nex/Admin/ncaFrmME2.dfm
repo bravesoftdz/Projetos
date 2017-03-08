@@ -509,7 +509,7 @@ object FrmME2: TFrmME2
       Width = 180
     end
     object lbTipoTran: TcxLabel
-      Left = 839
+      Left = 767
       Top = 3
       Caption = ' COMPRA 123 '
       ParentFont = False
@@ -523,7 +523,7 @@ object FrmME2: TFrmME2
       Style.TransparentBorder = False
       Style.IsFontAssigned = True
       Properties.Alignment.Horz = taCenter
-      AnchorX = 893
+      AnchorX = 821
     end
     object cbNFe: TcxRadioButton
       AlignWithMargins = True

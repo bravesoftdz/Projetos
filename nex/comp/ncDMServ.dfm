@@ -4,6 +4,7 @@ object DM: TDM
   Height = 445
   Width = 777
   object nxSession: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = nxRSE
@@ -11,6 +12,7 @@ object DM: TDM
     Top = 16
   end
   object nxDB: TnxDatabase
+    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 72
@@ -730,6 +732,14 @@ object DM: TDM
       FieldName = 'Obs'
       BlobType = ftWideMemo
     end
+    object tMovEstUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tMovEstDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
   end
   object tCaixa: TnxTable
     Database = nxDB
@@ -1055,6 +1065,10 @@ object DM: TDM
     IndexName = 'IProduto'
     Left = 216
     Top = 136
+    object tAuxMEDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
     object tAuxMEObs: TWideMemoField
       FieldName = 'Obs'
       BlobType = ftWideMemo
@@ -1226,12 +1240,14 @@ object DM: TDM
     end
   end
   object nxRSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 120
     Top = 16
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
@@ -2690,6 +2706,31 @@ object DM: TDM
     end
     object tTipoTranprecocusto_nfe: TBooleanField
       FieldName = 'precocusto_nfe'
+    end
+  end
+  object tXMLCompra: TnxTable
+    Database = nxDB
+    TableName = 'xmls_compra'
+    IndexName = 'ITran'
+    Left = 552
+    Top = 368
+    object tXMLCompraChaveNFE: TStringField
+      FieldName = 'ChaveNFE'
+      Size = 44
+    end
+    object tXMLCompraID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tXMLCompraUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tXMLCompraxml: TnxMemoField
+      FieldName = 'xml'
+      BlobType = ftMemo
+    end
+    object tXMLCompraTran: TLongWordField
+      FieldName = 'Tran'
     end
   end
 end

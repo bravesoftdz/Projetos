@@ -1506,6 +1506,8 @@ begin
       cbCompra.Checked := False;
       cbCompraClick(nil);
     end;
+    AlimentaDadosFiscais;
+    
     mt.First;
     FTot.SubTotal := 0;
     I := 0;
@@ -1516,6 +1518,7 @@ begin
       Item.imItem := I;
       Item.imProduto := mtProduto.Value;
       Item.imQuant := QuantFator;
+      Item.imDadosFiscais := mtDadosFiscais.Value;
 
       if F>0 then begin
         if I=mt.RecordCount then

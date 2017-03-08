@@ -2244,6 +2244,30 @@ inherited fbTranEst: TfbTranEst
       KeyFields = 'Tran'
       Lookup = True
     end
+    object tMovEstUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tMovEstTotLiq: TCurrencyField
+      FieldName = 'TotLiq'
+    end
+    object tMovEstCustoT: TCurrencyField
+      FieldName = 'CustoT'
+    end
+    object tMovEstLucro: TCurrencyField
+      FieldName = 'Lucro'
+    end
+    object tMovEstObs: TWideMemoField
+      FieldName = 'Obs'
+      BlobType = ftWideMemo
+    end
+    object tMovEstVenDev: TBooleanField
+      FieldName = 'VenDev'
+    end
+    object tMovEstDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
   end
   object nxSession1: TnxSession
     Left = 496

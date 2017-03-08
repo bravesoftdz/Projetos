@@ -148,6 +148,7 @@ type
     cxLabel10: TcxLabel;
     cxLabel11: TcxLabel;
     cbEntrada: TcxCheckBox;
+    mtDadosFiscais: TMemoField;
     procedure FormCreate(Sender: TObject);
     procedure edProdutoPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
@@ -210,6 +211,8 @@ type
     procedure SetFor(const Value: Integer);
 
   public
+    procedure AlimentaDadosFiscais;
+    
     function QuantFator: Double;
 
     function Frete: Currency;
@@ -256,6 +259,44 @@ const
   psSemUnid  = 2;
   psConvUnid = 3;
   psOk       = 4;
+
+procedure TFrmLeXML.AlimentaDadosFiscais;
+var sl : TStringList;
+
+function ConverteUnid(V: Double): String;
+begin
+  V := V / QuantFator;
+  Result := V.ToString;
+end;
+
+procedure ExtraiTags;
+begin
+  with dmDanfe do begin
+    sl.Values['CST'] := mtItemCST.AsString;
+    sl.Values['CSOSN'] := mtItemCSOSN.AsString;
+    sl.Values['vIPI'] := ConverteUnid(mtItemvIPI.Value);
+  end;
+end;
+
+begin
+  // ---
+  sl := TStringList.Create;
+  try
+    mt.First;
+    dmDanfe.mtItem.First;
+    while not mt.Eof do begin
+      sl.Clear;
+      mt.Edit;
+      ExtraiTags;
+      mtDadosFiscais.Value := sl.Text;
+      mt.Post;
+      dmDanfe.mtItem.Next;
+      mt.Next;
+    end;
+  finally
+    sl.Free;
+  end;
+end;
 
 procedure TFrmLeXML.btnAceitarSugClick(Sender: TObject);
 begin

@@ -831,6 +831,15 @@ type
     tProdutoObs: TWideMemoField;
     tMovEstObs: TWideMemoField;
     tAuxMEObs: TWideMemoField;
+    tMovEstUID: TGuidField;
+    tMovEstDadosFiscais: TnxMemoField;
+    tAuxMEDadosFiscais: TnxMemoField;
+    tXMLCompra: TnxTable;
+    tXMLCompraID: TUnsignedAutoIncField;
+    tXMLCompraUID: TGuidField;
+    tXMLCompraxml: TnxMemoField;
+    tXMLCompraTran: TLongWordField;
+    tXMLCompraChaveNFE: TStringField;
     procedure tMovEstCalcFields(DataSet: TDataSet);
     procedure tAuxMECalcFields(DataSet: TDataSet);
     procedure tITranCalcFields(DataSet: TDataSet);
@@ -3012,6 +3021,7 @@ begin
   if not ME.PagPend then
     IM.imDataHora := ME.DataHora else
     IM.imDataHora := 0;
+    
   IM.SaveToDataset(tMovEst);
 
   if (IM.imTipoTran=trEstDevolucao) and tAuxME.Locate('ID', IM.imID_Ref, []) then
@@ -4497,7 +4507,16 @@ begin
 
       tTran.Post;
 
-
+      if (ME.Tipo=trEstCompra) and (ME.XMLCompra>'') then begin
+        if tXMLCompra.FindKey([tTranID.Value]) then
+          tXMLCompra.Edit else
+          tXMLCompra.Insert;
+        tXMLCompraTran.Value := tTranID.Value;
+        tXMLCompraXML.Value := ME.XMLCompra;
+        tXMLCompraChaveNFE.Value := tTranChaveNFe.Value;
+        tXMLCompra.Post;
+      end;
+        
       ME.ID := tTranID.Value;
       
       if ME.SalvarDebFrete(MEAnt) then

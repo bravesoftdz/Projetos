@@ -159,6 +159,7 @@ type
     imTax_incluir : Currency;
     imTax_incluido : Currency;
     imDebDev : Currency;
+    imDadosFiscais : String;
     
     imObs: String;
     imPagEsp: TncPagEspecies;
@@ -314,6 +315,7 @@ type
     FTranspPesoB : Double;
     FTranspVol   : Word;
     FTranspPesoVol : Byte; // 0 - nao enviar, 1 - enviar peso auto, 2 - enviar peso manual
+    FXMLCompra     : String;
 
     FUpdID   : TGUID;
     
@@ -502,6 +504,9 @@ type
     property Descr : String
       read FDescr write FDescr;
 
+    property XMLCompra : String
+      read FXMLCompra write FXMLCompra; 
+
     property Operacao: Byte
       read FOperacao write FOperacao;
 
@@ -586,6 +591,7 @@ begin
   imTax_incluido := IM.imTax_incluido;
   imDebDev := IM.imDebDev;
   imTaxItens.AsString := IM.imTaxItens.AsString;
+  imDadosFiscais := IM.imDadosFiscais;
   _Recibo := IM._Recibo;
   _Operacao := IM._Operacao;
 end;
@@ -701,6 +707,7 @@ begin
     FloatParaStr(imDebDev) + sFldDelim(classid_TncItemMovEst) + 
     
     imObs + sFldDelim(classid_TncItemMovEst) + 
+    imDadosFiscais + sFldDelim(classid_TncItemMovEst) + 
     PagEspStr + sFldDelim(classid_TncItemMovEst) +
     BoolStr[_Recibo] + sFldDelim(classid_TncItemMovEst) + 
     IntToStr(_Operacao) + sFldDelim(classid_TncItemMovEst);
@@ -755,6 +762,9 @@ begin
   
   if PagPend <> IM.PagPend then Exit;
   if imDebDev <> IM.imDebDev then Exit;
+
+  if imDadosFiscais <> IM.imDadosFiscais then Exit;
+  
   
   if _Operacao <> IM._Operacao then Exit;
   Result := True;
@@ -766,6 +776,7 @@ begin
   imID_Ref := 0;
   imTran := 0;
   imProduto := 0;
+  imDadosFiscais := '';
   imQuant := 0;
   imUnitario := 0;
   imTotal := 0;
@@ -867,6 +878,7 @@ begin
   D.FieldByName('ID_Ref').AsLongWord := imID_Ref;
   D.FieldByName('Descr').AsString := imProdutoDescr;
   D.FieldByName('Obs').AsString := imObs;
+  D.FieldByName('DadosFiscais').AsString := imDadosFiscais;
   if imFidResgate then begin
     D.FieldByName('Unitario').Clear; // do not localize
     D.FieldByName('Total').Clear; // do not localize
@@ -999,6 +1011,7 @@ begin
   imDebDev := StrParaFloat(pCampo);
   
   imObs := pCampo;
+  imDadosFiscais := pCampo;
   PagEspStr := pCampo;
   _Recibo := (BoolStr[True] = pCampo);
   _Operacao := StrToIntDef(pCampo, 0);
@@ -1456,6 +1469,7 @@ begin
   FCliente     := 0;
   FTranspEnt   := 0;
   FFrete       := 0;
+  FXMLCompra   := '';
 
   FTranspPesoL := 0;
   FTranspPesoB := 0;
@@ -1485,6 +1499,7 @@ begin
   FNomeCliente := '';
   FSessao      := 0;
   FDescr       := '';
+  FXMLCompra   := '';
   FOperacao    := osNenhuma;
   FRecibo      := False;
   FFidResgate  := False;

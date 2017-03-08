@@ -36,7 +36,7 @@ object FrmLeXML: TFrmLeXML
       Height = 489
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = tsArq
+      Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       OnChange = pgPriChange
       ClientRectBottom = 485
@@ -290,10 +290,6 @@ object FrmLeXML: TFrmLeXML
       object tsProd: TcxTabSheet
         Caption = 'tsProd'
         ImageIndex = 0
-        ExplicitLeft = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Splitter: TLMDSplitterPanel
           Left = 0
           Top = 30
@@ -950,7 +946,6 @@ object FrmLeXML: TFrmLeXML
                       StyleHot.LookAndFeel.Kind = lfFlat
                       TabOrder = 1
                       OnEnter = edParaEnter
-                      ExplicitHeight = 21
                       Width = 50
                     end
                     object lbPara: TcxLabel
@@ -1019,7 +1014,7 @@ object FrmLeXML: TFrmLeXML
                 end
                 object edUniv: TcxDBCheckBox
                   Left = 0
-                  Top = 306
+                  Top = 293
                   Cursor = crHandPoint
                   Align = alBottom
                   Caption = 'A convers'#227'o de CX para PC '#233' sempre igual, para TODOS produtos.'
@@ -1040,6 +1035,7 @@ object FrmLeXML: TFrmLeXML
                   StyleFocused.LookAndFeel.Kind = lfFlat
                   StyleHot.LookAndFeel.Kind = lfFlat
                   TabOrder = 4
+                  ExplicitTop = 306
                   Width = 309
                 end
               end
@@ -1525,8 +1521,8 @@ object FrmLeXML: TFrmLeXML
     SubLanguageID = 1
     LocaleID = 1024
     OnCalcFields = mtCalcFields
-    Left = 560
-    Top = 167
+    Left = 168
+    Top = 143
     object mtitem: TWordField
       FieldName = 'item'
     end
@@ -1602,6 +1598,10 @@ object FrmLeXML: TFrmLeXML
     end
     object mtNewFatorInvertido: TBooleanField
       FieldName = 'NewFatorInvertido'
+    end
+    object mtDadosFiscais: TMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
     end
   end
   object ds: TDataSource
