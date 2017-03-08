@@ -37,7 +37,6 @@ type
     procedure FormCreate(Sender: TObject);
     procedure lbEditObsClick(Sender: TObject);
     procedure lbEditDescontoClick(Sender: TObject);
-    procedure lbEditObsItemClick(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
   private
     FDesconto: Currency;
@@ -55,7 +54,6 @@ type
     FObsNF : Boolean;
     FObs   : String;
     FOnAtualizaTotal : TNotifyEvent;
-
     FOnEditarPagEsp : TNotifyEvent;
     
     procedure SetSubTotal(const Value: Currency);
@@ -163,6 +161,8 @@ var
   ObsH, DescH: Integer;
   aTax : Currency;
 begin
+  lbEditObsItem.Visible := Assigned(FME) and (FME.Tipo=trEstVenda);
+
   FDesconto := calcDesconto;
   lbPontosNec.Caption := rsPontosNec + ' = ' + PontosToStr(FPontosNec);
   lbPontosDisp.Caption := rsPontosDisp + ' = ' + PontosToStr(FPontosDisp);
@@ -442,11 +442,6 @@ end;
 procedure TFrmTotal3.lbEditObsClick(Sender: TObject);
 begin
   EditObs;
-end;
-
-procedure TFrmTotal3.lbEditObsItemClick(Sender: TObject);
-begin
-//  if Assigned(FOnEditarPagEsp) then FOnEditarPagEsp(Self);
 end;
 
 procedure TFrmTotal3.panValoresResize(Sender: TObject);

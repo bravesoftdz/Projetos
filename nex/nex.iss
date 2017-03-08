@@ -10,7 +10,7 @@
 
 [Setup]
 AppName=Nex
-AppVerName=Nex C360
+AppVerName=Nex C361
 AppPublisherURL=http://www.programanex.com.br
 AppSupportURL=http://www.programanex.com.br
 AppUpdatesURL=http://www.programanex.com.br

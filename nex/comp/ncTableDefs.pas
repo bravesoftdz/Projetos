@@ -2106,8 +2106,12 @@ begin
         AddField('DocParam_Whats2', '', nxtNullString, 15, 0, False);
         AddField('DocParam_InfoExtra', '', nxtNullString, 100, 0, False);
         AddField('DocParam_Logo', '', nxtBLOBGraphic, 0, 0, False);
-        AddField('DocParam_Logo2', '', nxtBLOBGraphic, 0, 0, False); 
-
+        AddField('DocParam_Logo2', '', nxtBLOBGraphic, 0, 0, False);
+        
+        with AddField('RecAddObsItem', '', nxtBoolean, 0, 0, False) do
+          with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
+            AsVariant := True;
+         
         AddField('Urls', '', nxtBLOBMemo, 0, 0, False);
 
         AddField('TranspEntPadrao', '', nxtWord32, 0, 0, False);

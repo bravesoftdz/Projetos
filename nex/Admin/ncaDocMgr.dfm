@@ -1,7 +1,7 @@
 object FrmDocMgr: TFrmDocMgr
   Left = 0
   Top = 0
-  ActiveControl = img
+  ActiveControl = panParam
   BorderWidth = 10
   Caption = 'Selecione um modelo'
   ClientHeight = 592
@@ -926,7 +926,7 @@ object FrmDocMgr: TFrmDocMgr
     Margins.Bottom = 0
     Align = alClient
     TabOrder = 2
-    Properties.ActivePage = tsEscolha
+    Properties.ActivePage = tsParam
     Properties.CustomButtons.Buttons = <>
     LookAndFeel.NativeStyle = False
     OnChange = PaginasChange
@@ -1187,7 +1187,6 @@ object FrmDocMgr: TFrmDocMgr
                     StyleHot.LookAndFeel.Kind = lfFlat
                     StyleHot.LookAndFeel.NativeStyle = False
                     TabOrder = 0
-                    ExplicitWidth = 372
                     Width = 310
                   end
                   object cbFiltrarLingua: TcxCheckBox
@@ -1467,9 +1466,6 @@ object FrmDocMgr: TFrmDocMgr
     object tsParam: TcxTabSheet
       Caption = 'tsParam'
       ImageIndex = 1
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object panParam: TLMDSimplePanel
         Left = 0
         Top = 30
@@ -1518,8 +1514,6 @@ object FrmDocMgr: TFrmDocMgr
           Style.TextColor = clHighlight
           Style.TransparentBorder = False
           Style.IsFontAssigned = True
-          ExplicitWidth = 121
-          ExplicitHeight = 21
         end
         object lbParam1: TcxLabel
           Left = 0

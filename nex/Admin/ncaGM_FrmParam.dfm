@@ -2,7 +2,7 @@ object FrmGMParam: TFrmGMParam
   Left = 0
   Top = 0
   Caption = 'Par'#226'metros para o documento'
-  ClientHeight = 455
+  ClientHeight = 561
   ClientWidth = 628
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
@@ -89,7 +89,7 @@ object FrmGMParam: TFrmGMParam
     Left = 0
     Top = 40
     Width = 628
-    Height = 415
+    Height = 521
     Hint = ''
     Align = alClient
     Bevel.Mode = bmCustom
@@ -98,13 +98,13 @@ object FrmGMParam: TFrmGMParam
       Left = 0
       Top = 0
       Width = 628
-      Height = 415
+      Height = 521
       BorderStyle = cxcbsNone
       Align = alClient
       OptionsView.CellAutoHeight = True
       OptionsView.CellTextMaxLineCount = 5
       OptionsView.ShowEditButtons = ecsbFocused
-      OptionsView.RowHeaderWidth = 149
+      OptionsView.RowHeaderWidth = 150
       OptionsBehavior.AlwaysShowEditor = False
       OptionsBehavior.GoToNextCellOnEnter = True
       OptionsBehavior.GoToNextCellOnTab = True
@@ -299,6 +299,20 @@ object FrmGMParam: TFrmGMParam
         Index = 17
         Version = 1
       end
+      object erAddObsItem: TcxDBEditorRow
+        Height = 42
+        Properties.Caption = 'Imprimir observa'#231#227'o'#13#10'dos itens'
+        Properties.EditPropertiesClassName = 'TcxCheckBoxProperties'
+        Properties.EditProperties.FullFocusRect = True
+        Properties.EditProperties.ImmediatePost = True
+        Properties.EditProperties.MultiLine = True
+        Properties.EditProperties.NullStyle = nssUnchecked
+        Properties.DataBinding.FieldName = 'RecAddObsItem'
+        ID = 18
+        ParentID = -1
+        Index = 18
+        Version = 1
+      end
       object erMeioPagto: TcxDBEditorRow
         Height = 42
         Properties.Caption = 'Imprimir meio'#13#10'de pagamento'
@@ -307,9 +321,9 @@ object FrmGMParam: TFrmGMParam
         Properties.EditProperties.MultiLine = True
         Properties.EditProperties.NullStyle = nssUnchecked
         Properties.DataBinding.FieldName = 'RecImprimeMeioPagto'
-        ID = 18
+        ID = 19
         ParentID = -1
-        Index = 18
+        Index = 19
         Version = 1
       end
       object erPrefixoMeioPagto: TcxDBEditorRow
@@ -317,9 +331,9 @@ object FrmGMParam: TFrmGMParam
         Properties.Caption = 'Texto que antecede'#13#10'meio de pagamento'
         Properties.EditPropertiesClassName = 'TcxTextEditProperties'
         Properties.DataBinding.FieldName = 'RecPrefixoMeioPagto'
-        ID = 19
+        ID = 20
         ParentID = -1
-        Index = 19
+        Index = 20
         Version = 1
       end
     end
@@ -736,6 +750,9 @@ object FrmGMParam: TFrmGMParam
     object MTRecRodape: TMemoField
       FieldName = 'RecRodape'
       BlobType = ftMemo
+    end
+    object MTRecAddObsItem: TBooleanField
+      FieldName = 'RecAddObsItem'
     end
   end
   object DS: TDataSource

@@ -16223,7 +16223,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Align = baCenter
           ShiftMode = smWhenOverlapped
           Left = 72.952845000000000000
-          Top = 11.338590000000010000
+          Top = 11.338590000000000000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
           BarType = bcCodeQR
@@ -30993,7 +30993,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Memo25: TfrxMemoView
           Align = baCenter
-          Left = -0.000000000000003608
           Top = 11.338590000000010000
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -31327,7 +31326,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Memo28: TfrxMemoView
           Align = baCenter
           ShiftMode = smWhenOverlapped
-          Left = -0.000000000000003608
           Top = 143.622140000000000000
           Width = 275.905690000000000000
           Height = 15.118120000000000000
@@ -46137,7 +46135,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Memo25: TfrxMemoView
           Align = baCenter
-          Left = -0.000000000000003608
           Top = 11.338590000000010000
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -46471,7 +46468,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Memo28: TfrxMemoView
           Align = baCenter
           ShiftMode = smWhenOverlapped
-          Left = -0.000000000000003608
           Top = 143.622140000000000000
           Width = 275.905690000000000000
           Height = 15.118120000000000000
@@ -47263,6 +47259,19 @@ object dmDanfe_nfe: TdmDanfe_nfe
     Datasets = <>
     Variables = <>
     Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 216.000000000000000000
+      PaperHeight = 279.000000000000000000
+      PaperSize = 1
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+    end
   end
   object mtTransp: TkbmMemTable
     DesignActivation = True

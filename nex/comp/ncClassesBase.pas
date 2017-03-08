@@ -709,6 +709,8 @@ type
     FDocParam_Whats        : String;
     FDocParam_Whats2       : String;
     FDocParam_InfoExtra    : String;
+    
+    FRecAddObsItem         : Boolean;
 
     FEmailIdent            : String;
 
@@ -1091,6 +1093,9 @@ type
       
     property DocParam_InfoExtra: String
       read FDocParam_InfoExtra write FDocParam_InfoExtra;
+
+    property RecAddObsItem: Boolean
+      read FRecAddObsItem write FRecAddObsItem;
 
     property ManterSaldoCaixa: Boolean
       read FManterSaldoCaixa write FManterSaldoCaixa;   
@@ -3422,6 +3427,8 @@ begin
   FDocParam_Whats2       := '';
   FDocParam_InfoExtra    := '';
   
+  FRecAddObsItem   := True;
+  
   FManterSaldoCaixa    := False;
   FEscondeTextoBotoes  := False;
   FCampoLocalizaCli    := 0;
@@ -3877,6 +3884,8 @@ begin
   FDocParam_Whats         := C.FDocParam_Whats         ;
   FDocParam_Whats2        := C.FDocParam_Whats2        ;
   FDocParam_InfoExtra     := C.FDocParam_InfoExtra     ;
+  
+  FRecAddObsItem          := C.FRecAddObsItem    ;
   FEmailIdent             := C.FEmailIdent             ;
   FEmailConteudo          := C.FEmailConteudo          ;
   FCampoLocalizaCli       := C.FCampoLocalizaCli       ;

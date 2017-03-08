@@ -459,6 +459,7 @@ inherited fbVendas2: TfbVendas2
                   Caption = 'Subtotal'
                   DataBinding.FieldName = 'Total'
                   PropertiesClassName = 'TcxCurrencyEditProperties'
+                  Properties.Alignment.Vert = taTopJustify
                   OnGetDisplayText = TVTotalGetDisplayText
                   HeaderAlignmentHorz = taCenter
                   Styles.OnGetContentStyle = TVDebitoStylesGetContentStyle

@@ -236,7 +236,7 @@ begin
     tbBRTrib_Tipo.IndexName := 'I_brtrib_tipo';
     for i := 0 to gListaTipoTran.Count-1 do begin
       T := gListaTipoTran.Itens[I];
-      if T.Emite_nfe then begin
+      if T.Emite_nfe and (T.Tipo<>trEstDevFor) then begin
         Add(0);
         Add(1);
         Add(2);

@@ -44,7 +44,7 @@ inherited fbTranEst: TfbTranEst
         Height = 374
         Align = alClient
         TabOrder = 0
-        Properties.ActivePage = tsModoDetalhado
+        Properties.ActivePage = tsModoResumido
         Properties.CustomButtons.Buttons = <>
         Properties.Style = 6
         Properties.TabSlants.Positions = [spRight]

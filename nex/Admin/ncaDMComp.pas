@@ -24,7 +24,6 @@ type
     tAuxTran: TnxTable;
     tITranNomeTipoItem: TStringField;
     tITranPgAnt: TCurrencyField;
-    tITranDescrItem: TStringField;
     tITranDescrPg: TStringField;
     tITranValorOriginal: TCurrencyField;
     tMovEst: TnxTable;
@@ -426,6 +425,7 @@ type
     tMovEstObs: TWideMemoField;
     tMovEstDebDev: TCurrencyField;
     tMovEstVenDev: TBooleanField;
+    tITranDescrItem: TWideStringField;
     procedure DataModuleDestroy(Sender: TObject);
     procedure tTranCalcFields(DataSet: TDataSet);
     procedure tITranCalcFields(DataSet: TDataSet);
@@ -512,6 +512,7 @@ resourcestring
   rsImpressao     = 'IMPRESSÃO'; 
   rsTransfMaq     = 'TRANSFERÊNCIA DE MÁQUINA'; 
   rsZerarEstoque  = 'ZERAR ESTOQUE';
+  rsEtDevFor      = 'DEVOLUÇÃO AO FORNECEDOR';
 
 
 function strTotalPagar: String;
@@ -804,6 +805,7 @@ begin
       if SameText(DataField, 'DocParam_Logo2') then
         AddParam('DocParam_Logo2');
     end;
+    AddParam('RecAddObsItem');
     Result := sl.Text;
   finally
     sl.Free;
@@ -1725,6 +1727,9 @@ begin
       end else begin
         S := rsErroProdutoNaoExiste;
       end;
+
+      if gConfig.RecAddObsItem and (tMovEstObs.Value>'') then 
+        S := S + sLineBreak + tMovEstObs.Value;
     end else
       S := 'Produto'; // do not localize
   end;
