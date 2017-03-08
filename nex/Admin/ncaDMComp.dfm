@@ -373,12 +373,6 @@ object dmComp: TdmComp
       FieldName = 'PgAnt'
       Calculated = True
     end
-    object tITranDescrItem: TStringField
-      FieldKind = fkCalculated
-      FieldName = 'DescrItem'
-      Size = 100
-      Calculated = True
-    end
     object tITranDescrPg: TStringField
       FieldKind = fkCalculated
       FieldName = 'DescrPg'
@@ -500,6 +494,12 @@ object dmComp: TdmComp
     end
     object tITranFidOpe: TByteField
       FieldName = 'FidOpe'
+    end
+    object tITranDescrItem: TWideStringField
+      FieldKind = fkCalculated
+      FieldName = 'DescrItem'
+      Size = 1000
+      Calculated = True
     end
   end
   object tAuxTran: TnxTable

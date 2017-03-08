@@ -873,6 +873,14 @@ type
     tbMovEstObs: TWideMemoField;
     tbMovEstVenDev: TBooleanField;
     tbMovEstDadosFiscais: TnxMemoField;
+    tbConfigUID: TGuidField;
+    tbConfigfmt_moeda: TBooleanField;
+    tbConfigfmt_decimais: TByteField;
+    tbConfigfmt_simbmoeda: TStringField;
+    tbConfigfmt_sep_decimal: TStringField;
+    tbConfigfmt_sep_milhar: TStringField;
+    tbConfigmodFretePadrao: TByteField;
+    tbConfigRecAddObsItem: TBooleanField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);

@@ -388,7 +388,6 @@ object FrmTotal3: TFrmTotal3
           StyleHot.BorderStyle = ebsNone
           StyleHot.TextColor = clHotLight
           Properties.Alignment.Vert = taVCenter
-          OnClick = lbEditObsItemClick
           AnchorY = 13
         end
       end

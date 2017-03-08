@@ -5,6 +5,7 @@ object Dados: TDados
   Height = 568
   Width = 802
   object Session: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = RSE
@@ -12,6 +13,7 @@ object Dados: TDados
     Top = 56
   end
   object db: TnxDatabase
+    ActiveDesigntime = True
     Session = Session
     AliasName = 'nexcafe'
     FailSafe = True
@@ -1163,6 +1165,34 @@ object Dados: TDados
     object tbConfigDesativarTranspEnt: TBooleanField
       FieldName = 'DesativarTranspEnt'
     end
+    object tbConfigUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tbConfigfmt_moeda: TBooleanField
+      FieldName = 'fmt_moeda'
+    end
+    object tbConfigfmt_decimais: TByteField
+      FieldName = 'fmt_decimais'
+    end
+    object tbConfigfmt_simbmoeda: TStringField
+      FieldName = 'fmt_simbmoeda'
+      Size = 5
+    end
+    object tbConfigfmt_sep_decimal: TStringField
+      FieldName = 'fmt_sep_decimal'
+      Size = 1
+    end
+    object tbConfigfmt_sep_milhar: TStringField
+      FieldName = 'fmt_sep_milhar'
+      Size = 1
+    end
+    object tbConfigmodFretePadrao: TByteField
+      FieldName = 'modFretePadrao'
+    end
+    object tbConfigRecAddObsItem: TBooleanField
+      FieldName = 'RecAddObsItem'
+    end
   end
   object dsConfig: TDataSource
     DataSet = tbConfig
@@ -1170,6 +1200,7 @@ object Dados: TDados
     Top = 288
   end
   object RSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 400
     Top = 8
@@ -5852,6 +5883,7 @@ object Dados: TDados
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     CommandHandler = SimpleCmdHandler
     Timeout = 120000
     OnConnectionLost = nxTCPIPConnectionLost

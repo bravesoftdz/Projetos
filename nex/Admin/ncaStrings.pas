@@ -3,6 +3,7 @@ unit ncaStrings;
 interface
 
 resourcestring
+  rsRecursoProObsItem = 'A opção de adicionar um complemento/observação ao item é um recurso exclusivo para assinantes do plano PRO';
   rsNecessarioFornecedor = 'É necessário informar o Fornecedor';
   rsNovaMarca  = 'nova marca';
   rsPersonalizado = 'Personalizado';

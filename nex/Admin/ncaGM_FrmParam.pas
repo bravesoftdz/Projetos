@@ -71,6 +71,8 @@ type
     MTRecImprimeMeioPagto: TBooleanField;
     MTRecPrefixoMeioPagto: TStringField;
     erPrefixoMeioPagto: TcxDBEditorRow;
+    erAddObsItem: TcxDBEditorRow;
+    MTRecAddObsItem: TBooleanField;
     procedure btnSelImgClick(Sender: TObject);
     procedure btnCancelarClick(Sender: TObject);
     procedure btnDelClick(Sender: TObject);
@@ -176,6 +178,7 @@ begin
     if MTDocParam_InfoExtra.Value <> tbConfigDocParam_InfoExtra.Value then Exit;
     if MTRecImprimeMeioPagto.Value <> tbConfigRecImprimeMeioPagto.Value then Exit;
     if MTRecPrefixoMeioPagto.Value <> tbConfigRecPrefixoMeioPagto.Value then Exit;
+    if MTRecAddObsItem.Value <> tbConfigRecAddObsItem.Value then Exit;
   end;  
   Result := False;
 end;

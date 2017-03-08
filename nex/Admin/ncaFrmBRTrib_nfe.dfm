@@ -5,8 +5,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
   ClientWidth = 792
   OnDestroy = FormDestroy
   OnShow = FormShow
-  ExplicitWidth = 800
-  ExplicitHeight = 614
+  ExplicitWidth = 808
+  ExplicitHeight = 622
   PixelsPerInch = 96
   TextHeight = 17
   inherited panPri: TLMDSimplePanel
@@ -155,24 +155,25 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         Visible = False
       end
       object LMDSimplePanel1: TLMDSimplePanel
-        Left = 10000
-        Top = 10000
-        Width = 100
-        Height = 40
+        Left = 24
+        Top = 228
+        Width = 740
+        Height = 281
         Hint = ''
         Bevel.Mode = bmStandard
         Color = clWhite
         TabOrder = 5
-        Visible = False
         object Grid: TcxGrid
           Left = 1
           Top = 1
-          Width = 98
-          Height = 17
+          Width = 738
+          Height = 258
           Align = alClient
           BorderStyle = cxcbsNone
           TabOrder = 0
           LookAndFeel.Kind = lfFlat
+          ExplicitWidth = 98
+          ExplicitHeight = 17
           object TV: TcxGridDBTableView
             Navigator.Buttons.CustomButtons = <>
             DataController.DataSource = dsItens
@@ -276,7 +277,7 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         end
         object lbObs: TcxLabel
           Left = 1
-          Top = 18
+          Top = 259
           Cursor = crHandPoint
           Align = alBottom
           Caption = 
@@ -296,6 +297,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
           StyleHot.BorderStyle = ebsNone
           StyleHot.TextStyle = [fsBold, fsUnderline]
           OnClick = lbObsClick
+          ExplicitTop = 18
+          ExplicitWidth = 98
         end
       end
       object edPermiteCredICMS: TcxDBCheckBox
@@ -324,22 +327,22 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         Width = 114
       end
       object panICMSSt: TLMDSimplePanel
-        Left = 23
-        Top = 231
-        Width = 100
-        Height = 40
+        Left = 10000
+        Top = 10000
+        Width = 740
+        Height = 281
         Hint = ''
         Bevel.Mode = bmCustom
         TabOrder = 9
+        Visible = False
         object gridST: TcxGrid
           Left = 0
           Top = 28
           Width = 169
-          Height = 12
+          Height = 253
           Align = alLeft
           TabOrder = 0
-          ExplicitTop = 0
-          ExplicitHeight = 40
+          ExplicitHeight = 12
           object tvST: TcxGridDBTableView
             Navigator.Buttons.CustomButtons = <>
             DataController.DataSource = dsST
@@ -392,9 +395,7 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
           ParentFont = False
           Style.TextColor = clRed
           Style.TextStyle = [fsBold, fsUnderline]
-          ExplicitLeft = 232
-          ExplicitTop = 72
-          ExplicitWidth = 54
+          ExplicitWidth = 100
         end
       end
       object LCGroup_Root: TdxLayoutGroup
@@ -412,6 +413,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         CaptionOptions.Text = 'C'#243'digo'
         LayoutLookAndFeel = FrmPri.lfDestaque
         Control = edCod
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 83
         ControlOptions.ShowBorder = False
         Index = 0
       end
@@ -420,6 +423,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignHorz = ahLeft
         CaptionOptions.Text = 'Nome'
         Control = edNome
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         OnCaptionClick = lcNomeCaptionClick
         Index = 1
@@ -429,6 +434,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignHorz = ahLeft
         CaptionOptions.Text = 'Origem'
         Control = edOrigem
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         Index = 2
       end
@@ -439,7 +446,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         LayoutLookAndFeel = FrmPri.lfFlat
         Offsets.Top = 15
         ButtonOptions.Buttons = <>
-        ItemIndex = 2
         LayoutDirection = ldTabbed
         Padding.AssignedValues = [lpavTop]
         ShowBorder = False
@@ -457,6 +463,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignHorz = ahLeft
         CaptionOptions.Text = 'CSOSN'
         Control = edCSOSN
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         Index = 0
       end
@@ -465,6 +473,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignHorz = ahLeft
         CaptionOptions.Text = 'CFOP'
         Control = edCFOP_NFCe
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 114
         ControlOptions.ShowBorder = False
         Index = 0
       end
@@ -479,6 +489,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignVert = avTop
         CaptionOptions.Visible = False
         Control = lbCFOP
+        ControlOptions.OriginalHeight = 21
+        ControlOptions.OriginalWidth = 44
         ControlOptions.ShowBorder = False
         Index = 1
       end
@@ -491,6 +503,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         LayoutLookAndFeel = FrmPri.lfDestaque
         Padding.AssignedValues = [lpavTop]
         Control = LMDSimplePanel1
+        ControlOptions.OriginalHeight = 40
+        ControlOptions.OriginalWidth = 100
         ControlOptions.ShowBorder = False
         Index = 0
       end
@@ -499,6 +513,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignHorz = ahLeft
         CaptionOptions.Text = ' '
         Control = edPermiteCredICMS
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 408
         ControlOptions.ShowBorder = False
         Index = 4
       end
@@ -507,6 +523,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         AlignHorz = ahLeft
         CaptionOptions.Text = '% ICMS'
         Control = edICMS
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 114
         ControlOptions.ShowBorder = False
         Index = 3
       end
@@ -516,6 +534,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         CaptionOptions.Text = '  C. % ICMS Substitui'#231#227'o Tribut'#225'ria  '
         CaptionOptions.Visible = False
         Control = panICMSSt
+        ControlOptions.OriginalHeight = 40
+        ControlOptions.OriginalWidth = 100
         ControlOptions.ShowBorder = False
         Index = 2
       end
@@ -525,11 +545,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
     LookAndFeel.SkinName = ''
     Left = 448
     Top = 66
-    DockControlHeights = (
-      0
-      0
-      36
-      0)
     inherited cmGravar: TdxBarLargeButton
       ImageIndex = 4
     end

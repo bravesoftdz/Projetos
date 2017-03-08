@@ -281,7 +281,7 @@ uses
   ncaConfigRecibo, ncaFrmAposVenda, ncDebug, ncaDMComp, ncaAlertaRecuperarVenda,
   ncGuidUtils, ncaFrmConfig_ExigirVendedor, ncaFrmRecursoPRO, ncaFrmDadosNFCe,
   ncaFrmLeXML, ncaFrmRecursoPremium, ncaFrmEditDesc, ncDMServ, ncaFrmSemEstoque,
-  ncTipoTran, ncaFrmTipoNF;
+  ncTipoTran, ncaFrmTipoNF, ncaStrings;
 
 // START resource string wizard section
 resourcestring
@@ -1069,8 +1069,14 @@ end;
 procedure TFrmME2.EditObsItem(Sender: TObject);
 var I : Integer;
 begin
+  if FME.Tipo<>trEstVenda then Exit;
+  
   if FPanItens.Count<1 then Exit;
   I := FPanItens.FocusedItemIndex;
+
+  if not gConfig.IsPremium then  
+    TFrmRecursoPro.Create(Self).Mostrar(rsRecursoProObsItem, 'FrmME2');
+  
   if FPanItens.EditObsItem then 
     FME.Itens[I].imObs := FPanItens.Values[I, 'Obs'];
 end;
