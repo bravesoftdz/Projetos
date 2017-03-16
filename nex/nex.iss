@@ -10,7 +10,7 @@
 
 [Setup]
 AppName=Nex
-AppVerName=Nex C361
+AppVerName=Nex C363
 AppPublisherURL=http://www.programanex.com.br
 AppSupportURL=http://www.programanex.com.br
 AppUpdatesURL=http://www.programanex.com.br
@@ -38,6 +38,8 @@ Name: autostarticon; Description: Executar o NexServ automaticamente ao iniciar 
 [Files]
 Source: "C:\Meus Programas\nex\NexServ.exe"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor
 Source: "C:\Meus Programas\nex\nexutils.dll"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
+Source: "C:\Meus Programas\nex\libeay32.dll"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
+Source: "C:\Meus Programas\nex\ssleay32.dll"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
 Source: "C:\Meus Programas\nex\NexAdmin.exe"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
 Source: "C:\Meus Programas\nex\newDoc.nx1"; DestDir: "{app}\Dados"; Flags: onlyifdoesntexist; Components: Servidor
 Source: "C:\Meus Programas\nex\br_cest.nx1"; DestDir: "{app}\Dados"; Flags: onlyifdoesntexist; Components: Servidor

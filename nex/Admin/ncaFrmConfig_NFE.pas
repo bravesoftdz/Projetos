@@ -158,7 +158,6 @@ type
     lcEmitirNFeVenda: TdxLayoutItem;
     MTnfe_venda: TBooleanField;
     MTtipodoc_padrao: TByteField;
-    dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup;
     dxLayoutAutoCreatedGroup3: TdxLayoutAutoCreatedGroup;
     MTContabilidade: TStringField;
     lcContabilidade: TdxLayoutItem;
@@ -168,6 +167,10 @@ type
     MTUsarPautaMaiorMVA: TBooleanField;
     edBaseICMSSt: TcxDBCheckBox;
     dxLayoutItem8: TdxLayoutItem;
+    MTnfe_pedido_na_obs: TBooleanField;
+    dxLayoutAutoCreatedGroup1: TdxLayoutAutoCreatedGroup;
+    edPedidoNaObs: TcxDBCheckBox;
+    lcPedidoNaObs: TdxLayoutItem;
     procedure edEmitirNFCePropertiesChange(Sender: TObject);
     procedure edMostrarNCMPropertiesChange(Sender: TObject);
     procedure edMostrarSitTribPropertiesChange(Sender: TObject);
@@ -287,6 +290,7 @@ begin
     if edTipoDocPadrao.EditValue <> tNFConfigTipoDoc_Padrao.Value then Exit;
     if edEmitirNFeVenda.Checked <> TNFConfignfe_venda.Value then Exit;
     if edBaseICMSSt.Checked <> tNFConfigUsarPautaMaiorMVA.Value then Exit;
+    if edPedidoNaObs.Checked <> tNFConfignfe_pedido_na_obs.Value then Exit;
   end;
   Result := False;
 end;

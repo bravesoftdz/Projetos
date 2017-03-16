@@ -6,7 +6,6 @@ inherited fbTran: TfbTran
   ClientWidth = 993
   OldCreateOrder = True
   OnDestroy = FrmBasePaiDestroy
-  ExplicitTop = -117
   ExplicitWidth = 1009
   ExplicitHeight = 628
   PixelsPerInch = 96

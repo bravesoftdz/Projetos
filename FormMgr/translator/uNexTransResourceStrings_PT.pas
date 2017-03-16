@@ -3,6 +3,7 @@ unit uNexTransResourceStrings_PT;
 interface
 
 resourcestring
+  rsCodigoExtra      = 'Código Extra';
   rsTaxaEntregaFrete = 'Taxa de Entrega / Frete';
   rsTaxaEntFrete     = 'Taxa Entr./Frete';
 

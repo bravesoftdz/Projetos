@@ -114,6 +114,14 @@ type
     TabAlteradoPor: TStringField;
     TabNomeMarca: TWideStringField;
     tAuxCodigo: TWideStringField;
+    tAux3: TnxTable;
+    tAux3Codigo: TWideStringField;
+    tAux3CodigoNum: TLongWordField;
+    tAux2: TnxTable;
+    tAux2Codigo2: TWideStringField;
+    TabCodigoNum: TLongWordField;
+    TabCodigo2: TWideStringField;
+    TabCodigo2Num: TLongWordField;
     procedure TVDebitoCustomDrawCell(Sender: TcxCustomGridTableView;
       ACanvas: TcxCanvas; AViewInfo: TcxGridTableDataCellViewInfo;
       var ADone: Boolean);
@@ -188,6 +196,8 @@ type
     function TextoBusca: String;
 
     function ECodigo: Boolean;
+    function ECodigo2: Boolean;
+    function ECodigoNum: Boolean;
   public
     procedure FiltraDados; 
 
@@ -742,6 +752,39 @@ begin
   tAux.IndexName := 'ICodigo';
   tAux.FindNearest([S]);
   Result := (not tAux.IsEmpty) and SameTextSemAcento(Copy(tAuxCodigo.Value, 1, Length(S)), S);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigo';
+    Tab.SetRange([S], [S+'zzzzzzzz']);
+  end;
+end;
+
+function TFrmProdPesq2.ECodigo2: Boolean;
+var S: String;
+begin
+  S := TextoBusca;
+  tAux2.FindNearest([S]);
+  Result := (not tAux2.IsEmpty) and SameTextSemAcento(Copy(tAux2Codigo2.Value, 1, Length(S)), S);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigo2';
+    Tab.SetRange([S], [S+'zzzzzzzz']);
+  end;
+end;
+
+function TFrmProdPesq2.ECodigoNum: Boolean;
+var 
+  C: Cardinal;
+  S: String;
+begin
+  S := TextoBusca;
+  C := StrToIntDef(S, 0);
+  Result := (C>0) and tAux3.FindKey([C]);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigoNum';
+    Tab.SetRange([C], [C]);
+  end;
 end;
 
 procedure TFrmProdPesq2.cmMostrarPropertiesChange(Sender: TObject);

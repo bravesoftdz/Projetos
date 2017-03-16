@@ -2,6 +2,7 @@ inherited fbOrcamento: TfbOrcamento
   Caption = 'Or'#231'amento'
   ClientHeight = 380
   ClientWidth = 852
+  ExplicitLeft = 7
   ExplicitWidth = 868
   ExplicitHeight = 419
   PixelsPerInch = 96
@@ -220,6 +221,7 @@ inherited fbOrcamento: TfbOrcamento
           Width = 162
         end
         object TVAprovadoEm: TcxGridDBColumn
+          Caption = 'Aprovado em'
           DataBinding.FieldName = 'AprovadoEm'
           PropertiesClassName = 'TcxDateEditProperties'
           Properties.Alignment.Horz = taCenter
@@ -234,6 +236,7 @@ inherited fbOrcamento: TfbOrcamento
           Visible = False
         end
         object TVRecusadoEm: TcxGridDBColumn
+          Caption = 'Recusado em'
           DataBinding.FieldName = 'RecusadoEm'
           PropertiesClassName = 'TcxDateEditProperties'
           Properties.Alignment.Horz = taCenter
@@ -241,6 +244,7 @@ inherited fbOrcamento: TfbOrcamento
           HeaderAlignmentHorz = taCenter
         end
         object TVExpiradoEm: TcxGridDBColumn
+          Caption = 'Expirado em'
           DataBinding.FieldName = 'ExpiradoEm'
           PropertiesClassName = 'TcxDateEditProperties'
           Properties.Alignment.Horz = taCenter

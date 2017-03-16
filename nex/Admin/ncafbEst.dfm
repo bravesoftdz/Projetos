@@ -3,7 +3,6 @@ inherited fbEst: TfbEst
   ClientHeight = 475
   ClientWidth = 1048
   OnDestroy = FrmBasePaiDestroy
-  ExplicitTop = -151
   ExplicitWidth = 1064
   ExplicitHeight = 514
   PixelsPerInch = 96
@@ -504,6 +503,7 @@ inherited fbEst: TfbEst
             Properties.Alignment.Horz = taLeftJustify
             Properties.Alignment.Vert = taVCenter
             Properties.WordWrap = True
+            ExplicitTop = 149
             Width = 187
             AnchorY = 169
           end
@@ -557,6 +557,9 @@ inherited fbEst: TfbEst
       object cxTabSheet1: TcxTabSheet
         Caption = 'por Cliente'
         ImageIndex = 4
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object gridTempoCli: TcxGrid
           Left = 0
           Top = 0
@@ -651,6 +654,9 @@ inherited fbEst: TfbEst
       object tsVendas: TcxTabSheet
         Caption = 'Vendas'
         ImageIndex = 8
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object pgVendas: TcxDBPivotGrid
           Left = 0
           Top = 0
@@ -742,6 +748,9 @@ inherited fbEst: TfbEst
       object tsVendasEstoque: TcxTabSheet
         Caption = 'Vendas e Estoque'
         ImageIndex = 4
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object gridProd: TcxGrid
           Left = 0
           Top = 0
@@ -1026,6 +1035,9 @@ inherited fbEst: TfbEst
       object tsComissao: TcxTabSheet
         Caption = 'Comiss'#227'o'
         ImageIndex = 5
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object LMDSimplePanel2: TLMDSimplePanel
           Left = 0
           Top = 0

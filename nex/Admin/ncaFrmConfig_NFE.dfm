@@ -261,7 +261,7 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
       Font.Style = []
       ParentFont = False
       TabOrder = 1
-      Properties.ActivePage = tsEmail
+      Properties.ActivePage = tsOpcoes
       Properties.CustomButtons.Buttons = <>
       Properties.ShowFrame = True
       Properties.Style = 9
@@ -1012,24 +1012,35 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               ParentFont = False
               OnClick = btnAvancadasClick
             end
-            object edEmitirNFeVenda: TcxDBCheckBox
-              Left = 13
-              Top = 79
-              Cursor = crHandPoint
-              Caption = 'Emitir NF-e para Vendas'
-              DataBinding.DataField = 'nfe_venda'
+            object edICMS: TcxDBCurrencyEdit
+              Left = 357
+              Top = 46
+              DataBinding.DataField = 'nfe_perc_cred_icms'
               DataBinding.DataSource = DS
               ParentFont = False
+              Properties.DisplayFormat = '0.##'
+              Style.HotTrack = False
+              Style.StyleController = FrmPri.escFlat
+              TabOrder = 3
+              Width = 106
+            end
+            object edBaseICMSSt: TcxDBCheckBox
+              Left = 13
+              Top = 112
+              Caption = 'ICMS ST: Usar a base de c'#225'lculo que for maior entre Pauta e MVA'
+              DataBinding.DataField = 'UsarPautaMaiorMVA'
+              DataBinding.DataSource = DS
+              ParentFont = False
+              Properties.FullFocusRect = True
               Properties.ImmediatePost = True
               Properties.NullStyle = nssUnchecked
               Style.HotTrack = False
-              TabOrder = 4
+              TabOrder = 11
               Transparent = True
-              OnClick = edEmitirNFeVendaClick
             end
             object edTipoDocPadrao: TcxDBImageComboBox
-              Left = 227
-              Top = 112
+              Left = 467
+              Top = 79
               DataBinding.DataField = 'tipodoc_padrao'
               DataBinding.DataSource = DS
               ParentFont = False
@@ -1049,32 +1060,35 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
                 end>
               Style.HotTrack = False
               TabOrder = 5
-              Width = 236
+              Width = 189
             end
-            object edICMS: TcxDBCurrencyEdit
-              Left = 357
-              Top = 46
-              DataBinding.DataField = 'nfe_perc_cred_icms'
+            object edEmitirNFeVenda: TcxDBCheckBox
+              Left = 13
+              Top = 79
+              Cursor = crHandPoint
+              Caption = 'Emitir NF-e para Vendas'
+              DataBinding.DataField = 'nfe_venda'
               DataBinding.DataSource = DS
               ParentFont = False
-              Properties.DisplayFormat = '0.##'
+              Properties.ImmediatePost = True
+              Properties.NullStyle = nssUnchecked
               Style.HotTrack = False
-              Style.StyleController = FrmPri.escFlat
-              TabOrder = 3
-              Width = 106
+              TabOrder = 4
+              Transparent = True
+              OnClick = edEmitirNFeVendaClick
             end
-            object edBaseICMSSt: TcxDBCheckBox
+            object edPedidoNaObs: TcxDBCheckBox
               Left = 13
               Top = 145
-              Caption = 'ICMS ST: Usar a base de c'#225'lculo que for maior entre Pauta e MVA'
-              DataBinding.DataField = 'UsarPautaMaiorMVA'
+              Caption = 'Adicionar n'#250'mero do pedido nas observa'#231#245'es fiscais da NF-e'
+              DataBinding.DataField = 'nfe_pedido_na_obs'
               DataBinding.DataSource = DS
               ParentFont = False
               Properties.FullFocusRect = True
               Properties.ImmediatePost = True
               Properties.NullStyle = nssUnchecked
               Style.HotTrack = False
-              TabOrder = 11
+              TabOrder = 12
               Transparent = True
             end
             object lc4Group_Root: TdxLayoutGroup
@@ -1082,6 +1096,7 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               AlignVert = avClient
               ButtonOptions.Buttons = <>
               Hidden = True
+              ItemIndex = 6
               ShowBorder = False
               Index = -1
             end
@@ -1104,7 +1119,7 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               CaptionOptions.Text = 'Op'#231#245'es avan'#231'adas'
               Visible = False
               ButtonOptions.Buttons = <>
-              Index = 3
+              Index = 4
             end
             object lcSerieNFE: TdxLayoutItem
               Parent = lcgr_avancado
@@ -1183,37 +1198,6 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               ControlOptions.ShowBorder = False
               Index = 0
             end
-            object dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup
-              Parent = lc4Group_Root
-              AlignHorz = ahLeft
-              AlignVert = avTop
-              Index = 2
-              AutoCreated = True
-            end
-            object lcEmitirNFeVenda: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup4
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = 'cxDBCheckBox2'
-              CaptionOptions.Visible = False
-              Control = edEmitirNFeVenda
-              ControlOptions.OriginalHeight = 25
-              ControlOptions.OriginalWidth = 121
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object lcTipoDocPadrao: TdxLayoutItem
-              Parent = dxLayoutAutoCreatedGroup4
-              AlignHorz = ahClient
-              AlignVert = avTop
-              CaptionOptions.Text = 'Tipo de NF padr'#227'o para vendas'
-              Offsets.Left = 20
-              Control = edTipoDocPadrao
-              ControlOptions.OriginalHeight = 25
-              ControlOptions.OriginalWidth = 236
-              ControlOptions.ShowBorder = False
-              Index = 2
-            end
             object lcAliqCredICMS: TdxLayoutItem
               Parent = dxLayoutAutoCreatedGroup3
               AlignHorz = ahLeft
@@ -1226,9 +1210,11 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               Index = 1
             end
             object dxLayoutAutoCreatedGroup3: TdxLayoutAutoCreatedGroup
-              Parent = dxLayoutAutoCreatedGroup4
+              Parent = lc4Group_Root
+              AlignHorz = ahClient
+              AlignVert = avTop
               LayoutDirection = ldHorizontal
-              Index = 0
+              Index = 2
               AutoCreated = True
             end
             object dxLayoutItem8: TdxLayoutItem
@@ -1239,7 +1225,49 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               ControlOptions.OriginalHeight = 25
               ControlOptions.OriginalWidth = 121
               ControlOptions.ShowBorder = False
-              Index = 4
+              Index = 5
+            end
+            object lcTipoDocPadrao: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup1
+              AlignHorz = ahRight
+              AlignVert = avClient
+              CaptionOptions.Text = 'Tipo de NF padr'#227'o para vendas'
+              Offsets.Left = 20
+              Control = edTipoDocPadrao
+              ControlOptions.OriginalHeight = 25
+              ControlOptions.OriginalWidth = 189
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutAutoCreatedGroup1: TdxLayoutAutoCreatedGroup
+              Parent = lc4Group_Root
+              AlignHorz = ahClient
+              AlignVert = avTop
+              LayoutDirection = ldHorizontal
+              Index = 3
+              AutoCreated = True
+            end
+            object lcEmitirNFeVenda: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup1
+              AlignHorz = ahLeft
+              AlignVert = avTop
+              CaptionOptions.Text = 'cxDBCheckBox2'
+              CaptionOptions.Visible = False
+              Control = edEmitirNFeVenda
+              ControlOptions.OriginalHeight = 25
+              ControlOptions.OriginalWidth = 166
+              ControlOptions.ShowBorder = False
+              Index = 0
+            end
+            object lcPedidoNaObs: TdxLayoutItem
+              Parent = lc4Group_Root
+              CaptionOptions.Text = 'cxDBCheckBox1'
+              CaptionOptions.Visible = False
+              Control = edPedidoNaObs
+              ControlOptions.OriginalHeight = 25
+              ControlOptions.OriginalWidth = 386
+              ControlOptions.ShowBorder = False
+              Index = 6
             end
           end
         end
@@ -1741,6 +1769,9 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
     LocaleID = 1024
     Left = 498
     Top = 418
+    object MTnfe_pedido_na_obs: TBooleanField
+      FieldName = 'nfe_pedido_na_obs'
+    end
     object MTUsarPautaMaiorMVA: TBooleanField
       FieldName = 'UsarPautaMaiorMVA'
     end

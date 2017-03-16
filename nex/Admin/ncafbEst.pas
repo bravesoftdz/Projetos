@@ -330,7 +330,8 @@ var
        
 implementation
 
-uses ncaFrmPri, ncClassesBase, ncaDM, cxExportPivotGridLink, ufmImagens;
+uses ncaFrmPri, ncClassesBase, ncaDM, cxExportPivotGridLink, ufmImagens,
+  ncaStrings;
 
 const
   sqlRankingCli = 
@@ -559,6 +560,9 @@ end;
 begin
   inherited;
   FCXRange := TncCaixas.Create;
+  tvHoraHora.Caption := rsHora;
+  tvHoraQtd.Caption := rsQtd;
+  tvHoraValor.Caption := rsValor;
   pgVendasComissao.Visible := gConfig.IsPremium;
   Paginas.HideTabs := True;
   Paginas.ActivePageIndex := 0;

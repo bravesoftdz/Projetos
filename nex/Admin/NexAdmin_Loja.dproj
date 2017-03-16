@@ -104,8 +104,8 @@ $(PostBuildEvent)]]></PostBuildEvent>
         <DCC_Hints>false</DCC_Hints>
         <DCC_UseMSBuildExternally>false</DCC_UseMSBuildExternally>
         <DCC_RemoteDebug>true</DCC_RemoteDebug>
-        <VerInfo_Build>361</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.361;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.361;Comments=</VerInfo_Keys>
+        <VerInfo_Build>363</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=5.0.0.363;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=5.0.0.363;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
     </PropertyGroup>
     <ProjectExtensions>
@@ -149,9 +149,15 @@ $(PostBuildEvent)]]></PostBuildEvent>
                     <Source Name="MainSource">NexAdmin_Loja.dpr</Source>
                 </Source>
                 <Excluded_Packages>
-                    <Excluded_Packages Name="C:\comp\devex\Library\RS23\dclcxSchedulerGridRS23.bpl">ExpressScheduler connection to ExpressQuantumGrid by Developer Express Inc.</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k230.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dclofficexp230.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxDockingRS23.bpl">ExpressDocking Library by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxSpellCheckerRS23.bpl">ExpressSpellChecker 2 by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxTileControlRS23.bpl">ExpressTileControl by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxtrmdRS23.bpl">ExpressTreePrintedDataSet by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dcldxFlowChartRS23.bpl">ExpressFlowChart by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dclcxSchedulerGridRS23.bpl">ExpressScheduler connection to ExpressQuantumGrid by Developer Express Inc.</Excluded_Packages>
+                    <Excluded_Packages Name="C:\Comp\DevEx\Library\RS23\dclcxPivotGridChartRS23.bpl">ExpressPivotGrid connection to ExpressQuantumGrid Chart View by Developer Express Inc.</Excluded_Packages>
                 </Excluded_Packages>
                 <Language>
                     <Language Name="ProjectLang">$00000416</Language>
@@ -400,15 +406,15 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 <Platform value="Win64">False</Platform>
             </Platforms>
             <Deployment Version="2">
-                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="C:\Meus Programas\Nex\NexAdmin_Loja.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>NexAdmin_Loja.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -1668,6 +1674,14 @@ $(PostBuildEvent)]]></PostBuildEvent>
         </DCCReference>
         <DCCReference Include="ncaFrmObs.pas">
             <Form>FrmObs</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmConfig_TamCodigoAuto.pas">
+            <Form>FrmConfig_TamCodigoAuto</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmAjustaTamCod.pas">
+            <Form>FrmAjustaTamCod</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <None Include="C:\Comp\LMD2015\source\LMDCmps.inc"/>

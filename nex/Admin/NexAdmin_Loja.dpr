@@ -336,7 +336,9 @@ uses
   ncaFrmTrial_fim in 'ncaFrmTrial_fim.pas' {FrmTrial_fim},
   ncaFrmTrial_Sombra in 'ncaFrmTrial_Sombra.pas' {FrmTrial_sombra},
   ncaFrmProduto in 'ncaFrmProduto.pas' {FrmProduto},
-  ncaFrmObs in 'ncaFrmObs.pas' {FrmObs};
+  ncaFrmObs in 'ncaFrmObs.pas' {FrmObs},
+  ncaFrmConfig_TamCodigoAuto in 'ncaFrmConfig_TamCodigoAuto.pas' {FrmConfig_TamCodigoAuto},
+  ncaFrmAjustaTamCod in 'ncaFrmAjustaTamCod.pas' {FrmAjustaTamCod};
 
 {$R *.res}
 {---$R uac.res}

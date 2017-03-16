@@ -65,6 +65,7 @@ type
     function  ObtemDescrTran(aDB: TnxServerDatabase; aTran: Integer; aAjustaCusto: Boolean): String;
     function ObtemPagEspTran(aDB: TnxServerDatabase; aTran: Integer): Variant;
     function CodigoLivre(aDB: TnxServerDatabase; aID: Integer): Boolean;
+    function ProxCodProd(aDB: TnxServerDatabase): Cardinal;
 
     procedure AtualizaCusto(aDB: TnxServerDatabase; aProduto: Integer);
     function ObtemCusto(aDB: TnxServerDatabase; aProduto: Integer; aData: Variant): Currency;
@@ -1085,6 +1086,20 @@ begin
    end else   
    if SameText(aTable, 'Produto') then begin
      if SalvandoConfig then Exit;
+
+     vValue := LeFld('Codigo');
+     if VarIsNull(vValue) then
+       S := '' else
+       S := vValue;
+
+     if (not gEvolvingTables) and (S='') then begin
+       S := ZeroC(Self.ProxCodProd(SrvDB), gConfig.TamCodigoAuto);
+       SaveFld('Codigo', S);
+     end;
+     
+     if (S>'') and (Length(S)<8) then
+       SaveFld('CodigoNum', StrToIntDef(S, 0)) else
+       SaveFld('CodigoNum', 0);
      
      if LeBool('PrecoAuto') then begin
        if (not gEvolvingTables) then begin
@@ -1601,6 +1616,24 @@ begin
     end;
   finally
     hcPagEsp.Free;
+  end;
+end;
+
+function TdmServidorBD.ProxCodProd(aDB: TnxServerDatabase): Cardinal;
+var 
+  h : TnxHelpCursor;
+  V : Variant;
+begin
+  h := TnxHelpCursor.CreateOpen('Produto', aDB);
+  try
+    H.Active := True;
+    H.SelIndex('ICodigoNum');
+    H.Active := True;
+    if H.Last then 
+      Result := H.LeWord32('CodigoNum') + 1 else
+      Result := 1;
+  finally
+    h.Free;
   end;
 end;
 

@@ -854,6 +854,7 @@ resourcestring
   rsDesconto = 'Desconto';
   rsTotalFinal = 'Total Final';
   rsTroco = 'Troco';
+  rsLucro = 'Lucro';
   rsCancelado = 'Cancelado';
   
 implementation
@@ -1040,6 +1041,11 @@ begin
 
   AjustaFinComissao;
 
+  tvPend2Cidade.Caption := rsCidade;
+  tvPend2UF.Caption := rsUF;
+  tvPend2Bairro.Caption := rsBairro;
+  tvPend2Obs.Caption := rsObs;
+
   TVTipoNFE.Visible := Dados.NFeAtivo and Dados.NFCeAtivo;
   TVTipoNFE.VisibleForCustomization := TVTipoNFE.Visible;
 
@@ -1050,6 +1056,7 @@ begin
   TVCancelado.Caption := rsCancelado;
   TVTotalFinal.Caption := rsTotalFinal;
   TVTroco.Caption := rsTroco;
+  TVdetLucro.Caption := rsLucro;
 
   TVObs.Visible := cmObs.Down;
   tvDet.Preview.Visible := cmObs.Down;
@@ -1060,6 +1067,9 @@ begin
   if NFAtivo then begin
     TVStatusNF.Visible := True;
     TVStatusNF.VisibleForCustomization := True;
+    TVdetStatusNFe.Visible := True;
+    TVdetStatusNFe.VisibleForCustomization := True;
+    
     cmDanfe.Visible := ivAlways;
 {    if tNFConfigAmbiente.Value=2 then
       cmImpRecibo.Visible := ivAlways else}
@@ -1069,10 +1079,13 @@ begin
     cmImpRecibo.Visible := ivAlways;
   end;
 
-  if (not gConfig.PaisBrasil) and (not Dados.NFAtivo) then begin
+  if (not gConfig.PaisBrasil) or (not Dados.NFAtivo) then begin
     TVStatusNF.Visible := False;
     TVStatusNF.VisibleForCustomization := False;
+    TVdetStatusNFe.Visible := False;
+    TVdetStatusNFe.VisibleForCustomization := False;
   end;
+
 
   cmTodosCaixas.Enabled := Permitido(daVendasVerCxAntes);
   cmSoCaixaAtual.Enabled := Permitido(daVendasVerCxAtual);

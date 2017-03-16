@@ -245,6 +245,7 @@ inherited fbClientes: TfbClientes
             Width = 130
           end
           object TVUVisita: TcxGridDBColumn
+            Caption = 'Ult.Visita'
             DataBinding.FieldName = 'UltVisita'
             PropertiesClassName = 'TcxDateEditProperties'
             Properties.Alignment.Horz = taCenter

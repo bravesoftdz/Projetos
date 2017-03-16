@@ -9,7 +9,7 @@
 #define NexAdminExe "NexAdmin.exe"
 
 [Setup]
-AppName=Nex NFCe
+AppName=Nex NFe
 AppVerName=Arquivos NF-e 1.0
 AppPublisherURL=http://www.programanex.com.br
 AppSupportURL=http://www.programanex.com.br

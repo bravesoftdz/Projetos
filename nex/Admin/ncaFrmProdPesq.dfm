@@ -308,6 +308,11 @@ object FrmProdPesq: TFrmProdPesq
               DataBinding.FieldName = 'CustoUnitario'
               Visible = False
             end
+            object TVCodigo2: TcxGridDBColumn
+              Caption = 'C'#243'digo Extra'
+              DataBinding.FieldName = 'Codigo2'
+              Width = 131
+            end
           end
           object TVFor: TcxGridDBTableView
             OnDblClick = TVDblClick
@@ -1202,10 +1207,47 @@ object FrmProdPesq: TFrmProdPesq
       FieldName = 'AlteradoPor'
       Size = 30
     end
+    object TabCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object TabCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object TabCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
+    end
   end
   object dsTab: TDataSource
     DataSet = Tab
     Left = 237
     Top = 236
+  end
+  object tAux2: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'Produto'
+    IndexName = 'ICodigo2'
+    Left = 248
+    Top = 368
+    object tAux2Codigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+  end
+  object tAux3: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'Produto'
+    IndexName = 'ICodigoNum'
+    Left = 644
+    Top = 307
+    object tAux3Codigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tAux3CodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
   end
 end

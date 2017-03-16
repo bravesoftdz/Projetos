@@ -701,7 +701,10 @@ begin
         end;  
 
         if cbZerarConfig.Checked then 
-          AddSl('config.nx1')
+          AddSl('config.nx1');
+
+        AddSl('Card.nx1');
+        AddSl('post_nexapp.nx1');
       end;
 
       CopiaDados('_'+sufixo_zerar);

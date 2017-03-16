@@ -16,7 +16,6 @@ uses
   nxsdKeyFieldEngineBase,
   nxsdDataDictionary;
 
-
 type
 
  TnxcgProgressCallback = 
@@ -216,6 +215,43 @@ begin
     raise;
   end;
 end;
+
+// ProdFor
+function __cfop_dev(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+      
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+
+        AddField('cfop_compra', '', nxtWord16, 5, 0, False);
+        AddField('cfop', '', nxtWord16, 5, 0, False);          
+                  
+        AddField('natop', '', nxtWideString, 60, 0, False);
+      end;
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('ID'));
+
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));   
+
+        with AddIndex('Icfop_compra', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('cfop_compra'));   
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
 
 
 // ProdFor
@@ -444,6 +480,10 @@ begin
         with AddField('EmitirNFCe', '', nxtBoolean, 0, 0, False) do 
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
             AsVariant := False; 
+
+        with AddField('nfe_pedido_na_obs', '', nxtBoolean, 0, 0, False) do 
+          with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
+            AsVariant := True;             
 
         with AddField('Tipo', '', nxtByte, 5, 0, False) do
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
@@ -1852,7 +1892,10 @@ begin
         AddField('RecTipoImpressora', '', nxtNullString, 32, 0, False);
         AddField('RecNomeLoja', '', nxtNullString, 40, 0, False);
         AddField('RecCortaFolha', '', nxtBoolean, 0, 0, False);
-
+        
+        with AddField('TamCodigoAuto', '', nxtByte, 0, 0, False) do 
+          with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
+            AsVariant := 6;        
         
         with AddField('fmt_moeda', '', nxtBoolean, 0, 0, False) do 
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
@@ -2660,6 +2703,9 @@ begin
         
         AddField('Marca', '', nxtGUID, 0, 0, False);
         AddField('Codigo', '', nxtWideString, 30, 0, False);
+        AddField('CodigoNum', '', nxtWord32, 0, 0, False);
+        AddField('Codigo2', '', nxtWideString, 30, 0, False);
+        AddField('Codigo2Num', '', nxtWord32, 0, 0, False);
         AddField('Descricao', '', nxtWideString, 100, 0, False);
         AddField('Unid', '', nxtWideString, 5, 0, False);
         AddField('Preco', '', nxtCurrency, 5, 0, False);
@@ -2762,6 +2808,23 @@ begin
               UseStringSort := True;
             end;
           end;
+
+        with AddIndex('ICodigoNum', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('CodigoNum'));
+
+        with AddIndex('ICodigo2', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          with Add(GetFieldFromName('Codigo2'), TnxExtTextKeyFieldDescriptor) as TnxExtTextKeyFieldDescriptor do begin
+            IgnoreCase := True;
+            with AddLocaleDescriptor do begin
+              Locale := $00000416; { Portuguese }
+              Flags := $00001000;
+              UseStringSort := True;
+            end;
+          end;
+
+        with AddIndex('ICodigo2Num', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('Codigo2Num'));          
+                    
         with AddIndex('IDescricao', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
           with Add(GetFieldFromName('Descricao'), TnxExtTextKeyFieldDescriptor) as TnxExtTextKeyFieldDescriptor do begin
             IgnoreCase := True;
@@ -4012,7 +4075,8 @@ initialization
     Add('BRTrib_Tipo',  __brtrib_tipo,  idtb_BRTrib_Tipo);
     Add('LinkXML',      __LinkXML,      idtb_LinkXML);
     Add('xmls_compra',  __xmls_compra,  idtb_xmls_compra);
-
+    Add('cfop_dev',     __cfop_dev,     idtb_cfop_dev);
+    
 // Tabelas que fazem backup no cloud mas possuem campos/indices de ID ou UID diferente do padrão    
 
     Add('tax',          __tax,          idtb_tax,       1, 'tax_id', 'I_tax_id');

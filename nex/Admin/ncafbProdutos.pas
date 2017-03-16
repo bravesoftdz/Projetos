@@ -243,6 +243,15 @@ type
     tEtqProdPauta: TnxMemoField;
     tEtqProdAlteradoEm: TDateTimeField;
     tEtqProdAlteradoPor: TStringField;
+    TabCodigo2: TWideStringField;
+    TVProdCodigo2: TcxGridDBColumn;
+    tAux2: TnxTable;
+    tAux2Codigo2: TWideStringField;
+    tAux3: TnxTable;
+    tAux3Codigo: TWideStringField;
+    tAux3CodigoNum: TLongWordField;
+    TabCodigoNum: TLongWordField;
+    TabCodigo2Num: TLongWordField;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);
@@ -318,6 +327,8 @@ type
   public
     class function Descricao: String; override;
     function ECodigo(S: String): Boolean;
+    function ECodigo2(S: String): Boolean;
+    function ECodigoNum(S: String): Boolean;
     procedure AjustaLayoutLargeButton(B : TdxBarLargeButton); override;
     procedure AtualizaDireitos; override;
     procedure AjustaFin;
@@ -358,7 +369,7 @@ uses
   ncaFrmNovaEtiqueta, ncaFrmQuantEtq, ncaDMComp, ncaConfigRecibo,
   ncaFrmRecursoPRO, ncaFrmConfigPrecoAuto, ncaFrmConfig_Cupom, ncaFrmLeXML,
   ncaFrmReajustePreco, ncaFrmDevolucao, ncafbVendas2, ncaFrmAposVenda,
-  ncTipoTran, ncaStrings;
+  ncTipoTran, ncaStrings, ncaFrmConfig_TamCodigoAuto, ncaFrmAjustaTamCod;
 
 // START resource string wizard section
 resourcestring
@@ -419,6 +430,33 @@ function TfbProdutos.ECodigo(S: String): Boolean;
 begin
   tAux.FindNearest([S]);
   Result := (not tAux.IsEmpty) and SameTextSemAcento(Copy(tAuxCodigo.Value, 1, Length(S)), S);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigo';
+    Tab.SetRange([S], [S+'zzzzzzz']);
+  end;
+end;
+
+function TfbProdutos.ECodigo2(S: String): Boolean;
+begin
+  tAux2.FindNearest([S]);
+  Result := (not tAux2.IsEmpty) and SameTextSemAcento(Copy(tAux2Codigo2.Value, 1, Length(S)), S);
+  if Result then begin
+    Tab.IndexName := 'ICodigo2';
+    Tab.SetRange([S], [S+'zzzzzzz']);
+  end;
+end;
+
+function TfbProdutos.ECodigoNum(S: String): Boolean;
+var C: Cardinal;
+begin
+  C := StrToIntDef(S, 0);
+  Result := (C>0) and tAux3.FindKey([C]);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigoNum';
+    Tab.SetRange([C], [C]);
+  end;
 end;
 
 procedure TfbProdutos.cbSuperBuscaClick(Sender: TObject);
@@ -518,10 +556,15 @@ begin
         Tab.IndexName := 'IDescricao';      
         Tab.CancelRange;
       end else begin
-        if ECodigo(edBusca.Text) then 
-          Tab.IndexName := 'ICodigo' else
-          Tab.IndexName := 'IDescricao';      
-        Tab.SetRange([edBusca.Text], [edBusca.Text+'zzzzzzzzzzzzzzzzzzzzz']); // do not localize
+        if not ECodigo(edBusca.Text) then 
+        if not ECodigo2(edBusca.Text) then
+        if not ECodigoNum(edBusca.Text) then begin
+          if cbSuperBusca.Checked then
+            Tab.IndexName := 'ISuperBusca' else
+            Tab.IndexName := 'IDescricao';
+        
+          Tab.SetRange([edBusca.Text], [edBusca.Text+'zzzzzzzzzzzzzzzzzzzzz']); // do not localize
+        end;  
       end;        
     end else begin
       Tab.IndexName := 'IAbaixoMin';
@@ -869,14 +912,16 @@ begin
       Tab.IndexName := 'IDescricao';
       Tab.CancelRange;
     end else begin
-      if ECodigo(edBusca.Text) then 
-        Tab.IndexName := 'ICodigo' 
-      else
-      if cbSuperBusca.Checked then
-        Tab.IndexName := 'ISuperBusca' else
-        Tab.IndexName := 'IDescricao';
+      if not ECodigo(edBusca.Text) then 
+      if not ECodigo2(edBusca.Text) then
+      if not ECodigoNum(edBusca.Text) then begin
+        if cbSuperBusca.Checked then
+          Tab.IndexName := 'ISuperBusca' else
+          Tab.IndexName := 'IDescricao';
         
-      Tab.SetRange([edBusca.Text], [edBusca.Text+'zzzzzzzzzzzzzzzzzzzzz']); // do not localize
+        Tab.SetRange([edBusca.Text], [edBusca.Text+'zzzzzzzzzzzzzzzzzzzzz']); // do not localize
+      end;  
+      
       FAtualizando := True;
       try
         if not rgTodos.Down then begin
@@ -1131,14 +1176,25 @@ begin
 end;
 
 procedure TfbProdutos.cmCfgClick(Sender: TObject);
+var T: Byte;
 begin
   inherited;
-  TFrmOpcoes.Create(Self).Editar(SOpçõesParaProdutos, [TFrmConfigAutoCad, 
-  TFrmConfigQuickCad, 
-  TFrmConfigCodProdutoDuplicado, 
-  TFrmConfigVendaProdSemSaldo, 
-  TFrmConfigPrecoAuto,
-  TFrmConfigCodBarBal], True); 
+  
+  T := gConfig.TamCodigoAuto;
+  
+  TFrmOpcoes.Create(Self).Editar(SOpçõesParaProdutos, [
+    TFrmConfig_TamCodigoAuto,  
+    TFrmConfigAutoCad, 
+    TFrmConfigQuickCad, 
+    TFrmConfigCodProdutoDuplicado, 
+    TFrmConfigVendaProdSemSaldo, 
+    TFrmConfigPrecoAuto,
+    TFrmConfigCodBarBal], True); 
+
+  if T<>gConfig.TamCodigoAuto then begin
+    TFrmAjustaTamCod.Create(Self).ShowModal;
+    Tab.Refresh;
+  end;
 end;
 
 procedure TfbProdutos.cmCompraClick(Sender: TObject);
@@ -1272,6 +1328,7 @@ begin
 end;
 
 end.
+
 
 
 

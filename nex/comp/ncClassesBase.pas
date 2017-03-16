@@ -2,7 +2,6 @@ unit ncClassesBase;
 {
     ResourceString: Dario 12/03/13
 }
-
 interface 
 
 {$I NEX.INC}
@@ -77,6 +76,7 @@ const
   idtb_LinkXML      = 46;
   idtb_Marca        = 47;
   idtb_xmls_compra  = 48;
+  idtb_cfop_dev     = 49;
 
   bk_status_criar_json = 0;
   bk_status_enviar     = 1;
@@ -692,6 +692,8 @@ type
     FRecImprimeMeioPagto   : Boolean;
     FRecPrefixoMeioPagto   : String;
 
+    FNomeCodigo2           : String;
+
     FPais                  : String;
     Ftax_id_default        : Cardinal;
 
@@ -797,6 +799,8 @@ type
 
     FTelaPosVenda_Mostrar  : Boolean;
     FTelaPosVenda_BtnDef   : Byte;
+
+    FTamCodigoAuto         : Byte;
 
     Ffmt_moeda             : Boolean;
     Ffmt_decimais          : Byte;
@@ -923,6 +927,9 @@ type
       read GetRecBobina write SetRecBobina;  
     
   published
+
+    property TamCodigoAuto: Byte
+      read FTamCodigoAuto write FTamCodigoAuto;
 
     property fmt_moeda: Boolean read Ffmt_moeda write Ffmt_moeda;
     property fmt_decimais: Byte read Ffmt_decimais write Ffmt_decimais;
@@ -1270,6 +1277,9 @@ type
 
     property Pais: String 
       read FPais write FPais;
+
+    property NomeCodigo2: String
+      read FNomeCodigo2 write FNomeCodigo2;  
 
     property tax_id_def: Cardinal
       read Ftax_id_default write Ftax_id_default;
@@ -1677,6 +1687,8 @@ type
 
   function CFOPTemSt(aCFOP: Word): Boolean;
   function CSOSNTemSt(aCSOSN: Word): Boolean;
+
+  function ZeroC(C: Cardinal; Tam: Byte): String;
   
 
 var
@@ -1703,6 +1715,13 @@ threadvar
 implementation
 
 uses Graphics, md5, ncVersoes, forms, ncDebug, math, nexUrls, DateUtils, ncGuidUtils;
+
+function ZeroC(C: Cardinal; Tam: Byte): String;
+begin
+  Result := C.ToString;
+  while Length(Result)<Tam do Result := '0'+Result;
+end;
+
 
 function CFOPTemSt(aCFOP: Word): Boolean;
 begin
@@ -3483,6 +3502,8 @@ begin
 
   FPais                   := GetCountryCode;
   Ftax_id_default         := 0;
+
+  FNomeCodigo2            := '';
   
   FFidAutoPremiar         := False;
   FFidAutoPremiarValor    := 0;
@@ -3496,11 +3517,13 @@ begin
 
   FExigirVendedor         := False;
 
-  Ffmt_moeda             := False;
-  Ffmt_decimais          := 2;
-  Ffmt_simbmoeda         := '';
-  Ffmt_sep_decimal       := '';
-  Ffmt_sep_milhar        := '';
+  FTamCodigoAuto          := 6;
+
+  Ffmt_moeda              := False;
+  Ffmt_decimais           := 2;
+  Ffmt_simbmoeda          := '';
+  Ffmt_sep_decimal        := '';
+  Ffmt_sep_milhar         := '';
   
   FValOrc_Tempo           := 0;
   FValOrc_UTempo          := 0;
@@ -3955,6 +3978,7 @@ begin
   FTelaPosVenda_Mostrar   := C.FTelaPosVenda_Mostrar   ;
   FTelaPosVenda_BtnDef    := C.FTelaPosVenda_BtnDef    ;
   FExigirVendedor         := C.FExigirVendedor         ;
+  FTamCodigoAuto          := C.FTamCodigoAuto;
 
   Ffmt_moeda             := C.Ffmt_moeda;
   Ffmt_decimais          := C.Ffmt_decimais;

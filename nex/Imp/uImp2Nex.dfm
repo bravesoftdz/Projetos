@@ -3,8 +3,8 @@ object FrmPri: TFrmPri
   Top = 0
   BorderWidth = 10
   Caption = 'Importar CSV - ESTOQUE'
-  ClientHeight = 481
-  ClientWidth = 692
+  ClientHeight = 461
+  ClientWidth = 672
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -22,8 +22,8 @@ object FrmPri: TFrmPri
   object Paginas: TcxPageControl
     Left = 0
     Top = 0
-    Width = 692
-    Height = 438
+    Width = 672
+    Height = 418
     Align = alClient
     TabOrder = 0
     Properties.ActivePage = tsCampos
@@ -31,8 +31,8 @@ object FrmPri: TFrmPri
     LookAndFeel.NativeStyle = False
     OnChange = PaginasChange
     OnPageChanging = PaginasPageChanging
-    ClientRectBottom = 438
-    ClientRectRight = 692
+    ClientRectBottom = 418
+    ClientRectRight = 672
     ClientRectTop = 28
     object tsArq: TcxTabSheet
       Caption = 'Selecione o arquivo'
@@ -52,13 +52,13 @@ object FrmPri: TFrmPri
         Style.Font.Style = []
         Style.IsFontAssigned = True
         TabOrder = 0
-        Height = 370
-        Width = 692
+        Height = 350
+        Width = 672
       end
       object LMDSimplePanel2: TLMDSimplePanel
         Left = 0
         Top = 0
-        Width = 692
+        Width = 672
         Height = 40
         Hint = ''
         Align = alTop
@@ -137,8 +137,8 @@ object FrmPri: TFrmPri
       object Grid: TcxGrid
         Left = 0
         Top = 0
-        Width = 692
-        Height = 410
+        Width = 672
+        Height = 390
         Align = alClient
         TabOrder = 0
         LookAndFeel.Kind = lfFlat
@@ -235,7 +235,7 @@ object FrmPri: TFrmPri
         AlignWithMargins = True
         Left = 0
         Top = 10
-        Width = 692
+        Width = 672
         Height = 25
         Margins.Left = 0
         Margins.Top = 10
@@ -247,15 +247,15 @@ object FrmPri: TFrmPri
       object pagImp: TcxPageControl
         Left = 0
         Top = 45
-        Width = 692
-        Height = 365
+        Width = 672
+        Height = 345
         Align = alClient
         TabOrder = 1
         Properties.ActivePage = tsImpCli
         Properties.CustomButtons.Buttons = <>
         LookAndFeel.NativeStyle = False
-        ClientRectBottom = 365
-        ClientRectRight = 692
+        ClientRectBottom = 345
+        ClientRectRight = 672
         ClientRectTop = 28
         object tsImpProd: TcxTabSheet
           Caption = 'tsImpProd'
@@ -312,8 +312,8 @@ object FrmPri: TFrmPri
             AlignWithMargins = True
             Left = 0
             Top = 122
-            Width = 692
-            Height = 215
+            Width = 672
+            Height = 195
             Margins.Left = 0
             Margins.Top = 10
             Margins.Right = 0
@@ -349,8 +349,8 @@ object FrmPri: TFrmPri
             AlignWithMargins = True
             Left = 0
             Top = 72
-            Width = 692
-            Height = 265
+            Width = 672
+            Height = 245
             Margins.Left = 0
             Margins.Top = 10
             Margins.Right = 0
@@ -382,8 +382,8 @@ object FrmPri: TFrmPri
   object LMDSimplePanel1: TLMDSimplePanel
     AlignWithMargins = True
     Left = 0
-    Top = 448
-    Width = 692
+    Top = 428
+    Width = 672
     Height = 33
     Hint = ''
     Margins.Left = 0

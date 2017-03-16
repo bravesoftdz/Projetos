@@ -1,9 +1,10 @@
 object FrmProduto: TFrmProduto
   Left = 282
   Top = 164
+  ActiveControl = LC
   Caption = 'Dados do Produto ou Servi'#231'o'
-  ClientHeight = 695
-  ClientWidth = 1131
+  ClientHeight = 661
+  ClientWidth = 1141
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -70,8 +71,8 @@ object FrmProduto: TFrmProduto
   object LMDSimplePanel2: TLMDSimplePanel
     Left = 0
     Top = 44
-    Width = 1131
-    Height = 651
+    Width = 1141
+    Height = 617
     Hint = ''
     Margins.Left = 0
     Margins.Top = 7
@@ -84,8 +85,8 @@ object FrmProduto: TFrmProduto
     object Paginas: TcxPageControl
       Left = 0
       Top = 0
-      Width = 924
-      Height = 651
+      Width = 934
+      Height = 617
       Cursor = crHandPoint
       Margins.Left = 0
       Margins.Top = 7
@@ -107,21 +108,18 @@ object FrmProduto: TFrmProduto
       Properties.TabHeight = 16
       LookAndFeel.Kind = lfFlat
       LookAndFeel.NativeStyle = False
-      ClientRectBottom = 651
-      ClientRectRight = 924
+      ClientRectBottom = 617
+      ClientRectRight = 934
       ClientRectTop = 28
       object tsDados: TcxTabSheet
         Caption = 'Dados'
         ImageIndex = 91
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object panCad: TLMDSimplePanel
           AlignWithMargins = True
           Left = 7
           Top = 7
-          Width = 917
-          Height = 616
+          Width = 927
+          Height = 582
           Hint = ''
           Margins.Left = 7
           Margins.Top = 7
@@ -135,8 +133,8 @@ object FrmProduto: TFrmProduto
           object LC: TdxLayoutControl
             Left = 0
             Top = 0
-            Width = 917
-            Height = 616
+            Width = 927
+            Height = 582
             Margins.Left = 7
             Margins.Top = 7
             Margins.Right = 0
@@ -153,8 +151,8 @@ object FrmProduto: TFrmProduto
             OptionsImage.Images = dmImagens.im24
             object dxBevel1: TdxBevel
               Left = 10
-              Top = 158
-              Width = 880
+              Top = 103
+              Width = 890
               Height = 5
               Shape = dxbsLineCenteredVert
             end
@@ -230,14 +228,14 @@ object FrmProduto: TFrmProduto
             end
             object dxBevel2: TdxBevel
               Left = 10
-              Top = 320
-              Width = 880
+              Top = 265
+              Width = 890
               Height = 3
               Shape = dxbsLineCenteredVert
             end
             object edCodigo: TcxDBMaskEdit
               Left = 140
-              Top = 10
+              Top = -71
               OnFocusChanged = edCodigoFocusChanged
               DataBinding.DataField = 'Codigo'
               DataBinding.DataSource = dsMT
@@ -260,7 +258,7 @@ object FrmProduto: TFrmProduto
             end
             object edDescr: TcxDBTextEdit
               Left = 140
-              Top = 47
+              Top = -8
               DataBinding.DataField = 'Descricao'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -272,12 +270,12 @@ object FrmProduto: TFrmProduto
               Style.HotTrack = False
               Style.StyleController = escFlat
               Style.IsFontAssigned = True
-              TabOrder = 2
-              Width = 750
+              TabOrder = 4
+              Width = 760
             end
             object edPreco: TcxDBCurrencyEdit
               Left = 140
-              Top = 171
+              Top = 116
               DataBinding.DataField = 'Preco'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -293,12 +291,12 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               Style.IsFontAssigned = True
               StyleDisabled.TextColor = clBlack
-              TabOrder = 7
+              TabOrder = 9
               Width = 189
             end
             object edCusto: TcxDBCurrencyEdit
               Left = 140
-              Top = 208
+              Top = 153
               DataBinding.DataField = 'CustoUnitario'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -306,12 +304,12 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edCustoPropertiesChange
               Properties.OnEditValueChanged = edCustoPropertiesEditValueChanged
               Style.StyleController = escFlat
-              TabOrder = 10
+              TabOrder = 12
               Width = 189
             end
             object cbPrecoAuto: TcxDBCheckBox
               Left = 337
-              Top = 175
+              Top = 120
               Cursor = crHandPoint
               Caption = 'Autom'#225'tico'
               DataBinding.DataField = 'PrecoAuto'
@@ -334,12 +332,12 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfUltraFlat
               StyleFocused.LookAndFeel.Kind = lfUltraFlat
               StyleHot.LookAndFeel.Kind = lfUltraFlat
-              TabOrder = 8
+              TabOrder = 10
               Transparent = True
             end
             object edMarkup: TcxCurrencyEdit
               Left = 140
-              Top = 245
+              Top = 190
               OnFocusChanged = edMarkupFocusChanged
               ParentFont = False
               Properties.DisplayFormat = '0.##%'
@@ -348,12 +346,12 @@ object FrmProduto: TFrmProduto
               Properties.OnEditValueChanged = edMarkupPropertiesEditValueChanged
               Style.HotTrack = False
               Style.StyleController = escFlat
-              TabOrder = 11
+              TabOrder = 13
               Width = 189
             end
             object lbInfoMarkup: TcxLabel
               Left = 140
-              Top = 282
+              Top = 227
               Caption = 
                 'Markup '#233' o percentual a ser acrescentado sobre o pre'#231'o de custo ' +
                 'para gerar o pre'#231'o de venda. '#13#10'Exemplo: um markup de 50% sobre u' +
@@ -373,7 +371,7 @@ object FrmProduto: TFrmProduto
             end
             object lbMarkup: TcxLabel
               Left = 484
-              Top = 251
+              Top = 196
               Cursor = crHandPoint
               Caption = 'Definir Markup Padr'#227'o'
               ParentFont = False
@@ -394,7 +392,7 @@ object FrmProduto: TFrmProduto
             end
             object cbSeguirMarkupPadrao: TcxDBCheckBox
               Left = 337
-              Top = 249
+              Top = 194
               Cursor = crHandPoint
               OnFocusChanged = edMarkupFocusChanged
               Caption = 'Seguir Markup Padr'#227'o'
@@ -419,34 +417,8 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfUltraFlat
               StyleFocused.LookAndFeel.Kind = lfUltraFlat
               StyleHot.LookAndFeel.Kind = lfUltraFlat
-              TabOrder = 12
+              TabOrder = 14
               Transparent = True
-            end
-            object lbInfoCod: TcxLabel
-              AlignWithMargins = True
-              Left = 347
-              Top = 15
-              Margins.Left = 5
-              Margins.Top = 0
-              Margins.Right = 0
-              Margins.Bottom = 0
-              Caption = 'Use o leitor de c'#243'digo de barras ou digite o c'#243'digo do produto.'
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.Shadow = False
-              Style.TextColor = clHotLight
-              Style.TransparentBorder = True
-              Style.IsFontAssigned = True
-              Properties.Alignment.Vert = taBottomJustify
-              Properties.WordWrap = True
-              Transparent = True
-              Width = 334
-              AnchorY = 32
             end
             object edAtual: TcxCurrencyEdit
               Left = 10000
@@ -468,7 +440,7 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               Style.TextStyle = [fsBold]
               Style.IsFontAssigned = True
-              TabOrder = 15
+              TabOrder = 17
               Visible = False
               Width = 189
             end
@@ -493,7 +465,7 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               Style.TextColor = clGrayText
               Style.IsFontAssigned = True
-              TabOrder = 16
+              TabOrder = 18
               Transparent = True
               Visible = False
             end
@@ -523,7 +495,7 @@ object FrmProduto: TFrmProduto
               Properties.Revertable = True
               Properties.OnInitPopup = edUnidPropertiesInitPopup
               Style.StyleController = escFlat
-              TabOrder = 17
+              TabOrder = 19
               Visible = False
               OnKeyDown = edUnidKeyDown
               Width = 189
@@ -548,7 +520,7 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               Style.TextColor = clGrayText
               Style.IsFontAssigned = True
-              TabOrder = 18
+              TabOrder = 20
               Transparent = True
               Visible = False
             end
@@ -558,14 +530,14 @@ object FrmProduto: TFrmProduto
               ParentFont = False
               Properties.OnInitPopup = edLimitesPropertiesInitPopup
               Style.StyleController = escFlat
-              TabOrder = 19
+              TabOrder = 21
               Visible = False
               OnEnter = edLimitesEnter
               Width = 189
             end
             object edNCM: TcxDBButtonEdit
-              Left = 121
-              Top = 369
+              Left = 10000
+              Top = 10000
               OnFocusChanged = edNCMFocusChanged
               DataBinding.DataField = 'NCM'
               DataBinding.DataSource = dsMT
@@ -582,22 +554,24 @@ object FrmProduto: TFrmProduto
               Properties.OnButtonClick = edNCMPropertiesButtonClick
               Properties.OnChange = edNCMPropertiesChange
               Style.StyleController = escFlat
-              TabOrder = 23
+              TabOrder = 25
+              Visible = False
               Width = 109
             end
             object lbNCM: TcxLabel
-              Left = 238
-              Top = 369
+              Left = 10000
+              Top = 10004
               Caption = 'lbNCM'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              AnchorY = 384
+              Visible = False
+              AnchorY = 10015
             end
             object lbInfoNCM: TcxLabel
-              Left = 121
-              Top = 406
+              Left = 10000
+              Top = 10000
               Caption = 
                 'NCM: Nomeclatura Comum do Mercosul. Esse campo '#233' necess'#225'rio para' +
                 ' a emiss'#227'o de NF.'
@@ -612,11 +586,12 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
+              Visible = False
               Width = 472
             end
             object edCest: TcxDBButtonEdit
-              Left = 121
-              Top = 432
+              Left = 10000
+              Top = 10000
               OnFocusChanged = edCestFocusChanged
               AutoSize = False
               DataBinding.DataField = 'cest'
@@ -635,25 +610,27 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edCestPropertiesChange
               Style.HotTrack = False
               Style.StyleController = escFlat
-              TabOrder = 26
+              TabOrder = 28
+              Visible = False
               Height = 29
               Width = 109
             end
             object lbCEST: TcxLabel
-              Left = 238
-              Top = 432
+              Left = 10000
+              Top = 10004
               Cursor = crHandPoint
               Caption = 'lbCEST'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
+              Visible = False
               OnClick = lbCESTClick
-              AnchorY = 447
+              AnchorY = 10015
             end
             object lbInfoCest: TcxLabel
-              Left = 121
-              Top = 469
+              Left = 10000
+              Top = 10000
               AutoSize = False
               Caption = 
                 'CEST: C'#243'digo Especificador da Substitui'#231#227'o Tribut'#225'ria. Pressione' +
@@ -669,13 +646,14 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
+              Visible = False
               OnClick = lbCESTClick
               Height = 18
               Width = 690
             end
             object edBrTrib: TcxDBButtonEdit
-              Left = 121
-              Top = 495
+              Left = 10000
+              Top = 10000
               OnFocusChanged = edBrTribFocusChanged
               DataBinding.DataField = 'brtrib'
               DataBinding.DataSource = dsMT
@@ -693,24 +671,26 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edBrTribPropertiesChange
               Style.HotTrack = False
               Style.StyleController = escFlat
-              TabOrder = 29
+              TabOrder = 31
+              Visible = False
               OnKeyDown = edBrTribKeyDown
               OnKeyPress = edBrTribKeyPress
               Width = 109
             end
             object lbBrTrib: TcxLabel
-              Left = 238
-              Top = 495
+              Left = 10000
+              Top = 10004
               Caption = 'lbBrTrib'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              AnchorY = 510
+              Visible = False
+              AnchorY = 10015
             end
             object lbInfoBrTrib: TcxLabel
-              Left = 121
-              Top = 532
+              Left = 10000
+              Top = 10000
               Caption = 
                 'Digite o c'#243'digo de tributa'#231#227'o ou pressione F5. Esse campo '#233' obri' +
                 'gat'#243'rio para emiss'#227'o de NF. '
@@ -725,11 +705,12 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Width = 755
+              Visible = False
+              Width = 490
             end
             object edICMSST: TcxButtonEdit
-              Left = 121
-              Top = 558
+              Left = 10000
+              Top = 10000
               OnFocusChanged = edICMSSTFocusChanged
               ParentFont = False
               Properties.Buttons = <
@@ -745,25 +726,27 @@ object FrmProduto: TFrmProduto
               Style.Font.Style = []
               Style.HotTrack = False
               Style.IsFontAssigned = True
-              TabOrder = 32
+              TabOrder = 34
               Text = 'por MVA'
+              Visible = False
               OnKeyDown = edICMSSTKeyDown
               OnKeyPress = edICMSSTKeyPress
               Width = 109
             end
             object lbDescrSt: TcxLabel
-              Left = 238
-              Top = 558
+              Left = 10000
+              Top = 10004
               Caption = 'Pauta'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              AnchorY = 573
+              Visible = False
+              AnchorY = 10015
             end
             object lbHintSt: TcxLabel
-              Left = 121
-              Top = 595
+              Left = 10000
+              Top = 10000
               AutoSize = False
               Caption = 
                 'ICMS ST: Pressione F9 para definir as regras de c'#225'lculo do ICMS ' +
@@ -779,9 +762,10 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
+              Visible = False
               OnClick = lbCESTClick
               Height = 18
-              Width = 755
+              Width = 765
             end
             object panFornecedores: TLMDSimplePanel
               Left = 10000
@@ -790,7 +774,7 @@ object FrmProduto: TFrmProduto
               Height = 61
               Hint = ''
               Bevel.Mode = bmCustom
-              TabOrder = 35
+              TabOrder = 37
               Visible = False
             end
             object edObs: TcxDBMemo
@@ -800,7 +784,7 @@ object FrmProduto: TFrmProduto
               DataBinding.DataSource = dsMT
               ParentFont = False
               Style.HotTrack = False
-              TabOrder = 36
+              TabOrder = 38
               Visible = False
               Height = 126
               Width = 852
@@ -831,7 +815,7 @@ object FrmProduto: TFrmProduto
               StyleDisabled.TextStyle = []
               StyleFocused.LookAndFeel.Kind = lfFlat
               StyleHot.LookAndFeel.Kind = lfFlat
-              TabOrder = 37
+              TabOrder = 39
               Visible = False
               Width = 161
             end
@@ -847,7 +831,7 @@ object FrmProduto: TFrmProduto
               Margins.Right = 0
               Margins.Bottom = 0
               Bevel.Mode = bmStandard
-              TabOrder = 48
+              TabOrder = 50
               Visible = False
             end
             object edComissaoLucro: TcxComboBox
@@ -879,7 +863,7 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfFlat
               StyleFocused.LookAndFeel.Kind = lfFlat
               StyleHot.LookAndFeel.Kind = lfFlat
-              TabOrder = 40
+              TabOrder = 42
               Text = 'Pre'#231'o de Venda'
               Visible = False
               Width = 161
@@ -899,7 +883,7 @@ object FrmProduto: TFrmProduto
               LookAndFeel.Kind = lfFlat
               OptionsImage.ImageIndex = 85
               OptionsImage.Images = dmImagens.im16
-              TabOrder = 41
+              TabOrder = 43
               Visible = False
               OnClick = btnPremiumClick
             end
@@ -921,7 +905,7 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfFlat
               StyleFocused.LookAndFeel.Kind = lfFlat
               StyleHot.LookAndFeel.Kind = lfFlat
-              TabOrder = 38
+              TabOrder = 40
               Visible = False
               OnClick = cbComissaoPadraoClick
             end
@@ -977,7 +961,7 @@ object FrmProduto: TFrmProduto
               StyleFocused.Color = 11206655
               StyleFocused.LookAndFeel.NativeStyle = False
               StyleHot.LookAndFeel.NativeStyle = False
-              TabOrder = 46
+              TabOrder = 48
               Visible = False
               Width = 100
             end
@@ -990,7 +974,7 @@ object FrmProduto: TFrmProduto
               DataBinding.DataSource = dsMT
               ParentFont = False
               Style.HotTrack = False
-              TabOrder = 45
+              TabOrder = 47
               Visible = False
               OnClick = edFidelidadeClick
             end
@@ -1038,7 +1022,7 @@ object FrmProduto: TFrmProduto
             end
             object edCateg: TcxDBLookupComboBox
               Left = 140
-              Top = 84
+              Top = 29
               DataBinding.DataField = 'LookupCateg'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -1066,13 +1050,13 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edCategPropertiesChange
               Properties.OnInitPopup = edCategPropertiesInitPopup
               Style.StyleController = escFlat
-              TabOrder = 3
+              TabOrder = 5
               OnKeyDown = edCategKeyDown
               Width = 189
             end
             object edMarca: TcxDBLookupComboBox
               Left = 140
-              Top = 121
+              Top = 66
               DataBinding.DataField = 'NomeMarca'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -1101,13 +1085,13 @@ object FrmProduto: TFrmProduto
               Properties.OnInitPopup = edMarcaPropertiesInitPopup
               Style.HotTrack = False
               Style.StyleController = escFlat
-              TabOrder = 4
+              TabOrder = 6
               OnKeyDown = edMarcaKeyDown
               Width = 189
             end
             object edPesoLiq: TcxDBCurrencyEdit
-              Left = 804
-              Top = 84
+              Left = 814
+              Top = 29
               TabStop = False
               DataBinding.DataField = 'PesoLiq'
               DataBinding.DataSource = dsMT
@@ -1122,12 +1106,12 @@ object FrmProduto: TFrmProduto
               Style.Font.Style = []
               Style.HotTrack = False
               Style.IsFontAssigned = True
-              TabOrder = 5
+              TabOrder = 7
               Width = 86
             end
             object edPesoBruto: TcxDBCurrencyEdit
-              Left = 804
-              Top = 121
+              Left = 814
+              Top = 66
               TabStop = False
               AutoSize = False
               DataBinding.DataField = 'PesoBruto'
@@ -1143,13 +1127,13 @@ object FrmProduto: TFrmProduto
               Style.Font.Style = []
               Style.HotTrack = False
               Style.IsFontAssigned = True
-              TabOrder = 6
+              TabOrder = 8
               Height = 29
               Width = 86
             end
             object edTax: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 78
+              Top = 314
               DataBinding.DataField = 'tax_name'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -1163,59 +1147,10 @@ object FrmProduto: TFrmProduto
               Style.HotTrack = False
               Style.StyleController = escFlat
               StyleDisabled.TextColor = clBlack
-              TabOrder = 20
-              Visible = False
+              TabOrder = 22
               OnKeyDown = edICMSSTKeyDown
               OnKeyPress = edICMSSTKeyPress
               Width = 189
-            end
-            object edTaxDef: TcxDBCheckBox
-              Left = 10000
-              Top = 10000
-              Cursor = crHandPoint
-              Caption = 'Seguir Taxa'#231#227'o Padr'#227'o'
-              DataBinding.DataField = 'tax_def'
-              DataBinding.DataSource = dsMT
-              ParentFont = False
-              Properties.ImmediatePost = True
-              Properties.NullStyle = nssUnchecked
-              Properties.OnEditValueChanged = edTaxDefPropertiesEditValueChanged
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clWindowText
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = []
-              Style.HotTrack = False
-              Style.StyleController = escFlat
-              Style.TextColor = clGrayText
-              Style.IsFontAssigned = True
-              TabOrder = 21
-              Transparent = True
-              Visible = False
-            end
-            object lbSetTaxDef: TcxLabel
-              Left = 10000
-              Top = 10113
-              Cursor = crHandPoint
-              Caption = 'Definir taxa'#231#227'o padr'#227'o'
-              ParentFont = False
-              Style.Font.Charset = ANSI_CHARSET
-              Style.Font.Color = clBlack
-              Style.Font.Height = -11
-              Style.Font.Name = 'Segoe UI'
-              Style.Font.Style = [fsUnderline]
-              Style.HotTrack = True
-              Style.TextColor = clGray
-              Style.IsFontAssigned = True
-              StyleFocused.BorderStyle = ebsNone
-              StyleFocused.TextColor = clHotLight
-              StyleHot.BorderStyle = ebsNone
-              StyleHot.TextColor = clHotLight
-              Properties.Alignment.Vert = taVCenter
-              Transparent = True
-              Visible = False
-              OnClick = lbSetTaxDefClick
-              AnchorY = 10122
             end
             object panTran: TLMDSimplePanel
               AlignWithMargins = True
@@ -1229,12 +1164,12 @@ object FrmProduto: TFrmProduto
               Margins.Right = 0
               Margins.Bottom = 0
               Bevel.Mode = bmStandard
-              TabOrder = 47
+              TabOrder = 49
               Visible = False
             end
             object cbPodeAlterarPreco: TcxDBCheckBox
               Left = 428
-              Top = 171
+              Top = 116
               Cursor = crHandPoint
               Caption = 'Pode alterar o pre'#231'o na hora da venda'
               DataBinding.DataField = 'PodeAlterarPreco'
@@ -1256,16 +1191,131 @@ object FrmProduto: TFrmProduto
               StyleDisabled.LookAndFeel.Kind = lfUltraFlat
               StyleFocused.LookAndFeel.Kind = lfUltraFlat
               StyleHot.LookAndFeel.Kind = lfUltraFlat
-              TabOrder = 9
+              TabOrder = 11
+              Transparent = True
+            end
+            object lbInfoCod: TcxLabel
+              AlignWithMargins = True
+              Left = 140
+              Top = -34
+              Margins.Left = 5
+              Margins.Top = 0
+              Margins.Right = 0
+              Margins.Bottom = 0
+              Caption = 'Use o leitor de c'#243'digo de barras ou digite o c'#243'digo do produto.'
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.Shadow = False
+              Style.TextColor = clHotLight
+              Style.TransparentBorder = True
+              Style.IsFontAssigned = True
+              Properties.Alignment.Vert = taBottomJustify
+              Properties.WordWrap = True
+              Transparent = True
+              Width = 760
+              AnchorY = -17
+            end
+            object edCodigo2: TcxDBMaskEdit
+              Left = 711
+              Top = -71
+              OnFocusChanged = edCodigoFocusChanged
+              DataBinding.DataField = 'Codigo2'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.MaxLength = 0
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -16
+              Style.Font.Name = 'Segoe UI Semibold'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.LookAndFeel.NativeStyle = False
+              Style.StyleController = escFlat
+              Style.IsFontAssigned = True
+              StyleDisabled.LookAndFeel.NativeStyle = False
+              StyleFocused.LookAndFeel.NativeStyle = False
+              StyleHot.LookAndFeel.NativeStyle = False
+              TabOrder = 1
+              Width = 189
+            end
+            object cbCodigoAuto: TcxCheckBox
+              Left = 337
+              Top = -71
+              Cursor = crHandPoint
+              TabStop = False
+              Caption = 'Autom'#225'tico'
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.TextColor = clGray
+              Style.IsFontAssigned = True
+              TabOrder = 2
+              Transparent = True
+              OnClick = cbCodigoAutoClick
+            end
+            object lbSetTaxDef: TcxLabel
+              Left = 461
+              Top = 314
+              Cursor = crHandPoint
+              Caption = 'Definir taxa'#231#227'o padr'#227'o'
+              ParentFont = False
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clBlack
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = [fsUnderline]
+              Style.HotTrack = True
+              Style.TextColor = clGray
+              Style.IsFontAssigned = True
+              StyleFocused.BorderStyle = ebsNone
+              StyleFocused.TextColor = clHotLight
+              StyleHot.BorderStyle = ebsNone
+              StyleHot.TextColor = clHotLight
+              Properties.Alignment.Vert = taVCenter
+              Transparent = True
+              OnClick = lbSetTaxDefClick
+              AnchorY = 329
+            end
+            object edTaxDef: TcxDBCheckBox
+              Left = 275
+              Top = 314
+              Cursor = crHandPoint
+              Caption = 'Seguir Taxa'#231#227'o Padr'#227'o'
+              DataBinding.DataField = 'tax_def'
+              DataBinding.DataSource = dsMT
+              ParentFont = False
+              Properties.ImmediatePost = True
+              Properties.NullStyle = nssUnchecked
+              Properties.OnEditValueChanged = edTaxDefPropertiesEditValueChanged
+              Style.Font.Charset = ANSI_CHARSET
+              Style.Font.Color = clWindowText
+              Style.Font.Height = -11
+              Style.Font.Name = 'Segoe UI'
+              Style.Font.Style = []
+              Style.HotTrack = False
+              Style.StyleController = escFlat
+              Style.TextColor = clGrayText
+              Style.IsFontAssigned = True
+              TabOrder = 23
               Transparent = True
             end
             object LCGroup_Root: TdxLayoutGroup
               AlignHorz = ahClient
               AlignVert = avClient
               CaptionOptions.Visible = False
+              SizeOptions.MaxWidth = 500
               ButtonOptions.Buttons = <>
               Hidden = True
-              ItemIndex = 5
+              ItemIndex = 6
               ShowBorder = False
               Index = -1
             end
@@ -1277,7 +1327,7 @@ object FrmProduto: TFrmProduto
               ItemIndex = 1
               Locked = True
               ShowBorder = False
-              Index = 3
+              Index = 4
             end
             object LCItem1: TdxLayoutItem
               Parent = lcgPreco
@@ -1288,8 +1338,8 @@ object FrmProduto: TFrmProduto
               ControlOptions.ShowBorder = False
               Index = 0
             end
-            object LCItem4: TdxLayoutItem
-              Parent = LCGroup7
+            object lcCodigo: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup17
               AlignHorz = ahLeft
               CaptionOptions.ImageIndex = 44
               CaptionOptions.Text = 'C'#243'digo'
@@ -1309,7 +1359,7 @@ object FrmProduto: TFrmProduto
               ControlOptions.OriginalHeight = 29
               ControlOptions.OriginalWidth = 658
               ControlOptions.ShowBorder = False
-              Index = 1
+              Index = 2
             end
             object lcPreco: TdxLayoutItem
               Parent = LCGroup8
@@ -1418,22 +1468,6 @@ object FrmProduto: TFrmProduto
               ControlOptions.OriginalWidth = 139
               ControlOptions.ShowBorder = False
               Index = 1
-            end
-            object lcInfoCod: TdxLayoutItem
-              Parent = LCGroup7
-              AlignVert = avCenter
-              CaptionOptions.Text = ' '
-              Control = lbInfoCod
-              ControlOptions.OriginalHeight = 17
-              ControlOptions.OriginalWidth = 334
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object LCGroup7: TdxLayoutAutoCreatedGroup
-              Parent = LCGroup_Root
-              LayoutDirection = ldHorizontal
-              Index = 0
-              AutoCreated = True
             end
             object lcEstoqueAtual: TdxLayoutItem
               Parent = dxLayoutAutoCreatedGroup4
@@ -1686,13 +1720,13 @@ object FrmProduto: TFrmProduto
               CaptionOptions.Text = 'New Group'
               CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
-              ItemIndex = 2
+              ItemIndex = 1
               LayoutDirection = ldTabbed
               LayoutLookAndFeelException = True
               Padding.AssignedValues = [lpavBottom, lpavLeft]
               ShowBorder = False
               OnTabChanged = grBottomTabChanged
-              Index = 5
+              Index = 6
             end
             object dxLayoutAutoCreatedGroup6: TdxLayoutAutoCreatedGroup
               Parent = dxLayoutAutoCreatedGroup2
@@ -1933,7 +1967,7 @@ object FrmProduto: TFrmProduto
               ControlOptions.OriginalHeight = 3
               ControlOptions.OriginalWidth = 50
               ControlOptions.ShowBorder = False
-              Index = 4
+              Index = 5
             end
             object dxLayoutGroup2: TdxLayoutGroup
               CaptionOptions.Text = 'New Group'
@@ -1974,7 +2008,7 @@ object FrmProduto: TFrmProduto
               Parent = LCGroup_Root
               AlignVert = avTop
               LayoutDirection = ldHorizontal
-              Index = 2
+              Index = 3
               AutoCreated = True
             end
             object grPeso: TdxLayoutGroup
@@ -2013,43 +2047,17 @@ object FrmProduto: TFrmProduto
               AlignVert = avTop
               CaptionOptions.Text = ' TAX '
               ButtonOptions.Buttons = <>
-              LayoutDirection = ldHorizontal
               Index = 1
             end
             object lcTAX: TdxLayoutItem
-              Parent = lgrTax
+              Parent = dxLayoutAutoCreatedGroup18
               AlignHorz = ahLeft
-              AlignVert = avTop
               CaptionOptions.Text = 'Taxa'#231#227'o'
               Control = edTax
               ControlOptions.OriginalHeight = 29
               ControlOptions.OriginalWidth = 189
               ControlOptions.ShowBorder = False
               Index = 0
-            end
-            object lcTaxDef: TdxLayoutItem
-              Parent = lgrTax
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Text = 'Seguir Taxa'#231#227'o Padr'#227'o'
-              CaptionOptions.Visible = False
-              Control = edTaxDef
-              ControlOptions.OriginalHeight = 21
-              ControlOptions.OriginalWidth = 138
-              ControlOptions.ShowBorder = False
-              Index = 1
-            end
-            object dxLayoutItem1: TdxLayoutItem
-              Parent = lgrTax
-              AlignHorz = ahLeft
-              AlignVert = avClient
-              CaptionOptions.Visible = False
-              Offsets.Left = 40
-              Control = lbSetTaxDef
-              ControlOptions.OriginalHeight = 17
-              ControlOptions.OriginalWidth = 121
-              ControlOptions.ShowBorder = False
-              Index = 2
             end
             object grTran: TdxLayoutGroup
               Parent = grBottom
@@ -2080,16 +2088,92 @@ object FrmProduto: TFrmProduto
               ControlOptions.ShowBorder = False
               Index = 2
             end
+            object lcInfoCod: TdxLayoutItem
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              AlignVert = avTop
+              CaptionOptions.Text = ' '
+              Visible = False
+              Control = lbInfoCod
+              ControlOptions.OriginalHeight = 17
+              ControlOptions.OriginalWidth = 334
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutItem6: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup17
+              AlignHorz = ahRight
+              AlignVert = avClient
+              CaptionOptions.Text = 'C'#243'digo Extra'
+              LayoutLookAndFeel = lfDestaque
+              Offsets.Left = 50
+              Control = edCodigo2
+              ControlOptions.OriginalHeight = 29
+              ControlOptions.OriginalWidth = 189
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
+            object dxLayoutAutoCreatedGroup17: TdxLayoutAutoCreatedGroup
+              Parent = LCGroup_Root
+              AlignHorz = ahClient
+              AlignVert = avTop
+              LayoutDirection = ldHorizontal
+              Index = 0
+              AutoCreated = True
+            end
+            object lcCodigoAuto: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup17
+              AlignVert = avClient
+              CaptionOptions.Text = 'cxCheckBox1'
+              CaptionOptions.Visible = False
+              Control = cbCodigoAuto
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 83
+              ControlOptions.ShowBorder = False
+              Index = 2
+            end
+            object dxLayoutItem1: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup18
+              AlignHorz = ahLeft
+              AlignVert = avClient
+              CaptionOptions.Visible = False
+              Offsets.Left = 40
+              Control = lbSetTaxDef
+              ControlOptions.OriginalHeight = 17
+              ControlOptions.OriginalWidth = 121
+              ControlOptions.ShowBorder = False
+              Index = 2
+            end
+            object dxLayoutAutoCreatedGroup18: TdxLayoutAutoCreatedGroup
+              Parent = lgrTax
+              AlignHorz = ahLeft
+              AlignVert = avTop
+              LayoutDirection = ldHorizontal
+              Index = 0
+              AutoCreated = True
+            end
+            object lcTaxDef: TdxLayoutItem
+              Parent = dxLayoutAutoCreatedGroup18
+              AlignHorz = ahLeft
+              AlignVert = avClient
+              CaptionOptions.Text = 'Seguir Taxa'#231#227'o Padr'#227'o'
+              CaptionOptions.Visible = False
+              Control = edTaxDef
+              ControlOptions.OriginalHeight = 21
+              ControlOptions.OriginalWidth = 138
+              ControlOptions.ShowBorder = False
+              Index = 1
+            end
           end
         end
       end
     end
     object LMDSimplePanel1: TLMDSimplePanel
       AlignWithMargins = True
-      Left = 931
+      Left = 941
       Top = 7
       Width = 200
-      Height = 644
+      Height = 610
       Hint = ''
       Margins.Left = 7
       Margins.Top = 7
@@ -2117,36 +2201,29 @@ object FrmProduto: TFrmProduto
         Properties.CustomButtons.Buttons = <>
         Properties.HideTabs = True
         LookAndFeel.NativeStyle = False
-        ClientRectBottom = 176
-        ClientRectLeft = 1
-        ClientRectRight = 199
-        ClientRectTop = 1
+        ClientRectBottom = 177
+        ClientRectRight = 200
+        ClientRectTop = 0
         object tsSemFoto: TcxTabSheet
           Caption = 'SemFoto'
           ImageIndex = 0
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 200
-          ExplicitHeight = 177
           object panSemFoto: TLMDSimplePanel
             Left = 0
             Top = 0
-            Width = 198
-            Height = 175
+            Width = 200
+            Height = 177
             Hint = ''
             Align = alClient
             Bevel.BorderColor = clBtnShadow
             Bevel.LightColor = 15987699
             Bevel.Mode = bmStandard
             TabOrder = 0
-            ExplicitWidth = 200
-            ExplicitHeight = 177
             object Image1: TImage
               AlignWithMargins = True
               Left = 1
               Top = 1
-              Width = 196
-              Height = 93
+              Width = 198
+              Height = 95
               Margins.Left = 0
               Margins.Top = 0
               Margins.Right = 0
@@ -2185,7 +2262,7 @@ object FrmProduto: TFrmProduto
             object lbSemFoto: TcxLabel
               AlignWithMargins = True
               Left = 11
-              Top = 130
+              Top = 132
               Cursor = crHandPoint
               Margins.Left = 10
               Margins.Top = 10
@@ -2212,11 +2289,9 @@ object FrmProduto: TFrmProduto
               Properties.WordWrap = True
               Transparent = True
               OnClick = lbSemFotoClick
-              ExplicitTop = 145
-              ExplicitWidth = 178
-              Width = 176
-              AnchorX = 99
-              AnchorY = 164
+              Width = 178
+              AnchorX = 100
+              AnchorY = 166
             end
           end
         end
@@ -2224,10 +2299,6 @@ object FrmProduto: TFrmProduto
           AllowCloseButton = False
           Caption = 'Foto'
           ImageIndex = 1
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
           object panFoto: TLMDSimplePanel
             Left = 0
             Top = 0
@@ -2254,8 +2325,8 @@ object FrmProduto: TFrmProduto
               Style.Color = clWhite
               Style.TransparentBorder = False
               TabOrder = 0
-              Height = 173
-              Width = 196
+              Height = 175
+              Width = 198
             end
           end
         end
@@ -2931,6 +3002,10 @@ object FrmProduto: TFrmProduto
     object MTPauta: TMemoField
       FieldName = 'Pauta'
       BlobType = ftMemo
+    end
+    object MTCodigo2: TStringField
+      FieldName = 'Codigo2'
+      Size = 30
     end
   end
   object dsCAT: TDataSource
@@ -3820,6 +3895,10 @@ object FrmProduto: TFrmProduto
     object tProCategoria: TWideStringField
       FieldName = 'Categoria'
       Size = 35
+    end
+    object tProCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
     end
   end
   object tMarca: TnxTable
