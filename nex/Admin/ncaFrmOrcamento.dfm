@@ -294,6 +294,7 @@ object FrmOrcamento: TFrmOrcamento
       StyleHot.TextStyle = [fsBold, fsUnderline]
       Properties.Alignment.Vert = taVCenter
       OnClick = lbValidadeClick
+      ExplicitLeft = 168
       AnchorY = 21
     end
     object imgValidade: TMyImage

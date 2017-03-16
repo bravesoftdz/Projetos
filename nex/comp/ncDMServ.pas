@@ -4301,7 +4301,7 @@ var
 
 function TipoTranGeraNF: Boolean;
 begin  
-  if tTranTipo.Value in [trEstVenda, trEstDevolucao] then
+  if tTranTipo.Value in [trEstVenda, trEstDevolucao, trEstDevFor] then
     Result := True;
 end;
 
@@ -4578,7 +4578,7 @@ begin
       if (NFCeAtivo or NFeAtivo) and (tTranStatusNFE.Value=0) and TipoTranGeraNF then begin
         tNFConfig.Refresh;
         case tTranTipo.Value of
-          trEstVenda : 
+          trEstVenda :
           if ((MEAnt=nil) or MEAnt.PagPend) and (not tTranPagPend.Value) then begin
             tTran.Edit;
             tTranStatusNFE.Value := nfetran_gerar;
@@ -4597,7 +4597,7 @@ begin
             tTran.Post;
           end;
   
-          trEstDevolucao : if NFeAtivo and (MEAnt=nil) then begin
+          trEstDevolucao, trEstDevFor : if NFeAtivo and (MEAnt=nil) then begin
             tTran.Edit;
             tTranStatusNFE.Value := nfetran_gerar;
             tTranAmbNFe.Value := tNFConfigtpAmbNFe.Value;

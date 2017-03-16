@@ -1255,7 +1255,7 @@ inherited fbNFe: TfbNFe
     Top = 304
   end
   object repVen: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]

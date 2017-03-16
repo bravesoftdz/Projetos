@@ -151,7 +151,7 @@ object FrmME2: TFrmME2
     end
     object sepEntregar: TLMDDrawEdge
       AlignWithMargins = True
-      Left = 660
+      Left = 594
       Top = 4
       Width = 3
       Height = 30
@@ -474,7 +474,7 @@ object FrmME2: TFrmME2
     end
     object cbEntregar: TcxCheckBox
       AlignWithMargins = True
-      Left = 669
+      Left = 603
       Top = 3
       Cursor = crHandPoint
       Margins.Left = 6
@@ -509,7 +509,7 @@ object FrmME2: TFrmME2
       Width = 180
     end
     object lbTipoTran: TcxLabel
-      Left = 767
+      Left = 742
       Top = 3
       Caption = ' COMPRA 123 '
       ParentFont = False
@@ -523,11 +523,11 @@ object FrmME2: TFrmME2
       Style.TransparentBorder = False
       Style.IsFontAssigned = True
       Properties.Alignment.Horz = taCenter
-      AnchorX = 821
+      AnchorX = 796
     end
     object cbNFe: TcxRadioButton
       AlignWithMargins = True
-      Left = 598
+      Left = 793
       Top = 0
       Width = 59
       Height = 38

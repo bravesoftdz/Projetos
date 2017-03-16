@@ -188,6 +188,7 @@ type
     FOnConcluir : TNotifyEvent;
     FTotal : Currency;
     FpercFrete : Double;
+    FIgnoraCompraAnt : Boolean;
     FXML : String;
     { Private declarations }
     procedure LoadProd;
@@ -222,7 +223,7 @@ type
 
     property Total: Currency
       read FTotal;
-    
+
     property percFrete: Double
       read FpercFrete;
 
@@ -237,6 +238,9 @@ type
       
     property IDFor: Integer
       read FFor write SetFor;
+
+    property IgnoraCompraAnt : Boolean
+      read FIgnoraCompraAnt write FIgnoraCompraAnt;
     { Public declarations }
   end;
 
@@ -273,9 +277,25 @@ begin
 end;
 
 procedure ExtraiTags;
+
+function SoDig(S: String): String;
+var I : Integer;
+begin
+  Result := '';
+  for I := 1 to Length(S) do
+    if S[I] in ['0'..'9'] then Result := Result + S[I];
+end;
+
 begin
   with dmDanfe do begin
-     //Tags do cabeçalho do produto
+    //Adiciona Tag Chave Nfe
+    if not mtIDEchave_acesso.IsNull then
+      sl.Values['ChaveNfe'] := soDig(mtIDEchave_acesso.AsString);
+
+    if not mtDestCNPJ.IsNull then
+      sl.Values['CNPJ_Emitente'] := mtDestCNPJ.Value;
+
+    //Tags do cabeçalho do produto
     if not mtItemcProd.IsNull then
       sl.Values['cProd'] := mtItemcProd.AsString;
     if not mtItemcEAN.IsNull then
@@ -357,13 +377,13 @@ begin
 
     //Tags Cofins
     if not mtItemCOFINS_CST.IsNull then
-      sl.Values['PIS_CST'] := mtItemPIS_CST.AsString;
+      sl.Values['COFINS_CST'] := mtItemCOFINS_CST.AsString;
     if not mtItemCOFINS_vBC.IsNull then
-      sl.Values['PIS_vBC'] := ConverteUnid(mtItemPIS_vBC.Value);
+      sl.Values['COFINS_vBC'] := ConverteUnid(mtItemCOFINS_vBC.Value);
     if not mtItempCofins.isNull then
-      sl.values['pPIS'] := mtItempPIS.AsString;
+      sl.values['pCofins'] := mtItempCofins.AsString;
     if not mtItemvCofins.isNull then
-      sl.values['vPIS'] := ConverteUnid(mtItemvPIS.Value);
+      sl.values['vCofins'] := ConverteUnid(mtItemvCofins.Value);
   end;
 end;
 
@@ -484,8 +504,10 @@ end;
 
 procedure TFrmLeXML.btnSelArqClick(Sender: TObject);
 var sl : TStrings;
+  bAchouNF  :boolean;
 begin
   if not OpenXML.Execute(Handle) then Exit;
+  bAchouNF := true;
 
   FTotal := 0;
   FpercFrete := 0;
@@ -509,13 +531,15 @@ begin
     FChave := dmDanfe.mtIDEchNFe.Value;
     tTran.SetRange([FChave], [FChave]);
     tTran.First;
+    if not IgnoraCompraAnt then
     while not tTran.Eof do begin
-      if not tTranCancelado.Value then
+      if (not tTranCancelado.Value)  then
+      begin
         raise Exception.Create('Essa NF-e/XML já foi lançada em '+
-          FormatDateTime('dd/mm/yyyy hh:mm', tTranDataHora.Value) + 
-          ' transaçao n.'+tTranID.AsString + 
+          FormatDateTime('dd/mm/yyyy hh:mm', tTranDataHora.Value) +
+          ' transaçao n.'+tTranID.AsString +
           ' no caixa '+tTranCaixa.AsString+'.');
-          
+      end;
       tTran.Next;
     end;
     LoadFor;
@@ -607,7 +631,7 @@ begin
   FpercFrete := 0;
   FOnConcluir := nil;
   FOnFornecedor := nil;
-  
+  FIgnoraCompraAnt := False;
   FLoaded := False;
   FPend := 0;
   dmDanfe := TdmDanfe_NFE.Create(self);
@@ -1064,7 +1088,6 @@ begin
   tConvUnidFator.Value := mtNewFator.Value;
   tConvUnid.Post;
 end;
-
 end.
 
 

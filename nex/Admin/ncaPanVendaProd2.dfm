@@ -1068,10 +1068,13 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
     object tMERecVer: TLongWordField
       FieldName = 'RecVer'
     end
+    object tMEDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
   end
   object tXML: TnxTable
     ActiveRuntime = True
-    ActiveDesigntime = True
     Database = Dados.db
     TableName = 'xmls_compra'
     IndexName = 'ITran'

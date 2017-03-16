@@ -2115,10 +2115,6 @@ object frmPri: TfrmPri
           ImageIndex = 3
           ParentColor = False
           ParentFont = False
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
           object panBD: TLMDSimplePanel
             Left = 0
             Top = 0
@@ -2530,8 +2526,8 @@ object frmPri: TfrmPri
     Top = 288
   end
   object cxStyleRepository1: TcxStyleRepository
-    Left = 176
-    Top = 176
+    Left = 344
+    Top = 96
     PixelsPerInch = 96
     object cxsNegrito: TcxStyle
       AssignedValues = [svFont, svTextColor]
@@ -2660,8 +2656,8 @@ object frmPri: TfrmPri
     Top = 368
   end
   object pmConta: TPopupMenu
-    Left = 448
-    Top = 296
+    Left = 440
+    Top = 240
     object Alterarasenhadaminhaconta1: TMenuItem
       Caption = 'Alterar senha de registro'
     end
@@ -2690,8 +2686,8 @@ object frmPri: TfrmPri
   end
   object ApplicationEvents1: TApplicationEvents
     OnMessage = ApplicationEvents1Message
-    Left = 320
-    Top = 160
+    Left = 440
+    Top = 96
   end
   object Tray: TLMDTrayIcon
     Active = False
@@ -3931,8 +3927,8 @@ object frmPri: TfrmPri
       end>
   end
   object genList: TLMDGenericList
-    Left = 400
-    Top = 152
+    Left = 440
+    Top = 144
     object TLMDGenericListItem
       Internal = {
         0D03000000CDB60600D14700004000414D5A900003000000040040FFFF0000B8

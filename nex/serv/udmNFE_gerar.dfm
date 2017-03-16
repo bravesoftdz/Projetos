@@ -2,8 +2,8 @@ object dmNFE_gerar: TdmNFE_gerar
   OldCreateOrder = False
   OnCreate = DataModuleCreate
   OnDestroy = DataModuleDestroy
-  Height = 324
-  Width = 460
+  Height = 317
+  Width = 450
   object tBRTrib: TnxTable
     Database = nxDB
     TableName = 'BRTrib'
@@ -735,6 +735,11 @@ object dmNFE_gerar: TdmNFE_gerar
     object tCliTipoFor: TByteField
       FieldName = 'TipoFor'
     end
+    object tCliPJ: TBooleanField
+      FieldKind = fkCalculated
+      FieldName = 'PJ'
+      Calculated = True
+    end
   end
   object tTran: TnxTable
     Database = nxDB
@@ -1299,6 +1304,8 @@ object dmNFE_gerar: TdmNFE_gerar
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveRuntime = True
+    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
@@ -1373,6 +1380,8 @@ object dmNFE_gerar: TdmNFE_gerar
     VersaoEsquema = pl_008i1
     ValidaRegrasNegocio = False
     ValidaRegrasNegocioTecno = False
+    ExcecoesDeRegras = 'C:\Meus Programas\Nex\nfe\Log'
+    DiretorioLogErro = 'C:\Meus Programas\Nex\nfe\Log'
     Left = 88
     Top = 24
   end
@@ -1413,8 +1422,8 @@ object dmNFE_gerar: TdmNFE_gerar
     Database = nxDB
     TableName = 'endereco'
     IndexName = 'I_endereco_id'
-    Left = 176
-    Top = 232
+    Left = 264
+    Top = 240
     object tEndendereco_id: TGuidField
       FieldName = 'endereco_id'
       Size = 38
@@ -1484,8 +1493,8 @@ object dmNFE_gerar: TdmNFE_gerar
   object tCFOP: TnxTable
     Database = nxDB
     TableName = 'CFOP'
-    Left = 320
-    Top = 208
+    Left = 384
+    Top = 240
     object tCFOPCodigo: TWordField
       FieldName = 'Codigo'
     end
@@ -1513,8 +1522,8 @@ object dmNFE_gerar: TdmNFE_gerar
     Database = nxDB
     TableName = 'Tran'
     IndexName = 'IUID'
-    Left = 248
-    Top = 232
+    Left = 328
+    Top = 240
     object tAuxTranUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -1718,6 +1727,30 @@ object dmNFE_gerar: TdmNFE_gerar
     end
     object tTranspRecVer: TLongWordField
       FieldName = 'RecVer'
+    end
+  end
+  object tCFOP_DEV: TnxTable
+    Database = nxDB
+    TableName = 'cfop_dev'
+    IndexName = 'Icfop_compra'
+    Left = 224
+    Top = 168
+    object tCFOP_DEVID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tCFOP_DEVUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tCFOP_DEVcfop_compra: TWordField
+      FieldName = 'cfop_compra'
+    end
+    object tCFOP_DEVcfop: TWordField
+      FieldName = 'cfop'
+    end
+    object tCFOP_DEVnatop: TWideStringField
+      FieldName = 'natop'
+      Size = 60
     end
   end
 end

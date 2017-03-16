@@ -186,7 +186,7 @@ type
       message wm_user;
 
     //procedure SetMostrarUnit(const Value: Boolean);
-    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
+    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String);
 
     procedure OnClicouRemoverItem(Sender: TObject; aBotao: TBotaoItemVenda);
 
@@ -308,7 +308,7 @@ begin
   Close;
 end;
 
-procedure TFrmOrcamento.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
+procedure TFrmOrcamento.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String);
 var IM: TncItemMovEst;
 begin
   IM := TncItemMovEst.Create(nil);

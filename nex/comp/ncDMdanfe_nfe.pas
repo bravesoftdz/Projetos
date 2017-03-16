@@ -146,7 +146,7 @@ type
     mtItemvIPI: TFloatField;
     mtItemvDesc: TFloatField;
     mtDestdoc: TStringField;
-    xmlPreview: TLMDTextContainer;
+//    xmlPreview: TLMDTextContainer;
     mtIDEinfCpl: TMemoField;
     mtIDEinfCplLinha: TMemoField;
     mtIDEhora_emissao: TStringField;
@@ -194,11 +194,12 @@ type
     mtItemmodBCST: TWordField;
     mtItempMVAST: TFloatField;
     mtItemvBCST: TFloatField;
-    mtItempICMSST: TWordField;
     mtItemvICMSST: TFloatField;
     mtItemIPI_vBC: TFloatField;
     mtItempIPI: TFloatField;
     mtItemuTrib: TStringField;
+    xmlPreview: TLMDTextContainer;
+    mtItempICMSST: TFloatField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);

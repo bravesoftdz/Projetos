@@ -206,7 +206,7 @@ type
     //procedure SetMostrarUnit(const Value: Boolean);
     procedure SetTamanho(Value: byte);                            
 
-    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
+    procedure OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String);
 
     procedure OnClicouRemoverItem(Sender: TObject; aBotao: TBotaoItemVenda);
 
@@ -351,7 +351,6 @@ end;
 
 procedure TFrmME2.btnXMLClick(Sender: TObject);
 begin
-
   if not ((gConfig.IsPremium) and (not gConfig.Pro)) then begin
     TFrmRecursoPremium.Create(Self).Mostrar(rsXMLPremium, 'xml');
     Exit;
@@ -378,12 +377,11 @@ begin
       cbCompra.Checked := False;
       Exit
     end;
-
   
-  if cbCompra.Checked then 
-    FME.Tipo := trEstCompra else
-    FME.Tipo := trEstEntrada;
-  UpdateTipoTran;  
+    if cbCompra.Checked then
+      FME.Tipo := trEstCompra else
+      FME.Tipo := trEstEntrada;
+    UpdateTipoTran;
   if cbCompra.Focused then
     FPanAddProd.FocusProd('cbCompraClick');
   finally
@@ -461,7 +459,8 @@ begin
     FME.Pago := 0;
   end else begin
     DebugMsg(Self, 'cmGravar 5');
-  
+
+    //se a transacao for do tipo venda, entra aqui...
     if FME.Tipo = trEstVenda then begin
       DebugMsg(Self, 'cmGravar 6');
     
@@ -653,7 +652,7 @@ begin
       end;
     end;
     
-    if (FME.Tipo=trEstVenda) then begin
+    if (FME.Tipo=trEstVenda) or (FME.Tipo=trEstDevFor) then begin
       DebugMsg(Self, 'cmGravar 33');
     
       if Dados.NFAtivo then begin
@@ -684,7 +683,7 @@ begin
   Close;
 end;
 
-procedure TFrmME2.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
+procedure TFrmME2.OnAddProd(Sender: TFrmPanVendaProdBase; aProdID, aTaxId: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String);
 var IM: TncItemMovEst;
 begin
   IM := TncItemMovEst.Create(nil);
@@ -694,6 +693,7 @@ begin
     IM.imProduto := aProdID;
     IM.imObs := aObs;
     IM.imQuant := aQuant;
+    IM.imDadosFiscais := aDadosFiscais;
     IM.imTax_id := aTaxId;
     IM.imPermSemEstoque := aPermSemEstoque;
     if FidResgate then
@@ -1019,7 +1019,7 @@ begin
       for I := 0 to sl.Count - 1 do begin
         DecodeTempItemStr(sl[i], aProduto, aQuant, aUnitario, aTotal, aPermSemEstoque);
         if tPro.Locate('ID', aProduto, []) then
-          OnAddProd(nil, aProduto, tProTaxIdNorm.Value, aUnitario, aTotal, aQuant, tProDescricao.Value, aPermSemEstoque, 0, '');
+          OnAddProd(nil, aProduto, tProTaxIdNorm.Value, aUnitario, aTotal, aQuant, tProDescricao.Value, aPermSemEstoque, 0, '', '');
       end;
     finally
       sl.Free;
@@ -1506,7 +1506,8 @@ var
   I: Integer;
   F, FItem: Currency;
 begin
-
+  //pega itens do XML e joga para o ME2
+  //criar aqui outro igual esse mas sem mov. estoque. xmlOnConcluirDevFor
   with TFrmLeXML(Sender) do begin
     if cbEntrada.Checked then begin
       cbCompra.Checked := False;

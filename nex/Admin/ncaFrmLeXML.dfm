@@ -585,7 +585,6 @@ object FrmLeXML: TFrmLeXML
                     Caption = 'N'#227'o '#233' esse?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
-                    ExplicitTop = 136
                   end
                   object btnAceitarSug: TLMDButton
                     AlignWithMargins = True
@@ -629,7 +628,6 @@ object FrmLeXML: TFrmLeXML
                     Caption = #201' esse mesmo?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
-                    ExplicitTop = 63
                   end
                   object lbProdutoSugerido: TcxLabel
                     AlignWithMargins = True
@@ -662,9 +660,6 @@ object FrmLeXML: TFrmLeXML
               object tsSemProd: TcxTabSheet
                 Caption = 'tsSemProd'
                 ImageIndex = 1
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
@@ -724,9 +719,6 @@ object FrmLeXML: TFrmLeXML
               object tsSemUnid: TcxTabSheet
                 Caption = 'tsSemUnid'
                 ImageIndex = 2
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object LMDHTMLLabel2: TLMDHTMLLabel
                   Left = 0
                   Top = 0
@@ -1037,9 +1029,6 @@ object FrmLeXML: TFrmLeXML
               object tsOk: TcxTabSheet
                 Caption = 'tsOk'
                 ImageIndex = 4
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
               end
             end
             object LMDSimplePanel1: TLMDSimplePanel
@@ -1597,8 +1586,8 @@ object FrmLeXML: TFrmLeXML
   end
   object ds: TDataSource
     DataSet = mt
-    Left = 392
-    Top = 151
+    Left = 248
+    Top = 199
   end
   object imgs: TcxImageList
     Height = 48
@@ -3077,8 +3066,8 @@ object FrmLeXML: TFrmLeXML
     Database = Dados.db
     TableName = 'ConvUnid'
     IndexName = 'IABUniv'
-    Left = 440
-    Top = 192
+    Left = 304
+    Top = 152
     object tConvUnidUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -3109,7 +3098,7 @@ object FrmLeXML: TFrmLeXML
     Database = Dados.db
     TableName = 'ProdFor'
     IndexName = 'IForRef'
-    Left = 664
+    Left = 312
     Top = 200
     object tProdForUID: TGuidField
       FieldName = 'UID'
@@ -3130,16 +3119,16 @@ object FrmLeXML: TFrmLeXML
   end
   object OpenXML: TOpenDialog
     Filter = 'XML|*.XML'
-    Left = 88
-    Top = 300
+    Left = 80
+    Top = 188
   end
   object tLinkXML: TnxTable
     ActiveRuntime = True
     Database = Dados.db
     TableName = 'LinkXML'
     IndexName = 'IForLink'
-    Left = 517
-    Top = 346
+    Left = 245
+    Top = 146
     object tLinkXMLUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -3159,8 +3148,8 @@ object FrmLeXML: TFrmLeXML
     Database = Dados.db
     TableName = 'Tran'
     IndexName = 'IChaveNFE'
-    Left = 192
-    Top = 218
+    Left = 168
+    Top = 194
     object tTranChaveNFE: TStringField
       FieldName = 'ChaveNFE'
       Size = 44

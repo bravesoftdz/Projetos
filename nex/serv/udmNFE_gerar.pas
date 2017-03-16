@@ -489,6 +489,13 @@ type
     tProdutoRecVer: TLongWordField;
     tProdutoCategoria: TWideStringField;
     tMovEstDadosFiscais: TnxMemoField;
+    tCliPJ: TBooleanField;
+    tCFOP_DEV: TnxTable;
+    tCFOP_DEVID: TUnsignedAutoIncField;
+    tCFOP_DEVUID: TGuidField;
+    tCFOP_DEVcfop_compra: TWordField;
+    tCFOP_DEVcfop: TWordField;
+    tCFOP_DEVnatop: TWideStringField;
     procedure DataModuleCreate(Sender: TObject);
     procedure DataModuleDestroy(Sender: TObject);
     procedure tCliCalcFields(DataSet: TDataSet);
@@ -566,7 +573,7 @@ var
   gProcessNFEWindow : Cardinal = 0;
   TerminarProcNFE : Boolean = False;
   gProcessaGerarNFe : TncProcessaGerarNFe = nil;
-  
+  vIPI_ICMSST, vTotIPI_ICMSST : Currency;
 const
   cont_null   = 0;
   cont_off    = 1;
@@ -711,6 +718,8 @@ begin
   slIcmsInter := TStringList.Create;
   slObs.LineBreak := ';';
   FlastConfig := 0;
+  vIPI_ICMSST := 0;
+  vTotIPI_ICMSST := 0;
 end;
 
 function FormatValorCur(aValor: Extended): String;
@@ -736,7 +745,7 @@ function TdmNFE_gerar.Destacar_cred_icms: Boolean;
 begin
   Result := tNFConfignfe_permite_cred_icms.Value and 
             tBRTribNFE_CredIcms.Value and
-            tCliPJuridica.Value and
+            tCliPJ.Value and
             (not tCliNaoContribICMS.Value) and
             tCliNFE_CredIcms.Value and
             (tTranTipo.Value=trEstVenda) and
@@ -757,7 +766,14 @@ begin
     if ExCfg>'' then 
       raise Exception.Create(ExCfg);
     DebugMsg('GerarNFE 4');
-    NFE_gerarxml;
+
+    tMovEst.IndexName := 'ITranItem';
+    tMovEst.SetRange([tTranID.Value], [tTranID.Value]);
+    try
+      NFE_gerarxml;
+    finally
+      tMovEst.CancelRange;
+    end;
     DebugMsg('GerarNFE 5');
   
     ValidaXML;
@@ -801,22 +817,23 @@ end;
 
 function TdmNFE_gerar.GetIndFinal: Byte;
 begin
-  if (not tCliPJuridica.Value) or tCliConsumidor.Value or tCliNaoContribICMS.Value then
+  if (not tCliPJ.Value) or tCliConsumidor.Value or tCliNaoContribICMS.Value then
     Result := 1 else  //Indica operação com Consumidor final: 0- Não; 1- Consumidor final
     Result := 0;
 end;
 
 function TdmNFE_gerar.GetIndIEDest: Byte;
 begin
-  if tCliPJuridica.Value and (not tCliNaoContribICMS.Value) then begin
+
+  if tCliPJ.Value and (not tCliNaoContribICMS.Value) then begin
     if tCliIsentoIE.Value then
       Result := 2
     else begin
-      if SoDig(tCliRG.Value)='' then 
+      if SoDig(tCliRG.Value)='' then
         raise Exception.Create('É necessário preencher o campo Inscrição Estadual do cliente ou assinalar opção de Isento');
       Result := 1;
     end;
-  end else 
+  end else
     Result := 9;
 end;
 
@@ -906,6 +923,9 @@ begin
       tCliLocal.Value := 2;
   end else
     tCliLocal.Value := 3;
+
+  tCliPJ.Value := tCliPJuridica.Value or (tCliFornecedor.Value and (Length(SoDig(tCliCPF.Value))=14));
+
 end;
 
 procedure TdmNFE_gerar.NFE_criar;
@@ -941,20 +961,25 @@ end;
 procedure TdmNFE_gerar.NFE_gerarxml;
 var 
   S: String;
-  sl : TStrings;
+  sl, slDF, slChaves : TStrings;
   FExtraEmail : Boolean;
   FExtraCPF : Boolean;
   aFreteOutros : Boolean;
   aChave: String;
   sXML : String;
   TotST, TotBCSt : Currency;
-  
+
 procedure DadosNFe;
 var
   _NRNota : String;
+  i: integer;
 begin
     FTipo := gListaTipoTran.PorTipo[tTranTipo.Value];
     if FTipo=nil then raise Exception.Create('Tipo de transação inesxistente: '+tTranTipo.AsString);
+
+    slDF := TStringList.Create;
+    slDF.Text := tMovEstDadosFiscais.Value;
+    slChaves := TStringList.Create;
 
     nfeDS.campo('versao_A02').Value   := '3.10'; //Versão do leiaute
     nfeDS.Campo('cUF_B02').Value      := tNFConfigEnd_CodUF.AsString;
@@ -966,28 +991,53 @@ begin
     nfeDS.Campo('nNF_B08').Value      := tNFENumero.AsString;
     nfeDS.Campo('dhEmi_B09').Value    := FormatDateTime('YYYY-mm-dd"T"HH:mm:ss', tNFEDataHora.Value) + TimeZoneStr; //Data e Hora de emissão do Documento Fiscal
     nfeDS.Campo('dhSaiEnt_B10').Value  := FormatDateTime('YYYY-mm-dd"T"HH:mm:ss', tNFEDataHora.Value) + TimeZoneStr;
-    
+
     if FTipo.Entrada then
       nfeDS.Campo('tpNF_B11').Value     := '0' else
       nfeDS.Campo('tpNF_B11').Value     := '1';
-      
+
     nfeDS.Campo('idDest_B11a').Value  := tCliLocal.AsString; //Identificador de local de destino da operação: 1- Operação interna; 2- Operação interestadual; 3- Operação com exterior.
     nfeDS.Campo('cMunFG_B12').Value   := tNFConfigEnd_CodMun.Value;
     nfeDS.Campo('tpImp_B21').Value    := '1';
     nfeDS.Campo('tpEmis_B22').Value   := '1';
     nfeDS.Campo('cDV_B23').Value      := ''; //Dígito Verificador da Chave de Acesso
-    nfeDS.Campo('tpAmb_B24').Value    := tNFConfigtpAmbNFe.AsString;    
+    nfeDS.Campo('tpAmb_B24').Value    := tNFConfigtpAmbNFe.AsString;
+
+
+    if (tTranTipo.Value = trEstDevFor)  then
+    begin
+      nfeDS.Campo('finNFe_B25').Value   := '4';
+      debugmsg(Self,'Chave - Entrou nas dev. Fornec ');
+
+      slDF.Text := '';
+      tMovEst.First;
+      //percorre o slDF e se nao existe no SLChave adiciona a chave da NF-e.
+      while not tMovEst.Eof do begin
+       slDF.Text := tMovEstDadosFiscais.Value;
+          if slChaves.IndexOf(slDF.Values['ChaveNFe'])= -1 then
+            slChaves.Add(slDF.Values['ChaveNFe']);
+        tMovEst.Next;
+      end;
+
+      for I := 0 to slChaves.Count-1 do begin
+        nfeDS.IncluirPart('nRef');
+        nfeDS.Campo('refNFe_BA02').Value   := slChaves[I];
+        nfeDS.SalvarPart('nRef');
+      end;
+    end else
     if tTranTipo.Value=trEstDevolucao then begin
       nfeDS.Campo('finNFe_B25').Value   := '4';
-      if sl.Values['ref_nfe']>'' then begin
+      if (sl.Values['ref_nfe']>'') then
+      begin
         nfeDS.IncluirPart('nRef');
         nfeDS.Campo('refNFe_BA02').Value   := sl.Values['ref_nfe'];
-        nfeDS.SalvarPart('nRef'); 
+        nfeDS.SalvarPart('nRef');
       end else
-      if tAuxTran.FindKey([tTranUID_ref.AsString]) then begin
+      if tAuxTran.FindKey([tTranUID_ref.AsString]) and not (tTranTipo.Value = trEstDevFor) then
+      begin
         nfeDS.IncluirPart('nRef');
         nfeDS.Campo('refNFe_BA02').Value   := tAuxTranChaveNFe.Value;
-        nfeDS.SalvarPart('nRef'); 
+        nfeDS.SalvarPart('nRef');
       end;
     end else
       nfeDS.Campo('finNFe_B25').Value   := '1'; //Finalidade de emissão da NF-e: 1- NF-e normal/ 2-NF-e complementar / 3 – NF-e de ajuste.
@@ -1118,18 +1168,18 @@ begin
 
   nfeDS.Campo('indIEDest_E16a').Value := getIndIEDest.ToString;
 
-  if tCliPJuridica.Value and (not tCliIsentoIE.Value) then
+  if tCliPJ.Value and (not tCliIsentoIE.Value) then
     nfeDS.Campo('IE_E17').Value := SoDig(tCliRG.Value);
-  
+
   nfeDS.Campo('fone_E16').Value := FmtNfe(SoDig(tCliTelefone.Value));
 
-  if tCliPJuridica.Value and (Length(SoDig(tCliCPF.Value))>12) then begin
+  if (Length(SoDig(tCliCPF.Value))>12) then begin
     nfeDS.Campo('CNPJ_E02').Value := SoDig(tCliCPF.Value);
     tNFECPF.Value := SoDig(tCliCPF.Value);
   end else begin
     nfeDS.Campo('CPF_E03').Value := SoDig(tCliCPF.Value);
     tNFECPF.Value := SoDig(tCliCPF.Value);
-  end;  
+  end;
 end;
 
 procedure DadosEntrega;
@@ -1143,7 +1193,7 @@ begin
     try
       E.LoadFromDataset(tEnd);
       
-      if tCliPJuridica.Value and (Length(SoDig(tCliCPF.Value))>12) then begin
+      if tCliPJ.Value and (Length(SoDig(tCliCPF.Value))>12) then begin
         nfeDS.Campo('CNPJ_G02').Value := ZeroPad(SoDig(tCliCPF.Value), 14);
         tNFECPF.Value := SoDig(tCliCPF.Value);
       end else begin
@@ -1214,8 +1264,7 @@ begin
   aFreteItem  := 0;
   FPesoL := 0;
   FPesoB := 0;
-  tMovEst.IndexName := 'ITranItem';
-  tMovEst.SetRange([tTranID.Value], [tTranID.Value]);
+
   slObsfiscal := TStringList.Create;
   try
     slObsfiscal.LineBreak := ';';
@@ -1293,7 +1342,7 @@ begin
 
       nfeDS.Campo('CFOP_I08').Value     := tbrtrib_tipoCFOP.AsString;
 
-      if (tbrtrib_tipoCFOP.Value=6102) and tCliPJuridica.Value and tCliNaoContribICMS.Value then 
+      if (tbrtrib_tipoCFOP.Value=6102) and tCliPJ.Value and tCliNaoContribICMS.Value then
         nfeDS.Campo('CFOP_I08').Value := '6108';
       
       nfeDS.Campo('uCom_I09').Value     := fmtnfe(tProdutoUnid.Value);
@@ -1457,8 +1506,7 @@ begin
     end;
   finally
     slObsfiscal.Free;
-    tMovEst.CancelRange;  
-  end; 
+  end;
 end;
 
 procedure AdicionaItensDevFor;
@@ -1466,13 +1514,27 @@ var
   aItem, aCSOSN: Integer;
   vImp : currency;
   aCredICMS, aTCredICMS, tNac, tMun, tEst, aBCST, aICMSNorm, aFrete, aFreteItem, aFreteTotal : currency;
-  Q : Extended;
+  Q, valor, vImposto  : Extended;
   Achou : Boolean;
-  anatop, anatop_500: String;
-  slObsfiscal : TStringList;
+  anatop, totalImposto, sIPI, sICMSST: String;
+  slObsfiscal: TStringList;
+  slDF : TStringList;
+
+function ValorXQuant(v: string): string;
+begin
+  V := slDF.Values[v];
+  valor := StrToFloatDef(v,0);
+  valor := valor * q;
+  Result := FormatValor(valor,2);
+end;
+
+function calcVlImp(v1, v2 :string):string;
+begin
+  Result := FormatValor((StrToFloat(v1) * StrToFloat(v2)),3);
+end;
+
 begin
   anatop := '';
-  anatop_500 := '';
   aItem := 0;
   vTotImp := 0;
   aCredICMS := 0;
@@ -1486,15 +1548,19 @@ begin
   aFreteItem  := 0;
   FPesoL := 0;
   FPesoB := 0;
-  tMovEst.IndexName := 'ITranItem';
-  tMovEst.SetRange([tTranID.Value], [tTranID.Value]);
+  sIPI := '';
+  sICMSST := '';
   slObsfiscal := TStringList.Create;
+  slDF := TStringList.Create;
+
   try
     slObsfiscal.LineBreak := ';';
     tNCM.IndexName := 'INCM';
     tMovEst.First;
     while not tMovEst.Eof do begin
       tProduto.FindKey([tMovEstProduto.Value]);
+
+      slDF.Text := tMovEstDadosFiscais.Value;
       
       Achou := False;
       if tProdutobrtrib.IsNull then
@@ -1507,24 +1573,16 @@ begin
       if not Achou then
         raise Exception.Create('É necessário configurar a tributação para o produto: '+tProdutoCodigo.Value+' '+tProdutoDescricao.Value);
 
-      if tbrtrib_tipoCSOSN.Value=500 then begin
-        if anatop_500='' then
-          anatop_500 := tbrtrib_tiponatop.Value;
-      end else begin
-        if anatop='' then
-          anatop := tbrtrib_tiponatop.Value;
-      end;
-
       if Trim(tbrtrib_tipoobsfiscal.Value)>'' then
       if slObsfiscal.IndexOf(Trim(tBrTrib_TipoObsFiscal.Value))=-1 then
         slObsfiscal.Add(Trim(tBrTrib_TipoObsFiscal.Value));
-      
+
       if tProdutoNCM.IsNull then
         tNCM.FindKey([tNFConfigNCM_Padrao.Value{, tNFConfigNCMEx_Padrao}]) else
         tNCM.FindKey([tProdutoNCM.Value, tProdutoNCM_Ex.Value]);
 
       slMVA.Text := tProdutoMVA.Value;
-      slPauta.Text := tProdutoPauta.Value;  
+      slPauta.Text := tProdutoPauta.Value;
       slICMSSt.Text := tBRTribICMSSt.Value;
 
       nfeDS.IncluirItem;
@@ -1532,16 +1590,21 @@ begin
       DebugMsg('TdmNFe_gerar - Adiciona Itens: '+Codigo);
       nfeDS.Campo('cProd_I02').AsString := fmtnfe(Codigo);
       nfeDS.Campo('nItem_H02').Value    := IntToStr(aItem);
-      if (Length(Codigo)=13) and EAN_OK(Codigo) then begin
+
+      //Caso tiver 13 caracteres joga o codebar pos campos, caso contrario mantem o codigo interno do cliente
+      if (Length(Codigo)=13) and EAN_OK(Codigo) then
+      begin
         nfeDS.Campo('cEAN_I03').AsString := Codigo;
         nfeDS.Campo('cEANTrib_I12').AsString := Codigo;
       end;
 
-      if (tClilocal.Value=2) and (getIndFinal=1) and (getIndIEDest=9) then begin
+      if (tClilocal.Value=2) and (getIndFinal=1) and (getIndIEDest=9) then
+      begin
         nfeDS.Campo('vBCUFDest_NA03').Value    := FormatValor(tMovEstTotLiq.Value, 2);
-        nfeDS.Campo('pFCPUFDest_NA05').Value := FormatValor(0, 2);
+        nfeDS.Campo('pFCPUFDest_NA05').Value := FormatValor (0, 2);
         nfeDS.Campo('pICMSUFDest_NA07').Value := FormatValor(0, 2);
         nfeDS.Campo('pICMSInter_NA09').Value := FormatValor(ICMSInter, 2);
+
         case YearOf(Date) of
           2016 : nfeDS.Campo('pICMSInterPart_NA11').Value := FormatValor(40, 2);
           2017 : nfeDS.Campo('pICMSInterPart_NA11').Value := FormatValor(60, 2);
@@ -1553,21 +1616,27 @@ begin
         nfeDS.Campo('vICMSUFDest_NA15').Value := FormatValor(0, 2);
         nfeDS.Campo('vICMSUFRemet_NA17').Value := FormatValor(0, 2);
       end;
-      
-      if (aItem=1) and (nfeComp.Ambiente = akHomologacao) then 
-        nfeDS.Campo('xProd_I04').Value    := sAmbHomoItem else
+
+      if (aItem=1) and (nfeComp.Ambiente = akHomologacao) then
+        nfeDS.Campo('xProd_I04').Value    := sAmbHomoItem
+      else
         nfeDS.Campo('xProd_I04').Value    := fmtnfe(tProdutoDescricao.Value);
-                                   
+
       nfeDS.Campo('NCM_I05').Value      := tProdutoNCM.Value;
 
-      if (FEsq>1) and (tProdutocest.Value>0) then 
+      if (FEsq>1) and (tProdutocest.Value>0) then
         nfeDS.Campo('CEST_I05c').Value := ZeroPad(tProdutocest.AsString, 7);
 
-      nfeDS.Campo('CFOP_I08').Value     := tbrtrib_tipoCFOP.AsString;
+      if not tCFOP_DEV.FindKey([slDF.Values['CFOP']]) then
+        raise Exception.Create('CFOP de compra:'+ slDF.Values['CFOP'] +' não encontrada na tabela CFOP Dev.');
 
-      if (tbrtrib_tipoCFOP.Value=6102) and tCliPJuridica.Value and tCliNaoContribICMS.Value then 
-        nfeDS.Campo('CFOP_I08').Value := '6108';
-      
+      if anatop='' then
+        anatop := tCFOP_DEVnatop.AsString;
+
+      nfeDS.Campo('natOp_B04').Value := anatop;
+
+      nfeDS.Campo('CFOP_I08').Value     := tCFOP_DEVcfop.AsString;
+
       nfeDS.Campo('uCom_I09').Value     := fmtnfe(tProdutoUnid.Value);
 
       if (tMovEstTotal.Value>0) and (Frac(tMovEstQuant.Value)>0.00001) then
@@ -1583,89 +1652,119 @@ begin
           aFreteTotal := aFreteTotal + aFreteItem;
         end;
       end;
-        
+
       nfeDS.Campo('qCom_I10').Value     := FormatValor(Q, 4);
       nfeDS.Campo('vUnCom_I10a').Value  := FormatValor(tMovEstUnitario.Value, 4);
       nfeDS.Campo('vProd_I11').Value    := FormatValor(tMovEstTotal.Value, 2);
       nfeDS.Campo('uTrib_I13').Value    := Trim(tProdutoUnid.Value);
       nfeDS.Campo('qTrib_I14').Value    := FormatValor(Q, 4);
       nfeDS.Campo('vUnTrib_I14a').Value := FormatValor(tMovEstUnitario.Value, 4);
+
       if tMovEstDesconto.Value>=0.01 then
         nfeDS.Campo('vDesc_I17').Value    := FormatValor(tMovEstDesconto.Value, 2);
       nfeDS.Campo('indTot_I17b').Value  := '1'; //Indica se valor do Item (vProd) entra no valor total da NF-e (vProd)
-  											//0 – o valor do item (vProd) não compõe o valor total da NF-e (vProd) 1 – o valor do item (vProd) compõe o valor total da NF-e (vProd)
 
-    // ICMS
-{    aDs.SetCampo('modBC_N13=0');        // Modalidade de determinação da Base de Cálculo - ver Manual
-    aDs.SetCampo('vBC_N15=0.01');       // Valor da Base de Cálculo do ICMS
-    aDs.SetCampo('pICMS_N16=7.00');     // Alíquota do ICMS em Percentual
-    aDs.SetCampo('vICMS_N17=0.01');     // Valor do ICMS em Reais   }
+      //0 – o valor do item (vProd) não compõe o valor total da NF-e (vProd) 1 – o valor do item (vProd) compõe o valor total da NF-e (vProd)
+      //ICMS
+      if slDF.Values['ICMS_vBC'] > '' then
+      begin
+        nfeDs.Campo('modBC_N13').Value := '0';        //Modalidade de determinação da Base de Cálculo - ver Manual
+        if not (slDF.Values['ICMS_vBC'] > '') then
+          raise Exception.Create('Não localizado valor da Base de Cálculo do ICMS');
+
+          nfeDs.Campo('vBC_N15').Value := valorxQuant(slDf.Values['ICMS_vBC']); // Valor da Base de Cálculo do ICMS
+
+        if not (slDF.Values['pICMS'] > '') then
+          raise Exception.Create('Não localizado percentual de ICMS');
+
+          nfeDs.Campo('pICMS_N16').Value := trim(slDf.Values['pICMS']);     // Alíquota do ICMS em Percentual
+
+        if not (slDF.Values['vICMS'] > '') then
+          raise Exception.Create('Não localizado valor unitário de ICMS');
+          nfeDs.Campo('vICMS_N17').Value := ValorXQuant(slDF.Values['vICMS']);     // Valor do ICMS em Reais
+      end;
 
       // PIS
-      nfeDS.Campo('CST_Q06').Value := '99';         // Codigo de Situacao Tributária - ver opções no Manual
-      nfeDS.Campo('vBC_Q07').Value := '0.00';       // Valor da Base de Cálculo do PIS
-      nfeDS.Campo('pPIS_Q08').Value := '0.00';      // Alíquota em Percencual do PIS
-      nfeDS.Campo('vPIS_Q09').Value := '0.00';      // Valor do PIS em Reais}
+      nfeDS.Campo('CST_Q06').Value := '99';
+      nfeDS.Campo('vBC_Q07').Value := ValorXQuant('PIS_vBC');
+      if slDF.Values['pPis'] > '' then
+        nfeDS.Campo('pPIS_Q08').Value := slDF.Values['pPis']
+      else
+        nfeDS.Campo('pPIS_Q08').Value := '0.00';
+      nfeDS.Campo('vPIS_Q09').Value := ValorXQuant('vPis');
+
       // COFINS
-      nfeDS.Campo('CST_S06').Value := '99';         // Código de Situacao Tributária - ver opções no Manual
-      nfeDS.Campo('vBC_S07').Value := '0.00';       // Valor da Base de Cálculo do COFINS
-      nfeDS.Campo('pCOFINS_S08').Value := '0.00';   // Alíquota do COFINS em Percentual
-      nfeDS.Campo('vCOFINS_S11').Value := '0.00';   // Valor do COFINS em Reais}
-                                 
-      if tBRTribCFOP_nfce.Value=5656 then begin
-        nfeDS.Campo('cProdANP_LA02').Value := '210203001';
-        nfeDS.Campo('UFCons_LA06').Value := tNFConfigEnd_UF.Value;
-  {       nfeDS.Campo('vAliqProd_LA09').Value := '6.0000';
-         nfeDS.Campo('qBCProd_LA08').Value := FormatValor(tMovEstTotal.Value-tMovEstDesconto.Value, 4);
-         nfeDS.Campo('vCIDE_LA10').Value := FormatValor(DuasCasas((tMovEstTotal.Value-tMovEstDesconto.Value)*0.06), 2);}
-       
-  {       nfeDS.Campo('cProdANP_LA02').Value := '210203001';
-         nfeDS.Campo('pMixGN_LA03').Value := '12';
-         nfeDS.Campo('CODIF_LA04').Value := '111111111111111111111';
-         nfeDS.Campo('qTemp_LA05').Value := '30000.0000';
-         nfeDS.Campo('UFCons_LA06').Value := tNFConfigEnd_UF.Value;
-         nfeDS.Campo('qBCProd_LA08').Value := '20055.0000';
-         nfeDS.Campo('vAliqProd_LA09').Value := '6.0000';
-         nfeDS.Campo('vCIDE_LA10').Value = '1203.30';
-         nfeDS.Campo('nBico_LA12').Value := '123';
-         nfeDS.Campo('nBomba_LA13').Value := '321';
-         nfeDS.Campo('nTanque_LA14').value := '111';
-         nfeDS.Campo('vEncIni_LA15').Value := '123456789';
-         nfeDS.Campo('vEncFin_LA16').Value := '987654321';}
+      nfeDS.Campo('CST_S06').Value := '99';
+      nfeDS.Campo('vBC_S07').Value := ValorXQuant('COFINS_vBC');
+      if slDF.Values['pCOFINS'] > '' then
+        nfeDS.Campo('pCOFINS_S08').Value := slDF.Values['pCOFINS']
+      else
+        nfeDS.Campo('pCOFINS_S08').Value := '0.00';
+      nfeDS.Campo('vCOFINS_S11').Value := ValorXQuant('COFINS_vBC');
+
+      //IPI
+      if slDF.Values['vIPI'] > '' then
+      begin
+        sIPI := ValorXQuant('vIPI');
+        DebugMsg(self, 'VALOR IPI: '+ sIPI );
+        vIPI_ICMSST := vIPI_ICMSST + StrParaFloat(sIPI);
+        vTotIPI_ICMSST := vTotIPI_ICMSST + vIPI_ICMSST;
       end;
-  
-      vImp := CalcImp(tNac, tEst, tMun);                                 
+
+      //ICMS-ST
+      if slDF.Values['vICMSST'] > '' then
+      begin
+        sICMSST := ValorXQuant('vICMSST');
+        DebugMsg(self, 'VALOR ICMS-ST: '+ sICMSST );
+        vIPI_ICMSST := vIPI_ICMSST + StrParaFloat(sICMSST);
+        vTotIPI_ICMSST := vTotIPI_ICMSST + vIPI_ICMSST;
+      end;
+
+      if vIPI_ICMSST > 0 then
+        nfeDS.Campo('vOutro_I17a').Value := FormatValor(vIPI_ICMSST, 2);
+
+      vIPI_ICMSST := 0;
+      vImp := CalcImp(tNac, tEst, tMun);
       vTotImp := vTotImp + vImp;
       nfeDS.Campo('vTotTrib_M02').Value := FormatValor(vImp, 2);
 
-      if Self.Destacar_cred_icms then begin
+      if Self.Destacar_cred_icms then
+      begin
         if tNFConfignfe_perc_cred_icms.Value<0.01 then
           raise Exception.Create('É necessário configurar o percentual de aproveitamento de crédito de ICMS nas configurações da NF-e');
         aCSOSN := tbrtrib_tipoCSOSN.Value-1;
         nfeDS.Campo('CSOSN_N12a').Value   := IntToStr(aCSOSN);
+
         aCredICMS := DuasCasas((tMovEstTotLiq.Value+aFreteItem) * (tNFConfignfe_perc_cred_icms.Value/100), 2);
         aTCredICMS := aTCredICMS + aCredICMS;
         nfeDS.Campo('pCredSN_N29').Value := FormatValor(tNFConfignfe_perc_cred_icms.Value, 4);
+
         nfeDS.Campo('vCredICMSSN_N30').Value := FormatValor(aCredICMS, 2);
       end else
         aCSOSN := tbrtrib_tipoCSOSN.Value;
-        
+
       nfeDS.Campo('orig_N11').Value     := tBRTriborigem.AsString;
-      
+
       if tNFConfigCRT.Value=3 then
-        nfeDS.Campo('CST_N12').Value      := ZeroPad(tBRTribCST.AsString, 2) else
+        nfeDS.Campo('CST_N12').Value      := ZeroPad(tBRTribCST.AsString, 2)
+      else
         nfeDS.Campo('CSOSN_N12a').Value   := IntToStr(aCSOSN);
 
-      if CFOPTemSt(tbrtrib_tipocfop.Value) and CSOSNTemSt(aCSOSN) then begin
+      if CFOPTemSt(tbrtrib_tipocfop.Value) and CSOSNTemSt(aCSOSN) then
+      begin
         DebugMsg(Self, 'Adiciona Itens - TEM ST');
         nfeDS.Campo('modBCST_N18').Value := tProdutomodST.AsString;
+
         aBCSt := DuasCasas((tMovEstTotLiq.Value+aFreteItem) + ((tMovEstTotLiq.Value+aFreteItem) * (MVA/100)), 2);
-        if (tProdutomodST.Value=4) or ((aBCSt>Pauta) and tNFConfigUsarPautaMaiorMVA.Value)  then 
+
+        if (tProdutomodST.Value=4) or ((aBCSt>Pauta) and tNFConfigUsarPautaMaiorMVA.Value)  then
           nfeDS.Campo('pMVAST_N19').Value := FormatValor(MVA, 2)
-        else begin
+        else
+        begin
           aBCSt := Pauta;
           nfeDS.Campo('pMVAST_N19').Value := FormatValor(0, 2);
         end;
+
         TotBCSt := TotBCSt + aBCSt;
         DebugMsg(Self, 'Adiciona Itens - Base ST - '+FloatParaStr(aBCSt));
         nfeDS.Campo('vBCST_N21').Value := FormatValor(aBCSt, 2);
@@ -1674,7 +1773,7 @@ begin
         TotSt := TotSt + aBCSt;
         nfeDS.Campo('vICMSST_N23').Value := FormatValor(DuasCasas(aBCst, 2), 2);
         nfeDS.Campo('UFST_N24').Value := tCliUF.Value;
-      end;        
+      end;
       tMovEst.Next;
 
       if tMovEst.Eof and (aFreteTotal>0) and (aFreteTotal<>tTranFrete.Value) then begin
@@ -1693,44 +1792,34 @@ begin
       end;
 
       nfeDS.SalvarItem;
-
     end;
-
-
-    if anatop='' then
-      nfeDS.Campo('natOp_B04').Value := anatop_500 else
-      nfeDS.Campo('natOp_B04').Value := anatop;
-
-    if aTCredICMS>=0.01 then begin
-      AddObs('PERMITE O APROVEITAMENTO DO CREDITO DE ICMS NO VALOR DE R$ '+FormatValorCur(aTCredICMS));
-      AddObs('CORRESPONDENTE A ALIQUOTA DE '+tNFConfignfe_perc_cred_icms.AsString+
-             '%, NOS TERMOS DO ARTIGO 23 DA LC 123');
-    end else   
-      AddObs('NAO GERA DIREITO A CREDITO FISCAL DE ICMS, DE ISS E DE IPI');
-
-    AddObs(slObsfiscal.Text);        
+    if sICMSST > '' then
+      addObs(' Valor Total ICMSST: R$'+ sICMSST);
+    if sIPI > '' then
+      addObs(' Valor Total IPI: R$'+ sIPI);
+    AddObs(slObsfiscal.Text);
 
     if (tNac>0) or (tEst>0) or (tMun>0) then begin
-      anatop := ''; 
+      totalImposto := '';
       if tNac>0 then
-        anatop := 'R$'+FormatValorCur(tNac)+' FED'; 
+        totalImposto := 'R$'+FormatValorCur(tNac)+' FED';
       if tEst>0 then begin
-        if anatop > '' then
-          anatop := anatop + ' /';
-        anatop := anatop + 'R$'+FormatValorCur(tEst)+' EST';
+        if totalImposto > '' then
+          totalImposto := totalImposto + ' /';
+        totalImposto := totalImposto + 'R$'+FormatValorCur(tEst)+' EST';
       end;
 
       if tMun>0 then begin
-        if anatop > '' then
-          anatop := anatop + ' /';
-        anatop := anatop + 'R$'+FormatValorCur(tMun)+' MUN';
+        if totalImposto > '' then
+          totalImposto := totalImposto + ' /';
+        totalImposto := totalImposto + 'R$'+FormatValorCur(tMun)+' MUN';
       end;
-      AddObs('TRIB APROX '+anatop+' /FONTE:IBPT');
+      AddObs('TRIB APROX '+ totalImposto + ' /FONTE:IBPT');
     end;
   finally
     slObsfiscal.Free;
-    tMovEst.CancelRange;  
-  end; 
+    slDF.Free;
+  end;
 end;
 
 
@@ -1814,18 +1903,19 @@ begin
     if tTranFrete.Value>0 then begin
       if aFreteOutros then begin
         nfeDS.Campo('vFrete_W08').Value := '0.00'; //Valor Total do Frete
-        nfeDS.Campo('vOutro_W15').Value := FormatValor(tTranFrete.Value, 2); //Outras Despesas acessórias
+        nfeDS.Campo('vOutro_W15').Value := FormatValor(tTranFrete.Value, 2) + FormatValor(vTotIPI_ICMSST, 2) ; //Outras Despesas acessórias
       end else begin
         nfeDS.Campo('vFrete_W08').Value := FormatValor(tTranFrete.Value, 2); //Valor Total do Frete
-        nfeDS.Campo('vOutro_W15').Value := '0.00'; //Outras Despesas acessórias
+        nfeDS.Campo('vOutro_W15').Value := FormatValor(vTotIPI_ICMSST, 2); //Outras Despesas acessórias
       end;
     end else begin
       nfeDS.Campo('vFrete_W08').Value := '0.00'; //Valor Total do Frete
-      nfeDS.Campo('vOutro_W15').Value := '0.00'; //Outras Despesas acessórias
-    end;  
-    nfeDS.Campo('vNF_W16').Value := FormatValor(tTranTotLiq.Value+TotSt+tTranFrete.Value, 2);
+      nfeDS.Campo('vOutro_W15').Value := FormatValor(vTotIPI_ICMSST, 2); //Outras Despesas acessórias
+    end;
+    nfeDS.Campo('vNF_W16').Value := FormatValor(tTranTotLiq.Value+TotSt+tTranFrete.Value+vTotIPI_ICMSST, 2);
     tNFETotalNF.Value := tTranTotLiq.Value + TotSt + tTranFrete.Value;
     nfeDS.Campo('vTotTrib_W16a').Value := FormatValor(vTotImp, 2);
+    vIPI_ICMSST := 0;
 end;
 
 procedure DadosPagamento;
@@ -1915,7 +2005,7 @@ begin
     DadosDoDestinatario;
     DadosEntrega;
     if tTranTipo.Value=trEstDevFor then
-      AdicionaItensDevFor else  
+      AdicionaItensDevFor else
       AdicionaItens;
     DadosTransp;
     DadosTotalizadores;
@@ -1951,7 +2041,7 @@ begin
         nfeComp.VersaoManual := vm50a;
         _Dir := ExtractFilePath(ParamStr(0))+'nfe\Templates\vm50a\Conversor\NFeDataSets.xml';
         nfeDS.VersaoEsquema := pl_008i1;
-        DebugMsg('TdmNFE_gerar.NFE_gerarxml - Esquema 2');      
+        DebugMsg('TdmNFE_gerar.NFE_gerarxml - Esquema 2');
       end;      
     end;  
     

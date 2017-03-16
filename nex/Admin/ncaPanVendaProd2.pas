@@ -152,6 +152,7 @@ type
     tXML: TnxTable;
     tXMLxml: TnxMemoField;
     tXMLtran: TLongWordField;
+    tMEDadosFiscais: TnxMemoField;
     procedure FormCreate(Sender: TObject);
     procedure btnLancarClick(Sender: TObject);
     procedure edQtdKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
@@ -228,6 +229,9 @@ type
     function ComecarPorQtd: Boolean;
     function BuscaAuto: Boolean;
   protected
+    FDadosFiscaisXML : String;
+    FQuantCompra : Double;
+
     procedure SetQuantCustom(const aValue: Double; aUpdateEdit: Boolean = False);
     procedure SetUnitarioCustom(const Value: Currency; UpdateEdit: Boolean);
     procedure CalcTotal;
@@ -242,6 +246,8 @@ type
     procedure UpdateColor;
 
     procedure DecodeCodBarBalanca;
+
+    procedure OnConcluirLeXML(Sender: TObject);
 
     procedure wmPopFrm(var Msg: TMessage);
       message wm_user;
@@ -304,7 +310,7 @@ implementation
 
 uses ncaDM, ncaFrmPri, ncErros, ncaFrmEscolhaProdDup, 
   ncaFrmSemEstoque, ncaFrmProdSemFid, ncaFrmConfigTelaVendas, ncDebug,
-  ncaFrmNCMEdit, ncaStrings;
+  ncaFrmNCMEdit, ncaStrings, ncaFrmLeXML;
 
 {$R *.dfm}
 
@@ -418,9 +424,11 @@ begin
 end;
 
 procedure TFrmPanVendaProd2.btnLancarClick(Sender: TObject);
-var PermSemEstoque: Boolean; T: Currency;
+var
+  PermSemEstoque: Boolean; T: Currency;
 begin
   inherited;
+  FDadosFiscaisXML := '';
   if ResgateFid then
   if not (tProFidelidade.Value and (tProFidPontos.Value>0)) then begin
     TFrmProdSemFid.Create(Self).Mostrar(tPro);
@@ -445,20 +453,37 @@ begin
   if (TipoTran=trEstDevFor) then begin
     if Fornecedor=0 then raise Exception.Create(rsNecessarioFornecedor);
 
-    //if Dados.NFeAtivo then begin
+    if Dados.NFeAtivo then begin
       //se não achou nenhum movimento de entrada avisa usuario e cancela processo
-      if Unitario = 0  then
-        raise Exception.Create('Não há compras desse produto com esse fornecedor.');
+
+      FDadosFiscaisXML := '';
+      FQuantCompra := 0;
+
+      if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
+        if Unitario=0 then
+          ShowMessage('Não há compras desse produto com esse fornecedor.') else
+          ShowMessage('Dados fiscais ainda não foram gravados.');
+
+        if SimNao('Desejar ler o XML de compra agora?') then with TFrmLeXML.Create(Self) do
+        begin
+          IgnoraCompraAnt := true;
+          OnConcluir := OnConcluirLeXML;
+          ShowModal;
+        end;
+      end else begin
+        FDadosFiscaisXML := tMEDadosFiscais.Value;
+        FQuantCompra := tMeQuant.Value;
+      end;
 
       //se não encontrou o XML de lançamento de entrada cancela operação e avisa o usuário
-      if not tXML.FindKey([tMETran.Value]) then
-        raise Exception.Create('Não é possível fazer devolução de compras sem o XML de compra.');
+      if (FDadosFiscaisXML='') then
+        raise Exception.Create('Não é possível fazer devolução de compras sem o XML e dados fiscais de compra.');
 
       //verifica a quantidade informada pelo usuário, se a quantidade informada for maior que a
       //quantidade lançada no documento de entrada avisa o usuario e cancela a operação.
-      if edQtd.value > tMEQuant.Value then
-        raise Exception.Create('Quantidade do item informado é maior que a quantidade lançada na NF-e entrada.');
-    //end;
+      if edQtd.value > FQuantCompra then
+        raise Exception.Create('Quantidade do item informado é maior que a quantidade da NF-e entrada.');
+    end;
   end;
 
   if Dados.NFAtivo and (TipoTran=trEstVenda) then
@@ -468,7 +493,7 @@ begin
     T := DuasCasas(FUnitario*edQtd.Value) else
     T := DuasCasas(FCBBInfo.PesoValor);
     
-  AddProd(tProID.Value, tProTaxIDNorm.Value, FUnitario, T, edQtd.Value, tProDescricao.Value, PermSemEstoque, tProFidPontos.Value, '');
+  AddProd(tProID.Value, tProTaxIDNorm.Value, FUnitario, T, edQtd.Value, tProDescricao.Value, PermSemEstoque, tProFidPontos.Value, '', FDadosFiscaisXML);
   
   Clear;
 
@@ -909,10 +934,7 @@ begin
   if tMe.IsEmpty then
     Result := 0
   else
-  begin
-    //tME.Last;
     Result := tMECustoU.Value;
-  end;
 end;
 
 procedure TFrmPanVendaProd2.lbCifraoUnitClick(Sender: TObject);
@@ -953,6 +975,19 @@ begin
   inherited;
   TFrmConfigTelaVendas.Create(self).ShowModal;
   FocusProd('imgConfigOrdemClick');
+end;
+
+procedure TFrmPanVendaProd2.OnConcluirLeXML(Sender: TObject);
+begin
+  //criar aqui outro igual esse mas sem mov. estoque. xmlOnConcluirDevFor
+  with TFrmLeXML(Sender) do begin
+    AlimentaDadosFiscais;
+
+    if mt.Locate('produto', tProID.Value, []) then begin
+      FDadosFiscaisXML := mtDadosFiscais.Value;
+      FQuantCompra := QuantFator;
+    end;
+  end;
 end;
 
 procedure TFrmPanVendaProd2.OnRollUpFocusChange(Sender: TObject;

@@ -10,7 +10,7 @@ uses
 type
   TFrmPanVendaProdBase = class;
   
-  TOnAddProd = procedure (Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDesc: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String) of Object;
+  TOnAddProd = procedure (Sender: TFrmPanVendaProdBase; aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDesc: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String) of Object;
 
   TOnQuantOk = function (Sender: TFrmPanVendaProdBase; aProdID: Cardinal; aQuant, aEstoque: Double): Boolean of object;
 
@@ -29,7 +29,7 @@ type
     { Private declarations }
     
   protected
-    procedure AddProd(aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String); virtual;
+    procedure AddProd(aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency; aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String); virtual;
 
     function GetMesa: Integer; virtual; 
     function GetMostrarMesa: Boolean; virtual;
@@ -81,9 +81,9 @@ implementation
 { TFrmPanVendaProdBase }
 
 procedure TFrmPanVendaProdBase.AddProd(aProdID, aTaxID: Cardinal; aValorUnit, aTotal: Currency;
-  aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs: String);
+  aQuant: Extended; aDescr: String; aPermSemEstoque: Boolean; aFidPontos: Double; aObs, aDadosFiscais: String);
 begin
-  if Assigned(FOnAddProd) then FOnAddProd(Self, aProdID, aTaxID, aValorUnit, aTotal, aQuant, aDescr, aPermSemEstoque, aFidPontos, aObs);
+  if Assigned(FOnAddProd) then FOnAddProd(Self, aProdID, aTaxID, aValorUnit, aTotal, aQuant, aDescr, aPermSemEstoque, aFidPontos, aObs, aDadosFiscais);
 end;
 
 procedure TFrmPanVendaProdBase.AfterConstruction;

@@ -1,8 +1,8 @@
 object dmDanfe_nfe: TdmDanfe_nfe
   OldCreateOrder = False
   OnCreate = DataModuleCreate
-  Height = 361
-  Width = 632
+  Height = 424
+  Width = 895
   object mtIDE: TkbmMemTable
     DesignActivation = True
     AttachedAutoRefresh = True
@@ -290,10 +290,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         Size = 20
       end
       item
-        Name = 'uTrib'
-        DataType = ftFloat
-      end
-      item
         Name = 'qTrib'
         DataType = ftFloat
       end
@@ -396,6 +392,47 @@ object dmDanfe_nfe: TdmDanfe_nfe
       item
         Name = 'COFINS_CST'
         DataType = ftWord
+      end
+      item
+        Name = 'COFINS_vBC'
+        DataType = ftFloat
+      end
+      item
+        Name = 'pCofins'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vCofins'
+        DataType = ftFloat
+      end
+      item
+        Name = 'modBCST'
+        DataType = ftWord
+      end
+      item
+        Name = 'pMVAST'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vBCST'
+        DataType = ftFloat
+      end
+      item
+        Name = 'vICMSST'
+        DataType = ftFloat
+      end
+      item
+        Name = 'IPI_vBC'
+        DataType = ftFloat
+      end
+      item
+        Name = 'pIPI'
+        DataType = ftFloat
+      end
+      item
+        Name = 'uTrib'
+        DataType = ftString
+        Size = 20
       end>
     IndexDefs = <>
     SortOptions = []
@@ -501,9 +538,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
       FieldName = 'ICMS_CST'
     end
     object mtItemICMS_vBC: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'ICMS_vBC'
-      Calculated = True
     end
     object mtItempICMS: TFloatField
       FieldName = 'pICMS'
@@ -518,82 +553,53 @@ object dmDanfe_nfe: TdmDanfe_nfe
       FieldName = 'IPI_CST'
     end
     object mtItemPIS_CST: TWordField
-      FieldKind = fkCalculated
       FieldName = 'PIS_CST'
-      Calculated = True
     end
     object mtItemPIS_vBC: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'PIS_vBC'
-      Calculated = True
     end
     object mtItempPIS: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'pPIS'
-      Calculated = True
     end
     object mtItemvPIS: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'vPIS'
-      Calculated = True
     end
     object mtItemCOFINS_CST: TWordField
-      FieldKind = fkCalculated
       FieldName = 'COFINS_CST'
-      Calculated = True
     end
     object mtItemCOFINS_vBC: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'COFINS_vBC'
-      Calculated = True
     end
     object mtItempCofins: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'pCofins'
-      Calculated = True
     end
     object mtItemvCofins: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'vCofins'
-      Calculated = True
     end
     object mtItemmodBCST: TWordField
-      FieldKind = fkCalculated
       FieldName = 'modBCST'
-      Calculated = True
     end
     object mtItempMVAST: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'pMVAST'
-      Calculated = True
     end
     object mtItemvBCST: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'vBCST'
-      Calculated = True
-    end
-    object mtItempICMSST: TWordField
-      FieldKind = fkCalculated
-      FieldName = 'pICMSST'
-      Calculated = True
     end
     object mtItemvICMSST: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'vICMSST'
-      Calculated = True
+      currency = True
     end
     object mtItemIPI_vBC: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'IPI_vBC'
-      Calculated = True
     end
     object mtItempIPI: TFloatField
-      FieldKind = fkCalculated
       FieldName = 'pIPI'
-      Calculated = True
     end
     object mtItemuTrib: TStringField
       FieldName = 'uTrib'
+    end
+    object mtItempICMSST: TFloatField
+      FieldName = 'pICMSST'
     end
   end
   object mtTotal: TkbmMemTable
@@ -812,7 +818,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
       'vUnCom=vUnCom'
       'vProd=vProd'
       'cEANTrib=cEANTrib'
-      'uTrib=uTrib'
       'qTrib=qTrib'
       'vUnTrib=vUnTrib'
       'indTot=indTot'
@@ -824,12 +829,31 @@ object dmDanfe_nfe: TdmDanfe_nfe
       'vlUnitario=vlUnitario'
       'vlTotal=vlTotal'
       'NCM=NCM'
-      'vICMSST=vICMSST'
       'vIPI=vIPI'
       'vDesc=vDesc'
-      'vBC=vBC'
+      'modBC=modBC'
+      'ICMS_CST=ICMS_CST'
+      'ICMS_vBC=ICMS_vBC'
       'pICMS=pICMS'
-      'vICMS=vICMS')
+      'vICMS=vICMS'
+      'cEnq=cEnq'
+      'IPI_CST=IPI_CST'
+      'PIS_CST=PIS_CST'
+      'PIS_vBC=PIS_vBC'
+      'pPIS=pPIS'
+      'vPIS=vPIS'
+      'COFINS_CST=COFINS_CST'
+      'COFINS_vBC=COFINS_vBC'
+      'pCofins=pCofins'
+      'vCofins=vCofins'
+      'modBCST=modBCST'
+      'pMVAST=pMVAST'
+      'vBCST=vBCST'
+      'vICMSST=vICMSST'
+      'IPI_vBC=IPI_vBC'
+      'pIPI=pIPI'
+      'uTrib=uTrib'
+      'pICMSST=pICMSST')
     DataSet = mtItem
     BCDToCurrency = False
     Left = 296
@@ -889,8 +913,8 @@ object dmDanfe_nfe: TdmDanfe_nfe
     Top = 24
   end
   object lbSha1: TLbSHA1
-    Left = 64
-    Top = 160
+    Left = 72
+    Top = 136
   end
   object mtDest: TkbmMemTable
     DesignActivation = True
@@ -15479,16 +15503,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line9: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 11.338590000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
         object Shape9: TfrxShapeView
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -15726,16 +15740,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Line1: TfrxLineView
           ShiftMode = smWhenOverlapped
           Height = 34.015770000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
-        object Line3: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 11.338590000000000000
           StretchMode = smMaxHeight
           Color = clBlack
           Frame.Style = fsDot
@@ -16100,16 +16104,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line6: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 22.677180000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
       end
       object TipoPag: TfrxMasterData
         FillType = ftBrush
@@ -16155,16 +16149,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Line2: TfrxLineView
           ShiftMode = smWhenOverlapped
-          Height = 11.338590000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
-        object Line4: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
           Height = 11.338590000000000000
           StretchMode = smMaxHeight
           Color = clBlack
@@ -16258,16 +16242,61 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line10: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 139.842610000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
+      end
+      object Line9: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 665.197280000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line3: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 234.330860000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line6: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 188.976500000000000000
+        Height = 22.677180000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line4: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 291.023810000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line10: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 483.779840000000000000
+        Height = 139.842610000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
       end
     end
   end
@@ -30620,16 +30649,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line9: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 11.338590000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
         object Shape9: TfrxShapeView
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -30867,16 +30886,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Line1: TfrxLineView
           ShiftMode = smWhenOverlapped
           Height = 34.015770000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
-        object Line3: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 11.338590000000000000
           StretchMode = smMaxHeight
           Color = clBlack
           Frame.Style = fsDot
@@ -31241,16 +31250,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line6: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 22.677180000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
       end
       object TipoPag: TfrxMasterData
         FillType = ftBrush
@@ -31296,16 +31295,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Line2: TfrxLineView
           ShiftMode = smWhenOverlapped
-          Height = 11.338590000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
-        object Line4: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
           Height = 11.338590000000000000
           StretchMode = smMaxHeight
           Color = clBlack
@@ -31399,16 +31388,61 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line10: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 139.842610000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
+      end
+      object Line9: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 665.197280000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line3: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 234.330860000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line6: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 188.976500000000000000
+        Height = 22.677180000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line4: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 291.023810000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line10: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 483.779840000000000000
+        Height = 139.842610000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
       end
     end
   end
@@ -45762,16 +45796,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line9: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 11.338590000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
         object Shape9: TfrxShapeView
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -46009,16 +46033,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Line1: TfrxLineView
           ShiftMode = smWhenOverlapped
           Height = 34.015770000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
-        object Line3: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 11.338590000000000000
           StretchMode = smMaxHeight
           Color = clBlack
           Frame.Style = fsDot
@@ -46383,16 +46397,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line6: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 22.677180000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
       end
       object TipoPag: TfrxMasterData
         FillType = ftBrush
@@ -46438,16 +46442,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Line2: TfrxLineView
           ShiftMode = smWhenOverlapped
-          Height = 11.338590000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
-        object Line4: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
           Height = 11.338590000000000000
           StretchMode = smMaxHeight
           Color = clBlack
@@ -46541,16 +46535,61 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-        object Line10: TfrxLineView
-          ShiftMode = smWhenOverlapped
-          Left = 275.905690000000000000
-          Height = 139.842610000000000000
-          StretchMode = smMaxHeight
-          Color = clBlack
-          Frame.Style = fsDot
-          Frame.Typ = [ftLeft]
-          Frame.Width = 0.100000000000000000
-        end
+      end
+      object Line9: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 665.197280000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line3: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 234.330860000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line6: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 188.976500000000000000
+        Height = 22.677180000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line4: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 291.023810000000000000
+        Height = 11.338590000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
+      end
+      object Line10: TfrxLineView
+        ShiftMode = smWhenOverlapped
+        Left = 275.905690000000000000
+        Top = 483.779840000000000000
+        Height = 139.842610000000000000
+        StretchMode = smMaxHeight
+        Color = clBlack
+        Frame.Style = fsDot
+        Frame.Typ = [ftLeft]
+        Frame.Width = 0.100000000000000000
       end
     end
   end
@@ -46743,8 +46782,8 @@ object dmDanfe_nfe: TdmDanfe_nfe
         'Fe></nfeProc>')
     Sorted = False
     Duplicates = dupAccept
-    Left = 64
-    Top = 272
+    Left = 88
+    Top = 280
   end
   object dbConfig: TfrxDBDataset
     UserName = 'dbConfig'
@@ -47036,6 +47075,177 @@ object dmDanfe_nfe: TdmDanfe_nfe
     Left = 488
     Top = 24
   end
+  object mtEntrega: TkbmMemTable
+    DesignActivation = True
+    AttachedAutoRefresh = True
+    AttachMaxCount = 1
+    FieldDefs = <>
+    IndexDefs = <>
+    SortOptions = []
+    PersistentBackup = False
+    ProgressFlags = [mtpcLoad, mtpcSave, mtpcCopy]
+    LoadedCompletely = False
+    SavedCompletely = False
+    FilterOptions = []
+    Version = '7.72.00 Standard Edition'
+    LanguageID = 0
+    SortID = 0
+    SubLanguageID = 1
+    LocaleID = 1024
+    Left = 128
+    Top = 192
+    object mtEntreganro: TStringField
+      FieldName = 'nro'
+    end
+    object mtEntregaxCpl: TStringField
+      FieldName = 'xCpl'
+      Size = 30
+    end
+    object mtEntregaxBairro: TStringField
+      FieldName = 'xBairro'
+      Size = 50
+    end
+    object mtEntregaxMun: TStringField
+      FieldName = 'xMun'
+      Size = 100
+    end
+    object mtEntregaUF: TStringField
+      FieldName = 'UF'
+      Size = 2
+    end
+    object mtEntregaxLgr: TStringField
+      FieldName = 'xLgr'
+      Size = 100
+    end
+  end
+  object frRep: TfrxReport
+    Version = '5.5'
+    DotMatrixReport = False
+    IniFile = '\Software\Fast Reports'
+    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
+    PreviewOptions.Zoom = 1.000000000000000000
+    PrintOptions.Printer = 'Padr'#227'o'
+    PrintOptions.PrintOnSheet = 0
+    ReportOptions.CreateDate = 42671.524134641200000000
+    ReportOptions.LastChange = 42671.524134641200000000
+    ScriptLanguage = 'PascalScript'
+    ScriptText.Strings = (
+      'begin'
+      ''
+      'end.')
+    Left = 304
+    Top = 144
+    Datasets = <>
+    Variables = <>
+    Style = <>
+    object Data: TfrxDataPage
+      Height = 1000.000000000000000000
+      Width = 1000.000000000000000000
+    end
+    object Page1: TfrxReportPage
+      PaperWidth = 215.900000000000000000
+      PaperHeight = 279.400000000000000000
+      PaperSize = 1
+      LeftMargin = 10.000000000000000000
+      RightMargin = 10.000000000000000000
+      TopMargin = 10.000000000000000000
+      BottomMargin = 10.000000000000000000
+    end
+  end
+  object mtTransp: TkbmMemTable
+    DesignActivation = True
+    AttachedAutoRefresh = True
+    AttachMaxCount = 1
+    FieldDefs = <>
+    IndexDefs = <>
+    SortOptions = []
+    PersistentBackup = False
+    ProgressFlags = [mtpcLoad, mtpcSave, mtpcCopy]
+    LoadedCompletely = False
+    SavedCompletely = False
+    FilterOptions = []
+    Version = '7.72.00 Standard Edition'
+    LanguageID = 0
+    SortID = 0
+    SubLanguageID = 1
+    LocaleID = 1024
+    OnCalcFields = mtTranspCalcFields
+    Left = 128
+    Top = 136
+    object mtTranspCNPJ: TStringField
+      FieldName = 'CNPJ'
+      Size = 14
+    end
+    object mtTranspxNome: TStringField
+      FieldName = 'xNome'
+      Size = 100
+    end
+    object mtTranspIE: TStringField
+      FieldName = 'IE'
+    end
+    object mtTranspCPF: TStringField
+      FieldName = 'CPF'
+      Size = 11
+    end
+    object mtTranspqVol: TStringField
+      FieldName = 'qVol'
+      Size = 10
+    end
+    object mtTranspxEnder: TStringField
+      FieldName = 'xEnder'
+      Size = 100
+    end
+    object mtTranspxMun: TStringField
+      FieldName = 'xMun'
+      Size = 100
+    end
+    object mtTranspUF: TStringField
+      FieldName = 'UF'
+      Size = 2
+    end
+    object mtTransppesoL: TStringField
+      FieldName = 'pesoL'
+    end
+    object mtTransppesoB: TStringField
+      FieldName = 'pesoB'
+    end
+    object mtTranspmodFrete: TByteField
+      FieldName = 'modFrete'
+    end
+    object mtTranspmodFreteStr: TStringField
+      FieldName = 'modFreteStr'
+    end
+    object mtTranspCNPJ_CPF: TStringField
+      FieldKind = fkCalculated
+      FieldName = 'CNPJ_CPF'
+      Size = 19
+      Calculated = True
+    end
+  end
+  object dbTransp: TfrxDBDataset
+    RangeBegin = rbCurrent
+    RangeEnd = reCurrent
+    UserName = 'dbTransp'
+    CloseDataSource = False
+    FieldAliases.Strings = (
+      'CNPJ=CNPJ'
+      'xNome=xNome'
+      'IE=IE'
+      'CPF=CPF'
+      'qVol=qVol'
+      'xEnder=xEnder'
+      'xMun=xMun'
+      'UF=UF'
+      'pesoL=pesoL'
+      'pesoB=pesoB'
+      'modFrete=modFrete'
+      'modFreteStr=modFreteStr'
+      'CNPJ_CPF=CNPJ_CPF')
+    DataSet = mtTransp
+    BCDToCurrency = False
+    Left = 448
+    Top = 112
+  end
   object xmlPreview: TLMDTextContainer
     Items = <
       item
@@ -47193,178 +47403,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
             'C8BG1uas/mOi6pbrmi6o=</digVal><cStat>100</cStat><xMotivo>Autoriz' +
             'ado o uso da NF-e</xMotivo></infProt></protNFe></nfeProc>')
       end>
-    Left = 480
-    Top = 160
-  end
-  object mtEntrega: TkbmMemTable
-    DesignActivation = True
-    AttachedAutoRefresh = True
-    AttachMaxCount = 1
-    FieldDefs = <>
-    IndexDefs = <>
-    SortOptions = []
-    PersistentBackup = False
-    ProgressFlags = [mtpcLoad, mtpcSave, mtpcCopy]
-    LoadedCompletely = False
-    SavedCompletely = False
-    FilterOptions = []
-    Version = '7.72.00 Standard Edition'
-    LanguageID = 0
-    SortID = 0
-    SubLanguageID = 1
-    LocaleID = 1024
-    Left = 120
-    Top = 224
-    object mtEntreganro: TStringField
-      FieldName = 'nro'
-    end
-    object mtEntregaxCpl: TStringField
-      FieldName = 'xCpl'
-      Size = 30
-    end
-    object mtEntregaxBairro: TStringField
-      FieldName = 'xBairro'
-      Size = 50
-    end
-    object mtEntregaxMun: TStringField
-      FieldName = 'xMun'
-      Size = 100
-    end
-    object mtEntregaUF: TStringField
-      FieldName = 'UF'
-      Size = 2
-    end
-    object mtEntregaxLgr: TStringField
-      FieldName = 'xLgr'
-      Size = 100
-    end
-  end
-  object frRep: TfrxReport
-    Version = '5.5'
-    DotMatrixReport = False
-    IniFile = '\Software\Fast Reports'
-    PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
-    PreviewOptions.Zoom = 1.000000000000000000
-    PrintOptions.Printer = 'Padr'#227'o'
-    PrintOptions.PrintOnSheet = 0
-    ReportOptions.CreateDate = 42671.524134641200000000
-    ReportOptions.LastChange = 42671.524134641200000000
-    ScriptLanguage = 'PascalScript'
-    ScriptText.Strings = (
-      'begin'
-      ''
-      'end.')
-    Left = 304
-    Top = 144
-    Datasets = <>
-    Variables = <>
-    Style = <>
-    object Data: TfrxDataPage
-      Height = 1000.000000000000000000
-      Width = 1000.000000000000000000
-    end
-    object Page1: TfrxReportPage
-      PaperWidth = 216.000000000000000000
-      PaperHeight = 279.000000000000000000
-      PaperSize = 1
-      LeftMargin = 10.000000000000000000
-      RightMargin = 10.000000000000000000
-      TopMargin = 10.000000000000000000
-      BottomMargin = 10.000000000000000000
-    end
-  end
-  object mtTransp: TkbmMemTable
-    DesignActivation = True
-    AttachedAutoRefresh = True
-    AttachMaxCount = 1
-    FieldDefs = <>
-    IndexDefs = <>
-    SortOptions = []
-    PersistentBackup = False
-    ProgressFlags = [mtpcLoad, mtpcSave, mtpcCopy]
-    LoadedCompletely = False
-    SavedCompletely = False
-    FilterOptions = []
-    Version = '7.72.00 Standard Edition'
-    LanguageID = 0
-    SortID = 0
-    SubLanguageID = 1
-    LocaleID = 1024
-    OnCalcFields = mtTranspCalcFields
-    Left = 144
-    Top = 136
-    object mtTranspCNPJ: TStringField
-      FieldName = 'CNPJ'
-      Size = 14
-    end
-    object mtTranspxNome: TStringField
-      FieldName = 'xNome'
-      Size = 100
-    end
-    object mtTranspIE: TStringField
-      FieldName = 'IE'
-    end
-    object mtTranspCPF: TStringField
-      FieldName = 'CPF'
-      Size = 11
-    end
-    object mtTranspqVol: TStringField
-      FieldName = 'qVol'
-      Size = 10
-    end
-    object mtTranspxEnder: TStringField
-      FieldName = 'xEnder'
-      Size = 100
-    end
-    object mtTranspxMun: TStringField
-      FieldName = 'xMun'
-      Size = 100
-    end
-    object mtTranspUF: TStringField
-      FieldName = 'UF'
-      Size = 2
-    end
-    object mtTransppesoL: TStringField
-      FieldName = 'pesoL'
-    end
-    object mtTransppesoB: TStringField
-      FieldName = 'pesoB'
-    end
-    object mtTranspmodFrete: TByteField
-      FieldName = 'modFrete'
-    end
-    object mtTranspmodFreteStr: TStringField
-      FieldName = 'modFreteStr'
-    end
-    object mtTranspCNPJ_CPF: TStringField
-      FieldKind = fkCalculated
-      FieldName = 'CNPJ_CPF'
-      Size = 19
-      Calculated = True
-    end
-  end
-  object dbTransp: TfrxDBDataset
-    RangeBegin = rbCurrent
-    RangeEnd = reCurrent
-    UserName = 'dbTransp'
-    CloseDataSource = False
-    FieldAliases.Strings = (
-      'CNPJ=CNPJ'
-      'xNome=xNome'
-      'IE=IE'
-      'CPF=CPF'
-      'qVol=qVol'
-      'xEnder=xEnder'
-      'xMun=xMun'
-      'UF=UF'
-      'pesoL=pesoL'
-      'pesoB=pesoB'
-      'modFrete=modFrete'
-      'modFreteStr=modFreteStr'
-      'CNPJ_CPF=CNPJ_CPF')
-    DataSet = mtTransp
-    BCDToCurrency = False
-    Left = 448
-    Top = 112
+    Left = 224
+    Top = 280
   end
 end
