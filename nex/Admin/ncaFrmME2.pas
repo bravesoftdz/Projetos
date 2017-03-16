@@ -351,7 +351,6 @@ end;
 
 procedure TFrmME2.btnXMLClick(Sender: TObject);
 begin
-
   if not ((gConfig.IsPremium) and (not gConfig.Pro)) then begin
     TFrmRecursoPremium.Create(Self).Mostrar(rsXMLPremium, 'xml');
     Exit;
@@ -480,12 +479,18 @@ begin
             cbCupom.Checked := True;
         end;
         
-        if cbNFe.Checked then
-          FME.TipoNFE := tiponfe_nfe
-        else
-        if Dados.tNFConfigESat.Value then
-          FME.TipoNFE := tiponfe_sat  else
-          FME.TipoNFE := tiponfe_nfce;            
+        if cbNFe.Checked then begin
+          FME.TipoNFE := tiponfe_nfe;
+          DebugMsg(Self, 'cmGravar - tiponfe_nfe');
+        end else
+        if Dados.tNFConfigESat.Value then begin
+          FME.TipoNFE := tiponfe_sat;
+          DebugMsg(Self, 'cmGravar - tiponfe_sat');
+        end else begin
+          FME.TipoNFE := tiponfe_nfce;         
+          DebugMsg(Self, 'cmGravar - tiponfe_nfce');
+        end;
+             
       end;
 
       DebugMsg(Self, 'cmGravar 11');

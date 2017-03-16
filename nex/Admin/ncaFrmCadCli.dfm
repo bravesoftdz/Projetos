@@ -62,7 +62,7 @@ object FrmCadCli: TFrmCadCli
         Margins.Bottom = 0
         Align = alClient
         TabOrder = 0
-        Properties.ActivePage = tsDados
+        Properties.ActivePage = tsTran
         Properties.CustomButtons.Buttons = <>
         LookAndFeel.Kind = lfUltraFlat
         LookAndFeel.NativeStyle = False
@@ -580,6 +580,7 @@ object FrmCadCli: TFrmCadCli
               LayoutLookAndFeel = FrmPri.lfPadrao
               ButtonOptions.Buttons = <>
               Hidden = True
+              ItemIndex = 6
               ShowBorder = False
               Index = -1
             end
@@ -1019,16 +1020,10 @@ object FrmCadCli: TFrmCadCli
         object tsExtratoFid: TcxTabSheet
           Caption = 'Fidelidade'
           ImageIndex = 5
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
         end
         object tsTran: TcxTabSheet
           Caption = 'Historico'
           ImageIndex = 6
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
         end
       end
     end

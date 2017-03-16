@@ -3,9 +3,11 @@ unit ncaStrings;
 interface
 
 resourcestring
+  rsTamCodMax6Dig = 'O código gerado automaticamente pelo programa NEX deve no mínimo 2 e no máximo 6 dígitos';
   rsRecursoProObsItem = 'A opção de adicionar um complemento/observação ao item é um recurso exclusivo para assinantes do plano PRO';
   rsNecessarioFornecedor = 'É necessário informar o Fornecedor';
   rsNovaMarca  = 'nova marca';
+  rsCreditoTotal = 'Crédito Total';
   rsPersonalizado = 'Personalizado';
   rsMes            = 'Mês';
   rsMigrarFree     = 'Migrar para o FREE';
@@ -76,16 +78,20 @@ resourcestring
   rsInformarPerc = 'É necessário informar o percentual dessa taxa';
   rsValor = 'Valor';
   rsCaixa = 'Caixa';
+  rsHora = 'Hora';
+  rsQtd = 'Qtd';
   rsConferirMeioPagto = 'Conferir Meio de Pagamento';
   rsEstoque = 'Estoque';
   rsNome = 'Nome';
   rsBairro = 'Bairro';
   rsCidade = 'Cidade';
   rsCEP = 'CEP';
+  rsUF = 'UF';
   rsTelefone = 'Telefone';
   rsCelular = 'Celular';
   rsDocID = 'Num.Ident.';
   rsDesconto = 'Desconto';
+  rsObs = 'Obs';
 
   rsEndereco = 'Endereço';
 

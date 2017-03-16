@@ -363,8 +363,8 @@ begin
   try
     sPath := ExtractFilePath(ParamStr(0));
     try  
-      genList[0].SaveToFile(sPath+genList[0].Filename);
-      genList[1].SaveToFile(sPath+genList[1].Filename);
+{      genList[0].SaveToFile(sPath+genList[0].Filename);
+      genList[1].SaveToFile(sPath+genList[1].Filename);}
       ForceDirectories(sPath+pastaDados);
     except
     end;

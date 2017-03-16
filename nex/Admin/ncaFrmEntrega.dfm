@@ -4,7 +4,7 @@ object FrmEntrega: TFrmEntrega
   BorderWidth = 7
   Caption = 'Entrega'
   ClientHeight = 416
-  ClientWidth = 690
+  ClientWidth = 687
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -25,7 +25,7 @@ object FrmEntrega: TFrmEntrega
     AlignWithMargins = True
     Left = 0
     Top = 384
-    Width = 690
+    Width = 687
     Height = 32
     Hint = ''
     Margins.Left = 0
@@ -35,6 +35,7 @@ object FrmEntrega: TFrmEntrega
     Align = alBottom
     Bevel.Mode = bmCustom
     TabOrder = 0
+    ExplicitWidth = 690
     object btnAvancar: TcxButton
       AlignWithMargins = True
       Left = 107
@@ -86,7 +87,7 @@ object FrmEntrega: TFrmEntrega
     end
     object btnConfig: TcxButton
       AlignWithMargins = True
-      Left = 656
+      Left = 653
       Top = 0
       Width = 34
       Height = 32
@@ -107,12 +108,13 @@ object FrmEntrega: TFrmEntrega
       SpeedButtonOptions.Transparent = True
       TabOrder = 2
       Visible = False
+      ExplicitLeft = 656
     end
   end
   object Paginas: TcxPageControl
     Left = 0
     Top = 0
-    Width = 690
+    Width = 687
     Height = 377
     Align = alClient
     Font.Charset = ANSI_CHARSET
@@ -126,13 +128,15 @@ object FrmEntrega: TFrmEntrega
     Properties.CustomButtons.Buttons = <>
     LookAndFeel.Kind = lfUltraFlat
     OnChange = PaginasChange
+    ExplicitWidth = 690
     ClientRectBottom = 373
     ClientRectLeft = 4
-    ClientRectRight = 686
+    ClientRectRight = 683
     ClientRectTop = 26
     object tsEndereco: TcxTabSheet
       Caption = '1. Endere'#231'o '
       ImageIndex = 0
+      ExplicitWidth = 682
     end
     object tsTransp: TcxTabSheet
       Caption = '2. Entregador ou Transportadora '
@@ -143,14 +147,16 @@ object FrmEntrega: TFrmEntrega
       Font.Style = []
       ImageIndex = 1
       ParentFont = False
+      ExplicitWidth = 682
     end
     object tsFrete: TcxTabSheet
       Caption = '3. Taxa de Entrega / Frete'
       ImageIndex = 2
+      ExplicitWidth = 682
       object lcFrete: TdxLayoutControl
         Left = 0
         Top = 0
-        Width = 682
+        Width = 679
         Height = 347
         Align = alClient
         Font.Charset = ANSI_CHARSET
@@ -160,6 +166,7 @@ object FrmEntrega: TFrmEntrega
         Font.Style = []
         ParentFont = False
         TabOrder = 0
+        ExplicitWidth = 682
         object edVol: TcxSpinEdit
           Left = 132
           Top = 191
@@ -213,10 +220,11 @@ object FrmEntrega: TFrmEntrega
           State = cbsChecked
           Style.HotTrack = False
           TabOrder = 0
+          Transparent = True
           OnClick = cbEnviarPesoVolClick
         end
         object lbPadraoPesoVol: TcxLabel
-          Left = 524
+          Left = 521
           Top = 135
           Cursor = crHandPoint
           Caption = 'Definir como op'#231#227'o padr'#227'o'
@@ -252,7 +260,7 @@ object FrmEntrega: TFrmEntrega
           Width = 121
         end
         object lbPadraoPesoAuto: TcxLabel
-          Left = 509
+          Left = 506
           Top = 228
           Cursor = crHandPoint
           Caption = 'Definir como op'#231#227'o padr'#227'o'
@@ -331,31 +339,9 @@ object FrmEntrega: TFrmEntrega
           OnClick = lbFretePadraoClick
           AnchorY = 57
         end
-        object edEmitentePaga: TcxRadioButton
-          Left = 13
-          Top = 79
-          Width = 162
-          Height = 17
-          Cursor = crHandPoint
-          Caption = 'por conta do Emitente'
-          TabOrder = 10
-          OnClick = edEmitentePagaClick
-        end
-        object edSemFrete: TcxRadioButton
-          Left = 370
-          Top = 79
-          Width = 113
-          Height = 17
-          Cursor = crHandPoint
-          Caption = 'sem FRETE'
-          Checked = True
-          TabOrder = 12
-          TabStop = True
-          OnClick = edEmitentePagaClick
-        end
         object lbPadraoPaga: TcxLabel
-          Left = 559
-          Top = 79
+          Left = 13
+          Top = 104
           Cursor = crHandPoint
           Caption = 'Definir como padr'#227'o'
           ParentFont = False
@@ -373,7 +359,18 @@ object FrmEntrega: TFrmEntrega
           Properties.Alignment.Vert = taVCenter
           Transparent = True
           OnClick = lbPadraoPagaClick
-          AnchorY = 88
+          AnchorY = 113
+        end
+        object edEmitentePaga: TcxRadioButton
+          Left = 13
+          Top = 79
+          Width = 162
+          Height = 17
+          Cursor = crHandPoint
+          Caption = 'por conta do Emitente'
+          TabOrder = 10
+          OnClick = edEmitentePagaClick
+          Transparent = True
         end
         object edDestPaga: TcxRadioButton
           Left = 183
@@ -384,6 +381,31 @@ object FrmEntrega: TFrmEntrega
           Caption = 'por conta do Destinat'#225'rio'
           TabOrder = 11
           OnClick = edEmitentePagaClick
+          Transparent = True
+        end
+        object edTerceiros: TcxRadioButton
+          Left = 370
+          Top = 79
+          Width = 167
+          Height = 17
+          Cursor = crHandPoint
+          Caption = 'por conta de Terceiros'
+          TabOrder = 12
+          OnClick = edEmitentePagaClick
+          Transparent = True
+        end
+        object edSemFrete: TcxRadioButton
+          Left = 545
+          Top = 79
+          Width = 113
+          Height = 17
+          Cursor = crHandPoint
+          Caption = 'sem FRETE'
+          Checked = True
+          TabOrder = 13
+          TabStop = True
+          OnClick = edEmitentePagaClick
+          Transparent = True
         end
         object lcFreteGroup_Root: TdxLayoutGroup
           AlignHorz = ahClient
@@ -562,8 +584,40 @@ object FrmEntrega: TFrmEntrega
           Index = 3
           AutoCreated = True
         end
-        object lcEmitentePaga: TdxLayoutItem
+        object grPorConta: TdxLayoutGroup
           Parent = dxLayoutAutoCreatedGroup4
+          AlignHorz = ahLeft
+          AlignVert = avTop
+          CaptionOptions.Text = 'New Group'
+          ButtonOptions.Buttons = <>
+          ShowBorder = False
+          Index = 0
+        end
+        object grPorConta2: TdxLayoutGroup
+          Parent = grPorConta
+          AlignHorz = ahClient
+          CaptionOptions.Text = 'New Group'
+          ButtonOptions.Buttons = <>
+          ItemIndex = 2
+          LayoutDirection = ldHorizontal
+          ShowBorder = False
+          Index = 0
+        end
+        object lcPadraoPaga: TdxLayoutItem
+          Parent = grPorConta
+          AlignHorz = ahLeft
+          AlignVert = avTop
+          CaptionOptions.AlignHorz = taRightJustify
+          CaptionOptions.Text = 'cxLabel2'
+          CaptionOptions.Visible = False
+          Control = lbPadraoPaga
+          ControlOptions.OriginalHeight = 17
+          ControlOptions.OriginalWidth = 110
+          ControlOptions.ShowBorder = False
+          Index = 1
+        end
+        object lcEmitentePaga: TdxLayoutItem
+          Parent = grPorConta2
           AlignHorz = ahLeft
           AlignVert = avTop
           CaptionOptions.Visible = False
@@ -574,33 +628,8 @@ object FrmEntrega: TFrmEntrega
           ControlOptions.ShowBorder = False
           Index = 0
         end
-        object lcSemFrete: TdxLayoutItem
-          Parent = dxLayoutAutoCreatedGroup4
-          AlignHorz = ahLeft
-          AlignVert = avTop
-          CaptionOptions.Visible = False
-          Control = edSemFrete
-          ControlOptions.AutoColor = True
-          ControlOptions.OriginalHeight = 17
-          ControlOptions.OriginalWidth = 113
-          ControlOptions.ShowBorder = False
-          Index = 2
-        end
-        object lcPadraoPaga: TdxLayoutItem
-          Parent = dxLayoutAutoCreatedGroup4
-          AlignHorz = ahRight
-          AlignVert = avTop
-          CaptionOptions.Text = 'cxLabel2'
-          CaptionOptions.Visible = False
-          Offsets.Left = 15
-          Control = lbPadraoPaga
-          ControlOptions.OriginalHeight = 17
-          ControlOptions.OriginalWidth = 110
-          ControlOptions.ShowBorder = False
-          Index = 3
-        end
         object lcDestPaga: TdxLayoutItem
-          Parent = dxLayoutAutoCreatedGroup4
+          Parent = grPorConta2
           AlignHorz = ahLeft
           AlignVert = avTop
           CaptionOptions.Visible = False
@@ -610,6 +639,29 @@ object FrmEntrega: TFrmEntrega
           ControlOptions.OriginalWidth = 179
           ControlOptions.ShowBorder = False
           Index = 1
+        end
+        object lcTerceiros: TdxLayoutItem
+          Parent = grPorConta2
+          AlignVert = avClient
+          CaptionOptions.Visible = False
+          Control = edTerceiros
+          ControlOptions.AutoColor = True
+          ControlOptions.OriginalHeight = 17
+          ControlOptions.OriginalWidth = 167
+          ControlOptions.ShowBorder = False
+          Index = 2
+        end
+        object lcSemFrete: TdxLayoutItem
+          Parent = grPorConta2
+          AlignHorz = ahLeft
+          AlignVert = avTop
+          CaptionOptions.Visible = False
+          Control = edSemFrete
+          ControlOptions.AutoColor = True
+          ControlOptions.OriginalHeight = 17
+          ControlOptions.OriginalWidth = 113
+          ControlOptions.ShowBorder = False
+          Index = 3
         end
       end
     end

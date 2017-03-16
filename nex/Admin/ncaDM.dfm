@@ -375,6 +375,16 @@ object Dados: TDados
       FieldName = 'Categoria'
       Size = 35
     end
+    object tbProCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object tbProCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object tbProCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
+    end
   end
   object tbTran: TnxTable
     Database = db
@@ -9235,6 +9245,16 @@ object Dados: TDados
     end
     object tNFConfigauto_calc_peso_def: TBooleanField
       FieldName = 'auto_calc_peso_def'
+    end
+    object tNFConfigID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tNFConfigUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tNFConfignfe_pedido_na_obs: TBooleanField
+      FieldName = 'nfe_pedido_na_obs'
     end
   end
   object tCFOP: TnxTable

@@ -131,6 +131,15 @@ type
     TabAlteradoPor: TStringField;
     tAuxCodigo: TWideStringField;
     TabNomeMarca: TWideStringField;
+    TabCodigo2: TWideStringField;
+    TVCodigo2: TcxGridDBColumn;
+    tAux2: TnxTable;
+    tAux2Codigo2: TWideStringField;
+    TabCodigoNum: TLongWordField;
+    TabCodigo2Num: TLongWordField;
+    tAux3: TnxTable;
+    tAux3Codigo: TWideStringField;
+    tAux3CodigoNum: TLongWordField;
     procedure edBuscaKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure edBuscaPropertiesChange(Sender: TObject);
     procedure TVFocusedRecordChanged(Sender: TcxCustomGridTableView;
@@ -190,6 +199,10 @@ type
     FAchouParcial: Boolean;
 
     function ECodigo(S: String): Boolean;
+
+    function ECodigo2(S: String): Boolean;
+
+    function ECodigoNum(S: String): Boolean;
    
     procedure MostrarCadRapido(aMostrar: Boolean);
     procedure ClearCadRapido;
@@ -450,6 +463,34 @@ function TFrmProdPesq.ECodigo(S: String): Boolean;
 begin
   tAux.FindNearest([S]);
   Result := (not tAux.IsEmpty) and SameTextSemAcento(Copy(tAuxCodigo.Value, 1, Length(S)), S);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigo';
+    Tab.SetRange([S], [S+'zzzzzzzzzzz']);
+  end;
+end;
+
+function TFrmProdPesq.ECodigo2(S: String): Boolean;
+begin
+  tAux2.FindNearest([S]);
+  Result := (not tAux2.IsEmpty) and SameTextSemAcento(Copy(tAux2Codigo2.Value, 1, Length(S)), S);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigo2';
+    Tab.SetRange([S], [S+'zzzzzzzzzzz']);
+  end;
+end;
+
+function TFrmProdPesq.ECodigoNum(S: String): Boolean;
+var C: Cardinal;
+begin
+  C := StrToIntDef(S, 0);
+  Result := (C>0) and tAux3.FindKey([C]);
+
+  if Result then begin
+    Tab.IndexName := 'ICodigoNum';
+    Tab.SetRange([C], [C]);
+  end;
 end;
 
 procedure TFrmProdPesq.edBuscaKeyUp(Sender: TObject; var Key: Word;
@@ -508,14 +549,14 @@ var I : Integer;
 begin
   if TFrmPanVendaProd2(Owner).IgnoreChange then Exit;
 
-  if ECodigo(edBusca.Text) then 
-    Tab.IndexName := 'ICodigo' 
-  else
-  if (Trim(edBusca.Text)='') or (not cbSuperBusca.Checked) then
-    Tab.IndexName := 'IDescricao' else
-    Tab.IndexName := 'ISuperBusca';
-
-  Tab.SetRange([edBusca.text], [edBusca.Text + 'zzzzzzzzzzzzzzzzzzzzzz']); // do not localize
+  if not ECodigo(edBusca.Text) then 
+  if not ECodigo2(edBusca.Text) then
+  if not ECodigoNum(edBusca.Text) then begin
+    if (Trim(edBusca.Text)='') or (not cbSuperBusca.Checked) then
+      Tab.IndexName := 'IDescricao' else
+      Tab.IndexName := 'ISuperBusca';
+    Tab.SetRange([edBusca.text], [edBusca.Text + 'zzzzzzzzzzzzzzzzzzzzzz']); // do not localize
+  end;  
   I := Tab.RecordCount;
   FRecCount := I;
   if edBusca.Text>'' then begin
@@ -532,7 +573,16 @@ begin
       if SameText('ICodigo', Tab.IndexName) then begin
         FAchouPorDescr := False;
         FAchouParcial := (FRecCount>0) and (not SameText(edBusca.Text, TabCodigo.Value));
-      end else begin
+      end else
+      if SameText('ICodigo2', Tab.IndexName) then begin
+        FAchouPorDescr := False;
+        FAchouParcial := (FRecCount>0) and (not SameText(edBusca.Text, TabCodigo2.Value));
+      end else 
+      if SameText('ICodigoNum', Tab.IndexName) then begin
+        FAchouPorDescr := False;
+        FAchouParcial := False;
+      end else 
+      begin
         FQuickCadStatus := 0;
         FAchouPorDescr := True;
         FAchouParcial := (FRecCount>0) and (not SameText(edBusca.Text, TabDescricao.Value));

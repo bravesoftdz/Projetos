@@ -445,7 +445,7 @@ begin
     2 : begin
       SaveIniImp;
       if cbArq.ItemIndex=0 then ImportarProdutos else ImportarClientes;
-    end;
+    end;          
   end;
 end;
 

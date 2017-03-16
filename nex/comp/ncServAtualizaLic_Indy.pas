@@ -208,8 +208,10 @@ begin
       PostAppUpdate(FRes);
     end;  
   except
-    if RaiseEx then
-      Raise;
+    on E: Exception do 
+      if RaiseEx then 
+        raise else
+        DebugEx(Self, 'ChecaConta', E);
   end;
 {$I crypt_end.inc}
 end;                                                 
@@ -367,7 +369,7 @@ begin
       ChecaConta;
     except
       On E: Exception do 
-        DebugMsgEsp('TdmAtualizaLic.Timer1Timer - Exception: '+E.Message, False, True);
+        DebugEx(Self, 'Timer1Timer', E);
     end;
   finally
     Timer1.Interval := NextAppTime;

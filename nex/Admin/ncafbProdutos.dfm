@@ -26,7 +26,7 @@ inherited fbProdutos: TfbProdutos
     end
     object PB: TcxProgressBar
       Left = 0
-      Top = 495
+      Top = 498
       Align = alBottom
       ParentFont = False
       Style.LookAndFeel.Kind = lfFlat
@@ -40,53 +40,53 @@ inherited fbProdutos: TfbProdutos
       StyleHot.LookAndFeel.NativeStyle = False
       TabOrder = 0
       Visible = False
-      ExplicitTop = 498
       Width = 1020
     end
     object Paginas: TcxPageControl
       Left = 0
       Top = 3
       Width = 1020
-      Height = 492
+      Height = 495
       Align = alClient
       TabOrder = 2
       Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
-      ExplicitHeight = 495
-      ClientRectBottom = 488
-      ClientRectLeft = 4
-      ClientRectRight = 1016
-      ClientRectTop = 4
+      LookAndFeel.Kind = lfUltraFlat
+      LookAndFeel.NativeStyle = False
+      ClientRectBottom = 495
+      ClientRectRight = 1020
+      ClientRectTop = 0
       object tsProd: TcxTabSheet
         Caption = 'Produtos'
         ImageIndex = 0
-        ExplicitHeight = 487
+        ExplicitHeight = 492
         object panGrid: TLMDSplitterPanel
           Left = 0
           Top = 44
-          Width = 1012
-          Height = 440
+          Width = 1020
+          Height = 451
           Hint = ''
           Bevel.Mode = bmStandard
           Bevel.StandardStyle = lsNone
           Bars = <
             item
               OldPosition = -1
-              Position = 733
+              Position = 739
               PosPercent = 73
               Width = 7
             end>
           Align = alClient
           Color = clWhite
           TabOrder = 0
+          ExplicitHeight = 448
           object LMDSplitterPane1: TLMDSplitterPane
             Bevel.Mode = bmStandard
             object Grid: TcxGrid
               Left = 0
               Top = 38
-              Width = 731
-              Height = 400
+              Width = 737
+              Height = 411
               Align = alClient
               BorderStyle = cxcbsNone
               Font.Charset = ANSI_CHARSET
@@ -98,6 +98,7 @@ inherited fbProdutos: TfbProdutos
               TabOrder = 0
               LookAndFeel.Kind = lfFlat
               LookAndFeel.NativeStyle = False
+              ExplicitHeight = 408
               object TVprod: TcxGridDBTableView
                 OnDblClick = TVprodDblClick
                 OnKeyDown = TVprodKeyDown
@@ -210,7 +211,11 @@ inherited fbProdutos: TfbProdutos
                 object TVprodCodigo: TcxGridDBColumn
                   Caption = 'C'#243'digo'
                   DataBinding.FieldName = 'Codigo'
-                  HeaderAlignmentVert = vaTop
+                end
+                object TVProdCodigo2: TcxGridDBColumn
+                  Caption = 'C'#243'digo Extra'
+                  DataBinding.FieldName = 'Codigo2'
+                  Width = 120
                 end
                 object tvProdEstoqueTot: TcxGridDBColumn
                   Caption = 'Estoque Atual'
@@ -292,6 +297,7 @@ inherited fbProdutos: TfbProdutos
                   Properties.ReadOnly = True
                 end
                 object TVprodUnid: TcxGridDBColumn
+                  Caption = 'Unidade'
                   DataBinding.FieldName = 'Unid'
                   Width = 78
                 end
@@ -601,6 +607,7 @@ inherited fbProdutos: TfbProdutos
                   OnEnter = edBuscaEnter
                   OnKeyDown = edBuscaKeyDown
                   OnMouseUp = edBuscaMouseUp
+                  ExplicitHeight = 21
                   Width = 375
                 end
                 object lbLocalizar: TcxLabel
@@ -676,7 +683,7 @@ inherited fbProdutos: TfbProdutos
             object panEtq: TLMDSimplePanel
               Left = 0
               Top = 0
-              Width = 731
+              Width = 737
               Height = 38
               Hint = ''
               Align = alTop
@@ -773,8 +780,8 @@ inherited fbProdutos: TfbProdutos
             object LMDSimplePanel3: TLMDSimplePanel
               Left = 0
               Top = 0
-              Width = 272
-              Height = 440
+              Width = 274
+              Height = 448
               Hint = ''
               Align = alClient
               Bevel.BorderColor = clSilver
@@ -783,8 +790,8 @@ inherited fbProdutos: TfbProdutos
               object gridEtq: TcxGrid
                 Left = 1
                 Top = 39
-                Width = 270
-                Height = 400
+                Width = 272
+                Height = 408
                 Align = alClient
                 BorderStyle = cxcbsNone
                 TabOrder = 0
@@ -848,7 +855,7 @@ inherited fbProdutos: TfbProdutos
               object LMDSimplePanel1: TLMDSimplePanel
                 Left = 1
                 Top = 1
-                Width = 270
+                Width = 272
                 Height = 38
                 Hint = ''
                 Align = alTop
@@ -880,7 +887,7 @@ inherited fbProdutos: TfbProdutos
                 end
                 object btnLimpaLista: TcxButton
                   AlignWithMargins = True
-                  Left = 189
+                  Left = 191
                   Top = 3
                   Width = 77
                   Height = 32
@@ -911,7 +918,7 @@ inherited fbProdutos: TfbProdutos
         object bardocProd: TdxBarDockControl
           Left = 0
           Top = 0
-          Width = 1012
+          Width = 1020
           Height = 44
           Align = dalTop
           BarManager = BarMgr
@@ -1471,6 +1478,16 @@ inherited fbProdutos: TfbProdutos
       KeyFields = 'Marca'
       Size = 40
       Lookup = True
+    end
+    object TabCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object TabCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object TabCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
     end
   end
   object dsTab: TDataSource
@@ -2409,5 +2426,32 @@ inherited fbProdutos: TfbProdutos
     UseOwnFont = True
     Left = 472
     Top = 340
+  end
+  object tAux2: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'Produto'
+    IndexName = 'ICodigo2'
+    Left = 564
+    Top = 323
+    object tAux2Codigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+  end
+  object tAux3: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'Produto'
+    IndexName = 'ICodigoNum'
+    Left = 644
+    Top = 307
+    object tAux3Codigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tAux3CodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
   end
 end

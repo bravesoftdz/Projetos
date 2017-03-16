@@ -881,6 +881,12 @@ type
     tbConfigfmt_sep_milhar: TStringField;
     tbConfigmodFretePadrao: TByteField;
     tbConfigRecAddObsItem: TBooleanField;
+    tbProCodigo2: TWideStringField;
+    tbProCodigoNum: TLongWordField;
+    tbProCodigo2Num: TLongWordField;
+    tNFConfigID: TUnsignedAutoIncField;
+    tNFConfigUID: TGuidField;
+    tNFConfignfe_pedido_na_obs: TBooleanField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);
@@ -3175,6 +3181,9 @@ var EmailOk, CPFOk : Boolean;
 begin
   Result := False;
   if not NFCeAtivo then Exit;
+
+  if tbTranTipoNFE.Value=tiponfe_nfe then Exit;
+ 
 
   if not aPagPend then Exit;
   

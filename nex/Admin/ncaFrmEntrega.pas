@@ -61,6 +61,10 @@ type
     dxLayoutAutoCreatedGroup4: TdxLayoutAutoCreatedGroup;
     lcSemFrete: TdxLayoutItem;
     edSemFrete: TcxRadioButton;
+    lcTerceiros: TdxLayoutItem;
+    edTerceiros: TcxRadioButton;
+    grPorConta2: TdxLayoutGroup;
+    grPorConta: TdxLayoutGroup;
     procedure btnAvancarClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure btnVoltarClick(Sender: TObject);
@@ -127,6 +131,8 @@ begin
     lcDestPaga.Visible := (FMovEst.TipoNFE=tiponfe_nfe) and (FTransp.TipoFor<>tipofor_entregador);
     lcEmitentePaga.Visible := lcDestPaga.Visible;
     lcEmitentePaga.Enabled := lcDestPaga.Visible and (edFrete.Value<0.01);
+    lcTerceiros.Visible := lcDestPaga.Visible;
+    lcTerceiros.Enabled := lcEmitentePaga.Enabled;
     lcDestPaga.Enabled := lcEmitentePaga.Enabled;
     lcSemFrete.Visible := lcDestPaga.Visible;
     lcSemFrete.Enabled := lcDestPaga.Enabled;
@@ -245,6 +251,9 @@ begin
     if S='1' then
       edDestPaga.Checked := True
     else
+    if S='2' then
+      edTerceiros.Checked := True
+    else
       edEmitentePaga.Checked := True;
   end else begin
     if Dados.tbCli.Locate('ID', FMovEst.Cliente, []) and (Dados.tbCliTranspEntPadrao.Value>0) then
@@ -252,6 +261,7 @@ begin
       FTransp.Load(gConfig.TranspEntPadrao);
     case gConfig.modFretePadrao of
       0 : edEmitentePaga.Checked := True;
+      2 : edTerceiros.Checked := True;
       9 : edSemFrete.Checked := True;
     else
       edDestPaga.Checked := True;  
@@ -280,6 +290,9 @@ begin
       else
       if edDestPaga.Checked then
         SetValueFromStr(S, 'modFrete', '1') 
+      else
+      if edTerceiros.Checked then
+        SetValueFromStr(S, 'modFrete', '2')
       else
         SetValueFromStr(S, 'modFrete', '9') 
     end else
@@ -399,6 +412,9 @@ begin
   else
   if edEmitentePaga.Checked then
     Result := 0
+  else
+  if edTerceiros.Checked then
+    Result := 2
   else
     Result := 1;
 end;

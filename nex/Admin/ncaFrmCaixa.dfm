@@ -93,7 +93,7 @@ object FrmCaixa: TFrmCaixa
       Align = alClient
       TabOrder = 3
       Visible = False
-      Properties.ActivePage = tsVendas
+      Properties.ActivePage = tsResumo
       Properties.CustomButtons.Buttons = <>
       Properties.HotTrack = True
       Properties.Style = 3
@@ -104,9 +104,6 @@ object FrmCaixa: TFrmCaixa
       object tsResumo: TcxTabSheet
         Caption = 'Resumo Financeiro'
         ImageIndex = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object gridRes: TcxGrid
           Left = 0
           Top = 146
@@ -857,7 +854,7 @@ object FrmCaixa: TFrmCaixa
       PrinterPage._dxMeasurementUnits_ = 0
       PrinterPage._dxLastMU_ = 2
       ReportDocument.Caption = 'Resumo Financeiro'
-      ReportDocument.CreationDate = 42795.032011712960000000
+      ReportDocument.CreationDate = 42809.569489594910000000
       BuiltInReportLink = True
     end
     object dplTempoMaq: TdxGridReportLink
@@ -952,7 +949,7 @@ object FrmCaixa: TFrmCaixa
       PrinterPage._dxMeasurementUnits_ = 0
       PrinterPage._dxLastMU_ = 2
       ReportDocument.Caption = 'Vendas por Categoria'
-      ReportDocument.CreationDate = 42795.032011736110000000
+      ReportDocument.CreationDate = 42809.569489618050000000
       ReportTitle.Text = 'Vendas por Categoria'
       BuiltInReportLink = True
     end
@@ -1462,6 +1459,8 @@ object FrmCaixa: TFrmCaixa
     end
   end
   object cxStyleRepository6: TcxStyleRepository
+    Left = 312
+    Top = 144
     PixelsPerInch = 96
     object cxStyle27: TcxStyle
       AssignedValues = [svColor, svFont, svTextColor]

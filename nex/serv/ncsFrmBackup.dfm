@@ -38,7 +38,7 @@ object FrmCopia: TFrmCopia
       Height = 414
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = tsRestaurar
+      Properties.ActivePage = tsZerar
       Properties.CustomButtons.Buttons = <>
       LookAndFeel.Kind = lfUltraFlat
       LookAndFeel.NativeStyle = False
@@ -383,7 +383,6 @@ object FrmCopia: TFrmCopia
           Align = alTop
           Bevel.Mode = bmCustom
           TabOrder = 0
-          ExplicitLeft = 8
           object LMDSimplePanel7: TLMDSimplePanel
             Left = 0
             Top = 35
@@ -560,8 +559,6 @@ object FrmCopia: TFrmCopia
               Style.Font.Name = 'Segoe UI'
               Style.Font.Style = []
               Style.IsFontAssigned = True
-              ExplicitTop = 27
-              ExplicitWidth = 16
             end
           end
         end
@@ -710,7 +707,7 @@ object FrmCopia: TFrmCopia
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 2
-            ExplicitTop = 77
+            ExplicitTop = 58
           end
           object cbZerarProd: TcxCheckBox
             AlignWithMargins = True
@@ -728,7 +725,7 @@ object FrmCopia: TFrmCopia
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 3
-            ExplicitTop = 102
+            ExplicitTop = 83
           end
           object cbZerarHist: TcxCheckBox
             AlignWithMargins = True

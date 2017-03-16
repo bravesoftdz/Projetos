@@ -41,7 +41,7 @@ inherited fbVendas2: TfbVendas2
       Font.Style = []
       ParentFont = False
       TabOrder = 1
-      Properties.ActivePage = tsVendas
+      Properties.ActivePage = tsPend
       Properties.CustomButtons.Buttons = <>
       Properties.Images = dmImagens.im16
       Properties.ShowFrame = True
@@ -93,9 +93,9 @@ inherited fbVendas2: TfbVendas2
           TabOrder = 2
           Properties.ActivePage = tsDetalhado
           Properties.CustomButtons.Buttons = <>
-          ClientRectBottom = 448
-          ClientRectLeft = 4
-          ClientRectRight = 789
+          LookAndFeel.NativeStyle = False
+          ClientRectBottom = 452
+          ClientRectRight = 793
           ClientRectTop = 24
           object tsResumido: TcxTabSheet
             Caption = 'Modo Resumido'
@@ -103,8 +103,8 @@ inherited fbVendas2: TfbVendas2
             object Grid: TcxGrid
               Left = 0
               Top = 0
-              Width = 785
-              Height = 424
+              Width = 793
+              Height = 428
               Margins.Left = 0
               Margins.Top = 5
               Margins.Right = 0
@@ -652,8 +652,8 @@ inherited fbVendas2: TfbVendas2
             object gridDet: TcxGrid
               Left = 0
               Top = 0
-              Width = 785
-              Height = 424
+              Width = 793
+              Height = 428
               Align = alClient
               Font.Charset = ANSI_CHARSET
               Font.Color = clWindowText

@@ -74,6 +74,7 @@ object FrmProdPesq2: TFrmProdPesq2
       TabOrder = 0
       OnEnter = edBuscaEnter
       OnKeyDown = edBuscaKeyDown
+      ExplicitHeight = 21
       Width = 489
     end
     object btnOk: TcxButton
@@ -347,6 +348,10 @@ object FrmProdPesq2: TFrmProdPesq2
       Color = clBtnFace
       ImageIndex = 1
       ParentColor = False
+      ExplicitLeft = 0
+      ExplicitTop = 0
+      ExplicitWidth = 0
+      ExplicitHeight = 0
       object edFoto: TcxDBImage
         Left = 0
         Top = 0
@@ -537,6 +542,16 @@ object FrmProdPesq2: TFrmProdPesq2
       KeyFields = 'Marca'
       Size = 40
       Lookup = True
+    end
+    object TabCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object TabCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object TabCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
     end
   end
   object DS: TDataSource
@@ -1365,6 +1380,33 @@ object FrmProdPesq2: TFrmProdPesq2
     Top = 144
     object tAuxCodigo: TWideStringField
       FieldName = 'Codigo'
+      Size = 30
+    end
+  end
+  object tAux3: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'Produto'
+    IndexName = 'ICodigoNum'
+    Left = 644
+    Top = 307
+    object tAux3Codigo: TWideStringField
+      FieldName = 'Codigo'
+      Size = 30
+    end
+    object tAux3CodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+  end
+  object tAux2: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'Produto'
+    IndexName = 'ICodigo2'
+    Left = 248
+    Top = 368
+    object tAux2Codigo2: TWideStringField
+      FieldName = 'Codigo2'
       Size = 30
     end
   end

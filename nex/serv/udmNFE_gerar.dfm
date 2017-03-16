@@ -331,6 +331,9 @@ object dmNFE_gerar: TdmNFE_gerar
     object tNFConfigauto_calc_peso_def: TBooleanField
       FieldName = 'auto_calc_peso_def'
     end
+    object tNFConfignfe_pedido_na_obs: TBooleanField
+      FieldName = 'nfe_pedido_na_obs'
+    end
   end
   object tNCM: TnxTable
     Database = nxDB

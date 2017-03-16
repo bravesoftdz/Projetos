@@ -54,8 +54,6 @@ object FrmPagEspecie: TFrmPagEspecie
       OnExit = gridEspExit
       LookAndFeel.Kind = lfFlat
       LookAndFeel.NativeStyle = False
-      ExplicitTop = 41
-      ExplicitHeight = 306
       object tvEsp: TcxGridTableView
         Navigator.Buttons.CustomButtons = <>
         OnCanFocusRecord = tvEspCanFocusRecord
@@ -235,6 +233,7 @@ object FrmPagEspecie: TFrmPagEspecie
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 0
             OnClick = cbDebitarClick
+            ExplicitHeight = 21
           end
           object lbValorFalta: TcxLabel
             AlignWithMargins = True
@@ -284,10 +283,11 @@ object FrmPagEspecie: TFrmPagEspecie
             StyleFocused.TextStyle = [fsBold]
             Properties.Alignment.Vert = taVCenter
             Transparent = True
+            ExplicitLeft = 319
             AnchorY = 22
           end
           object btnConfigDeb: TMyImage
-            Left = 240
+            Left = 236
             Top = 0
             Width = 22
             Height = 43
@@ -300,6 +300,7 @@ object FrmPagEspecie: TFrmPagEspecie
             ImageList = cxImageList3
             ImageIndex = 0
             Colorize = False
+            ExplicitLeft = 240
           end
           object btnPRODebito: TcxButton
             AlignWithMargins = True
@@ -425,6 +426,8 @@ object FrmPagEspecie: TFrmPagEspecie
         object tsOk: TcxTabSheet
           Caption = 'tsOk'
           ImageIndex = 2
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object imgOk: TImage
             Left = 532
             Top = 0
@@ -514,6 +517,7 @@ object FrmPagEspecie: TFrmPagEspecie
             Style.IsFontAssigned = True
             StyleFocused.TextStyle = [fsBold]
             Properties.Alignment.Vert = taVCenter
+            ExplicitLeft = 319
             AnchorY = 22
           end
         end
@@ -575,7 +579,6 @@ object FrmPagEspecie: TFrmPagEspecie
         Style.IsFontAssigned = True
         Properties.Alignment.Horz = taRightJustify
         Properties.Alignment.Vert = taVCenter
-        ExplicitLeft = 13
         AnchorX = 97
         AnchorY = 20
       end
@@ -624,8 +627,6 @@ object FrmPagEspecie: TFrmPagEspecie
         Properties.Alignment.Horz = taRightJustify
         Properties.Alignment.Vert = taVCenter
         OnClick = lbDescClick
-        ExplicitLeft = 6
-        ExplicitTop = 2
         AnchorX = 107
         AnchorY = 20
       end

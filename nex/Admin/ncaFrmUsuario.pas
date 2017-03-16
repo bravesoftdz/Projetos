@@ -125,12 +125,11 @@ resourcestring
 
 function DireitoProg(aDir: Integer): Boolean;
 begin
-  {$ifdef Lan}
-  result := not (aDir in daSoLoja);
-  {$endif}
-  {$ifdef Loja}
   result := not (aDir in daSoLan);
-  {$endif}
+
+  if not gConfig.PaisBrasil then
+  if aDir in daSoBrasil then
+    Result := False;
 end;
 
 procedure TFrmUsuario.Incluir;

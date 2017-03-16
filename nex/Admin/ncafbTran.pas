@@ -552,6 +552,11 @@ end;
 
 procedure TfbTran.FrmBasePaiCreate(Sender: TObject);
 begin
+  TVTipo.Caption := rsTipo;
+  TVDesconto.Caption := rsDesconto;
+  TVCancelado.Caption := rsCancelado;
+  TVCaixa.Caption := rsCaixa;
+
   slFiltroTipos := TStringList.Create;
   FiltroCaixas := '';
   LastFiltro := '';
@@ -937,9 +942,6 @@ begin
   inherited;
   AjustaVisBotoes;
   cmTraduzir.Visible := FrmPri.cmDocMgr.Visible;
-  TVTipo.Caption := rsTipo;
-  TVDesconto.Caption := rsDesconto;
-  TVCancelado.Caption := rsCancelado;
   TV.DataController.DataModeController.GridMode := not gConfig.AutoSortGridCaixa;
   if Q.Active then Q.Refresh;
   TV.OptionsCustomize.ColumnSorting := gConfig.AutoSortGridCaixa;

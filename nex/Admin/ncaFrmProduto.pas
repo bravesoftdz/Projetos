@@ -116,7 +116,7 @@ type
     lcDefinirMarkupPadrao: TdxLayoutItem;
     LCItem1: TdxLayoutItem;
     dxBevel1: TdxBevel;
-    LCItem4: TdxLayoutItem;
+    lcCodigo: TdxLayoutItem;
     edCodigo: TcxDBMaskEdit;
     LCItem7: TdxLayoutItem;
     edDescr: TcxDBTextEdit;
@@ -175,7 +175,6 @@ type
     tProdForFornecedor: TLongWordField;
     tProdForRef: TStringField;
     tProdForPos: TWordField;
-    LCGroup7: TdxLayoutAutoCreatedGroup;
     lcCEST: TdxLayoutItem;
     edCest: TcxDBButtonEdit;
     lclbInfoCest: TdxLayoutItem;
@@ -328,6 +327,14 @@ type
     tMarcaRecVer: TLongWordField;
     dsMarca: TDataSource;
     tAux: TnxTable;
+    dxLayoutItem6: TdxLayoutItem;
+    edCodigo2: TcxDBMaskEdit;
+    dxLayoutAutoCreatedGroup17: TdxLayoutAutoCreatedGroup;
+    MTCodigo2: TStringField;
+    tProCodigo2: TWideStringField;
+    cbCodigoAuto: TcxCheckBox;
+    lcCodigoAuto: TdxLayoutItem;
+    dxLayoutAutoCreatedGroup18: TdxLayoutAutoCreatedGroup;
     procedure cmGravarClick(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
@@ -414,6 +421,7 @@ type
     procedure edBrTribKeyDown(Sender: TObject; var Key: Word;
       Shift: TShiftState);
     procedure edBrTribKeyPress(Sender: TObject; var Key: Char);
+    procedure cbCodigoAutoClick(Sender: TObject);
     
   private
     FrmEstoque : TFrmProd_Estoque;
@@ -502,12 +510,13 @@ uses
   ncClassesBase, ncaFrmOpcoes, ncaFrmConfigCodProdutoDuplicado,
   ncaFrmConfigQuickCad, ncaAlertaClonarProduto, ncaAlertaAutocad,
   ncaFrmConfigPrecoAuto, ncaFrmBasicTextEdit, ncaFrmConfigFid,
-  ncaFrmConfigComissao, ncaFrmObs, ncaFrmMVAPauta, ncDebug, ncaStrings;
+  ncaFrmConfigComissao, ncaFrmObs, ncaFrmMVAPauta, ncDebug, ncaStrings,
+  ncaFrmConfig_TamCodigoAuto, ncaFrmAjustaTamCod;
 
 // START resource string wizard section
 resourcestring
   SOpçõesParaProdutos = 'Opções para Produtos';
-  SCampoCódigoNãoPodeSerDeixadoEmBr = 'Campo código não pode ser deixado em branco!';
+  SCampoCódigoNãoPodeSerDeixadoEmBr = 'Você deve preencher o campo código ou marcar a opção "Automático" para que o programa NEX gere o código automaticamente';
   SJáExisteUmProdutoCadastradoComEs = 'Já existe um produto cadastrado com esse código';
   SCampoDescriçãoNãoPodeSerDeixadoE = 'Campo descrição não pode ser deixado em branco!';
   SNaoControlarEstoque = 'Não controlar estoque desse produto';
@@ -549,6 +558,8 @@ type
 procedure TFrmProduto.Editar(aTab: TnxTable; const aFocusUnid: Boolean = False);
 begin
   Tab := aTab;
+
+  lcCodigoAuto.Visible := False;
 
   if aFocusUnid then ActiveControl := edUnid;
 
@@ -870,6 +881,9 @@ function TFrmProduto.Incluir(aTab: TnxTable; const aDMDanfe: TDMdanfe_NFE = nil;
 var S: String;
 begin
   FNovo := True;
+  lcCodigoAuto.Visible := True;
+  cbCodigoAuto.Checked  := getFormOptionBool(Self, 'cbCodigoAuto', False);
+  lcCodigo.Enabled := not cbCodigoAuto.Checked;
   cmClone.Enabled := False;
   Tab := aTab;  
   MT.Insert;
@@ -1322,13 +1336,16 @@ begin
   MTEstoqueMin.Value := FrmEstoque.Minimo;
   MTEstoqueMax.Value := FrmEstoque.Maximo;
   
+  if FNovo and (not cbCodigoAuto.Checked) then
   if Trim(MTCodigo.Value)='' then begin
     Beep;
-    edCodigo.SetFocus;
+    if lcCodigo.Enabled then
+      edCodigo.SetFocus;
     ShowMessage(SCampoCódigoNãoPodeSerDeixadoEmBr);
     Exit;
-  end;  
-  if (MTCodigo.Value <> CodAnt) then 
+  end; 
+   
+  if (MTCodigo.Value <> CodAnt) and (MTCodigo.Value>'') then 
   if tPro.Locate('Codigo', MTCodigo.Value, [loCaseInsensitive]) then begin // do not localize
     Beep;
     if not gConfig.CodProdutoDuplicados then TFrmChecarCodProdutoDuplicado.Create(self).ShowModal;
@@ -1769,6 +1786,20 @@ begin
     edUnid.DroppedDown);
 end;
 
+procedure TFrmProduto.cbCodigoAutoClick(Sender: TObject);
+begin
+  if not cbCodigoAuto.Focused then Exit;
+  
+  edCodigo.Enabled := not cbCodigoAuto.Checked;
+  if not edCodigo.Enabled then begin
+    edCodigo.Clear;
+    MTCodigo.Clear;
+    edDescr.SetFocus;
+  end else
+    edCodigo.SetFocus;
+  saveFormOptionBool(Self, 'cbCodigoAuto', cbCodigoAuto.Checked);
+end;
+
 procedure TFrmProduto.cbComissaoPadraoClick(Sender: TObject);
 begin
   EnableDisable;
@@ -1830,7 +1861,7 @@ procedure TFrmProduto.cmCancelarClick(Sender: TObject);
 begin
   FFechando := True;
   Paginas.ActivePage := tsDados;
-  edCodigo.SetFocus;
+  edCodigo2.SetFocus;
   edDescr.SetFocus;
   Close;
 end;
@@ -1976,6 +2007,10 @@ begin
   
   if (Screen.Width=640) then
     PostMessage(Handle, WM_SYSCOMMAND, SC_MAXIMIZE, 0);
+
+  if lcCodigo.Enabled then
+    edCodigo.SetFocus else
+    edDescr.SetFocus;    
 end;
 
 procedure TFrmProduto.grBottomTabChanged(Sender: TObject);
@@ -1988,7 +2023,7 @@ begin
           edAtual.SetFocus else
           edUnid.SetFocus;
       end;
-      1 : edTax.SetFocus;
+      1 : if lcTax.Enabled then edTax.SetFocus;
       2 : edNCM.SetFocus;
       3 : FListaFor.FocarPrimeiro;
       4 : edObs.SetFocus;
@@ -1999,7 +2034,8 @@ end;
 
 procedure TFrmProduto.imgBarcodeScanClick(Sender: TObject);
 begin
-  edCodigo.SetFocus;
+  if lcCodigo.Enabled then
+    edCodigo.SetFocus;
 end;
 
 procedure TFrmProduto.FormKeyDown(Sender: TObject; var Key: Word;
@@ -2244,7 +2280,7 @@ end;
 
 procedure TFrmProduto.edCodigoFocusChanged(Sender: TObject);
 begin
-  lcInfoCod.Visible := edCodigo.Focused;
+  lcInfoCod.Visible := edCodigo.Focused or edCodigo2.Focused;
 end;
 
 procedure TFrmProduto.edCustoPropertiesChange(Sender: TObject);

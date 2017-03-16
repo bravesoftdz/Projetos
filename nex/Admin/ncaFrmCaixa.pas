@@ -256,7 +256,7 @@ uses
   ncClassesBase,
   ncIDRecursos, 
   ncaFrmOpcaoRelCaixa,
-  ncafbTran, ncDMCaixa, ufmImagens;
+  ncafbTran, ncDMCaixa, ufmImagens, ncaStrings;
 
 // START resource string wizard section
 resourcestring
@@ -274,6 +274,7 @@ resourcestring
   rsVendas = 'Vendas';
   rsLucro = 'Lucro';
   rsCategoria = 'Categoria';
+  rsSangria = 'Sangria';
 
 // END resource string wizard section
 
@@ -316,6 +317,8 @@ end;
 
 procedure TFrmCaixa.FormCreate(Sender: TObject);
 begin
+  tvPagEspVendas.Caption := rsVendas;
+  tvPagEspSangria.Caption := rsSangria;
   FImprimir := False;
   FPeriodo := False;
   FCXRange := TncCaixas.Create;

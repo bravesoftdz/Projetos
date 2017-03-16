@@ -489,6 +489,7 @@ type
     tProdutoRecVer: TLongWordField;
     tProdutoCategoria: TWideStringField;
     tMovEstDadosFiscais: TnxMemoField;
+    tNFConfignfe_pedido_na_obs: TBooleanField;
     procedure DataModuleCreate(Sender: TObject);
     procedure DataModuleDestroy(Sender: TObject);
     procedure tCliCalcFields(DataSet: TDataSet);
@@ -1735,7 +1736,7 @@ end;
 
 
 procedure DadosTransp;
-var sEnd: String;
+var sEnd, sFrete: String;
 
 procedure AddEnd(aStr: String);
 begin
@@ -1750,7 +1751,11 @@ begin
     nfeDS.Campo('modFrete_X02').Value := '9' 
   else
   if GetValueFromStr(tTranExtra.Value, 'modFrete')='1' then
-    nfeDS.Campo('modFrete_X02').Value := '1' else
+    nfeDS.Campo('modFrete_X02').Value := '1' 
+  else
+  if GetValueFromStr(tTranExtra.Value, 'modFrete')='2' then
+    nfeDS.Campo('modFrete_X02').Value := '2' 
+  else
     nfeDS.Campo('modFrete_X02').Value := '0';
 
   if (not aFreteOutros) and (tTranTranspEnt.Value>0) then begin
@@ -1888,7 +1893,10 @@ end;
 procedure Gera;
 var sLote: String;
 begin
-  slObs.Text := 'DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL';
+  slObs.Text := '';
+  if tNFConfignfe_pedido_na_obs.Value then
+    AddObs('PEDIDO: '+tTranID.AsString);
+  AddObs('DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL');
   DebugMsg('NFE_gerarxml - gera - 1');
 
   tTransp.Refresh;

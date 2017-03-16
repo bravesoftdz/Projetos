@@ -192,6 +192,7 @@ const
                daAlterarPagamento, daReceberPagDebito, daFornecedoresVerLista, daFornecedoresVerTran,
                daOrcAcessar, daVendasVerCxAtual, daVendasVerCxAntes, daVendasVerPend, daDevolucao, daAlterarVendedor];
                
+  daSoBrasil = [daCCe];               
 
   daSoLan = [
 

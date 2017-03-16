@@ -239,7 +239,8 @@ implementation
 
 uses ncaDM, ncIDRecursos, ncaFrmConfigEspecies, ncaFrmPri,
   ncaFrmEditContatoValidar, ncClassesBase, ufmImagens, ncaFrmConfigConfirmaDeb,
-  ncaFrmOpcoes, ncaFrmEditDesc, ncaFrmRecursoPRO, ncaFrmTrocoMax, ncaDMImgEsp;
+  ncaFrmOpcoes, ncaFrmEditDesc, ncaFrmRecursoPRO, ncaFrmTrocoMax, ncaDMImgEsp,
+  ncaStrings;
 
 
 {$R *.dfm}
@@ -1132,7 +1133,7 @@ begin
     R := AViewInfo.RealBounds;
     R.Left := R.Left + 2;
     R.Top := R.Top + ((R.Bottom-R.Top) div 2);
-    ACanvas.DrawText('Credito Total = '+CurrencyToStr(CredDisp), R, taLeftJustify, vaCenter, False, True);
+    ACanvas.DrawText(rsCreditoTotal+' = '+CurrencyToStr(CredDisp), R, taLeftJustify, vaCenter, False, True);
   end;
   ADone := True;
 end;
