@@ -144,7 +144,7 @@ inherited fbCCE: TfbCCE
   end
   inherited BarMgr: TdxBarManager
     UseSystemFont = False
-    Left = 72
+    Left = 368
     Top = 256
     inherited BarMgrBar1: TdxBar
       Font.Height = -13
@@ -225,16 +225,16 @@ inherited fbCCE: TfbCCE
     end
   end
   inherited MenuGrid: TcxGridPopupMenu
-    Left = 440
-    Top = 257
+    Left = 433
+    Top = 256
   end
   inherited CP: TdxComponentPrinter
     Left = 336
     Top = 258
   end
   inherited dlgExp: TSaveDialog
-    Left = 128
-    Top = 257
+    Left = 475
+    Top = 255
   end
   inherited pmLay: TdxBarPopupMenu
     Left = 240
@@ -333,7 +333,7 @@ inherited fbCCE: TfbCCE
   end
   object DS: TDataSource
     DataSet = Tab
-    Left = 392
+    Left = 400
     Top = 256
   end
   object Relcce: TfrxReport
@@ -345,13 +345,13 @@ inherited fbCCE: TfbCCE
     PrintOptions.Printer = 'Padr'#227'o'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 42807.698038240700000000
-    ReportOptions.LastChange = 42808.553718055550000000
+    ReportOptions.LastChange = 42811.402466400460000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
       ''
       'end.')
-    Left = 496
+    Left = 131
     Top = 256
     Datasets = <
       item
@@ -442,7 +442,7 @@ inherited fbCCE: TfbCCE
           ParentFont = False
         end
         object Memo4: TfrxMemoView
-          Left = 170.637910000000000000
+          Left = 200.637910000000000000
           Top = 66.133890000000000000
           Width = 68.031540000000000000
           Height = 18.897650000000000000
@@ -470,7 +470,7 @@ inherited fbCCE: TfbCCE
           ParentFont = False
         end
         object Memo6: TfrxMemoView
-          Left = 212.126160000000000000
+          Left = 198.126160000000000000
           Top = 96.811070000000000000
           Width = 137.842610000000000000
           Height = 18.897650000000000000
@@ -561,7 +561,7 @@ inherited fbCCE: TfbCCE
         object Memo13: TfrxMemoView
           Left = 51.913420000000000000
           Top = 66.133890000000000000
-          Width = 102.047310000000000000
+          Width = 132.165430000000000000
           Height = 18.897650000000000000
           DataField = 'CNPJ'
           DataSet = dbmt
@@ -593,7 +593,7 @@ inherited fbCCE: TfbCCE
           ParentFont = False
         end
         object Memo16: TfrxMemoView
-          Left = 150.976500000000000000
+          Left = 147.976500000000000000
           Top = 97.252010000000000000
           Width = 56.692950000000000000
           Height = 18.897650000000000000
@@ -645,11 +645,11 @@ inherited fbCCE: TfbCCE
             7331365C6C616E67313033335C7061720D0A7D0D0A00}
         end
         object Memo18: TfrxMemoView
-          Left = 242.448980000000000000
+          Left = 272.448980000000000000
           Top = 66.133890000000000000
           Width = 109.606370000000000000
           Height = 18.897650000000000000
-          DataField = 'tpAmb'
+          DataField = 'amb'
           DataSet = dbmt
           DataSetName = 'dbmt'
           Font.Charset = DEFAULT_CHARSET
@@ -658,7 +658,7 @@ inherited fbCCE: TfbCCE
           Font.Name = 'Arial'
           Font.Style = []
           Memo.UTF8W = (
-            '[dbmt."tpAmb"]')
+            '[dbmt."amb"]')
           ParentFont = False
         end
         object Line1: TfrxLineView
@@ -744,11 +744,11 @@ inherited fbCCE: TfbCCE
           WordWrap = False
         end
         object Memo9: TfrxMemoView
-          Left = 355.000000000000000000
+          Left = 333.000000000000000000
           Top = 97.102350000000000000
-          Width = 91.133890000000000000
+          Width = 113.811070000000000000
           Height = 18.897650000000000000
-          DataField = 'protocolo'
+          DataField = 'nProt'
           DataSet = dbmt
           DataSetName = 'dbmt'
           Font.Charset = DEFAULT_CHARSET
@@ -757,121 +757,39 @@ inherited fbCCE: TfbCCE
           Font.Name = 'Arial'
           Font.Style = []
           Memo.UTF8W = (
-            '[dbmt."protocolo"]')
+            '[dbmt."nProt"]')
           ParentFont = False
         end
       end
-    end
-  end
-  object mt: TkbmMemTable
-    DesignActivation = True
-    AttachedAutoRefresh = True
-    AttachMaxCount = 1
-    FieldDefs = <
-      item
-        Name = 'chNFe'
-        DataType = ftString
-        Size = 44
-      end
-      item
-        Name = 'tpAmb'
-        DataType = ftString
-        Size = 15
-      end
-      item
-        Name = 'CNPJ'
-        DataType = ftString
-        Size = 14
-      end
-      item
-        Name = 'xCOrrecao'
-        DataType = ftString
-        Size = 150
-      end
-      item
-        Name = 'dhEvento'
-        DataType = ftString
-        Size = 10
-      end
-      item
-        Name = 'RazaoSocial'
-        DataType = ftString
-        Size = 80
-      end
-      item
-        Name = 'nroNFe'
-        DataType = ftString
-        Size = 9
-      end>
-    IndexDefs = <>
-    SortOptions = []
-    PersistentBackup = False
-    ProgressFlags = [mtpcLoad, mtpcSave, mtpcCopy]
-    LoadedCompletely = False
-    SavedCompletely = False
-    FilterOptions = []
-    Version = '7.72.00 Standard Edition'
-    LanguageID = 0
-    SortID = 0
-    SubLanguageID = 1
-    LocaleID = 1024
-    Left = 304
-    Top = 200
-    object mtchNFe: TStringField
-      FieldName = 'chNFe'
-      Size = 44
-    end
-    object mttpAmb: TStringField
-      FieldName = 'tpAmb'
-      Size = 15
-    end
-    object mtCNPJ: TStringField
-      FieldName = 'CNPJ'
-      Size = 14
-    end
-    object mtxCOrrecao: TStringField
-      FieldName = 'xCOrrecao'
-      Size = 150
-    end
-    object mtdhEvento: TStringField
-      FieldName = 'dhEvento'
-      Size = 10
-    end
-    object mtRazaoSocial: TStringField
-      FieldName = 'RazaoSocial'
-      Size = 80
-    end
-    object mtnroNFe: TStringField
-      FieldName = 'nroNFe'
-      Size = 9
-    end
-    object mtprotocolo: TStringField
-      FieldName = 'protocolo'
     end
   end
   object dbmt: TfrxDBDataset
     UserName = 'dbmt'
     CloseDataSource = False
     FieldAliases.Strings = (
-      'chNFe=chNFe'
+      'cOrgao=cOrgao'
       'tpAmb=tpAmb'
       'CNPJ=CNPJ'
-      'xCOrrecao=xCOrrecao'
+      'chNFe=chNFe'
       'dhEvento=dhEvento'
+      'tpEvento=tpEvento'
+      'nSeqEvento=nSeqEvento'
+      'xCorrecao=xCOrrecao'
       'RazaoSocial=RazaoSocial'
+      'nProt=nProt'
       'nroNFe=nroNFe'
-      'protocolo=protocolo')
-    DataSet = mt
+      'amb=amb')
+    DataSet = mtCCe
     BCDToCurrency = False
-    Left = 240
-    Top = 200
+    Left = 8
+    Top = 256
   end
   object tDadosNfe: TnxTable
     Database = Dados.db
     FlipOrder = True
     TableName = 'NFCONFIG'
-    Left = 440
-    Top = 200
+    Left = 84
+    Top = 256
     object tDadosNfeID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
@@ -1120,6 +1038,108 @@ inherited fbCCE: TfbCCE
     object tDadosNfeObsFisco: TnxMemoField
       FieldName = 'ObsFisco'
       BlobType = ftMemo
+    end
+  end
+  object mtCCe: TkbmMemTable
+    DesignActivation = True
+    AttachedAutoRefresh = True
+    AttachMaxCount = 1
+    FieldDefs = <
+      item
+        Name = 'chNFe'
+        DataType = ftString
+        Size = 44
+      end
+      item
+        Name = 'tpAmb'
+        DataType = ftString
+        Size = 15
+      end
+      item
+        Name = 'CNPJ'
+        DataType = ftString
+        Size = 14
+      end
+      item
+        Name = 'xCOrrecao'
+        DataType = ftString
+        Size = 150
+      end
+      item
+        Name = 'dhEvento'
+        DataType = ftString
+        Size = 10
+      end
+      item
+        Name = 'RazaoSocial'
+        DataType = ftString
+        Size = 80
+      end
+      item
+        Name = 'nroNFe'
+        DataType = ftString
+        Size = 9
+      end>
+    IndexDefs = <>
+    SortOptions = []
+    PersistentBackup = False
+    ProgressFlags = [mtpcLoad, mtpcSave, mtpcCopy]
+    LoadedCompletely = False
+    SavedCompletely = False
+    FilterOptions = []
+    Version = '7.72.00 Standard Edition'
+    LanguageID = 0
+    SortID = 0
+    SubLanguageID = 1
+    LocaleID = 1024
+    Left = 40
+    Top = 256
+    object mtCCecOrgao: TStringField
+      FieldName = 'cOrgao'
+      Size = 2
+    end
+    object mtCCetpAmb: TStringField
+      FieldName = 'tpAmb'
+      Size = 2
+    end
+    object mtCCeCNPJ: TStringField
+      DisplayWidth = 25
+      FieldName = 'CNPJ'
+      Size = 25
+    end
+    object mtCCechNFe: TStringField
+      FieldName = 'chNFe'
+      Size = 44
+    end
+    object mtCCedhEvento: TStringField
+      FieldName = 'dhEvento'
+      Size = 25
+    end
+    object mtCCetpEvento: TStringField
+      FieldName = 'tpEvento'
+      Size = 10
+    end
+    object mtCCenSeqEvento: TStringField
+      FieldName = 'nSeqEvento'
+      Size = 2
+    end
+    object mtCCexCorrecao: TStringField
+      FieldName = 'xCorrecao'
+      Size = 1000
+    end
+    object mtCCeRazaoSocial: TStringField
+      FieldName = 'RazaoSocial'
+      Size = 200
+    end
+    object mtCCenProt: TStringField
+      FieldName = 'nProt'
+    end
+    object mtCCenroNFe: TStringField
+      FieldName = 'nroNFe'
+      Size = 10
+    end
+    object mtCCeamb: TStringField
+      FieldName = 'amb'
     end
   end
 end

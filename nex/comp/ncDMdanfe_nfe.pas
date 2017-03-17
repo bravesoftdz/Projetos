@@ -315,6 +315,7 @@ begin
 end;
 
 begin
+
   Result := '';
   if aCaminho>'' then begin
     while GetProxCaminho do begin
@@ -743,7 +744,8 @@ var
   S : String;
   F : TField;
 begin
-  if aXML='' then aXML := FXML;
+  if aXML='' then
+    aXML := FXML;
   for i := 0 to D.Fields.Count-1 do begin
     F := D.Fields[I];
     S := getXMLValue(aXML, F.FieldName, aCaminho);
@@ -834,7 +836,7 @@ end;
 begin
   FCancelado := aCancelado;
   FXML := aXML;
-  
+
   if Assigned(aTabConfig) then
     dbConfig.DataSet := aTabConfig
   else

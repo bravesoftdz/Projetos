@@ -1510,7 +1510,7 @@ begin
 end;
 
 procedure AdicionaItensDevFor;
-var 
+var
   aItem, aCSOSN: Integer;
   vImp : currency;
   aCredICMS, aTCredICMS, tNac, tMun, tEst, aBCST, aICMSNorm, aFrete, aFreteItem, aFreteTotal : currency;

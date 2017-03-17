@@ -15,7 +15,8 @@ uses
   cxStyles, cxCustomData, cxFilter, cxData, cxDataStorage, cxEdit, cxNavigator,
   Data.DB, cxDBData, cxSpinEdit, cxGridCustomTableView, cxGridTableView,
   cxGridDBTableView, cxGridLevel, cxGridCustomView, cxGrid, nxdb,
-  cxImageComboBox, cxMemo, kbmMemTable, frxClass, frxDBSet;
+  cxImageComboBox, cxMemo, kbmMemTable, frxClass, frxDBSet, LMDCustomComponent,
+  LMDTextContainer, Vcl.StdCtrls;
 
 type
   TfbCCE = class(TFrmBase)
@@ -61,13 +62,7 @@ type
     cmVer: TdxBarLargeButton;
     cmImprimirCCE: TdxBarLargeButton;
     Relcce: TfrxReport;
-    mt: TkbmMemTable;
     dbmt: TfrxDBDataset;
-    mtchNFe: TStringField;
-    mttpAmb: TStringField;
-    mtCNPJ: TStringField;
-    mtxCOrrecao: TStringField;
-    mtdhEvento: TStringField;
     tDadosNfe: TnxTable;
     tDadosNfeID: TUnsignedAutoIncField;
     tDadosNfeUID: TGuidField;
@@ -140,16 +135,27 @@ type
     tDadosNfeurls_consulta: TnxMemoField;
     tDadosNfeconfig_nfe: TnxMemoField;
     tDadosNfeObsFisco: TnxMemoField;
-    mtRazaoSocial: TStringField;
-    mtnroNFe: TStringField;
-    mtprotocolo: TStringField;
+    mtCCe: TkbmMemTable;
+    mtCCecOrgao: TStringField;
+    mtCCetpAmb: TStringField;
+    mtCCeCNPJ: TStringField;
+    mtCCechNFe: TStringField;
+    mtCCedhEvento: TStringField;
+    mtCCetpEvento: TStringField;
+    mtCCenSeqEvento: TStringField;
+    mtCCexCorrecao: TStringField;
+    mtCCeRazaoSocial: TStringField;
+    mtCCenProt: TStringField;
+    mtCCenroNFe: TStringField;
+    mtCCeamb: TStringField;
     procedure cmVerClick(Sender: TObject);
     procedure cmSalvarClick(Sender: TObject);
     procedure cmEmailClick(Sender: TObject);
     procedure cmImprimirCCEClick(Sender: TObject);
   private
+      FXML : String;
     { Private declarations }
-
+    procedure LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
   public
     class function Descricao: String; override;
     procedure FiltraDados; override;
@@ -254,30 +260,91 @@ end;
 
 procedure TfbCCE.cmImprimirCCEClick(Sender: TObject);
 var
-  sTeste :string;
+  S, sAmb :string;
+  P: Integer;
+
+function frmData ( d :string):string;
+begin
+   d := copy(d,9,2)+'/'+copy(d,6,2)+'/'+copy(d,1,4);
+   result := FormatDateTime('dd/mm/yyyy', StrToDate(d));
+end;
+
+function fmt_cnpj(S: String): String;
+begin
+  case Length(s) of
+    13 : result := copy(S, 1, 1)+'.'+copy(s, 2, 3)+'.'+copy(S, 5, 3)+'/'+copy(s, 8, 4)+'-'+copy(s, 12, 2);
+    14 : result := copy(S, 1, 2)+'.'+copy(s, 3, 3)+'.'+copy(S, 6, 3)+'/'+copy(s, 9, 4)+'-'+copy(s, 13, 2);
+    15 : result := copy(S, 1, 3)+'.'+copy(s, 4, 3)+'.'+copy(S, 7, 3)+'/'+copy(s, 10, 4)+'-'+copy(s, 14, 2);
+  else
+    Result := S;
+  end;
+end;
+
 begin
   inherited;
+  S := TabXMLdest.AsString;
   tDadosNfe.Open;
-  mt.Active := False;
-  mt.Active := True;
-  mt.Append;
-  mtRazaoSocial.Value := tDadosNfeRazaoSocial.Value;
-  mtCNPJ.Value := tDadosNfeCNPJ.Value;
-  mtchNFe.Value := TabChave.Value;
-  mtprotocolo.Value := TabProtocolo.AsString;
-  mtxCorrecao.Value := TabTexto.Value;
+  mtCCe.Active := False;
+  mtCCe.Active := True;
+  mtCCe.Append;
+  LoadFields(mtCCE, 'procEventoNFe,evento,infEvento', S);
+  P := pos('retEvento', S);
+  Delete(S, P, 100000);
+  LoadFields(mtCCE, 'procEventoNFe,evento,infEvento', S);
+  LoadFields(mtCCE, 'procEventoNFe,evento,infEvento,detEvento', S);
 
-  if TabtpAmbNFE.Value = 1 then
-    mttpAmb.Value := '1 - Produção'
+  if mtCCetpAmb.Value = '1' then
+    mtCCeAmb.Value := '1 - Produção'
   else
-    mttpAmb.Value := '2 - Homologação';
-  mtdhEvento.Value := TabDataHora.asstring;
-  mtnroNFe.Value := Tabnfe_numero.AsString;
+    mtCCeAmb.Value := '2 - Homologação';
 
-  mt.Post;
-  relcce.PrepareReport;
-  relcce.Print;
+  mtCCenroNfe.value := Tabnfe_numero.AsString;
+  mtCCedhEvento.Value := frmData(mtCCedhEvento.value);
+
+  mtCCeCNPJ.Value := fmt_cnpj(mtCCeCNPJ.Value);
+  mtCCeRazaoSocial.Value := tDadosNfeRazaoSocial.Value;
+  mtCCe.Post;
+
+  if SoDig(mtCCeCNPJ.Value) <> tDadosNfeCNPJ.Value then
+    raise Exception.Create('O CNPJ configurado no sistema é diferente do CNPJ da CC-e.'+#13+
+                           'Esta CC-e não pode ser impressa.');
+
+  if TabStatus.Value = 1 then
+  begin
+    relcce.PrepareReport;
+    relcce.Print;
+    tDadosNfe.close;
+  end
+  else
+    raise Exception.Create('Esta carta de correção não pode ser impressa.');
   tDadosNfe.close;
+end;
+
+
+procedure TfbCCE.LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
+var
+  I : Integer;
+  S : String;
+  F : TField;
+
+function MeuStrToFloat(S: String): Extended;
+var Code: Integer;
+begin
+  Val(S, REsult, Code);
+end;
+
+begin
+  if aXML='' then
+    aXML := FXML;
+
+  for i := 0 to D.Fields.Count-1 do begin
+    F := D.Fields[I];
+    S := getXMLValue(aXML, F.FieldName, aCaminho);
+    if S>'' then
+    if F.DataType in [ftFloat, ftCurrency] then
+      F.AsFloat := MeuStrToFloat(S) else
+      F.AsString := S;
+  end;
 end;
 
 procedure TfbCCE.cmSalvarClick(Sender: TObject);

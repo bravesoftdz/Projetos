@@ -1,8 +1,8 @@
 object dmDanfe_nfe: TdmDanfe_nfe
   OldCreateOrder = False
   OnCreate = DataModuleCreate
-  Height = 424
-  Width = 895
+  Height = 355
+  Width = 566
   object mtIDE: TkbmMemTable
     DesignActivation = True
     AttachedAutoRefresh = True

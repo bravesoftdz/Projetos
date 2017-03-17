@@ -1308,7 +1308,6 @@ object dmNFE_gerar: TdmNFE_gerar
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
     ActiveRuntime = True
-    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
