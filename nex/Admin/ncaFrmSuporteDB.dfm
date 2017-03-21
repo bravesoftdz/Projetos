@@ -573,4 +573,11 @@ object FrmSuporteDB: TFrmSuporteDB
       ClientRectTop = 0
     end
   end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    Left = 264
+    Top = 168
+  end
 end

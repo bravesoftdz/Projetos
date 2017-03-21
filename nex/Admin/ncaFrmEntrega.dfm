@@ -35,7 +35,6 @@ object FrmEntrega: TFrmEntrega
     Align = alBottom
     Bevel.Mode = bmCustom
     TabOrder = 0
-    ExplicitWidth = 690
     object btnAvancar: TcxButton
       AlignWithMargins = True
       Left = 107
@@ -108,7 +107,6 @@ object FrmEntrega: TFrmEntrega
       SpeedButtonOptions.Transparent = True
       TabOrder = 2
       Visible = False
-      ExplicitLeft = 656
     end
   end
   object Paginas: TcxPageControl
@@ -128,7 +126,6 @@ object FrmEntrega: TFrmEntrega
     Properties.CustomButtons.Buttons = <>
     LookAndFeel.Kind = lfUltraFlat
     OnChange = PaginasChange
-    ExplicitWidth = 690
     ClientRectBottom = 373
     ClientRectLeft = 4
     ClientRectRight = 683
@@ -136,7 +133,6 @@ object FrmEntrega: TFrmEntrega
     object tsEndereco: TcxTabSheet
       Caption = '1. Endere'#231'o '
       ImageIndex = 0
-      ExplicitWidth = 682
     end
     object tsTransp: TcxTabSheet
       Caption = '2. Entregador ou Transportadora '
@@ -147,12 +143,10 @@ object FrmEntrega: TFrmEntrega
       Font.Style = []
       ImageIndex = 1
       ParentFont = False
-      ExplicitWidth = 682
     end
     object tsFrete: TcxTabSheet
       Caption = '3. Taxa de Entrega / Frete'
       ImageIndex = 2
-      ExplicitWidth = 682
       object lcFrete: TdxLayoutControl
         Left = 0
         Top = 0
@@ -166,7 +160,6 @@ object FrmEntrega: TFrmEntrega
         Font.Style = []
         ParentFont = False
         TabOrder = 0
-        ExplicitWidth = 682
         object edVol: TcxSpinEdit
           Left = 132
           Top = 191

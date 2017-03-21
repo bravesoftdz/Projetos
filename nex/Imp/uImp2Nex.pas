@@ -213,6 +213,14 @@ type
     tProdCategoria: TWideStringField;
     tProdAlteradoEm: TDateTimeField;
     tProdAlteradoPor: TStringField;
+    tProdCodigoNum: TLongWordField;
+    tProdCodigo2: TWideStringField;
+    tProdCodigo2Num: TLongWordField;
+    tMarca: TnxTable;
+    tMarcaID: TUnsignedAutoIncField;
+    tMarcaUID: TGuidField;
+    tMarcaNome: TWideStringField;
+    tMarcaRecVer: TLongWordField;
     procedure edArqChange(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure btnAvancarClick(Sender: TObject);
@@ -236,6 +244,8 @@ type
     FHeader    : String;
     function Fornecedor(aNome, aObs: String): Integer;
 
+    function Marca(aNome: String): String;
+
     procedure AddField(aFieldName, aCaption: String);
 
     procedure Atualizar;
@@ -257,6 +267,8 @@ type
     procedure ImpNCMEx;
     procedure ImpCEST;
     procedure ImpBRTrib;
+    procedure ImpMarca;
+    procedure ImpCodigo2;
 
     procedure ImpCampoCli;
 
@@ -498,6 +510,8 @@ begin
   AddField('estoquemin', 'Estoque Mínimo');
   AddField('estoquemax', 'Estoque Máximo');
   AddField('fornecedor', 'Fornecedor');
+  AddField('marca', 'Marca');
+  AddField('codigo2', 'Código Extra');
   AddField('obs', 'Observações');
   AddField('NCM', 'NCM');
   AddField('NCM_ex', 'NCM Ex');
@@ -548,6 +562,7 @@ begin
   PB.Max := meArq.Lines.Count;
   PB.Position := 0;
   tProd.Open;
+  tMarca.Open;
   tEst.Open;
   tCli.Open;
   FExpCLi := False;
@@ -627,6 +642,9 @@ begin
   if SameText(S, 'codigo') then
     ImpCodigo
   else
+  if SameText(S, 'codigo2') then
+    ImpCodigo2
+  else  
   if SameText(S, 'descricao') then
     ImpDescricao
   else
@@ -654,6 +672,9 @@ begin
   if SameText(S, 'fornecedor') then
     ImpFornecedor
   else
+  if SameText(S, 'marca') then
+    ImpMarca
+  else  
   if SameText(S, 'obs') then
     ImpObs
   else
@@ -837,6 +858,11 @@ begin
                                        mtSufixo.Value, False);
 end;
 
+procedure TFrmPri.ImpCodigo2;
+begin
+  tProdCodigo2.Value := ObtemProxCampo;
+end;
+
 procedure TFrmPri.ImpCusto;
 begin
   tProdCustoUnitario.Value := StrToCurrency(ObtemProxCampo);
@@ -880,6 +906,14 @@ begin
   S := ObtemProxCampo;
   if S>'' then 
     tProdFornecedor.Value := Fornecedor(S, '');
+end;
+
+procedure TFrmPri.ImpMarca;
+var S: String;
+begin
+  S := ObtemProxCampo;
+  if S>'' then 
+    tProdMarca.Value := Marca(S);
 end;
 
 procedure TFrmPri.ImpNCM;
@@ -999,6 +1033,16 @@ begin
   end;
   LoadIni;
   MT.First;
+end;
+
+function TFrmPri.Marca(aNome: String): String;
+begin
+  if not tMarca.FindKey([aNome]) then begin
+    tMarca.Append;
+    tMarcaNome.Value := aNome;
+    tMarca.Post;
+  end;
+  Result := tMarcaUID.Value;
 end;
 
 procedure TFrmPri.nxBackupIncludeTable(aSender: TnxBackupController;

@@ -149,6 +149,20 @@ type
     cxLabel11: TcxLabel;
     cbEntrada: TcxCheckBox;
     mtDadosFiscais: TMemoField;
+    tDF: TnxTable;
+    tDFID: TUnsignedAutoIncField;
+    tDFUID: TGuidField;
+    tDFChaveNFE: TStringField;
+    tDFNomeFor: TStringField;
+    tDFnItem: TWordField;
+    tDFProduto: TLongWordField;
+    tDFDataNF: TDateTimeField;
+    tDFCNPJFor: TStringField;
+    tDFQuant: TFloatField;
+    tDFQuantOrig: TFloatField;
+    tDFDadosFiscais: TnxMemoField;
+    tDFCustoU: TCurrencyField;
+    mtUnitario: TCurrencyField;
     procedure FormCreate(Sender: TObject);
     procedure edProdutoPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
@@ -197,6 +211,8 @@ type
     procedure Update;
     procedure forceEdit;
     procedure PesquisarProd;
+    procedure AlimentaDadosFiscais;
+    
 
     procedure _SalvaConvUnid;
 
@@ -213,8 +229,6 @@ type
     procedure SetFor(const Value: Integer);
 
   public
-    procedure AlimentaDadosFiscais;
-
     function QuantFator: Double;
 
     function Frete: Currency;
@@ -252,7 +266,7 @@ implementation
 {$R *.dfm}
 
 uses ufmImagens, ncaFrmPri, ncaDM, ncaFrmProdPesq2, ncaFrmPesqFor,
-  ncaFrmProduto, ncaFrmCadFornecedor;
+  ncaFrmProduto, ncaFrmCadFornecedor, ncClassesBase;
 
 { TFrmLeXML }
 
@@ -267,8 +281,18 @@ const
   psConvUnid = 3;
   psOk       = 4;
 
+function SoDig(S: String): String;
+var I : Integer;
+begin
+  Result := '';
+  for I := 1 to Length(S) do
+    if S[I] in ['0'..'9'] then Result := Result + S[I];
+end;
+  
+
 procedure TFrmLeXML.AlimentaDadosFiscais;
-var sl : TStringList;
+var 
+  sl : TStringList;
 
 function ConverteUnid(V: Double): String;
 begin
@@ -277,15 +301,6 @@ begin
 end;
 
 procedure ExtraiTags;
-
-function SoDig(S: String): String;
-var I : Integer;
-begin
-  Result := '';
-  for I := 1 to Length(S) do
-    if S[I] in ['0'..'9'] then Result := Result + S[I];
-end;
-
 begin
   with dmDanfe do begin
     //Adiciona Tag Chave Nfe
@@ -392,13 +407,28 @@ begin
   sl := TStringList.Create;
   try
     mt.First;
-    dmDanfe.mtItem.First;
+    dmDanfe.mtItem.First;  
     while not mt.Eof do begin
       sl.Clear;
       mt.Edit;
       ExtraiTags;
       mtDadosFiscais.Value := sl.Text;
       mt.Post;
+
+      if tDF.FindKey([dmDanfe.mtIDEchave_acesso.Value, mtItem.Value]) then
+        tDF.Edit else
+        tDF.Append;
+      tDFChaveNFE.Value := SoDig(dmDanfe.mtIDEchave_acesso.AsString);
+      tDFCNPJFor.Value := SoDig(dmDanfe.mtEmitCNPJ.Value);
+      tDFNomeFor.Value := dmDanfe.mtEmitxNome.Value;
+      tDFDataNF.Value := StrToDateTime(dmDanfe.mtIDEdata_emissao.Value);
+      tDFnItem.Value := mtItem.Value;
+      tDFProduto.Value := mtProduto.Value;  
+      tDFQuant.Value := QuantFator;
+      tDFQuantOrig.Value := mtQuant.Value;
+      tDFDadosFiscais.Value := mtDadosFiscais.Value;  
+      tDFCustoU.Value := (mtTotal.Value / QuantFator);
+      tDF.Post;  
       dmDanfe.mtItem.Next;
       mt.Next;
     end;
@@ -577,6 +607,8 @@ begin
       FpercFrete := (Frete/FTotal);
 
     mt.First;  
+    AlimentaDadosFiscais;
+    mt.First;
 
     if Assigned(FOnConcluir) then FOnConcluir(Self);
     Close;

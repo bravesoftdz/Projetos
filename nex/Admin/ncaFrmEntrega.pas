@@ -307,6 +307,7 @@ begin
     FMovEst.TranspVol := edVol.Value;
     FMovEst.TranspPesoL := edPesoLiq.Value;
     FMovEst.TranspPesoB := edPesoBruto.Value;
+    FMovEst.Extra := S;
   end else
     Result := False;
 end;

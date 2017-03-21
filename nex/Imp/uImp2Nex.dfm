@@ -3,8 +3,8 @@ object FrmPri: TFrmPri
   Top = 0
   BorderWidth = 10
   Caption = 'Importar CSV - ESTOQUE'
-  ClientHeight = 461
-  ClientWidth = 672
+  ClientHeight = 421
+  ClientWidth = 632
   Color = clBtnFace
   Font.Charset = ANSI_CHARSET
   Font.Color = clWindowText
@@ -22,8 +22,8 @@ object FrmPri: TFrmPri
   object Paginas: TcxPageControl
     Left = 0
     Top = 0
-    Width = 672
-    Height = 418
+    Width = 632
+    Height = 378
     Align = alClient
     TabOrder = 0
     Properties.ActivePage = tsCampos
@@ -31,8 +31,8 @@ object FrmPri: TFrmPri
     LookAndFeel.NativeStyle = False
     OnChange = PaginasChange
     OnPageChanging = PaginasPageChanging
-    ClientRectBottom = 418
-    ClientRectRight = 672
+    ClientRectBottom = 378
+    ClientRectRight = 632
     ClientRectTop = 28
     object tsArq: TcxTabSheet
       Caption = 'Selecione o arquivo'
@@ -52,13 +52,13 @@ object FrmPri: TFrmPri
         Style.Font.Style = []
         Style.IsFontAssigned = True
         TabOrder = 0
-        Height = 350
-        Width = 672
+        Height = 310
+        Width = 632
       end
       object LMDSimplePanel2: TLMDSimplePanel
         Left = 0
         Top = 0
-        Width = 672
+        Width = 632
         Height = 40
         Hint = ''
         Align = alTop
@@ -137,8 +137,8 @@ object FrmPri: TFrmPri
       object Grid: TcxGrid
         Left = 0
         Top = 0
-        Width = 672
-        Height = 390
+        Width = 632
+        Height = 350
         Align = alClient
         TabOrder = 0
         LookAndFeel.Kind = lfFlat
@@ -235,7 +235,7 @@ object FrmPri: TFrmPri
         AlignWithMargins = True
         Left = 0
         Top = 10
-        Width = 672
+        Width = 632
         Height = 25
         Margins.Left = 0
         Margins.Top = 10
@@ -247,15 +247,15 @@ object FrmPri: TFrmPri
       object pagImp: TcxPageControl
         Left = 0
         Top = 45
-        Width = 672
-        Height = 345
+        Width = 632
+        Height = 305
         Align = alClient
         TabOrder = 1
         Properties.ActivePage = tsImpCli
         Properties.CustomButtons.Buttons = <>
         LookAndFeel.NativeStyle = False
-        ClientRectBottom = 345
-        ClientRectRight = 672
+        ClientRectBottom = 305
+        ClientRectRight = 632
         ClientRectTop = 28
         object tsImpProd: TcxTabSheet
           Caption = 'tsImpProd'
@@ -312,8 +312,8 @@ object FrmPri: TFrmPri
             AlignWithMargins = True
             Left = 0
             Top = 122
-            Width = 672
-            Height = 195
+            Width = 632
+            Height = 155
             Margins.Left = 0
             Margins.Top = 10
             Margins.Right = 0
@@ -349,8 +349,8 @@ object FrmPri: TFrmPri
             AlignWithMargins = True
             Left = 0
             Top = 72
-            Width = 672
-            Height = 245
+            Width = 632
+            Height = 205
             Margins.Left = 0
             Margins.Top = 10
             Margins.Right = 0
@@ -382,8 +382,8 @@ object FrmPri: TFrmPri
   object LMDSimplePanel1: TLMDSimplePanel
     AlignWithMargins = True
     Left = 0
-    Top = 428
-    Width = 672
+    Top = 388
+    Width = 632
     Height = 33
     Hint = ''
     Margins.Left = 0
@@ -713,6 +713,16 @@ object FrmPri: TFrmPri
     object tProdAlteradoPor: TStringField
       FieldName = 'AlteradoPor'
       Size = 30
+    end
+    object tProdCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object tProdCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object tProdCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
     end
   end
   object tCli: TnxTable
@@ -1107,7 +1117,28 @@ object FrmPri: TFrmPri
   end
   object dsCli: TDataSource
     DataSet = tCli
-    Left = 280
-    Top = 365
+    Left = 288
+    Top = 317
+  end
+  object tMarca: TnxTable
+    Database = nxDB
+    TableName = 'Marca'
+    IndexName = 'INome'
+    Left = 128
+    Top = 124
+    object tMarcaID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tMarcaUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tMarcaNome: TWideStringField
+      FieldName = 'Nome'
+      Size = 40
+    end
+    object tMarcaRecVer: TLongWordField
+      FieldName = 'RecVer'
+    end
   end
 end

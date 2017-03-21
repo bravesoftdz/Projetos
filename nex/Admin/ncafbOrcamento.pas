@@ -127,7 +127,8 @@ implementation
 
 uses ncaDM, ncaFrmPri, ncaFrmOrcamento, ncMovEst, ncClassesBase, ufmImagens,
   ncaFrmME2, ncaDMorc, ncKiteApi, ncaFrmAposOrc, ncaFrmImpOrcamento,
-  ncaFrmRecursoPRO, ncIDRecursos, ncaFrmConfig_Orcamento, ncaStrings;
+  ncaFrmRecursoPRO, ncIDRecursos, ncaFrmConfig_Orcamento, ncaStrings,
+  ncaFrmNFCeCancelarHomo, ncaFrmNFCeImpedirDeslig;
 
 {$R *.dfm}
 
@@ -266,6 +267,9 @@ begin
     orcamento_vendido  : raise exception.Create(rsJaFoiVendido);
   end;
 
+  if TFrmNFCeCancelarHomo.ExisteVendaHomo('Cancele a venda realizada para poder realizar outra venda.') then Exit;
+  if not TFrmNFCeImpedirDeslig.PodeVender then Exit;
+
   IDVenda := TFrmME2.Create(Self).VenderOrcamento(TabUID.Value);
 
   if IDVenda>0 then begin
@@ -390,6 +394,7 @@ begin
 end;
 
 end.
+
 
 
 

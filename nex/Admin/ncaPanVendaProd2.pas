@@ -19,6 +19,7 @@ uses
 
 type
   TGetFornecedor = function : Cardinal of object;
+  TSetFornecedor = procedure (aFornecedor: Cardinal) of object;
 
   TFrmPanVendaProd2 = class(TFrmPanVendaProdBase)
     panInner: TLMDSimplePanel;
@@ -211,6 +212,7 @@ type
     FTicksKey : Cardinal;
     FProdTexto : String;
     FGetFornecedor : TGetFornecedor;
+    FSetFornecedor : TSetFornecedor;
 
     function CorFocus: TColor;
 
@@ -228,6 +230,8 @@ type
     function PassarQtd: Boolean;
     function ComecarPorQtd: Boolean;
     function BuscaAuto: Boolean;
+    function GetFornecedor: Cardinal;
+    procedure SetFornecedor(const Value: Cardinal);
   protected
     FDadosFiscaisXML : String;
     FQuantCompra : Double;
@@ -241,7 +245,7 @@ type
 
     function Focado: Boolean;
 
-    function getPrecoCusto (idProd :cardinal):Currency;
+    function getPrecoCusto (idProd :cardinal): Currency;
 
     procedure UpdateColor;
 
@@ -276,8 +280,14 @@ type
     procedure FocusProd(aFrom: String); override;
     function CanCloseForm: Boolean; override;
 
-    property Fornecedor: TGetFornecedor
+    property OnGetFornecedor: TGetFornecedor
       read FGetFornecedor write FGetFornecedor;
+
+    property OnSetFornecedor: TSetFornecedor
+      read FSetFornecedor write FSetFornecedor;
+
+    property Fornecedor: Cardinal
+      read GetFornecedor write SetFornecedor;      
 
     property Quant: Double
       read FQuant write SetQuant;
@@ -310,7 +320,7 @@ implementation
 
 uses ncaDM, ncaFrmPri, ncErros, ncaFrmEscolhaProdDup, 
   ncaFrmSemEstoque, ncaFrmProdSemFid, ncaFrmConfigTelaVendas, ncDebug,
-  ncaFrmNCMEdit, ncaStrings, ncaFrmLeXML;
+  ncaFrmNCMEdit, ncaStrings, ncaFrmLeXML, ncaFrmPesqDadosFiscais;
 
 {$R *.dfm}
 
@@ -425,10 +435,13 @@ end;
 
 procedure TFrmPanVendaProd2.btnLancarClick(Sender: TObject);
 var
-  PermSemEstoque: Boolean; T: Currency;
+  PermSemEstoque: Boolean; 
+  T, aCustoU: Currency;
+  FFor : Cardinal;
 begin
   inherited;
   FDadosFiscaisXML := '';
+  
   if ResgateFid then
   if not (tProFidelidade.Value and (tProFidPontos.Value>0)) then begin
     TFrmProdSemFid.Create(Self).Mostrar(tPro);
@@ -451,15 +464,20 @@ begin
   end;
 
   if (TipoTran=trEstDevFor) then begin
-    if Fornecedor=0 then raise Exception.Create(rsNecessarioFornecedor);
 
     if Dados.NFeAtivo then begin
       //se não achou nenhum movimento de entrada avisa usuario e cancela processo
 
       FDadosFiscaisXML := '';
       FQuantCompra := 0;
+      FFor := Fornecedor;
 
-      if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
+      if not TFrmPesqDadosFiscais.Create(Self).ObtemDadosFiscais(tProID.Value, FFor, FQuantCompra, aCustoU, FDadosFiscaisXML) then Exit;
+      FUnitario := 0;
+      Unitario := aCustoU;
+      Fornecedor := FFor;
+      
+{      if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
         if Unitario=0 then
           ShowMessage('Não há compras desse produto com esse fornecedor.') else
           ShowMessage('Dados fiscais ainda não foram gravados.');
@@ -473,21 +491,22 @@ begin
       end else begin
         FDadosFiscaisXML := tMEDadosFiscais.Value;
         FQuantCompra := tMeQuant.Value;
-      end;
+      end;}
 
       //se não encontrou o XML de lançamento de entrada cancela operação e avisa o usuário
       if (FDadosFiscaisXML='') then
-        raise Exception.Create('Não é possível fazer devolução de compras sem o XML e dados fiscais de compra.');
+        raise Exception.Create('Não é possível fazer devolução de compras sem o XML/dados fiscais de compra.');
 
       //verifica a quantidade informada pelo usuário, se a quantidade informada for maior que a
       //quantidade lançada no documento de entrada avisa o usuario e cancela a operação.
       if edQtd.value > FQuantCompra then
-        raise Exception.Create('Quantidade do item informado é maior que a quantidade da NF-e entrada.');
-    end;
+        raise Exception.Create('Quantidade informada para devolver é maior que a quantidade da NF-e de entrada.');
+    end else
+      if (Fornecedor=0) then raise Exception.Create(rsNecessarioFornecedor);
   end;
 
   if Dados.NFAtivo and (TipoTran=trEstVenda) then
-  if ((Trim(tProNCM.Value)='') or (not BrTribOk) or (Trim(tProUnid.Value)='')) and (not TFrmNCMEdit.Create(Self).ObtemNCM(tProID.Value)) then Exit;
+    if ((Trim(tProNCM.Value)='') or (not BrTribOk) or (Trim(tProUnid.Value)='')) and (not TFrmNCMEdit.Create(Self).ObtemNCM(tProID.Value)) then Exit;
 
   if FCBBInfo.IsEmpty or (not FCBBInfo.BalValor) then
     T := DuasCasas(FUnitario*edQtd.Value) else
@@ -897,6 +916,7 @@ begin
   inherited;
   lbDigiteProduto.Visible := (edProd.EditingText='') and (slConfig.Values['tutomode']<>'1');
   FGetFornecedor := nil;
+  FSetFornecedor := nil;
   
   FCBBInfo.Clear; 
 
@@ -920,6 +940,13 @@ procedure TFrmPanVendaProd2.FormResize(Sender: TObject);
 begin
   inherited;
   AjustaPanQtd;
+end;
+
+function TFrmPanVendaProd2.GetFornecedor: Cardinal;
+begin
+  if Assigned(FGetFornecedor) then 
+    Result := FGetFornecedor else
+    Result := 0;
 end;
 
 function TFrmPanVendaProd2.getPrecoCusto(idProd: cardinal): Currency;
@@ -981,8 +1008,6 @@ procedure TFrmPanVendaProd2.OnConcluirLeXML(Sender: TObject);
 begin
   //criar aqui outro igual esse mas sem mov. estoque. xmlOnConcluirDevFor
   with TFrmLeXML(Sender) do begin
-    AlimentaDadosFiscais;
-
     if mt.Locate('produto', tProID.Value, []) then begin
       FDadosFiscaisXML := mtDadosFiscais.Value;
       FQuantCompra := QuantFator;
@@ -1058,6 +1083,12 @@ begin
   end;
 end;
 
+procedure TFrmPanVendaProd2.SetFornecedor(const Value: Cardinal);
+begin
+  if Assigned(FSetFornecedor) then
+    FSetFornecedor(Value);
+end;
+
 procedure TFrmPanVendaProd2.SetGap(aPixels: Integer);
 begin
   AjustaPanQtd;
@@ -1093,8 +1124,8 @@ begin
       end;
 
       //Pega o ultimo custo conforme pela ID do produto na função getPrecoCusto(ID PROD)
-      trEstDevFor : begin
-        Unitario := getPrecoCusto(tProID.Value);
+      trEstDevFor : begin   
+        Unitario := 0; //getPrecoCusto(tProID.Value);
         edUnit.Enabled := false;
         edUnit.Properties.ReadOnly := False;
       end;

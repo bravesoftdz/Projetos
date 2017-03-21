@@ -1208,6 +1208,12 @@ begin
        AddCard(SrvDB, card_type_orcamento, LeWord32('IDSeq'), True);
    end else   
    if SameText(aTable, 'Cliente') then begin
+
+     vID := LeFld('CPF');
+     if VarIsNull(vID) then
+       SaveFld('CPF_sodig', null) else
+       SaveFld('CPF_sodig', SoDig(vID));
+     
      if gEvolvingTables then Exit;
      
      vID := LeFld('Codigo');

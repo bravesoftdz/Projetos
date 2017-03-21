@@ -226,6 +226,8 @@ type
 
     function GetFornecedor: Cardinal;
 
+    procedure SetFornecedor(aID: Cardinal);
+
     procedure UpdateTipoTran;
                                       
     function EditarPagEsp: Boolean;
@@ -1127,7 +1129,8 @@ begin
   FPanAddProd.OnAddProd := OnAddProd;
   FPanAddProd.PanVendaProd.Parent := panBuscaProd;
   FPanAddProd.OnQuantOk := Self.OnQuantOk;
-  FPanAddProd.Fornecedor := Self.GetFornecedor;
+  FPanAddProd.OnGetFornecedor := Self.GetFornecedor;
+  FPanAddProd.OnSetFornecedor := Self.SetFornecedor;
 
   FPanItens := TPanItensVendaGrid.Create(Self);
   FpanItens.panPri.Parent := panLista;
@@ -1417,6 +1420,11 @@ begin
   LoadItensOrcamento;
 end;
 
+procedure TFrmME2.SetFornecedor(aID: Cardinal);
+begin
+  FCli.ID := aID;
+end;
+
 procedure TFrmME2.SetTamanho(Value: byte);
 begin
     if Value<>fTamanho then begin
@@ -1518,14 +1526,12 @@ var
   F, FItem: Currency;
 begin
   //pega itens do XML e joga para o ME2
-  //criar aqui outro igual esse mas sem mov. estoque. xmlOnConcluirDevFor
   with TFrmLeXML(Sender) do begin
     if cbEntrada.Checked then begin
       cbCompra.Checked := False;
       cbCompraClick(nil);
     end;
     FME.XMLCompra := XML;
-    AlimentaDadosFiscais;
     
     mt.First;
     FTot.SubTotal := 0;

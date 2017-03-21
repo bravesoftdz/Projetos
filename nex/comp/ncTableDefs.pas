@@ -217,6 +217,61 @@ begin
 end;
 
 // ProdFor
+function __DadosFiscais(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+      
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+
+        AddField('ChaveNFE', '', nxtNullString, 44, 0, False);
+        AddField('NomeFor', '', nxtNullString, 50, 0, False);
+        AddField('nItem', '', nxtWord16, 0, 0, False);
+        AddField('Produto', '', nxtWord32, 0, 0, False);
+        AddField('DataNF', '', nxtDateTime, 0, 0, False);
+        AddField('CNPJFor', '', nxtNullString, 19, 0, False);
+        AddField('Quant', '', nxtDouble, 0, 0, False);
+        AddField('CustoU', '', nxtCurrency, 0, 0, False);
+        AddField('QuantOrig', '', nxtDouble, 0, 0, False);
+        AddField('DadosFiscais', '', nxtBlobMemo, 10, 0, False);
+      end;
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('ID'));
+
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));   
+
+        with AddIndex('IChaveNFEnItem', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('ChaveNFE'));          
+          Add(GetFieldFromName('nItem'));
+        end;
+
+        with AddIndex('ICNPJForProdutoDataNF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('CNPJFor'));
+          Add(GetFieldFromName('Produto'));
+          Add(GetFieldFromName('DataNF'));
+        end;
+
+        with AddIndex('IProdutoDataNF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Produto'));
+          Add(GetFieldFromName('DataNF'));
+        end;        
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
+// ProdFor
 function __cfop_dev(aDatabase : TnxDatabase): TnxDataDictionary;
 begin
   Result := TnxDataDictionary.Create;
@@ -1637,6 +1692,7 @@ begin
         AddField('Sexo', 'M=Masculo, F=Feminino', nxtChar, 1, 0, False);
         AddField('Obs', '', nxtBLOBWideMemo, 0, 0, False);
         AddField('Cpf', '', nxtWideString, 20, 0, False);
+        AddField('CPF_sodig', '', nxtWideString, 20, 0, False);
         AddField('Rg', '', nxtWideString, 20, 0, False);
         AddField('Telefone', '', nxtWideString, 15, 0, False);
         AddField('Email', '', nxtBLOBWideMemo, 0, 0, False);
@@ -1794,6 +1850,10 @@ begin
               UseStringSort := True;
             end;
           end;
+
+        with AddIndex('ICPF_sodig', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('CPF_sodig'));           
+          
 
         with AddIndex('IFornecedorCPF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('Fornecedor'));        
@@ -4075,6 +4135,7 @@ initialization
     Add('BRTrib_Tipo',  __brtrib_tipo,  idtb_BRTrib_Tipo);
     Add('LinkXML',      __LinkXML,      idtb_LinkXML);
     Add('xmls_compra',  __xmls_compra,  idtb_xmls_compra);
+    Add('DadosFiscais', __DadosFiscais, idtb_DadosFiscais);
     Add('cfop_dev',     __cfop_dev,     idtb_cfop_dev);
     
 // Tabelas que fazem backup no cloud mas possuem campos/indices de ID ou UID diferente do padrão    
