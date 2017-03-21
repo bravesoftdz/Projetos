@@ -338,7 +338,8 @@ uses
   ncaFrmProduto in 'ncaFrmProduto.pas' {FrmProduto},
   ncaFrmObs in 'ncaFrmObs.pas' {FrmObs},
   ncaFrmConfig_TamCodigoAuto in 'ncaFrmConfig_TamCodigoAuto.pas' {FrmConfig_TamCodigoAuto},
-  ncaFrmAjustaTamCod in 'ncaFrmAjustaTamCod.pas' {FrmAjustaTamCod};
+  ncaFrmAjustaTamCod in 'ncaFrmAjustaTamCod.pas' {FrmAjustaTamCod},
+  ncaFrmPesqDadosFiscais in 'ncaFrmPesqDadosFiscais.pas' {FrmPesqDadosFiscais};
 
 {$R *.res}
 {---$R uac.res}

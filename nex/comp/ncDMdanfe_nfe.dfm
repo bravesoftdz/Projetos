@@ -1155,7 +1155,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     Top = 200
   end
   object repBobina: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -16210,6 +16210,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000000000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -16301,7 +16302,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object repFolha: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -31356,6 +31357,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -31447,7 +31449,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object frCustom: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -46503,6 +46505,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -47119,7 +47122,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object frRep: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]

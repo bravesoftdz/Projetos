@@ -243,15 +243,11 @@ type
     tEtqProdPauta: TnxMemoField;
     tEtqProdAlteradoEm: TDateTimeField;
     tEtqProdAlteradoPor: TStringField;
-    TabCodigo2: TWideStringField;
-    TVProdCodigo2: TcxGridDBColumn;
-    tAux2: TnxTable;
-    tAux2Codigo2: TWideStringField;
     tAux3: TnxTable;
     tAux3Codigo: TWideStringField;
     tAux3CodigoNum: TLongWordField;
-    TabCodigoNum: TLongWordField;
-    TabCodigo2Num: TLongWordField;
+    tAux2: TnxTable;
+    tAux2Codigo2: TWideStringField;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);

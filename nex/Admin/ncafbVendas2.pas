@@ -2047,8 +2047,10 @@ begin
       end;
     end;
 
-    1 : if not tPend.IsEmpty then 
+    1 : if not tPend.IsEmpty then begin
+      if not _PodeVender then Exit;
       Dados.EditarPagamento(tPendID.Value);
+    end;
 
     2 : if not tRej.IsEmpty then
       Dados.EditarPagamento(tRejID.Value);

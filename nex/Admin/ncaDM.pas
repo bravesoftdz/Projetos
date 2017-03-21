@@ -887,6 +887,8 @@ type
     tNFConfigID: TUnsignedAutoIncField;
     tNFConfigUID: TGuidField;
     tNFConfignfe_pedido_na_obs: TBooleanField;
+    tbCliCPF_sodig: TWideStringField;
+    tbCliUID: TGuidField;
     procedure DataModuleCreate(Sender: TObject);
     procedure FFTblMgrPause;
     procedure CMAoDesativar(Sender: TObject);
@@ -955,7 +957,9 @@ type
     procedure SalvaNF(aTran, aArq: String);
 
     procedure CopiarEnderecoEntrega(aTran: Cardinal);
-    
+
+    function ObtemCNPJFor(aFor: Cardinal): String;
+    function ObtemCodFor(aCNPJ: String): Cardinal;
 
     procedure OnProgressoDepend(aEtapa, aProgresso : Byte; aErro : Integer; aErroStr: String);
 
@@ -2231,6 +2235,38 @@ procedure TDados.nxTCPIPConnectionLost(aSender: TnxBaseTransport;
 begin
   ShowMessage(SAConexãoComOServidorNexCaféFoiPe);
   CM.Ativo := False;
+end;
+
+function TDados.ObtemCNPJFor(aFor: Cardinal): String;
+begin
+  if tbCli.Locate('ID', aFor, []) then
+    Result := SoDig(tbCliCPF.Value) else
+    Result := '';
+end;
+
+function TDados.ObtemCodFor(aCNPJ: String): Cardinal;
+var SIndex: String;
+begin
+  Result := 0;
+  SIndex := tbCLi.IndexName;
+  tbCli.IndexName := 'ICPF_sodig';
+  try
+    tbCli.SetRange([sodig(aCNPJ)], [sodig(aCNPJ)]);
+    try
+      tbCli.First;
+      while not tbCli.Eof do begin
+        if tbCliFornecedor.Value then begin
+          Result := tbCliID.Value;
+          Exit;
+        end;
+        tbCli.Next;
+      end;
+    finally
+      tbCli.CancelRange;
+    end;
+  finally
+    tbCli.IndexName := SIndex;
+  end;
 end;
 
 function TDados.ObtemCXRange(aDataI, aDataF: TDateTime;

@@ -515,10 +515,11 @@ type
     FTipo       : TncTipoTran;
     slObs       : TStrings;
     slICMSSt    : TStrings;
-    FPesoL : Double;
-    FPesoB : Double;
-    
+    FPesoL      : Double;
+    FPesoB      : Double;
 
+    vIPI_ICMSST, vTotIPI_ICMSST : Currency;
+    
     function Contingencia: Boolean;
 
     function CalcImp(var tNac, tEst, tMun: Currency): Currency;
@@ -573,7 +574,7 @@ var
   gProcessNFEWindow : Cardinal = 0;
   TerminarProcNFE : Boolean = False;
   gProcessaGerarNFe : TncProcessaGerarNFe = nil;
-  vIPI_ICMSST, vTotIPI_ICMSST : Currency;
+  
 const
   cont_null   = 0;
   cont_off    = 1;
@@ -1592,7 +1593,7 @@ begin
       nfeDS.Campo('nItem_H02').Value    := IntToStr(aItem);
 
       //Caso tiver 13 caracteres joga o codebar pos campos, caso contrario mantem o codigo interno do cliente
-      if (Length(Codigo)=13) and EAN_OK(Codigo) then
+      if (Length(Codigo)=13) and EAN_OK(Codigo) then    
       begin
         nfeDS.Campo('cEAN_I03').AsString := Codigo;
         nfeDS.Campo('cEANTrib_I12').AsString := Codigo;
@@ -1839,7 +1840,11 @@ begin
     nfeDS.Campo('modFrete_X02').Value := '9' 
   else
   if GetValueFromStr(tTranExtra.Value, 'modFrete')='1' then
-    nfeDS.Campo('modFrete_X02').Value := '1' else
+    nfeDS.Campo('modFrete_X02').Value := '1' 
+  else
+  if GetValueFromStr(tTranExtra.Value, 'modFrete')='2' then
+    nfeDS.Campo('modFrete_X02').Value := '2' 
+  else
     nfeDS.Campo('modFrete_X02').Value := '0';
 
   if (not aFreteOutros) and (tTranTranspEnt.Value>0) then begin

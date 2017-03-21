@@ -162,11 +162,6 @@ inherited fbPesqFor: TfbPesqFor
     ImageOptions.UseLargeImagesForLargeIcons = True
     Left = 72
     Top = 232
-    DockControlHeights = (
-      0
-      0
-      0
-      0)
     inherited BarMgrBar1: TdxBar
       Caption = 'BarraComum'
       ItemLinks = <
@@ -221,22 +216,22 @@ inherited fbPesqFor: TfbPesqFor
       WholeRow = True
     end
     inherited cmNovo: TdxBarLargeButton
-      LargeImageIndex = 6
       OnClick = cmNovoClick
       AutoGrayScale = True
+      LargeImageIndex = 6
       ShowCaption = True
       ImageIndex = -1
     end
     inherited cmEditar: TdxBarLargeButton
-      LargeImageIndex = 2
       OnClick = cmEditarClick
       AutoGrayScale = True
+      LargeImageIndex = 2
       ShowCaption = True
       ImageIndex = 20
     end
     inherited cmApagar: TdxBarLargeButton
-      LargeImageIndex = 7
       AutoGrayScale = True
+      LargeImageIndex = 7
       ShowCaption = True
       ImageIndex = 12
     end
@@ -247,13 +242,13 @@ inherited fbPesqFor: TfbPesqFor
     end
     inherited cmExportar: TdxBarLargeButton
       Visible = ivNever
-      LargeImageIndex = 47
       GlyphLayout = glTop
+      LargeImageIndex = 47
     end
     inherited cmImprimir: TdxBarLargeButton
       Visible = ivNever
-      LargeImageIndex = 7
       GlyphLayout = glTop
+      LargeImageIndex = 7
       SyncImageIndex = False
       ImageIndex = 22
     end
@@ -268,20 +263,20 @@ inherited fbPesqFor: TfbPesqFor
       Category = 0
       Hint = 'Ok'
       Visible = ivAlways
-      LargeImageIndex = 5
       OnClick = btnOKClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 5
     end
     object cmCancelar: TdxBarLargeButton
       Caption = '&Cancelar'
       Category = 0
       Hint = 'Cancelar'
       Visible = ivAlways
-      LargeImageIndex = 4
       OnClick = btnCancelarClick
       AutoGrayScale = False
       GlyphLayout = glLeft
+      LargeImageIndex = 4
     end
     object dxBarControlContainerItem1: TdxBarControlContainerItem
       Caption = 'New Item'

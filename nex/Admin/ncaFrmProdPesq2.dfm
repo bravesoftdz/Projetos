@@ -43,6 +43,7 @@ object FrmProdPesq2: TFrmProdPesq2
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
     TabOrder = 0
+    ExplicitLeft = 12
     object edBusca: TcxTextEdit
       Left = 0
       Top = 0
@@ -74,7 +75,6 @@ object FrmProdPesq2: TFrmProdPesq2
       TabOrder = 0
       OnEnter = edBuscaEnter
       OnKeyDown = edBuscaKeyDown
-      ExplicitHeight = 21
       Width = 489
     end
     object btnOk: TcxButton
@@ -348,10 +348,6 @@ object FrmProdPesq2: TFrmProdPesq2
       Color = clBtnFace
       ImageIndex = 1
       ParentColor = False
-      ExplicitLeft = 0
-      ExplicitTop = 0
-      ExplicitWidth = 0
-      ExplicitHeight = 0
       object edFoto: TcxDBImage
         Left = 0
         Top = 0

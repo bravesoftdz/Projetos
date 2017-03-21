@@ -100,6 +100,9 @@ inherited fbVendas2: TfbVendas2
           object tsResumido: TcxTabSheet
             Caption = 'Modo Resumido'
             ImageIndex = 0
+            ExplicitTop = 0
+            ExplicitWidth = 0
+            ExplicitHeight = 0
             object Grid: TcxGrid
               Left = 0
               Top = 0

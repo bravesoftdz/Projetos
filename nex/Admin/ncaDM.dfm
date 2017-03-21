@@ -217,6 +217,13 @@ object Dados: TDados
     object tbCliTipoFor: TByteField
       FieldName = 'TipoFor'
     end
+    object tbCliCPF_sodig: TWideStringField
+      FieldName = 'CPF_sodig'
+    end
+    object tbCliUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
   end
   object tbPro: TnxTable
     Database = db

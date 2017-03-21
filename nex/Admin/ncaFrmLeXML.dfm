@@ -38,6 +38,7 @@ object FrmLeXML: TFrmLeXML
       TabOrder = 0
       Properties.ActivePage = tsArq
       Properties.CustomButtons.Buttons = <>
+      LookAndFeel.NativeStyle = False
       OnChange = pgPriChange
       ClientRectBottom = 489
       ClientRectRight = 752
@@ -500,8 +501,9 @@ object FrmLeXML: TFrmLeXML
               Properties.ActivePage = tsConvUnid
               Properties.CustomButtons.Buttons = <>
               LookAndFeel.Kind = lfUltraFlat
-              ClientRectBottom = 363
-              ClientRectRight = 321
+              ClientRectBottom = 359
+              ClientRectLeft = 4
+              ClientRectRight = 317
               ClientRectTop = 28
               object tsSugestao: TcxTabSheet
                 Caption = 'tsSugestao'
@@ -516,12 +518,12 @@ object FrmLeXML: TFrmLeXML
                   StyleDisabled.LookAndFeel.Kind = lfFlat
                   TabOrder = 0
                   Height = 305
-                  Width = 321
+                  Width = 313
                   object btnPesquisar: TLMDButton
                     AlignWithMargins = True
                     Left = 12
                     Top = 205
-                    Width = 297
+                    Width = 289
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -549,7 +551,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 12
                     Top = 163
-                    Width = 297
+                    Width = 289
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -590,7 +592,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 12
                     Top = 90
-                    Width = 297
+                    Width = 289
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -652,7 +654,7 @@ object FrmLeXML: TFrmLeXML
                     Style.IsFontAssigned = True
                     Properties.Alignment.Vert = taVCenter
                     Properties.WordWrap = True
-                    Width = 297
+                    Width = 289
                     AnchorY = 36
                   end
                 end
@@ -663,7 +665,7 @@ object FrmLeXML: TFrmLeXML
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
-                  Width = 321
+                  Width = 313
                   Height = 32
                   Hint = ''
                   Margins.Left = 0
@@ -691,7 +693,7 @@ object FrmLeXML: TFrmLeXML
                   AlignWithMargins = True
                   Left = 0
                   Top = 42
-                  Width = 321
+                  Width = 313
                   Height = 32
                   Hint = ''
                   Margins.Left = 0
@@ -747,7 +749,7 @@ object FrmLeXML: TFrmLeXML
                 object LMDSimplePanel3: TLMDSimplePanel
                   Left = 0
                   Top = 38
-                  Width = 321
+                  Width = 313
                   Height = 32
                   Hint = ''
                   Align = alTop
@@ -782,7 +784,7 @@ object FrmLeXML: TFrmLeXML
                 object lbUnidProd: TLMDHTMLLabel
                   Left = 0
                   Top = 46
-                  Width = 321
+                  Width = 313
                   Height = 25
                   Margins.Left = 0
                   Margins.Right = 0
@@ -805,7 +807,7 @@ object FrmLeXML: TFrmLeXML
                 object lbUnidXML: TLMDHTMLLabel
                   Left = 0
                   Top = 21
-                  Width = 321
+                  Width = 313
                   Height = 25
                   Margins.Left = 0
                   Margins.Right = 0
@@ -866,7 +868,7 @@ object FrmLeXML: TFrmLeXML
                 object panRegra: TLMDSimplePanel
                   Left = 0
                   Top = 112
-                  Width = 321
+                  Width = 313
                   Height = 34
                   Hint = ''
                   Margins.Left = 0
@@ -881,7 +883,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 0
                     Top = 3
-                    Width = 321
+                    Width = 313
                     Height = 31
                     Hint = ''
                     Margins.Left = 0
@@ -1001,7 +1003,7 @@ object FrmLeXML: TFrmLeXML
                 end
                 object edUniv: TcxDBCheckBox
                   Left = 0
-                  Top = 301
+                  Top = 297
                   Cursor = crHandPoint
                   Align = alBottom
                   Caption = 'A convers'#227'o de CX para PC '#233' sempre igual, para TODOS produtos.'
@@ -1022,8 +1024,8 @@ object FrmLeXML: TFrmLeXML
                   StyleFocused.LookAndFeel.Kind = lfFlat
                   StyleHot.LookAndFeel.Kind = lfFlat
                   TabOrder = 4
-                  ExplicitTop = 314
-                  Width = 321
+                  ExplicitTop = 310
+                  Width = 313
                 end
               end
               object tsOk: TcxTabSheet
@@ -1582,6 +1584,9 @@ object FrmLeXML: TFrmLeXML
     object mtDadosFiscais: TMemoField
       FieldName = 'DadosFiscais'
       BlobType = ftMemo
+    end
+    object mtUnitario: TCurrencyField
+      FieldName = 'Unitario'
     end
   end
   object ds: TDataSource
@@ -3165,6 +3170,55 @@ object FrmLeXML: TFrmLeXML
     end
     object tTranCaixa: TLongWordField
       FieldName = 'Caixa'
+    end
+  end
+  object tDF: TnxTable
+    ActiveRuntime = True
+    Database = Dados.db
+    TableName = 'DadosFiscais'
+    IndexName = 'IChaveNFEnItem'
+    Left = 420
+    Top = 162
+    object tDFID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tDFUID: TGuidField
+      FieldName = 'UID'
+      Size = 38
+    end
+    object tDFChaveNFE: TStringField
+      FieldName = 'ChaveNFE'
+      Size = 44
+    end
+    object tDFNomeFor: TStringField
+      FieldName = 'NomeFor'
+      Size = 50
+    end
+    object tDFnItem: TWordField
+      FieldName = 'nItem'
+    end
+    object tDFProduto: TLongWordField
+      FieldName = 'Produto'
+    end
+    object tDFDataNF: TDateTimeField
+      FieldName = 'DataNF'
+    end
+    object tDFCNPJFor: TStringField
+      FieldName = 'CNPJFor'
+      Size = 19
+    end
+    object tDFQuant: TFloatField
+      FieldName = 'Quant'
+    end
+    object tDFQuantOrig: TFloatField
+      FieldName = 'QuantOrig'
+    end
+    object tDFDadosFiscais: TnxMemoField
+      FieldName = 'DadosFiscais'
+      BlobType = ftMemo
+    end
+    object tDFCustoU: TCurrencyField
+      FieldName = 'CustoU'
     end
   end
 end

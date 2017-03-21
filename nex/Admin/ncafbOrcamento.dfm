@@ -2,7 +2,6 @@ inherited fbOrcamento: TfbOrcamento
   Caption = 'Or'#231'amento'
   ClientHeight = 380
   ClientWidth = 852
-  ExplicitLeft = 7
   ExplicitWidth = 868
   ExplicitHeight = 419
   PixelsPerInch = 96

@@ -7,7 +7,8 @@ uses
   Vcl.Controls, Vcl.Forms, Vcl.Dialogs, cxGraphics, cxControls, cxLookAndFeels,
   cxLookAndFeelPainters, cxContainer, cxEdit, Vcl.Menus, Vcl.StdCtrls,
   cxButtons, cxTextEdit, cxMaskEdit, cxLabel, LMDControl, LMDCustomControl,
-  LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel, dxBarBuiltInMenu, cxPC, ncaFrmDBPanel;
+  LMDCustomPanel, LMDCustomBevelPanel, LMDSimplePanel, dxBarBuiltInMenu, cxPC, ncaFrmDBPanel,
+  Vcl.ExtCtrls;
 
 type
   TFrmSuporteDB = class(TForm)
@@ -25,6 +26,7 @@ type
     edToken: TcxMaskEdit;
     lbToken: TcxLabel;
     btnAutoInc: TcxButton;
+    Timer1: TTimer;
     procedure btnLoginClick(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure FormDestroy(Sender: TObject);
@@ -33,9 +35,12 @@ type
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormShow(Sender: TObject);
     procedure btnAutoIncClick(Sender: TObject);
+    procedure Timer1Timer(Sender: TObject);
   private
     { Private declarations }
     function Panel: TFrmDBPanel;
+
+    procedure AutoLogin;
   public
     { Public declarations }
   end;
@@ -50,7 +55,7 @@ implementation
 {$R *.dfm}
 
 
-uses ncaSenhaToken, ClipBrd, ncaFrmPri, ncaFrmAutoInc;
+uses ncaSenhaToken, ClipBrd, ncaFrmPri, ncaFrmAutoInc, ncaDM;
 
 
 resourcestring
@@ -61,6 +66,14 @@ begin
   if Assigned(FrmSuporteDB) then Exit;
   FrmSuporteDB := TFrmSuporteDB.Create(nil);
   FrmSuporteDB.ShowModal;
+end;
+
+procedure TFrmSuporteDB.AutoLogin;
+begin
+  panLogin.Visible := False;
+  panSup.Visible := True;
+  btnAdd.Click;
+  WindowState := wsMaximized;
 end;
 
 procedure TFrmSuporteDB.btnAddClick(Sender: TObject);
@@ -127,6 +140,8 @@ begin
   randomize;
   edToken.Text := RandStr + RandStr + RandStr + RandStr;  
   ClipBoard.AsText := edToken.Text;
+
+  if slConfig.Values['dev']='1' then Timer1.Enabled := True;
 end;
 
 function TFrmSuporteDB.Panel: TFrmDBPanel;
@@ -134,6 +149,12 @@ begin
   if Paginas.PageCount>0 then
     Result := TFrmDBPanel(Paginas.ActivePage.Tag) else
     Result := nil;
+end;
+
+procedure TFrmSuporteDB.Timer1Timer(Sender: TObject);
+begin
+  Timer1.Enabled := False;
+  AutoLogin;
 end;
 
 end.

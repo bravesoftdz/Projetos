@@ -77,6 +77,7 @@ const
   idtb_Marca        = 47;
   idtb_xmls_compra  = 48;
   idtb_cfop_dev     = 49;
+  idtb_DadosFiscais = 50;
 
   bk_status_criar_json = 0;
   bk_status_enviar     = 1;
@@ -1929,7 +1930,6 @@ begin
     Result := '-'+Result else
     Result := '+'+Result;
 end;
-
 
 function SoDig(S: String): String;
 var I : Integer;
