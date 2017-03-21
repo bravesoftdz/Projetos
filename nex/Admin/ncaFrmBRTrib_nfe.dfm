@@ -172,8 +172,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
           BorderStyle = cxcbsNone
           TabOrder = 0
           LookAndFeel.Kind = lfFlat
-          ExplicitWidth = 98
-          ExplicitHeight = 17
           object TV: TcxGridDBTableView
             Navigator.Buttons.CustomButtons = <>
             DataController.DataSource = dsItens
@@ -297,8 +295,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
           StyleHot.BorderStyle = ebsNone
           StyleHot.TextStyle = [fsBold, fsUnderline]
           OnClick = lbObsClick
-          ExplicitTop = 18
-          ExplicitWidth = 98
         end
       end
       object edPermiteCredICMS: TcxDBCheckBox
@@ -342,7 +338,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
           Height = 253
           Align = alLeft
           TabOrder = 0
-          ExplicitHeight = 12
           object tvST: TcxGridDBTableView
             Navigator.Buttons.CustomButtons = <>
             DataController.DataSource = dsST
@@ -395,7 +390,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
           ParentFont = False
           Style.TextColor = clRed
           Style.TextStyle = [fsBold, fsUnderline]
-          ExplicitWidth = 100
         end
       end
       object LCGroup_Root: TdxLayoutGroup
@@ -551,8 +545,7 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
   end
   inherited defStyle: TcxDefaultEditStyleController
     Style.IsFontAssigned = True
-    Left = 210
-    Top = 0
+    Top = 40
     PixelsPerInch = 96
   end
   inherited MT: TkbmMemTable
@@ -663,8 +656,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
     SortID = 0
     SubLanguageID = 1
     LocaleID = 1024
-    Left = 146
-    Top = 384
+    Left = 594
+    Top = 128
     object mtItenscsosn: TLongWordField
       Alignment = taLeftJustify
       FieldName = 'csosn'

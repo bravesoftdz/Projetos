@@ -16,7 +16,7 @@ uses
   Data.DB, cxDBData, cxSpinEdit, cxGridCustomTableView, cxGridTableView,
   cxGridDBTableView, cxGridLevel, cxGridCustomView, cxGrid, nxdb,
   cxImageComboBox, cxMemo, kbmMemTable, frxClass, frxDBSet, LMDCustomComponent,
-  LMDTextContainer, Vcl.StdCtrls;
+  LMDTextContainer, Vcl.StdCtrls, frxExportPDF;
 
 type
   TfbCCE = class(TFrmBase)
@@ -148,6 +148,7 @@ type
     mtCCenProt: TStringField;
     mtCCenroNFe: TStringField;
     mtCCeamb: TStringField;
+    relExportPDF: TfrxPDFExport;
     procedure cmVerClick(Sender: TObject);
     procedure cmSalvarClick(Sender: TObject);
     procedure cmEmailClick(Sender: TObject);
@@ -189,7 +190,7 @@ end;
 
 procedure TfbCCE.cmEmailClick(Sender: TObject);
 var 
-  aEmail, aRes, S: String;
+  aEmail, aRes, S, PDF: String;
   MS : TIdMultiPartFormDataStream;
   H : TidHttp;
 
@@ -211,7 +212,6 @@ begin
     statuscce_erro :
       raise Exception.Create('Essa carta de correção foi rejeitada');
   end;
-    
 
   if not EmailOk then begin
     ShowMessage('É necessário configurar os parâmetros para o envio de NF-e por e-mail');
@@ -237,12 +237,17 @@ begin
 
     S := ExtractFilePath(ParamStr(0))+'Email';
     ForceDirectories(S);
-
     S := S + '\cce_'+tCCEChave.Value+'.xml';
-
     TabXMlDest.SaveToFile(S);
 
-    ms := TdmDanfe_nfe.GetMSEmailCCE(tNFConfigFromEmail.Value, tNFConfigNomeFantasia.Value, S, aEmail);
+    PDF := ExtractFilePath(ParamStr(0))+'NFE\CCE';
+    ForceDirectories(PDF);
+    PDF := PDF + '\cce_'+tCCEChave.Value+'.PDF';
+
+    if Not FileExists(PDF) then
+      raise Exception.Create('O arquivo PDF desta CC-e não foi encontrado.');
+
+    ms := TdmDanfe_nfe.GetMSEmailCCE(tNFConfigFromEmail.Value, tNFConfigNomeFantasia.Value, S, PDF, aEmail);
 
     if MS=nil then Exit;
 
@@ -311,7 +316,12 @@ begin
 
   if TabStatus.Value = 1 then
   begin
+    relExportPDF.FileName := 'CCE_'+ mtCCechNFe.Value + '.pdf';
+    relExportPDF.DefaultPath := 'C:\Meus Programas\Nex\nfe\CCE';
+    relExportPDF.ShowDialog := false;
+    relExportPDF.ShowProgress := false;
     relcce.PrepareReport;
+    relcce.Export(relExportPDF);
     relcce.Print;
     tDadosNfe.close;
   end

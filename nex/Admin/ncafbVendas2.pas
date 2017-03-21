@@ -2992,7 +2992,7 @@ begin
   Result := False;
   if not TFrmNFCeDepend.DependOk then Exit;
   if not FrmPanTopo.PodeVender then Exit;
-  if TFrmNFCeCancelarHomo.ExisteVendaHomo('Cancele a venda realizada para poder realizar outra venda.') then Exit;
+  if TFrmNFCeCancelarHomo.ExisteVendaHomo('Cancele a transação realizada para poder realizar outra operação.') then Exit;
   if not TFrmNFCeImpedirDeslig.PodeVender then Exit;
   Result := True;
 end;

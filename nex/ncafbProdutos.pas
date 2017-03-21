@@ -1239,8 +1239,6 @@ begin
     trEstEntrada : if not PodeOper(daEstEntrada) then Exit;
     trEstDevolucao : if not PodeOper(daDevolucao) then Exit;
     trEstCompra : if not PodeOper(daEstCompras) then Exit;
-    trEstTransf : if not PodeOper(daEstTransf) then Exit;
-    trEstTransfEnt : if not PodeOper(daEstTransfEntr) then Exit;
   end;
 
   case T of

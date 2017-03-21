@@ -338,7 +338,7 @@ inherited fbNFe: TfbNFe
           end
           object btnImprimirDanfe: TcxButton
             Left = 124
-            Top = 3
+            Top = 8
             Width = 103
             Height = 38
             Caption = 'Imprimir Danfe'

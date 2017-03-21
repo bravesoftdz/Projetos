@@ -345,7 +345,7 @@ inherited fbCCE: TfbCCE
     PrintOptions.Printer = 'Padr'#227'o'
     PrintOptions.PrintOnSheet = 0
     ReportOptions.CreateDate = 42807.698038240700000000
-    ReportOptions.LastChange = 42811.402466400460000000
+    ReportOptions.LastChange = 42811.402466400500000000
     ScriptLanguage = 'PascalScript'
     ScriptText.Strings = (
       'begin'
@@ -1041,44 +1041,70 @@ inherited fbCCE: TfbCCE
     end
   end
   object mtCCe: TkbmMemTable
+    Active = True
     DesignActivation = True
     AttachedAutoRefresh = True
     AttachMaxCount = 1
     FieldDefs = <
+      item
+        Name = 'cOrgao'
+        DataType = ftString
+        Size = 2
+      end
+      item
+        Name = 'tpAmb'
+        DataType = ftString
+        Size = 2
+      end
+      item
+        Name = 'CNPJ'
+        DataType = ftString
+        Size = 25
+      end
       item
         Name = 'chNFe'
         DataType = ftString
         Size = 44
       end
       item
-        Name = 'tpAmb'
-        DataType = ftString
-        Size = 15
-      end
-      item
-        Name = 'CNPJ'
-        DataType = ftString
-        Size = 14
-      end
-      item
-        Name = 'xCOrrecao'
-        DataType = ftString
-        Size = 150
-      end
-      item
         Name = 'dhEvento'
+        DataType = ftString
+        Size = 25
+      end
+      item
+        Name = 'tpEvento'
         DataType = ftString
         Size = 10
       end
       item
+        Name = 'nSeqEvento'
+        DataType = ftString
+        Size = 2
+      end
+      item
+        Name = 'xCorrecao'
+        DataType = ftString
+        Size = 1000
+      end
+      item
         Name = 'RazaoSocial'
         DataType = ftString
-        Size = 80
+        Size = 200
+      end
+      item
+        Name = 'nProt'
+        DataType = ftString
+        Size = 20
       end
       item
         Name = 'nroNFe'
         DataType = ftString
-        Size = 9
+        Size = 10
+      end
+      item
+        Name = 'amb'
+        DataType = ftString
+        Size = 20
       end>
     IndexDefs = <>
     SortOptions = []
@@ -1141,5 +1167,29 @@ inherited fbCCE: TfbCCE
     object mtCCeamb: TStringField
       FieldName = 'amb'
     end
+  end
+  object relExportPDF: TfrxPDFExport
+    UseFileCache = True
+    ShowProgress = True
+    OverwritePrompt = False
+    DataOnly = False
+    PrintOptimized = False
+    Outline = False
+    Background = False
+    HTMLTags = True
+    Quality = 95
+    Transparency = False
+    Author = 'FastReport'
+    Subject = 'FastReport PDF export'
+    ProtectionFlags = [ePrint, eModify, eCopy, eAnnot]
+    HideToolbar = False
+    HideMenubar = False
+    HideWindowUI = False
+    FitWindow = False
+    CenterWindow = False
+    PrintScaling = False
+    PdfA = False
+    Left = 408
+    Top = 192
   end
 end

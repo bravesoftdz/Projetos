@@ -90,6 +90,7 @@ inherited panItensVendaGrid: TpanItensVendaGrid
           StyleHot.LookAndFeel.Kind = lfUltraFlat
           StyleHot.TextColor = clRed
           Properties.Alignment.Vert = taVCenter
+          ExplicitLeft = -31
           AnchorY = 24
         end
         object lbSubTotal: TcxLabel
@@ -379,6 +380,8 @@ inherited panItensVendaGrid: TpanItensVendaGrid
         Properties.Alignment.Horz = taCenter
         Properties.Alignment.Vert = taVCenter
         Transparent = True
+        ExplicitLeft = 127
+        ExplicitWidth = 515
         Height = 25
         Width = 510
         AnchorX = 387

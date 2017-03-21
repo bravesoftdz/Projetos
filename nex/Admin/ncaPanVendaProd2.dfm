@@ -129,6 +129,7 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
                 StyleFocused.TextColor = clBlue
                 TabOrder = 0
                 OnKeyDown = edQtdKeyDown
+                ExplicitHeight = 21
                 Width = 131
               end
               object cxLabel1: TcxLabel
@@ -294,6 +295,8 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
                 Style.IsFontAssigned = True
                 Properties.Alignment.Horz = taRightJustify
                 Properties.Alignment.Vert = taVCenter
+                ExplicitTop = 26
+                ExplicitHeight = 28
                 AnchorX = 113
                 AnchorY = 38
               end
@@ -454,6 +457,7 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
                   OnExit = edProdExit
                   OnKeyDown = edProdKeyDown
                   OnKeyUp = edProdKeyUp
+                  ExplicitHeight = 21
                   Width = 490
                 end
                 object lbDigiteProduto: TcxLabel
@@ -549,6 +553,7 @@ inherited FrmPanVendaProd2: TFrmPanVendaProd2
                 StyleFocused.TextColor = clBlue
                 TabOrder = 1
                 OnKeyDown = edUnitKeyDown
+                ExplicitHeight = 21
                 Width = 146
               end
             end

@@ -1021,6 +1021,10 @@ inherited fbTranEst: TfbTranEst
         end
         item
           Visible = True
+          ItemName = 'cmTransf'
+        end
+        item
+          Visible = True
           ItemName = 'cmCfg'
         end>
       UseOwnFont = True
@@ -1364,6 +1368,13 @@ inherited fbTranEst: TfbTranEst
       Hint = 'Dev. NF-e Compra'
       Visible = ivNever
       OnClick = cmDevForClick
+    end
+    object cmTransf: TdxBarButton
+      Caption = 'NF Transf.'
+      Category = 0
+      Hint = 'NF Transf.'
+      Visible = ivNever
+      OnClick = cmTransfClick
     end
   end
   inherited MenuGrid: TcxGridPopupMenu

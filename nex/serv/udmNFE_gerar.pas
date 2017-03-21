@@ -1337,7 +1337,7 @@ begin
                                    
       nfeDS.Campo('NCM_I05').Value      := tProdutoNCM.Value;
 
-      if (FEsq>1) and (tProdutocest.Value>0) then 
+      if (FEsq>1) and (tProdutocest.Value>0) then
         nfeDS.Campo('CEST_I05c').Value := ZeroPad(tProdutocest.AsString, 7);
 
       nfeDS.Campo('CFOP_I08').Value     := tbrtrib_tipoCFOP.AsString;
@@ -1473,19 +1473,20 @@ begin
 
     end;
 
-
     if anatop='' then
       nfeDS.Campo('natOp_B04').Value := anatop_500 else
       nfeDS.Campo('natOp_B04').Value := anatop;
+    if tbrtrib_tipotipo.Value <> 20 then
+    begin
+      if aTCredICMS>=0.01 then begin
+        AddObs('PERMITE O APROVEITAMENTO DO CREDITO DE ICMS NO VALOR DE R$ '+FormatValorCur(aTCredICMS));
+        AddObs('CORRESPONDENTE A ALIQUOTA DE '+tNFConfignfe_perc_cred_icms.AsString+
+               '%, NOS TERMOS DO ARTIGO 23 DA LC 123');
+      end else
+        AddObs('NAO GERA DIREITO A CREDITO FISCAL DE ICMS, DE ISS E DE IPI');
 
-    if aTCredICMS>=0.01 then begin
-      AddObs('PERMITE O APROVEITAMENTO DO CREDITO DE ICMS NO VALOR DE R$ '+FormatValorCur(aTCredICMS));
-      AddObs('CORRESPONDENTE A ALIQUOTA DE '+tNFConfignfe_perc_cred_icms.AsString+
-             '%, NOS TERMOS DO ARTIGO 23 DA LC 123');
-    end else   
-      AddObs('NAO GERA DIREITO A CREDITO FISCAL DE ICMS, DE ISS E DE IPI');
-
-    AddObs(slObsfiscal.Text);        
+      AddObs(slObsfiscal.Text);
+    end;
 
     if (tNac>0) or (tEst>0) or (tMun>0) then begin
       anatop := ''; 
@@ -1591,7 +1592,7 @@ begin
       nfeDS.Campo('cProd_I02').AsString := fmtnfe(Codigo);
       nfeDS.Campo('nItem_H02').Value    := IntToStr(aItem);
 
-      //Caso tiver 13 caracteres joga o codebar pos campos, caso contrario mantem o codigo interno do cliente
+      //Caso tiver 13 caracteres joga o codebar nos campos, caso contrario mantem o codigo interno do cliente
       if (Length(Codigo)=13) and EAN_OK(Codigo) then
       begin
         nfeDS.Campo('cEAN_I03').AsString := Codigo;
@@ -1712,7 +1713,7 @@ begin
       end;
 
       //ICMS-ST
-      if slDF.Values['vICMSST'] > '' then
+      if (slDF.Values['vICMSST'] > '') then
       begin
         sICMSST := ValorXQuant('vICMSST');
         DebugMsg(self, 'VALOR ICMS-ST: '+ sICMSST );
@@ -1978,7 +1979,8 @@ end;
 procedure Gera;
 var sLote: String;
 begin
-  slObs.Text := 'DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL';
+  if tTranTipo.Value <> trEstTransf then
+    slObs.Text := 'DOCUMENTO EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL';
   DebugMsg('NFE_gerarxml - gera - 1');
 
   tTransp.Refresh;
@@ -2009,7 +2011,7 @@ begin
       AdicionaItens;
     DadosTransp;
     DadosTotalizadores;
-//    DadosPagamento;
+    //DadosPagamento;
   nfeDS.Salvar;
 
   DebugMsg('NFE_gerarxml - gera - 2');

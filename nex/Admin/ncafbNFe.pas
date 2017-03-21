@@ -423,7 +423,6 @@ begin
   else
     raise Exception.Create('Erro na emissão da NF-e: '+TabStatus.AsString);
   end;
-    
 
   if not EmailOk then begin
     ShowMessage('É necessário configurar os parâmetros para o envio de NF-e por e-mail');
