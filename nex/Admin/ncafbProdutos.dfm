@@ -7,6 +7,7 @@ inherited fbProdutos: TfbProdutos
   Font.Height = -13
   OldCreateOrder = True
   Scaled = False
+  ExplicitLeft = -40
   ExplicitWidth = 1036
   ExplicitHeight = 558
   PixelsPerInch = 96
@@ -211,6 +212,10 @@ inherited fbProdutos: TfbProdutos
                   Caption = 'C'#243'digo'
                   DataBinding.FieldName = 'Codigo'
                   HeaderAlignmentVert = vaTop
+                end
+                object TVprodCodigo2: TcxGridDBColumn
+                  Caption = 'C'#243'digo Extra'
+                  DataBinding.FieldName = 'Codigo2'
                 end
                 object tvProdEstoqueTot: TcxGridDBColumn
                   Caption = 'Estoque Atual'
@@ -450,7 +455,7 @@ inherited fbProdutos: TfbProdutos
                 object TVprodObs: TcxGridDBColumn
                   DataBinding.FieldName = 'Obs'
                 end
-                object TVprodColumn1: TcxGridDBColumn
+                object TVprodNomeTrib: TcxGridDBColumn
                   Caption = 'Tributa'#231#227'o'
                   DataBinding.FieldName = 'Nome_brtrib'
                 end
@@ -1471,6 +1476,16 @@ inherited fbProdutos: TfbProdutos
       KeyFields = 'Marca'
       Size = 40
       Lookup = True
+    end
+    object TabCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object TabCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object TabCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
     end
   end
   object dsTab: TDataSource

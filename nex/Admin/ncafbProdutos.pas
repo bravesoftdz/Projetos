@@ -169,7 +169,7 @@ type
     Tabcest: TLongWordField;
     cmReajuste: TdxBarButton;
     TabNome_brtrib: TStringField;
-    TVprodColumn1: TcxGridDBColumn;
+    TVprodNomeTrib: TcxGridDBColumn;
     Tabtax_id: TLongWordField;
     TVseq: TcxGridDBColumn;
     cmTipoTran: TdxBarListItem;
@@ -248,6 +248,10 @@ type
     tAux3CodigoNum: TLongWordField;
     tAux2: TnxTable;
     tAux2Codigo2: TWideStringField;
+    TabCodigoNum: TLongWordField;
+    TabCodigo2: TWideStringField;
+    TabCodigo2Num: TLongWordField;
+    TVprodCodigo2: TcxGridDBColumn;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);
