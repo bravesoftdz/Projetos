@@ -398,7 +398,7 @@ begin
   if IDProd>0 then begin
     panValor.Enabled := True;
     panPreco.Enabled := True;
-    edUnit.Enabled := tProPodeAlterarPreco.Value or (TipoTran = trEstCompra );
+    edUnit.Enabled := tProPodeAlterarPreco.Value or (TipoTran in [trEstCompra, trEstTransfEnt] );
     lbTotal.Enabled := True;
 {    if TipoTran=trEstCompra then 
       edUnit.Value := tProCustoUnitario.Value;}
@@ -477,7 +477,7 @@ begin
       Unitario := aCustoU;
       Fornecedor := FFor;
       
-{      if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
+      {if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
         if Unitario=0 then
           ShowMessage('Não há compras desse produto com esse fornecedor.') else
           ShowMessage('Dados fiscais ainda não foram gravados.');
@@ -1127,6 +1127,24 @@ begin
       trEstDevFor : begin   
         Unitario := 0; //getPrecoCusto(tProID.Value);
         edUnit.Enabled := false;
+        edUnit.Properties.ReadOnly := False;
+      end;
+
+      trEstTransf : begin
+        Unitario := getPrecoCusto(tProID.Value);
+        edUnit.Enabled := false;
+        edUnit.Properties.ReadOnly := False;
+      end;
+
+      trEstTransfEnt : begin
+        Unitario := tProCustoUnitario.Value;
+        edUnit.Enabled := True;
+        edUnit.Properties.ReadOnly := False;
+      end;
+
+      trEstOutEntr : begin
+        Unitario := getPrecoCusto(tProID.Value);
+        edUnit.Enabled := true;
         edUnit.Properties.ReadOnly := False;
       end;
     else

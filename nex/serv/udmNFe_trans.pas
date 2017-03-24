@@ -813,7 +813,7 @@ begin
 end;
 
 procedure TdmNFE_trans.GeraEmailCCE;
-var S, sEmail: String;
+var S, PDF, sEmail: String;
 begin
   tNFE.Active := True;
   if not tNFE.Locate('Chave', tCCEChave.Value, []) then Exit;
@@ -832,8 +832,12 @@ begin
   S := ExtractFilePath(ParamStr(0))+'Email\cce_'+tCCEChave.Value+'.xml';
   tCCEXMLDest.SaveToFile(S);
 
+  PDF := ExtractFilePath(ParamStr(0))+'NFE\CCE_'+tCCEChave.Value+'.pdf';;
+
+  if Not FileExists(PDF) then Exit;
+
   DebugMsg(Self, 'GeraEmailCCE - Email: '+tNFEEmail.Value);
-  TdmDanfe_nfe.EnviaEmailCCE(tNFConfigFromEmail.Value, tNFConfigNomeFantasia.Value, S, sEmail);
+  TdmDanfe_nfe.EnviaEmailCCE(tNFConfigFromEmail.Value, tNFConfigNomeFantasia.Value, S, PDF, sEmail);
 end;
 
 function TdmNFE_trans.GeraXMLProt(aChave: String): Integer;

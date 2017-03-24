@@ -468,8 +468,11 @@ const
   trZerarEstoque  = 17;
   trEstDevolucao  = 18;
   trEstDevFor     = 19;
-  
-  trMax           = trEstDevolucao;
+  trEstTransf     = 20;
+  trEstTransfEnt  = 21;
+  trEstOutEntr    = 22;
+
+  trMax           = trEstOutEntr;
 
   itMovEst    = 1;
   itCredito   = 2;
@@ -1754,7 +1757,10 @@ begin
     trAjustaCusto,
     trZerarEstoque,
     trEstDevolucao,
-    trEstDevFor]);
+    trEstDevFor,
+    trEstTransf,
+    trEstTransfEnt,
+    trEstOutEntr]);
 end;
 
 function TipoTranCaixa(aTipo: Byte): Boolean;
@@ -1769,7 +1775,10 @@ begin
     trCorrDataCx,
     trAjustaFid,
     trEstDevolucao,
-    trEstDevFor]);
+    trEstDevFor,
+    trEstTransf,
+    trEstTransfEnt,
+    trEstOutEntr]);
 end;
 
 function TipoTranToStr(const aTipoTran: Byte): String;
@@ -1790,6 +1799,9 @@ begin
     trZerarEstoque  : Result := rsZerarEstoque;
     trEstDevolucao  : Result := rsDevolucao;
     trEstDevFor     : Result := rsDevFor;
+    trEstTransf     : Result := rsTransf;
+    trEstTransfEnt  : Result := rsTasnsfEnt;
+    trEstOutEntr    : Result := rsOutEntr;
   else
     Result := '';
   end;

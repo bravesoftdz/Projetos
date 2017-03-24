@@ -322,7 +322,7 @@ begin
     if FidResgate then
       IM.imFidPontos := aFidPontos * IM.imQuant
     else begin
-      if FME.Tipo in [trEstVenda, trEstCompra] then begin
+      if FME.Tipo in [trEstVenda, trEstCompra, trEstTransfEnt] then begin
         IM.imUnitario := aValorUnit;
         IM.imTotal := aTotal;
       end;

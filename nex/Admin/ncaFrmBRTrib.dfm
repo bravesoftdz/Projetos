@@ -5,15 +5,13 @@ inherited FrmBRTrib: TFrmBRTrib
   ClientWidth = 515
   OnDestroy = FormDestroy
   OnShow = FormShow
-  ExplicitWidth = 523
-  ExplicitHeight = 332
+  ExplicitWidth = 531
+  ExplicitHeight = 340
   PixelsPerInch = 96
   TextHeight = 17
   inherited panPri: TLMDSimplePanel
     Width = 515
     Height = 255
-    ExplicitLeft = 0
-    ExplicitTop = 46
     ExplicitWidth = 515
     ExplicitHeight = 255
     object LC: TdxLayoutControl
@@ -48,7 +46,7 @@ inherited FrmBRTrib: TFrmBRTrib
         Style.HotTrack = False
         Style.StyleController = FrmPri.escFlat
         TabOrder = 1
-        Width = 420
+        Width = 388
       end
       object edOrigem: TcxDBImageComboBox
         Left = 113
@@ -107,7 +105,7 @@ inherited FrmBRTrib: TFrmBRTrib
           end>
         Style.StyleController = FrmPri.escFlat
         TabOrder = 2
-        Width = 420
+        Width = 388
       end
       object edST: TcxDBImageComboBox
         Left = 113
@@ -126,7 +124,7 @@ inherited FrmBRTrib: TFrmBRTrib
         Style.HotTrack = False
         Style.StyleController = FrmPri.escFlat
         TabOrder = 3
-        Width = 420
+        Width = 388
       end
       object edCSOSN: TcxDBImageComboBox
         Left = 113
@@ -142,7 +140,7 @@ inherited FrmBRTrib: TFrmBRTrib
         Style.HotTrack = False
         Style.StyleController = FrmPri.escFlat
         TabOrder = 4
-        Width = 420
+        Width = 388
       end
       object edCFOP_NFCe: TcxDBButtonEdit
         Left = 113
@@ -195,6 +193,8 @@ inherited FrmBRTrib: TFrmBRTrib
         CaptionOptions.Text = 'C'#243'digo'
         LayoutLookAndFeel = FrmPri.lfDestaque
         Control = edCod
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 83
         ControlOptions.ShowBorder = False
         Index = 0
       end
@@ -203,6 +203,8 @@ inherited FrmBRTrib: TFrmBRTrib
         AlignHorz = ahClient
         CaptionOptions.Text = 'Nome'
         Control = edNome
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         OnCaptionClick = lcNomeCaptionClick
         Index = 1
@@ -212,6 +214,8 @@ inherited FrmBRTrib: TFrmBRTrib
         AlignHorz = ahClient
         CaptionOptions.Text = 'Origem'
         Control = edOrigem
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         Index = 2
       end
@@ -220,6 +224,8 @@ inherited FrmBRTrib: TFrmBRTrib
         AlignHorz = ahClient
         CaptionOptions.Text = 'CST'
         Control = edST
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         Index = 3
       end
@@ -228,6 +234,8 @@ inherited FrmBRTrib: TFrmBRTrib
         AlignHorz = ahClient
         CaptionOptions.Text = 'CSOSN'
         Control = edCSOSN
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 420
         ControlOptions.ShowBorder = False
         Index = 4
       end
@@ -236,6 +244,8 @@ inherited FrmBRTrib: TFrmBRTrib
         AlignHorz = ahLeft
         CaptionOptions.Text = 'CFOP para NFCE'
         Control = edCFOP_NFCe
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 96
         ControlOptions.ShowBorder = False
         Index = 0
       end
@@ -244,6 +254,8 @@ inherited FrmBRTrib: TFrmBRTrib
         AlignHorz = ahLeft
         CaptionOptions.Text = 'Al'#237'quota ICMS'
         Control = edICMS
+        ControlOptions.OriginalHeight = 25
+        ControlOptions.OriginalWidth = 96
         ControlOptions.ShowBorder = False
         Index = 6
       end
@@ -261,6 +273,8 @@ inherited FrmBRTrib: TFrmBRTrib
         CaptionOptions.Visible = False
         Visible = False
         Control = lbCFOP
+        ControlOptions.OriginalHeight = 21
+        ControlOptions.OriginalWidth = 121
         ControlOptions.ShowBorder = False
         Index = 1
       end
@@ -268,11 +282,6 @@ inherited FrmBRTrib: TFrmBRTrib
   end
   inherited BarMgr: TdxBarManager
     LookAndFeel.SkinName = ''
-    DockControlHeights = (
-      0
-      0
-      36
-      0)
     inherited cmGravar: TdxBarLargeButton
       ImageIndex = 4
     end

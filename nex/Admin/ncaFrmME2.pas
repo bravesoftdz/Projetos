@@ -369,7 +369,6 @@ procedure TFrmME2.cbCompraClick(Sender: TObject);
 begin
   if not FShowed then Exit;
   if FprocClickCompra then Exit;
-  
 
   FprocClickCOmpra := True;
   try
@@ -379,10 +378,12 @@ begin
       cbCompra.Checked := False;
       Exit
     end;
-  
-    if cbCompra.Checked then
+
+    if (cbCompra.Checked) and (FME.Tipo = trEstCompra) then
       FME.Tipo := trEstCompra else
-      FME.Tipo := trEstEntrada;
+      if (cbCompra.Checked) and (FME.Tipo = trEstTransfEnt) then
+        FME.Tipo := trEstTransfEnt else
+        FME.Tipo := trEstEntrada;
     UpdateTipoTran;
   if cbCompra.Focused then
     FPanAddProd.FocusProd('cbCompraClick');
@@ -637,7 +638,7 @@ begin
   DebugMsg(Self, 'cmGravar 29');
   
 
-  if (FME.Tipo in [trEstVenda, trEstCompra]) and (not FidResgate) then
+  if (FME.Tipo in [trEstVenda, trEstCompra, trEstTransfEnt]) and (not FidResgate) then
     FME.SalvaDescPago;
 
   DebugMsg(Self, 'cmGravar 30');
@@ -660,7 +661,7 @@ begin
       end;
     end;
     
-    if (FME.Tipo=trEstVenda) or (FME.Tipo=trEstDevFor) then begin
+    if (FME.Tipo=trEstVenda) or (FME.Tipo=trEstDevFor) or (FME.Tipo=trEstTransf) or (FME.Tipo=trEstOutEntr) then begin
       DebugMsg(Self, 'cmGravar 33');
     
       if Dados.NFAtivo then begin
@@ -707,7 +708,7 @@ begin
     if FidResgate then
       IM.imFidPontos := aFidPontos * IM.imQuant
     else begin
-      if FME.Tipo in [trEstVenda, trEstCompra, trEstDevFor ] then begin
+      if FME.Tipo in [trEstVenda, trEstCompra, trEstDevFor, trEstTransf, trEstTransfEnt, trEstOutEntr ] then begin
         IM.imUnitario := aValorUnit;
         IM.imTotal := aTotal;
       end;
@@ -929,7 +930,7 @@ begin
   
   
   panCompra.Visible := False; //(aME.Tipo in [trEstCompra, trEstEntrada]);
-  cbCompra.Enabled := aNovo and (aME.Tipo in [trEstCompra, trEstEntrada]);
+  cbCompra.Enabled := aNovo and (aME.Tipo in [trEstCompra, trEstEntrada, trEstTransfEnt]);
   cbCompra.Checked := (aME.Tipo=trEstCompra);
   
   T := gListaTipoTran.PorTipo[aME.Tipo];
@@ -954,8 +955,12 @@ begin
     case aME.Tipo of
       trEstVenda  : FTot.InitVal(aME.PagEsp, aME.Total, aME.Desconto, aME.Pago, 0, aME.Obs, aME.ObsNF, panTot);
       trEstCompra,
-      trEstDevFor : FTot.InitCusto(aME.PAgEsp, aME.Total, aME.Desconto, aME.Obs, panTot);
-    else 
+      trEstDevFor,
+      trEstTransf,
+      trEstTransfEnt,
+      trEstOutEntr : FTot.InitCusto(aME.PAgEsp, aME.Total, aME.Desconto, aME.Obs, panTot);
+
+    else
       FTot.InitCusto(nil, 0, 0, aME.Obs, panTot);
     end;
   end;
@@ -1240,7 +1245,7 @@ begin
   FPanAddProd.TipoTran := FME.Tipo;
   FpanAddProd.SetGap(7);
 
-  btnXML.Visible := FNovo and (FME.Tipo in [trEstCompra, trEstEntrada]) and SameText(gConfig.PaisNorm, 'BR');
+  btnXML.Visible := FNovo and (FME.Tipo in [trEstCompra, trEstEntrada, trEstTransfEnt]) and SameText(gConfig.PaisNorm, 'BR');
 
   if not FShowed then
     Timer1.Enabled := True;
@@ -1482,7 +1487,7 @@ begin
       FTot.SetPagEsp(FME.PagEsp);
     end;
   end;
-  panCli.Visible := FidResgate or (FME.Tipo in [trEstVenda, trEstCompra, trEstDevFor]);
+  panCli.Visible := FidResgate or (FME.Tipo in [trEstVenda, trEstCompra, trEstDevFor, trEstTransf, trEstTransfEnt, trEstOutEntr]);
 
   FPanAddProd.TipoTran := fme.tIPO;
 

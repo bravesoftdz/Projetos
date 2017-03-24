@@ -572,7 +572,7 @@ object dmCaixa: TdmCaixa
     end
   end
   object repCaixa_pt: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DataSet = frdbCaixa
     DataSetName = 'frdbCaixa'
     DotMatrixReport = False
@@ -4367,7 +4367,7 @@ object dmCaixa: TdmCaixa
     Top = 272
   end
   object repCaixa_en: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DataSet = frdbCaixa
     DataSetName = 'frdbCaixa'
     DotMatrixReport = False
@@ -6858,7 +6858,7 @@ object dmCaixa: TdmCaixa
     Top = 80
   end
   object repCaixa_es: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DataSet = frdbCaixa
     DataSetName = 'frdbCaixa'
     DotMatrixReport = False

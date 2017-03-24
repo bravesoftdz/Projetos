@@ -308,7 +308,6 @@ object FrmBRTribPesq: TFrmBRTribPesq
         StyleHot.TextColor = clHotLight
         Properties.Alignment.Vert = taVCenter
         OnClick = lbRemoverPadraoClick
-        ExplicitLeft = 400
         AnchorY = 14
       end
     end
@@ -320,8 +319,8 @@ object FrmBRTribPesq: TFrmBRTribPesq
     FilterOptions = [foCaseInsensitive]
     TableName = 'BRTrib'
     IndexName = 'IID'
-    Left = 40
-    Top = 176
+    Left = 96
+    Top = 112
     object TabID: TWordField
       FieldName = 'ID'
     end
@@ -357,12 +356,12 @@ object FrmBRTribPesq: TFrmBRTribPesq
   end
   object DS: TDataSource
     DataSet = Tab
-    Left = 72
-    Top = 176
+    Left = 216
+    Top = 96
   end
   object cxStyleRepository1: TcxStyleRepository
-    Left = 184
-    Top = 176
+    Left = 416
+    Top = 120
     PixelsPerInch = 96
     object cxStyle1: TcxStyle
       AssignedValues = [svColor, svFont]

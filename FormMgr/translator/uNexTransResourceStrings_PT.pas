@@ -56,6 +56,9 @@ resourcestring
   rsZerarEstoque  = 'Zerar Estoque';
   rsDevolucao     = 'Devolução';
   rsDevFor        = 'Devolução ao Fornecedor';
+  rsTransf        = 'Transfenrência de Mercadoria (Saída)';
+  rsTasnsfEnt     = 'Transfenrência de Mercadoria (Entrada)';
+  rsOutEntr       = 'Ountras Entradas';
 
   rsCaixa = 'Caixa';
 

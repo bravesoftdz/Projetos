@@ -26,7 +26,7 @@ object FrmNFCeCancelarHomo: TFrmNFCeCancelarHomo
     Margins.Right = 0
     Margins.Bottom = 15
     Align = alTop
-    Caption = 'Cancelar venda feita em modo homologa'#231#227'o.'
+    Caption = 'Cancelar transa'#231#227'o feita em modo homologa'#231#227'o.'
     ParentFont = False
     Style.Font.Charset = ANSI_CHARSET
     Style.Font.Color = clWindowText
@@ -83,7 +83,7 @@ object FrmNFCeCancelarHomo: TFrmNFCeCancelarHomo
     Margins.Right = 0
     Margins.Bottom = 15
     Align = alTop
-    Caption = 'Existe uma venda feita em modo homologa'#231#227'o.'
+    Caption = 'Existe uma transa'#231#227'o feita em modo homologa'#231#227'o.'
     ParentFont = False
     Style.Font.Charset = ANSI_CHARSET
     Style.Font.Color = clWindowText
@@ -103,7 +103,7 @@ object FrmNFCeCancelarHomo: TFrmNFCeCancelarHomo
     Margins.Right = 0
     Margins.Bottom = 15
     Align = alTop
-    Caption = 'Toda venda feita em modo homologa'#231#227'o precisa ser cancelada.'
+    Caption = 'Toda transa'#231#227'o feita em modo homologa'#231#227'o precisa ser cancelada.'
     ParentFont = False
     Style.Font.Charset = ANSI_CHARSET
     Style.Font.Color = clWindowText
@@ -123,7 +123,7 @@ object FrmNFCeCancelarHomo: TFrmNFCeCancelarHomo
     Margins.Right = 0
     Margins.Bottom = 15
     Align = alTop
-    Caption = 'Cancele a venda realizada em modo homologa'#231#227'o'
+    Caption = 'Cancele a transa'#231#227'o realizada em modo homologa'#231#227'o'
     ParentFont = False
     Style.Font.Charset = ANSI_CHARSET
     Style.Font.Color = clWindowText

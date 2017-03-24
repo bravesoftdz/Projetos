@@ -324,22 +324,30 @@ begin
       sl.Values['CFOP'] := mtItemCFOP.AsString;
     if not mtItemuCom.IsNull then
       sl.Values['uCom'] := mtItemuCom.AsString;
+
+    if edPara.Value <> mtItemqCom.Value then
+      sl.Values['qComConv'] := CurrencyToStr(mtItemqCom.Value * edPara.Value)
+    else
+      if not mtItemqCom.IsNull then
+        sl.Values['qComConv'] := mtItemqCom.AsString;
+
     if not mtItemqCom.IsNull then
       sl.Values['qCom'] := mtItemqCom.AsString;
+
     if not mtItemvUnCom.IsNull then
-      sl.Values['vUnCom'] := mtItemvUnCom.AsString;
+      sl.Values['vUnCom'] := FloatParaStr(mtItemvUnCom.Value);
     if not mtItemvProd.IsNull then
-      sl.Values['vProd'] := mtItemvProd.AsString;
+      sl.Values['vProd'] := FloatParaStr(mtItemvProd.value);
     if not mtItemcEANTrib.IsNull then
       sl.Values['cEANTrib'] := mtItemcEANTrib.AsString;
     if not mtItemuTrib.IsNull then
       sl.Values['uTrib'] := mtItemuTrib.AsString;
     if not mtItemqTrib.IsNull then
-      sl.Values['qTrib'] := mtItemqTrib.AsString;
+      sl.Values['qTrib'] := FloatParaStr(mtItemqTrib.Value);
     if not mtItemvUnTrib.IsNull then
-      sl.Values['vUnTrib'] := mtItemvUnTrib.AsString;
+      sl.Values['vUnTrib'] := FloatParaStr(mtItemvUnTrib.Value);
     if not mtItemindTot.IsNull then
-      sl.Values['indTot'] := mtItemindTot.AsString;
+      sl.Values['indTot'] := mtItemindTot.asstring;
 
     //Tags do ICMS
     if not mtItemorig.IsNull then
@@ -347,27 +355,27 @@ begin
     if not mtItemmodBC.IsNull then
       sl.Values['modBC'] := mtItemmodBC.AsString;
     if not mtItemICMS_CST.isNull then
-      sl.Values['ICMS_CST'] := mtItemICMS_CST.asstring;
+      sl.Values['ICMS_CST'] := mtItemICMS_CST.AsString;
     if not mtItemCSOSN.IsNull then
       sl.Values['CSOSN'] := mtItemCSOSN.AsString;
     if not mtItemICMS_vBC.isNull  then
-      sl.Values['ICMS_vBC'] := ConverteUnid(mtItemICMS_vBC.value);
+      sl.Values['ICMS_vBC'] := FloatParaStr(mtItemICMS_vBC.value);
     if not mtItempICMS.IsNull then
-      sl.Values['pICMS'] := mtItempICMS.AsString;
+      sl.Values['pICMS'] := FloatParaStr(mtItempICMS.Value);
     if not mtItemvICMS.IsNull then
-      sl.Values['vICMS'] := ConverteUnid(mtItemvICMS.value);
+      sl.Values['vICMS'] := FloatParaStr(mtItemvICMS.Value);
 
     //Tags ICMS-ST
     if not mtItemmodBCST.IsNull then
       sl.Values['modBCST'] := mtItemmodBCST.AsString;
     if not mtItempMVAST.IsNull then
-      sl.Values['pMVAST'] := ConverteUnid(mtItempMVAST.value);
+      sl.Values['pMVAST'] := FloatParaStr(mtItempMVAST.Value);
     if not mtItemvBCST.IsNull then
-      sl.Values['vBCST'] := ConverteUnid(mtItemvBCST.value);
+      sl.Values['vBCST'] := FloatParaStr(mtItemvBCST.Value);
     if not mtItempICMSST.IsNull then
-      sl.Values['pICMSST'] := mtItempICMSST.AsString;
+      sl.Values['pICMSST'] := FloatParaStr(mtItempICMSST.Value);
     if not mtItemvICMSST.IsNull then
-      sl.Values['vICMSST'] := ConverteUnid(mtItemvICMSST.Value);
+      sl.Values['vICMSST'] := FloatParaStr(mtItemvICMSST.Value);
 
     //Tags IPI
     if not mtItemcEnq.IsNull then
@@ -375,31 +383,37 @@ begin
     if not mtItemIPI_CST.isNull then
       sl.Values['IPI_CST'] := mtItemIPI_CST.AsString;
     if not mtItemvIPI.isNull then
-      sl.Values['vIPI'] := ConverteUnid(mtItemvIPI.Value);
+      sl.Values['vIPI'] := FloatParaStr(mtItemvIPI.Value);
     if not mtItempIPI.isNull then
-      sl.Values['pIPI'] := mtItempIPI.AsString;
+      sl.Values['pIPI'] := FloatParaStr(mtItempIPI.Value);
     if not mtItemIPI_vBC.isNull then
-      sl.Values['IPI_vBC'] := ConverteUnid(mtItemIPI_vBC.Value);
+      sl.Values['IPI_vBC'] := FloatParaStr(mtItemIPI_vBC.Value);
 
     //Tags PIS
     if not mtItemPIS_CST.IsNull then
       sl.Values['PIS_CST'] := mtItemPIS_CST.AsString;
     if not mtItemPIS_vBC.IsNull then
-      sl.Values['PIS_vBC'] := ConverteUnid(mtItemPIS_vBC.value);
+      sl.Values['PIS_vBC'] := FloatParaStr(mtItemPIS_vBC.value);
     if not mtItempPis.isNull then
-      sl.values['pPIS'] := mtItempPIS.AsString;
+      sl.values['pPIS'] := FloatParaStr(mtItempPIS.Value);
     if not mtItemvPis.isNull then
-      sl.values['vPIS'] := ConverteUnid(mtItemvPIS.value);
+      sl.values['vPIS'] := FloatParaStr(mtItemvPIS.Value);
 
     //Tags Cofins
     if not mtItemCOFINS_CST.IsNull then
       sl.Values['COFINS_CST'] := mtItemCOFINS_CST.AsString;
     if not mtItemCOFINS_vBC.IsNull then
-      sl.Values['COFINS_vBC'] := ConverteUnid(mtItemCOFINS_vBC.Value);
+      sl.Values['COFINS_vBC'] := FloatParaStr(mtItemCOFINS_vBC.Value);
     if not mtItempCofins.isNull then
-      sl.values['pCofins'] := mtItempCofins.AsString;
+      sl.values['pCofins'] := FloatParaStr(mtItempCofins.Value);
     if not mtItemvCofins.isNull then
-      sl.values['vCofins'] := ConverteUnid(mtItemvCofins.Value);
+      sl.values['vCofins'] := FloatParaStr(mtItemvCofins.Value);
+
+    //Tags Frete e outros
+    if not mtItemvFrete.isNull  then
+      sl.values['vFrete'] := (mtItemvFrete.Value);
+    if not mtItemvOutro.IsNull then
+      sl.values['vOutro'] := (mtItemvOutro.value);
   end;
 end;
 
@@ -422,7 +436,8 @@ begin
       tDFChaveNFE.Value := SoDig(dmDanfe.mtIDEchave_acesso.AsString);
       tDFCNPJFor.Value := SoDig(dmDanfe.mtEmitCNPJ.Value);
       tDFNomeFor.Value := dmDanfe.mtEmitxNome.Value;
-      tDFDataNF.Value := StrToDateTime(dmDanfe.mtIDEdata_emissao.Value);
+      if SoDig(dmDanfe.mtIDEdata_emissao.AsString) <> '' then
+        tDFDataNF.Value := StrToDateTime(dmDanfe.mtIDEdata_emissao.Value);
       tDFnItem.Value := mtItem.Value;
       tDFProduto.Value := mtProduto.Value;  
       tDFQuant.Value := QuantFator;

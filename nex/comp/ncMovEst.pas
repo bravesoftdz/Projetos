@@ -652,7 +652,7 @@ end;
 
 function TncItemMovEst.Entrada: Boolean;
 begin
-  Result := (imTipoTran in [trEstCompra, trEstEntrada, trEstDevolucao]);
+  Result := (imTipoTran in [trEstCompra, trEstEntrada, trEstDevolucao, trEstTransfEnt]);
 end;
 
 function TncItemMovEst.Fator: Integer;

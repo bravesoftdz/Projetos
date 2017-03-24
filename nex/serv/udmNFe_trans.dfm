@@ -645,7 +645,8 @@ object dmNFE_trans: TdmNFE_trans
     DanfeSettings.ImprimirDuplicata = True
     DanfeSettings.MensagemPartilhaAutomatica = False
     DanfeSettings.ImprimirUnidadeTributada = False
-    Versao = '8.7.35.51326'
+    DanfeSettings.ImprimirObsCont = False
+    Versao = '8.7.37.52946'
     CaracteresRemoverAcentos = #225#233#237#243#250#224#232#236#242#249#226#234#238#244#251#228#235#239#246#252#227#245#241#231#193#201#205#211#218#192#200#204#210#217#194#202#206#212#219#196#203#207#214#220#195#213#209#199#186#170
     TipoCertificado = ckMemory
     DiretorioTemplates = 

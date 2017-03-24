@@ -182,7 +182,9 @@ const
   daAlterarVendedor  = 74;
   daCCe              = 75;
   daEstDevFor        = 76;
-  
+  daEstTransf        = 77;
+  daEstOutEntr       = 78;
+  daEstTransfEntr    = 79;
 
   daQuantidade        = daEstDevFor;
 

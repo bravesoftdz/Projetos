@@ -513,7 +513,7 @@ resourcestring
   rsTransfMaq     = 'TRANSFERÊNCIA DE MÁQUINA'; 
   rsZerarEstoque  = 'ZERAR ESTOQUE';
   rsEtDevFor      = 'DEVOLUÇÃO AO FORNECEDOR';
-
+  rsEstTransf     = 'TRANSFERÊNCIA DE MERCADORIA (Saída)';
 
 function strTotalPagar: String;
 begin

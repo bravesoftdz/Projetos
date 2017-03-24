@@ -200,6 +200,8 @@ type
     mtItemuTrib: TStringField;
     xmlPreview: TLMDTextContainer;
     mtItempICMSST: TFloatField;
+    mtItemvFrete: TStringField;
+    mtItemvOutro: TStringField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);
@@ -224,8 +226,8 @@ type
     procedure EnviaEmail(aFromEmail, aFromName, aAssunto: String; aDest: String = '');
 
     function GetMSEmail(aFromEmail, aFromName, aAssunto: String; aDest: String = ''): TIdMultiPartFormDataStream;
-    class function GetMSEmailCCE(aFromEmail, aFromName, aArqXMLcce, aDest: String):  TIdMultiPartFormDataStream;
-    class procedure EnviaEmailCCE(aFromEmail, aFromName, aArqXMLcce, aDest: String);
+    class function GetMSEmailCCE(aFromEmail, aFromName, aArqXMLcce, aArqPDFcce, aDest: String):  TIdMultiPartFormDataStream;
+    class procedure EnviaEmailCCE(aFromEmail, aFromName, aArqXMLcce, aArqPDFcce, aDest: String);
     
 
     procedure LoadXMLExemplo;
@@ -530,7 +532,7 @@ begin
   end;  
 end;
 
-class function TdmDanfe_nfe.GetMSEmailCCE(aFromEmail, aFromName, aArqXMLcce,
+class function TdmDanfe_nfe.GetMSEmailCCE(aFromEmail, aFromName, aArqXMLcce, aArqPDFcce,
   aDest: String): TIdMultiPartFormDataStream;
 var
   ms : TIdMultiPartFormDataStream;
@@ -561,8 +563,9 @@ begin
         AddParam('to[][name]', '');
         AddParam('subject', 'Carta de Correção NF-e');
         AddParam('body', 'Segue anexa Carta de Correção de NF-e.');
-        AddParam('tags', 'nfe');
+        AddParam('tags', 'cce');
         AddArq('file', aArqXMLcce, 'application/xml');
+        AddArq('file2', aArqPDFcce, 'application/pdf');
         DebugMsg('TdmDanfe_nfe.GeraMSEmailCCE - Parametros: '+sLineBreak+slDebug.Text);
       finally  
         slDebug.Free;
@@ -654,7 +657,7 @@ begin
   end;
 end;
 
-class procedure TdmDanfe_nfe.EnviaEmailCCE(aFromEmail, aFromName, aArqXMLcce, aDest: String);
+class procedure TdmDanfe_nfe.EnviaEmailCCE(aFromEmail, aFromName, aArqXMLcce, aArqPDFcce, aDest: String);
 var
   ms : TIdMultiPartFormDataStream;
 begin
@@ -662,7 +665,7 @@ begin
   
   ms := nil;
   try
-    ms := GetMSEmailCCE(aFromEmail, aFromName, aArqXMLcce, aDest);
+    ms := GetMSEmailCCE(aFromEmail, aFromName, aArqXMLcce, aArqPDFcce, aDest);
     if ms=nil then Exit;
     with ThttpThreadPost.Create(gUrls.Url('mailer', '', False), ms, 5) do begin
       Resume;

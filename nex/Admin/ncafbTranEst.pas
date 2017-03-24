@@ -268,6 +268,7 @@ type
     tMovEstObs: TWideMemoField;
     tMovEstVenDev: TBooleanField;
     tMovEstDadosFiscais: TnxMemoField;
+    cmTransf: TdxBarButton;
     procedure cmCancelarClick(Sender: TObject);
     procedure TVTotalGetDisplayText(Sender: TcxCustomGridTableItem;
       ARecord: TcxCustomGridRecord; var AText: string);
@@ -345,6 +346,7 @@ type
       ANewItemRecordFocusingChanged: Boolean);
     procedure cmImpReciboClick(Sender: TObject);
     procedure cmDevForClick(Sender: TObject);
+    procedure cmTransfClick(Sender: TObject);
   private
     FLastCxFiltro : Integer;
     FBool : Boolean;
@@ -569,7 +571,10 @@ begin
   //NexAdmin.ini Adiciona a TAG Dev = 1 para testes.
 
   if slConfig.Values['Dev'] = '1'  then
+  begin
     cmDevFor.Visible := ivAlways;
+    cmTransf.Visible := ivAlways;
+  end;
 
   TVTipoNFE.Visible := Dados.NFeAtivo and Dados.NFCeAtivo;
   TVTipoNFE.VisibleForCustomization := TVTipoNFE.Visible;
@@ -786,6 +791,10 @@ begin
   //Esta mesma tela pode ser entrada, saida, devolução de pedido, devolução de NF
   T := Byte(cmTipoTran.Items.Objects[cmTipoTran.ItemIndex]);
 
+  if not (T in [trEstEntrada, trEstSaida, trEstTransfEnt, trEstCompra]) then
+    if (not _PodeVender) then
+      Exit;
+
   case T of
     //se a transação for do tipo Saida e usuário não tiver autorização sai do processo
     trEstSaida :
@@ -810,6 +819,18 @@ begin
      //Se a transação for do tipo devolução ao fornecedor e usuário não tiver autorização sai do processo
     trEstDevFor :
       if not PodeOper(daEstDevFor) then
+        Exit;
+    //se a trasnsação for do tipo Transferencia entre filiais
+    trEstTransf :
+      if not PodeOper(daEstTransf) then
+        Exit;
+    //se a transação for do tipo entrada de transferencia
+    trEstTransfEnt :
+      if not PodeOper(daEstTransfEntr) then
+        Exit;
+    //se a transação for do tipo outras entradas
+    trEstOutEntr :
+      if not PodeOper(daEstOutEntr) then
         Exit;
   end;
 
@@ -837,12 +858,15 @@ begin
       if Tab.Locate('UID', G.ToString, []) then
         tMovEst.Locate('Tran', TabID.Value, []);
     end;
-    //caso a transação seja uma devolução ao fornecedor.
-    //montar aqui a parte da devolução ao fornecedor.
-
   else
     Dados.NovoMovEst(T, 0);
   end;
+end;
+
+procedure TfbTranEst.cmTransfClick(Sender: TObject);
+begin
+  inherited;
+  Dados.NovoMovEst(trEstTransf, 0);
 end;
 
 procedure TfbTranEst.tvDetNomeTipoTranCompareRowValuesForCellMerging(
@@ -1697,7 +1721,7 @@ begin
   Result := False;
   if not TFrmNFCeDepend.DependOk then Exit;
   if not FrmPanTopo.PodeVender then Exit;
-  if TFrmNFCeCancelarHomo.ExisteVendaHomo('Cancele a venda realizada para poder realizar outra venda.') then Exit;
+  if TFrmNFCeCancelarHomo.ExisteVendaHomo('Cancele a transação realizada para poder realizar outra operação.') then Exit;
   if not TFrmNFCeImpedirDeslig.PodeVender then Exit;
   Result := True;
 end;

@@ -12,8 +12,6 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
   inherited panPri: TLMDSimplePanel
     Width = 792
     Height = 537
-    ExplicitLeft = 0
-    ExplicitTop = 46
     ExplicitWidth = 792
     ExplicitHeight = 537
     object LC: TdxLayoutControl
@@ -545,11 +543,52 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
   end
   inherited defStyle: TcxDefaultEditStyleController
     Style.IsFontAssigned = True
-    Left = 210
-    Top = 0
+    Top = 40
     PixelsPerInch = 96
   end
   inherited MT: TkbmMemTable
+    FieldDefs = <
+      item
+        Name = 'ID'
+        DataType = ftWord
+      end
+      item
+        Name = 'Nome'
+        DataType = ftString
+        Size = 50
+      end
+      item
+        Name = 'Origem'
+        DataType = ftByte
+      end
+      item
+        Name = 'CST'
+        DataType = ftWord
+      end
+      item
+        Name = 'CSOSN'
+        DataType = ftWord
+      end
+      item
+        Name = 'ICMS'
+        DataType = ftFloat
+      end
+      item
+        Name = 'Padrao'
+        DataType = ftBoolean
+      end
+      item
+        Name = 'CFOP_nfce'
+        DataType = ftWord
+      end
+      item
+        Name = 'NFE_CredIcms'
+        DataType = ftBoolean
+      end
+      item
+        Name = 'ICMSSt'
+        DataType = ftMemo
+      end>
     Left = 368
     Top = 60
     object MTID: TWordField
@@ -657,8 +696,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
     SortID = 0
     SubLanguageID = 1
     LocaleID = 1024
-    Left = 146
-    Top = 384
+    Left = 594
+    Top = 128
     object mtItenscsosn: TLongWordField
       Alignment = taLeftJustify
       FieldName = 'csosn'
@@ -693,8 +732,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
   end
   object dsItens: TDataSource
     DataSet = mtItens
-    Left = 370
-    Top = 296
+    Left = 634
+    Top = 80
   end
   object mtST: TkbmMemTable
     Active = True
@@ -730,8 +769,8 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
     SortID = 0
     SubLanguageID = 1
     LocaleID = 1024
-    Left = 72
-    Top = 176
+    Left = 520
+    Top = 80
     object mtSTuf: TStringField
       FieldName = 'UF'
       Size = 2
@@ -742,7 +781,7 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
   end
   object dsST: TDataSource
     DataSet = mtST
-    Left = 120
-    Top = 176
+    Left = 680
+    Top = 144
   end
 end

@@ -1359,7 +1359,7 @@ object dmComp: TdmComp
     Top = 32
   end
   object repWin: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -1719,7 +1719,7 @@ object dmComp: TdmComp
     Top = 104
   end
   object repWinB: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -2146,7 +2146,7 @@ object dmComp: TdmComp
     end
   end
   object repCust: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -2714,7 +2714,7 @@ object dmComp: TdmComp
     Top = 88
   end
   object repSerial: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = True
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -3008,7 +3008,7 @@ object dmComp: TdmComp
     Top = 280
   end
   object repDebWin: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -3388,7 +3388,7 @@ object dmComp: TdmComp
     end
   end
   object repDebWinB: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]
@@ -3826,7 +3826,7 @@ object dmComp: TdmComp
     end
   end
   object repDebSerial: TfrxReport
-    Version = '5.5.11'
+    Version = '5.5'
     DotMatrixReport = True
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator]

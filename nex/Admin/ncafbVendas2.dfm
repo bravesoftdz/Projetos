@@ -41,7 +41,7 @@ inherited fbVendas2: TfbVendas2
       Font.Style = []
       ParentFont = False
       TabOrder = 1
-      Properties.ActivePage = tsPend
+      Properties.ActivePage = tsVendas
       Properties.CustomButtons.Buttons = <>
       Properties.Images = dmImagens.im16
       Properties.ShowFrame = True
@@ -1697,6 +1697,10 @@ inherited fbVendas2: TfbVendas2
       object tsCont: TcxTabSheet
         Caption = 'NF em Conting'#234'ncia'
         ImageIndex = 18
+        ExplicitLeft = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object gridCont: TcxGrid
           Left = 0
           Top = 0
