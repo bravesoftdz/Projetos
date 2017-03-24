@@ -248,7 +248,7 @@ object FrmPesqDadosFiscais: TFrmPesqDadosFiscais
     TableName = 'DadosFiscais'
     IndexName = 'IProdutoDataNF'
     Left = 420
-    Top = 162
+    Top = 130
     object TabID: TUnsignedAutoIncField
       FieldName = 'ID'
     end
@@ -294,7 +294,7 @@ object FrmPesqDadosFiscais: TFrmPesqDadosFiscais
   end
   object DS: TDataSource
     DataSet = Tab
-    Left = 184
-    Top = 152
+    Left = 360
+    Top = 128
   end
 end

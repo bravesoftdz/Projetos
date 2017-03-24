@@ -477,7 +477,7 @@ begin
       Unitario := aCustoU;
       Fornecedor := FFor;
       
-{      if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
+      {if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
         if Unitario=0 then
           ShowMessage('Não há compras desse produto com esse fornecedor.') else
           ShowMessage('Dados fiscais ainda não foram gravados.');

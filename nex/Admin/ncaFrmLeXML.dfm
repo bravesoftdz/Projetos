@@ -289,6 +289,9 @@ object FrmLeXML: TFrmLeXML
       object tsProd: TcxTabSheet
         Caption = 'tsProd'
         ImageIndex = 0
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object Splitter: TLMDSplitterPanel
           Left = 0
           Top = 30
@@ -501,9 +504,8 @@ object FrmLeXML: TFrmLeXML
               Properties.ActivePage = tsConvUnid
               Properties.CustomButtons.Buttons = <>
               LookAndFeel.Kind = lfUltraFlat
-              ClientRectBottom = 359
-              ClientRectLeft = 4
-              ClientRectRight = 317
+              ClientRectBottom = 363
+              ClientRectRight = 321
               ClientRectTop = 28
               object tsSugestao: TcxTabSheet
                 Caption = 'tsSugestao'
@@ -518,12 +520,12 @@ object FrmLeXML: TFrmLeXML
                   StyleDisabled.LookAndFeel.Kind = lfFlat
                   TabOrder = 0
                   Height = 305
-                  Width = 313
+                  Width = 321
                   object btnPesquisar: TLMDButton
                     AlignWithMargins = True
                     Left = 12
                     Top = 205
-                    Width = 289
+                    Width = 297
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -551,7 +553,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 12
                     Top = 163
-                    Width = 289
+                    Width = 297
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -587,12 +589,13 @@ object FrmLeXML: TFrmLeXML
                     Caption = 'N'#227'o '#233' esse?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
+                    ExplicitTop = 136
                   end
                   object btnAceitarSug: TLMDButton
                     AlignWithMargins = True
                     Left = 12
                     Top = 90
-                    Width = 289
+                    Width = 297
                     Height = 32
                     Hint = ''
                     Margins.Left = 10
@@ -630,6 +633,7 @@ object FrmLeXML: TFrmLeXML
                     Caption = #201' esse mesmo?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
+                    ExplicitTop = 63
                   end
                   object lbProdutoSugerido: TcxLabel
                     AlignWithMargins = True
@@ -654,7 +658,7 @@ object FrmLeXML: TFrmLeXML
                     Style.IsFontAssigned = True
                     Properties.Alignment.Vert = taVCenter
                     Properties.WordWrap = True
-                    Width = 289
+                    Width = 297
                     AnchorY = 36
                   end
                 end
@@ -662,10 +666,13 @@ object FrmLeXML: TFrmLeXML
               object tsSemProd: TcxTabSheet
                 Caption = 'tsSemProd'
                 ImageIndex = 1
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
-                  Width = 313
+                  Width = 321
                   Height = 32
                   Hint = ''
                   Margins.Left = 0
@@ -693,7 +700,7 @@ object FrmLeXML: TFrmLeXML
                   AlignWithMargins = True
                   Left = 0
                   Top = 42
-                  Width = 313
+                  Width = 321
                   Height = 32
                   Hint = ''
                   Margins.Left = 0
@@ -721,6 +728,9 @@ object FrmLeXML: TFrmLeXML
               object tsSemUnid: TcxTabSheet
                 Caption = 'tsSemUnid'
                 ImageIndex = 2
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
                 object LMDHTMLLabel2: TLMDHTMLLabel
                   Left = 0
                   Top = 0
@@ -749,7 +759,7 @@ object FrmLeXML: TFrmLeXML
                 object LMDSimplePanel3: TLMDSimplePanel
                   Left = 0
                   Top = 38
-                  Width = 313
+                  Width = 321
                   Height = 32
                   Hint = ''
                   Align = alTop
@@ -784,7 +794,7 @@ object FrmLeXML: TFrmLeXML
                 object lbUnidProd: TLMDHTMLLabel
                   Left = 0
                   Top = 46
-                  Width = 313
+                  Width = 321
                   Height = 25
                   Margins.Left = 0
                   Margins.Right = 0
@@ -807,7 +817,7 @@ object FrmLeXML: TFrmLeXML
                 object lbUnidXML: TLMDHTMLLabel
                   Left = 0
                   Top = 21
-                  Width = 313
+                  Width = 321
                   Height = 25
                   Margins.Left = 0
                   Margins.Right = 0
@@ -868,7 +878,7 @@ object FrmLeXML: TFrmLeXML
                 object panRegra: TLMDSimplePanel
                   Left = 0
                   Top = 112
-                  Width = 313
+                  Width = 321
                   Height = 34
                   Hint = ''
                   Margins.Left = 0
@@ -883,7 +893,7 @@ object FrmLeXML: TFrmLeXML
                     AlignWithMargins = True
                     Left = 0
                     Top = 3
-                    Width = 313
+                    Width = 321
                     Height = 31
                     Hint = ''
                     Margins.Left = 0
@@ -935,6 +945,7 @@ object FrmLeXML: TFrmLeXML
                       StyleHot.LookAndFeel.Kind = lfFlat
                       TabOrder = 1
                       OnEnter = edParaEnter
+                      ExplicitHeight = 21
                       Width = 50
                     end
                     object lbPara: TcxLabel
@@ -1003,7 +1014,7 @@ object FrmLeXML: TFrmLeXML
                 end
                 object edUniv: TcxDBCheckBox
                   Left = 0
-                  Top = 297
+                  Top = 314
                   Cursor = crHandPoint
                   Align = alBottom
                   Caption = 'A convers'#227'o de CX para PC '#233' sempre igual, para TODOS produtos.'
@@ -1024,13 +1035,15 @@ object FrmLeXML: TFrmLeXML
                   StyleFocused.LookAndFeel.Kind = lfFlat
                   StyleHot.LookAndFeel.Kind = lfFlat
                   TabOrder = 4
-                  ExplicitTop = 310
-                  Width = 313
+                  Width = 321
                 end
               end
               object tsOk: TcxTabSheet
                 Caption = 'tsOk'
                 ImageIndex = 4
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
               end
             end
             object LMDSimplePanel1: TLMDSimplePanel
@@ -1264,7 +1277,7 @@ object FrmLeXML: TFrmLeXML
             Style.StyleController = FrmPri.escFlat
             Style.IsFontAssigned = True
             TabOrder = 0
-            Width = 150
+            Width = 728
           end
           object cxLabel10: TcxLabel
             AlignWithMargins = True
@@ -1291,7 +1304,7 @@ object FrmLeXML: TFrmLeXML
           object cxLabel11: TcxLabel
             AlignWithMargins = True
             Left = 12
-            Top = 71
+            Top = 63
             Margins.Left = 10
             Margins.Top = 0
             Margins.Right = 10
@@ -1315,7 +1328,7 @@ object FrmLeXML: TFrmLeXML
           object cbEntrada: TcxCheckBox
             AlignWithMargins = True
             Left = 12
-            Top = 137
+            Top = 129
             Margins.Left = 10
             Margins.Top = 20
             Margins.Right = 10
@@ -1337,6 +1350,8 @@ object FrmLeXML: TFrmLeXML
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 3
+            ExplicitTop = 137
+            ExplicitWidth = 121
           end
         end
       end
@@ -1503,8 +1518,8 @@ object FrmLeXML: TFrmLeXML
     SubLanguageID = 1
     LocaleID = 1024
     OnCalcFields = mtCalcFields
-    Left = 168
-    Top = 143
+    Left = 176
+    Top = 367
     object mtitem: TWordField
       FieldName = 'item'
     end
@@ -1591,8 +1606,8 @@ object FrmLeXML: TFrmLeXML
   end
   object ds: TDataSource
     DataSet = mt
-    Left = 248
-    Top = 199
+    Left = 232
+    Top = 303
   end
   object imgs: TcxImageList
     Height = 48
@@ -3071,8 +3086,8 @@ object FrmLeXML: TFrmLeXML
     Database = Dados.db
     TableName = 'ConvUnid'
     IndexName = 'IABUniv'
-    Left = 304
-    Top = 152
+    Left = 408
+    Top = 368
     object tConvUnidUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -3103,8 +3118,8 @@ object FrmLeXML: TFrmLeXML
     Database = Dados.db
     TableName = 'ProdFor'
     IndexName = 'IForRef'
-    Left = 312
-    Top = 200
+    Left = 272
+    Top = 304
     object tProdForUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -3124,16 +3139,16 @@ object FrmLeXML: TFrmLeXML
   end
   object OpenXML: TOpenDialog
     Filter = 'XML|*.XML'
-    Left = 80
-    Top = 188
+    Left = 128
+    Top = 300
   end
   object tLinkXML: TnxTable
     ActiveRuntime = True
     Database = Dados.db
     TableName = 'LinkXML'
     IndexName = 'IForLink'
-    Left = 245
-    Top = 146
+    Left = 269
+    Top = 362
     object tLinkXMLUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -3153,8 +3168,8 @@ object FrmLeXML: TFrmLeXML
     Database = Dados.db
     TableName = 'Tran'
     IndexName = 'IChaveNFE'
-    Left = 168
-    Top = 194
+    Left = 184
+    Top = 298
     object tTranChaveNFE: TStringField
       FieldName = 'ChaveNFE'
       Size = 44
@@ -3178,7 +3193,7 @@ object FrmLeXML: TFrmLeXML
     TableName = 'DadosFiscais'
     IndexName = 'IChaveNFEnItem'
     Left = 420
-    Top = 162
+    Top = 314
     object tDFID: TUnsignedAutoIncField
       FieldName = 'ID'
     end

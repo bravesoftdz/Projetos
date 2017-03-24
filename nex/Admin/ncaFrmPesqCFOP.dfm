@@ -122,9 +122,9 @@ object FrmPesqCFOP: TFrmPesqCFOP
             end>
         end>
       Filtering.ColumnPopup.MaxDropDownItemCount = 12
-      OptionsBehavior.ImmediateEditor = False
       OptionsBehavior.IncSearch = True
       OptionsBehavior.IncSearchItem = TVCodigo
+      OptionsBehavior.ImmediateEditor = False
       OptionsCustomize.ColumnFiltering = False
       OptionsCustomize.ColumnGrouping = False
       OptionsCustomize.ColumnsQuickCustomization = True
@@ -191,11 +191,12 @@ object FrmPesqCFOP: TFrmPesqCFOP
   end
   object Tab: TnxTable
     ActiveRuntime = True
+    ActiveDesigntime = True
     Database = Dados.db
     Timeout = 10000
     FilterOptions = [foCaseInsensitive]
     TableName = 'CFOP'
-    IndexName = 'ICodigo'
+    IndexName = 'ITipoCodigoOrigem'
     Left = 40
     Top = 176
     object TabCodigo: TWordField
@@ -220,11 +221,14 @@ object FrmPesqCFOP: TFrmPesqCFOP
     object TabCSOSN: TWordField
       FieldName = 'CSOSN'
     end
+    object TabOrigem: TWordField
+      FieldName = 'Origem'
+    end
   end
   object DS: TDataSource
     DataSet = Tab
-    Left = 72
-    Top = 176
+    Left = 104
+    Top = 144
   end
   object cxStyleRepository1: TcxStyleRepository
     Left = 184

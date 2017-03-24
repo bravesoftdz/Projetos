@@ -136,7 +136,8 @@ begin
     FpesqCFOP := gPesqCFOPList.GetFrm;
 
   aCod := StrToIntDef(edCFOP_NFCE.EditText, 0);
-  aOk := FpesqCFOP.Pesquisar(aCod, filtro_nfce);
+
+  aOk := FpesqCFOP.Pesquisar(4, 0, aCod, filtro_nfce);
   Dados.tCFOP.refresh;
   if aOk then
     MTCFOP_NFCE.Value := aCod;
@@ -348,10 +349,13 @@ begin
     FpesqCFOP := gPesqCFOPList.GetFrm;
 
   aCod := mtItensCFOP.Value;
-  aOk := FpesqCFOP.Pesquisar(aCod);
+
+  aOk := FpesqCFOP.Pesquisar(mtItenstipo.value, mtItenslocal.Value, aCod);
   Dados.tCFOP.refresh;
+
   if aOk then begin
-    if mtItens.State<>dsEdit then mtItens.Edit;
+    if mtItens.State<>dsEdit then
+      mtItens.Edit;
     mtItensCFOP.Value := aCod;
     if Trim(mtItensnatop.Value)='' then
       mtItensnatop.Value := FpesqCFOP.TabDescricao.Value;
@@ -364,7 +368,7 @@ begin
   S := SoDig(edCFOP_NFCe.Text);
   with Dados do begin
     FCFOPOk := (S>'') and tCFOP.FindKey([S]) and tCFOPNFCe.Value;
-    if FCFOPOk then 
+    if FCFOPOk then
       lbCFOP.Caption := tCFOPDescricao.Value 
     else begin
       if edCFOP_nfce.Text>'' then

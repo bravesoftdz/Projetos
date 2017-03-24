@@ -12,6 +12,7 @@ type
   TFrmBaseCadastroMT = class(TFrmBaseCadastro)
     MT: TkbmMemTable;
     DS: TDataSource;
+    dxBarButton1: TdxBarButton;
     procedure FormCreate(Sender: TObject);
     procedure cmCancelarClick(Sender: TObject);
   private

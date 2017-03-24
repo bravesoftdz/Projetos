@@ -536,8 +536,8 @@ object FrmProduto: TFrmProduto
               Width = 189
             end
             object edNCM: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 314
               OnFocusChanged = edNCMFocusChanged
               DataBinding.DataField = 'NCM'
               DataBinding.DataSource = dsMT
@@ -555,23 +555,21 @@ object FrmProduto: TFrmProduto
               Properties.OnChange = edNCMPropertiesChange
               Style.StyleController = escFlat
               TabOrder = 25
-              Visible = False
               Width = 109
             end
             object lbNCM: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 314
               Caption = 'lbNCM'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 329
             end
             object lbInfoNCM: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 351
               Caption = 
                 'NCM: Nomeclatura Comum do Mercosul. Esse campo '#233' necess'#225'rio para' +
                 ' a emiss'#227'o de NF.'
@@ -586,12 +584,11 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               Width = 472
             end
             object edCest: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 377
               OnFocusChanged = edCestFocusChanged
               AutoSize = False
               DataBinding.DataField = 'cest'
@@ -611,26 +608,24 @@ object FrmProduto: TFrmProduto
               Style.HotTrack = False
               Style.StyleController = escFlat
               TabOrder = 28
-              Visible = False
               Height = 29
               Width = 109
             end
             object lbCEST: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 377
               Cursor = crHandPoint
               Caption = 'lbCEST'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
-              AnchorY = 10015
+              AnchorY = 392
             end
             object lbInfoCest: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 414
               AutoSize = False
               Caption = 
                 'CEST: C'#243'digo Especificador da Substitui'#231#227'o Tribut'#225'ria. Pressione' +
@@ -646,14 +641,13 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
               Height = 18
               Width = 690
             end
             object edBrTrib: TcxDBButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 440
               OnFocusChanged = edBrTribFocusChanged
               DataBinding.DataField = 'brtrib'
               DataBinding.DataSource = dsMT
@@ -672,25 +666,23 @@ object FrmProduto: TFrmProduto
               Style.HotTrack = False
               Style.StyleController = escFlat
               TabOrder = 31
-              Visible = False
               OnKeyDown = edBrTribKeyDown
               OnKeyPress = edBrTribKeyPress
               Width = 109
             end
             object lbBrTrib: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 440
               Caption = 'lbBrTrib'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 455
             end
             object lbInfoBrTrib: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 477
               Caption = 
                 'Digite o c'#243'digo de tributa'#231#227'o ou pressione F5. Esse campo '#233' obri' +
                 'gat'#243'rio para emiss'#227'o de NF. '
@@ -705,12 +697,11 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
-              Width = 490
+              Width = 765
             end
             object edICMSST: TcxButtonEdit
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 503
               OnFocusChanged = edICMSSTFocusChanged
               ParentFont = False
               Properties.Buttons = <
@@ -728,25 +719,23 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 34
               Text = 'por MVA'
-              Visible = False
               OnKeyDown = edICMSSTKeyDown
               OnKeyPress = edICMSSTKeyPress
               Width = 109
             end
             object lbDescrSt: TcxLabel
-              Left = 10000
-              Top = 10004
+              Left = 238
+              Top = 503
               Caption = 'Pauta'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              Visible = False
-              AnchorY = 10015
+              AnchorY = 518
             end
             object lbHintSt: TcxLabel
-              Left = 10000
-              Top = 10000
+              Left = 121
+              Top = 540
               AutoSize = False
               Caption = 
                 'ICMS ST: Pressione F9 para definir as regras de c'#225'lculo do ICMS ' +
@@ -762,7 +751,6 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               Properties.WordWrap = True
               Transparent = True
-              Visible = False
               OnClick = lbCESTClick
               Height = 18
               Width = 765
@@ -1132,8 +1120,8 @@ object FrmProduto: TFrmProduto
               Width = 86
             end
             object edTax: TcxDBButtonEdit
-              Left = 78
-              Top = 314
+              Left = 10000
+              Top = 10000
               DataBinding.DataField = 'tax_name'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -1148,6 +1136,7 @@ object FrmProduto: TFrmProduto
               Style.StyleController = escFlat
               StyleDisabled.TextColor = clBlack
               TabOrder = 22
+              Visible = False
               OnKeyDown = edICMSSTKeyDown
               OnKeyPress = edICMSSTKeyPress
               Width = 189
@@ -1263,8 +1252,8 @@ object FrmProduto: TFrmProduto
               OnClick = cbCodigoAutoClick
             end
             object lbSetTaxDef: TcxLabel
-              Left = 461
-              Top = 314
+              Left = 10000
+              Top = 10000
               Cursor = crHandPoint
               Caption = 'Definir taxa'#231#227'o padr'#227'o'
               ParentFont = False
@@ -1282,12 +1271,13 @@ object FrmProduto: TFrmProduto
               StyleHot.TextColor = clHotLight
               Properties.Alignment.Vert = taVCenter
               Transparent = True
+              Visible = False
               OnClick = lbSetTaxDefClick
-              AnchorY = 329
+              AnchorY = 10015
             end
             object edTaxDef: TcxDBCheckBox
-              Left = 275
-              Top = 314
+              Left = 10000
+              Top = 10000
               Cursor = crHandPoint
               Caption = 'Seguir Taxa'#231#227'o Padr'#227'o'
               DataBinding.DataField = 'tax_def'
@@ -1307,6 +1297,7 @@ object FrmProduto: TFrmProduto
               Style.IsFontAssigned = True
               TabOrder = 23
               Transparent = True
+              Visible = False
             end
             object LCGroup_Root: TdxLayoutGroup
               AlignHorz = ahClient
@@ -1530,7 +1521,6 @@ object FrmProduto: TFrmProduto
               Parent = grBottom
               CaptionOptions.Text = 'Tributa'#231#227'o'
               ButtonOptions.Buttons = <>
-              ItemIndex = 3
               Index = 2
             end
             object dxLayoutAutoCreatedGroup2: TdxLayoutAutoCreatedGroup
@@ -1720,7 +1710,7 @@ object FrmProduto: TFrmProduto
               CaptionOptions.Text = 'New Group'
               CaptionOptions.Visible = False
               ButtonOptions.Buttons = <>
-              ItemIndex = 1
+              ItemIndex = 2
               LayoutDirection = ldTabbed
               LayoutLookAndFeelException = True
               Padding.AssignedValues = [lpavBottom, lpavLeft]
@@ -2507,8 +2497,8 @@ object FrmProduto: TFrmProduto
     PopupMenuLinks = <>
     SunkenBorder = True
     UseSystemFont = True
-    Left = 80
-    Top = 528
+    Left = 712
+    Top = 416
     DockControlHeights = (
       0
       0
@@ -3014,8 +3004,8 @@ object FrmProduto: TFrmProduto
     Top = 352
   end
   object dxLayoutLookAndFeelList1: TdxLayoutLookAndFeelList
-    Left = 656
-    Top = 552
+    Left = 768
+    Top = 448
     object dxLayoutWebLookAndFeel1: TdxLayoutWebLookAndFeel
     end
     object dxLayoutStandardLookAndFeel1: TdxLayoutStandardLookAndFeel

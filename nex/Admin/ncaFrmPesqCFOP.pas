@@ -57,6 +57,7 @@ type
     TabNFCe: TBooleanField;
     TabOrdem: TByteField;
     TabCSOSN: TWordField;
+    TabOrigem: TWordField;
     procedure TVDblClick(Sender: TObject);
     procedure btnOkClick(Sender: TObject);
     procedure btnCancelClick(Sender: TObject);
@@ -78,7 +79,7 @@ type
   public
     procedure FiltraDados; 
 
-    function Pesquisar(var aCodigo: Word; aFiltro: Byte = 0): Boolean;
+    function Pesquisar(iTipo: integer; iOrigem: integer; var aCodigo: Word; aFiltro: Byte = 0): Boolean;
 
   end;
 
@@ -136,10 +137,13 @@ begin
   if (Key = #13) or (Key = #27) then Key := #0;
 end;
 
-function TFrmPesqCFOP.Pesquisar(var aCodigo: Word; aFiltro : Byte = 0): Boolean;
+function TFrmPesqCFOP.Pesquisar(iTipo: integer; iOrigem: integer; var aCodigo: Word; aFiltro : Byte = 0): Boolean;
 begin
-  case aFiltro of 
-    filtro_nfce : begin  
+
+  Tab.SetRange([iTipo, iOrigem], [iTipo, iOrigem]);
+
+  case aFiltro of
+    filtro_nfce : begin
       Tab.Filter := 'NFCe = true';
       Tab.Filtered := True;
     end;
@@ -147,10 +151,11 @@ begin
     Tab.Filter := '';
     Tab.Filtered := False;
   end;
-  if (aCodigo>0) then Tab.FindKey([aCodigo]);
+  if (aCodigo>0) then
+    Tab.FindKey([iTipo, aCodigo, iOrigem]);
   ShowModal;
   if ModalResult=mrOk then begin
-    if (not Tab.IsEmpty) then 
+    if (not Tab.IsEmpty) then
       aCodigo := TabCodigo.Value;
     Result := True;
   end else

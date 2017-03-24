@@ -450,6 +450,7 @@ begin
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
             AsVariant := 255;
         AddField('CSOSN', '', nxtWord16, 5, 0, False);
+        AddField('Origem', '', nxtWord16, 5, 0, False);
       end;
       with EnsureIndicesDescriptor do begin
         with AddIndex('ICodigo', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
@@ -462,6 +463,12 @@ begin
           Add(GetFieldFromName('Ordem'));
           Add(GetFieldFromName('Codigo'));
         end;
+        with AddIndex('ITipoCodigoOrigem', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Tipo'));
+          Add(GetFieldFromName('Origem'));
+          Add(GetFieldFromName('Codigo'));
+        end;
+
       end;
       CheckValid(False);
     end;

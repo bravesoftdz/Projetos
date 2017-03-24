@@ -82,7 +82,7 @@ begin
     FpesqCFOP := gPesqCFOPList.GetFrm;
 
   aCod := StrToIntDef(edCFOP_NFCE.EditText, 0);
-  aOk := FpesqCFOP.Pesquisar(aCod, filtro_nfce);
+  aOk := FpesqCFOP.Pesquisar(1, 1, aCod, filtro_nfce);
   Dados.tCFOP.refresh;
   if aOk then
     MTCFOP_NFCE.Value := aCod;

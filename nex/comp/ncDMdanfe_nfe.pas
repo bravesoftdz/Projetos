@@ -200,6 +200,8 @@ type
     mtItemuTrib: TStringField;
     xmlPreview: TLMDTextContainer;
     mtItempICMSST: TFloatField;
+    mtItemvFrete: TStringField;
+    mtItemvOutro: TStringField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);
