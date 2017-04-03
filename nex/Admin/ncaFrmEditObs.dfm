@@ -54,8 +54,6 @@ object FrmEditObs: TFrmEditObs
       Font.Name = 'Tahoma'
       Font.Style = [fsBold]
       ParentFont = False
-      ExplicitLeft = -3
-      ExplicitTop = 3
     end
     object btnCancelar: TcxButton
       AlignWithMargins = True

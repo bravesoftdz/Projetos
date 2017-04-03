@@ -309,7 +309,6 @@ type
     
     property CodStr: String
       read FCodStr write SetCodStr;
-
     { Public declarations }
   end;
 
@@ -320,7 +319,8 @@ implementation
 
 uses ncaDM, ncaFrmPri, ncErros, ncaFrmEscolhaProdDup, 
   ncaFrmSemEstoque, ncaFrmProdSemFid, ncaFrmConfigTelaVendas, ncDebug,
-  ncaFrmNCMEdit, ncaStrings, ncaFrmLeXML, ncaFrmPesqDadosFiscais;
+  ncaFrmNCMEdit, ncaStrings, ncaFrmLeXML, ncaFrmPesqDadosFiscais,
+  ncaFrmDadosItemOutrasEntradas;
 
 {$R *.dfm}
 
@@ -438,6 +438,7 @@ var
   PermSemEstoque: Boolean; 
   T, aCustoU: Currency;
   FFor : Cardinal;
+  sl : TStringList;
 begin
   inherited;
   FDadosFiscaisXML := '';
@@ -447,7 +448,7 @@ begin
     TFrmProdSemFid.Create(Self).Mostrar(tPro);
     if not (tProFidelidade.Value and (tProFidPontos.Value>0)) then Exit;
   end;
-  
+
   if not(tProPermiteVendaFracionada.value) and (frac(edQtd.Value)>0) then begin
     edQtd.Value := trunc(edQtd.Value);
     edQtd.SelectAll;
@@ -464,10 +465,8 @@ begin
   end;
 
   if (TipoTran=trEstDevFor) then begin
-
     if Dados.NFeAtivo then begin
       //se não achou nenhum movimento de entrada avisa usuario e cancela processo
-
       FDadosFiscaisXML := '';
       FQuantCompra := 0;
       FFor := Fornecedor;
@@ -476,22 +475,6 @@ begin
       FUnitario := 0;
       Unitario := aCustoU;
       Fornecedor := FFor;
-      
-      {if (Unitario = 0) or (tMEDadosFiscais.AsString = '')  then begin
-        if Unitario=0 then
-          ShowMessage('Não há compras desse produto com esse fornecedor.') else
-          ShowMessage('Dados fiscais ainda não foram gravados.');
-
-        if SimNao('Desejar ler o XML de compra agora?') then with TFrmLeXML.Create(Self) do
-        begin
-          IgnoraCompraAnt := true;
-          OnConcluir := OnConcluirLeXML;
-          ShowModal;
-        end;
-      end else begin
-        FDadosFiscaisXML := tMEDadosFiscais.Value;
-        FQuantCompra := tMeQuant.Value;
-      end;}
 
       //se não encontrou o XML de lançamento de entrada cancela operação e avisa o usuário
       if (FDadosFiscaisXML='') then
@@ -505,19 +488,39 @@ begin
       if (Fornecedor=0) then raise Exception.Create(rsNecessarioFornecedor);
   end;
 
+  if (TipoTran = trEstTransf) then
+    Unitario := tProCustoUnitario.Value;
+
+  if (TipoTran = trEstOutEntr) then
+  begin
+    if (Fornecedor=0) then raise Exception.Create(rsNecessarioFornecedor);
+    Unitario := tProCustoUnitario.Value;
+    FDadosFiscaisXML := '';
+    sl := TStringList.Create;
+    try
+
+      if not TfrmDadosItemOutrasEntradas.Create(application).ObtemDadosFiscais(sl, (FUnitario * edQtd.Value)) then
+        Exit;
+
+      FDadosFiscaisXML := sl.Text;
+    finally
+      sl.Free;
+    end;
+  end;
+
   if Dados.NFAtivo and (TipoTran=trEstVenda) then
     if ((Trim(tProNCM.Value)='') or (not BrTribOk) or (Trim(tProUnid.Value)='')) and (not TFrmNCMEdit.Create(Self).ObtemNCM(tProID.Value)) then Exit;
 
   if FCBBInfo.IsEmpty or (not FCBBInfo.BalValor) then
     T := DuasCasas(FUnitario*edQtd.Value) else
     T := DuasCasas(FCBBInfo.PesoValor);
-    
+
   AddProd(tProID.Value, tProTaxIDNorm.Value, FUnitario, T, edQtd.Value, tProDescricao.Value, PermSemEstoque, tProFidPontos.Value, '', FDadosFiscaisXML);
-  
+
   Clear;
 
   if ComecarPorQtd then
-    edQtd.SetFocus 
+    edQtd.SetFocus
   else begin
     DebugMsg('btnLancarClick - SetFocus');
     edProd.SetFocus;

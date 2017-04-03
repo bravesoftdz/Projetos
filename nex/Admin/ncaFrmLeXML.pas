@@ -16,9 +16,17 @@ uses
   LMDBaseGraphicControl, LMDGraphicControl, LMDHTMLLabel, ncDMdanfe_NFE,
   ncMyImage, Vcl.ImgList, cxGridInplaceEditForm, dxBar, LMDCustomScrollBox,
   LMDScrollBox, LMDSplt, nxdb, cxRadioGroup, LMDCustomButton, LMDButton,
-  dxBarBuiltInMenu, cxPC, cxGroupBox, cxSpinEdit, Vcl.ExtCtrls, System.ImageList;
+  dxBarBuiltInMenu, cxPC, cxGroupBox, cxSpinEdit, Vcl.ExtCtrls, System.ImageList,
+  XMLIntf, XMLDoc;
 
 type
+
+  TItemXML = class
+  public
+    nItem : Integer;
+    sXML : String;
+  end;
+
   TFrmLeXML = class(TForm)
     mt: TkbmMemTable;
     mtDescrXML: TStringField;
@@ -163,6 +171,8 @@ type
     tDFDadosFiscais: TnxMemoField;
     tDFCustoU: TCurrencyField;
     mtUnitario: TCurrencyField;
+    Memo2: TMemo;
+    Memo1: TMemo;
     procedure FormCreate(Sender: TObject);
     procedure edProdutoPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
@@ -192,6 +202,7 @@ type
     procedure edParaPropertiesChange(Sender: TObject);
     procedure FormKeyDown(Sender: TObject; var Key: Word; Shift: TShiftState);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
+    procedure FormDestroy(Sender: TObject);
   private
     dmDanfe : TdmDanfe_NFE;
     FFor    : Integer;
@@ -204,6 +215,7 @@ type
     FpercFrete : Double;
     FIgnoraCompraAnt : Boolean;
     FXML : String;
+    FListaXML : TList;
     { Private declarations }
     procedure LoadProd;
     procedure LoadDadosProd;
@@ -212,7 +224,7 @@ type
     procedure forceEdit;
     procedure PesquisarProd;
     procedure AlimentaDadosFiscais;
-    
+
 
     procedure _SalvaConvUnid;
 
@@ -227,6 +239,12 @@ type
 
     procedure LoadItens;
     procedure SetFor(const Value: Integer);
+
+    function _GetItemXML(aItem: Integer): TItemXML;
+
+    procedure SetItemXML(aItem: Integer; S: String);
+    function GetItemXML(aItem: Integer): String;
+
 
   public
     function QuantFator: Double;
@@ -292,12 +310,47 @@ end;
 
 procedure TFrmLeXML.AlimentaDadosFiscais;
 var 
-  sl : TStringList;
+  sl, xml : TStringList;
+  i, p1, p2, p3, p4 :integer;
+  sFieldName, sXmlOriginal, tagExtraida : String;
 
 function ConverteUnid(V: Double): String;
 begin
   V := V / QuantFator;
   Result := V.ToString;
+end;
+
+
+function ExtraiTagExpecifica (tagIni, tagFim :string; item :integer):string;
+begin
+
+//  memo1.Lines.LoadFromFile('C:\Meus Programas\Nex\Rodrigo\Item'+intToStr(item)+'.xml');
+  Memo1.Lines.Text := GetItemXML(item);
+
+  sXmlOriginal := memo1.lines.Text;
+
+  sFieldName := sXmlOriginal;
+
+  P1 := Pos(tagIni, sFieldName);
+  P2 := Pos(tagFim, sFieldName);
+  P3 := Length(tagIni);
+  P4 := Length(tagFim);
+
+  if P1 > 0 then
+  begin
+    memo1.Lines.Clear;
+    memo1.Lines.Text := Copy(sFieldName, P1, P2);
+    sFieldName := memo1.lines.Text;
+    P1 := Pos(tagIni, sFieldName);
+    P2 := Pos(tagFim, sFieldName);
+
+    Memo2.Lines.Clear;
+    Memo2.Lines.Text := Copy(sFieldName, P3+1, P2-P4);
+    tagExtraida := '';
+    tagExtraida := Copy(sFieldName, P3+1, P2-P4);
+  end;
+
+  Result := tagExtraida;
 end;
 
 procedure ExtraiTags;
@@ -325,7 +378,7 @@ begin
       sl.Values['uCom'] := mtItemuCom.AsString;
 
     if edPara.Value <> mtItemqCom.Value then
-      sl.Values['qComConv'] := CurrencyToStr(mtItemqCom.Value * edPara.Value)
+      sl.Values['qComConv'] := FloatParaStr(mtItemqCom.Value * edPara.Value)
     else
       if not mtItemqCom.IsNull then
         sl.Values['qComConv'] := mtItemqCom.AsString;
@@ -349,7 +402,14 @@ begin
       sl.Values['indTot'] := mtItemindTot.asstring;
 
     //Tags do ICMS
-    if not mtItemorig.IsNull then
+    sl.Values['orig'] := ExtraiTagExpecifica('<orig>','</orig>',mtItemnItem.value);
+    sl.Values['modBC'] := ExtraiTagExpecifica('<modBC>','</modBC>',mtItemnItem.value);
+    sl.Values['ICMS_CST'] := ExtraiTagExpecifica('<CST>','</CST>',mtItemnItem.value);
+    sl.Values['CSOSN'] := ExtraiTagExpecifica('<CSOSN>','</CSOSN>',mtItemnItem.value);
+    sl.Values['ICMS_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
+    sl.Values['pICMS'] := ExtraiTagExpecifica('<pICMS>','</pICMS>',mtItemnItem.value);
+    sl.Values['vICMS'] := ExtraiTagExpecifica('<vICMS>','</vICMS>',mtItemnItem.value);
+  {  if not mtItemorig.IsNull then
       sl.Values['orig'] := mtItemorig.AsString;
     if not mtItemmodBC.IsNull then
       sl.Values['modBC'] := mtItemmodBC.AsString;
@@ -362,10 +422,15 @@ begin
     if not mtItempICMS.IsNull then
       sl.Values['pICMS'] := FloatParaStr(mtItempICMS.Value);
     if not mtItemvICMS.IsNull then
-      sl.Values['vICMS'] := FloatParaStr(mtItemvICMS.Value);
+      sl.Values['vICMS'] := FloatParaStr(mtItemvICMS.Value);   }
 
     //Tags ICMS-ST
-    if not mtItemmodBCST.IsNull then
+    sl.Values['modBCST'] := ExtraiTagExpecifica('<modBCST>','</modBCST>',mtItemnItem.value);
+    sl.Values['pMVAST'] := ExtraiTagExpecifica('<pMVAST>','</pMVAST>',mtItemnItem.value);
+    sl.Values['vBCST'] := ExtraiTagExpecifica('<vBCST>','</vBCST>',mtItemnItem.value);
+    sl.Values['pICMSST'] := ExtraiTagExpecifica('<pICMSST>','</pICMSST>',mtItemnItem.value);
+    sl.Values['vICMSST'] := ExtraiTagExpecifica('<vICMSST>','</vICMSST>',mtItemnItem.value);
+    {if not mtItemmodBCST.IsNull then
       sl.Values['modBCST'] := mtItemmodBCST.AsString;
     if not mtItempMVAST.IsNull then
       sl.Values['pMVAST'] := FloatParaStr(mtItempMVAST.Value);
@@ -374,10 +439,17 @@ begin
     if not mtItempICMSST.IsNull then
       sl.Values['pICMSST'] := FloatParaStr(mtItempICMSST.Value);
     if not mtItemvICMSST.IsNull then
-      sl.Values['vICMSST'] := FloatParaStr(mtItemvICMSST.Value);
+      sl.Values['vICMSST'] := FloatParaStr(mtItemvICMSST.Value);  }
+
+
 
     //Tags IPI
-    if not mtItemcEnq.IsNull then
+    sl.Values['cEnq'] := ExtraiTagExpecifica('<cEnq>','</cEnq>',mtItemnItem.value);
+    sl.Values['vIPI'] := ExtraiTagExpecifica('<vIPI>','</vIPI>',mtItemnItem.value);
+    sl.Values['pIPI'] := ExtraiTagExpecifica('<pIPI>','</pIPI>',mtItemnItem.value);
+    sl.Values['IPI_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
+
+{    if not mtItemcEnq.IsNull then
       sl.Values['cEnq'] := mtItemcEnq.AsString;
     if not mtItemIPI_CST.isNull then
       sl.Values['IPI_CST'] := mtItemIPI_CST.AsString;
@@ -386,27 +458,35 @@ begin
     if not mtItempIPI.isNull then
       sl.Values['pIPI'] := FloatParaStr(mtItempIPI.Value);
     if not mtItemIPI_vBC.isNull then
-      sl.Values['IPI_vBC'] := FloatParaStr(mtItemIPI_vBC.Value);
+      sl.Values['IPI_vBC'] := FloatParaStr(mtItemIPI_vBC.Value);}
 
     //Tags PIS
-    if not mtItemPIS_CST.IsNull then
+    sl.Values['PIS_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
+    sl.Values['pPIS'] := ExtraiTagExpecifica('<pPIS>','</pPIS>',mtItemnItem.value);
+    sl.Values['vPIS'] := ExtraiTagExpecifica('<vPIS>','</vPIS>',mtItemnItem.value);
+
+    {if not mtItemPIS_CST.IsNull then
       sl.Values['PIS_CST'] := mtItemPIS_CST.AsString;
     if not mtItemPIS_vBC.IsNull then
       sl.Values['PIS_vBC'] := FloatParaStr(mtItemPIS_vBC.value);
-    if not mtItempPis.isNull then
+    if (not mtItempPis.isNull) and (mtItempPIS.Value > 0) then
       sl.values['pPIS'] := FloatParaStr(mtItempPIS.Value);
-    if not mtItemvPis.isNull then
-      sl.values['vPIS'] := FloatParaStr(mtItemvPIS.Value);
+    if (not mtItemvPis.isNull) and (mtItemvPis.Value > 0) then
+      sl.values['vPIS'] := FloatParaStr(mtItemvPIS.Value);}
 
     //Tags Cofins
-    if not mtItemCOFINS_CST.IsNull then
+    sl.Values['COFINS_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
+    sl.Values['pCofins'] := ExtraiTagExpecifica('<pCofins>','</pCofins>',mtItemnItem.value);
+    sl.Values['vCofins'] := ExtraiTagExpecifica('<vCofins>','</vCofins>',mtItemnItem.value);
+
+    {if not mtItemCOFINS_CST.IsNull then
       sl.Values['COFINS_CST'] := mtItemCOFINS_CST.AsString;
     if not mtItemCOFINS_vBC.IsNull then
       sl.Values['COFINS_vBC'] := FloatParaStr(mtItemCOFINS_vBC.Value);
-    if not mtItempCofins.isNull then
+    if (not mtItempCofins.isNull) and (mtItempCofins.Value > 0) then
       sl.values['pCofins'] := FloatParaStr(mtItempCofins.Value);
-    if not mtItemvCofins.isNull then
-      sl.values['vCofins'] := FloatParaStr(mtItemvCofins.Value);
+    if (not mtItemvCofins.isNull) and (mtItemvCofins.Value > 0) then
+      sl.values['vCofins'] := FloatParaStr(mtItemvCofins.Value);}
 
     //Tags Frete e outros
     if not mtItemvFrete.isNull  then
@@ -550,6 +630,44 @@ end;
 procedure TFrmLeXML.btnSelArqClick(Sender: TObject);
 var sl : TStrings;
   bAchouNF  :boolean;
+
+procedure extraiTag;
+var
+  i, p1, p2 :integer;
+  sFieldName, sXmlOriginal : String;
+begin
+  sXmlOriginal := memo1.lines.Text;
+
+  for i := 1 to 999 do
+  begin
+    sFieldName := sXmlOriginal;
+
+    P1 := Pos('<det nItem="'+intToStr(i)+'">', sFieldName);
+    P2 := Pos('</det>', sFieldName);
+    if P1 > 0 then
+    begin
+      memo1.Lines.Clear;
+      memo1.Lines.Text := Copy(sFieldName, P1, P2);
+      sFieldName := memo1.lines.Text;
+      P1 := Pos('<imposto>', sFieldName);
+      P2 := Pos('</imposto>', sFieldName);
+
+      Memo2.Lines.Clear;
+      Memo2.Lines.Text := Copy(sFieldName, P1, P2-1);
+
+      sFieldName := memo2.lines.Text;
+      P1 := Pos('<imposto>', sFieldName);
+      P2 := Pos('</det>', sFieldName);
+
+      Memo2.Lines.Clear;
+      Memo2.Lines.Text := Copy(sFieldName, P1, P2-1);
+      //memo2.Lines.SaveToFile('C:\Meus Programas\Nex\Rodrigo\ItemX'+intToStr(i)+'.xml');
+      SetItemXML(i, Memo2.Lines.Text);
+    end;
+  end;
+end;
+
+
 begin
   if not OpenXML.Execute(Handle) then Exit;
   bAchouNF := true;
@@ -567,7 +685,9 @@ begin
   sl := TStringList.Create;
   try
     sl.LoadFromFile(OpenXML.FileName);
+
     FXML := sl.Text;
+    memo1.Lines.Text := sl.Text;
     dmDanfe.LoadXML(sl.Text, 0, '', '', Dados.tbConfig, False);
 
     edFrete.Value := dmDanfe.mtTotalvFrete.Value;
@@ -590,6 +710,7 @@ begin
     LoadFor;
     LoadItens;
     btnAvancar.Enabled := not lbErro.Visible;
+    extraiTag;
     if btnAvancar.Enabled then pgPri.ActivePage := tsFor;
   finally
     sl.Free;
@@ -673,6 +794,7 @@ end;
 
 procedure TFrmLeXML.FormCreate(Sender: TObject);
 begin
+  FListaXML := TList.Create;
   FChave := '';
   FTotal := 0;
   FpercFrete := 0;
@@ -688,6 +810,15 @@ begin
   pgPri.ActivePageIndex := 0;
   btnAvancar.Enabled := False;
 end;                    
+
+procedure TFrmLeXML.FormDestroy(Sender: TObject);
+begin
+  while FListaXML.Count>0 do begin
+    TObject(FListaXML[0]).Free;
+    FListaXML.Delete(0);
+  end;
+  FListaXML.Free;
+end;
 
 procedure TFrmLeXML.FormKeyDown(Sender: TObject; var Key: Word;
   Shift: TShiftState);
@@ -707,6 +838,26 @@ end;
 function TFrmLeXML.Frete: Currency;
 begin
   Result := edFrete.Value;
+end;
+
+function TFrmLeXML._GetItemXML(aItem: Integer): TItemXML;
+var I: Integer;
+begin
+  for I := 0 to FListaXML.Count-1 do
+    if TItemXML(FListaXML[I]).nItem=aItem then begin
+      Result := TItemXML(FListaXML[i]);
+      Exit;
+    end;
+
+  Result := TItemXML.Create;
+  FListaXML.Add(Result);
+  Result.nItem := aItem;
+  Result.sXML := '';
+end;
+
+function TFrmLeXML.GetItemXML(aItem: Integer): String;
+begin
+  Result := _GetItemXML(aItem).sXML;
 end;
 
 procedure TFrmLeXML.lbInverterClick(Sender: TObject);
@@ -1024,6 +1175,11 @@ begin
   if Assigned(FOnFornecedor) then FOnFornecedor(Self);
 end;
 
+procedure TFrmLeXML.SetItemXML(aItem: Integer; S: String);
+begin
+  _GetItemXML(aItem).sXML := S;
+end;
+
 function TFrmLeXML.TamPara: Integer;
 begin
   Result := cxtextWidth(edPara.Style.Font, edPara.EditingText)+20;
@@ -1136,5 +1292,3 @@ begin
   tConvUnid.Post;
 end;
 end.
-
-

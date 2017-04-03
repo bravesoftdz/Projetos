@@ -357,7 +357,8 @@ begin
     if mtItens.State<>dsEdit then
       mtItens.Edit;
     mtItensCFOP.Value := aCod;
-    if Trim(mtItensnatop.Value)='' then
+    //if Trim(mtItensnatop.Value)='' then
+    if mtItensCFOP.Value <> aCod then
       mtItensnatop.Value := FpesqCFOP.TabDescricao.Value;
   end;
 end;

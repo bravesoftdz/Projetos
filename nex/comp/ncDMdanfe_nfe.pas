@@ -136,7 +136,6 @@ type
     repBobina: TfrxReport;
     repFolha: TfrxReport;
     frCustom: TfrxReport;
-    xmlPreview_old: TLMDStrList;
     dbConfig: TfrxDBDataset;
     mtIDEurlconsulta: TStringField;
     mtItemvlUnitario: TStringField;
@@ -146,7 +145,6 @@ type
     mtItemvIPI: TFloatField;
     mtItemvDesc: TFloatField;
     mtDestdoc: TStringField;
-//    xmlPreview: TLMDTextContainer;
     mtIDEinfCpl: TMemoField;
     mtIDEinfCplLinha: TMemoField;
     mtIDEhora_emissao: TStringField;
@@ -198,10 +196,11 @@ type
     mtItemIPI_vBC: TFloatField;
     mtItempIPI: TFloatField;
     mtItemuTrib: TStringField;
-    xmlPreview: TLMDTextContainer;
     mtItempICMSST: TFloatField;
     mtItemvFrete: TStringField;
     mtItemvOutro: TStringField;
+    xmlPreview: TLMDTextContainer;
+    xmlPreview_old: TLMDStrList;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);
@@ -744,19 +743,29 @@ end;
 procedure TdmDanfe_nfe.LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
 var 
   I : Integer;
-  S : String;
+  S, sFieldName : String;
   F : TField;
+  P: Integer;
 begin
   if aXML='' then
     aXML := FXML;
   for i := 0 to D.Fields.Count-1 do begin
     F := D.Fields[I];
-    S := getXMLValue(aXML, F.FieldName, aCaminho);
-    if S>'' then
+
+    sFieldName := F.FieldName;
+    repeat
+      P := Pos('_', sFieldName);
+      if P > 0 then begin
+        aCaminho := aCaminho + ',' + Copy(sFieldName, 1, P-1);
+        Delete(sFieldName, 1, P);
+      end;
+    until (P < 1);
+    S := getXMLValue(aXML, sFieldName, aCaminho);
+    if S > '' then
     if F.DataType in [ftFloat, ftCurrency] then
       F.AsFloat := MeuStrToFloat(S) else
       F.AsString := S;
-  end;  
+  end;
 end;
 
 procedure TdmDanfe_nfe.LoadReport(aDoc: TBlobField; aPrinter: String);
@@ -1178,6 +1187,4 @@ function TdmDanfe_nfe.XMLsha1: String;
 begin
   lbSha1.HashString(FXML);
 end;
-
-
 end.

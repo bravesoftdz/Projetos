@@ -447,6 +447,7 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
         Parent = grPag
         CaptionOptions.Text = '  B. Par'#226'metros para NFC-e  ou  SAT CF-e  '
         ButtonOptions.Buttons = <>
+        ItemIndex = 1
         ShowBorder = False
         Index = 1
       end

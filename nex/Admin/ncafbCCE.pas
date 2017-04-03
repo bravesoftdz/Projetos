@@ -310,7 +310,7 @@ begin
   mtCCeRazaoSocial.Value := tDadosNfeRazaoSocial.Value;
   mtCCe.Post;
 
-  if SoDig(mtCCeCNPJ.Value) <> tDadosNfeCNPJ.Value then
+  if SoDig(mtCCeCNPJ.Value) <> soDig(tDadosNfeCNPJ.Value) then
     raise Exception.Create('O CNPJ configurado no sistema é diferente do CNPJ da CC-e.'+#13+
                            'Esta CC-e não pode ser impressa.');
 

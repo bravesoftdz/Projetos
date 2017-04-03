@@ -399,15 +399,15 @@ $(PostBuildEvent)]]></PostBuildEvent>
                 <Platform value="Win64">False</Platform>
             </Platforms>
             <Deployment Version="2">
-                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
-                    <Platform Name="Win32">
-                        <RemoteDir>.\</RemoteDir>
-                        <Overwrite>true</Overwrite>
-                    </Platform>
-                </DeployFile>
                 <DeployFile LocalName="C:\Meus Programas\Nex\NexAdmin_Loja.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>NexAdmin_Loja.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="C:\Comp\LMD2015\source\lmddlgcmps.inc" Configuration="Debug" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -1679,6 +1679,10 @@ $(PostBuildEvent)]]></PostBuildEvent>
         </DCCReference>
         <DCCReference Include="ncaFrmPesqDadosFiscais.pas">
             <Form>FrmPesqDadosFiscais</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="ncaFrmDadosItemOutrasEntradas.pas">
+            <Form>frmDadosItemOutrasEntradas</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <None Include="C:\Comp\LMD2015\source\LMDCmps.inc"/>

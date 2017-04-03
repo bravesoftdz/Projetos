@@ -367,7 +367,6 @@ object FrmPri: TFrmPri
                 Align = alRight
                 Caption = 'Pa'#237's'
                 OptionsImage.ImageIndex = 28
-                OptionsImage.Images = Dados.imgPais
                 PaintStyle = bpsGlyph
                 SpeedButtonOptions.CanBeFocused = False
                 SpeedButtonOptions.AllowAllUp = True
@@ -380,10 +379,10 @@ object FrmPri: TFrmPri
           end
         end
         object dpRevisarProduto: TdxDockPanel
-          Left = 615
+          Left = 0
           Top = 0
           Width = 252
-          Height = 140
+          Height = 0
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13

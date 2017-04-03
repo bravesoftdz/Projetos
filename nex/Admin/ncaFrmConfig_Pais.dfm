@@ -120,7 +120,6 @@ object FrmPais: TFrmPais
     object edPais: TcxImageComboBox
       Left = 13
       Top = 36
-      Align = alTop
       RepositoryItem = Dados.erPaisImg
       ParentFont = False
       Properties.Items = <>
@@ -174,7 +173,6 @@ object FrmPais: TFrmPais
       AlignVert = avClient
       ButtonOptions.Buttons = <>
       Hidden = True
-      ItemIndex = 5
       ShowBorder = False
       Index = -1
     end
@@ -182,7 +180,7 @@ object FrmPais: TFrmPais
       Parent = dxLayoutControl1Group_Root
       CaptionOptions.Visible = False
       Control = edSeguirWindows
-      ControlOptions.OriginalHeight = 25
+      ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 274
       ControlOptions.ShowBorder = False
       Index = 1
@@ -193,7 +191,7 @@ object FrmPais: TFrmPais
       CaptionOptions.Text = 'Pa'#237's onde a loja est'#225' localizada:'
       CaptionOptions.Layout = clTop
       Control = edPais
-      ControlOptions.OriginalHeight = 25
+      ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 340
       ControlOptions.ShowBorder = False
       Index = 0
@@ -203,7 +201,7 @@ object FrmPais: TFrmPais
       AlignHorz = ahLeft
       CaptionOptions.Text = 'S'#237'mbolo da Moeda'
       Control = edSimbMoeda
-      ControlOptions.OriginalHeight = 25
+      ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 85
       ControlOptions.ShowBorder = False
       Enabled = False
@@ -214,7 +212,7 @@ object FrmPais: TFrmPais
       AlignHorz = ahLeft
       CaptionOptions.Text = 'Casas Decimais'
       Control = edCasasDec
-      ControlOptions.OriginalHeight = 25
+      ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 85
       ControlOptions.ShowBorder = False
       Enabled = False
@@ -225,7 +223,7 @@ object FrmPais: TFrmPais
       AlignHorz = ahLeft
       CaptionOptions.Text = 'Separador de Casas Decimais'
       Control = edSepDec
-      ControlOptions.OriginalHeight = 25
+      ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 85
       ControlOptions.ShowBorder = False
       Enabled = False
@@ -236,7 +234,7 @@ object FrmPais: TFrmPais
       AlignHorz = ahLeft
       CaptionOptions.Text = 'Separador de Milhares'
       Control = edSepMil
-      ControlOptions.OriginalHeight = 25
+      ControlOptions.OriginalHeight = 21
       ControlOptions.OriginalWidth = 85
       ControlOptions.ShowBorder = False
       Enabled = False

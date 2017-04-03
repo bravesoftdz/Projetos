@@ -1229,7 +1229,7 @@ begin
       Inc(I);
       if Assigned(aProgresso) then aProgresso(rsCorrigeDescrVenda, I, T);
 
-      if (tTranTipo.Value in [trEstVenda, trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trAjustaCusto, trEstTransfEnt]) then
+      if (tTranTipo.Value in [trEstVenda, trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trAjustaCusto, trEstTransfEnt, trEstOutEntr]) then
       begin
         sl.Clear;
         tMovEst.SetRange([tTranID.Value], [tTranID.Value]);
@@ -1684,7 +1684,7 @@ begin
           Exit;
         end;
 
-        if (MEAtu.Tipo in [trEstCompra, trEstTransfEnt]) and (MEAtu.Cliente>0) then
+        if (MEAtu.Tipo in [trEstCompra, trEstTransfEnt, trEstOutEntr]) and (MEAtu.Cliente>0) then
           SalvaProdFor(IM.imProduto, MEAtu.Cliente);
 
         if (IM.Debito>0.00001) and (MEAtu.ValorDebitado>0.00001) then begin
@@ -1890,7 +1890,7 @@ begin
               tDebito.Post;
             end;
 
-            if tTranTipo.Value in [trEstVenda, trEstCompra, trEstEntrada, trEstSaida, trEstDevolucao, trEstTransfEnt, trEstTransf] then
+            if tTranTipo.Value in [trEstVenda, trEstCompra, trEstEntrada, trEstSaida, trEstDevolucao, trEstTransfEnt, trEstTransf, trEstOutEntr] then
               AjustaSaldoPost(tMovEstProduto.Value, tMovEstDataHora.Value, tMovEstID.Value, tMovEstEstoqueAnt.Value, True);
           end;  
           
@@ -2045,7 +2045,7 @@ begin
             tMovEstEstoqueAnt.Value := ObtemSaldoAnt(tMovEstProduto.Value, tMovEstDataHora.Value, tMovEstID.Value);
             tMovEst.Post;
 
-            if tTranTipo.Value in [trEstVenda, trEstCompra, trEstEntrada, trEstSaida, trEstDevolucao, trEstTransf, trEstTransfEnt] then
+            if tTranTipo.Value in [trEstVenda, trEstCompra, trEstEntrada, trEstSaida, trEstDevolucao, trEstTransf, trEstTransfEnt, trEstOutEntr] then
               AjustaSaldoPost(tMovEstProduto.Value, tMovEstDataHora.Value, tMovEstID.Value, tMovEstEstoqueAnt.Value, True);
           end;  
         end;
@@ -3049,7 +3049,7 @@ begin
 
   IM.imTaxItens.SaveToDataset(tMovEstTax);
 
-  if (ME.Tipo in [trEstCompra, trEstTransfEnt]) and (ME.Cliente>0) then SalvaProdFor(IM.imProduto, ME.Cliente);
+  if (ME.Tipo in [trEstCompra, trEstTransfEnt, trEstOutEntr]) and (ME.Cliente>0) then SalvaProdFor(IM.imProduto, ME.Cliente);
 
   if (IM.Debito>0.00001) and (ME.ValorDebitado>0.00001) then begin
     tDebito.Insert;
@@ -3458,7 +3458,7 @@ begin
   tTipoTranmovest.Value := aEntrada;
   tTipoTranatualiza_custo.Value := aAtualiza_Custo;
   tTipoTranvisivel.Value := (aTipo<>trEstDevFor) and (TipoTranCaixa(aTipo)
-                             or (aTipo in [trEstVenda, trEstDevolucao, trEstCompra, trEstEntrada, trEstSaida, trEstTransf, trEstTransfEnt ]));
+                             or (aTipo in [trEstVenda, trEstDevolucao, trEstCompra, trEstEntrada, trEstSaida, trEstTransf, trEstTransfEnt, trEstOutEntr]));
   tTipoTranpagto.Value := (aTipo in [trEstVenda, trEstDevolucao]);
   tTipoTransel_endereco.Value := (aTipo in [trEstVenda]);
   tTipoTranTipoCad.Value := aTipoCad;
@@ -3470,7 +3470,7 @@ end;
 begin
   DebugMsg(Self, 'PopulateTipoTran');
 
-  //AddItem(aTipo, aTipoCad, aEntrada, aEmiteNFE, aMovEst, aAtualiza_Custo);
+//AddItem(aTipo,          aTipoCad,        aEntrada, aEmiteNFE, aMovEst, aAtualiza_Custo);
   AddItem(trAddCredito,   tipocad_cliente,    False, False, False, False);
   AddItem(trRemCredito,   tipocad_cliente,    False, False, False, False);
   AddItem(trEstVenda,     tipocad_cliente,    False, True,  True,  False);
@@ -3486,9 +3486,9 @@ begin
   AddItem(trZerarEstoque, tipocad_nenhum,     False, False, True,  False);
   AddItem(trEstDevolucao, tipocad_cliente,    True,  True,  True,  False);
   AddItem(trEstDevFor,    tipocad_fornecedor, False, True,  True,  False);
-  AddItem(trEstTransf,    tipocad_fornecedor, False, True,  True,  False);
+  AddItem(trEstTransf,    tipocad_cliente,    False, True,  True,  False);
   AddItem(trEstTransfEnt, tipocad_fornecedor, True,  False, True,  True);
-  AddItem(trEstOutEntr,   tipocad_fornecedor, True, True,  True,  False);
+  AddItem(trEstOutEntr,   tipocad_fornecedor, True, True,  True,  True);
 
   DebugMsg(Self, 'PopulateTipoTran OK');
 end;
@@ -4480,7 +4480,7 @@ begin
       if ME.Extra>'' then begin
         sl := TstringList.Create;
         sl.Text := ME.Extra;
-        if (ME.Tipo in [trEstCompra, trEstEntrada,trEstTransfEnt]) and (sl.Values['NFe']>'') then
+        if (ME.Tipo in [trEstCompra, trEstEntrada, trEstTransfEnt]) and (sl.Values['NFe']>'') then
           tTranChaveNFe.Value := sl.Values['NFe'];
       end;
       
@@ -4604,7 +4604,6 @@ begin
           end;
   
           trEstDevolucao, trEstDevFor, trEstTransf, trEstOutEntr : if NFeAtivo and (MEAnt=nil) then begin
-            DebugMsg(self, 'Gerar NFe- Transferencia');
             tTran.Edit;
             tTranStatusNFE.Value := nfetran_gerar;
             tTranAmbNFe.Value := tNFConfigtpAmbNFe.Value;
@@ -5085,7 +5084,7 @@ procedure TDM.tAuxITranCalcFields(DataSet: TDataSet);
 begin
   if tAuxITranCancelado.Value or 
     (tAuxITranCaixa.Value=0) or
-    (tAuxITranTipoTran.Value in [trEstCompra, trEstEntrada, trEstSaida, trPagDebito, trEstDevolucao, trEstTransfEnt, trEstTransf])
+    (tAuxITranTipoTran.Value in [trEstCompra, trEstEntrada, trEstSaida, trPagDebito, trEstDevolucao, trEstTransfEnt, trEstTransf, trEstOutEntr])
   then
     tAuxITranDebito.Value := 0 else
     tAuxITranDebito.Value := tAuxITranTotal.Value - tAuxITranDesconto.Value - tAuxITranPago.Value;
@@ -5281,7 +5280,7 @@ procedure TDM.tITranCalcFields(DataSet: TDataSet);
 begin
   if tITranCancelado.Value or 
     (tITranCaixa.Value=0) or
-    (tITranTipoTran.Value in [trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trPagDebito, trEstTransfEnt, trEstTransf])
+    (tITranTipoTran.Value in [trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trPagDebito, trEstTransfEnt, trEstTransf, trEstOutEntr])
   then
     tITranDebito.Value := 0 else
     tITranDebito.Value := tITranTotal.Value - tITranDesconto.Value - tITranPago.Value;
@@ -5354,7 +5353,7 @@ procedure TDM.tTranCalcFields(DataSet: TDataSet);
 begin
   if tTranCancelado.Value or 
     (tTranCaixa.Value=0) or
-    (tTranTipo.Value in [trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trPagDebito, trEstTransfEnt, trEstTransf])
+    (tTranTipo.Value in [trEstCompra, trEstDevolucao, trEstEntrada, trEstSaida, trPagDebito, trEstTransfEnt, trEstTransf, trEstOutEntr])
   then
     tTranDebito.Value := 0 else
     tTranDebito.Value := tTranTotal.Value - tTranDesconto.Value - tTranPago.Value - tTranCreditoUsado.Value;

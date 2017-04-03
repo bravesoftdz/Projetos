@@ -114,6 +114,9 @@ object FrmProduto: TFrmProduto
       object tsDados: TcxTabSheet
         Caption = 'Dados'
         ImageIndex = 91
+        ExplicitTop = 0
+        ExplicitWidth = 0
+        ExplicitHeight = 0
         object panCad: TLMDSimplePanel
           AlignWithMargins = True
           Left = 7
@@ -151,7 +154,7 @@ object FrmProduto: TFrmProduto
             OptionsImage.Images = dmImagens.im24
             object dxBevel1: TdxBevel
               Left = 10
-              Top = 103
+              Top = 184
               Width = 890
               Height = 5
               Shape = dxbsLineCenteredVert
@@ -228,14 +231,14 @@ object FrmProduto: TFrmProduto
             end
             object dxBevel2: TdxBevel
               Left = 10
-              Top = 265
+              Top = 346
               Width = 890
               Height = 3
               Shape = dxbsLineCenteredVert
             end
             object edCodigo: TcxDBMaskEdit
               Left = 140
-              Top = -71
+              Top = 10
               OnFocusChanged = edCodigoFocusChanged
               DataBinding.DataField = 'Codigo'
               DataBinding.DataSource = dsMT
@@ -258,7 +261,7 @@ object FrmProduto: TFrmProduto
             end
             object edDescr: TcxDBTextEdit
               Left = 140
-              Top = -8
+              Top = 73
               DataBinding.DataField = 'Descricao'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -275,7 +278,7 @@ object FrmProduto: TFrmProduto
             end
             object edPreco: TcxDBCurrencyEdit
               Left = 140
-              Top = 116
+              Top = 197
               DataBinding.DataField = 'Preco'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -296,7 +299,7 @@ object FrmProduto: TFrmProduto
             end
             object edCusto: TcxDBCurrencyEdit
               Left = 140
-              Top = 153
+              Top = 234
               DataBinding.DataField = 'CustoUnitario'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -309,7 +312,7 @@ object FrmProduto: TFrmProduto
             end
             object cbPrecoAuto: TcxDBCheckBox
               Left = 337
-              Top = 120
+              Top = 201
               Cursor = crHandPoint
               Caption = 'Autom'#225'tico'
               DataBinding.DataField = 'PrecoAuto'
@@ -337,7 +340,7 @@ object FrmProduto: TFrmProduto
             end
             object edMarkup: TcxCurrencyEdit
               Left = 140
-              Top = 190
+              Top = 271
               OnFocusChanged = edMarkupFocusChanged
               ParentFont = False
               Properties.DisplayFormat = '0.##%'
@@ -351,7 +354,7 @@ object FrmProduto: TFrmProduto
             end
             object lbInfoMarkup: TcxLabel
               Left = 140
-              Top = 227
+              Top = 308
               Caption = 
                 'Markup '#233' o percentual a ser acrescentado sobre o pre'#231'o de custo ' +
                 'para gerar o pre'#231'o de venda. '#13#10'Exemplo: um markup de 50% sobre u' +
@@ -371,7 +374,7 @@ object FrmProduto: TFrmProduto
             end
             object lbMarkup: TcxLabel
               Left = 484
-              Top = 196
+              Top = 277
               Cursor = crHandPoint
               Caption = 'Definir Markup Padr'#227'o'
               ParentFont = False
@@ -392,7 +395,7 @@ object FrmProduto: TFrmProduto
             end
             object cbSeguirMarkupPadrao: TcxDBCheckBox
               Left = 337
-              Top = 194
+              Top = 275
               Cursor = crHandPoint
               OnFocusChanged = edMarkupFocusChanged
               Caption = 'Seguir Markup Padr'#227'o'
@@ -537,7 +540,7 @@ object FrmProduto: TFrmProduto
             end
             object edNCM: TcxDBButtonEdit
               Left = 121
-              Top = 314
+              Top = 395
               OnFocusChanged = edNCMFocusChanged
               DataBinding.DataField = 'NCM'
               DataBinding.DataSource = dsMT
@@ -559,17 +562,17 @@ object FrmProduto: TFrmProduto
             end
             object lbNCM: TcxLabel
               Left = 238
-              Top = 314
+              Top = 395
               Caption = 'lbNCM'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              AnchorY = 329
+              AnchorY = 410
             end
             object lbInfoNCM: TcxLabel
               Left = 121
-              Top = 351
+              Top = 432
               Caption = 
                 'NCM: Nomeclatura Comum do Mercosul. Esse campo '#233' necess'#225'rio para' +
                 ' a emiss'#227'o de NF.'
@@ -588,7 +591,7 @@ object FrmProduto: TFrmProduto
             end
             object edCest: TcxDBButtonEdit
               Left = 121
-              Top = 377
+              Top = 458
               OnFocusChanged = edCestFocusChanged
               AutoSize = False
               DataBinding.DataField = 'cest'
@@ -613,7 +616,7 @@ object FrmProduto: TFrmProduto
             end
             object lbCEST: TcxLabel
               Left = 238
-              Top = 377
+              Top = 458
               Cursor = crHandPoint
               Caption = 'lbCEST'
               ParentFont = False
@@ -621,11 +624,11 @@ object FrmProduto: TFrmProduto
               Properties.Alignment.Vert = taVCenter
               Transparent = True
               OnClick = lbCESTClick
-              AnchorY = 392
+              AnchorY = 473
             end
             object lbInfoCest: TcxLabel
               Left = 121
-              Top = 414
+              Top = 495
               AutoSize = False
               Caption = 
                 'CEST: C'#243'digo Especificador da Substitui'#231#227'o Tribut'#225'ria. Pressione' +
@@ -647,7 +650,7 @@ object FrmProduto: TFrmProduto
             end
             object edBrTrib: TcxDBButtonEdit
               Left = 121
-              Top = 440
+              Top = 521
               OnFocusChanged = edBrTribFocusChanged
               DataBinding.DataField = 'brtrib'
               DataBinding.DataSource = dsMT
@@ -672,17 +675,17 @@ object FrmProduto: TFrmProduto
             end
             object lbBrTrib: TcxLabel
               Left = 238
-              Top = 440
+              Top = 521
               Caption = 'lbBrTrib'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              AnchorY = 455
+              AnchorY = 536
             end
             object lbInfoBrTrib: TcxLabel
               Left = 121
-              Top = 477
+              Top = 558
               Caption = 
                 'Digite o c'#243'digo de tributa'#231#227'o ou pressione F5. Esse campo '#233' obri' +
                 'gat'#243'rio para emiss'#227'o de NF. '
@@ -701,7 +704,7 @@ object FrmProduto: TFrmProduto
             end
             object edICMSST: TcxButtonEdit
               Left = 121
-              Top = 503
+              Top = 584
               OnFocusChanged = edICMSSTFocusChanged
               ParentFont = False
               Properties.Buttons = <
@@ -725,17 +728,17 @@ object FrmProduto: TFrmProduto
             end
             object lbDescrSt: TcxLabel
               Left = 238
-              Top = 503
+              Top = 584
               Caption = 'Pauta'
               ParentFont = False
               Style.HotTrack = False
               Properties.Alignment.Vert = taVCenter
               Transparent = True
-              AnchorY = 518
+              AnchorY = 599
             end
             object lbHintSt: TcxLabel
               Left = 121
-              Top = 540
+              Top = 621
               AutoSize = False
               Caption = 
                 'ICMS ST: Pressione F9 para definir as regras de c'#225'lculo do ICMS ' +
@@ -1010,7 +1013,7 @@ object FrmProduto: TFrmProduto
             end
             object edCateg: TcxDBLookupComboBox
               Left = 140
-              Top = 29
+              Top = 110
               DataBinding.DataField = 'LookupCateg'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -1044,7 +1047,7 @@ object FrmProduto: TFrmProduto
             end
             object edMarca: TcxDBLookupComboBox
               Left = 140
-              Top = 66
+              Top = 147
               DataBinding.DataField = 'NomeMarca'
               DataBinding.DataSource = dsMT
               ParentFont = False
@@ -1079,7 +1082,7 @@ object FrmProduto: TFrmProduto
             end
             object edPesoLiq: TcxDBCurrencyEdit
               Left = 814
-              Top = 29
+              Top = 110
               TabStop = False
               DataBinding.DataField = 'PesoLiq'
               DataBinding.DataSource = dsMT
@@ -1099,7 +1102,7 @@ object FrmProduto: TFrmProduto
             end
             object edPesoBruto: TcxDBCurrencyEdit
               Left = 814
-              Top = 66
+              Top = 147
               TabStop = False
               AutoSize = False
               DataBinding.DataField = 'PesoBruto'
@@ -1158,7 +1161,7 @@ object FrmProduto: TFrmProduto
             end
             object cbPodeAlterarPreco: TcxDBCheckBox
               Left = 428
-              Top = 116
+              Top = 197
               Cursor = crHandPoint
               Caption = 'Pode alterar o pre'#231'o na hora da venda'
               DataBinding.DataField = 'PodeAlterarPreco'
@@ -1186,7 +1189,7 @@ object FrmProduto: TFrmProduto
             object lbInfoCod: TcxLabel
               AlignWithMargins = True
               Left = 140
-              Top = -34
+              Top = 47
               Margins.Left = 5
               Margins.Top = 0
               Margins.Right = 0
@@ -1207,11 +1210,11 @@ object FrmProduto: TFrmProduto
               Properties.WordWrap = True
               Transparent = True
               Width = 760
-              AnchorY = -17
+              AnchorY = 64
             end
             object edCodigo2: TcxDBMaskEdit
               Left = 711
-              Top = -71
+              Top = 10
               OnFocusChanged = edCodigoFocusChanged
               DataBinding.DataField = 'Codigo2'
               DataBinding.DataSource = dsMT
@@ -1234,7 +1237,7 @@ object FrmProduto: TFrmProduto
             end
             object cbCodigoAuto: TcxCheckBox
               Left = 337
-              Top = -71
+              Top = 10
               Cursor = crHandPoint
               TabStop = False
               Caption = 'Autom'#225'tico'
@@ -1253,7 +1256,7 @@ object FrmProduto: TFrmProduto
             end
             object lbSetTaxDef: TcxLabel
               Left = 10000
-              Top = 10000
+              Top = 10006
               Cursor = crHandPoint
               Caption = 'Definir taxa'#231#227'o padr'#227'o'
               ParentFont = False
@@ -1306,7 +1309,7 @@ object FrmProduto: TFrmProduto
               SizeOptions.MaxWidth = 500
               ButtonOptions.Buttons = <>
               Hidden = True
-              ItemIndex = 6
+              ItemIndex = 2
               ShowBorder = False
               Index = -1
             end
@@ -2279,6 +2282,7 @@ object FrmProduto: TFrmProduto
               Properties.WordWrap = True
               Transparent = True
               OnClick = lbSemFotoClick
+              ExplicitTop = 145
               Width = 178
               AnchorX = 100
               AnchorY = 166
@@ -2289,6 +2293,8 @@ object FrmProduto: TFrmProduto
           AllowCloseButton = False
           Caption = 'Foto'
           ImageIndex = 1
+          ExplicitWidth = 0
+          ExplicitHeight = 0
           object panFoto: TLMDSimplePanel
             Left = 0
             Top = 0
