@@ -640,7 +640,7 @@ inherited FrmBRTrib_nfe: TFrmBRTrib_nfe
     Database = Dados.db
     TableName = 'BRTrib'
     IndexName = 'IID'
-    Left = 330
+    Left = 314
     Top = 56
     object tAuxID: TWordField
       FieldName = 'ID'

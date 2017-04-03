@@ -860,11 +860,15 @@ end;
 function TdmNFE_gerar.IcmsInter: Byte;
 var S: String;
 begin
-  S := SoDig(slIcmsInter.Values[tNFConfigEnd_UF.Value+'-'+tCliUF.Value]);
-  if S='' then
-    S := SoDig(slIcmsInter.Values[tNFConfigEnd_UF.Value]);
-  if S='' then S:='12';
-  Result := StrToIntDef(S, 12);  
+  if tbrtriborigem.Value in [1, 2, 3, 8] then
+    Result := 4
+  else begin
+    S := SoDig(slIcmsInter.Values[tNFConfigEnd_UF.Value+'-'+tCliUF.Value]);
+    if S='' then
+      S := SoDig(slIcmsInter.Values[tNFConfigEnd_UF.Value]);
+    if S='' then S:='12';
+    Result := StrToIntDef(S, 12);  
+  end;
 end;
 
 function TdmNFE_gerar.ICMSSt: Double;

@@ -7,6 +7,7 @@ inherited fbProdutos: TfbProdutos
   Font.Height = -13
   OldCreateOrder = True
   Scaled = False
+  ExplicitLeft = -40
   ExplicitWidth = 1036
   ExplicitHeight = 558
   PixelsPerInch = 96
@@ -26,7 +27,7 @@ inherited fbProdutos: TfbProdutos
     end
     object PB: TcxProgressBar
       Left = 0
-      Top = 498
+      Top = 495
       Align = alBottom
       ParentFont = False
       Style.LookAndFeel.Kind = lfFlat
@@ -40,55 +41,53 @@ inherited fbProdutos: TfbProdutos
       StyleHot.LookAndFeel.NativeStyle = False
       TabOrder = 0
       Visible = False
+      ExplicitTop = 498
       Width = 1020
     end
     object Paginas: TcxPageControl
       Left = 0
       Top = 3
       Width = 1020
-      Height = 495
+      Height = 492
       Align = alClient
       TabOrder = 2
       Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
-      ClientRectBottom = 495
-      ClientRectRight = 1020
-      ClientRectTop = 0
+      ExplicitHeight = 495
+      ClientRectBottom = 488
+      ClientRectLeft = 4
+      ClientRectRight = 1016
+      ClientRectTop = 4
       object tsProd: TcxTabSheet
         Caption = 'Produtos'
         ImageIndex = 0
-        ExplicitLeft = 4
-        ExplicitTop = 4
-        ExplicitWidth = 1012
-        ExplicitHeight = 484
+        ExplicitHeight = 487
         object panGrid: TLMDSplitterPanel
           Left = 0
           Top = 44
-          Width = 1020
-          Height = 451
+          Width = 1012
+          Height = 440
           Hint = ''
           Bevel.Mode = bmStandard
           Bevel.StandardStyle = lsNone
           Bars = <
             item
               OldPosition = -1
-              Position = 739
+              Position = 733
               PosPercent = 73
               Width = 7
             end>
           Align = alClient
           Color = clWhite
           TabOrder = 0
-          ExplicitWidth = 1012
-          ExplicitHeight = 440
           object LMDSplitterPane1: TLMDSplitterPane
             Bevel.Mode = bmStandard
             object Grid: TcxGrid
               Left = 0
               Top = 38
-              Width = 737
-              Height = 411
+              Width = 731
+              Height = 400
               Align = alClient
               BorderStyle = cxcbsNone
               Font.Charset = ANSI_CHARSET
@@ -100,8 +99,6 @@ inherited fbProdutos: TfbProdutos
               TabOrder = 0
               LookAndFeel.Kind = lfFlat
               LookAndFeel.NativeStyle = False
-              ExplicitWidth = 731
-              ExplicitHeight = 400
               object TVprod: TcxGridDBTableView
                 OnDblClick = TVprodDblClick
                 OnKeyDown = TVprodKeyDown
@@ -215,6 +212,10 @@ inherited fbProdutos: TfbProdutos
                   Caption = 'C'#243'digo'
                   DataBinding.FieldName = 'Codigo'
                   HeaderAlignmentVert = vaTop
+                end
+                object TVprodCodigo2: TcxGridDBColumn
+                  Caption = 'C'#243'digo Extra'
+                  DataBinding.FieldName = 'Codigo2'
                 end
                 object tvProdEstoqueTot: TcxGridDBColumn
                   Caption = 'Estoque Atual'
@@ -454,7 +455,7 @@ inherited fbProdutos: TfbProdutos
                 object TVprodObs: TcxGridDBColumn
                   DataBinding.FieldName = 'Obs'
                 end
-                object TVprodColumn1: TcxGridDBColumn
+                object TVprodNomeTrib: TcxGridDBColumn
                   Caption = 'Tributa'#231#227'o'
                   DataBinding.FieldName = 'Nome_brtrib'
                 end
@@ -605,7 +606,6 @@ inherited fbProdutos: TfbProdutos
                   OnEnter = edBuscaEnter
                   OnKeyDown = edBuscaKeyDown
                   OnMouseUp = edBuscaMouseUp
-                  ExplicitHeight = 21
                   Width = 375
                 end
                 object lbLocalizar: TcxLabel
@@ -681,7 +681,7 @@ inherited fbProdutos: TfbProdutos
             object panEtq: TLMDSimplePanel
               Left = 0
               Top = 0
-              Width = 737
+              Width = 731
               Height = 38
               Hint = ''
               Align = alTop
@@ -690,7 +690,6 @@ inherited fbProdutos: TfbProdutos
               Color = 12582911
               TabOrder = 2
               Visible = False
-              ExplicitWidth = 731
               object Shape1: TShape
                 AlignWithMargins = True
                 Left = 75
@@ -917,13 +916,12 @@ inherited fbProdutos: TfbProdutos
         object bardocProd: TdxBarDockControl
           Left = 0
           Top = 0
-          Width = 1020
+          Width = 1012
           Height = 44
           Align = dalTop
           BarManager = BarMgr
           SunkenBorder = True
           UseOwnSunkenBorder = True
-          ExplicitWidth = 1012
         end
       end
     end
@@ -1479,6 +1477,16 @@ inherited fbProdutos: TfbProdutos
       Size = 40
       Lookup = True
     end
+    object TabCodigoNum: TLongWordField
+      FieldName = 'CodigoNum'
+    end
+    object TabCodigo2: TWideStringField
+      FieldName = 'Codigo2'
+      Size = 30
+    end
+    object TabCodigo2Num: TLongWordField
+      FieldName = 'Codigo2Num'
+    end
   end
   object dsTab: TDataSource
     DataSet = Tab
@@ -1588,7 +1596,7 @@ inherited fbProdutos: TfbProdutos
     Top = 200
   end
   object repEtq: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1789,7 +1797,7 @@ inherited fbProdutos: TfbProdutos
     Top = 248
   end
   object repEtqCriar: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1854,7 +1862,7 @@ inherited fbProdutos: TfbProdutos
     end
   end
   object repEditar: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]

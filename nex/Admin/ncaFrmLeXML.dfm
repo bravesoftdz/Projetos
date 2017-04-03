@@ -37,7 +37,7 @@ object FrmLeXML: TFrmLeXML
       Height = 489
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = tsArq
+      Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       LookAndFeel.NativeStyle = False
       OnChange = pgPriChange
@@ -499,7 +499,7 @@ object FrmLeXML: TFrmLeXML
               Margins.Bottom = 0
               Align = alClient
               TabOrder = 0
-              Properties.ActivePage = tsConvUnid
+              Properties.ActivePage = tsSemProd
               Properties.CustomButtons.Buttons = <>
               LookAndFeel.Kind = lfUltraFlat
               ClientRectBottom = 363
@@ -1615,6 +1615,9 @@ object FrmLeXML: TFrmLeXML
     end
     object mtUnitario: TCurrencyField
       FieldName = 'Unitario'
+    end
+    object mtnItem: TWordField
+      FieldName = 'nItem'
     end
   end
   object ds: TDataSource

@@ -171,8 +171,12 @@ type
     tDFDadosFiscais: TnxMemoField;
     tDFCustoU: TCurrencyField;
     mtUnitario: TCurrencyField;
+<<<<<<< HEAD
     Memo2: TMemo;
     Memo1: TMemo;
+=======
+    mtnItem: TWordField;
+>>>>>>> origin/master
     procedure FormCreate(Sender: TObject);
     procedure edProdutoPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
@@ -588,7 +592,7 @@ end;
 
 procedure TFrmLeXML.btnNovoClick(Sender: TObject);
 begin
-  dmDanfe.mtItem.Locate('nItem', mtItem.Value, []);
+  dmDanfe.mtItem.Locate('nItem', mtnItem.Value, []);
   if TFrmProduto.Create(Self).Incluir(dados.tbPro, self.dmDanfe, FFor) then begin
     forceEdit;
     mtProduto.Value := dados.tbProID.Value;
@@ -955,6 +959,7 @@ begin
       mtDescrXML.Value := mtItemxProd.Value;
       mtCodigo.Value := mtItemCodigo.Value;
       mtNCM.Value := mtItemNCM.Value;
+      mtnItem.Value := mtItemnItem.Value;
       mtQuant.Value := mtItemqCom.Value;
       mtUnidXML.Value := mtItemuCom.Value;
       mtOk.Value := False;

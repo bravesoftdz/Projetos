@@ -558,7 +558,10 @@ begin
 
   lcCodigoAuto.Visible := False;
 
-  if aFocusUnid then ActiveControl := edUnid;
+  if aFocusUnid then begin
+    grEstoque.MakeVisible;
+    ActiveControl := edUnid;
+  end;
 
   with aTab.FieldByName('EstoqueAtual') do
     if IsNull then
@@ -908,6 +911,9 @@ begin
     MTCustoUnitario.Value := mtItemvUnCom.Value;
     MTFornecedor.Value := aFor;
     MTNCM.Value := mtItemNCM.Value;
+
+    cbCodigoAuto.Checked  := False;
+    lcCodigo.Enabled := True;
   end;
   MT.Post;
   MT.Edit;
@@ -1347,7 +1353,8 @@ begin
     Beep;
     if not gConfig.CodProdutoDuplicados then TFrmChecarCodProdutoDuplicado.Create(self).ShowModal;
     if not gConfig.CodProdutoDuplicados then begin
-      edCodigo.SetFocus;
+      if lcCodigo.Enabled then
+        edCodigo.SetFocus;
       Exit;
     end;
   end;
@@ -1495,6 +1502,7 @@ end;
 
 procedure TFrmProduto.cxLabel7Click(Sender: TObject);
 begin
+  grEstoque.MakeVisible;
   edUnid.SetFocus;
 end;
 

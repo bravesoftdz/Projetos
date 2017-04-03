@@ -10,7 +10,7 @@
 
 [Setup]
 AppName=Nex
-AppVerName=Nex C348
+AppVerName=Nex C363
 AppPublisherURL=http://www.nextar.com
 AppSupportURL=http://www.nextar.com
 AppUpdatesURL=http://www.nextar.com
@@ -38,6 +38,8 @@ Name: autostarticon; Description: Run NexServ automatically on Windows startup; 
 [Files]
 Source: "C:\Meus Programas\nex\NexServ.exe"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor
 Source: "C:\Meus Programas\nex\nexutils.dll"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
+Source: "C:\Meus Programas\nex\libeay32.dll"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
+Source: "C:\Meus Programas\nex\ssleay32.dll"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
 Source: "C:\Meus Programas\nex\NexAdmin.exe"; DestDir: "{app}"; Flags: ignoreversion; Components: Servidor Admin
 Source: "C:\Meus Programas\nex\newDoc.nx1"; DestDir: "{app}\db"; Flags: onlyifdoesntexist; Components: Servidor
 Source: "C:\Meus Programas\nex\br_cest.nx1"; DestDir: "{app}\db"; Flags: onlyifdoesntexist; Components: Servidor
@@ -46,6 +48,7 @@ Source: "C:\Meus Programas\nex\CFOP.nx1"; DestDir: "{app}\db"; Flags: ignorevers
 Source: "C:\Meus Programas\nex\MunBr.nx1"; DestDir: "{app}\db"; Flags: ignoreversion; Components: Servidor
 Source: "C:\Meus Programas\nex\capicom.dll"; DestDir: "{sys}"; Flags: onlyifdoesntexist regserver 32bit; Components: Servidor
 Source: "C:\Meus Programas\NEX\SAT\drivers\*"; DestDir: "{app}\sat\drivers"; Flags: ignoreversion createallsubdirs recursesubdirs
+Source: "C:\Meus Programas\NEX\nfe\icms_interestadual.ini"; DestDir: "{app}\nfe"; Flags: ignoreversion createallsubdirs recursesubdirs
 
 [INI]
 Filename: {app}\Nex.url; Section: InternetShortcut; Key: URL; String: http://nex.nextar.com.br/loja

@@ -169,7 +169,7 @@ type
     Tabcest: TLongWordField;
     cmReajuste: TdxBarButton;
     TabNome_brtrib: TStringField;
-    TVprodColumn1: TcxGridDBColumn;
+    TVprodNomeTrib: TcxGridDBColumn;
     Tabtax_id: TLongWordField;
     TVseq: TcxGridDBColumn;
     cmTipoTran: TdxBarListItem;
@@ -248,6 +248,10 @@ type
     tAux3CodigoNum: TLongWordField;
     tAux2: TnxTable;
     tAux2Codigo2: TWideStringField;
+    TabCodigoNum: TLongWordField;
+    TabCodigo2: TWideStringField;
+    TabCodigo2Num: TLongWordField;
+    TVprodCodigo2: TcxGridDBColumn;
     procedure cmReprocessarClick(Sender: TObject);
     procedure cmNovoClick(Sender: TObject);
     procedure cmEditarClick(Sender: TObject);
@@ -1239,8 +1243,6 @@ begin
     trEstEntrada : if not PodeOper(daEstEntrada) then Exit;
     trEstDevolucao : if not PodeOper(daDevolucao) then Exit;
     trEstCompra : if not PodeOper(daEstCompras) then Exit;
-    trEstTransf : if not PodeOper(daEstTransf) then Exit;
-    trEstTransfEnt : if not PodeOper(daEstTransfEntr) then Exit;
   end;
 
   case T of
