@@ -261,7 +261,7 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
       Font.Style = []
       ParentFont = False
       TabOrder = 1
-      Properties.ActivePage = tsOpcoes
+      Properties.ActivePage = tsEmail
       Properties.CustomButtons.Buttons = <>
       Properties.ShowFrame = True
       Properties.Style = 9
@@ -1234,7 +1234,7 @@ inherited FrmConfig_NFE: TFrmConfig_NFE
               CaptionOptions.Text = 'Tipo de NF padr'#227'o para vendas'
               Offsets.Left = 20
               Control = edTipoDocPadrao
-              ControlOptions.OriginalHeight = 25
+              ControlOptions.OriginalHeight = 21
               ControlOptions.OriginalWidth = 189
               ControlOptions.ShowBorder = False
               Index = 1

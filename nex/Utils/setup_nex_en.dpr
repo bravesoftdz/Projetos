@@ -8,9 +8,9 @@ uses
   Forms,
   ElevationUtils,
   unxInst_Pri_nex_en in 'unxInst_Pri_nex_en.pas' {FrmPri},
-  ncFirewall in '..\..\nex_old\Comp\ncFirewall.pas',
-  ncDebug in '..\..\nex_old\comp\ncDebug.pas',
-  unxInst_Folder_en in '..\..\nex_old\Utils\unxInst_Folder_en.pas' {FrmFolder};
+  ncFirewall in '..\Comp\ncFirewall.pas',
+  ncDebug in '..\comp\ncDebug.pas',
+  unxInst_Folder_en in 'unxInst_Folder_en.pas' {FrmFolder};
 
 {$R *.res}
 {$R uacs.res}
@@ -54,6 +54,7 @@ begin
   end;
   
   Application.CreateForm(TFrmPri, FrmPri);
+  Application.CreateForm(TFrmFolder, FrmFolder);
   Application.CreateForm(TFrmFolder, FrmFolder);
   Application.Run;
 end.

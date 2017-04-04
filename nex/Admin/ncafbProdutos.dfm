@@ -7,7 +7,6 @@ inherited fbProdutos: TfbProdutos
   Font.Height = -13
   OldCreateOrder = True
   Scaled = False
-  ExplicitLeft = -40
   ExplicitWidth = 1036
   ExplicitHeight = 558
   PixelsPerInch = 96
@@ -54,40 +53,45 @@ inherited fbProdutos: TfbProdutos
       Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
+      LookAndFeel.NativeStyle = False
       ExplicitHeight = 495
-      ClientRectBottom = 488
-      ClientRectLeft = 4
-      ClientRectRight = 1016
-      ClientRectTop = 4
+      ClientRectBottom = 492
+      ClientRectRight = 1020
+      ClientRectTop = 0
       object tsProd: TcxTabSheet
         Caption = 'Produtos'
         ImageIndex = 0
+        ExplicitLeft = 4
+        ExplicitTop = 4
+        ExplicitWidth = 1012
         ExplicitHeight = 487
         object panGrid: TLMDSplitterPanel
           Left = 0
           Top = 44
-          Width = 1012
-          Height = 440
+          Width = 1020
+          Height = 448
           Hint = ''
           Bevel.Mode = bmStandard
           Bevel.StandardStyle = lsNone
           Bars = <
             item
               OldPosition = -1
-              Position = 733
+              Position = 739
               PosPercent = 73
               Width = 7
             end>
           Align = alClient
           Color = clWhite
           TabOrder = 0
+          ExplicitWidth = 1012
+          ExplicitHeight = 440
           object LMDSplitterPane1: TLMDSplitterPane
             Bevel.Mode = bmStandard
             object Grid: TcxGrid
               Left = 0
               Top = 38
-              Width = 731
-              Height = 400
+              Width = 737
+              Height = 408
               Align = alClient
               BorderStyle = cxcbsNone
               Font.Charset = ANSI_CHARSET
@@ -99,6 +103,8 @@ inherited fbProdutos: TfbProdutos
               TabOrder = 0
               LookAndFeel.Kind = lfFlat
               LookAndFeel.NativeStyle = False
+              ExplicitWidth = 731
+              ExplicitHeight = 400
               object TVprod: TcxGridDBTableView
                 OnDblClick = TVprodDblClick
                 OnKeyDown = TVprodKeyDown
@@ -212,10 +218,12 @@ inherited fbProdutos: TfbProdutos
                   Caption = 'C'#243'digo'
                   DataBinding.FieldName = 'Codigo'
                   HeaderAlignmentVert = vaTop
+                  Width = 126
                 end
                 object TVprodCodigo2: TcxGridDBColumn
                   Caption = 'C'#243'digo Extra'
                   DataBinding.FieldName = 'Codigo2'
+                  Width = 101
                 end
                 object tvProdEstoqueTot: TcxGridDBColumn
                   Caption = 'Estoque Atual'
@@ -681,7 +689,7 @@ inherited fbProdutos: TfbProdutos
             object panEtq: TLMDSimplePanel
               Left = 0
               Top = 0
-              Width = 731
+              Width = 737
               Height = 38
               Hint = ''
               Align = alTop
@@ -690,6 +698,7 @@ inherited fbProdutos: TfbProdutos
               Color = 12582911
               TabOrder = 2
               Visible = False
+              ExplicitWidth = 731
               object Shape1: TShape
                 AlignWithMargins = True
                 Left = 75
@@ -778,21 +787,25 @@ inherited fbProdutos: TfbProdutos
             object LMDSimplePanel3: TLMDSimplePanel
               Left = 0
               Top = 0
-              Width = 272
-              Height = 440
+              Width = 274
+              Height = 448
               Hint = ''
               Align = alClient
               Bevel.BorderColor = clSilver
               Bevel.Mode = bmStandard
               TabOrder = 0
+              ExplicitWidth = 272
+              ExplicitHeight = 440
               object gridEtq: TcxGrid
                 Left = 1
                 Top = 39
-                Width = 270
-                Height = 400
+                Width = 272
+                Height = 408
                 Align = alClient
                 BorderStyle = cxcbsNone
                 TabOrder = 0
+                ExplicitWidth = 270
+                ExplicitHeight = 400
                 object tvEtq: TcxGridDBTableView
                   Navigator.Buttons.CustomButtons = <>
                   DataController.DataSource = dsEtq
@@ -853,13 +866,14 @@ inherited fbProdutos: TfbProdutos
               object LMDSimplePanel1: TLMDSimplePanel
                 Left = 1
                 Top = 1
-                Width = 270
+                Width = 272
                 Height = 38
                 Hint = ''
                 Align = alTop
                 Bevel.Mode = bmStandard
                 Bevel.StandardStyle = lsSingleRaised
                 TabOrder = 1
+                ExplicitWidth = 270
                 object btnImprimirEtq: TcxButton
                   AlignWithMargins = True
                   Left = 4
@@ -885,7 +899,7 @@ inherited fbProdutos: TfbProdutos
                 end
                 object btnLimpaLista: TcxButton
                   AlignWithMargins = True
-                  Left = 189
+                  Left = 191
                   Top = 3
                   Width = 77
                   Height = 32
@@ -908,6 +922,7 @@ inherited fbProdutos: TfbProdutos
                   Font.Style = []
                   ParentFont = False
                   OnClick = btnLimpaListaClick
+                  ExplicitLeft = 189
                 end
               end
             end
@@ -916,12 +931,13 @@ inherited fbProdutos: TfbProdutos
         object bardocProd: TdxBarDockControl
           Left = 0
           Top = 0
-          Width = 1012
+          Width = 1020
           Height = 44
           Align = dalTop
           BarManager = BarMgr
           SunkenBorder = True
           UseOwnSunkenBorder = True
+          ExplicitWidth = 1012
         end
       end
     end

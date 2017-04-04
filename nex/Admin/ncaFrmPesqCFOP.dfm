@@ -42,7 +42,7 @@ object FrmPesqCFOP: TFrmPesqCFOP
     Bevel.StandardStyle = lsNone
     TabOrder = 0
     object btnOk: TcxButton
-      Left = 469
+      Left = 0
       Top = 0
       Width = 66
       Height = 29
@@ -50,7 +50,7 @@ object FrmPesqCFOP: TFrmPesqCFOP
       Margins.Top = 0
       Margins.Right = 0
       Margins.Bottom = 0
-      Align = alRight
+      Align = alLeft
       Caption = '&Ok'
       Default = True
       LookAndFeel.Kind = lfFlat
@@ -64,6 +64,7 @@ object FrmPesqCFOP: TFrmPesqCFOP
       Font.Style = [fsBold]
       ParentFont = False
       OnClick = btnOkClick
+      ExplicitLeft = 469
     end
   end
   object Grid: TcxGrid
@@ -191,7 +192,6 @@ object FrmPesqCFOP: TFrmPesqCFOP
   end
   object Tab: TnxTable
     ActiveRuntime = True
-    ActiveDesigntime = True
     Database = Dados.db
     Timeout = 10000
     FilterOptions = [foCaseInsensitive]

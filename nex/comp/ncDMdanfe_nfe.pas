@@ -744,14 +744,25 @@ end;
 procedure TdmDanfe_nfe.LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
 var 
   I : Integer;
-  S : String;
+  S, sFieldName : String;
   F : TField;
+  P: Integer;
 begin
   if aXML='' then
     aXML := FXML;
   for i := 0 to D.Fields.Count-1 do begin
     F := D.Fields[I];
-    S := getXMLValue(aXML, F.FieldName, aCaminho);
+
+    sFieldName := F.FieldName;
+    repeat
+      P := Pos('_', sFieldName);
+      if P>0 then begin
+        aCaminho := aCaminho + ',' + Copy(sFieldName, 1, P-1);
+        Delete(sFieldName, 1, P);
+      end;
+    until (P<1);
+    
+    S := getXMLValue(aXML, sFieldName, aCaminho);
     if S>'' then
     if F.DataType in [ftFloat, ftCurrency] then
       F.AsFloat := MeuStrToFloat(S) else

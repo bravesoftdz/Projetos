@@ -1175,7 +1175,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     Top = 200
   end
   object repBobina: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -15529,6 +15529,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Style = fsDot
           Frame.Width = 0.100000000000000000
         end
+        object Line9: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object CabecalhoVendas: TfrxMasterData
         FillType = ftBrush
@@ -15766,6 +15776,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line3: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object InfoTributo: TfrxMasterData
         FillType = ftBrush
@@ -15876,6 +15896,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Memo25: TfrxMemoView
           Align = baCenter
+          Left = -0.000000000000003608
           Top = 11.338590000000010000
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -16124,6 +16145,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line6: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 22.677180000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object TipoPag: TfrxMasterData
         FillType = ftBrush
@@ -16176,6 +16207,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line4: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object ConsultaQR: TfrxMasterData
         FillType = ftBrush
@@ -16189,6 +16230,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Memo28: TfrxMemoView
           Align = baCenter
           ShiftMode = smWhenOverlapped
+          Left = -0.000000000000003608
           Top = 143.622140000000000000
           Width = 275.905690000000000000
           Height = 15.118120000000000000
@@ -16227,9 +16269,10 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Align = baCenter
           ShiftMode = smWhenOverlapped
           Left = 72.952845000000000000
-          Top = 11.338590000000000000
+          Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -16262,66 +16305,21 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-      end
-      object Line9: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 665.197280000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line3: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 234.330860000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line6: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 188.976500000000000000
-        Height = 22.677180000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line4: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 291.023810000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line10: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 483.779840000000000000
-        Height = 139.842610000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
+        object Line10: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 139.842610000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
     end
   end
   object repFolha: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -30675,6 +30673,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Style = fsDot
           Frame.Width = 0.100000000000000000
         end
+        object Line9: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object CabecalhoVendas: TfrxMasterData
         FillType = ftBrush
@@ -30912,6 +30920,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line3: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object InfoTributo: TfrxMasterData
         FillType = ftBrush
@@ -31022,6 +31040,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Memo25: TfrxMemoView
           Align = baCenter
+          Left = -0.000000000000003608
           Top = 11.338590000000010000
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -31270,6 +31289,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line6: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 22.677180000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object TipoPag: TfrxMasterData
         FillType = ftBrush
@@ -31322,6 +31351,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line4: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object ConsultaQR: TfrxMasterData
         FillType = ftBrush
@@ -31335,6 +31374,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Memo28: TfrxMemoView
           Align = baCenter
           ShiftMode = smWhenOverlapped
+          Left = -0.000000000000003608
           Top = 143.622140000000000000
           Width = 275.905690000000000000
           Height = 15.118120000000000000
@@ -31376,6 +31416,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -31408,66 +31449,21 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-      end
-      object Line9: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 665.197280000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line3: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 234.330860000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line6: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 188.976500000000000000
-        Height = 22.677180000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line4: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 291.023810000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line10: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 483.779840000000000000
-        Height = 139.842610000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
+        object Line10: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 139.842610000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
     end
   end
   object frCustom: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -45822,6 +45818,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Style = fsDot
           Frame.Width = 0.100000000000000000
         end
+        object Line9: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object CabecalhoVendas: TfrxMasterData
         FillType = ftBrush
@@ -46059,6 +46065,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line3: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object InfoTributo: TfrxMasterData
         FillType = ftBrush
@@ -46169,6 +46185,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
         end
         object Memo25: TfrxMemoView
           Align = baCenter
+          Left = -0.000000000000003608
           Top = 11.338590000000010000
           Width = 275.905690000000000000
           Height = 11.338590000000000000
@@ -46417,6 +46434,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line6: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 22.677180000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object TipoPag: TfrxMasterData
         FillType = ftBrush
@@ -46469,6 +46496,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
+        object Line4: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 11.338590000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
       object ConsultaQR: TfrxMasterData
         FillType = ftBrush
@@ -46482,6 +46519,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
         object Memo28: TfrxMemoView
           Align = baCenter
           ShiftMode = smWhenOverlapped
+          Left = -0.000000000000003608
           Top = 143.622140000000000000
           Width = 275.905690000000000000
           Height = 15.118120000000000000
@@ -46523,6 +46561,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -46555,61 +46594,16 @@ object dmDanfe_nfe: TdmDanfe_nfe
           Frame.Typ = [ftLeft]
           Frame.Width = 0.100000000000000000
         end
-      end
-      object Line9: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 665.197280000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line3: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 234.330860000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line6: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 188.976500000000000000
-        Height = 22.677180000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line4: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 291.023810000000000000
-        Height = 11.338590000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
-      end
-      object Line10: TfrxLineView
-        ShiftMode = smWhenOverlapped
-        Left = 275.905690000000000000
-        Top = 483.779840000000000000
-        Height = 139.842610000000000000
-        StretchMode = smMaxHeight
-        Color = clBlack
-        Frame.Style = fsDot
-        Frame.Typ = [ftLeft]
-        Frame.Width = 0.100000000000000000
+        object Line10: TfrxLineView
+          ShiftMode = smWhenOverlapped
+          Left = 275.905690000000000000
+          Height = 139.842610000000000000
+          StretchMode = smMaxHeight
+          Color = clBlack
+          Frame.Style = fsDot
+          Frame.Typ = [ftLeft]
+          Frame.Width = 0.100000000000000000
+        end
       end
     end
   end
@@ -47139,7 +47133,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     end
   end
   object frRep: TfrxReport
-    Version = '5.5'
+    Version = '5.5.11'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -47170,6 +47164,47 @@ object dmDanfe_nfe: TdmDanfe_nfe
       RightMargin = 10.000000000000000000
       TopMargin = 10.000000000000000000
       BottomMargin = 10.000000000000000000
+      object ReportTitle1: TfrxReportTitle
+        FillType = ftBrush
+        Height = 188.976500000000000000
+        Top = 18.897650000000000000
+        Width = 740.409927000000000000
+        object BarCode1: TfrxBarCodeView
+          Left = 147.401670000000000000
+          Top = 52.913420000000000000
+          Width = 64.000000000000000000
+          Height = 71.811070000000000000
+          BarType = bcCode_2_5_interleaved
+          Rotation = 0
+          Text = '12345678'
+          WideBarRatio = 2.000000000000000000
+          Zoom = 1.000000000000000000
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clBlack
+          Font.Height = -12
+          Font.Name = 'Arial'
+          Font.Style = []
+        end
+        object Barcode2D1: TfrxBarcode2DView
+          Left = 325.039580000000000000
+          Top = 52.913420000000000000
+          Width = 84.000000000000000000
+          Height = 100.000000000000000000
+          StretchMode = smActualHeight
+          BarType = bcCodeQR
+          BarProperties.Encoding = qrAuto
+          BarProperties.QuietZone = 0
+          BarProperties.ErrorLevels = ecL
+          BarProperties.PixelSize = 4
+          BarProperties.CodePage = 0
+          Rotation = 0
+          ShowText = True
+          Text = '12345678'
+          Zoom = 1.000000000000000000
+          FontScaled = True
+          QuietZone = 0
+        end
+      end
     end
   end
   object mtTransp: TkbmMemTable
