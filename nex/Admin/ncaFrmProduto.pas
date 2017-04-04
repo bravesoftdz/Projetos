@@ -473,9 +473,6 @@ type
 
     procedure LoadProdFor;
     procedure SaveProdFor;
-
-    
-
     
   public
      Tab : TnxTable;
@@ -2302,31 +2299,3 @@ begin
 end;
 
 end.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -108,7 +108,8 @@ resourcestring
 
 implementation
 
-uses ncaDM, ncaFrmCadCli, ncaFrmCadFornecedor, ncaFrmPesqFor, ncClassesBase;
+uses ncaDM, ncaFrmCadCli, ncaFrmCadFornecedor, ncaFrmPesqFor, ncClassesBase,
+  ncaFrmPri;
 
 {$R *.dfm}
 
@@ -192,6 +193,7 @@ begin
   if not FFornecedor then begin
     cliPesq := gCliPesq2List.GetFrm;
     try
+      //Rodrigo - retorna a ID do Cliente
       if cliPesq.Pesquisar(FID, FNome, FFidPontos, FCredito, FDebito) then ID := FID;
     finally
       gCliPesq2List.ReleaseFrm(cliPesq);
@@ -199,10 +201,12 @@ begin
   end else begin
     forPesq := gPesqForList.GetFrm;
     try
+      //Rodrigo - retorna a ID do Fornecedor
       if forPesq.Pesquisar(FID, FNome, FFidPontos) then Atualiza;
     finally
       gPesqForList.ReleaseFrm(forPesq);
     end;
+    FrmPri.iCod := FID;
   end;
 end;
 

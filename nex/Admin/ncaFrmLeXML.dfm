@@ -16,6 +16,7 @@ object FrmLeXML: TFrmLeXML
   Position = poScreenCenter
   OnClose = FormClose
   OnCreate = FormCreate
+  OnDestroy = FormDestroy
   OnKeyDown = FormKeyDown
   OnShow = FormShow
   PixelsPerInch = 96
@@ -289,9 +290,6 @@ object FrmLeXML: TFrmLeXML
       object tsProd: TcxTabSheet
         Caption = 'tsProd'
         ImageIndex = 0
-        ExplicitTop = 0
-        ExplicitWidth = 0
-        ExplicitHeight = 0
         object Splitter: TLMDSplitterPanel
           Left = 0
           Top = 30
@@ -589,7 +587,6 @@ object FrmLeXML: TFrmLeXML
                     Caption = 'N'#227'o '#233' esse?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
-                    ExplicitTop = 136
                   end
                   object btnAceitarSug: TLMDButton
                     AlignWithMargins = True
@@ -633,7 +630,6 @@ object FrmLeXML: TFrmLeXML
                     Caption = #201' esse mesmo?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
-                    ExplicitTop = 63
                   end
                   object lbProdutoSugerido: TcxLabel
                     AlignWithMargins = True
@@ -666,9 +662,6 @@ object FrmLeXML: TFrmLeXML
               object tsSemProd: TcxTabSheet
                 Caption = 'tsSemProd'
                 ImageIndex = 1
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
@@ -728,9 +721,6 @@ object FrmLeXML: TFrmLeXML
               object tsSemUnid: TcxTabSheet
                 Caption = 'tsSemUnid'
                 ImageIndex = 2
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
                 object LMDHTMLLabel2: TLMDHTMLLabel
                   Left = 0
                   Top = 0
@@ -945,7 +935,6 @@ object FrmLeXML: TFrmLeXML
                       StyleHot.LookAndFeel.Kind = lfFlat
                       TabOrder = 1
                       OnEnter = edParaEnter
-                      ExplicitHeight = 21
                       Width = 50
                     end
                     object lbPara: TcxLabel
@@ -1014,7 +1003,7 @@ object FrmLeXML: TFrmLeXML
                 end
                 object edUniv: TcxDBCheckBox
                   Left = 0
-                  Top = 314
+                  Top = 301
                   Cursor = crHandPoint
                   Align = alBottom
                   Caption = 'A convers'#227'o de CX para PC '#233' sempre igual, para TODOS produtos.'
@@ -1035,15 +1024,13 @@ object FrmLeXML: TFrmLeXML
                   StyleFocused.LookAndFeel.Kind = lfFlat
                   StyleHot.LookAndFeel.Kind = lfFlat
                   TabOrder = 4
+                  ExplicitTop = 314
                   Width = 321
                 end
               end
               object tsOk: TcxTabSheet
                 Caption = 'tsOk'
                 ImageIndex = 4
-                ExplicitTop = 0
-                ExplicitWidth = 0
-                ExplicitHeight = 0
               end
             end
             object LMDSimplePanel1: TLMDSimplePanel
@@ -1277,7 +1264,7 @@ object FrmLeXML: TFrmLeXML
             Style.StyleController = FrmPri.escFlat
             Style.IsFontAssigned = True
             TabOrder = 0
-            Width = 728
+            Width = 150
           end
           object cxLabel10: TcxLabel
             AlignWithMargins = True
@@ -1304,7 +1291,7 @@ object FrmLeXML: TFrmLeXML
           object cxLabel11: TcxLabel
             AlignWithMargins = True
             Left = 12
-            Top = 63
+            Top = 71
             Margins.Left = 10
             Margins.Top = 0
             Margins.Right = 10
@@ -1328,7 +1315,7 @@ object FrmLeXML: TFrmLeXML
           object cbEntrada: TcxCheckBox
             AlignWithMargins = True
             Left = 12
-            Top = 129
+            Top = 137
             Margins.Left = 10
             Margins.Top = 20
             Margins.Right = 10
@@ -1350,8 +1337,6 @@ object FrmLeXML: TFrmLeXML
             StyleFocused.LookAndFeel.Kind = lfFlat
             StyleHot.LookAndFeel.Kind = lfFlat
             TabOrder = 3
-            ExplicitTop = 137
-            ExplicitWidth = 121
           end
         end
       end
@@ -1420,6 +1405,34 @@ object FrmLeXML: TFrmLeXML
         OnClick = btnVoltarClick
       end
     end
+  end
+  object Memo2: TMemo
+    Left = 25
+    Top = 175
+    Width = 235
+    Height = 12
+    Lines.Strings = (
+      'M'
+      'e'
+      'm'
+      'o'
+      '1')
+    TabOrder = 1
+    Visible = False
+  end
+  object Memo1: TMemo
+    Left = 25
+    Top = 193
+    Width = 235
+    Height = 13
+    Lines.Strings = (
+      'M'
+      'e'
+      'm'
+      'o'
+      '1')
+    TabOrder = 2
+    Visible = False
   end
   object mt: TkbmMemTable
     DesignActivation = True

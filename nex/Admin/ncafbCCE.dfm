@@ -337,7 +337,7 @@ inherited fbCCE: TfbCCE
     Top = 256
   end
   object Relcce: TfrxReport
-    Version = '5.5'
+    Version = '5.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -374,33 +374,22 @@ inherited fbCCE: TfbCCE
       BottomMargin = 10.000000000000000000
       object ReportTitle1: TfrxReportTitle
         FillType = ftBrush
-        Height = 405.779840000000000000
+        Height = 404.779840000000000000
         Top = 18.897650000000000000
         Width = 740.409927000000000000
-        object Shape2: TfrxShapeView
-          Left = 1.000000000000000000
-          Top = 121.102350000000000000
-          Width = 736.000000000000000000
-          Height = 103.000000000000000000
-        end
+        Stretched = True
         object Shape1: TfrxShapeView
           Left = 1.000000000000000000
           Top = 1.102350000000000000
           Width = 736.000000000000000000
           Height = 117.440940000000000000
         end
-        object Shape3: TfrxShapeView
-          Left = 1.000000000000000000
-          Top = 227.102350000000000000
-          Width = 736.000000000000000000
-          Height = 171.000000000000000000
-        end
         object Memo1: TfrxMemoView
-          Left = 9.559060000000000000
+          Left = 1.000000000000000000
           Top = 155.299320000000000000
-          Width = 714.331170000000000000
-          Height = 64.488250000000000000
-          DataField = 'xCOrrecao'
+          Width = 735.331170000000000000
+          Height = 56.929190000000000000
+          StretchMode = smMaxHeight
           DataSet = dbmt
           DataSetName = 'dbmt'
           Font.Charset = DEFAULT_CHARSET
@@ -408,6 +397,8 @@ inherited fbCCE: TfbCCE
           Font.Height = -15
           Font.Name = 'Arial'
           Font.Style = [fsBold]
+          Frame.Typ = [ftLeft, ftRight, ftTop, ftBottom]
+          HAlign = haBlock
           Memo.UTF8W = (
             '[dbmt."xCOrrecao"]')
           ParentFont = False
@@ -661,23 +652,9 @@ inherited fbCCE: TfbCCE
             '[dbmt."amb"]')
           ParentFont = False
         end
-        object Line1: TfrxLineView
-          Left = 2.000000000000000000
-          Top = 150.102350000000000000
-          Width = 733.440940000000000000
-          Color = clBlack
-          Diagonal = True
-        end
         object Line2: TfrxLineView
           Left = 2.000000000000000000
           Top = 27.102350000000000000
-          Width = 733.440940000000000000
-          Color = clBlack
-          Diagonal = True
-        end
-        object Line3: TfrxLineView
-          Left = 2.000000000000000000
-          Top = 258.102350000000000000
           Width = 733.440940000000000000
           Color = clBlack
           Diagonal = True
@@ -716,6 +693,7 @@ inherited fbCCE: TfbCCE
           Expression = '<dbmt."chNFe">'
           Rotation = 0
           ShowText = False
+          TestLine = False
           Text = '35161007216011000152550010000754211000373531'
           WideBarRatio = 2.000000000000000000
           Zoom = 1.000000000000000000
@@ -760,6 +738,32 @@ inherited fbCCE: TfbCCE
             '[dbmt."nProt"]')
           ParentFont = False
         end
+        object Shape4: TfrxShapeView
+          Left = 1.000000000000000000
+          Top = 122.102350000000000000
+          Width = 736.000000000000000000
+          Height = 27.377860000000000000
+        end
+        object Line1: TfrxLineView
+          Left = 1.000000000000000000
+          Top = 257.102350000000000000
+          Width = 733.440940000000000000
+          Color = clBlack
+          Diagonal = True
+        end
+        object Line3: TfrxLineView
+          Left = 1.000000000000000000
+          Top = 221.102350000000000000
+          Width = 733.440940000000000000
+          Color = clBlack
+          Diagonal = True
+        end
+      end
+      object Shape2: TfrxShapeView
+        Left = 390.000000000000000000
+        Top = -117.000000000000000000
+        Width = 736.000000000000000000
+        Height = 27.377860000000000000
       end
     end
   end
@@ -788,8 +792,8 @@ inherited fbCCE: TfbCCE
     Database = Dados.db
     FlipOrder = True
     TableName = 'NFCONFIG'
-    Left = 84
-    Top = 256
+    Left = 100
+    Top = 168
     object tDadosNfeID: TUnsignedAutoIncField
       FieldName = 'ID'
     end

@@ -391,7 +391,9 @@ type
     property InfoPlanos: String read FInfoPlanos;
 
    { Public declarations }
-
+  var
+    iCod, iCFOP :integer;
+    sNatOp : string;
   published      
     procedure CustomDrawGridHeader(Sender: TcxGridTableView;
       ACanvas: TcxCanvas; AViewInfo: TcxGridColumnHeaderViewInfo;

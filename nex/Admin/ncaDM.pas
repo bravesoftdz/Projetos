@@ -1982,15 +1982,19 @@ end;
 procedure GeraNFE;
 begin
   DebugMsg('TDados.GeraDanfe.nfe - aTran: ' + aTran + ' - aEmail: ' + BoolStr[aEmail]);
-
-  if not Assigned(dmDanfe_NFE) then 
+  debugMsg('Emitir NFe4');
+  if not Assigned(dmDanfe_NFE) then
     Application.CreateForm(TdmDanfe_nfe, dmDanfe_nfe);
-  
+
+  debugMsg('Emitir NFe5');
+
   if aEmail then begin
+    debugMsg('Emitir NFe6');
     DebugMsg('TDados.GetDanfe.nfe - aEmail');
     if not tbDoc.Locate('UID', tNFConfigModeloNFe_Email.Value, []) then begin
       ShowMessage('É necessário selecionar um modelo/layout de NF-e');
       with TFrmConfig_nfe.Create(Self) do begin
+        debugMsg('Emitir NFe7');
         EditModelo := True;
         ShowModal;
         Exit;
@@ -2003,25 +2007,25 @@ begin
   end;
 
   S := tbNFEXMLdest.Value;
-    
+
   dmDanfe_NFE.LoadXML(S, tbTranTroco.Value, tbTranFunc.Value, tbTranID.AsString, tbConfig, tbTranCancelado.Value);
 
-  DebugMsg('TDados.GeraDanfe.nfe - tbDocUI.Value: '+ tbDocUID.Value);   
-                      
+  DebugMsg('TDados.GeraDanfe.nfe - tbDocUI.Value: '+ tbDocUID.Value);
+  debugMsg('Emitir NFe8');
   if aEmail then
     dmDanfe_NFE.LoadReport(tbDocDoc, '') else
     dmDanfe_NFE.LoadReport(tbDocDoc, gRecibo.Impressora[tipodoc_nfe]);
-
-  Result := True;    
+  debugMsg('Emitir NFe9');
+  Result := True;
 end;
 
 
 begin
   Result := False;
   if not tbTran.Locate('UID', aTran, []) then Exit;
-
-  case tbTranStatusNFE.Value of 
-    nfetran_contingencia : 
+  debugMsg('Emitir NFe1');
+  case tbTranStatusNFE.Value of
+    nfetran_contingencia :
       if aEmail then raise Exception.Create('Essa NF ainda está em contingência é necessário aguardar a transamissão para SEFAZ para enviar o e-mail');
 
     nfetran_ok, nfetran_ok_cont : ;
@@ -2031,14 +2035,14 @@ begin
   else
     raise Exception.Create('Erro na emissão da NF: '+tbTranStatusNFE.AsString);
   end;
-
-  if not tbNFE.Locate('Chave', tbTranChaveNFE.Value, []) then 
+  debugMsg('Emitir NFe2');
+  if not tbNFE.Locate('Chave', tbTranChaveNFE.Value, []) then
     raise exception.Create('NFe não encontrada');
-
+  debugMsg('Emitir NFe3');
   case tbNFETipoDoc.Value of
     tiponfe_sat  : GeraSAT;
     tiponfe_nfce : GeraNFCE;
-    tiponfe_nfe  : GeraNFE;  
+    tiponfe_nfe  : GeraNFE;
   end;
 end;
 

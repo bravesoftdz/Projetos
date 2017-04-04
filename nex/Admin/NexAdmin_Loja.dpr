@@ -339,7 +339,8 @@ uses
   ncaFrmObs in 'ncaFrmObs.pas' {FrmObs},
   ncaFrmConfig_TamCodigoAuto in 'ncaFrmConfig_TamCodigoAuto.pas' {FrmConfig_TamCodigoAuto},
   ncaFrmAjustaTamCod in 'ncaFrmAjustaTamCod.pas' {FrmAjustaTamCod},
-  ncaFrmPesqDadosFiscais in 'ncaFrmPesqDadosFiscais.pas' {FrmPesqDadosFiscais};
+  ncaFrmPesqDadosFiscais in 'ncaFrmPesqDadosFiscais.pas' {FrmPesqDadosFiscais},
+  ncaFrmDadosItemOutrasEntradas in 'ncaFrmDadosItemOutrasEntradas.pas' {frmDadosItemOutrasEntradas};
 
 {$R *.res}
 {---$R uac.res}

@@ -41,7 +41,6 @@ type
     mtEstSaldoInicial: TFloatField;
     mtEstEntradas: TFloatField;
     mtEstCompras: TFloatField;
-    mtEstTransEnt : TFloatField;
     mtEstSaidas: TFloatField;
     mtEstVendas: TFloatField;
     mtEstValorVendas: TCurrencyField;
@@ -778,6 +777,7 @@ begin
         trEstDevolucao : tCaixaTotalFinal.Value := tCaixaTotalFinal.Value - qFechaTotal.Value;
         trEstCompra,
         trEstTransfEnt,
+        trEstOutEntr,
         trEstTransf,
         trEstSaida,
         trEstEntrada,
@@ -1350,7 +1350,6 @@ begin
         
       case qMETipoTran.Value of
         trEstCompra  : mtEstCompras.Value := mtEstCompras.Value + qMEQuant.Value;
-        trEstTransfEnt  : mtEstTransEnt.Value := mtEstTransEnt.Value + qMEQuant.Value;
         trEstDevolucao : mtEstDevolucoes.Value := mtEstDevolucoes.Value + qMEQuant.Value;
         trEstEntrada : mtEstEntradas.Value := mtEstEntradas.Value + qMEQuant.Value;
         trEstSaida   : mtEstSaidas.Value := mtEstSaidas.Value + qMEQuant.Value;

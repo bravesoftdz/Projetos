@@ -258,6 +258,8 @@ type
     function Editar(aNovo: Boolean; aME: TncMovEst; aPodeSalvar: Boolean; aTamanho: Byte = tamTelaPDV1): Byte;
 
     function VenderOrcamento(aUID: String): Cardinal;
+    var
+    sCodUF : string;
     { Public declarations }
   end;
 
@@ -540,10 +542,16 @@ begin
     Raise ENexCafe.Create(SÉNecessárioHaverItensParaSalvar);
 
   DebugMsg(Self, 'cmGravar 19');
-    
+
+  if (FME.Tipo=trEstTransf) then begin
+    if (FME.Cliente=0) then
+      raise exception.Create('A emissão de NF-e exige que seja informado um cliente');
+  end;
+
+
   if (FME.TipoNFE=tiponfe_nfe) and (FME.Tipo=trEstVenda) then begin
     DebugMsg(Self, 'cmGravar 21');
-  
+
     if (FME.Cliente=0) then raise exception.Create('A emissão de NF-e exige que seja informado um cliente');
     case Dados.ClienteOkNFE(FME.Cliente) of
       1 : begin  
@@ -1005,7 +1013,8 @@ begin
   FDCValidator.SetOldCli(FCli.ID, FCli.Debito, FCli.Credito, FME.PagEsp.CreditoUsado, FME.PagEsp.Credito);
 
   cmGravar.Enabled := aPodeSalvar and (aNovo or Permitido(daTraAlterar));
-  FCli.Fornecedor := (FME.Tipo <> trEstVenda);
+
+  FCli.Fornecedor := ((FME.Tipo <> trEstVenda) and (FME.Tipo <> trEstTransf));
 
   UpdateTipoTran;
 
@@ -1578,5 +1587,3 @@ begin
 end;
 
 end.
-
-
