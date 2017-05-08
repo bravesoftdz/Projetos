@@ -106,6 +106,8 @@ type
     genList: TLMDGenericList;
     nbiZerarDB: TdxNavBarItem;
     SBItem1: TdxNavBarItem;
+    Button1: TButton;
+    Button2: TButton;
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure btnFecharClick(Sender: TObject);
     procedure FormCanResize(Sender: TObject; var NewWidth,
@@ -132,6 +134,8 @@ type
     procedure SBLinkPress(Sender: TObject; ALink: TdxNavBarItemLink);
     procedure Timer3Timer(Sender: TObject);
     procedure lbVersaoClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
   private
     { Private declarations }
     FInicio : Cardinal;
@@ -212,7 +216,8 @@ uses
   ncServAtualizaLic_Indy, 
   ncFrmSuporteRem, ncIPAddr, ncSyncLic, ncDebug,
   ncVersionInfo, ncShellStart, ncFrmProgress, 
-  ncMsgCom, ncFirewall, ncsStrings, ncDM_nexapp, uVersionInfo;
+  ncMsgCom, ncFirewall, ncsStrings, ncDM_nexapp, uVersionInfo, ncDMproc_sped,
+  ncDMSolicitacoes_Sped;
 
 const
   SegMS = 1000;
@@ -704,6 +709,25 @@ begin
   TrayDblClick(nil);
   Application.Minimize;
   PostMessage(Handle, WM_SYSCOMMAND, SC_MINIMIZE, 0);
+end;
+
+procedure TfrmPri.Button1Click(Sender: TObject);
+var
+  procSped : TdmProcDados_Sped;
+begin
+    procSped := TdmProcDados_Sped.Create(self);
+    procSped.ProcessaDados;
+end;
+
+procedure TfrmPri.Button2Click(Sender: TObject);
+var
+  geraSped : TdmSolicitacoes_Sped;
+  procSped : TdmProcDados_Sped;
+begin
+    procSped := TdmProcDados_Sped.Create(self);
+    procSped.reprocessaAntigo;
+    geraSped := TdmSolicitacoes_Sped.Create(self);
+    geraSped.processaSped;
 end;
 
 procedure TfrmPri.lbVersaoClick(Sender: TObject);

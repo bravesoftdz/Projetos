@@ -379,10 +379,10 @@ object FrmPri: TFrmPri
           end
         end
         object dpRevisarProduto: TdxDockPanel
-          Left = 0
+          Left = 615
           Top = 0
           Width = 252
-          Height = 0
+          Height = 140
           Font.Charset = DEFAULT_CHARSET
           Font.Color = clBlack
           Font.Height = -13
@@ -2085,8 +2085,8 @@ object FrmPri: TFrmPri
     PixelsPerInch = 96
   end
   object nxSession1: TnxSession
-    Left = 336
-    Top = 64
+    Left = 288
+    Top = 56
   end
   object pmRegistro: TdxBarPopupMenu
     BarManager = BarMgr
@@ -2249,7 +2249,7 @@ object FrmPri: TFrmPri
   object TimerFimTrial: TTimer
     Enabled = False
     OnTimer = TimerFimTrialTimer
-    Left = 256
-    Top = 49
+    Left = 216
+    Top = 57
   end
 end

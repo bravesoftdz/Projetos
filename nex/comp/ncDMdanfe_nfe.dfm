@@ -1,8 +1,8 @@
 object dmDanfe_nfe: TdmDanfe_nfe
   OldCreateOrder = False
   OnCreate = DataModuleCreate
-  Height = 388
-  Width = 625
+  Height = 444
+  Width = 564
   object mtIDE: TkbmMemTable
     DesignActivation = True
     AttachedAutoRefresh = True
@@ -151,6 +151,10 @@ object dmDanfe_nfe: TdmDanfe_nfe
     object mtIDEcanhoto: TMemoField
       FieldName = 'canhoto'
       BlobType = ftMemo
+    end
+    object mtIDEnserieSAT: TStringField
+      FieldName = 'nserieSAT'
+      Size = 30
     end
   end
   object mtEmit: TkbmMemTable
@@ -460,6 +464,7 @@ object dmDanfe_nfe: TdmDanfe_nfe
     SortID = 0
     SubLanguageID = 1
     LocaleID = 1024
+    AfterInsert = mtItemAfterInsert
     BeforePost = mtItemBeforePost
     OnCalcFields = mtItemCalcFields
     Left = 24
@@ -572,11 +577,11 @@ object dmDanfe_nfe: TdmDanfe_nfe
     object mtItemPIS_vBC: TFloatField
       FieldName = 'PIS_vBC'
     end
-    object mtItempPIS: TFloatField
-      FieldName = 'pPIS'
+    object mtItemPIS_pPIS: TFloatField
+      FieldName = 'PIS_pPIS'
     end
-    object mtItemvPIS: TFloatField
-      FieldName = 'vPIS'
+    object mtItemPIS_vPIS: TFloatField
+      FieldName = 'PIS_vPIS'
     end
     object mtItemCOFINS_CST: TWordField
       FieldName = 'COFINS_CST'
@@ -584,11 +589,11 @@ object dmDanfe_nfe: TdmDanfe_nfe
     object mtItemCOFINS_vBC: TFloatField
       FieldName = 'COFINS_vBC'
     end
-    object mtItempCofins: TFloatField
-      FieldName = 'pCofins'
+    object mtItemCOFINS_pCofins: TFloatField
+      FieldName = 'COFINS_pCOFINS'
     end
-    object mtItemvCofins: TFloatField
-      FieldName = 'vCofins'
+    object mtItemCOFINS_vCofins: TFloatField
+      FieldName = 'COFINS_vCOFINS'
     end
     object mtItemmodBCST: TWordField
       FieldName = 'modBCST'
@@ -873,7 +878,9 @@ object dmDanfe_nfe: TdmDanfe_nfe
       'IPI_vBC=IPI_vBC'
       'pIPI=pIPI'
       'uTrib=uTrib'
-      'pICMSST=pICMSST')
+      'pICMSST=pICMSST'
+      'vFrete=vFrete'
+      'vOutro=vOutro')
     DataSet = mtItem
     BCDToCurrency = False
     Left = 296
@@ -931,10 +938,6 @@ object dmDanfe_nfe: TdmDanfe_nfe
     BCDToCurrency = False
     Left = 360
     Top = 24
-  end
-  object lbSha1: TLbSHA1
-    Left = 72
-    Top = 136
   end
   object mtDest: TkbmMemTable
     DesignActivation = True
@@ -1189,8 +1192,8 @@ object dmDanfe_nfe: TdmDanfe_nfe
       'begin'
       ''
       'end.')
-    Left = 312
-    Top = 232
+    Left = 304
+    Top = 200
     Datasets = <
       item
         DataSet = dbConfig
@@ -16336,8 +16339,8 @@ object dmDanfe_nfe: TdmDanfe_nfe
       'begin'
       ''
       'end.')
-    Left = 384
-    Top = 232
+    Left = 376
+    Top = 200
     Datasets = <
       item
         DataSet = dbConfig
@@ -31484,8 +31487,8 @@ object dmDanfe_nfe: TdmDanfe_nfe
       ''
       'end.')
     OnBeforePrint = frCustomBeforePrint
-    Left = 448
-    Top = 232
+    Left = 440
+    Top = 200
     Datasets = <
       item
         DataSet = dbConfig
@@ -47084,193 +47087,125 @@ object dmDanfe_nfe: TdmDanfe_nfe
         Name = 'LMDTextSnip0'
         Lines.Strings = (
           
-            '<?xml version="1.0" encoding="UTF-8" ?><nfeProc xmlns="http://ww' +
-            'w.portalfiscal.inf.br/nfe" versao="3.10"><NFe xmlns="http://www.' +
-            'portalfiscal.inf.br/nfe"><infNFe Id="NFe421610176069980002565500' +
-            '10000199471986752457" versao="3.10"><ide><cUF>42</cUF><cNF>98675' +
-            '245</cNF><natOp>VENDAS OFICINA</natOp><indPag>0</indPag><mod>55<' +
-            '/mod><serie>1</serie><nNF>19947</nNF><dhEmi>2016-10-11T17:33:44-' +
-            '03:00</dhEmi><dhSaiEnt>2016-10-11T17:33:44-03:00</dhSaiEnt><tpNF' +
-            '>1</tpNF><idDest>1</idDest><cMunFG>4205407</cMunFG><tpImp>1</tpI' +
-            'mp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>1</tpAmb><finNFe>1</finN' +
-            'Fe><indFinal>1</indFinal><indPres>1</indPres><procEmi>0</procEmi' +
-            '><verProc>V01R55</verProc></ide><emit><CNPJ>17606998000256</CNPJ' +
-            '><xNome>SEKAI COMERCIO DE VEICULOS LTDA</xNome><xFant>SEKAI</xFa' +
-            'nt><enderEmit><xLgr>RODOVIA SC 401</xLgr><nro>4369</nro><xBairro' +
-            '>SACO GRANDE</xBairro><cMun>4205407</cMun><xMun>FLORIANOPOLIS</x' +
-            'Mun><UF>SC</UF><CEP>88032005</CEP><cPais>1058</cPais><xPais>BRAS' +
-            'IL</xPais><fone>4836646400</fone></enderEmit><IE>256960860</IE><'
-          
-            'IM>4702832</IM><CNAE>4511101</CNAE><CRT>3</CRT></emit><dest><CPF' +
-            '>16392012893</CPF><xNome>JOAO LUCIO BORGES</xNome><enderDest><xL' +
-            'gr>RUA. SABATINA F. DOS SANTOS</xLgr><nro>235</nro><xBairro>ITAC' +
-            'ORUBI</xBairro><cMun>4205407</cMun><xMun>FLORIANOPOLIS</xMun><UF' +
-            '>SC</UF><CEP>89051001</CEP><cPais>1058</cPais><xPais>BRASIL</xPa' +
-            'is><fone>04832098629</fone></enderDest><indIEDest>9</indIEDest><' +
-            '/dest><det nItem="1"><prod><cProd>MMCW130006</cProd><cEAN /><xPr' +
-            'od>LIMPADOR, SISTEMA COMB - GASOL</xProd><NCM>38111900</NCM><CES' +
-            'T>0199900</CEST><CFOP>5405</CFOP><uCom>PC</uCom><qCom>1.00</qCom' +
-            '><vUnCom>75.86</vUnCom><vProd>75.86</vProd><cEANTrib /><uTrib>PC' +
-            '</uTrib><qTrib>1.00</qTrib><vUnTrib>75.86</vUnTrib><vDesc>2.84</' +
-            'vDesc><indTot>1</indTot><nItemPed>0</nItemPed></prod><imposto><v' +
-            'TotTrib>24.39</vTotTrib><ICMS><ICMS60><orig>0</orig><CST>60</CST' +
-            '><vBCSTRet>0.00</vBCSTRet><vICMSSTRet>0.00</vICMSSTRet></ICMS60>' +
-            '</ICMS><PIS><PISAliq><CST>01</CST><vBC>73.02</vBC><pPIS>1.65</pP' +
-            'IS><vPIS>1.20</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01<'
-          
-            '/CST><vBC>73.02</vBC><pCOFINS>7.60</pCOFINS><vCOFINS>5.55</vCOFI' +
-            'NS></COFINSAliq></COFINS></imposto></det><det nItem="2"><prod><c' +
-            'Prod>MMCWPA0606</cProd><cEAN /><xProd>KIT, VISIBILIDADE</xProd><' +
-            'NCM>34022000</NCM><CEST>0199900</CEST><CFOP>5405</CFOP><uCom>PC<' +
-            '/uCom><qCom>1.00</qCom><vUnCom>28.69</vUnCom><vProd>28.69</vProd' +
-            '><cEANTrib /><uTrib>PC</uTrib><qTrib>1.00</qTrib><vUnTrib>28.69<' +
-            '/vUnTrib><vDesc>1.08</vDesc><indTot>1</indTot><nItemPed>0</nItem' +
-            'Ped></prod><imposto><vTotTrib>8.80</vTotTrib><ICMS><ICMS60><orig' +
-            '>0</orig><CST>60</CST><vBCSTRet>0.00</vBCSTRet><vICMSSTRet>0.00<' +
-            '/vICMSSTRet></ICMS60></ICMS><PIS><PISAliq><CST>01</CST><vBC>27.6' +
-            '1</vBC><pPIS>1.65</pPIS><vPIS>0.46</vPIS></PISAliq></PIS><COFINS' +
-            '><COFINSAliq><CST>01</CST><vBC>27.61</vBC><pCOFINS>7.60</pCOFINS' +
-            '><vCOFINS>2.10</vCOFINS></COFINSAliq></COFINS></imposto></det><d' +
-            'et nItem="3"><prod><cProd>SU00108-BPA00-000</cProd><cEAN>7896636' +
-            '543911</cEAN><xProd>OLEO, LUBRIFICANTE MOBIL SUPER</xProd><NCM>2' +
-            '7101931</NCM><CEST>0600700</CEST><CFOP>5405</CFOP><uCom>PC</uCom'
-          
-            '><qCom>4.00</qCom><vUnCom>37.51</vUnCom><vProd>150.04</vProd><cE' +
-            'ANTrib /><uTrib>PC</uTrib><qTrib>4.00</qTrib><vUnTrib>37.51</vUn' +
-            'Trib><vDesc>5.60</vDesc><indTot>1</indTot><nItemPed>0</nItemPed>' +
-            '<nFCI>DCB98EB1-4E78-419B-900E-1A7DDDC72678</nFCI></prod><imposto' +
-            '><vTotTrib>53.15</vTotTrib><ICMS><ICMS60><orig>8</orig><CST>60</' +
-            'CST><vBCSTRet>0.00</vBCSTRet><vICMSSTRet>0.00</vICMSSTRet></ICMS' +
-            '60></ICMS><PIS><PISAliq><CST>01</CST><vBC>144.44</vBC><pPIS>1.65' +
-            '</pPIS><vPIS>2.38</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST' +
-            '>01</CST><vBC>144.44</vBC><pCOFINS>7.60</pCOFINS><vCOFINS>10.98<' +
-            '/vCOFINS></COFINSAliq></COFINS></imposto></det><det nItem="4"><p' +
-            'rod><cProd>SU09168-14015-000</cProd><cEAN /><xProd>JUNTA, METALI' +
-            'CA BUJAO CARTER -</xProd><NCM>76161000</NCM><CEST>1007300</CEST>' +
-            '<CFOP>5405</CFOP><uCom>PC</uCom><qCom>1.00</qCom><vUnCom>4.88</v' +
-            'UnCom><vProd>4.88</vProd><cEANTrib /><uTrib>PC</uTrib><qTrib>1.0' +
-            '0</qTrib><vUnTrib>4.88</vUnTrib><vDesc>0.18</vDesc><indTot>1</in' +
-            'dTot><nItemPed>0</nItemPed></prod><imposto><vTotTrib>2.16</vTotT'
-          
-            'rib><ICMS><ICMS60><orig>2</orig><CST>60</CST><vBCSTRet>0.00</vBC' +
-            'STRet><vICMSSTRet>0.00</vICMSSTRet></ICMS60></ICMS><PIS><PISAliq' +
-            '><CST>01</CST><vBC>4.70</vBC><pPIS>1.65</pPIS><vPIS>0.08</vPIS><' +
-            '/PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>4.70</vBC><' +
-            'pCOFINS>7.60</pCOFINS><vCOFINS>0.36</vCOFINS></COFINSAliq></COFI' +
-            'NS></imposto></det><det nItem="5"><prod><cProd>SU16005-BEG00-000' +
-            '</cProd><cEAN /><xProd>LUBRIFICANTE, MOBIL BRAKE FLUI</xProd><NC' +
-            'M>38190000</NCM><CFOP>5102</CFOP><uCom>PC</uCom><qCom>1.00</qCom' +
-            '><vUnCom>27.72</vUnCom><vProd>27.72</vProd><cEANTrib /><uTrib>PC' +
-            '</uTrib><qTrib>1.00</qTrib><vUnTrib>27.72</vUnTrib><vDesc>1.03</' +
-            'vDesc><indTot>1</indTot><nItemPed>0</nItemPed></prod><imposto><v' +
-            'TotTrib>9.83</vTotTrib><ICMS><ICMS00><orig>5</orig><CST>00</CST>' +
-            '<modBC>3</modBC><vBC>26.69</vBC><pICMS>17.00</pICMS><vICMS>4.53<' +
-            '/vICMS></ICMS00></ICMS><PIS><PISAliq><CST>01</CST><vBC>26.69</vB' +
-            'C><pPIS>1.65</pPIS><vPIS>0.44</vPIS></PISAliq></PIS><COFINS><COF' +
-            'INSAliq><CST>01</CST><vBC>26.69</vBC><pCOFINS>7.60</pCOFINS><vCO'
-          
-            'FINS>2.03</vCOFINS></COFINSAliq></COFINS></imposto></det><det nI' +
-            'tem="6"><prod><cProd>SU16510-61831-B24</cProd><cEAN /><xProd>FIL' +
-            'TRO KIT, OLEO MOTOR GAS - 2</xProd><NCM>84212300</NCM><CEST>0103' +
-            '700</CEST><CFOP>5405</CFOP><uCom>PC</uCom><qCom>1.00</qCom><vUnC' +
-            'om>59.20</vUnCom><vProd>59.20</vProd><cEANTrib /><uTrib>PC</uTri' +
-            'b><qTrib>1.00</qTrib><vUnTrib>59.20</vUnTrib><vDesc>2.21</vDesc>' +
-            '<indTot>1</indTot><nItemPed>0</nItemPed></prod><imposto><vTotTri' +
-            'b>21.90</vTotTrib><ICMS><ICMS60><orig>2</orig><CST>60</CST><vBCS' +
-            'TRet>0.00</vBCSTRet><vICMSSTRet>0.00</vICMSSTRet></ICMS60></ICMS' +
-            '><PIS><PISNT><CST>04</CST></PISNT></PIS><COFINS><COFINSNT><CST>0' +
-            '4</CST></COFINSNT></COFINS></imposto></det><total><ICMSTot><vBC>' +
-            '26.69</vBC><vICMS>4.53</vICMS><vICMSDeson>0.00</vICMSDeson><vBCS' +
-            'T>0.00</vBCST><vST>0.00</vST><vProd>346.39</vProd><vFrete>0.00</' +
-            'vFrete><vSeg>0.00</vSeg><vDesc>12.94</vDesc><vII>0.00</vII><vIPI' +
-            '>0.00</vIPI><vPIS>4.56</vPIS><vCOFINS>21.02</vCOFINS><vOutro>0.0' +
-            '0</vOutro><vNF>333.45</vNF><vTotTrib>120.23</vTotTrib></ICMSTot>'
-          
-            '</total><transp><modFrete>9</modFrete></transp><cobr><fat><nFat>' +
-            'A VISTA</nFat><vOrig>333.45</vOrig><vLiq>333.45</vLiq></fat></co' +
-            'br><infAdic><infCpl>NF AGRUPADAS:19947/001 E 13464/RP;TRIB APROX' +
-            ' R$:51,99 FED /68,24 EST /FONTE:IBPT / CHV:CA7GI3;CFOP: 5.102 - ' +
-            '500 - VENDAS OFICINA .VALOR: 26,69;CFOP: 5.405 - 060 - VDA. MERC' +
-            '.C/SUB.OFIC.P/C.FINAL .VALOR: 100,63;CFOP: 5.405 - 260 - VDA. ME' +
-            'RC.C/SUB.OFIC.P/C.FINAL .VALOR: 61,69;CFOP: 5.405 - 860 - VDA. M' +
-            'ERC.C/SUB.OFIC.P/C.FINAL .VALOR: 144,44;O.S./TIPO: 018848 / SC  ' +
-            'KM:  16799  FAB: 2015;CHASSI: 93XFJB43VFC104276  PLACA: QHG5681;' +
-            'MOD/VER: BJ07             - BJ07;CPF/RG: 16392012893     / 58824' +
-            '18;EMISSAO: 11/10/16 - 17:33:44 IMPRESSAO: 11/10/16 - 17:33:52;V' +
-            'ENDEDOR: 02047 - ALINE LOBATO FREITAS;CONCES:   DT. VENDA: 11/02' +
-            '/15;</infCpl></infAdic></infNFe><Signature xmlns="http://www.w3.' +
-            'org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algori' +
-            'thm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><Signatu' +
-            'reMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" '
-          
-            '/><Reference URI="#NFe421610176069980002565500100001994719867524' +
-            '57"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/' +
-            'xmldsig#enveloped-signature" /><Transform Algorithm="http://www.' +
-            'w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMeth' +
-            'od Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestV' +
-            'alue>eKQRuBhKpgJZ8pBLSOWAPM+tYfY=</DigestValue></Reference></Sig' +
-            'nedInfo><SignatureValue>ZVUKle7X745ugMdEfHHhvMmUCy7eWTRWRrvepTFu' +
-            'Dcd0ShWNzX235OhlsSNvOxmEIV33NYXbZCA5MgCht6rYnOdYlKY7I8E4Btlu2S/Y' +
-            'eGAKBq8qAv6caixzQszWGkVwC91MC+b0pjYQDfmFQpcAgKxrtI1tnfcr9nO+J2HR' +
-            'OllKoB/W1ki3BHi5DhouLf1rnhww4FMjbiQJvrGpAXOg6JQQYXT04wO2eHDbKGnc' +
-            'zJeXxO4CFUP/ZJW+omRPf5YNHlMp1onvfkUS8uqEUxFCRGl5Nui+pcQ1sxZOSYS9' +
-            'OGo/Znh+naWdk+FHfk/lEq/ZJzBcE/1pnzMJjjnbD8Zu3Q==</SignatureValue' +
-            '><KeyInfo><X509Data><X509Certificate>MIIHwzCCBaugAwIBAgIIfOsvpof' +
-            'LQA8wDQYJKoZIhvcNAQELBQAwTDELMAkGA1UEBhMCQlIxEzARBgNVBAoTCklDUC1' +
-            'CcmFzaWwxKDAmBgNVBAMTH1NFUkFTQSBDZXJ0aWZpY2Fkb3JhIERpZ2l0YWwgdjI' +
-            'wHhcNMTYwMzA4MjAzMzAwWhcNMTcwMzA4MjAzMzAwWjCB6jELMAkGA1UEBhMCQlI'
-          
-            'xEzARBgNVBAoTCklDUC1CcmFzaWwxFDASBgNVBAsTCyhFTSBCUkFOQ08pMRgwFgY' +
-            'DVQQLEw8wMDAwMDEwMDczMDYzMjkxFDASBgNVBAsTCyhFTSBCUkFOQ08pMRQwEgY' +
-            'DVQQLEwsoRU0gQlJBTkNPKTEUMBIGA1UECxMLKEVNIEJSQU5DTykxFDASBgNVBAs' +
-            'TCyhFTSBCUkFOQ08pMRQwEgYDVQQLEwsoRU0gQlJBTkNPKTEoMCYGA1UEAxMfU0V' +
-            'LQUkgQ09NRVJDSU8gREUgVkVJQ1VMT1MgTFREQTCCASIwDQYJKoZIhvcNAQEBBQA' +
-            'DggEPADCCAQoCggEBALnGEkjV/jnjH8MwNWS1fvQ1I+ap4TBmXDIVwXdUZu2gQQ/' +
-            'qBDwFAU6N+/oAt5BX1GjA0wgBg9ADunCUus0WmJr/i7yKlPEL8zU6CfvuTW9e8te' +
-            'd2UXr85aM/zTTlRH/J9SwxqnUGROUMHSsSTuECh30VSqPg0crx0kL8quRZK0wG1a' +
-            'g0tKskcLO6SF3cyzHWPn5MXI5b4KGdwB51X0phVyzkChLTOKX15qdAJ3kurYERx0' +
-            'UgNMZ/9RPwPn/L7IAKqxoedSfyvc+Tl0iX9QS6EsuLnTszvZe+9RWoSR/NELxQsX' +
-            'a6gUQGK3foI+wzTvyjEbDHeuQ3bA/PHpgdmOmJs8CAwEAAaOCAwgwggMEMIGXBgg' +
-            'rBgEFBQcBAQSBijCBhzBHBggrBgEFBQcwAoY7aHR0cDovL3d3dy5jZXJ0aWZpY2F' +
-            'kb2RpZ2l0YWwuY29tLmJyL2NhZGVpYXMvc2VyYXNhY2R2Mi5wN2IwPAYIKwYBBQU' +
-            'HMAGGMGh0dHA6Ly9vY3NwLmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvc2VyYXN' +
-            'hY2R2MjAfBgNVHSMEGDAWgBSa4IMQ1yab6bragrKBzjka04dwhjBxBgNVHSAEajB' +
-            'oMGYGBmBMAQIBBjBcMFoGCCsGAQUFBwIBFk5odHRwOi8vcHVibGljYWNhby5jZXJ'
-          
-            '0aWZpY2Fkb2RpZ2l0YWwuY29tLmJyL3JlcG9zaXRvcmlvL2RwYy9kZWNsYXJhY2F' +
-            'vLXNjZC5wZGYwgfAGA1UdHwSB6DCB5TBJoEegRYZDaHR0cDovL3d3dy5jZXJ0aWZ' +
-            'pY2Fkb2RpZ2l0YWwuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJhc2FjZHYyLmN' +
-            'ybDBDoEGgP4Y9aHR0cDovL2xjci5jZXJ0aWZpY2Fkb3MuY29tLmJyL3JlcG9zaXR' +
-            'vcmlvL2xjci9zZXJhc2FjZHYyLmNybDBToFGgT4ZNaHR0cDovL3JlcG9zaXRvcml' +
-            'vLmljcGJyYXNpbC5nb3YuYnIvbGNyL1NlcmFzYS9yZXBvc2l0b3Jpby9sY3Ivc2V' +
-            'yYXNhY2R2Mi5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwM' +
-            'CBggrBgEFBQcDBDCBsQYDVR0RBIGpMIGmgRdGSU5BTkNFSVJPQFNFS0FJLkNPTS5' +
-            'CUqA+BgVgTAEDBKA1EzMxMDEyMTk3MDgyMjA2MTgwOTQ0MDAwMDAwMDAwMDAwMDA' +
-            'wMDAwMDAwMDAwMDAwMDAwMDCgFwYFYEwBAwKgDhMMU0FORFJPIEFWSUxBoBkGBWB' +
-            'MAQMDoBATDjE3NjA2OTk4MDAwMTc1oBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDA' +
-            'NBgkqhkiG9w0BAQsFAAOCAgEAdxPg/iC82lP4/pslptnWibUJBiR90OuUu32uiSW' +
-            '65S8Yl+pjYZU4SDl4xr8+BAjHDQE47YzQFUW9iTg7pm/uNwfKS6Dy4LH9hhIkeV4' +
-            'eMB7U/La7ValY1pG9RtvfgqgI8KS7GBeZzTFxZHT6OJghn3JtOoAvoToT8/g86Nm' +
-            'dFu5pwGzdi5x/I2OIluxRuyGNlRXlFrTkr9snac331r1wtPBekzPTaTpXnrNI/gJ' +
-            'XTUsbRUBi9zegYXd3iDQlD8CE6ZfV56QwZsqrZYnHKWmuX5Rnv7zpwp0KFL0x8me'
-          
-            'Q2knA4kF9sejdzTm0y+Yk1qcukJQgLRLFQ1WKV+4S4Y++nBEhZ2JS+YSvNLwY2Ey' +
-            'MzYi+XpIpfUYtVWONiNxOtNp0ZdmNPsPiqGfgC2veDPERPqUqG6+G1N3yAg4AjBN' +
-            'AjZLmk1Pob0BbLK4Ld6z7OJpH9mtE6UYU7tk9R+5Ha3VrWKdVHXeQMuKu0zopNk0' +
-            'uyheYcHzt8Ga83kFA+tu+RnRpro7OH6HybKtmcEq0QEbq2Cz/MWpB0FTngHuteFM' +
-            '59G7eYIvFPpRYNqk/uccjdLl57g4VMj7if8/dpQZf++V7TBsvdBPWDV69uX+Rpet' +
-            'hUYk6kdPxb3hww8tKc5YRqt4vr5FkQqspj7uv6u1RdCmAV3VlPlRnBlL3p4gzG/1' +
-            'N9DY=</X509Certificate></X509Data></KeyInfo></Signature></NFe><p' +
-            'rotNFe versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe">' +
-            '<infProt><tpAmb>1</tpAmb><verAplic>SVRS201609290810</verAplic><c' +
-            'hNFe>42161017606998000256550010000199471986752457</chNFe><dhRecb' +
-            'to>2016-10-11T17:33:38-03:00</dhRecbto><nProt>342160119753449</n' +
-            'Prot><digVal>eKQRuBhKpgJZ8pBLSOWAPM+tYfY=</digVal><cStat>100</cS' +
-            'tat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protN' +
-            'Fe></nfeProc>')
+            '<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="3.10" xml' +
+            'ns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.p' +
+            'ortalfiscal.inf.br/nfe"><infNFe Id="NFe3517045514741700017355001' +
+            '0000302031564997578" versao="3.10"><ide><cUF>35</cUF><cNF>564997' +
+            '57</cNF><natOp>Venda de mercadoria adquirida ou recebida de terc' +
+            'eiros"</natOp><indPag>0</indPag><mod>55</mod><serie>1</serie><nN' +
+            'F>30203</nNF><dhEmi>2017-04-07T11:00:24-03:00</dhEmi><dhSaiEnt>2' +
+            '017-04-07T11:00:24-03:00</dhSaiEnt><tpNF>1</tpNF><idDest>2</idDe' +
+            'st><cMunFG>3550308</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cD' +
+            'V>8</cDV><tpAmb>2</tpAmb><finNFe>1</finNFe><indFinal>1</indFinal' +
+            '><indPres>1</indPres><procEmi>0</procEmi><verProc>000</verProc><' +
+            '/ide><emit><CNPJ>55147417000173</CNPJ><xNome>PRIMAR COMERCIO DE ' +
+            'ALIMENTOS - EIRELI - EPP</xNome><xFant>PRIMAR</xFant><enderEmit>' +
+            '<xLgr>AV DAS BELEZAS</xLgr><nro>694</nro><xBairro>V ANDRADE</xBa' +
+            'irro><cMun>3550308</cMun><xMun>Sao Paulo</xMun><UF>SP</UF><CEP>0' +
+            '5731250</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>48320' +
+            '98620</fone></enderEmit><IE>111386810118</IE><CRT>1</CRT></emit>' +
+            '<dest><CPF>00719120020</CPF><xNome>NF-E EMITIDA EM AMBIENTE DE H' +
+            'OMOLOGACAO - SEM VALOR FISCAL</xNome><enderDest><xLgr>Rua Baldui' +
+            'no D'#39' Arrigo</xLgr><nro>1024</nro><xBairro>Santa Catarina</xBair' +
+            'ro><cMun>4305108</cMun><xMun>Caxias do Sul</xMun><UF>RS</UF><CEP' +
+            '>95034290</CEP><cPais>1058</cPais><xPais>BRASIL</xPais></enderDe' +
+            'st><indIEDest>9</indIEDest><email>rodrigonepomuceno.rn@gmail.com' +
+            '</email></dest><det nItem="1"><prod><cProd>0000000202503</cProd>' +
+            '<cEAN>0000000202503</cEAN><xProd>NOTA FISCAL EMITIDA EM AMBIENTE' +
+            ' DE HOMOLOGACAO - SEM VALOR FISCAL</xProd><NCM>07049000</NCM><CF' +
+            'OP>6102</CFOP><uCom>UN</uCom><qCom>1.0000</qCom><vUnCom>2.9900</' +
+            'vUnCom><vProd>2.99</vProd><cEANTrib>0000000202503</cEANTrib><uTr' +
+            'ib>UN</uTrib><qTrib>1.0000</qTrib><vUnTrib>2.9900</vUnTrib><indT' +
+            'ot>1</indTot></prod><imposto><vTotTrib>0.62</vTotTrib><ICMS><ICM' +
+            'SSN102><orig>0</orig><CSOSN>400</CSOSN></ICMSSN102></ICMS><PIS><' +
+            'PISOutr><CST>99</CST><vBC>0.00</vBC><pPIS>0.00</pPIS><vPIS>0.00<' +
+            '/vPIS></PISOutr></PIS><COFINS><COFINSOutr><CST>99</CST><vBC>0.00' +
+            '</vBC><pCOFINS>0.00</pCOFINS><vCOFINS>0.00</vCOFINS></COFINSOutr' +
+            '></COFINS><ICMSUFDest><vBCUFDest>2.99</vBCUFDest><pFCPUFDest>0.0' +
+            '0</pFCPUFDest><pICMSUFDest>0.00</pICMSUFDest><pICMSInter>12.00</' +
+            'pICMSInter><pICMSInterPart>60.00</pICMSInterPart><vFCPUFDest>0.0' +
+            '0</vFCPUFDest><vICMSUFDest>0.00</vICMSUFDest><vICMSUFRemet>0.00<' +
+            '/vICMSUFRemet></ICMSUFDest></imposto></det><total><ICMSTot><vBC>' +
+            '0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST' +
+            '>0.00</vBCST><vST>0.00</vST><vProd>2.99</vProd><vFrete>0.00</vFr' +
+            'ete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.0' +
+            '0</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vO' +
+            'utro><vNF>2.99</vNF><vTotTrib>0.62</vTotTrib></ICMSTot></total><' +
+            'transp><modFrete>9</modFrete></transp><infAdic><infCpl>DOCUMENTO' +
+            ' EMITIDO POR ME OU EPP OPTANTE PELO SIMPLES NACIONAL;NAO GERA DI' +
+            'REITO A CREDITO FISCAL DE ICMS, DE ISS E DE IPI;;TRIB APROX R$0,' +
+            '12 FED /R$0,50 EST /FONTE:IBPT;</infCpl></infAdic></infNFe><Sign' +
+            'ature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><Ca' +
+            'nonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xm' +
+            'l-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/' +
+            '2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe35170455147417000' +
+            '173550010000302031564997578"><Transforms><Transform Algorithm="h' +
+            'ttp://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transfor' +
+            'm Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><' +
+            '/Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/x' +
+            'mldsig#sha1"/><DigestValue>tbXgorhmNJAhpPJ9EWtsi8ls5Aw=</DigestV' +
+            'alue></Reference></SignedInfo><SignatureValue>Eke3SKEIVJILkXeVPk' +
+            'ElA9RR1nkR3HSgkkhufT+nyC/yFZCJjPto/jp65qDA9PdJkRZXeA7iW4l8E3xWoD' +
+            '9Zp/Fq8vpj0ppr/UagZQE0xMg8CqNWh4mboXhG4vfAGDyC+2pN2A27UN7Ft2Hxm9' +
+            'gy/Zxu+T+yyjtRbMyeER2EvfpWCBItQE635r2tvyE2b1uZnDo5rwhXKgC7a4159F' +
+            'IUsNXvL0I3l+SDjoSgn2wMHZORqLpXsyxTC7mQA3h1sa+QaOTHYPMuUmQHiVD8pB' +
+            'KWjVQPDnwaV6RORm1naYp0BbSdKf9m1nyHRpjYml7WoyD+du0OxGgx1FngjvpMeY' +
+            'KZag==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIIT' +
+            'DCCBjSgAwIBAgIIGYgLVl6twcAwDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCQ' +
+            'lIxEzARBgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgU' +
+            'mVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEZMBcGA1UEAxMQQUMgQk9BI' +
+            'FZJU1RBIFJGQjAeFw0xNjA5MjExODIyMTVaFw0xNzA5MjExODIyMTVaMIHmMQswC' +
+            'QYDVQQGEwJCUjELMAkGA1UECBMCU1AxEjAQBgNVBAcTCVNBTyBQQVVMTzETMBEGA' +
+            '1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRhI' +
+            'EZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEExM' +
+            'RAwDgYDVQQLEwdBUiBBQ1NQMT8wPQYDVQQDEzZQUklNQVIgQ09NRVJDSU8gREUgQ' +
+            'UxJTUVOVE9TIEVJUkVMSSBFUFA6NTUxNDc0MTcwMDAxNzMwggEiMA0GCSqGSIb3D' +
+            'QEBAQUAA4IBDwAwggEKAoIBAQC3m/vpZrYW4AgtPcYGeMT5whJqkbob0fH6kcXG4' +
+            '9ArOZBi8bzFpR6zWZgWYtTbUK9xe68CqCCBBoY5sYseySzFdOjUkm5VIEqbL6zg0' +
+            'JiB6y0+hppHjENFgjcwfJ2XuxgGo+GODwU0LoODE3MnMItWQoaqksuEKlfJ3YOkS' +
+            'Hi7wT4/FhVpMRzJPCW95xRYRCihI8fCwL3CZ8ACjynLK2Juf5A37lY1F7exhiEyC' +
+            '+SwKVCe/7Jxh6mKFCYXcmY+TSGgfHLoiJYwD9UFzK2/UQCbPnBYTv/ag+M5nsjPj' +
+            'laXU9b0wje0FOOCa4tMGTE17TLj4x9ItSR69ziSu+Bu/3ZLAgMBAAGjggNsMIIDa' +
+            'DCBpwYIKwYBBQUHAQEEgZowgZcwYQYIKwYBBQUHMAKGVWh0dHA6Ly9pY3AtYnJhc' +
+            '2lsLnZwa2kuY2VydGlmaWNhZG9ib2F2aXN0YS5jb20uYnIvYWMtYm9hdmlzdGFyZ' +
+            'mIvYWMtYm9hdmlzdGFyZmJ2Mi5wN2IwMgYIKwYBBQUHMAGGJmh0dHA6Ly9vY3NwL' +
+            'mNlcnRpZmljYWRvYm9hdmlzdGEuY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgwF' +
+            'oAUa5r5zUZJsigQ1eWcCMqbFkGu5tkwegYDVR0gBHMwcTBvBgZgTAECASswZTBjB' +
+            'ggrBgEFBQcCARZXaHR0cDovL2ljcC1icmFzaWwudnBraS5jZXJ0aWZpY2Fkb2JvY' +
+            'XZpc3RhLmNvbS5ici9hYy1ib2F2aXN0YXJmYi9kcGMtYWMtYm9hdmlzdGFyZmIuc' +
+            'GRmMIIBJAYDVR0fBIIBGzCCARcwX6BdoFuGWWh0dHA6Ly9pY3AtYnJhc2lsLnZwa' +
+            '2kuY2VydGlmaWNhZG9ib2F2aXN0YS5jb20uYnIvYWMtYm9hdmlzdGFyZmIvbGNyL' +
+            'WFjLWJvYXZpc3RhcmZidjIuY3JsMGCgXqBchlpodHRwOi8vaWNwLWJyYXNpbDIud' +
+            'nBraS5jZXJ0aWZpY2Fkb2JvYXZpc3RhLmNvbS5ici9hYy1ib2F2aXN0YXJmYi9sY' +
+            '3ItYWMtYm9hdmlzdGFyZmJ2Mi5jcmwwUqBQoE6GTGh0dHA6Ly9yZXBvc2l0b3Jpb' +
+            'y5pY3BicmFzaWwuZ292LmJyL2xjci9CT0FWSVNUQVJGQi9sY3ItYWMtYm9hdmlzd' +
+            'GFyZmJ2Mi5jcmwwDgYDVR0PAQH/BAQDAgXgMB0GA1UdJQQWMBQGCCsGAQUFBwMCB' +
+            'ggrBgEFBQcDBDCBvAYDVR0RBIG0MIGxgRpwYXRyaWNpYUBsaWF0dWxtYW5uLmNvb' +
+            'S5icqA4BgVgTAEDBKAvBC0yMzA2MTk4MzMxNzY1NDcyODU3MDAwMDAwMDAwMDAwM' +
+            'DAwMDAwMDAwMDAwMDCgJQYFYEwBAwKgHAQaUEFUUklDSUEgVFVMTUFOTiBIRVJOQ' +
+            'U5ERVqgGQYFYEwBAwOgEAQONTUxNDc0MTcwMDAxNzOgFwYFYEwBAwegDgQMMDAwM' +
+            'DAwMDAwMDAwMA0GCSqGSIb3DQEBCwUAA4ICAQBXCjpsWDo5agPhKMtrk/80xXJQf' +
+            '0LKgthT0xUKaSl+1cB4D5EpqhxNUPyTDLrjCNFGIGQKNEDpKUebpMXz8umOg7geL' +
+            'NCeFzfEBgz/8/DvfxV/Rp1828q2ErLdyxv9P3d+wecKrqIttmiRAVIaEA+/NsHr8' +
+            'kSXsfkQjxc5wZ4NvCb6+/Pn69N0nyRW7+U2Z1LvT5Zb3IzGW97t6rLMkRD3U77ud' +
+            '9d83yBGtqyETPtFIoYA8l+GvGEAGH0cp9KB0DK9ZCILINjqdPr1mTEag6szttgwd' +
+            'nTZB36yBAB6lF8F4oPSThN3k2YiB3NRcUGz7Y+Ot4lgXqHS6u0v7kbp2aUhs1FAF' +
+            'cvce9b33Z9DVRTVCcDBfSkeaGaHkY7WTjC66a/q8U/c0NgwyiwY99VjgYnitJl2F' +
+            'Esilh6B37e0WwrrfMAjf7o7XjSiwXndRC6mSDuNxwSH+r/+OSDGZcxYHyUbUQrU2' +
+            'gu5Oo4XCgSNuEFke307TflQtDs3n4bde8G4nli/FYWOe3bTev8exWvTLVhLS84A9' +
+            'EvsloG5kWrWI+ftVv1gn35mXcDp25tBkBzMdWphXNsvGNdXMuESEKdv6oT0Vf7io' +
+            '2JzI/xQBc58LPhKbPflThK+xeH1FdLYZrxlxuG9Z+qQnKC3TJW39YBqFwkkryX7G' +
+            'jdYFzQfHgfQpO9zfA==</X509Certificate></X509Data></KeyInfo></Sign' +
+            'ature></NFe><protNFe xmlns="http://www.portalfiscal.inf.br/nfe" ' +
+            'versao="3.10"><infProt><tpAmb>2</tpAmb><verAplic>SP_NFE_PL_008i2' +
+            '</verAplic><chNFe>35170455147417000173550010000302031564997578</' +
+            'chNFe><dhRecbto>2017-04-07T11:00:24-03:00</dhRecbto><nProt>13517' +
+            '0001774066</nProt><digVal>tbXgorhmNJAhpPJ9EWtsi8ls5Aw=</digVal><' +
+            'cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></in' +
+            'fProt></protNFe></nfeProc>')
       end>
-    Left = 168
-    Top = 288
+    Left = 128
+    Top = 248
   end
   object xmlPreview_old: TLMDStrList
     Items.Strings = (
@@ -47461,7 +47396,11 @@ object dmDanfe_nfe: TdmDanfe_nfe
         'Fe></nfeProc>')
     Sorted = False
     Duplicates = dupAccept
-    Left = 56
-    Top = 232
+    Left = 128
+    Top = 304
+  end
+  object lbSha1: TLbSHA1
+    Left = 64
+    Top = 160
   end
 end

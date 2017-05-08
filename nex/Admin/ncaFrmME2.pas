@@ -644,13 +644,12 @@ begin
   end;
 
   DebugMsg(Self, 'cmGravar 29');
-  
 
   if (FME.Tipo in [trEstVenda, trEstCompra, trEstTransfEnt]) and (not FidResgate) then
     FME.SalvaDescPago;
 
   DebugMsg(Self, 'cmGravar 30');
-    
+
   FME.SalvaTipoTran;
   FME.ObsNF := FTot.ObsNF;
 
@@ -658,7 +657,7 @@ begin
 
   if FNovo then begin
     DebugMsg(Self, 'cmGravar 31');
-  
+
     try
       DebugMsg(Self, 'cmGravar 32');
       Dados.CM.SalvaMovEst(FME);
@@ -668,15 +667,15 @@ begin
         Raise;
       end;
     end;
-    
+
     if (FME.Tipo=trEstVenda) or (FME.Tipo=trEstDevFor) or (FME.Tipo=trEstTransf) or (FME.Tipo=trEstOutEntr) then begin
       DebugMsg(Self, 'cmGravar 33');
-    
+
       if Dados.NFAtivo then begin
-        if (not FME.PagPend) then 
+        if (not FME.PagPend) then
           Dados.TranList.Add(FME.NativeUID.ToString);
       end else
-        if FME.Recibo then 
+        if FME.Recibo then
         try
           dmComp.Imprime(FME.NativeUID);
         except
@@ -685,9 +684,9 @@ begin
     end;
 
     DebugMsg(Self, 'cmGravar 34');
-    
-    try  
-      if (FME.Tipo=trEstVenda) and gConfig.TelaPosVenda_Mostrar and (FBalcao or (not FME.PagPend)) and (FOrcamento='') then 
+
+    try
+      if (FME.Tipo=trEstVenda) and gConfig.TelaPosVenda_Mostrar and (FBalcao or (not FME.PagPend)) and (FOrcamento='') then
         FRes := TFrmAposVenda.Create(Self).Editar(FME);
     except
       on E: Exception do DebugEx(Self, 'cmGravarClick 3', E);
@@ -967,7 +966,6 @@ begin
       trEstTransf,
       trEstTransfEnt,
       trEstOutEntr : FTot.InitCusto(aME.PAgEsp, aME.Total, aME.Desconto, aME.Obs, panTot);
-
     else
       FTot.InitCusto(nil, 0, 0, aME.Obs, panTot);
     end;

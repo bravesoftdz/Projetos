@@ -25,7 +25,6 @@ object frmDadosItemOutrasEntradas: TfrmDadosItemOutrasEntradas
     Align = alClient
     TabOrder = 0
     LayoutLookAndFeel = FrmPri.lfDefault
-    ExplicitHeight = 289
     object edt_B_ICMS: TcxCurrencyEdit
       Left = 74
       Top = 90
@@ -652,7 +651,6 @@ object frmDadosItemOutrasEntradas: TfrmDadosItemOutrasEntradas
     Bevel.Mode = bmStandard
     Bevel.StandardStyle = lsNone
     TabOrder = 1
-    ExplicitTop = 352
     object btnOk: TcxButton
       Left = 0
       Top = 0
@@ -704,7 +702,6 @@ object frmDadosItemOutrasEntradas: TfrmDadosItemOutrasEntradas
       Font.Style = [fsUnderline]
       ParentFont = False
       OnClick = btnCancelarClick
-      ExplicitLeft = 88
     end
   end
 end

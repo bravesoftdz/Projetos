@@ -184,6 +184,8 @@ type
     dbInfCpl: TfrxDBDataset;
     mtItemvItem12741: TFloatField;
     mtTotalvAcresSubtot: TFloatField;
+    mtItempICMS: TFloatField;
+    mtItemvICMS: TFloatField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);

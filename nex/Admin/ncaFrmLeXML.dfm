@@ -37,7 +37,7 @@ object FrmLeXML: TFrmLeXML
       Height = 489
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = tsProd
+      Properties.ActivePage = tsFrete
       Properties.CustomButtons.Buttons = <>
       LookAndFeel.NativeStyle = False
       OnChange = pgPriChange
@@ -86,7 +86,7 @@ object FrmLeXML: TFrmLeXML
           object LMDSimplePanel7: TLMDSimplePanel
             AlignWithMargins = True
             Left = 12
-            Top = 47
+            Top = 43
             Width = 728
             Height = 32
             Hint = ''
@@ -97,6 +97,7 @@ object FrmLeXML: TFrmLeXML
             Align = alTop
             Bevel.Mode = bmCustom
             TabOrder = 1
+            ExplicitTop = 47
             object btnSelArq: TcxButton
               Left = 0
               Top = 0
@@ -121,7 +122,7 @@ object FrmLeXML: TFrmLeXML
           object lbErro: TcxLabel
             AlignWithMargins = True
             Left = 12
-            Top = 89
+            Top = 85
             Margins.Left = 10
             Margins.Top = 0
             Margins.Right = 10
@@ -587,6 +588,7 @@ object FrmLeXML: TFrmLeXML
                     Caption = 'N'#227'o '#233' esse?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
+                    ExplicitTop = 136
                   end
                   object btnAceitarSug: TLMDButton
                     AlignWithMargins = True
@@ -630,6 +632,7 @@ object FrmLeXML: TFrmLeXML
                     Caption = #201' esse mesmo?'
                     ParentFont = False
                     Style.TextStyle = [fsItalic]
+                    ExplicitTop = 63
                   end
                   object lbProdutoSugerido: TcxLabel
                     AlignWithMargins = True
@@ -662,6 +665,9 @@ object FrmLeXML: TFrmLeXML
               object tsSemProd: TcxTabSheet
                 Caption = 'tsSemProd'
                 ImageIndex = 1
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
                 object btnNovo2: TLMDButton
                   Left = 0
                   Top = 0
@@ -721,6 +727,9 @@ object FrmLeXML: TFrmLeXML
               object tsSemUnid: TcxTabSheet
                 Caption = 'tsSemUnid'
                 ImageIndex = 2
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
                 object LMDHTMLLabel2: TLMDHTMLLabel
                   Left = 0
                   Top = 0
@@ -935,6 +944,7 @@ object FrmLeXML: TFrmLeXML
                       StyleHot.LookAndFeel.Kind = lfFlat
                       TabOrder = 1
                       OnEnter = edParaEnter
+                      ExplicitHeight = 21
                       Width = 50
                     end
                     object lbPara: TcxLabel
@@ -1003,7 +1013,7 @@ object FrmLeXML: TFrmLeXML
                 end
                 object edUniv: TcxDBCheckBox
                   Left = 0
-                  Top = 301
+                  Top = 314
                   Cursor = crHandPoint
                   Align = alBottom
                   Caption = 'A convers'#227'o de CX para PC '#233' sempre igual, para TODOS produtos.'
@@ -1024,13 +1034,15 @@ object FrmLeXML: TFrmLeXML
                   StyleFocused.LookAndFeel.Kind = lfFlat
                   StyleHot.LookAndFeel.Kind = lfFlat
                   TabOrder = 4
-                  ExplicitTop = 314
                   Width = 321
                 end
               end
               object tsOk: TcxTabSheet
                 Caption = 'tsOk'
                 ImageIndex = 4
+                ExplicitTop = 0
+                ExplicitWidth = 0
+                ExplicitHeight = 0
               end
             end
             object LMDSimplePanel1: TLMDSimplePanel
@@ -1407,10 +1419,10 @@ object FrmLeXML: TFrmLeXML
     end
   end
   object Memo2: TMemo
-    Left = 25
-    Top = 175
-    Width = 235
-    Height = 12
+    Left = 12
+    Top = 251
+    Width = 77
+    Height = 14
     Lines.Strings = (
       'M'
       'e'
@@ -1421,10 +1433,10 @@ object FrmLeXML: TFrmLeXML
     Visible = False
   end
   object Memo1: TMemo
-    Left = 25
-    Top = 193
-    Width = 235
-    Height = 13
+    Left = 12
+    Top = 271
+    Width = 77
+    Height = 14
     Lines.Strings = (
       'M'
       'e'

@@ -38,7 +38,7 @@ object FrmCopia: TFrmCopia
       Height = 414
       Align = alClient
       TabOrder = 0
-      Properties.ActivePage = tsZerar
+      Properties.ActivePage = tsBackup
       Properties.CustomButtons.Buttons = <>
       LookAndFeel.Kind = lfUltraFlat
       LookAndFeel.NativeStyle = False
@@ -922,32 +922,32 @@ object FrmCopia: TFrmCopia
     SourceThreadPriority = NORMAL
     TargetThreadPriority = NORMAL
     SkippedTablesCount = 0
-    Left = 56
+    Left = 64
     Top = 296
   end
   object nxDBO: TnxDatabase
     Session = nxSession
     AliasName = 'nexcafe'
-    Left = 152
+    Left = 240
     Top = 296
   end
   object nxDBD: TnxDatabase
     Session = nxSession
-    Left = 184
+    Left = 296
     Top = 296
   end
   object nxSession: TnxSession
     UserName = 'admin'
     Password = 'delphi9856'
-    Left = 120
+    Left = 168
     Top = 296
   end
   object T: TnxTable
-    Left = 88
+    Left = 112
     Top = 296
   end
   object GL: TLMDGenericList
-    Left = 24
+    Left = 16
     Top = 296
     object TLMDGenericListItem
       Internal = {
@@ -1645,7 +1645,7 @@ object FrmCopia: TFrmCopia
   object PathDlg: TLMDBrowseDlg
     CaptionTitle = 'Selecionar pasta'
     Caption = 'Selecioine a pasta onde se encontra a c'#243'pia dos dados:'
-    Left = 248
+    Left = 344
     Top = 296
   end
 end

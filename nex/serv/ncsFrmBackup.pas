@@ -14,7 +14,7 @@ uses
   nxDBBase, LMDCustomComponent, lmdcont, LMDContainerComponent,
   LMDBaseDialog, LMDBrowseDlg, LMDBaseController, LMDCustomContainer,
   LMDGenericList, LMDControl, cxGraphics, cxLookAndFeels, cxPCdxBarPopupMenu,
-  dxBarBuiltInMenu;
+  dxBarBuiltInMenu, ZipMstr;
 
 
 type
@@ -82,7 +82,7 @@ type
     procedure btnResyncNexAppClick(Sender: TObject);
   private
     slArqs : TStrings;
-    Tabela : String;
+    Tabela, sBkp : String;
     { Private declarations }
     procedure FazBackup;
     procedure InativaServidor;
@@ -155,13 +155,30 @@ begin
   S := edBackupDir.Text;
   if Copy(S, Length(S), 1)<>'\' then
     S := S + '\';
-
-  nxDBD.AliasPath := S + FormatDateTime('yyyymmdd_hhmm', Now);
+  sBkp := S + FormatDateTime('yyyymmdd_hhmm', Now);
+  nxDBD.AliasPath := sBkp;//S + FormatDateTime('yyyymmdd_hhmm', Now);
   FazBackup;
 end;
 
 procedure TFrmCopia.FazBackup;
 var Criar: Boolean;
+
+{procedure compactarBkp;
+begin
+  zBKP.FSpecArgs.Add(sBkp+'\');
+  ShowMessage(sBkp+'\'+#13+'C:\Meus Programas\Nex\Copia\20170420_1603\');
+  //zBKP.FSpecArgs.Add('C:\Meus Programas\Nex\Copia\20170420_1629\');
+  with TSaveDialog.Create(nil) do
+    try
+      zBKP.ZipFileName := sBkp+'_BKP';
+      zBKP.AddOptions := zBKP.AddOptions + [addDirNames,addRecurseDirs];
+      zBKP.Add;
+    finally
+      zBKP.FSpecArgs.Clear;
+      Free;
+    end;
+end;
+}
 begin
   btnBackup.Enabled := False;
   PB.Visible := True;
@@ -189,6 +206,7 @@ begin
       if Criar then FreeAndNil(dmServidorBD);
     end;
     ShowMessage(rsSucessoBackup);
+    //compactarBkp;
   finally
     btnBackup.Enabled := True;
     edBackupDir.Enabled := True;

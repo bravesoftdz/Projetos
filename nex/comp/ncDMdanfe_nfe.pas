@@ -98,7 +98,6 @@ type
     mtIDEchNFe: TStringField;
     mtIDEDigestValue: TStringField;
     mtEmitnro: TStringField;
-    lbSha1: TLbSHA1;
     mtItemCodigo: TStringField;
     mtDest: TkbmMemTable;
     mtIDEmsg_emissao: TStringField;
@@ -183,12 +182,12 @@ type
     mtItemIPI_CST: TWordField;
     mtItemPIS_CST: TWordField;
     mtItemPIS_vBC: TFloatField;
-    mtItempPIS: TFloatField;
-    mtItemvPIS: TFloatField;
+    mtItemPIS_pPIS: TFloatField;
+    mtItemPIS_vPIS: TFloatField;
     mtItemCOFINS_CST: TWordField;
     mtItemCOFINS_vBC: TFloatField;
-    mtItempCofins: TFloatField;
-    mtItemvCofins: TFloatField;
+    mtItemCOFINS_pCofins: TFloatField;
+    mtItemCOFINS_vCofins: TFloatField;
     mtItemmodBCST: TWordField;
     mtItempMVAST: TFloatField;
     mtItemvBCST: TFloatField;
@@ -201,6 +200,8 @@ type
     mtItemvOutro: TStringField;
     xmlPreview: TLMDTextContainer;
     xmlPreview_old: TLMDStrList;
+    lbSha1: TLbSHA1;
+    mtIDEnserieSAT: TStringField;
     procedure mtPagCalcFields(DataSet: TDataSet);
     procedure DataModuleCreate(Sender: TObject);
     procedure mtItemCalcFields(DataSet: TDataSet);
@@ -209,18 +210,20 @@ type
     procedure mtDestCalcFields(DataSet: TDataSet);
     procedure mtItemBeforePost(DataSet: TDataSet);
     procedure mtTranspCalcFields(DataSet: TDataSet);
-    
+    procedure mtItemAfterInsert(DataSet: TDataSet);
+
   private
     FXML : String;
     FCancelado : Boolean;
     { Private declarations }
-    procedure LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
+
     procedure LoopFields(D: TDataset; aCaminho, aChave: String);
 
     function XMLsha1: String;
   public
     { Public declarations }
     procedure LoadXML(aXML: String; aTroco: Double; aNomeFunc, aTran: String; aTabConfig: TDataset; aCancelado: Boolean);
+    procedure LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
     procedure geraPDF(aArq: String);
     procedure EnviaEmail(aFromEmail, aFromName, aAssunto: String; aDest: String = '');
 
@@ -259,6 +262,10 @@ uses nexUrls, Windows, ncDebug, ncClassesBase, htmlCodec, ncHttp;
 {$R *.dfm}
 
 { TDataModule13 }
+function Pos(subS, S: String): Integer;
+begin
+  Result := System.Pos(UpperCase(subS), UpperCase(S));
+end;
 
 function fmt_cpf(S: String): String;
 begin
@@ -743,7 +750,7 @@ end;
 procedure TdmDanfe_nfe.LoadFields(D: TDataset; aCaminho: String; aXML: String = '');
 var 
   I : Integer;
-  S, sFieldName : String;
+  S, sFieldName, sCaminho : String;
   F : TField;
   P: Integer;
 begin
@@ -753,14 +760,19 @@ begin
     F := D.Fields[I];
 
     sFieldName := F.FieldName;
+
+    sCaminho := aCaminho;
+
     repeat
       P := Pos('_', sFieldName);
       if P > 0 then begin
-        aCaminho := aCaminho + ',' + Copy(sFieldName, 1, P-1);
+        sCaminho := sCaminho + ',' + Copy(sFieldName, 1, P-1);
         Delete(sFieldName, 1, P);
       end;
     until (P < 1);
-    S := getXMLValue(aXML, sFieldName, aCaminho);
+
+    S := getXMLValue(aXML, sFieldName, sCaminho);
+
     if S > '' then
     if F.DataType in [ftFloat, ftCurrency] then
       F.AsFloat := MeuStrToFloat(S) else
@@ -854,7 +866,7 @@ begin
   else
   if Assigned(gTabConfigNF) then
     dbConfig.Dataset := gTabConfigNF;
-  
+
   mtIDE.Active := False;
   mtIDE.Active := True;
   mtIDE.Append;
@@ -880,7 +892,7 @@ begin
     mtIDEmsg_emissao.Value := 'EMISSÃO NORMAL';
 
   mtIDEvia.Value := 'Via Consumidor';
-  mtIDEdata_emissao.Value := fmt_dhEmi(mtIDEdhEmi.Value);  
+  mtIDEdata_emissao.Value := fmt_dhEmi(mtIDEdhEmi.Value);
   mtIDEhora_emissao.Value := fmt_horaEmi(mtIDEdhEmi.Value);
   mtIDEchave_acesso.Value := fmt_chNFe(mtIDEchNFe.Value);
   mtIDEnomefunc.Value := aNomeFunc;
@@ -906,7 +918,7 @@ begin
   end;
 
   mtEmitCNPJ.Value := fmt_cnpj(mtEmitCNPJ.Value);
-      
+
   mtEmit.Post;
 
   mtEntrega.Active := False;
@@ -923,10 +935,10 @@ begin
     0 : mtTranspmodFreteStr.Value := '0-EMITENTE';
     1 : mtTranspmodFreteStr.Value := '1-DESTINATÁRIO';
     2 : mtTranspmodFreteStr.Value := '2-TERCEIROS';
-    9 : mtTranspmodFreteStr.Value := '9-SEM FRETE';  
+    9 : mtTranspmodFreteStr.Value := '9-SEM FRETE';
   end;
   mtTransp.Post;
-    
+
   mtDest.Active := False;
   mtDest.Active := True;
   mtDest.Append;
@@ -944,15 +956,15 @@ begin
 
   S := '';
 
-  if mtDestCPF.Value>'' then 
+  if mtDestCPF.Value>'' then
     S := fmt_cpf(mtDestCPF.Value)
   else
-  if mtDestCNPJ.Value>'' then 
+  if mtDestCNPJ.Value>'' then
     S := fmt_cnpj(mtDestCNPJ.Value)
   else
   if mtDestidEstrangeiro.Value>'' then
     S := mtDestidEstrangeiro.Value;
-    
+
   mtDestid_consumidor.Value := S;
 
   if Trim(mtEntregaxMun.Value)>'' then begin
@@ -964,8 +976,8 @@ begin
       mtDestend_entrega.Value := mtDestend_entrega.Value+', '+
                                  mtEntregaxMun.Value+'-'+
                                  mtEntregaUF.Value;
-  end;                                    
-  mtDest.Post;  
+  end;
+  mtDest.Post;
 
   mtItem.Active := False;
   mtItem.Active := True;
@@ -975,10 +987,11 @@ begin
       mtItem.Append;
       mtItemnItem.Value := I;
       LoadFields(mtItem, 'nfeProc,NFe,infNFe,'+DetStr+',prod');
-      LoadFields(mtItem, 'nfeProc,NFe,infNFe,'+DetStr+',prod,imposto');
-      LoadFields(mtItem, 'nfeProc,NFe,infNFe,'+DetStr+',prod,ICMS,ICMS40');
+      LoadFields(mtItem, 'nfeProc,NFe,infNFe,'+DetStr+',imposto');
+      //LoadFields(mtItem, 'nfeProc,NFe,infNFe,'+DetStr+',prod,ICMS,ICMS40');
+      LoadFields(mtItem, 'nfeProc,NFe,infNFe,'+DetStr+',prod,ICMS');
       mtItem.Post;
-    end;  
+    end;
     Inc(I);
   end;
 
@@ -1040,6 +1053,11 @@ begin
     mtDestDoc.Value := mtDestCNPJ.Value
   else
     mtDestDoc.Value := mtDestidEstrangeiro.Value;
+end;
+
+procedure TdmDanfe_nfe.mtItemAfterInsert(DataSet: TDataSet);
+begin
+  mtItemICMS_vBC.Value := 0;
 end;
 
 procedure TdmDanfe_nfe.mtItemBeforePost(DataSet: TDataSet);

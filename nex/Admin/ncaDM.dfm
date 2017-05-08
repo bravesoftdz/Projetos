@@ -19552,8 +19552,8 @@ object Dados: TDados
     Database = db
     TableName = 'Cliente'
     IndexName = 'ITranspEntNome'
-    Left = 80
-    Top = 80
+    Left = 88
+    Top = 72
     object tbTranspID: TUnsignedAutoIncField
       FieldName = 'ID'
     end

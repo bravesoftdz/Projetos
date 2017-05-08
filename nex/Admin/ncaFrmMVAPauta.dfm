@@ -93,7 +93,8 @@ object FrmMVAPauta: TFrmMVAPauta
     Height = 344
     Align = alClient
     TabOrder = 1
-    ExplicitTop = 79
+    ExplicitTop = 78
+    ExplicitHeight = 348
     object TV: TcxGridDBTableView
       Navigator.Buttons.CustomButtons = <>
       DataController.DataSource = DS

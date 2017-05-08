@@ -1772,6 +1772,24 @@ object frmPri: TfrmPri
       TabOrder = 1
       OnClick = btnMinimizarClick
     end
+    object Button1: TButton
+      Left = 10
+      Top = 5
+      Width = 75
+      Height = 25
+      Caption = 'processar'
+      TabOrder = 2
+      OnClick = Button1Click
+    end
+    object Button2: TButton
+      Left = 87
+      Top = 5
+      Width = 75
+      Height = 25
+      Caption = 'Gerar Sped'
+      TabOrder = 3
+      OnClick = Button2Click
+    end
   end
   object LMDSimplePanel2: TLMDSimplePanel
     AlignWithMargins = True
@@ -2089,7 +2107,7 @@ object frmPri: TfrmPri
         ParentColor = False
         ParentFont = False
         TabOrder = 1
-        Properties.ActivePage = tsAssistencia
+        Properties.ActivePage = tsBD
         Properties.CustomButtons.Buttons = <>
         Properties.HotTrack = True
         Properties.Options = [pcoAlwaysShowGoDialogButton, pcoGradient, pcoGradientClientArea, pcoRedrawOnResize, pcoUsePageColorForTab]
@@ -2115,10 +2133,6 @@ object frmPri: TfrmPri
           ImageIndex = 3
           ParentColor = False
           ParentFont = False
-          ExplicitLeft = 0
-          ExplicitTop = 0
-          ExplicitWidth = 0
-          ExplicitHeight = 0
           object panBD: TLMDSimplePanel
             Left = 0
             Top = 0
@@ -2519,15 +2533,15 @@ object frmPri: TfrmPri
     Enabled = False
     Interval = 500
     OnTimer = Timer2Timer
-    Left = 208
-    Top = 248
+    Left = 264
+    Top = 240
   end
   object TimerTick: TTimer
     Enabled = False
     Interval = 5000
     OnTimer = TimerTickTimer
-    Left = 376
-    Top = 288
+    Left = 384
+    Top = 192
   end
   object cxStyleRepository1: TcxStyleRepository
     Left = 344
@@ -2608,8 +2622,8 @@ object frmPri: TfrmPri
     SortID = 0
     SubLanguageID = 1
     LocaleID = 1024
-    Left = 304
-    Top = 288
+    Left = 384
+    Top = 240
     object mtChavesChave: TStringField
       FieldName = 'Chave'
       Size = 24
@@ -2628,17 +2642,17 @@ object frmPri: TfrmPri
   end
   object dsChaves: TDataSource
     DataSet = mtChaves
-    Left = 256
-    Top = 288
+    Left = 328
+    Top = 240
   end
   object TimerLic: TTimer
     OnTimer = TimerLicTimer
-    Left = 272
-    Top = 248
+    Left = 336
+    Top = 192
   end
   object PopupMenu1: TPopupMenu
-    Left = 144
-    Top = 248
+    Left = 208
+    Top = 240
     object Abrir1: TMenuItem
       Caption = 'Abrir'
       OnClick = TrayDblClick
@@ -2656,8 +2670,8 @@ object frmPri: TfrmPri
     end
   end
   object SysInfo: TLMDSysInfo
-    Left = 264
-    Top = 368
+    Left = 288
+    Top = 192
   end
   object pmConta: TPopupMenu
     Left = 440
@@ -3249,8 +3263,8 @@ object frmPri: TfrmPri
     PopupMenu = PopupMenu1
     OnDblClick = TrayDblClick
     OnMouseUp = TrayMouseUp
-    Left = 112
-    Top = 208
+    Left = 208
+    Top = 192
   end
   object Timer3: TTimer
     Interval = 5000

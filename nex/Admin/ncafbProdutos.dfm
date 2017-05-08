@@ -27,7 +27,7 @@ inherited fbProdutos: TfbProdutos
     end
     object PB: TcxProgressBar
       Left = 0
-      Top = 495
+      Top = 498
       Align = alBottom
       ParentFont = False
       Style.LookAndFeel.Kind = lfFlat
@@ -41,40 +41,36 @@ inherited fbProdutos: TfbProdutos
       StyleHot.LookAndFeel.NativeStyle = False
       TabOrder = 0
       Visible = False
-      ExplicitTop = 498
       Width = 1020
     end
     object Paginas: TcxPageControl
       Left = 0
       Top = 3
       Width = 1020
-      Height = 492
+      Height = 495
       Align = alClient
       TabOrder = 2
       Properties.ActivePage = tsProd
       Properties.CustomButtons.Buttons = <>
       Properties.HideTabs = True
-      ExplicitHeight = 495
-      ClientRectBottom = 488
-      ClientRectLeft = 4
-      ClientRectRight = 1016
-      ClientRectTop = 4
+      ClientRectBottom = 495
+      ClientRectRight = 1020
+      ClientRectTop = 0
       object tsProd: TcxTabSheet
         Caption = 'Produtos'
         ImageIndex = 0
-        ExplicitHeight = 487
         object panGrid: TLMDSplitterPanel
           Left = 0
           Top = 44
-          Width = 1012
-          Height = 440
+          Width = 1020
+          Height = 451
           Hint = ''
           Bevel.Mode = bmStandard
           Bevel.StandardStyle = lsNone
           Bars = <
             item
               OldPosition = -1
-              Position = 733
+              Position = 739
               PosPercent = 73
               Width = 7
             end>
@@ -86,8 +82,8 @@ inherited fbProdutos: TfbProdutos
             object Grid: TcxGrid
               Left = 0
               Top = 38
-              Width = 731
-              Height = 400
+              Width = 737
+              Height = 411
               Align = alClient
               BorderStyle = cxcbsNone
               Font.Charset = ANSI_CHARSET
@@ -99,6 +95,8 @@ inherited fbProdutos: TfbProdutos
               TabOrder = 0
               LookAndFeel.Kind = lfFlat
               LookAndFeel.NativeStyle = False
+              ExplicitWidth = 731
+              ExplicitHeight = 400
               object TVprod: TcxGridDBTableView
                 OnDblClick = TVprodDblClick
                 OnKeyDown = TVprodKeyDown
@@ -606,6 +604,7 @@ inherited fbProdutos: TfbProdutos
                   OnEnter = edBuscaEnter
                   OnKeyDown = edBuscaKeyDown
                   OnMouseUp = edBuscaMouseUp
+                  ExplicitHeight = 21
                   Width = 375
                 end
                 object lbLocalizar: TcxLabel
@@ -681,7 +680,7 @@ inherited fbProdutos: TfbProdutos
             object panEtq: TLMDSimplePanel
               Left = 0
               Top = 0
-              Width = 731
+              Width = 737
               Height = 38
               Hint = ''
               Align = alTop
@@ -916,7 +915,7 @@ inherited fbProdutos: TfbProdutos
         object bardocProd: TdxBarDockControl
           Left = 0
           Top = 0
-          Width = 1012
+          Width = 1020
           Height = 44
           Align = dalTop
           BarManager = BarMgr
@@ -1596,7 +1595,7 @@ inherited fbProdutos: TfbProdutos
     Top = 200
   end
   object repEtq: TfrxReport
-    Version = '5.5.11'
+    Version = '5.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1797,7 +1796,7 @@ inherited fbProdutos: TfbProdutos
     Top = 248
   end
   object repEtqCriar: TfrxReport
-    Version = '5.5.11'
+    Version = '5.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1862,7 +1861,7 @@ inherited fbProdutos: TfbProdutos
     end
   end
   object repEditar: TfrxReport
-    Version = '5.5.11'
+    Version = '5.6'
     DotMatrixReport = False
     IniFile = '\Software\Fast Reports'
     PreviewOptions.Buttons = [pbPrint, pbLoad, pbSave, pbExport, pbZoom, pbFind, pbOutline, pbPageSetup, pbTools, pbEdit, pbNavigator, pbExportQuick]
@@ -1919,6 +1918,7 @@ inherited fbProdutos: TfbProdutos
           Height = 18.897650000000000000
           BarType = bcCode_2_5_interleaved
           Rotation = 0
+          TestLine = False
           Text = '12345678'
           WideBarRatio = 2.000000000000000000
           Zoom = 1.000000000000000000

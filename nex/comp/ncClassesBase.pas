@@ -23,61 +23,104 @@ uses
   Variants,
   uThreadStringList,
   ncErros, 
-  uNexTransResourceStrings_PT;
+  uNexTransResourceStrings_PT,
+  System.StrUtils;
+
+const
+  cEstados : Array[1..27] of String = (
+    'AC',
+    'AL',
+    'AM',
+    'AP',
+    'BA',
+    'CE',
+    'DF',
+    'ES',
+    'GO',
+    'MA',
+    'MG',
+    'MS',
+    'MT',
+    'PA',
+    'PB',
+    'PE',
+    'PI',
+    'PR',
+    'RJ',
+    'RN',
+    'RO',
+    'RR',
+    'RS',
+    'SC',
+    'SE',
+    'SP',
+    'TO');
+
+type
+  Estados = class
+  public
+    class function porID(aID: Byte): String;
+    class function porUF(aUF: String): Byte;
+  end;
 
 const
   incluir_marca = '{AA7D6FDC-C1EB-4910-AE16-6AA37A4D9CEA}';
   
-  idtb_Caixa        = 01;
-  idtb_Card         = 02;
-  idtb_Credito      = 03;
-  idtb_Categoria    = 04;
-  idtb_Cliente      = 05;
-  idtb_Config       = 06;
-  idtb_Debito       = 07;
-  idtb_ITran        = 08;
-  idtb_Layout       = 09;
-  idtb_MovEst       = 10;
-  idtb_NCM          = 11;
-  idtb_Produto      = 12;
-  idtb_Tran         = 13;
-  idtb_Usuario      = 14;
-  idtb_infoCampanha = 15;
-  idtb_temp         = 16;
-  idtb_PostMS       = 17;
-  idtb_Unidade      = 18;
-  idtb_Especie      = 19;
-  idtb_PagEspecies  = 20;
-  idtb_IOrcamento   = 21;
-  idtb_Orcamento    = 22;
-  idtb_syslog       = 23;
-  idtb_Doc          = 24;
-  idtb_br_cest      = 25;
-  idtb_Terminal     = 26;
-  idtb_RecDel       = 27;
-  idtb_CFOP         = 28;
-  idtb_MunBr        = 29;
-  idtb_NFCONFIG     = 30;
-  idtb_NFE          = 31;
-  idtb_CCE          = 32;
-  idtb_BRTrib       = 33;
-  idtb_ConvUnid     = 34;
-  idtb_ProdFor      = 35;
-  idtb_tax          = 36;
-  idtb_tax_itens    = 37;
-  idtb_movest_tax   = 38;
-  idtb_post_nexapp  = 39;
-  idtb_endereco     = 40;
-  idtb_tipotran     = 41;
-  idtb_BRTrib_Tipo  = 42;
-  idtb_bk_control   = 43;
-  idtb_bk_process   = 44;
-  idtb_bk_upload    = 45;
-  idtb_LinkXML      = 46;
-  idtb_Marca        = 47;
-  idtb_xmls_compra  = 48;
-  idtb_cfop_dev     = 49;
-  idtb_DadosFiscais = 50;
+  idtb_Caixa            = 01;
+  idtb_Card             = 02;
+  idtb_Credito          = 03;
+  idtb_Categoria        = 04;
+  idtb_Cliente          = 05;
+  idtb_Config           = 06;
+  idtb_Debito           = 07;
+  idtb_ITran            = 08;
+  idtb_Layout           = 09;
+  idtb_MovEst           = 10;
+  idtb_NCM              = 11;
+  idtb_Produto          = 12;
+  idtb_Tran             = 13;
+  idtb_Usuario          = 14;
+  idtb_infoCampanha     = 15;
+  idtb_temp             = 16;
+  idtb_PostMS           = 17;
+  idtb_Unidade          = 18;
+  idtb_Especie          = 19;
+  idtb_PagEspecies      = 20;
+  idtb_IOrcamento       = 21;
+  idtb_Orcamento        = 22;
+  idtb_syslog           = 23;
+  idtb_Doc              = 24;
+  idtb_br_cest          = 25;
+  idtb_Terminal         = 26;
+  idtb_RecDel           = 27;
+  idtb_CFOP             = 28;
+  idtb_MunBr            = 29;
+  idtb_NFCONFIG         = 30;
+  idtb_NFE              = 31;
+  idtb_CCE              = 32;
+  idtb_BRTrib           = 33;
+  idtb_ConvUnid         = 34;
+  idtb_ProdFor          = 35;
+  idtb_tax              = 36;
+  idtb_tax_itens        = 37;
+  idtb_movest_tax       = 38;
+  idtb_post_nexapp      = 39;
+  idtb_endereco         = 40;
+  idtb_tipotran         = 41;
+  idtb_BRTrib_Tipo      = 42;
+  idtb_bk_control       = 43;
+  idtb_bk_process       = 44;
+  idtb_bk_upload        = 45;
+  idtb_LinkXML          = 46;
+  idtb_Marca            = 47;
+  idtb_xmls_compra      = 48;
+  idtb_cfop_dev         = 49;
+  idtb_DadosFiscais     = 50;
+  idtb_SolicitacoesSped = 51;
+  idtb_Sped_C190        = 52;
+  idtb_Sped_E210        = 53;
+  idtb_movEstSped       = 54;
+
 
   bk_status_criar_json = 0;
   bk_status_enviar     = 1;
@@ -132,10 +175,24 @@ const
   http_method_post        = 1;
   http_method_put         = 2;
   http_method_delete      = 3;
-  
-  
+
+  //status para lançamento das transações processdas do SPED....
+  statusProcSped_NaoGera  = 0;
+  statusProcSped_Pendente = 1;
+  statusProcSped_OK       = 2;
+  statusProcSped_Erro     = 3;
+
+  //status para lançamento das transações processdas do SPED....
+  statusGeracaoSped_pendente = 0;
+  statusGeracaoSped_ok       = 1;
+  statusGeracaoSped_Salvo    = 2;
+  statusGeracaoSped_erro     = 3;
+
+  versaoSped   = 1;
+
   card_type_estoque_min = 201;
   card_type_estoque_fim = 202;
+
 
   statuscont_enviar         = 0;
   statuscont_chavedif       = 1;
@@ -160,6 +217,7 @@ const
   nfestatus_ok           = 100;
   nfestatus_ok_cont      = 101;
 
+  //Rodrigo
   tiponfe_nenhum       = 0;
   tiponfe_nfce         = 1;
   tiponfe_sat          = 2;
@@ -1693,7 +1751,8 @@ type
   function CSOSNTemSt(aCSOSN: Word): Boolean;
 
   function ZeroC(C: Cardinal; Tam: Byte): String;
-  
+
+  function FormatValorSped(aValor: Extended; aDecimais: Integer): String;
 
 var
   glTolerancia: Cardinal = 0;
@@ -4045,6 +4104,11 @@ begin
   Result := FidAtivo;
 end;
 
+function FormatValorSped(aValor: Extended; aDecimais: Integer): String;
+begin
+  Str(aValor:0:aDecimais,Result);
+end;
+
 function TncConfig.PrecisaoBalanca(aValor: Extended): Extended;
 var 
   I, M : Integer;
@@ -4168,6 +4232,22 @@ begin
   end;}
 end;
 
+
+class function Estados.porID(aID: Byte): String;
+begin
+  if aID in [1..27] then
+    Result := cEstados[aID] else
+    Result := '';
+end;
+
+class function Estados.porUF(aUF: String): Byte;
+begin
+  for Result := 1 to 27 do
+    if SameText(aUF, cEstados[Result]) then Exit;
+
+  Result := 0;
+end;
+
 initialization
   LoadDocParams;
   
@@ -4197,7 +4277,7 @@ finalization
   csServ.Free;
   slDadosMin.Free;
   slIni.Free;
-      
+
 end.
 
 

@@ -200,13 +200,52 @@ begin
           Add(GetFieldFromName('ID'));
 
         with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
-          Add(GetFieldFromName('UID'));   
+          Add(GetFieldFromName('UID'));
 
         with AddIndex('IChaveNFE', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
           Add(GetFieldFromName('ChaveNFE'));   
       
         with AddIndex('ITran', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do 
           Add(GetFieldFromName('Tran'));
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
+function __SolicitacoesSped(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+        AddField('dataIni', '', nxtDate, 0, 0, False);
+        AddField('dataFim', '', nxtDate, 0, 0, False);
+        AddField('dataInclusao', '', nxtDateTime, 0, 0, False);
+        AddField('dataConclusao', '', nxtDateTime, 0, 0, False);
+        AddField('usuario', '', nxtNullString, 50, 0, False);
+        AddField('cnpj_emissor', '', nxtNullString, 25, 0, False);
+        AddField('status', '', nxtWord32, 0, 0, False);
+        AddField('resultado', '', nxtBlobMemo, 10, 0, False);
+        AddField('spedGerado', '', nxtBlobMemo, 10, 0, False);
+      end;
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('ID'));
+
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));
+
+        with AddIndex('IStatus', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('status'));
+        end;
       end;
       CheckValid(False);
     end;
@@ -271,7 +310,6 @@ begin
   end;
 end;
 
-// ProdFor
 function __cfop_dev(aDatabase : TnxDatabase): TnxDataDictionary;
 begin
   Result := TnxDataDictionary.Create;
@@ -308,6 +346,171 @@ begin
 end;
 
 
+function __Sped_C190(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+        AddField('Tran', '', nxtWord32, 10, 0, False);
+        AddField('CST_ICMS', '', nxtNullString, 5, 0, False);
+        AddField('CFOP', '', nxtNullString, 8, 0, False);
+        AddField('ALIQ_ICMS', '', nxtCurrency, 8, 2, False);
+        AddField('VL_OPER', '', nxtCurrency, 8, 2, False);
+        AddField('VL_BC_ICMS', '', nxtCurrency, 8, 2, False);
+        AddField('VL_ICMS', '', nxtCurrency, 8, 2, False);
+        AddField('VL_BC_ICMS_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_ICMS_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_RED_BC', '', nxtCurrency, 8, 2, False);
+        AddField('VL_IPI', '', nxtCurrency, 8, 2, False);
+        AddField('COD_OBS', '', nxtNullString, 6, 0, False);
+      end;
+      //
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));
+
+        with AddIndex('ITranCfopCstAliq', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Tran'));
+          Add(GetFieldFromName('CFOP'));
+          Add(GetFieldFromName('CST_ICMS'));
+          Add(GetFieldFromName('ALIQ_ICMS'));
+        end;
+        with AddIndex('ITran', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('Tran'));
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
+function __Sped_E210(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+        AddField('Tran', '', nxtWord32, 6, 0, False);
+        AddField('ID_UF', '', nxtWord32, 5, 0, False);
+        AddField('DT_APURACAO', '', nxtDate, 0, 0, False);
+        AddField('IND_MOV_ST', '', nxtCurrency, 8, 0, False);
+        AddField('VL_SLD_CRED_ANT_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_DEVOL_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_RESSARC_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_OUT_CRED_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_AJ_CREDITOS_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_RETENCAO_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_OUT_DEB_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_AJ_DEBITOS_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_SLD_DEV_ANT_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_DEDUCOES_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_ICMS_RECOL_ST', '', nxtCurrency, 8, 2, False);
+        AddField('VL_SLD_CRED_ST_TRAN', '', nxtCurrency, 8, 2, False);
+        AddField('DEB_ESP_ST', '', nxtCurrency, 8, 2, False);
+
+      end;
+      //
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IdUFDataApuracao', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('ID_UF'));
+          Add(GetFieldFromName('DT_APURACAO'));
+        end;
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
+
+
+function __movEst_Sped(aDatabase : TnxDatabase): TnxDataDictionary;
+begin
+  Result := TnxDataDictionary.Create;
+  try
+    with Result do begin
+      AddRecordDescriptor(TnxBaseRecordDescriptor);
+      with FieldsDescriptor do begin
+        AddField('ID', '', nxtAutoInc, 10, 0, False);
+        with AddField('UID', '', nxtGUID, 0, 0, False) do
+          AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
+        AddField('Tran', '', nxtWord32, 10, 0, False);
+        AddField('MovEst', '', nxtWord32, 10, 0, False);
+        AddField('Produto', '', nxtWord32, 10, 0, False);
+        AddField('Data', '', nxtDate, 0, 0, False);
+        AddField('Num_Item', '', nxtWord32, 10, 0, False);
+        AddField('Num_Item_XML', '', nxtWord32, 10, 0, False);
+        AddField('Cod_Item', '', nxtNullString, 15, 0, False);
+        AddField('Descr_compl', '', nxtNullString, 100, 0, False);
+        AddField('QTD', '', nxtCurrency, 8, 2, False);
+        AddField('Unid', '', nxtNullString, 6, 0, False);
+        AddField('vl_item', '', nxtCurrency, 8, 2, False);
+        AddField('vl_desc', '', nxtCurrency, 8, 2, False);
+        AddField('ind_mov', '', nxtNullString, 5, 0, False);
+        AddField('cst_icms', '', nxtNullString, 5, 0, False);
+        AddField('cfop', '', nxtNullString, 5, 0, False);
+        AddField('cod_nat', '', nxtNullString, 5, 0, False);
+        AddField('vl_bc_icms', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_icms', '', nxtCurrency, 8, 2, False);
+        AddField('vl_icms', '', nxtCurrency, 8, 2, False);
+        AddField('vl_bc_icms_st', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_st', '', nxtCurrency, 8, 2, False);
+        AddField('vl_icms_st', '', nxtCurrency, 8, 2, False);
+        AddField('ind_apur', '', nxtChar, 1, 0, False);
+        AddField('cst_ipi', '', nxtNullString, 2, 0, False);
+        AddField('cod_enq', '', nxtNullString, 3, 0, False);
+        AddField('vl_bc_ipi', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_ipi', '', nxtCurrency, 8, 2, False);
+        AddField('vl_ipi', '', nxtCurrency, 8, 2, False);
+        AddField('cst_pis', '', nxtCurrency, 8, 2, False);
+        AddField('vl_bc_pis', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_pis_perc', '', nxtCurrency, 8, 2, False);
+        AddField('quant_bc_pis', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_pis', '', nxtCurrency, 8, 2, False);
+        AddField('vl_pis', '', nxtCurrency, 8, 2, False);
+        AddField('cst_cofins', '', nxtCurrency, 8, 2, False);
+        AddField('vl_bc_cofins', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_cofins_perc', '', nxtCurrency, 8, 2, False);
+        AddField('quant_bc_cofins', '', nxtCurrency, 8, 2, False);
+        AddField('aliq_cofins', '', nxtCurrency, 8, 2, False);
+        AddField('vl_cofins', '', nxtCurrency, 8, 2, False);
+        AddField('cod_cta', '', nxtNullString, 20, 0, False);
+      end;
+      //
+      with EnsureIndicesDescriptor do begin
+        with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
+          Add(GetFieldFromName('UID'));
+
+        with AddIndex('MovEstProd', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('MovEst'));
+          Add(GetFieldFromName('Produto'));
+        end;
+        with AddIndex('TranProd', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Tran'));
+          Add(GetFieldFromName('Produto'));
+        end;
+      end;
+      CheckValid(False);
+    end;
+  except
+    FreeAndNil(Result);
+    raise;
+  end;
+end;
 
 // ProdFor
 function __ProdFor(aDatabase : TnxDatabase): TnxDataDictionary;
@@ -318,7 +521,7 @@ begin
       AddRecordDescriptor(TnxBaseRecordDescriptor);
       with FieldsDescriptor do begin
         AddField('ID', '', nxtAutoInc, 10, 0, False);
-      
+
         with AddField('UID', '', nxtGUID, 0, 0, False) do
           AddDefaultValue(TnxAutoGuidDefaultValueDescriptor);
         AddField('Produto', '', nxtWord32, 10, 0, False);
@@ -331,8 +534,8 @@ begin
           Add(GetFieldFromName('ID'));
 
         with AddIndex('IUID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do
-          Add(GetFieldFromName('UID'));   
-      
+          Add(GetFieldFromName('UID'));
+
         with AddIndex('IProdFor', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('Produto'));
           Add(GetFieldFromName('Fornecedor'));
@@ -2572,7 +2775,9 @@ begin
         AddField('ComissaoLucro', '', nxtBoolean, 0, 0, False);
         AddField('VenDev', '', nxtBoolean, 0, 0, False);
         AddField('DadosFiscais', '', nxtBlobMemo, 0, 0, False);
-        
+        AddField('DataSped', '', nxtDate, 0, 0, False);
+        AddField('vDF', '', nxtWord16, 9, 0, False);
+
         with AddField('PermSemEstoque', '', nxtBoolean, 0, 0, False) do
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
             AsVariant := False;
@@ -2601,6 +2806,10 @@ begin
           Add(GetFieldFromName('Produto'));
           Add(GetFieldFromName('DataHora'));
           Add(GetFieldFromName('ID'));
+        end;
+        with AddIndex('ICanceladoDataSped', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Cancelado'));
+          Add(GetFieldFromName('DataSped'));
         end;
         with AddIndex('IContato', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('Cliente'));
@@ -3020,12 +3229,16 @@ begin
         AddField('TranspPesoL', '', nxtDouble, 0, 0, False);
         AddField('TranspPesoVol', '', nxtByte, 0, 0, False);
         AddField('UpdID', '', nxtGUID, 0, 0, False);
+        AddField('DataNF', '', nxtDate, 0, 0, False);
+        AddField('vSped', '', nxtWord16, 9, 0, False);
 
         with AddField('PagPend', '', nxtBoolean, 0, 0, False) do
           with AddDefaultValue(TnxConstDefaultValueDescriptor) as TnxConstDefaultValueDescriptor do
             AsVariant := False;
 
         AddField('RecVer', '', nxtWord32, 0, 0, False);
+        AddField('processaSped', '', nxtByte, 0, 0, False);
+        AddField('ErroProcSped', '', nxtBlobMemo, 10, 0, False);
       end;
       
       with EnsureIndicesDescriptor do begin
@@ -3054,6 +3267,29 @@ begin
           Add(GetFieldFromName('Caixa'));
           Add(GetFieldFromName('ID'));
         end;
+        with AddIndex('ITipoDataNF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Tipo'));
+          Add(GetFieldFromName('DataNF'));
+        end;
+        with AddIndex('ITipoNFeDataNF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('TipoNFe'));
+          Add(GetFieldFromName('DataNF'));
+        end;
+        with AddIndex('IprocessaSpedvSped', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('processaSped'));
+          Add(GetFieldFromName('vSped'));
+        end;
+        with AddIndex('ICanceladoTipoDataNF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Cancelado'));
+          Add(GetFieldFromName('Tipo'));
+          Add(GetFieldFromName('DataNF'));
+        end;
+        with AddIndex('ICanceladoTipoNFETipoDataNF', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('Cancelado'));
+          Add(GetFieldFromName('TipoNFE'));
+          Add(GetFieldFromName('Tipo'));
+          Add(GetFieldFromName('DataNF'));
+        end;
         with AddIndex('ICaixaPagID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('CaixaPag'));
           Add(GetFieldFromName('ID'));
@@ -3061,7 +3297,13 @@ begin
         with AddIndex('IPagPendID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('PagPend'));
           Add(GetFieldFromName('ID'));
-        end;  
+        end;
+
+        with AddIndex('IprocessaSpedID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
+          Add(GetFieldFromName('processaSped'));
+          Add(GetFieldFromName('ID'));
+        end;
+
         with AddIndex('IPagPendEntID', 0, idAll), KeyDescriptor as TnxCompKeyDescriptor do begin
           Add(GetFieldFromName('PagPend'));
           Add(GetFieldFromName('Entregar'));
@@ -4098,7 +4340,7 @@ initialization
 
   with gTables do begin
   
-// Tabelas que não fazem backup no cloud
+    //Tabelas que não fazem backup no cloud
     Add('bk_control',   __bk_control,   idtb_bk_control,  0);
     Add('bk_process',   __bk_process,   idtb_bk_process,  0);
     Add('bk_upload',    __bk_upload,    idtb_bk_upload,   0);    
@@ -4117,7 +4359,7 @@ initialization
     Add('MunBr',        __MunBr,        idtb_MunBR,       0);
     Add('tipotran',     __tipotran,     idtb_tipotran,    0);      
 
-// Tabelas que fazem backup no cloud 
+    // Tabelas que fazem backup no cloud
     Add('Caixa',        __Caixa,        idtb_Caixa);
     Add('Credito',      __Credito,      idtb_Credito);
     Add('Cliente',      __Cliente,      idtb_Cliente);
@@ -4144,8 +4386,12 @@ initialization
     Add('xmls_compra',  __xmls_compra,  idtb_xmls_compra);
     Add('DadosFiscais', __DadosFiscais, idtb_DadosFiscais);
     Add('cfop_dev',     __cfop_dev,     idtb_cfop_dev);
-    
-// Tabelas que fazem backup no cloud mas possuem campos/indices de ID ou UID diferente do padrão    
+    Add('SolicitacoesSped', __SolicitacoesSped, idtb_SolicitacoesSped);
+    Add('Sped_C190', __Sped_C190, idtb_Sped_C190);
+    Add('Sped_E210', __Sped_E210, idtb_Sped_E210);
+    Add('movEst_Sped', __movEst_Sped, idtb_movEstSped);
+
+    //Tabelas que fazem backup no cloud mas possuem campos/indices de ID ou UID diferente do padrão
 
     Add('tax',          __tax,          idtb_tax,       1, 'tax_id', 'I_tax_id');
     Add('Orcamento',    __Orcamento,    idtb_Orcamento, 1, 'IDSeq',  'IIDSeq');
@@ -4155,8 +4401,6 @@ initialization
     Add('CCE',          __CCE,          idtb_CCE,       1, 'NumSeq', 'INumSeq');
     Add('Terminal',     __Terminal,     idtb_Terminal,  1, '',       '',        'TermID',      'ITermID');
     Add('endereco',     __endereco,     idtb_endereco,  1, 'NumSeq', 'INumSeq', 'endereco_id', 'I_endereco_id');    
-
-
 end;
 
 finalization

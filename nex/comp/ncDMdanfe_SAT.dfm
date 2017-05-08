@@ -615,6 +615,12 @@ object dmDanfe_SAT: TdmDanfe_SAT
     object mtItemvItem12741: TFloatField
       FieldName = 'vItem12741'
     end
+    object mtItempICMS: TFloatField
+      FieldName = 'pICMS'
+    end
+    object mtItemvICMS: TFloatField
+      FieldName = 'vICMS'
+    end
   end
   object mtTotal: TkbmMemTable
     DesignActivation = True
@@ -913,7 +919,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
     Top = 24
   end
   object frRep: TfrxReport
-    Version = '5.5'
+    Version = '5.6'
     DotMatrixReport = False
     EngineOptions.NewSilentMode = simReThrow
     IniFile = '\Software\Fast Reports'
@@ -11189,6 +11195,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -11475,7 +11482,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
     Top = 200
   end
   object repBobina: TfrxReport
-    Version = '5.5'
+    Version = '5.6'
     DotMatrixReport = False
     EngineOptions.NewSilentMode = simReThrow
     IniFile = '\Software\Fast Reports'
@@ -26531,6 +26538,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -26622,7 +26630,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
     end
   end
   object repFolha: TfrxReport
-    Version = '5.5'
+    Version = '5.6'
     DotMatrixReport = False
     EngineOptions.NewSilentMode = simReThrow
     IniFile = '\Software\Fast Reports'
@@ -41678,6 +41686,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0
@@ -41769,7 +41778,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
     end
   end
   object frCustom: TfrxReport
-    Version = '5.5'
+    Version = '5.6'
     DotMatrixReport = False
     EngineOptions.NewSilentMode = simReThrow
     IniFile = '\Software\Fast Reports'
@@ -56868,6 +56877,7 @@ object dmDanfe_SAT: TdmDanfe_SAT
           Top = 11.338590000000010000
           Width = 130.000000000000000000
           Height = 130.000000000000000000
+          StretchMode = smActualHeight
           BarType = bcCodeQR
           BarProperties.Encoding = qrAuto
           BarProperties.QuietZone = 0

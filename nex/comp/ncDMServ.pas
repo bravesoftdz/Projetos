@@ -27,14 +27,14 @@ uses
   ncSalvaCredito,
   nxsdServerEngine, nxreRemoteServerEngine,
   nxllTransport, nxptBasePooledTransport, nxtwWinsockTransport,
-  ncMsgCom,
-  ncEspecie,
+  ncMsgCom, ncEspecie,
   IdBaseComponent, IdComponent, IdTCPConnection, IdTCPClient, IdHTTP,
-  nxsrServerEngine, kbmMemTable;
+  nxsrServerEngine, kbmMemTable, ncDMdanfe_nfe;
+
 
 type
 
-  TProgressoEv = 
+  TProgressoEv =
     procedure(const aTarefa: String; aPos, aTotal: Cardinal) of object;
 
   TDM = class;
@@ -840,6 +840,85 @@ type
     tXMLCompraxml: TnxMemoField;
     tXMLCompraTran: TLongWordField;
     tXMLCompraChaveNFE: TStringField;
+    tTranDataNF: TDateField;
+    tC190Sped: TnxTable;
+    tC190SpedID: TUnsignedAutoIncField;
+    tC190SpedTran: TLongWordField;
+    tC190SpedCST_ICMS: TStringField;
+    tC190SpedCFOP: TStringField;
+    tC190SpedALIQ_ICMS: TCurrencyField;
+    tC190SpedVl_OPER: TCurrencyField;
+    tC190SpedVL_BC_ICMS: TCurrencyField;
+    tC190SpedVL_ICMS: TCurrencyField;
+    tC190SpedVL_BC_ICMS_ST: TCurrencyField;
+    tC190SpedVL_ICMS_ST: TCurrencyField;
+    tC190SpedVL_RED_BC: TCurrencyField;
+    tC190SpedVL_IPI: TCurrencyField;
+    tC190SpedCOD_OBS: TStringField;
+    tMovEstDataSped: TDateField;
+    tE210Sped: TnxTable;
+    tE210SpedID: TUnsignedAutoIncField;
+    tE210SpedID_UF: TLongWordField;
+    tE210SpedDT_APURACAO: TDateField;
+    tE210SpedIND_MOV_ST: TCurrencyField;
+    tE210SpedVL_SLD_CRED_ANT_ST: TCurrencyField;
+    tE210SpedVL_DEVOL_ST: TCurrencyField;
+    tE210SpedVL_RESSARC_ST: TCurrencyField;
+    tE210SpedVL_OUT_CRED_ST: TCurrencyField;
+    tE210SpedVL_AJ_CREDITOS_ST: TCurrencyField;
+    tE210SpedVL_RETENCAO_ST: TCurrencyField;
+    tE210SpedVL_OUT_DEB_ST: TCurrencyField;
+    tE210SpedVL_AJ_DEBITOS_ST: TCurrencyField;
+    tE210SpedVL_SLD_DEV_ANT_ST: TCurrencyField;
+    tE210SpedVL_DEDUCOES_ST: TCurrencyField;
+    tE210SpedVL_ICMS_RECOL_ST: TCurrencyField;
+    tE210SpedVL_SLD_CRED_ST_TRAN: TCurrencyField;
+    tE210SpedDEB_ESP_ST: TCurrencyField;
+    tMovEstSped: TnxTable;
+    tMovEstSpedID: TUnsignedAutoIncField;
+    tMovEstSpedTran: TLongWordField;
+    tMovEstSpedMovEst: TLongWordField;
+    tMovEstSpedProduto: TLongWordField;
+    tMovEstSpedData: TDateField;
+    tMovEstSpedNum_Item: TLongWordField;
+    tMovEstSpedNum_Item_XML: TLongWordField;
+    tMovEstSpedCod_Item: TStringField;
+    tMovEstSpedDescr_compl: TStringField;
+    tMovEstSpedQTD: TCurrencyField;
+    tMovEstSpedUnid: TStringField;
+    tMovEstSpedvl_item: TCurrencyField;
+    tMovEstSpedvl_desc: TCurrencyField;
+    tMovEstSpedind_mov: TStringField;
+    tMovEstSpedcst_icms: TStringField;
+    tMovEstSpedcfop: TStringField;
+    tMovEstSpedcod_nat: TStringField;
+    tMovEstSpedvl_bc_icms: TCurrencyField;
+    tMovEstSpedaliq_icms: TCurrencyField;
+    tMovEstSpedvl_icms: TCurrencyField;
+    tMovEstSpedvl_bc_icms_st: TCurrencyField;
+    tMovEstSpedaliq_st: TCurrencyField;
+    tMovEstSpedvl_icms_st: TCurrencyField;
+    tMovEstSpedind_apur: TStringField;
+    tMovEstSpedcst_ipi: TStringField;
+    tMovEstSpedcod_enq: TStringField;
+    tMovEstSpedvl_bc_ipi: TCurrencyField;
+    tMovEstSpedaliq_ipi: TCurrencyField;
+    tMovEstSpedvl_ipi: TCurrencyField;
+    tMovEstSpedcst_pis: TCurrencyField;
+    tMovEstSpedvl_bc_pis: TCurrencyField;
+    tMovEstSpedaliq_pis_perc: TCurrencyField;
+    tMovEstSpedquant_bc_pis: TCurrencyField;
+    tMovEstSpedaliq_pis: TCurrencyField;
+    tMovEstSpedvl_pis: TCurrencyField;
+    tMovEstSpedcst_cofins: TCurrencyField;
+    tMovEstSpedvl_bc_cofins: TCurrencyField;
+    tMovEstSpedaliq_cofins_perc: TCurrencyField;
+    tMovEstSpedquant_bc_cofins: TCurrencyField;
+    tMovEstSpedaliq_cofins: TCurrencyField;
+    tMovEstSpedvl_cofins: TCurrencyField;
+    tMovEstSpedcod_cta: TStringField;
+    tE210SpedTran: TLongWordField;
+
     procedure tMovEstCalcFields(DataSet: TDataSet);
     procedure tAuxMECalcFields(DataSet: TDataSet);
     procedure tITranCalcFields(DataSet: TDataSet);
@@ -853,6 +932,9 @@ type
     procedure tNFConfigCalcFields(DataSet: TDataSet);
   private
     { Private declarations }
+
+    dmDanfe : TdmDanfe_NFE;
+//    ProcDadosSped : TdmProcDados_Sped;
     function IncluiIME(IM: TncItemMovEst; ME: TncMovEst): Integer;
     function AlteraIME(IM: TncItemMovEst; MEAnt, MEAtu: TncMovEst): Integer;
     function ExcluiIME(IM: TncItemMovEst; MEAnt, MEAtu: TncMovEst): Integer;
@@ -1001,6 +1083,8 @@ implementation
 uses ncVersoes, ncDebug, ncGuidUtils, nexUrls, ncDMSyncCest,
   uNexTransResourceStrings_PT, ncVersionInfo;
 
+
+
 {$R *.dfm}
 
 threadvar
@@ -1010,7 +1094,10 @@ resourcestring
   rsZerouPontosTodosClientes = 'Zerou pontos de todos os clientes';
   rsPontosAdicionados = 'pontos adicionados';
   rsPontosRemovidos = 'pontos removidos';
-  rsTodos = 'Todos';    
+  rsTodos = 'Todos';
+
+
+
 
 function VToString(V: Variant): String;
 begin
@@ -2925,6 +3012,7 @@ begin
     Result := '';
 end;
 
+
 procedure TransfDadosEsp(TF, TD: TDataset; ExceptFields: String);
 var 
   I : Integer;
@@ -4471,6 +4559,7 @@ begin
       tTranTranspVol.Value := ME.TranspVol;
       ME.NativeUpdID := TGuid.NewGuid;
       tTranUpdID.AsGuid := ME.NativeUpdID;
+      tTranDataNF.Value := Date;
 
       DebugMsg(Self, 'SalvaMovEstCustom - New UpdID: '+tTranUpdID.Value);
 
@@ -4612,6 +4701,7 @@ begin
           end;
         end;
       end;
+      //ProcDadosSped.geraDadosSped(tTranID.Value);
 
       if NewTran then
         nxDB.Commit;

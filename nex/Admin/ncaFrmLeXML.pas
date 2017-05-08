@@ -171,12 +171,9 @@ type
     tDFDadosFiscais: TnxMemoField;
     tDFCustoU: TCurrencyField;
     mtUnitario: TCurrencyField;
-<<<<<<< HEAD
     Memo2: TMemo;
     Memo1: TMemo;
-=======
     mtnItem: TWordField;
->>>>>>> origin/master
     procedure FormCreate(Sender: TObject);
     procedure edProdutoPropertiesButtonClick(Sender: TObject;
       AButtonIndex: Integer);
@@ -228,7 +225,6 @@ type
     procedure forceEdit;
     procedure PesquisarProd;
     procedure AlimentaDadosFiscais;
-
 
     procedure _SalvaConvUnid;
 
@@ -296,7 +292,7 @@ const
   sLabelUnidXML  = 'Unidade no XML/NFe = <strong><FONT COLOR="#0080FF">%s</strong>';
   sLabelUnidProd = 'Unidade no Cadastro do Produto = <strong><FONT COLOR="#0080FF">%s</strong>';
   sUniv          = 'A conversão de %s para %s é sempre igual, para TODOS produtos.';
-  
+
   psSugestao = 0;
   psSemProd  = 1;
   psSemUnid  = 2;
@@ -324,15 +320,10 @@ begin
   Result := V.ToString;
 end;
 
-
-function ExtraiTagExpecifica (tagIni, tagFim :string; item :integer):string;
+function ExtraiTagEspecifica (tagIni, tagFim :string; item :integer):string;
 begin
-
-//  memo1.Lines.LoadFromFile('C:\Meus Programas\Nex\Rodrigo\Item'+intToStr(item)+'.xml');
   Memo1.Lines.Text := GetItemXML(item);
-
   sXmlOriginal := memo1.lines.Text;
-
   sFieldName := sXmlOriginal;
 
   P1 := Pos(tagIni, sFieldName);
@@ -353,7 +344,6 @@ begin
     tagExtraida := '';
     tagExtraida := Copy(sFieldName, P3+1, P2-P4);
   end;
-
   Result := tagExtraida;
 end;
 
@@ -406,14 +396,7 @@ begin
       sl.Values['indTot'] := mtItemindTot.asstring;
 
     //Tags do ICMS
-    sl.Values['orig'] := ExtraiTagExpecifica('<orig>','</orig>',mtItemnItem.value);
-    sl.Values['modBC'] := ExtraiTagExpecifica('<modBC>','</modBC>',mtItemnItem.value);
-    sl.Values['ICMS_CST'] := ExtraiTagExpecifica('<CST>','</CST>',mtItemnItem.value);
-    sl.Values['CSOSN'] := ExtraiTagExpecifica('<CSOSN>','</CSOSN>',mtItemnItem.value);
-    sl.Values['ICMS_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
-    sl.Values['pICMS'] := ExtraiTagExpecifica('<pICMS>','</pICMS>',mtItemnItem.value);
-    sl.Values['vICMS'] := ExtraiTagExpecifica('<vICMS>','</vICMS>',mtItemnItem.value);
-  {  if not mtItemorig.IsNull then
+    if not mtItemorig.IsNull then
       sl.Values['orig'] := mtItemorig.AsString;
     if not mtItemmodBC.IsNull then
       sl.Values['modBC'] := mtItemmodBC.AsString;
@@ -426,15 +409,10 @@ begin
     if not mtItempICMS.IsNull then
       sl.Values['pICMS'] := FloatParaStr(mtItempICMS.Value);
     if not mtItemvICMS.IsNull then
-      sl.Values['vICMS'] := FloatParaStr(mtItemvICMS.Value);   }
+      sl.Values['vICMS'] := FloatParaStr(mtItemvICMS.Value);
 
     //Tags ICMS-ST
-    sl.Values['modBCST'] := ExtraiTagExpecifica('<modBCST>','</modBCST>',mtItemnItem.value);
-    sl.Values['pMVAST'] := ExtraiTagExpecifica('<pMVAST>','</pMVAST>',mtItemnItem.value);
-    sl.Values['vBCST'] := ExtraiTagExpecifica('<vBCST>','</vBCST>',mtItemnItem.value);
-    sl.Values['pICMSST'] := ExtraiTagExpecifica('<pICMSST>','</pICMSST>',mtItemnItem.value);
-    sl.Values['vICMSST'] := ExtraiTagExpecifica('<vICMSST>','</vICMSST>',mtItemnItem.value);
-    {if not mtItemmodBCST.IsNull then
+    if not mtItemmodBCST.IsNull then
       sl.Values['modBCST'] := mtItemmodBCST.AsString;
     if not mtItempMVAST.IsNull then
       sl.Values['pMVAST'] := FloatParaStr(mtItempMVAST.Value);
@@ -443,17 +421,8 @@ begin
     if not mtItempICMSST.IsNull then
       sl.Values['pICMSST'] := FloatParaStr(mtItempICMSST.Value);
     if not mtItemvICMSST.IsNull then
-      sl.Values['vICMSST'] := FloatParaStr(mtItemvICMSST.Value);  }
-
-
-
-    //Tags IPI
-    sl.Values['cEnq'] := ExtraiTagExpecifica('<cEnq>','</cEnq>',mtItemnItem.value);
-    sl.Values['vIPI'] := ExtraiTagExpecifica('<vIPI>','</vIPI>',mtItemnItem.value);
-    sl.Values['pIPI'] := ExtraiTagExpecifica('<pIPI>','</pIPI>',mtItemnItem.value);
-    sl.Values['IPI_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
-
-{    if not mtItemcEnq.IsNull then
+      sl.Values['vICMSST'] := FloatParaStr(mtItemvICMSST.Value);
+    if not mtItemcEnq.IsNull then
       sl.Values['cEnq'] := mtItemcEnq.AsString;
     if not mtItemIPI_CST.isNull then
       sl.Values['IPI_CST'] := mtItemIPI_CST.AsString;
@@ -462,35 +431,25 @@ begin
     if not mtItempIPI.isNull then
       sl.Values['pIPI'] := FloatParaStr(mtItempIPI.Value);
     if not mtItemIPI_vBC.isNull then
-      sl.Values['IPI_vBC'] := FloatParaStr(mtItemIPI_vBC.Value);}
+      sl.Values['IPI_vBC'] := FloatParaStr(mtItemIPI_vBC.Value);
 
-    //Tags PIS
-    sl.Values['PIS_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
-    sl.Values['pPIS'] := ExtraiTagExpecifica('<pPIS>','</pPIS>',mtItemnItem.value);
-    sl.Values['vPIS'] := ExtraiTagExpecifica('<vPIS>','</vPIS>',mtItemnItem.value);
-
-    {if not mtItemPIS_CST.IsNull then
+    if not mtItemPIS_CST.IsNull then
       sl.Values['PIS_CST'] := mtItemPIS_CST.AsString;
     if not mtItemPIS_vBC.IsNull then
       sl.Values['PIS_vBC'] := FloatParaStr(mtItemPIS_vBC.value);
-    if (not mtItempPis.isNull) and (mtItempPIS.Value > 0) then
-      sl.values['pPIS'] := FloatParaStr(mtItempPIS.Value);
-    if (not mtItemvPis.isNull) and (mtItemvPis.Value > 0) then
-      sl.values['vPIS'] := FloatParaStr(mtItemvPIS.Value);}
+    if (not mtItemPIS_pPis.isNull) and (mtItemPIS_pPIS.Value > 0) then
+      sl.values['pPIS'] := FloatParaStr(mtItemPIS_pPIS.Value);
+    if (not mtItemPIS_vPis.isNull) and (mtItemPIS_vPis.Value > 0) then
+      sl.values['vPIS'] := FloatParaStr(mtItemPIS_vPIS.Value);
 
-    //Tags Cofins
-    sl.Values['COFINS_vBC'] := ExtraiTagExpecifica('<vBC>','</vBC>',mtItemnItem.value);
-    sl.Values['pCofins'] := ExtraiTagExpecifica('<pCofins>','</pCofins>',mtItemnItem.value);
-    sl.Values['vCofins'] := ExtraiTagExpecifica('<vCofins>','</vCofins>',mtItemnItem.value);
-
-    {if not mtItemCOFINS_CST.IsNull then
+    if not mtItemCOFINS_CST.IsNull then
       sl.Values['COFINS_CST'] := mtItemCOFINS_CST.AsString;
     if not mtItemCOFINS_vBC.IsNull then
       sl.Values['COFINS_vBC'] := FloatParaStr(mtItemCOFINS_vBC.Value);
-    if (not mtItempCofins.isNull) and (mtItempCofins.Value > 0) then
-      sl.values['pCofins'] := FloatParaStr(mtItempCofins.Value);
-    if (not mtItemvCofins.isNull) and (mtItemvCofins.Value > 0) then
-      sl.values['vCofins'] := FloatParaStr(mtItemvCofins.Value);}
+    if (not mtItemCOFINS_pCofins.isNull) and (mtItemCOFINS_pCofins.Value > 0) then
+      sl.values['pCofins'] := FloatParaStr(mtItemCOFINS_pCofins.Value);
+    if (not mtItemCOFINS_vCofins.isNull) and (mtItemCOFINS_vCofins.Value > 0) then
+      sl.values['vCofins'] := FloatParaStr(mtItemCOFINS_vCofins.Value);
 
     //Tags Frete e outros
     if not mtItemvFrete.isNull  then

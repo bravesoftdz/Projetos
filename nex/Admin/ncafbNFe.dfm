@@ -536,8 +536,8 @@ inherited fbNFe: TfbNFe
     end
   end
   inherited BarMgr: TdxBarManager
-    Left = 352
-    Top = 376
+    Left = 336
+    Top = 448
     inherited BarMgrBar1: TdxBar
       DockControl = bdcGrid
       DockedDockControl = bdcGrid
@@ -768,8 +768,8 @@ inherited fbNFe: TfbNFe
     end
   end
   inherited MenuGrid: TcxGridPopupMenu
-    Left = 320
-    Top = 369
+    Left = 248
+    Top = 473
   end
   inherited CP: TdxComponentPrinter
     Left = 120
@@ -781,18 +781,18 @@ inherited fbNFe: TfbNFe
   end
   inherited pmLay: TdxBarPopupMenu
     Left = 416
-    Top = 370
+    Top = 450
   end
   inherited pmPeriodo: TdxBarPopupMenu
     Left = 496
-    Top = 396
+    Top = 420
   end
   object Tab: TnxTable
     Database = Dados.db
     FlipOrder = True
     TableName = 'NFE'
     IndexName = 'ITipoDocNumSeq'
-    Left = 600
+    Left = 632
     Top = 392
     object TabNumSeq: TUnsignedAutoIncField
       Alignment = taCenter
@@ -982,7 +982,7 @@ inherited fbNFe: TfbNFe
   object SaveDlg: TSaveDialog
     DefaultExt = 'xml'
     Filter = 'XML|*.xml'
-    Left = 408
+    Left = 448
     Top = 320
   end
   object cxStyleRepository1: TcxStyleRepository
@@ -1239,14 +1239,14 @@ inherited fbNFe: TfbNFe
     DefaultExt = 'zip'
     Filter = 'ZIP|*.zip'
     Options = [ofHideReadOnly, ofPathMustExist, ofEnableSizing]
-    Left = 248
+    Left = 208
     Top = 320
   end
   object TimerSelZip: TTimer
     Enabled = False
     OnTimer = TimerSelZipTimer
-    Left = 376
-    Top = 344
+    Left = 384
+    Top = 312
   end
   object OpenDlg: TOpenDialog
     Filter = 'Arquivos XML|*.XML'
@@ -1753,8 +1753,8 @@ inherited fbNFe: TfbNFe
   object TimerSel: TTimer
     Enabled = False
     Interval = 100
-    Left = 369
-    Top = 302
+    Left = 377
+    Top = 230
   end
   object pmTools: TdxBarPopupMenu
     BarManager = BarMgr

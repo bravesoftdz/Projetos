@@ -4,6 +4,7 @@ object DM: TDM
   Height = 445
   Width = 777
   object nxSession: TnxSession
+    ActiveDesigntime = True
     UserName = 'admin'
     Password = 'delphi9856'
     ServerEngine = nxRSE
@@ -11,6 +12,7 @@ object DM: TDM
     Top = 16
   end
   object nxDB: TnxDatabase
+    ActiveDesigntime = True
     Session = nxSession
     AliasName = 'NexCafe'
     Left = 72
@@ -226,6 +228,9 @@ object DM: TDM
     object tTranUpdID: TGuidField
       FieldName = 'UpdID'
       Size = 38
+    end
+    object tTranDataNF: TDateField
+      FieldName = 'DataNF'
     end
   end
   object tITran: TnxTable
@@ -738,6 +743,9 @@ object DM: TDM
       FieldName = 'DadosFiscais'
       BlobType = ftMemo
     end
+    object tMovEstDataSped: TDateField
+      FieldName = 'DataSped'
+    end
   end
   object tCaixa: TnxTable
     Database = nxDB
@@ -1238,12 +1246,14 @@ object DM: TDM
     end
   end
   object nxRSE: TnxRemoteServerEngine
+    ActiveDesigntime = True
     Transport = nxTCPIP
     Left = 120
     Top = 16
   end
   object nxTCPIP: TnxWinsockTransport
     DisplayCategory = 'Transports'
+    ActiveDesigntime = True
     ServerNameRuntime = '127.0.0.1'
     ServerNameDesigntime = '127.0.0.1'
     Port = 17200
@@ -1260,7 +1270,7 @@ object DM: TDM
     Database = nxDB
     TableName = 'infoCampanha'
     IndexName = 'IIP'
-    Left = 72
+    Left = 80
     Top = 248
     object tICIP: TStringField
       FieldName = 'IP'
@@ -1676,7 +1686,7 @@ object DM: TDM
     Database = nxDB
     TableName = 'syslog'
     IndexName = 'IInfo'
-    Left = 200
+    Left = 216
     Top = 192
     object tSysLogID: TUnsignedAutoIncField
       FieldName = 'ID'
@@ -1716,7 +1726,7 @@ object DM: TDM
     SubLanguageID = 1
     LocaleID = 1024
     Left = 264
-    Top = 280
+    Top = 296
     object mtDebData: TDateTimeField
       FieldName = 'Data'
     end
@@ -2481,7 +2491,7 @@ object DM: TDM
     TableName = 'ProdFor'
     IndexName = 'IProdFor'
     Left = 320
-    Top = 280
+    Top = 296
     object tProdForUID: TGuidField
       FieldName = 'UID'
       Size = 38
@@ -2659,7 +2669,7 @@ object DM: TDM
     TableName = 'tipotran'
     IndexName = 'I_tipo'
     Left = 192
-    Top = 272
+    Top = 296
     object tTipoTrantipo: TByteField
       FieldName = 'tipo'
     end
@@ -2708,7 +2718,7 @@ object DM: TDM
     Database = nxDB
     TableName = 'xmls_compra'
     IndexName = 'ITran'
-    Left = 552
+    Left = 520
     Top = 368
     object tXMLCompraChaveNFE: TStringField
       FieldName = 'ChaveNFE'
@@ -2727,6 +2737,261 @@ object DM: TDM
     end
     object tXMLCompraTran: TLongWordField
       FieldName = 'Tran'
+    end
+  end
+  object tC190Sped: TnxTable
+    Database = nxDB
+    OnCalcFields = tTranCalcFields
+    TableName = 'Sped_C190'
+    IndexName = 'ITranCfopCstAliq'
+    Left = 168
+    Top = 360
+    object tC190SpedID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tC190SpedTran: TLongWordField
+      FieldName = 'Tran'
+    end
+    object tC190SpedCST_ICMS: TStringField
+      FieldName = 'CST_ICMS'
+      Size = 5
+    end
+    object tC190SpedCFOP: TStringField
+      FieldName = 'CFOP'
+      Size = 8
+    end
+    object tC190SpedALIQ_ICMS: TCurrencyField
+      FieldName = 'ALIQ_ICMS'
+    end
+    object tC190SpedVl_OPER: TCurrencyField
+      FieldName = 'Vl_OPER'
+    end
+    object tC190SpedVL_BC_ICMS: TCurrencyField
+      FieldName = 'VL_BC_ICMS'
+    end
+    object tC190SpedVL_ICMS: TCurrencyField
+      FieldName = 'VL_ICMS'
+    end
+    object tC190SpedVL_BC_ICMS_ST: TCurrencyField
+      FieldName = 'VL_BC_ICMS_ST'
+    end
+    object tC190SpedVL_ICMS_ST: TCurrencyField
+      FieldName = 'VL_ICMS_ST'
+    end
+    object tC190SpedVL_RED_BC: TCurrencyField
+      FieldName = 'VL_RED_BC'
+    end
+    object tC190SpedVL_IPI: TCurrencyField
+      FieldName = 'VL_IPI'
+    end
+    object tC190SpedCOD_OBS: TStringField
+      FieldName = 'COD_OBS'
+      Size = 6
+    end
+  end
+  object tE210Sped: TnxTable
+    Database = nxDB
+    OnCalcFields = tTranCalcFields
+    TableName = 'Sped_E210'
+    Left = 104
+    Top = 360
+    object tE210SpedID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tE210SpedID_UF: TLongWordField
+      FieldName = 'ID_UF'
+    end
+    object tE210SpedDT_APURACAO: TDateField
+      FieldName = 'DT_APURACAO'
+    end
+    object tE210SpedIND_MOV_ST: TCurrencyField
+      FieldName = 'IND_MOV_ST'
+    end
+    object tE210SpedVL_SLD_CRED_ANT_ST: TCurrencyField
+      FieldName = 'VL_SLD_CRED_ANT_ST'
+    end
+    object tE210SpedVL_DEVOL_ST: TCurrencyField
+      FieldName = 'VL_DEVOL_ST'
+    end
+    object tE210SpedVL_RESSARC_ST: TCurrencyField
+      FieldName = 'VL_RESSARC_ST'
+    end
+    object tE210SpedVL_OUT_CRED_ST: TCurrencyField
+      FieldName = 'VL_OUT_CRED_ST'
+    end
+    object tE210SpedVL_AJ_CREDITOS_ST: TCurrencyField
+      FieldName = 'VL_AJ_CREDITOS_ST'
+    end
+    object tE210SpedVL_RETENCAO_ST: TCurrencyField
+      FieldName = 'VL_RETENCAO_ST'
+    end
+    object tE210SpedVL_OUT_DEB_ST: TCurrencyField
+      FieldName = 'VL_OUT_DEB_ST'
+    end
+    object tE210SpedVL_AJ_DEBITOS_ST: TCurrencyField
+      FieldName = 'VL_AJ_DEBITOS_ST'
+    end
+    object tE210SpedVL_SLD_DEV_ANT_ST: TCurrencyField
+      FieldName = 'VL_SLD_DEV_ANT_ST'
+    end
+    object tE210SpedVL_DEDUCOES_ST: TCurrencyField
+      FieldName = 'VL_DEDUCOES_ST'
+    end
+    object tE210SpedVL_ICMS_RECOL_ST: TCurrencyField
+      FieldName = 'VL_ICMS_RECOL_ST'
+    end
+    object tE210SpedVL_SLD_CRED_ST_TRAN: TCurrencyField
+      FieldName = 'VL_SLD_CRED_ST_TRAN'
+    end
+    object tE210SpedDEB_ESP_ST: TCurrencyField
+      FieldName = 'DEB_ESP_ST'
+    end
+    object tE210SpedTran: TLongWordField
+      FieldName = 'Tran'
+    end
+  end
+  object tMovEstSped: TnxTable
+    Database = nxDB
+    OnCalcFields = tTranCalcFields
+    TableName = 'movEst_Sped'
+    IndexName = 'TranProd'
+    Left = 32
+    Top = 360
+    object tMovEstSpedID: TUnsignedAutoIncField
+      FieldName = 'ID'
+    end
+    object tMovEstSpedTran: TLongWordField
+      FieldName = 'Tran'
+    end
+    object tMovEstSpedMovEst: TLongWordField
+      FieldName = 'MovEst'
+    end
+    object tMovEstSpedProduto: TLongWordField
+      FieldName = 'Produto'
+    end
+    object tMovEstSpedData: TDateField
+      FieldName = 'Data'
+    end
+    object tMovEstSpedNum_Item: TLongWordField
+      FieldName = 'Num_Item'
+    end
+    object tMovEstSpedNum_Item_XML: TLongWordField
+      FieldName = 'Num_Item_XML'
+    end
+    object tMovEstSpedCod_Item: TStringField
+      FieldName = 'Cod_Item'
+      Size = 15
+    end
+    object tMovEstSpedDescr_compl: TStringField
+      FieldName = 'Descr_compl'
+      Size = 100
+    end
+    object tMovEstSpedQTD: TCurrencyField
+      FieldName = 'QTD'
+    end
+    object tMovEstSpedUnid: TStringField
+      FieldName = 'Unid'
+      Size = 6
+    end
+    object tMovEstSpedvl_item: TCurrencyField
+      FieldName = 'vl_item'
+    end
+    object tMovEstSpedvl_desc: TCurrencyField
+      FieldName = 'vl_desc'
+    end
+    object tMovEstSpedind_mov: TStringField
+      FieldName = 'ind_mov'
+      Size = 2
+    end
+    object tMovEstSpedcst_icms: TStringField
+      FieldName = 'cst_icms'
+      Size = 3
+    end
+    object tMovEstSpedcfop: TStringField
+      FieldName = 'cfop'
+      Size = 4
+    end
+    object tMovEstSpedcod_nat: TStringField
+      FieldName = 'cod_nat'
+      Size = 10
+    end
+    object tMovEstSpedvl_bc_icms: TCurrencyField
+      FieldName = 'vl_bc_icms'
+    end
+    object tMovEstSpedaliq_icms: TCurrencyField
+      FieldName = 'aliq_icms'
+    end
+    object tMovEstSpedvl_icms: TCurrencyField
+      FieldName = 'vl_icms'
+    end
+    object tMovEstSpedvl_bc_icms_st: TCurrencyField
+      FieldName = 'vl_bc_icms_st'
+    end
+    object tMovEstSpedaliq_st: TCurrencyField
+      FieldName = 'aliq_st'
+    end
+    object tMovEstSpedvl_icms_st: TCurrencyField
+      FieldName = 'vl_icms_st'
+    end
+    object tMovEstSpedind_apur: TStringField
+      FieldName = 'ind_apur'
+      Size = 1
+    end
+    object tMovEstSpedcst_ipi: TStringField
+      FieldName = 'cst_ipi'
+      Size = 2
+    end
+    object tMovEstSpedcod_enq: TStringField
+      FieldName = 'cod_enq'
+      Size = 3
+    end
+    object tMovEstSpedvl_bc_ipi: TCurrencyField
+      FieldName = 'vl_bc_ipi'
+    end
+    object tMovEstSpedaliq_ipi: TCurrencyField
+      FieldName = 'aliq_ipi'
+    end
+    object tMovEstSpedvl_ipi: TCurrencyField
+      FieldName = 'vl_ipi'
+    end
+    object tMovEstSpedcst_pis: TCurrencyField
+      FieldName = 'cst_pis'
+    end
+    object tMovEstSpedvl_bc_pis: TCurrencyField
+      FieldName = 'vl_bc_pis'
+    end
+    object tMovEstSpedaliq_pis_perc: TCurrencyField
+      FieldName = 'aliq_pis_perc'
+    end
+    object tMovEstSpedquant_bc_pis: TCurrencyField
+      FieldName = 'quant_bc_pis'
+    end
+    object tMovEstSpedaliq_pis: TCurrencyField
+      FieldName = 'aliq_pis'
+    end
+    object tMovEstSpedvl_pis: TCurrencyField
+      FieldName = 'vl_pis'
+    end
+    object tMovEstSpedcst_cofins: TCurrencyField
+      FieldName = 'cst_cofins'
+    end
+    object tMovEstSpedvl_bc_cofins: TCurrencyField
+      FieldName = 'vl_bc_cofins'
+    end
+    object tMovEstSpedaliq_cofins_perc: TCurrencyField
+      FieldName = 'aliq_cofins_perc'
+    end
+    object tMovEstSpedquant_bc_cofins: TCurrencyField
+      FieldName = 'quant_bc_cofins'
+    end
+    object tMovEstSpedaliq_cofins: TCurrencyField
+      FieldName = 'aliq_cofins'
+    end
+    object tMovEstSpedvl_cofins: TCurrencyField
+      FieldName = 'vl_cofins'
+    end
+    object tMovEstSpedcod_cta: TStringField
+      FieldName = 'cod_cta'
     end
   end
 end

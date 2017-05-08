@@ -498,7 +498,7 @@ uses
   ncaFrmReativarNF, ncaFrmMigrarPremium, ncHttp, ncaFrmPanFor,
   ncaFrmListaFornecedores, ncaFrmSuporteDB, ncaFrmEstado, ncaFrmConfig_Pais,
   ncaFrmTaxPesq, uNexTransResourceStrings_PT, ncaFrmEmailUsuario, ncafbNFCupom,
-  ncaFrmTrial_Sombra;
+  ncaFrmTrial_Sombra, ncaGeraSped, ncaFrmConsultaPreco;
 
 {$R *.dfm}
 
@@ -1624,10 +1624,13 @@ end;
 
 procedure TFrmPri.cmDEVClick(Sender: TObject);
 begin
-  with TFrmTaxPesq.Create(nil) do begin
-    ShowModal;
-    Free;
-  end;
+  frmConsultaPreco := TfrmConsultaPreco.Create(application);
+  frmConsultaPreco.ShowModal;
+  frmConsultaPreco.Free;
+
+  {frmGeraSped := TfrmGeraSped.Create(application);
+  frmGeraSped.ShowModal;
+  frmGeraSped.Free;}
 end;
 
 procedure TFrmPri.cmDocMgrClick(Sender: TObject);
@@ -1753,6 +1756,12 @@ begin
   if SameText(slConfig.Values['ignoraf8'], 'S') and (Key=Key_F8) then begin
     DebugMsg(Self, 'FormKeyDown F8');
     ChamaSuporteRemoto;
+  end;
+
+  if (Key=Key_F10) then begin
+    frmConsultaPreco := TfrmConsultaPreco.Create(application);
+    frmConsultaPreco.ShowModal;
+    frmConsultaPreco.Free;
   end;
   
   if FM.FormAtivo<>nil then

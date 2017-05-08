@@ -1326,11 +1326,4 @@ begin
   if Tab.Active then
     Tab.Refresh;
 end;
-
 end.
-
-
-
-
-
-

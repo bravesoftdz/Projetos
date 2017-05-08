@@ -1578,6 +1578,17 @@ begin
   Result := FormatValor(valor,2);
 end;
 
+function acertaICMS_ST(s :string) :string;
+begin
+  if Length(s) = 1 then
+    result := '00'+s
+  else
+    if Length(s) = 2 then
+      result := '0'+s
+    else
+      result := s;
+end;
+
 begin
   vTotOutros := 0;
   vICMS := 0;
@@ -1812,52 +1823,9 @@ begin
       vTotImp := vTotImp + vImp;
       nfeDS.Campo('vTotTrib_M02').Value := FormatValor(vImp, 2);
 
-      if Self.Destacar_cred_icms then
-      begin
-        if tNFConfignfe_perc_cred_icms.Value<0.01 then
-          raise Exception.Create('É necessário configurar o percentual de aproveitamento de crédito de ICMS nas configurações da NF-e');
-        aCSOSN := tbrtrib_tipoCSOSN.Value-1;
-        nfeDS.Campo('CSOSN_N12a').Value   := IntToStr(aCSOSN);
+      nfeDS.Campo('orig_N11').Value     := slDF.Values['Orig'];
+      nfeDS.Campo('CSOSN_N12a').Value := '900';
 
-        aCredICMS := DuasCasas((tMovEstTotLiq.Value+aFreteItem) * (tNFConfignfe_perc_cred_icms.Value/100), 2);
-        aTCredICMS := aTCredICMS + aCredICMS;
-        nfeDS.Campo('pCredSN_N29').Value := FormatValor(tNFConfignfe_perc_cred_icms.Value, 4);
-
-        nfeDS.Campo('vCredICMSSN_N30').Value := FormatValor(aCredICMS, 2);
-      end else
-        aCSOSN := tbrtrib_tipoCSOSN.Value;
-
-      nfeDS.Campo('orig_N11').Value     := tBRTriborigem.AsString;
-
-      if tNFConfigCRT.Value=3 then
-        nfeDS.Campo('CST_N12').Value      := ZeroPad(tBRTribCST.AsString, 2)
-      else
-        nfeDS.Campo('CSOSN_N12a').Value   := IntToStr(aCSOSN);
-
-      if CFOPTemSt(tbrtrib_tipocfop.Value) and CSOSNTemSt(aCSOSN) then
-      begin
-        DebugMsg(Self, 'Adiciona Itens - TEM ST');
-        nfeDS.Campo('modBCST_N18').Value := tProdutomodST.AsString;
-
-        aBCSt := DuasCasas((tMovEstTotLiq.Value+aFreteItem) + ((tMovEstTotLiq.Value+aFreteItem) * (MVA/100)), 2);
-
-        if (tProdutomodST.Value=4) or ((aBCSt>Pauta) and tNFConfigUsarPautaMaiorMVA.Value)  then
-          nfeDS.Campo('pMVAST_N19').Value := FormatValor(MVA, 2)
-        else
-        begin
-          aBCSt := Pauta;
-          nfeDS.Campo('pMVAST_N19').Value := FormatValor(0, 2);
-        end;
-
-        TotBCSt := TotBCSt + aBCSt;
-        DebugMsg(Self, 'Adiciona Itens - Base ST - '+FloatParaStr(aBCSt));
-        nfeDS.Campo('vBCST_N21').Value := FormatValor(aBCSt, 2);
-        nfeDS.Campo('pICMSST_N22').Value := FormatValor(ICMSSt, 2);
-        aBCSt := DuasCasas((aBCSt * (ICMSSt/100)) - ((tMovEstTotLiq.Value+aFreteItem) * (tbrtribicms.Value/100)), 2);
-        TotSt := TotSt + aBCSt;
-        nfeDS.Campo('vICMSST_N23').Value := FormatValor(DuasCasas(aBCst, 2), 2);
-        nfeDS.Campo('UFST_N24').Value := tCliUF.Value;
-      end;
       tMovEst.Next;
 
       if tMovEst.Eof and (aFreteTotal>0) and (aFreteTotal<>tTranFrete.Value) then begin
