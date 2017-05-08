@@ -192,7 +192,6 @@ object FrmPesqCFOP: TFrmPesqCFOP
   end
   object Tab: TnxTable
     ActiveRuntime = True
-    ActiveDesigntime = True
     Database = Dados.db
     Timeout = 10000
     FilterOptions = [foCaseInsensitive]

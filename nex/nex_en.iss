@@ -10,7 +10,7 @@
 
 [Setup]
 AppName=Nex
-AppVerName=Nex C363
+AppVerName=Nex C364
 AppPublisherURL=http://www.nextar.com
 AppSupportURL=http://www.nextar.com
 AppUpdatesURL=http://www.nextar.com
